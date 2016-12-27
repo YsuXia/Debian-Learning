@@ -1,0 +1,109 @@
+digraph bluedroid{
+	node[shape=record];
+
+	subgraph cluster_struct_start_arg{
+		label="struct start_arg";
+		"struct start_arg"[label="{
+		|<thread>thread_t *thread
+		|semaphore_t *start_sem
+		|int error
+		}"];
+	}
+
+	node01[style=invisible];
+	node02[style=invisible];
+	"struct start_arg"->node01[arrowhead=none style=invisible];
+	"struct reactor_object_t"->node02[arrowhead=none style=invisible];
+	"struct epoll_event.data.ptr"->"struct reactor_object_t"[color=purple];
+
+	subgraph cluster_struct_reactor_object_t{
+		label="struct reactor_object_t";
+		"struct reactor_object_t"[label="{
+		|<fd>int fd
+		|<context>void *context
+		|<reactor>reactor_t *reactor
+		|pthread_mutex_t lock
+		|void (*read_ready)(void *context)
+		|void (*write_ready)(void *context)
+		}"];
+	}
+	"struct reactor_object_t":reactor->"struct thread_t":reactor[arrowhead=none color=blue];
+	"struct reactor_object_t":context->"struct thread_t":work_queue[arrowhead=none color=green];
+	"struct reactor_object_t":read_ready->"work_queue_read_cb"[arrowhead=none color=blue];
+	"struct reactor_object_t":fd->"struct reactor_t":epoll[arrowhead=none color=red label="N:将epoll的监听事件跟smphore的fd关联起来"]
+	"struct start_arg":thread->"struct thread_t"[color=blue];
+	subgraph cluster_struct_thread_t {
+		label="struct thread_t";
+		"struct thread_t"[label="{
+		bool is_joined
+		|pthread_t pthread;
+		|pid_t tid;
+		|char name[THREAD_NAME_MAX + 1] 
+		|<reactor>reactor_t *reactor
+		|<work_queue>fixed_queue_t *work_queue
+		}"];
+	}
+	node03[style=invisible];
+	node04[style=invisible];
+	"struct thread_t"->node03[arrowhead=none style=invisible];
+	"struct thread_t"->node04[arrowhead=none style=invisible];
+	"struct thread_t":reactor->"struct reactor_t"[color=red];
+	"struct thread_t":fixed_queue->"struct fixed_queue_t"[color=red];
+
+	subgraph cluster_struct_reactor_t{
+		label="struct reactor_t";
+		bgcolor=forestgreen;
+		"struct reactor_t"[label="{
+		 reactor_t在整个线程运行当中会不断监听epoll_fd
+		|<epoll>int epoll_fd;
+		|int event_fd;
+		|pthread_mutex_t list_lock
+		|<invalide>list_t *invalidation_list
+		|****reactor objects that have been unregistered***
+		|pthread_t run_thread
+		|bool is_running
+		|bool object_removed;
+		}"];
+	}
+	"struct reactor_t":invalide->"struct reactor_object_t"[color=red];
+
+	subgraph cluster_fixed_queue_t{
+		label="struct fixed_queue_t";
+		"struct fixed_queue_t"[label="{
+		|list_t *list;
+		|semaphore_t *enqueue_sem;
+		|<dequeue_sem>semaphore_t *dequeue_sem;
+		|pthread_mutex_t lock;
+		|size_t capacity;
+		|reactor_object_t *dequeue_object;
+		|fixed_queue_cb dequeue_ready;
+		|void *dequeue_context;
+		}"
+		];
+	}
+	"struct reactor_object_t":fd->"struct fixed_queue_t":dequeue_sem[label="sem.fd" arrowhead=none color=red];
+	subgraph cluster_struct_hash_map_t{
+		label="struct hash_map_t";
+		"struct hash_map_t"[label="{
+		|<bucket>hash_map_bucket_t *bucket;                                                        
+		|size_t num_bucket;                                                                
+		|size_t hash_size;                                                                 
+		|hash_index_fn hash_fn;                                                            
+		|key_free_fn key_fn;                                                               
+		|data_free_fn data_fn;                                                             
+		|const allocator_t *allocator;                                                     
+		|key_equality_fn keys_are_equal;
+		}"];
+	}
+
+	"struct hash_map_t":bucket->"struct hash_map_bucket_t"[color=red];
+
+	subgraph cluster_struct_hash_map_bucket_t{
+		label="struct hash_map_bucket_t";
+		"struct hash_map_bucket_t"[label="{
+			list_t *list
+		}"];
+	}
+
+	
+}
