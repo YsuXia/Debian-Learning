@@ -7783,8 +7783,7 @@
       <font color="#e10505">Generic PM</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475999888353" ID="ID_803433592" MODIFIED="1482767038397" TEXT="suspend&#x8fc7;&#x7a0b;">
 <node CREATED="1475999900201" ID="ID_1184571104" MODIFIED="1476064570971">
@@ -7850,8 +7849,7 @@
       kernel/power/process.c suspend&#36807;&#31243;&#24403;&#20013;&#23545;&#36827;&#31243;&#30340;&#22788;&#29702;&#36923;&#36753;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1476001101330" ID="ID_771430393" MODIFIED="1482853558982">
 <richcontent TYPE="NODE"><html>
@@ -7875,8 +7873,7 @@
       Interface&#30340;&#20195;&#30721;&#23454;&#29616;&#20110;&#8220;include/linux/pm.h&#8221;&#12289;&#8220;drivers/base/power/main.c&#8221;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1476064615323" ID="ID_1113783024" MODIFIED="1476255020225">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8128,8 +8125,7 @@
       arch/xxx/plat-xxx/xxx.c----&#24179;&#21488;&#30456;&#20851;&#30340;&#30005;&#28304;&#31649;&#29702;&#25805;&#20316;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8141,8 +8137,7 @@
   <body>
     <img src="lddpic/generic-pm-architecture.gif" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1482769214002" ID="ID_1092459693" MODIFIED="1482769236453">
@@ -8841,7 +8836,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1482665130776" POSITION="left">
+<node CREATED="1475917220585" ID="ID_1364440222" MODIFIED="1482889530338" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8853,14 +8848,14 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1482665126520">
+<node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1482889572997">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1.&#22320;&#22336;&#31354;&#38388;
+      <b>1.&#22320;&#22336;&#31354;&#38388;</b>
     </p>
     <p>
       cpu&#21644;pci&#35774;&#22791;&#38656;&#35201;&#35775;&#38382;&#22312;&#20182;&#20204;&#20043;&#38388;&#20849;&#20139;&#30340;&#20869;&#23384;&#31354;&#38388;&#65292;
@@ -8872,7 +8867,8 @@
       &#20856;&#22411;&#22320;&#65292;&#20849;&#20139;&#20869;&#23384;&#31354;&#38388;&#24403;&#20013;&#21253;&#25324;&#35774;&#22791;&#30340;&#29366;&#24577;&#21644;&#25511;&#21046;&#23492;&#23384;&#22120;&#12290;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1475917500080" ID="ID_1497565921" MODIFIED="1475917853969">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9341,7 +9337,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478661053173" FOLDED="true" ID="ID_1422883878" MODIFIED="1482300615895">
+<node CREATED="1478661053173" FOLDED="true" ID="ID_1422883878" MODIFIED="1482889539122">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9424,6 +9420,19 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1482889542718" ID="ID_758317088" MODIFIED="1482889563958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>6.PCI&#35774;&#22791;&#30005;&#28304;&#31649;&#29702;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1477027269282" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
