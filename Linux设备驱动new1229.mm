@@ -8848,7 +8848,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1482889572997">
+<node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1483013931643">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8867,8 +8867,7 @@
       &#20856;&#22411;&#22320;&#65292;&#20849;&#20139;&#20869;&#23384;&#31354;&#38388;&#24403;&#20013;&#21253;&#25324;&#35774;&#22791;&#30340;&#29366;&#24577;&#21644;&#25511;&#21046;&#23492;&#23384;&#22120;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1475917500080" ID="ID_1497565921" MODIFIED="1475917853969">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9029,7 +9028,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1476064923956" FOLDED="true" ID="ID_895397883" MODIFIED="1482300605759">
+<node CREATED="1476064923956" FOLDED="true" ID="ID_895397883" MODIFIED="1483013998715">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9165,7 +9164,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476077041382" FOLDED="true" ID="ID_1538495126" MODIFIED="1482300608199">
+<node CREATED="1476077041382" ID="ID_1538495126" MODIFIED="1483014008865">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9202,7 +9201,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1476078253343" FOLDED="true" ID="ID_1619791911" MODIFIED="1482300613727">
+<node CREATED="1476078253343" ID="ID_1619791911" MODIFIED="1483014043187">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9337,7 +9336,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478661053173" FOLDED="true" ID="ID_1422883878" MODIFIED="1482889539122">
+<node CREATED="1478661053173" ID="ID_1422883878" MODIFIED="1483014213211">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9420,6 +9419,22 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1483014305053" ID="ID_919029293" MODIFIED="1483017766706">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PCI&#25552;&#20379;&#20102;&#19977;&#31181;&#25968;&#25454;&#32467;&#26500;&#29992;&#26469;&#25551;&#36848;pci&#25511;&#21046;&#22120;&#65292;
+    </p>
+    <p>
+      pci&#35774;&#22791;&#21644;pci&#24635;&#32447;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1482889542718" ID="ID_758317088" MODIFIED="1482889563958">
 <richcontent TYPE="NODE"><html>
@@ -9431,8 +9446,7 @@
       <b>6.PCI&#35774;&#22791;&#30005;&#28304;&#31649;&#29702;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1477027269282" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
