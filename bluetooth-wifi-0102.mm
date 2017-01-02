@@ -1679,8 +1679,7 @@
       <font size="12px" color="rgb(102, 102, 102)" face="Times New Roman">&#37027;&#20123;&#19981;&#25903;&#25345;&#23186;&#20307;&#36335;&#30001;&#26694;&#26550;&#30340;&#23186;&#20307;&#25773;&#25918;&#22120;&#30828;&#20214;&#21046;&#36896;&#21830;&#21487;&#20197;&#20026;&#20182;&#20204;&#30340;&#30828;&#20214;&#21152;&#28155;&#25903;&#25345;&#21253;&#65292;&#36890;&#36807;&#23454;&#29616;MediaRouterProvider&#23545;&#35937;&#19988;&#20316;&#20026;&#19968;&#20010;&#24212;&#29992;&#31243;&#24207;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1436169816045" ID="ID_1622082883" MODIFIED="1436170368863">
 <richcontent TYPE="NODE"><html>
@@ -2441,8 +2440,7 @@
       &#35843;&#29992;&#20989;&#25968;uart_configure_port(drv, state, uport)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1482993532770" ID="ID_662851558" MODIFIED="1482993557639">
@@ -5507,9 +5505,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479894956954" FOLDED="true" ID="ID_706981663" MODIFIED="1482989831448" TEXT="wifi&#x603b;&#x4f53;&#x67b6;&#x6784;&#x56fe;">
+<node CREATED="1479894956954" ID="ID_706981663" MODIFIED="1483358712863" TEXT="wifi&#x603b;&#x4f53;&#x67b6;&#x6784;&#x56fe;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1479894972349" FOLDED="true" ID="ID_412357435" MODIFIED="1482989831398">
+<node CREATED="1479894972349" ID="ID_412357435" MODIFIED="1483358721718">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5518,7 +5516,7 @@
     <img src="bluetoothpic/wifi-architecture.png" />
   </body>
 </html></richcontent>
-<node CREATED="1479895492890" FOLDED="true" ID="ID_1227244016" MODIFIED="1482989831383" TEXT="wpa_supplicant&#x5206;&#x6790;">
+<node CREATED="1479895492890" ID="ID_1227244016" MODIFIED="1483358728791" TEXT="wpa_supplicant&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1479895510969" ID="ID_994502719" MODIFIED="1479895604777">
 <richcontent TYPE="NODE"><html>
@@ -5574,7 +5572,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1479896728138" FOLDED="true" ID="ID_1059100382" MODIFIED="1482911183257">
+<node CREATED="1479896728138" ID="ID_1059100382" MODIFIED="1483358734921">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5664,7 +5662,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1479900434466" FOLDED="true" ID="ID_966620068" MODIFIED="1482911183234" TEXT="wpa_supplicant&#x4ee3;&#x7801;&#x521d;&#x59cb;&#x5316;&#x6d41;&#x7a0b;">
+<node CREATED="1479900434466" FOLDED="true" ID="ID_966620068" MODIFIED="1483358740229" TEXT="wpa_supplicant&#x4ee3;&#x7801;&#x521d;&#x59cb;&#x5316;&#x6d41;&#x7a0b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1479900456138" ID="ID_513745837" MODIFIED="1479900497977">
 <richcontent TYPE="NODE"><html>
