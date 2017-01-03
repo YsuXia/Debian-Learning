@@ -2709,7 +2709,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1472435557506" FOLDED="true" ID="ID_1703123683" MODIFIED="1482989831447" TEXT="bluez&#x4f7f;&#x7528;">
+<node CREATED="1472435557506" ID="ID_1703123683" MODIFIED="1483408101211" TEXT="bluez&#x4f7f;&#x7528;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1472436386746" ID="ID_121546849" MODIFIED="1472436394401">
 <richcontent TYPE="NODE"><html>
@@ -3220,7 +3220,7 @@
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1472470369429" FOLDED="true" ID="ID_339489790" MODIFIED="1482989831447" TEXT="PulseAudio">
+<node CREATED="1472470369429" ID="ID_339489790" MODIFIED="1483408124085" TEXT="PulseAudio">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1472470405885" ID="ID_931852280" MODIFIED="1472471355366">
 <richcontent TYPE="NODE"><html>
@@ -3694,7 +3694,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1472541009890" FOLDED="true" ID="ID_597539249" MODIFIED="1482989831392" TEXT="DBUS">
+<node CREATED="1472541009890" ID="ID_597539249" MODIFIED="1483408125381" TEXT="DBUS">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1472541023274" ID="ID_1396525522" MODIFIED="1472541289742">
 <richcontent TYPE="NODE"><html>
@@ -3723,7 +3723,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1472541893315" FOLDED="true" ID="ID_781206102" MODIFIED="1482989831376" TEXT="2.DBUS&#x7684;&#x4e00;&#x4e9b;&#x91cd;&#x8981;&#x6982;&#x5ff5;">
+<node CREATED="1472541893315" ID="ID_781206102" MODIFIED="1483408135643" TEXT="2.DBUS&#x7684;&#x4e00;&#x4e9b;&#x91cd;&#x8981;&#x6982;&#x5ff5;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1472541990387" ID="ID_1938534148" MODIFIED="1472542298608">
 <richcontent TYPE="NODE"><html>
@@ -3910,9 +3910,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1472545299438" FOLDED="true" ID="ID_824907856" MODIFIED="1482989831377" TEXT="3.DBUS&#x7684;&#x8c03;&#x8bd5;&#x5de5;&#x5177;">
+<node CREATED="1472545299438" ID="ID_824907856" MODIFIED="1483408129859" TEXT="3.DBUS&#x7684;&#x8c03;&#x8bd5;&#x5de5;&#x5177;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1472545317477" FOLDED="true" ID="ID_472409899" MODIFIED="1482911183256">
+<node CREATED="1472545317477" ID="ID_472409899" MODIFIED="1483408132261">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3954,6 +3954,47 @@
       
     </p>
     signal sender=:1.1948 dest=(null destination) serial=1829990 path=/org/ayatana/menu/DA00003; interface=org.ayatana.dbusmenu; member=ItemPropertyUpdated int32 23 string &quot;enabled&quot; variant boolean true &#19978;&#38754;&#26159;&#19968;&#20010;&#20449;&#21495;&#30340;&#26684;&#24335;&#65292;&#20449;&#21495;&#30340;&#25509;&#21475;&#26159;org.ayatana.dbusmenu, &#20449;&#21495;&#30340;&#21517;&#31216;&#26159;ItemPropertyUpdated &#20449;&#21495;&#30340;&#20869;&#23481;&#26159; int 32 23&#160;&#160;&#160;item id&#21495; string &quot;enable&quot; &#23646;&#24615;&#30340;&#21517;&#31216; variant boolean true &#35774;&#32622;&#23646;&#24615;&#30340;&#20540;
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482915937632" ID="ID_274788392" MODIFIED="1482917387934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#ab0a0a">&#22914;&#20309;&#36890;&#36807;unique name&#24471;&#21040;&#23545;&#24212;&#30340;&#36827;&#31243;&#30340;&#21517;&#31216;&#21602;? </font></i>
+    </p>
+    <p>
+      <i><font color="#ab0a0a">&#35831;&#20351;&#29992;&#22914;&#19979;&#30340;&#33050;&#26412;</font></i>
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1482917340472" ID="ID_1826049033" LINK="../Debian-Learning/utilscript/dbus-unique-name-translate.sh" MODIFIED="1482917350194" TEXT=""/>
+</node>
+<node CREATED="1482920465472" ID="ID_1710658207" MODIFIED="1482923715752">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      udev log&#32423;&#21035;&#30340;&#35774;&#32622;
+    </p>
+    <p>
+      <b>udevadm control --log-priority=info</b>
+    </p>
+    <p>
+      &#35843;&#35797;&#23436;&#25104;&#20043;&#21518;&#38656;&#35201;&#23558;log-priority&#37325;&#26032;&#35774;&#32622;&#25104;err
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>udevadm monitor</b>&#21487;&#20197;&#23454;&#26102;&#25171;&#21360;uevent&#20107;&#20214;
+    </p>
   </body>
 </html></richcontent>
 </node>
@@ -5466,7 +5507,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478597840581" FOLDED="true" ID="ID_1200259656" MODIFIED="1482989831448">
+<node CREATED="1478597840581" ID="ID_1200259656" MODIFIED="1483408054940">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5501,6 +5542,16 @@
     <p>
       radio&#30340;&#20010;&#25968;&#65292;&#40664;&#35748;&#30340;&#20010;&#25968;&#26159;2&#20010;&#12290;
     </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481278387001" ID="ID_1157547020" MODIFIED="1481289217037">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    1. wpa_cli &#24037;&#20855;&#21487;&#20197;&#26174;&#31034;&#24403;&#21069;wifi&#30340;&#27169;&#24335;&#29366;&#24577; 2. hostapd /data/misc/wifi/hostapd.conf&#160; &#21551;&#21160;hostap&#21518;&#21488;
   </body>
 </html></richcontent>
 </node>
@@ -5681,6 +5732,629 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1482371488506" ID="ID_1964400840" MODIFIED="1483407972813" TEXT="wpa_supplicant&#x4e0e;&#x5185;&#x6838;&#x7684;&#x901a;&#x4fe1;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1482371605033" ID="ID_791863035" MODIFIED="1482372113883">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20869;&#26680;&#24403;&#20013;&#30340;nl80211&#27169;&#22359;&#20351;&#29992;&#30340;&#26159;generic netlink&#25509;&#21475;
+    </p>
+    <p>
+      &#20195;&#30721;&#20301;&#32622;net/wireless/nl80211.c
+    </p>
+    <p>
+      nl80211&#28155;&#21152;&#21040;generic netlink&#24403;&#20013;&#30340;family&#22914;&#19979;
+    </p>
+    <p>
+      static struct genl_family nl80211_fam = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.id = GENL_ID_GENERATE,&#160;&#160;&#160;&#160;&#160;/* don't bother with a hardcoded ID */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.name = NL80211_GENL_NAME,&#160;&#160;/* have users key off the name instead */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.hdrsize = 0,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* no private header */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.version = 1,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* no particular meaning now */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.maxattr = NL80211_ATTR_MAX,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.netnsok = true,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.pre_doit = nl80211_pre_doit,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.post_doit = nl80211_post_doit,
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct genl_ops nl80211_ops&#26159;nl80211&#23545;&#24212;&#30340;ops,&#27599;&#31181;wifi&#30340;&#21629;&#20196;&#37117;&#20250;&#23545;&#24212;
+    </p>
+    <p>
+      &#19968;&#20010;&#22788;&#29702;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482372149821" ID="ID_675689822" MODIFIED="1482372245086">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wpa_supplicant&#20250;&#21019;&#24314;&#20004;&#20010;socket,
+    </p>
+    <p>
+      &#19968;&#20010;&#29992;&#20110;&#21457;&#36865;&#28040;&#24687;&#21040;&#20869;&#26680;&#65292;&#21478;&#19968;&#20010;&#29992;&#20110;&#20174;&#20869;&#26680;&#24403;&#20013;&#25509;&#25910;
+    </p>
+    <p>
+      &#22810;&#25773;&#28040;&#24687;&#12290;
+    </p>
+    <p>
+      &#21487;&#20197;&#21442;&#32771;&#20989;&#25968;wpa_driver_nl80211_init_nl_global
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482385494062" ID="ID_783307510" MODIFIED="1482385548420">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>&#23545;&#20110;&#20869;&#26680;wifi&#21327;&#35758;&#26632;&#30340;&#26356;&#39640;&#23618;&#27425;&#30340;&#25551;&#36848;</i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482385553686" ID="ID_1458266847" MODIFIED="1482385741557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#25968;&#25454;&#36335;&#24452;&#21644;&#25511;&#21046;&#36335;&#24452;
+    </p>
+    <p>
+      Data path:
+    </p>
+    <p>
+      the data being received is passed from the wireless driver
+    </p>
+    <p>
+      to the netdev core (usually using netif_rx()). From there the net core
+    </p>
+    <p>
+      will pass it through the TCP/IP stack code and will queue it on the relevant
+    </p>
+    <p>
+      sockets from which the userspace process will read it. On the Tx path packets
+    </p>
+    <p>
+      will be sent from the netdev core to the wireless driver using the
+    </p>
+    <p>
+      ndo_start_xmit() callback. The driver registers
+    </p>
+    <p>
+      (like other netdevices such as an ethernet driver) a set of operations
+    </p>
+    <p>
+      callbacks by using the struct net_device_ops.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Control path:
+    </p>
+    <p>
+      This path is how userspace controls the WiFi interface/device
+    </p>
+    <p>
+      and performs operations like scan / authentication / association.
+    </p>
+    <p>
+      The userspace interface is based on netlink and called nl80211
+    </p>
+    <p>
+      (see include/uapi/linux/nl80211.h). You can send commands and get events in response.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482385791252" ID="ID_772346064" MODIFIED="1482389590598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2.nl80211&#25511;&#21046;&#21629;&#20196;&#30340;&#19979;&#21457;&#36335;&#24452;
+    </p>
+    <p>
+      nl80211&#22312;&#21021;&#22987;&#29366;&#24577;&#19979;&#20250;&#34987;&#20869;&#26680;&#30340;cfg80211&#27169;&#22359;&#20351;&#29992;&#21040;&#65292;&#35813;&#27169;&#22359;&#20250;&#35843;&#29992;
+    </p>
+    <p>
+      &#20869;&#26680;&#24403;&#20013;&#30340;nl80211&#24403;&#20013;&#30340;&#22788;&#29702;&#20989;&#25968;&#26469;&#22788;&#29702;&#20855;&#20307;&#30340;&#21629;&#20196;&#12290;cfg80211&#20250;&#35843;&#29992;
+    </p>
+    <p>
+      &#30828;&#20214;&#30456;&#20851;&#30340;&#20989;&#25968;&#26469;&#22788;&#29702;&#36825;&#20123;&#21629;&#20196;&#65292;&#23545;&#20110;Full Mac&#31867;&#22411;&#30340;&#35774;&#22791;&#65292;cfg80211&#30452;&#25509;
+    </p>
+    <p>
+      &#35843;&#29992;&#35813;&#35774;&#22791;&#27880;&#20876;&#30340;&#24213;&#23618;&#20989;&#25968;&#65292;&#35774;&#22791;&#36890;&#36807;cfg80211_ops&#27880;&#20876;&#19968;&#31995;&#21015;&#30340;&#22788;&#29702;&#20989;&#25968;&#12290;
+    </p>
+    <p>
+      &#27604;&#22914;drivers/net/wireless/brcm80211/brcmfmac/wl_cfg80211.c&#23601;&#26159;full mac&#30340;&#26550;&#26500;
+    </p>
+    <p>
+      Soft Mac&#31867;&#22411;&#30340;&#32593;&#21345;&#35774;&#22791;&#65292;&#39318;&#20808;&#20250;&#21033;&#29992;mac80211&#27169;&#22359;&#23454;&#29616;mac&#23618;&#65292;&#22312;&#36825;&#31181;
+    </p>
+    <p>
+      &#24773;&#20917;&#19979;cfg80211&#20250;&#30452;&#25509;&#36319;mac80211&#23618;&#23545;&#35805;&#65292;mac80211&#23618;&#20250;&#36319;&#24213;&#23618;&#30340;&#30828;&#20214;
+    </p>
+    <p>
+      &#36827;&#34892;&#36890;&#20449;&#30340;&#24037;&#20316;&#65292;iwlwifi&#23601;&#26159;&#36825;&#31181;&#26550;&#26500;&#30340;&#12290;
+    </p>
+    <p>
+      mac80211&#36890;&#36807;&#32467;&#26500;&#20307;cfg80211_ops&#21521;cfg80211&#27880;&#20876;(&#20195;&#30721;&#20301;&#20110;net/mac80211/cfg.c)
+    </p>
+    <p>
+      &#30828;&#20214;&#36890;&#36807;&#32467;&#26500;&#20307;ieee80211_ops&#21521;mac80211&#27880;&#20876;(&#20195;&#30721;&#20301;&#20110;drivers/net/wireless/iwlwifi/mvm/mac80211.c)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hw probe---&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482399368348" ID="ID_767187212" MODIFIED="1482399527085">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The op_mode (which stands
+    </p>
+    <p>
+      for operation mode) is the part that handles fw API on one hand, and
+    </p>
+    <p>
+      mac80211 API on the other hand.
+    </p>
+    iwl-trans.h and <b>iwl-op-mode.h</b>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1482390286727" ID="ID_1625119962" MODIFIED="1482390299810" TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;&#x63cf;&#x8ff0;">
+<node CREATED="1482390305471" ID="ID_1149285260" MODIFIED="1482390854691">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>MSDU</b>: mac service data unit
+    </p>
+    <p>
+      &#22312;mac&#23618;&#30340;&#20256;&#36755;&#21333;&#20803;
+    </p>
+    <p>
+      <b>MPDU</b>: mac protocol data unit
+    </p>
+    <p>
+      &#20174;mac&#23618;&#20256;&#36755;&#21040;phy&#23618;&#30340;&#20256;&#36755;&#21333;&#20803;
+    </p>
+    <p>
+      <b>AMSDU</b>: &#24847;&#24605;&#26159;&#34701;&#21512;&#30340;MSDU,&#35813;&#25968;&#25454;&#21333;&#20803;&#26159;&#29992;&#20110;&#20174;mac&#23618;&#20256;&#36755;&#21040;
+    </p>
+    <p>
+      phy&#30340;&#65292;&#20182;&#20204;&#30340;&#29305;&#28857;&#26159;&#20855;&#26377;&#19968;&#20010;&#22836;&#22810;&#20010;&#24103;&#65292;&#20182;&#20204;&#26159;&#21457;&#36865;&#21040;&#21516;&#19968;&#20010;&#23458;&#25143;&#31471;&#30340;
+    </p>
+    <p>
+      &#30456;&#21516;&#30340;class&#24403;&#20013;&#30340;&#65292;AMSDU&#20250;&#22312;mac&#23618;&#32452;&#35013;&#28982;&#21518;&#25512;&#36865;&#21040;MPDU&#24403;&#20013;
+    </p>
+    <p>
+      <b>AMPDU</b>&#65306;&#24847;&#24605;&#26159;&#34701;&#21512;&#36807;&#30340;MPDU&#65292;&#20182;&#20204;&#20250;&#34987;&#25512;&#36865;&#21040;&#19968;&#20010;<b>PPDU</b>(physical protol data unit)
+    </p>
+    <p>
+      &#24403;&#20013;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      AMPDU&#27604;AMSDU&#30340;&#21487;&#38752;&#24615;&#35201;&#24378;&#24456;&#22810;&#65292;&#32780;&#19988;AMPDU&#26368;&#22823;&#25903;&#25345;64K&#30340;&#25968;&#25454;&#21253;&#65292;
+    </p>
+    <p>
+      &#22823;&#22810;&#25968;&#31995;&#32479;&#20542;&#21521;&#20110;&#20351;&#29992;AMPDU
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1483407982153">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#f51212">&#36719;&#20214;&#26550;&#26500;</font>
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1481620060469" ID="ID_365427708" MODIFIED="1481620232641">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wpa_supplicant core functionality
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1481620368964" ID="ID_651044405" MODIFIED="1481620753853">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wpa_supplicant.c &#31243;&#24207;&#21021;&#22987;&#21270;&#65292;&#20027;&#25511;&#21046;&#24490;&#29615;
+    </p>
+    <p>
+      events.c &#39537;&#21160;&#20107;&#20214;&#22788;&#29702;
+    </p>
+    <p>
+      wpa_supplicant_i.h wpa&#26680;&#24515;&#23618;&#30340;&#20869;&#37096;&#23450;&#20041;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481620087677" ID="ID_999795253" MODIFIED="1481620235584" TEXT="Generic helper functions">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1481620758683" ID="ID_250802346" MODIFIED="1481620770020">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      eloop.c and eloop.h
+    </p>
+    <p>
+      common.c and common.h
+    </p>
+    <p>
+      defs.h
+    </p>
+    <p>
+      l2_packet.h, l2_packet_linux.c, and l2_packet_pcap.c
+    </p>
+    <p>
+      pcsc_funcs.c and pcsc_funcs.h
+    </p>
+    <p>
+      priv_netlink.h
+    </p>
+    <p>
+      version.h
+    </p>
+    <p>
+      wireless_copy.h
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481620103733" ID="ID_469186570" MODIFIED="1481620237912" TEXT="Control interface ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1481620816417" ID="ID_1217174049" MODIFIED="1481621041732">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25511;&#21046;&#25509;&#21475;&#21487;&#20197;&#34987;&#29992;&#26469;&#33719;&#21462;&#24403;&#21069;&#30340;&#29366;&#24577;&#20449;&#24687;&#21644;&#26469;&#33258;&#22806;&#37096;&#31243;&#24207;&#30340;&#31649;&#29702;&#25805;&#20316;
+    </p>
+    <p>
+      &#30446;&#21069;&#26377;&#19968;&#20010;&#22522;&#20110;&#21629;&#20196;&#34892;&#30340;&#25509;&#21475;&#31034;&#20363; wpa_cli
+    </p>
+    <p>
+      ctrl_iface.c and ctrl_iface.h
+    </p>
+    <p>
+      ctrl_iface_unix.c
+    </p>
+    <p>
+      ctrl_iface_udp.c
+    </p>
+    <p>
+      ctrl_iface_named_pipe.c
+    </p>
+    <p>
+      wpa_ctrl.c and wpa_ctrl.h
+    </p>
+    <p>
+      wpa_cli.c
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1481621746343" ID="ID_1964874779" MODIFIED="1481621758731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wpa_cli -iwlan0 #&#35813;&#21629;&#20196;&#25191;&#34892;&#21518;&#65292;&#23558;&#36827;&#20837;wpa_cli&#36827;&#31243;
+    </p>
+    <p>
+      ADD_NETWORK #&#20551;&#35774;wpa_supplicant&#36820;&#22238;&#30340;&#26032;&#32593;&#32476;&#37197;&#32622;&#39033;&#32534;&#21495;&#20026;0
+    </p>
+    <p>
+      SET_NETWORK 0 ssid &quot;Android&quot; #&#35774;&#32622;0&#21495;&#32593;&#32476;&#30340;ssid&#20026;&quot;Test&quot;
+    </p>
+    <p>
+      SET_NETWORK 0 key_mgmt WPA-PSK #&#35774;&#32622;0&#21495;&#32593;&#32476;&#30340;key_mgmt&#20026;&quot;WPA-PSK&quot;
+    </p>
+    <p>
+      SET_NETWORK 0 psk &quot;12345678&quot; #&#35774;&#32622;0&#21495;&#32593;&#32476;&#30340;psk&#20026;&quot;12345678&quot;
+    </p>
+    <p>
+      ENABLE_NETWORK 0 #&#20351;&#33021;0&#21495;&#32593;&#32476;&#65292;&#23427;&#23558;&#35302;&#21457;wpa_supplicant&#25195;&#25551;&#12289;&#20851;&#32852;&#31561;&#19968;&#31995;&#21015;&#25805;&#20316;&#30452;&#21040;&#21152;&#20837;&#26080;&#32447;&#32593;&#32476;&quot;Android&quot;
+    </p>
+    <p>
+      SELECT_NETWORK network_id #&#22914;&#26524;&#32593;&#32476;&#32534;&#21495;&#19981;&#20026;0&#65292;&#38656;&#35201;&#25191;&#34892;select&#65292;&#25165;&#20250;&#35302;&#21457;&#25195;&#25551;&#20851;&#32852;
+    </p>
+    <p>
+      CTRL+C #&#36864;&#20986;wpa_cli
+    </p>
+    <p>
+      dhcpcd wlan0 #&#21551;&#21160;dhcpd&#65292;wlan0&#20026;&#26080;&#32447;&#25509;&#21475;&#35774;&#22791;&#21517;&#12290;dhcpcd&#21487;&#20026;&#25163;&#26426;&#20174;AP&#37027;&#33719;&#21462;&#19968;&#20010;IP&#22320;&#22336;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1481622169152" ID="ID_612479407" MODIFIED="1481622295212">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19978;&#34892;&#25509;&#21475;&#23454;&#29616;&#20102;unix domain socket&#25509;&#21475;
+    </p>
+    <p>
+      client&#31471;&#20027;&#35201;&#21151;&#33021;&#20989;&#25968;&#65306;
+    </p>
+    <p>
+      int wpa_ctrl_request();&#160;//&#29992;&#25143;&#27169;&#22359;&#30452;&#25509;&#35843;&#29992;&#35813;&#20989;&#25968;&#23545;wpa_supplicant&#21457;&#36865;&#21629;&#20196;&#24182;&#33719;&#21462;&#25152;&#38656;&#20449;&#24687;
+    </p>
+    <p>
+      int wpa_ctrl_recv(); //&#33719;&#21462;&#25346;&#36215;&#30340;event &#20107;&#20214;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      server&#31471;&#26368;&#20027;&#35201;&#30340;&#20004;&#20010;&#20989;&#25968;&#20026;&#65306;
+    </p>
+    <p>
+      static void wpa_supplicant_ctrl_iface_receive()&#65307;
+    </p>
+    <p>
+      /* &#25509;&#25910;&#24182;&#35299;&#26512;client&#21457;&#36865;request&#21629;&#20196;&#65292;&#28982;&#21518;&#26681;&#25454;&#19981;&#21516;&#30340;&#21629;&#20196;&#35843;&#29992;&#24213;&#23618;&#19981;&#21516;&#30340;&#22788;&#29702;&#20989;&#25968;&#65307;
+    </p>
+    <p>
+      &#160;* &#28982;&#21518;&#23558;&#33719;&#24471;response&#32467;&#26524;&#22238;&#39304;&#21040; client &#32467;&#28857;&#12290;
+    </p>
+    <p>
+      &#160;*/&#160;
+    </p>
+    <p>
+      static void wpa_supplicant_ctrl_iface_send()
+    </p>
+    <p>
+      /* &#21521;&#27880;&#20876;&#30340;monitor interfaces &#20027;&#21160;&#21457;&#36865;event&#20107;&#20214; */
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1481620116539" ID="ID_1812084938" MODIFIED="1481620240480" TEXT="WPA supplicant">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1481620131738" ID="ID_1279532846" MODIFIED="1481620243112" TEXT="Configuration">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1481621123858" ID="ID_821761522" MODIFIED="1481621134592">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      config_ssid.h #Definition of per network configuration items
+    </p>
+    <p>
+      config.h #Definition of the wpa_supplicant configuration
+    </p>
+    <p>
+      config.c #Configuration parser and common functions
+    </p>
+    <p>
+      config_file.c #Configuration backend for text files (e.g., wpa_supplicant.conf)
+    </p>
+    <p>
+      config_winreg.c
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1481620144538" ID="ID_313810530" MODIFIED="1481620245627" TEXT="TLS library">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1481620157674" ID="ID_450550825" MODIFIED="1481620248032" TEXT="Cryptographic functions">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1481620171921" ID="ID_920149477" MODIFIED="1481620250448" TEXT="EAP peer ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1481620186546" ID="ID_724582309" MODIFIED="1481620252744" TEXT="EAPOL supplicant">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1482222777984" ID="ID_1585324012" MODIFIED="1483408030076" TEXT="libnl&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1482222792944" ID="ID_1874482442" MODIFIED="1482223295179">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>libnl&#20998;&#25104;&#35768;&#22810;&#30340;&#23376;&#24211;:</b>
+    </p>
+    libnl &#23545;&#20110;socket&#30340;&#26368;&#24213;&#23618;&#30340;&#22788;&#29702;\n libnl-route Adresses, links, neighbours, routing, traffic control, neighbour tables, &#8230; libnl-nf connection tracking, logging, queue libnl-genl &#25511;&#21046;API, family and command&#27880;&#20876;
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1482223314579" ID="ID_451059191" MODIFIED="1482223534546">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>NetLink Protol Fundamental</b>
+    </p>
+    <p>
+      netlink&#21327;&#35758;&#26159;&#22522;&#20110;BSD sockets&#30340;&#65292;&#24182;&#19988;&#20351;&#29992;&#30340;&#26159;AF_NETLINK
+    </p>
+    <p>
+      &#21327;&#35758;&#31751;&#65292;netlink&#19979;&#38754;&#30340;&#27599;&#20010;&#21327;&#35758;&#37117;&#23545;&#24212;&#30528;&#19968;&#20010;&#21327;&#35758;&#21495;(NETLINK_ROUTE, NETLINK_FILTER)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482223542223" ID="ID_1114715578" MODIFIED="1482224199094">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23547;&#22336;
+    </p>
+    <p>
+      netlink&#22320;&#22336;(port)&#30001;&#19968;&#20010;32bit&#30340;&#22320;&#22336;&#32452;&#25104;&#65292;port 0&#36890;&#24120;&#20195;&#34920;&#20869;&#26680;&#20391;&#23545;&#24212;&#30340;
+    </p>
+    <p>
+      socket, &#20854;&#23427;&#30340;port number&#36890;&#24120;&#26159;&#20195;&#34920;&#29992;&#25143;&#31354;&#38388;&#30340;socket.
+    </p>
+    <p>
+      port number&#26159;&#22522;&#20110;&#36827;&#31243;&#26631;&#35782;&#21495;&#20877;&#21152;&#19978;&#19968;&#20010;&#20559;&#31227;&#37327;&#32780;&#20135;&#29983;&#30340;&#65292;&#36825;&#26679;&#20351;&#24471;&#19968;&#20010;&#36827;&#31243;
+    </p>
+    <p>
+      &#20351;&#29992;&#22810;&#20010;socket&#25104;&#20026;&#21487;&#33021;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482224204348" ID="ID_724949772" MODIFIED="1482224214987">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bluetoothpic/netlink-addressing.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1482224389739" ID="ID_1665439959" MODIFIED="1482225137550">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28040;&#24687;&#30340;&#26684;&#24335;
+    </p>
+    <p>
+      netlink&#21327;&#35758;&#26159;&#22522;&#20110;&#28040;&#24687;&#26426;&#21046;&#30340;&#65292;&#23427;&#30001;&#19968;&#20010;&#28040;&#24687;&#22836;&#21644;&#19968;&#20010;&#28040;&#24687;&#30340;&#36127;&#36733;&#25152;&#32452;&#25104;&#65292;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1482225149045" ID="ID_616185691" MODIFIED="1482225155842">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bluetoothpic/nlmsghdr.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1482225313373" ID="ID_1735660286" MODIFIED="1482229195446">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      netlink socket
+    </p>
+    <p>
+      &#20026;&#20102;&#20351;&#29992;netlink&#21327;&#35758;&#65292;netlink socket&#26159;&#24517;&#39035;&#30340;&#65292;&#24212;&#29992;&#31243;&#24207;&#21487;&#33021;&#20250;&#20351;&#29992;&#21040;
+    </p>
+    <p>
+      &#22810;&#20010;netlink socket, &#27604;&#22914;&#19968;&#20010;&#29992;&#26469;&#21457;&#36865;&#21644;&#25509;&#25910;&#28040;&#24687;&#65292;&#21478;&#19968;&#20010;&#29992;&#26469;&#35746;&#38405;&#19968;&#20010;
+    </p>
+    <p>
+      &#22810;&#25773;&#32452;&#29992;&#20110;&#25509;&#25910;&#36890;&#30693;&#12290;
+    </p>
+    <p>
+      netlink socket&#21450;&#20854;&#30456;&#20851;&#30340;&#23646;&#24615;&#21253;&#25324;&#25991;&#20214;&#25551;&#36848;&#31526;&#26159;&#20351;&#29992;&#32467;&#26500;&#20307;
+    </p>
+    <p>
+      struct nl_sock&#26469;&#34920;&#31034;&#30340;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
