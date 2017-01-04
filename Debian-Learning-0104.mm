@@ -4,7 +4,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1482565589376" ID="ID_658520177" MODIFIED="1482565602912" POSITION="right" TEXT="ubuntu&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1482565622415" ID="ID_920691875" MODIFIED="1482739728537">
+<node CREATED="1482565622415" FOLDED="true" ID="ID_920691875" MODIFIED="1483520188085">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -320,15 +320,14 @@
       &#21313;&#36827;&#21046;&#30340;&#25968;&#23383;&#65292;&#29992;&#26469;&#20915;&#23450;Init&#36816;&#34892;&#30340;&#39034;&#24207;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1482567577411" ID="ID_895299839" MODIFIED="1482567590819" TEXT="2.&#x8f6f;&#x4ef6;&#x5f00;&#x53d1;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1482567595627" ID="ID_1443133671" MODIFIED="1482571134451">
+<node CREATED="1482567595627" FOLDED="true" ID="ID_1443133671" MODIFIED="1483520189935">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -721,6 +720,59 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1483520199369" ID="ID_1463596480" MODIFIED="1483522773870" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>Debian handbook&#23398;&#20064;</i></b>
+    </p>
+    <p>
+      &#32593;&#22336;&#65306;https://debian-handbook.info/browse/stable/sect.kernel-installation.html
+    </p>
+    <p>
+      https://www.debian.org/doc/manuals/maint-guide/index.zh-cn.html
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1483520251720" ID="ID_331274895" MODIFIED="1483522761872">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#23433;&#35013;&#20869;&#26680;
+    </p>
+    <p>
+      &#19968;&#20010;debian&#21253;&#23433;&#35013;&#20869;&#26680;&#38236;&#20687;&#65292; &#37197;&#32622;&#25991;&#20214;&#21644;&#31526;&#21495;&#34920;&#65292;
+    </p>
+    <p>
+      &#31526;&#21495;&#34920;&#21487;&#20197;&#24110;&#21161;&#25105;&#20204;&#22312;&#20986;&#29616;oops&#30340;&#26102;&#20505;&#21487;&#20197;&#30475;&#21040;&#21487;&#35835;&#30340;&#20449;&#24687;&#65292;&#32780;&#19981;&#26159;
+    </p>
+    <p>
+      &#19968;&#22534;&#20108;&#36827;&#21046;&#22320;&#22336;
+    </p>
+    <p>
+      &#23545;&#24212;&#30340;&#25991;&#20214;&#20301;&#20110;/boot&#30446;&#24405;&#19979;&#38754;
+    </p>
+    <p>
+      vmlinuz-version
+    </p>
+    <p>
+      System.map-version
+    </p>
+    <p>
+      config-version
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

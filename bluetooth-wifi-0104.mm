@@ -5282,9 +5282,23 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1476337737584" FOLDED="true" ID="ID_1437865057" MODIFIED="1482989831448" TEXT="&#x9a71;&#x52a8;&#x5c42;">
+<node CREATED="1476337737584" ID="ID_1437865057" MODIFIED="1483535513829">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39537;&#21160;&#23618;
+    </p>
+    <p>
+      https://wiki.archlinux.org/index.php/broadcom_wireless
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1476337747472" FOLDED="true" ID="ID_853430536" MODIFIED="1482989831397">
+<node CREATED="1476337747472" ID="ID_853430536" MODIFIED="1483535485867">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5998,7 +6012,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1483407982153">
+<node CREATED="1481620046145" ID="ID_441546622" MODIFIED="1483535362551">
 <richcontent TYPE="NODE"><html>
   <head>
     
