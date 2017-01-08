@@ -1,0 +1,59 @@
+digraph wifi{
+	node[shape=record];
+
+	subgraph cluster_struct_ieee80211_local{
+		label="struct ieee80211_local";
+		"struct ieee80211_local"[label="{
+			struct ieee80211_hw hw ***暴露给底层****
+			|const struct ieee80211_ops *ops
+			|struct workqueue_struct *workqueue
+			|unsigned long queue_stop_reasons[IEEE80211_MAX_QUEUES]
+			|int q_stop_reasons[IEEE80211_MAX_QUEUES][IEEE80211_QUEUE_STOP_REASONS]
+			|spinlock_t queue_stop_reason_lock
+			|int open_count
+			|int monitors | int cooked_mntrs
+			|int fif_fcsfail|int fif_plcpfail|int  fif_control
+			|int fif_other_bss|int fif_pspoll
+			|int fif_probe_req|unsigned int filter_flags
+			|int probe_req_reg
+			|bool wiphy_ciphers_allocated
+			|bool use_chanctx
+			|spinlock_t filter_lock
+			|struct work_struct reconfig_filter
+			|struct netdev_hw_addr_list mc_list
+			|bool tim_in_locked_section
+			|bool suspended
+			|bool resuming **在suspend期间是置成true的****
+			|bool quiescing
+			|bool started
+			|bool in_reconfig
+			|bool wowlan
+			|struct work_struct radar_detected_work
+			|u8 rx_chains
+			|int tx_headroom
+			|#define IEEE80211_IRQSAFE_QUEUE_LIMIT 128
+			|struct tasklet_struct tasklet
+			|struct sk_buff_head skb_queue
+			|struct sk_buff_head skb_queue_unreliable
+			|spinlock_t rx_path_lock
+			|struct mutex sta_mtx
+			|spinlock_t tim_lock
+			|unsigned long num_sta
+			|.........
+			|struct list_head interfaces
+			|.........
+			|unsigned long scanning
+			|struct cfg80211_ssid scan_ssid
+			|struct cfg80211_scan_request *int_scan_req
+			|struct cfg80211_scan_request __rcu *scan_req
+			|struct ieee80211_scan_request *hw_scan_req
+			|struct cfg80211_chan_def scan_chandef
+			|enum ieee80211_band hw_scan_band
+			|......
+			|struct work_struct sched_scan_stopped_work
+			|......
+			|struct work_struct tdls_chsw_work
+			|struct sk_buff_head skb_queue_tdls_chsw
+		}"];
+	}
+}
