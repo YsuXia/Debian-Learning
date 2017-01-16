@@ -1929,7 +1929,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484377644917" ID="ID_1430971308" MODIFIED="1484377658281" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
+<node CREATED="1484377644917" ID="ID_1430971308" MODIFIED="1484551674331" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1484377660789" ID="ID_1943217630" MODIFIED="1484378342659">
 <richcontent TYPE="NODE"><html>
@@ -1968,8 +1968,7 @@
       c.&#25171;&#24320;android studio&#23548;&#20837;&#24037;&#31243;&#25991;&#20214;android.ipr
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
