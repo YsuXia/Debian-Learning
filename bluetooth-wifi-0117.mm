@@ -312,7 +312,7 @@
 <node CREATED="1435571061623" ID="ID_550932491" MODIFIED="1435571082258" TEXT="&#x5de5;&#x5177;&#x96c6;"/>
 </node>
 <node CREATED="1435570931609" ID="ID_1244165983" MODIFIED="1484548753195" TEXT="&#x5185;&#x6838;&#x7a7a;&#x95f4;">
-<node CREATED="1435571545952" FOLDED="true" ID="ID_358523185" MODIFIED="1484548753959" TEXT="&#x6838;&#x5fc3;&#x534f;&#x8bae;kernel/net/bluetooth">
+<node CREATED="1435571545952" FOLDED="true" ID="ID_358523185" MODIFIED="1484631333245" TEXT="&#x6838;&#x5fc3;&#x534f;&#x8bae;kernel/net/bluetooth">
 <node CREATED="1435572175496" ID="ID_1033449236" MODIFIED="1435572756052">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -366,7 +366,7 @@
 <node CREATED="1435576243979" ID="ID_1620278316" MODIFIED="1435576251696" TEXT="SDP&#x670d;&#x52a1;&#x53d1;&#x73b0;&#x534f;&#x8bae;"/>
 <node CREATED="1435576398402" ID="ID_1931389820" MODIFIED="1435576424635" TEXT="BNEP&#x84dd;&#x7259;&#x7f51;&#x7edc;&#x5c01;&#x88c5;&#x534f;&#x8bae;&#xff0c;&#x53ef;&#x4ee5;&#x5728;&#x5176;&#x4e0a;&#x8fd0;&#x884c;&#x5176;&#x4ed6;&#x7684;&#x5982;tcp,ip&#x534f;&#x8bae;"/>
 </node>
-<node CREATED="1435571554933" FOLDED="true" ID="ID_946856986" MODIFIED="1484548753959" TEXT="&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;kernel/driver/bluetooth">
+<node CREATED="1435571554933" FOLDED="true" ID="ID_946856986" MODIFIED="1484631305821" TEXT="&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;kernel/driver/bluetooth">
 <node CREATED="1435578536546" ID="ID_547135958" MODIFIED="1435578538398" TEXT="&#x5305;&#x542b;Linuxkernel&#x5bf9;&#x5404;&#x79cd;&#x63a5;&#x53e3;&#x7684; &#x9;Bluetooth device&#x7684;&#x9a71;&#x52a8;,&#x5982;&#xff1a;USB&#x63a5;&#x53e3;&#xff0c;&#x4e32;&#x53e3;&#x7b49;&#x3002;"/>
 </node>
 </node>
@@ -395,7 +395,7 @@
 <node CREATED="1435821015409" ID="ID_574865435" MODIFIED="1435821019702" TEXT="&#x7ba1;&#x7406;&#x591a;&#x4e2a;&#x8fde;&#x63a5;"/>
 </node>
 <node CREATED="1435821088401" ID="ID_1165767340" MODIFIED="1484548753216" TEXT="&#x5bf9;&#x4e8e;&#x521b;&#x5efa;&#x84dd;&#x7259;&#x8fde;&#x63a5;&#x9700;&#x8981;&#x7528;&#x5230;&#x7684;&#x7c7b;&#x548c;&#x63a5;&#x53e3;">
-<node CREATED="1435821236987" FOLDED="true" ID="ID_140276448" MODIFIED="1484548753959" TEXT="BluetoothAdapter&#x84dd;&#x7259;&#x4ea4;&#x4e92;&#x7684;&#x5165;&#x53e3;&#x70b9;">
+<node CREATED="1435821236987" ID="ID_140276448" MODIFIED="1484631348166" TEXT="BluetoothAdapter&#x84dd;&#x7259;&#x4ea4;&#x4e92;&#x7684;&#x5165;&#x53e3;&#x70b9;">
 <node CREATED="1435821276454" ID="ID_15106065" MODIFIED="1435821292998" TEXT="&#x53d1;&#x73b0;&#x5176;&#x4ed6;&#x7684;&#x84dd;&#x7259;&#x8bbe;&#x5907;"/>
 <node CREATED="1435821297480" ID="ID_848677503" MODIFIED="1435821305430" TEXT="&#x8be2;&#x95ee;&#x53ef;&#x4ee5;&#x914d;&#x5bf9;&#x7684;&#x84dd;&#x7259;&#x8bbe;&#x5907;"/>
 <node CREATED="1435821318454" ID="ID_748136620" MODIFIED="1435821628170">
@@ -424,7 +424,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1435821410813" FOLDED="true" ID="ID_1132896842" MODIFIED="1484548753959">
+<node CREATED="1435821410813" FOLDED="true" ID="ID_1132896842" MODIFIED="1484631347180">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -453,7 +453,7 @@
 </node>
 <node CREATED="1435821581765" ID="ID_217318069" MODIFIED="1435821588363" TEXT="&#x8be2;&#x95ee;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x7684;&#x57fa;&#x672c;&#x4fe1;&#x606f;"/>
 </node>
-<node CREATED="1435821646233" FOLDED="true" ID="ID_84250700" MODIFIED="1484548753960">
+<node CREATED="1435821646233" FOLDED="true" ID="ID_84250700" MODIFIED="1484631343740">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -761,7 +761,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471853764475" FOLDED="true" ID="ID_1022785723" MODIFIED="1484548753961" TEXT="&#x7269;&#x7406;&#x4fe1;&#x9053;">
+<node CREATED="1471853764475" ID="ID_1022785723" MODIFIED="1484631521349" TEXT="&#x7269;&#x7406;&#x4fe1;&#x9053;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1471853802579" ID="ID_1594215147" MODIFIED="1471853854251">
 <richcontent TYPE="NODE"><html>
@@ -778,7 +778,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1471853932011" FOLDED="true" ID="ID_766823243" MODIFIED="1482911183232" TEXT="2.&#x5b9a;&#x4e49;&#x4e86;2&#x79cd;&#x4fe1;&#x9053;">
+<node CREATED="1471853932011" ID="ID_766823243" MODIFIED="1484631524308" TEXT="2.&#x5b9a;&#x4e49;&#x4e86;2&#x79cd;&#x4fe1;&#x9053;">
 <node CREATED="1471853952987" ID="ID_144636902" MODIFIED="1471854262588">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4988,6 +4988,22 @@
 </node>
 </node>
 </node>
+<node CREATED="1484649982617" ID="ID_1278328852" MODIFIED="1484650038606">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#881919">bluedroid/stack/include/hcidefs.h &#25991;&#20214; </font></i></b>
+    </p>
+    <p>
+      <b><i><font color="#881919">&#24403;&#20013;&#21487;&#20197;&#26597;&#35810;&#21040;&#25152;&#26377;&#30340;HCI&#30340;&#21629;&#20196;</font></i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1475113343456" ID="ID_1469039082" MODIFIED="1484376251794" TEXT="&#x4e0a;&#x5c42;APP">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -5038,8 +5054,7 @@
       &#25991;&#20214;&#23450;&#20041;&#20102;adapterservice&#31867;&#38656;&#35201;&#20351;&#29992;&#30340;JNI&#30340;&#20989;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1475127620629" ID="ID_1866607132" MODIFIED="1484376268112">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5266,8 +5281,7 @@
       sBluetoothInterface---&gt;&#160;&#160;bt_interface_t *sBluetoothInterface
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#163dee" DESTINATION="ID_1057805663" ENDARROW="Default" ENDINCLINATION="733;0;" ID="Arrow_ID_828039722" STARTARROW="None" STARTINCLINATION="234;0;"/>
 </node>
 </node>
@@ -5366,8 +5380,7 @@
       5.Vendor Extentions&#65288;&#21378;&#21830;&#25193;&#23637;&#65289;&#65306;&#24320;&#21457;&#32773;&#21487;&#20197;&#28155;&#21152;&#33258;&#23450;&#20041;&#25193;&#23637;&#20197;&#23454;&#29616;&#21378;&#21830;&#29305;&#23450;&#30340;&#27169;&#22359;&#21644;&#32452;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
