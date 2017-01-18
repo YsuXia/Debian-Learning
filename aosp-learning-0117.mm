@@ -40,7 +40,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff3399" CREATED="1433904174284" FOLDED="true" ID="ID_727268866" MODIFIED="1479707408834" POSITION="left" TEXT="2.&#x51c6;&#x5907;&#x5de5;&#x4f5c;">
+<node COLOR="#ff3399" CREATED="1433904174284" FOLDED="true" ID="ID_727268866" MODIFIED="1484720895341" POSITION="left" TEXT="2.&#x51c6;&#x5907;&#x5de5;&#x4f5c;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1433904215764" ID="ID_1108537317" MODIFIED="1433904221039" TEXT="1.&#x667a;&#x80fd;&#x6307;&#x9488;">
 <node CREATED="1433922098822" ID="ID_106756988" MODIFIED="1433922164691">
@@ -1611,7 +1611,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476935359890" FOLDED="true" ID="ID_505596854" MODIFIED="1482665289727" POSITION="right" TEXT="5.android&#x7684;&#x5c0f;&#x77e5;&#x8bc6;">
+<node CREATED="1476935359890" FOLDED="true" ID="ID_505596854" MODIFIED="1484720884444" POSITION="right" TEXT="5.android&#x7684;&#x5c0f;&#x77e5;&#x8bc6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1476935377161" FOLDED="true" ID="ID_1113704051" MODIFIED="1477053052453">
 <richcontent TYPE="NODE"><html>
@@ -1665,9 +1665,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1479707368505" FOLDED="true" ID="ID_6989081" MODIFIED="1482665311894" POSITION="left" TEXT="6.android&#x7cfb;&#x7edf;&#x5206;&#x6790;&#x5de5;&#x5177;">
+<node CREATED="1479707368505" ID="ID_6989081" MODIFIED="1484720857238" POSITION="left" TEXT="6.android&#x7cfb;&#x7edf;&#x5206;&#x6790;&#x5de5;&#x5177;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1479707423903" FOLDED="true" ID="ID_1549739821" MODIFIED="1482665310967">
+<node CREATED="1479707423903" FOLDED="true" ID="ID_1549739821" MODIFIED="1484720860428">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1755,7 +1755,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482300801861" FOLDED="true" ID="ID_196697670" MODIFIED="1482665285543" POSITION="right" TEXT="7.SELinux SEAndroid">
+<node CREATED="1482300801861" FOLDED="true" ID="ID_196697670" MODIFIED="1484720886948" POSITION="right" TEXT="7.SELinux SEAndroid">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1482300819318" FOLDED="true" ID="ID_1607491495" MODIFIED="1482665282647">
 <richcontent TYPE="NODE"><html>
@@ -1931,7 +1931,7 @@
 </node>
 <node CREATED="1484377644917" ID="ID_1430971308" MODIFIED="1484551674331" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1484377660789" ID="ID_1943217630" MODIFIED="1484378342659">
+<node CREATED="1484377660789" HGAP="0" ID="ID_1943217630" MODIFIED="1484720922424" VSHIFT="-13">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1969,6 +1969,54 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1484720898460" ID="ID_346512524" MODIFIED="1484720919173" POSITION="right" TEXT="9.Android&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x53ca;&#x70e7;&#x5199;">
+<node CREATED="1484720921741" ID="ID_332037652" MODIFIED="1484740146382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.ubuntu&#31995;&#32479;&#65292;&#20934;&#22791;&#24037;&#20855;make_ext4fs&#12289;simg2img&#12289;mkusering.sh&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;make_ext4fs&#12289;simg2img&#12289;mkusering.sh&#36825;&#19977;&#20010;&#24037;&#20855;&#21487;&#20197;&#22312;&#28304;&#30721;&#32534;&#35793;&#20043;&#21518;&#30340; out/host/linux_x86/bin&#30446;&#24405;&#19979;&#33719;&#21462;&#65292;&#24182;&#23558;&#36825;&#19977;&#20010;&#21629;&#20196;&#22797;&#21046;&#21040;ubuntu&#31995;&#32479;/usr/bin&#30446;&#24405;&#12290;
+    </p>
+    <p>
+      2.&#35299;&#21387;system.img&#20026;system.img.ext4
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#21629;&#20196;&#65306;simg2img&#160;&#160;system.img&#160;&#160;system.img.ext4
+    </p>
+    <p>
+      3.&#21019;&#24314;system.img.ext4&#25346;&#36733;&#30446;&#24405;tmp
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#21629;&#20196;&#65306;mkdir tmp
+    </p>
+    <p>
+      4.&#25346;&#36733;system.img.ext4&#21040;tmp&#30446;&#24405;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#21629;&#20196;&#65306;mount -t ext4 -o loop&#160;&#160;system.img.ext4 tmp
+    </p>
+    <p>
+      5.&#36827;&#20837;tmp&#30446;&#24405;&#65292;&#26681;&#25454;&#38656;&#27714;&#20462;&#25913;tmp&#20013;&#30340;&#30446;&#24405;&#160;
+    </p>
+    <p>
+      6.&#23558;tmp&#30446;&#24405;&#25171;&#21253;&#20026;&#26032;&#30340;system.img
+    </p>
+    <p>
+      &#160;&#160;&#160;&#21629;&#20196;&#65306;make_ext4fs -s -l 239M -a system system.img tmp
+    </p>
+    <p>
+      &#160;&#160;&#20851;&#20110;make_ext4fs&#12289;simg2img&#12289;mkusering.sh&#30340;&#21442;&#25968;&#21547;&#20041;&#21487;&#20197;&#22312;&#32456;&#31471;&#20013;&#30452;&#25509;&#36755;&#20837;&#21629;&#20196;&#65292;&#24182;&#22238;&#36710;&#26597;&#30475;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
