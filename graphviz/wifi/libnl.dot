@@ -1,0 +1,83 @@
+digraph libnl{
+	node[shape=record];
+	subgraph cluster_struct_nl_sock{
+		label="struct nl_sock";
+		"struct nl_sock"[label="{
+		<local>struct sockaddr_nl  s_local;
+    	|<peer>struct sockaddr_nl  s_peer;
+    	|int         s_fd;
+    	|int         s_proto;
+    	|unsigned int        s_seq_next;
+    	|unsigned int        s_seq_expect;
+    	|int         s_flags;
+    	|struct nl_cb *      s_cb;
+		}"];
+	}
+
+	"struct nl_sock":local->"struct sockaddr_nl"[color=red];
+	"struct nl_sock":peer->"struct sockaddr_nl"[color=red];
+
+	subgraph cluster_struct_sockaddr_nl{
+		label="struct sockaddr_nl";
+		"struct sockaddr_nl"[label="{
+			__kernel_sa_family_t    nl_family
+    |unsigned short  nl_pad
+    |__u32       nl_pid---port id
+    | __u32       nl_groups
+		}"];
+	}
+
+	subgraph cluster_struct_nl_cache{
+		label="struct nl_cache";
+		"struct nl_cache"[label="{
+			struct nl_list_head c_items
+    |int         c_nitems
+    |int                     c_iarg1
+    |int                     c_iarg2
+    |<ops>struct nl_cache_ops *   c_ops
+	}"];
+	}
+
+	"struct nl_cache":ops->"struct nl_cache_ops"[color=blue];
+
+	subgraph cluster_struct_nl_cache_ops{
+		label="struct nl_cache_ops";
+		"struct nl_cache_ops"[label="{
+			char  *         co_name;
+    		|int         co_hdrsize;
+    		|int         co_protocol;
+    		|struct nl_af_group *    co_groups
+			|int   (*co_request_update)(struct nl_cache *, struct nl_sock *)
+			|int   (*co_msg_parser)(struct nl_cache_ops *, struct sockaddr_nl *,
+				\n
+			struct nlmsghdr *, struct nl_parser_param *)
+			|struct nl_object_ops *  co_obj_ops
+    		|struct nl_cache_ops *co_next
+    		|struct nl_cache *co_major_cache
+    		|struct genl_ops *   co_genl
+    		|struct nl_msgtype   co_msgtypes[]
+		}"];
+	}
+
+	subgraph cluster_struct_genl_family{
+		label="struct genl_family";
+		"struct genl_family"[label="{
+		int         ce_refcnt
+    |struct nl_object_ops *  ce_ops
+    |<cache>struct nl_cache *   ce_cache
+    |struct nl_list_head ce_list
+    |int         ce_msgtype
+    |int         ce_flags
+    |uint32_t        ce_mask
+	|uint16_t        gf_id
+    |char            gf_name[GENL_NAMSIZ]
+    |uint32_t        gf_version
+    |uint32_t        gf_hdrsize
+    |uint32_t        gf_maxattr
+    |struct nl_list_head gf_ops
+	}"];
+	}
+
+	"struct genl_family":cache->"struct nl_cache"[color=red];
+
+}

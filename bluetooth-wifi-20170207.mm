@@ -5863,6 +5863,25 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1486434450084" ID="ID_1435579119" MODIFIED="1486436161973">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>OFDM</b>
+    </p>
+    <p>
+      Orthogonal Frequency Division Multiplexing
+    </p>
+    <p>
+      &#27491;&#20132;&#39057;&#20998;&#22797;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1478593289930" ID="ID_1884029507" MODIFIED="1478593364748">
 <richcontent TYPE="NODE"><html>
@@ -6611,22 +6630,48 @@
 </node>
 </node>
 </node>
-<node CREATED="1482222777984" ID="ID_1585324012" MODIFIED="1483408030076" TEXT="libnl&#x5b66;&#x4e60;">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1482222792944" ID="ID_1874482442" MODIFIED="1482223295179">
+<node CREATED="1482222777984" ID="ID_1585324012" MODIFIED="1486458761296">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>libnl&#20998;&#25104;&#35768;&#22810;&#30340;&#23376;&#24211;:</b>
+      libnl&#23398;&#20064;
     </p>
-    libnl &#23545;&#20110;socket&#30340;&#26368;&#24213;&#23618;&#30340;&#22788;&#29702;\n libnl-route Adresses, links, neighbours, routing, traffic control, neighbour tables, &#8230; libnl-nf connection tracking, logging, queue libnl-genl &#25511;&#21046;API, family and command&#27880;&#20876;
+    <p>
+      https://www.infradead.org/~tgr/libnl/
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1486459086378" ID="ID_204917437" MODIFIED="1486459120192">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      libnl&#20998;&#25104;&#35768;&#22810;&#30340;&#23376;&#24211;:
+    </p>
+    <p>
+      libnl &#23545;&#20110;socket&#30340;&#26368;&#24213;&#23618;&#30340;&#22788;&#29702;
+    </p>
+    <p>
+      libnl-route Adresses, links, neighbours, routing, traffic control, neighbour tables, &#8230;
+    </p>
+    <p>
+      libnl-nf connection tracking, logging, queue
+    </p>
+    <p>
+      libnl-genl &#25511;&#21046;API, family and command&#27880;&#20876;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1482223314579" FOLDED="true" ID="ID_451059191" MODIFIED="1485156361372">
+<node CREATED="1482223314579" ID="ID_451059191" MODIFIED="1486458999872">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6730,7 +6775,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1485156369655" ID="ID_157144472" MODIFIED="1485156402260">
+<node CREATED="1485156369655" ID="ID_157144472" MODIFIED="1486459172592">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6741,20 +6786,6 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1485156532520" ID="ID_1412159796" MODIFIED="1486260788981">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      1.socket&#21019;&#24314;
-    </p>
-    socket fd=socket(AF NETLINK,SOCK RAW,protocol) &#30446;&#21069;linux4.4&#20869;&#26680;&#24403;&#20013;&#25903;&#25345;&#30340;protocol&#22914;&#19979;&#65306; #define NETLINK_ROUTE&#160;&#160;&#160;&#160;&#160;&#160;&#160;0&#160;&#160;&#160;/* Routing/device hook&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/ #define NETLINK_UNUSED&#160;&#160;&#160;&#160;&#160;&#160;1&#160;&#160;&#160;/* Unused number&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/ #define NETLINK_USERSOCK&#160;&#160;&#160;&#160;2&#160;&#160;&#160;/* Reserved for user mode socket protocols&#160;&#160;*/ #define NETLINK_FIREWALL&#160;&#160;&#160;&#160;3&#160;&#160;&#160;/* Unused number, formerly ip_queue&#160;&#160;&#160;&#160;&#160;*/ #define NETLINK_SOCK_DIAG&#160;&#160;&#160;4&#160;&#160;&#160;/* socket monitoring&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/ #define NETLINK_NFLOG&#160;&#160;&#160;&#160;&#160;&#160;&#160;5&#160;&#160;&#160;/* netfilter/iptables ULOG */ #define NETLINK_XFRM&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6&#160;&#160;&#160;/* ipsec */ #define NETLINK_SELINUX&#160;&#160;&#160;&#160;&#160;7&#160;&#160;&#160;/* SELinux event notifications */ #define NETLINK_ISCSI&#160;&#160;&#160;&#160;&#160;&#160;&#160;8&#160;&#160;&#160;/* Open-iSCSI */ #define NETLINK_AUDIT&#160;&#160;&#160;&#160;&#160;&#160;&#160;9&#160;&#160;&#160;/* auditing */ #define NETLINK_FIB_LOOKUP&#160;&#160;10&#160;&#160;#define NETLINK_CONNECTOR&#160;&#160;&#160;11 #define NETLINK_NETFILTER&#160;&#160;&#160;12&#160;&#160;/* netfilter subsystem */ #define NETLINK_IP6_FW&#160;&#160;&#160;&#160;&#160;&#160;13 #define NETLINK_DNRTMSG&#160;&#160;&#160;&#160;&#160;14&#160;&#160;/* DECnet routing messages */ #define NETLINK_KOBJECT_UEVENT&#160;&#160;15&#160;&#160;/* Kernel messages to userspace */ #define NETLINK_GENERIC&#160;&#160;&#160;&#160;&#160;16 /* leave room for NETLINK_DM (DM Events) */ #define NETLINK_SCSITRANSPORT&#160;&#160;&#160;18&#160;&#160;/* SCSI Transports */ #define NETLINK_ECRYPTFS&#160;&#160;&#160;&#160;19 #define NETLINK_RDMA&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;20 #define NETLINK_CRYPTO&#160;&#160;&#160;&#160;&#160;&#160;21&#160;&#160;/* Crypto layer */
-  </body>
-</html>
-</richcontent>
-</node>
 <node CREATED="1485161566787" ID="ID_1138542484" MODIFIED="1486275533248">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6819,8 +6850,72 @@
       };
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1486454966882" ID="ID_791079959" MODIFIED="1486455010652">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>msg_controll&#21487;&#33021;&#20250;&#25351;&#21521;&#22810;&#20010;&#32467;&#26500;&#20307;</b>
+    </p>
+    <p>
+      struct cmsghdr {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;__kernel_size_t cmsg_len;&#160;&#160;&#160;/* data byte count, including hdr */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;cmsg_level; /* originating protocol */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;cmsg_type;&#160;&#160;/* protocol-specific type */
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      &#30340;&#25968;&#32452;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1486455296862" ID="ID_1807069059" MODIFIED="1486455305807">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct scm_cookie {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct pid&#160;&#160;&#160;&#160;&#160;&#160;*pid;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Skb credentials */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct scm_fp_list&#160;&#160;*fp;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Passed files&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct scm_creds&#160;&#160;&#160;&#160;creds;&#160;&#160;&#160;&#160;&#160;&#160;/* Skb credentials&#160;&#160;*/
+    </p>
+    <p>
+      #ifdef CONFIG_SECURITY_NETWORK
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;secid;&#160;&#160;&#160;&#160;&#160;&#160;/* Passed security ID&#160;&#160;&#160;*/
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1485162175604" ID="ID_650267292" MODIFIED="1486261481458">
 <richcontent TYPE="NODE"><html>
@@ -6883,8 +6978,7 @@
       sockaddr_nl &#32467;&#26500;&#20307;&#20250;&#34987;&#26144;&#23556;&#21040;sockaddr&#32467;&#26500;&#20307;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1485163861648" ID="ID_22157816" MODIFIED="1485179051641">
 <richcontent TYPE="NODE"><html>
@@ -6982,9 +7076,90 @@
       &#22791;&#29992;&#25968;&#25454;&#30340;&#38271;&#24230;&#12290;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1486459286794" ID="ID_1881198372" MODIFIED="1486459313268">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      netlink&#31867;&#22411;
+    </p>
+    <p>
+      1.socket&#21019;&#24314;
+    </p>
+    <p>
+      socket fd=socket(AF NETLINK,SOCK RAW,protocol) &#30446;&#21069;linux4.4&#20869;&#26680;&#24403;&#20013;&#25903;&#25345;&#30340;protocol&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      #define NETLINK_ROUTE&#160;&#160;&#160;&#160;&#160;&#160;&#160;0&#160;&#160;&#160;/* Routing/device hook&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      #define NETLINK_UNUSED&#160;&#160;&#160;&#160;&#160;&#160;1&#160;&#160;&#160;/* Unused number&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      #define NETLINK_USERSOCK&#160;&#160;&#160;&#160;2&#160;&#160;&#160;/* Reserved for user mode socket protocols&#160;&#160;*/
+    </p>
+    <p>
+      #define NETLINK_FIREWALL&#160;&#160;&#160;&#160;3&#160;&#160;&#160;/* Unused number, formerly ip_queue&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      #define NETLINK_SOCK_DIAG&#160;&#160;&#160;4&#160;&#160;&#160;/* socket monitoring&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      #define NETLINK_NFLOG&#160;&#160;&#160;&#160;&#160;&#160;&#160;5&#160;&#160;&#160;/* netfilter/iptables ULOG */
+    </p>
+    <p>
+      #define NETLINK_XFRM&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6&#160;&#160;&#160;/* ipsec */
+    </p>
+    <p>
+      #define NETLINK_SELINUX&#160;&#160;&#160;&#160;&#160;7&#160;&#160;&#160;/* SELinux event notifications */
+    </p>
+    <p>
+      #define NETLINK_ISCSI&#160;&#160;&#160;&#160;&#160;&#160;&#160;8&#160;&#160;&#160;/* Open-iSCSI */
+    </p>
+    <p>
+      #define NETLINK_AUDIT&#160;&#160;&#160;&#160;&#160;&#160;&#160;9&#160;&#160;&#160;/* auditing */
+    </p>
+    <p>
+      #define NETLINK_FIB_LOOKUP&#160;&#160;10&#160;&#160;
+    </p>
+    <p>
+      #define NETLINK_CONNECTOR&#160;&#160;&#160;11
+    </p>
+    <p>
+      #define NETLINK_NETFILTER&#160;&#160;&#160;12&#160;&#160;/* netfilter subsystem */
+    </p>
+    <p>
+      #define NETLINK_IP6_FW&#160;&#160;&#160;&#160;&#160;&#160;13
+    </p>
+    <p>
+      #define NETLINK_DNRTMSG&#160;&#160;&#160;&#160;&#160;14&#160;&#160;/* DECnet routing messages */
+    </p>
+    <p>
+      #define NETLINK_KOBJECT_UEVENT&#160;&#160;15&#160;&#160;/* Kernel messages to userspace */
+    </p>
+    <p>
+      #define NETLINK_GENERIC&#160;&#160;&#160;&#160;&#160;16 /* leave room for NETLINK_DM (DM Events) */
+    </p>
+    <p>
+      #define NETLINK_SCSITRANSPORT&#160;&#160;&#160;18&#160;&#160;/* SCSI Transports */
+    </p>
+    <p>
+      #define NETLINK_ECRYPTFS&#160;&#160;&#160;&#160;19
+    </p>
+    <p>
+      #define NETLINK_RDMA&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;20
+    </p>
+    <p>
+      #define NETLINK_CRYPTO&#160;&#160;&#160;&#160;&#160;&#160;21&#160;&#160;/* Crypto layer */
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 </node>
@@ -8049,8 +8224,7 @@
       4.&#35843;&#24230;&#36719;&#20013;&#26029;NET_RX_SOFTIRQ&#36890;&#30693;cpu&#26032;&#30340;&#19968;&#24103;&#25968;&#25454;&#30340;&#21040;&#26469;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1486280151484" ID="ID_1423376586" MODIFIED="1486281130077">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8079,8 +8253,7 @@
       &#36319;&#36394;&#38656;&#35201;&#21457;&#36865;&#25968;&#25454;&#24103;&#30340;&#35774;&#22791;&#32780;&#19981;&#26159;&#36319;&#36394;&#25968;&#25454;&#24103;&#30340;&#26412;&#36523;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1486281132382" ID="ID_1185969513" MODIFIED="1486286103231">
 <richcontent TYPE="NODE"><html>
@@ -8107,8 +8280,7 @@
       b. &#36890;&#36807;NAPI&#30340;&#26426;&#21046;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1486286105288" ID="ID_1281423350" MODIFIED="1486286272158">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8161,8 +8333,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1486286472795" ID="ID_1596081545" MODIFIED="1486287549684">
 <richcontent TYPE="NODE"><html>
@@ -8189,8 +8360,7 @@
       2.&#22312;&#22788;&#29702;&#35774;&#22791;&#26041;&#38754;&#26356;&#21152;&#22320;&#20844;&#24179;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1486287559150" ID="ID_806903659" MODIFIED="1486290910761">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8219,8 +8389,7 @@
       &#35774;&#22791;&#65292;&#35813;&#38431;&#21015;&#26159;&#19968;&#20010;&#31169;&#26377;&#30340;&#35774;&#22791;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

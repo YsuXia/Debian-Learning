@@ -1,0 +1,948 @@
+digraph bluedroid{
+	node[shape=record];
+
+	subgraph cluster_struct_wpa_interface{
+		label="struct wpa_interface";
+		"struct wpa_interface"[label="{
+			|const char *confname(/data/misc/wifi/wpa_supplicant.conf)
+			|const char *confanother(/system/etc/wifi/wpa_supplicant_overlay.conf)
+			|const char *ctrl_interface
+			|const char *driver(nl80211)
+			|const char *driver_param
+			|const char *ifname(wlan0)
+			|const char *bridge_ifname
+			|int p2p_mgmt
+		}"];
+	}
+
+	subgraph cluster_struct_wpa_params{
+		label="struct wpa_params";
+		"struct wpa_params"[label="{
+			int daemonize
+			|int wait_for_monitor
+			|char *pid_file
+			|int wpa_debug_level
+			|int wpa_debug_show_keys
+			|int wpa_debug_timestamp
+			|char *ctrl_interface(@android:wpa_wlan0)
+			|char *ctrl_interface_group
+			|const char *wpa_debug_file_path
+			|int wpa_debug_syslog
+			|int wpa_debug_tracing
+			|char *override_driver
+			|char *override_ctrl_interface(/data/misc/wifi/sockets)
+			|char *entropy_file(/data/misc/wifi/entropy.bin)
+			|char *conf_p2p_dev(/data/misc/wifi/p2p_supplicant.conf)
+			|<match_ifaces>struct wpa_interface *match_ifaces
+			|int match_iface_count
+		}"];
+	}
+	"struct wpa_params":match_ifaces->"struct wpa_interface"[color=red];
+	"struct wpa_global":ifaces->"struct wpa_supplicant"[color=red];
+
+	subgraph cluster_struct_wpa_global{
+		label="struct wpa_global";
+		bgcolor=tan;
+		"struct wpa_global"[label="{
+	|<ifaces>struct wpa_supplicant *ifaces;
+    |struct wpa_params params;
+    |<ctrl_iface>struct ctrl_iface_global_priv *ctrl_iface;
+    |struct wpas_dbus_priv *dbus;
+    |struct wpas_binder_priv *binder;
+    |void **drv_priv;
+	|size_t drv_count;
+    |struct os_time suspend_time;
+    |struct p2p_data *p2p;
+    |struct wpa_supplicant *p2p_init_wpa_s;
+    |struct wpa_supplicant *p2p_group_formation;
+    |struct wpa_supplicant *p2p_invite_group;
+    |u8 p2p_dev_addr[ETH_ALEN];
+    |struct os_reltime p2p_go_wait_client;
+    |struct dl_list p2p_srv_bonjour; /* struct p2p_srv_bonjour */
+    |struct dl_list p2p_srv_upnp; /* struct p2p_srv_upnp */
+    |int p2p_disabled;
+    |int cross_connection;
+    |struct wpa_freq_range_list p2p_disallow_freq;
+    |struct wpa_freq_range_list p2p_go_avoid_freq;
+    |enum wpa_conc_pref \n\{WPA_CONC_PREF_NOT_SET,\nWPA_CONC_PREF_STA,\nWPA_CONC_PREF_P2P\} conc_pref;
+    |unsigned int p2p_per_sta_psk:1;
+    |unsigned int p2p_fail_on_wps_complete:1;
+    |unsigned int p2p_24ghz_social_channels:1;
+    |unsigned int pending_p2ps_group:1;
+    |unsigned int pending_group_iface_for_p2ps:1;
+    |unsigned int pending_p2ps_group_freq;
+    |struct psk_list_entry *add_psk;
+		}"];
+	}
+	"struct wpa_global":ctrl_iface->"struct ctrl_iface_global_priv"[color=blue];
+	subgraph cluster_struct_ctrl_iface_global_priv{
+		label="struct ctrl_iface_global_priv";
+		bgcolor=pink;
+		"struct ctrl_iface_global_priv"[label="{
+			 int sock;
+    		|struct wpa_ctrl_dst *ctrl_dst;
+    		|u8 cookie[COOKIE_LEN]
+		}"];
+	}
+
+
+	"struct ctrl_iface_global_priv":ctrl_dst->"struct wpa_ctrl_dst"[color=red];
+
+	subgraph cluster_struct_wpa_ctrl_dst{
+		label="struct wpa_ctrl_dst";
+		"struct wpa_ctrl_dst"[label="{
+			struct wpa_ctrl_dst *next
+		|struct sockaddr_in addr
+		|socklen_t addrlen
+		|int debug_level
+		|int errors
+		}"];
+	}
+
+	"struct eloop_data"->"eloop"[arrowhead=none color=blue];
+
+	subgraph cluster_struct_eloop_data{
+		label="struct eloop_data";
+		"struct eloop_data"[label="{
+			int max_sock;
+    |int count; /* sum of all table counts */
+|#ifdef CONFIG_ELOOP_POLL\n
+    int max_pollfd_map; /* number of pollfds_map currently allocated */
+    \nint max_poll_fds; /* number of pollfds currently allocated */
+    \nstruct pollfd *pollfds;
+    \nstruct pollfd **pollfds_map;
+\n#endif /* CONFIG_ELOOP_POLL */
+|#if defined(CONFIG_ELOOP_EPOLL) \|\| defined(CONFIG_ELOOP_KQUEUE)
+    \nint max_fd;
+    \nstruct eloop_sock *fd_table;
+\n#endif /* CONFIG_ELOOP_EPOLL \|\| CONFIG_ELOOP_KQUEUE */
+|#ifdef CONFIG_ELOOP_EPOLL
+    \nint epollfd;
+    \nint epoll_max_event_num;
+    \nstruct epoll_event *epoll_events;
+\n#endif /* CONFIG_ELOOP_EPOLL */
+|#ifdef CONFIG_ELOOP_KQUEUE
+    \nint kqueuefd;
+    \nint kqueue_nevents;
+    \nstruct kevent *kqueue_events;
+\n#endif
+    |struct eloop_sock_table readers;
+    |struct eloop_sock_table writers;
+    |struct eloop_sock_table exceptions;
+    |struct dl_list timeout;
+    |int signal_count;
+    |struct eloop_signal *signals;
+    |int signaled;
+    |int pending_terminate;
+    |int terminate;
+		}"];
+	}
+
+	subgraph cluster_struct_eloop_sock_table{
+		label="struct eloop_sock_table";
+		"struct eloop_sock_table"[label="{
+		int count;
+    |<table>struct eloop_sock *table;
+    |eloop_event_type type;
+    |int changed;
+	}"];
+	}
+
+	"struct eloop_sock_table":table->"struct eloop_sock"[color=red];
+
+	subgraph cluster_struct_eloop_sock{
+		label="struct eloop_sock";
+		"struct eloop_sock"[label="{
+	int sock;
+    |void *eloop_data
+    |void *user_data
+    |eloop_sock_handler handler\nwpa_supplicant_global_ctrl_iface_receive
+	|<ref_eloop>struct wpa_trace_ref wpa_trace_ref_eloop
+	|struct wpa_trace_ref wpa_trace_ref_user
+	|void *btrace[WPA_TRACE_LEN]
+	|int btrace_num
+	}"];
+	}
+
+	"struct eloop_sock":ref_eloop->"struct wpa_trace_ref"[color=red];
+
+	subgraph cluster_struct_wpa_trace_ref{
+		label="struct wpa_trace_ref";
+		"struct wpa_trace_ref"[label="{
+	struct dl_list list;
+    |const void *addr;
+    |WPA_TRACE_INFO
+		}"];
+	}
+
+	subgraph cluster_struct_eloop_timeout{
+		label="struct eloop_timeout";
+		"struct eloop_timeout"[label="{
+			struct dl_list list
+			|<time>struct os_reltime time
+			|void *eloop_data;
+    |void *user_data;
+    |eloop_timeout_handler handler;
+    |WPA_TRACE_REF(eloop);
+    |WPA_TRACE_REF(user);
+    |WPA_TRACE_INFO
+	}"];
+	}
+
+	"struct eloop_timeout":time->"struct os_reltime"[color=red];
+	subgraph cluster_struct_os_reltime{
+		label="struct os_reltime";
+		"struct os_reltime"[label="{
+		 os_time_t sec;
+    	|os_time_t usec
+	}"];
+	}
+
+	subgraph cluster_struct_fst_ctrl{
+		label="struct fst_ctrl";
+		"struct fst_ctrl"[label="{
+		int (*init)(void);
+    |void (*deinit)(void);
+    |int (*on_group_created)(struct fst_group *g);
+    |void (*on_group_deleted)(struct fst_group *g);
+    |int (*on_iface_added)(struct fst_iface *i);
+    |void (*on_iface_removed)(struct fst_iface *i);
+    |int (*on_session_added)(struct fst_session *s);
+    |void (*on_session_removed)(struct fst_session *s);
+	|void (*on_event)(enum fst_event_type event_type, struct fst_iface *i,
+             \nstruct fst_session *s,
+             \nconst union fst_event_extra *extra);
+	}"];
+	}
+
+	"struct fst_ctrl"->"ctrl_cli"[arrowhead=none color=red];
+
+	subgraph cluster_ctrl_cli{
+		"ctrl_cli"[label="{
+			static const struct fst_ctrl ctrl_cli = \{\n
+    		.on_iface_added = fst_ctrl_iface_on_iface_added,\n
+    		.on_iface_removed =  fst_ctrl_iface_on_iface_removed,\n
+    		.on_event = fst_ctrl_iface_on_event,\n
+			\};
+		}"];
+	}
+
+	subgraph cluster_struct_fst_ctrl_handle{
+		label="struct fst_ctrl_handle";
+		"struct fst_ctrl_handle"[label="{
+		<ctrl>struct fst_ctrl ctrl;
+    |struct dl_list global_ctrls_lentry;
+	}"];
+	}
+	 "struct fst_ctrl_handle":ctrl->"struct fst_ctrl"[color=blue];
+
+	 "struct wpa_driver_ops"->"wpa_drivers"[arrowhead=none color=red];
+
+	subgraph cluster_struct_wpa_driver_ops{
+		label="struct wpa_driver_ops";
+		bgcolor=pink;
+		"struct wpa_driver_ops"[label="{
+		const char *name
+		|const char *desc
+		|int (*get_bssid)(void *priv, u8 *bssid)
+		|int (*get_ssid)(void *priv, u8 *ssid)
+		|int (*set_key)(const char *ifname, void *priv, enum wpa_alg alg,
+               \nconst u8 *addr, int key_idx, int set_tx,
+               \nconst u8 *seq, size_t seq_len,
+               \nconst u8 *key, size_t key_len)
+		| void * (*init)(void *ctx, const char *ifname)
+		|void (*deinit)(void *priv)|int (*set_param)(void *priv, const char *param)
+		|int (*set_countermeasures)(void *priv, int enabled)
+		|int (*deauthenticate)(void *priv, const u8 *addr, int reason_code)
+		|int (*associate)(void *priv,
+             \nstruct wpa_driver_associate_params *params)
+		|int (*add_pmkid)(void *priv, const u8 *bssid, const u8 *pmkid)
+		|int (*remove_pmkid)(void *priv, const u8 *bssid, const u8 *pmkid)
+		|int (*flush_pmkid)(void *priv)
+		|int (*get_capa)(void *priv, struct wpa_driver_capa *capa)
+		|void (*poll)(void *priv)
+		|unsigned int (*get_ifindex)(void *priv)
+		|const char * (*get_ifname)(void *priv)
+		|const u8 * (*get_mac_addr)(void *priv)
+		|int (*set_operstate)(void *priv, int state)
+		|int (*mlme_setprotection)(void *priv, const u8 *addr, int protect_type,
+                  \nint key_type)
+		|struct hostapd_hw_modes * (*get_hw_feature_data)(void *priv,
+                             \nu16 *num_modes,
+                             \nu16 *flags)
+		|int (*send_mlme)(void *priv, const u8 *data, size_t data_len,
+             \nint noack, unsigned int freq, const u16 *csa_offs,
+             \nsize_t csa_offs_len)
+		|int (*update_ft_ies)(void *priv, const u8 *md, const u8 *ies,
+               \nsize_t ies_len)
+		|struct wpa_scan_results * (*get_scan_results2)(void *priv)
+		|int (*set_country)(void *priv, const char *alpha2)
+		|int (*get_country)(void *priv, char *alpha2)
+		|void * (*global_init)(void *ctx)
+		|void (*global_deinit)(void *priv)
+		|void * (*init2)(void *ctx, const char *ifname, void *global_priv)
+		|struct wpa_interface_info * (*get_interfaces)(void *global_priv)
+		|int (*scan2)(void *priv, struct wpa_driver_scan_params *params)
+		|int (*authenticate)(void *priv,
+                \nstruct wpa_driver_auth_params *params)
+		|int (*set_ap)(void *priv, struct wpa_driver_ap_params *params)
+		|int (*set_acl)(void *priv, struct hostapd_acl_params *params)
+		|void * (*hapd_init)(struct hostapd_data *hapd,
+                \nstruct wpa_init_params *params)
+		|int (*set_ieee8021x)(void *priv, struct wpa_bss_params *params)
+		|int (*set_privacy)(void *priv, int enabled)
+		|int (*get_seqnum)(const char *ifname, void *priv, const u8 *addr,
+              \nint idx, u8 *seq)
+		|int (*flush)(void *priv)
+		|int (*set_generic_elem)(void *priv, const u8 *elem, size_t elem_len)
+		|int (*read_sta_data)(void *priv, struct hostap_sta_driver_data *data,
+                 \nconst u8 *addr)
+		|int (*hapd_send_eapol)(void *priv, const u8 *addr, const u8 *data,
+                   \nsize_t data_len, int encrypt,
+                   \nconst u8 *own_addr, u32 flags)
+		|int (*sta_deauth)(void *priv, const u8 *own_addr, const u8 *addr,
+              \nint reason)
+
+		|int (*sta_disassoc)(void *priv, const u8 *own_addr, const u8 *addr,
+                \nint reason)
+		|int (*sta_remove)(void *priv, const u8 *addr)
+		|int (*hapd_get_ssid)(void *priv, u8 *buf, int len)
+		|int (*hapd_set_ssid)(void *priv, const u8 *buf, int len)
+		|int (*hapd_set_countermeasures)(void *priv, int enabled)
+		|int (*sta_add)(void *priv, struct hostapd_sta_add_params *params)
+		|int (*get_inact_sec)(void *priv, const u8 *addr)
+		|int (*sta_clear_stats)(void *priv, const u8 *addr)
+		|int (*set_freq)(void *priv, struct hostapd_freq_params *freq)
+		|int (*set_rts)(void *priv, int rts)
+		|int (*set_frag)(void *priv, int frag)
+		|int (*sta_set_flags)(void *priv, const u8 *addr,
+                 \nunsigned int total_flags, unsigned int flags_or,
+                 \nunsigned int flags_and)
+		|int (*set_tx_queue_params)(void *priv, int queue, int aifs, int cw_min,
+                   \nint cw_max, int burst_time)
+		|int (*if_add)(void *priv, enum wpa_driver_if_type type,
+              \nconst char *ifname, const u8 *addr, void *bss_ctx,
+              \nvoid **drv_priv, char *force_ifname, u8 *if_addr,
+              \nconst char *bridge, int use_existing, int setup_ap)
+		|int (*if_remove)(void *priv, enum wpa_driver_if_type type,
+             \nconst char *ifname)
+		|int (*set_sta_vlan)(void *priv, const u8 *addr, const char *ifname,
+                \nint vlan_id)
+		|int (*commit)(void *priv)
+		|int (*send_ether)(void *priv, const u8 *dst, const u8 *src, u16 proto,
+              \nconst u8 *data, size_t data_len)
+		|int (*set_radius_acl_auth)(void *priv, const u8 *mac, int accepted,
+                   \nu32 session_timeout)
+		|int (*set_radius_acl_expire)(void *priv, const u8 *mac)
+		|int (*set_ap_wps_ie)(void *priv, const struct wpabuf *beacon,
+                 \nconst struct wpabuf *proberesp,
+                 \nconst struct wpabuf *assocresp)
+		|int (*set_supp_port)(void *priv, int authorized)
+		| int (*set_wds_sta)(void *priv, const u8 *addr, int aid, int val,
+               \nconst char *bridge_ifname, char *ifname_wds)
+		|int (*send_action)(void *priv, unsigned int freq, unsigned int wait,
+              \n const u8 *dst, const u8 *src, const u8 *bssid,
+               \nconst u8 *data, size_t data_len, int no_cck)
+		|void (*send_action_cancel_wait)(void *priv)
+		|int (*remain_on_channel)(void *priv, unsigned int freq,
+                 \nunsigned int duration)
+		|int (*cancel_remain_on_channel)(void *priv)
+		|int (*probe_req_report)(void *priv, int report)
+		|int (*deinit_ap)(void *priv)
+		|int (*deinit_p2p_cli)(void *priv)
+		|void (*suspend)(void *priv)
+		|void (*resume)(void *priv)
+		|int (*signal_monitor)(void *priv, int threshold, int hysteresis)
+		|int (*send_frame)(void *priv, const u8 *data, size_t data_len,
+              \nint encrypt)
+		|int (*send_frame)(void *priv, const u8 *data, size_t data_len,
+              \nint encrypt)
+		|int (*get_noa)(void *priv, u8 *buf, size_t buf_len)
+		|int (*set_noa)(void *priv, u8 count, int start, int duration)
+		|int (*set_p2p_powersave)(void *priv, int legacy_ps, int opp_ps,
+                 \nint ctwindow)
+		|int (*ampdu)(void *priv, int ampdu)
+		|const char * (*get_radio_name)(void *priv)
+		|int (*send_tdls_mgmt)(void *priv, const u8 *dst, u8 action_code,
+                  \nu8 dialog_token, u16 status_code, u32 peer_capab,
+                  \nint initiator, const u8 *buf, size_t len)
+
+
+		|int (*tdls_oper)(void *priv, enum tdls_oper oper, const u8 *peer)
+		|int (*wnm_oper)(void *priv, enum wnm_oper oper, const u8 *peer,
+            \nu8 *buf, u16 *buf_len)
+		|int (*set_qos_map)(void *priv, const u8 *qos_map_set,
+               \nu8 qos_map_set_len)
+		|int (*br_add_ip_neigh)(void *priv, u8 version, const u8 *ipaddr,
+                   \nint prefixlen, const u8 *addr)
+		|int (*br_delete_ip_neigh)(void *priv, u8 version, const u8 *ipaddr)
+		|int (*br_port_set_attr)(void *priv, enum drv_br_port_attr attr,
+                \nunsigned int val)
+		|int (*br_port_set_attr)(void *priv, enum drv_br_port_attr attr,
+                \nunsigned int val)
+		|int (*br_set_net_param)(void *priv, enum drv_br_net_param param,
+                \nunsigned int val)
+		|int (*set_wowlan)(void *priv, const struct wowlan_triggers *triggers)
+		|int (*signal_poll)(void *priv, struct wpa_signal_info *signal_info)
+		|int (*set_authmode)(void *priv, int authmode)
+		|int (*driver_cmd)(void *priv, char *cmd, char *buf, size_t buf_len)
+		|int (*vendor_cmd)(void *priv, unsigned int vendor_id,
+              \nunsigned int subcmd, const u8 *data, size_t data_len,
+              \nstruct wpabuf *buf)
+		|void (*set_rekey_info)(void *priv, const u8 *kek, size_t kek_len,
+                   \nconst u8 *kck, size_t kck_len,
+                   \nconst u8 *replay_ctr)
+		|int (*sta_assoc)(void *priv, const u8 *own_addr, const u8 *addr,
+              \nint reassoc, u16 status, const u8 *ie, size_t len)
+
+		|int (*sta_auth)(void *priv, const u8 *own_addr, const u8 *addr,
+             \nu16 seq, u16 status, const u8 *ie, size_t len)
+		|int (*add_tspec)(void *priv, const u8 *addr, u8 *tspec_ie,
+              \nsize_t tspec_ielen)
+		|int (*add_sta_node)(void *priv, const u8 *addr, u16 auth_alg)
+		|int (*sched_scan)(void *priv, struct wpa_driver_scan_params *params)
+		|int (*stop_sched_scan)(void *priv)
+		|void (*poll_client)(void *priv, const u8 *own_addr,
+                \nconst u8 *addr, int qos)
+		|int (*radio_disable)(void *priv, int disabled)
+		|int (*switch_channel)(void *priv, struct csa_settings *settings)
+		|int (*add_tx_ts)(void *priv, u8 tsid, const u8 *addr, u8 user_prio,
+             \nu16 admitted_time)
+		|int (*del_tx_ts)(void *priv, u8 tsid, const u8 *addr)
+		|int (*tdls_enable_channel_switch)(
+        \nvoid *priv, const u8 *addr, u8 oper_class,
+        \nconst struct hostapd_freq_params *params)
+		| int (*tdls_disable_channel_switch)(void *priv, const u8 *addr);
+
+		| int (*start_dfs_cac)(void *priv, struct hostapd_freq_params *freq)
+		|int (*stop_ap)(void *priv)
+		|int (*get_survey)(void *priv, unsigned int freq)
+
+		|int (*status)(void *priv, char *buf, size_t buflen)
+		|int (*roaming)(void *priv, int allowed, const u8 *bssid)
+		|int (*set_mac_addr)(void *priv, const u8 *addr);
+		|............
+
+	}"];
+	}
+
+	subgraph cluster_wpa_drivers{
+		label="wpa_drivers";
+		"wpa_drivers"[label="{
+	|#ifdef CONFIG_DRIVER_NL80211
+	\nwpa_driver_nl80211_ops,
+	\n#endif /* CONFIG_DRIVER_NL80211 */
+	|#ifdef CONFIG_DRIVER_WEXT
+	\nwpa_driver_wext_ops,
+	\n#endif /* CONFIG_DRIVER_WEXT */
+	|#ifdef CONFIG_DRIVER_HOSTAP
+	\nwpa_driver_hostap_ops,
+	\n#endif /* CONFIG_DRIVER_HOSTAP */
+	|#ifdef CONFIG_DRIVER_BSD
+	\nwpa_driver_bsd_ops,
+	\n#endif /* CONFIG_DRIVER_BSD */
+	|#ifdef CONFIG_DRIVER_OPENBSD
+	\nwpa_driver_openbsd_ops,
+	\n#endif /* CONFIG_DRIVER_OPENBSD */
+	|#ifdef CONFIG_DRIVER_NDIS
+	\nwpa_driver_ndis_ops,
+	\n#endif /* CONFIG_DRIVER_NDIS */
+	|#ifdef CONFIG_DRIVER_WIRED
+	\nwpa_driver_wired_ops,
+	\n#endif /* CONFIG_DRIVER_WIRED */
+	|#ifdef CONFIG_DRIVER_MACSEC_QCA
+	\nwpa_driver_macsec_qca_ops,
+	\n#endif /* CONFIG_DRIVER_MACSEC_QCA */
+	|#ifdef CONFIG_DRIVER_ROBOSWITCH
+	\nwpa_driver_roboswitch_ops,
+	\n#endif /* CONFIG_DRIVER_ROBOSWITCH */
+	|#ifdef CONFIG_DRIVER_ATHEROS
+	\nwpa_driver_atheros_ops,
+	\n#endif /* CONFIG_DRIVER_ATHEROS */
+	|#ifdef CONFIG_DRIVER_NONE
+	\nwpa_driver_none_ops,
+	\n#endif /* CONFIG_DRIVER_NONE */
+	}"];
+	}
+
+	subgraph cluster_struct_wpa_supplicant{
+		label="struct wpa_supplicant";
+		bgcolor=pink;
+		"struct wpa_supplicant"[label="{
+			struct wpa_global *global
+			|struct wpa_radio *radio
+			|struct dl_list radio_list
+			|struct wpa_supplicant *parent;
+    |struct wpa_supplicant *p2pdev;
+    |struct wpa_supplicant *next;
+    |struct l2_packet_data *l2;
+    |struct l2_packet_data *l2_br;
+	|........
+	|char *confname
+	|char *confanother
+	|struct wpa_config *conf
+	|......
+	|const struct wpa_driver_ops *driver
+	|......
+	|<wpa>struct wpa_sm *wpa
+    |<eapol>struct eapol_sm *eapol
+	|<ctrl_iface>struct ctrl_iface_priv *ctrl_iface
+	|......
+	|struct gas_query *gas
+	|......
+	|void *drv_priv; /* private data used by driver_ops */
+    |void *global_drv_priv;
+	|struct \{
+        \nstruct hostapd_hw_modes *modes
+        \nu16 num_modes
+        \nu16 flags\n
+    	\} hw
+	|......
+
+	
+		}"];
+	}
+
+	"struct wpa_supplicant":eapol->"struct eapol_sm"[color=blue];
+	"struct wpa_supplicant":ctrl_iface->"struct ctrl_iface_priv"[color=red];
+
+	subgraph cluster_struct_ctrl_iface_priv{
+		label="struct ctrl_iface_priv";
+		"struct ctrl_iface_priv"[label="{
+		struct wpa_supplicant *wpa_s;
+		|int sock;
+		|<dst>struct wpa_ctrl_dst *ctrl_dst;
+		|u8 cookie[COOKIE_LEN];
+		}"];
+	}
+	"struct ctrl_iface_priv":dst->"struct wpa_ctrl_dst"[color=red];
+
+	subgraph cluster_struct_wpa_config{
+		label="struct wpa_config";
+		"struct wpa_config"[label="{
+		struct wpa_ssid *ssid
+		|struct wpa_ssid **pssid
+		|int num_prio
+		|struct wpa_cred *cred
+		|int eapol_version
+		|int ap_scan
+		|char *bgscan
+		|int disable_scan_offload
+	}"];
+	}
+
+	subgraph cluster_struct_eapol_sm{
+		label="struct eapol_sm";
+		"struct eapol_sm"[label="{
+		unsigned int authWhile;
+    |unsigned int heldWhile;
+    |unsigned int startWhen;
+    |unsigned int idleWhile; /* for EAP state machine */
+    |int timer_tick_enabled;
+	|Boolean eapFail;
+    |Boolean eapolEap;
+    |Boolean eapSuccess;
+    |Boolean initialize;
+    |Boolean keyDone;
+    |Boolean keyRun;
+    |PortControl portControl;
+    |Boolean portEnabled;
+    |PortStatus suppPortStatus;  /* dot1xSuppControlledPortStatus */
+    |Boolean portValid;
+    |Boolean suppAbort;
+    |Boolean suppFail;
+    |Boolean suppStart;
+    |Boolean suppSuccess;
+    |Boolean suppTimeout;
+	|enum \{
+        \nSUPP_PAE_UNKNOWN = 0,
+        \nSUPP_PAE_DISCONNECTED = 1,
+        \nSUPP_PAE_LOGOFF = 2,
+       \n SUPP_PAE_CONNECTING = 3,
+        \nSUPP_PAE_AUTHENTICATING = 4,
+        \nSUPP_PAE_AUTHENTICATED = 5,
+        \n/* unused(6) */
+        \nSUPP_PAE_HELD = 7,
+        \nSUPP_PAE_RESTART = 8,
+        \nSUPP_PAE_S_FORCE_AUTH = 9,
+        \nSUPP_PAE_S_FORCE_UNAUTH = 10\n
+    \} SUPP_PAE_state; /* dot1xSuppPaeState */
+	|Boolean userLogoff;
+    |Boolean logoffSent;
+    |unsigned int startCount;
+    |Boolean eapRestart;
+    |PortControl sPortMode;
+	|......
+
+
+	}"]
+	}
+	"struct i802_bss":drv->"struct wpa_driver_nl80211_data"[color=red];
+	subgraph cluster_struct_i802_bss{
+		label="struct i802_bss";
+		bgcolor="yellowgreen";
+		"struct i802_bss"[label="{
+			<drv>struct wpa_driver_nl80211_data *drv;
+    |struct i802_bss *next;
+    |int ifindex;
+    |int br_ifindex;
+    |u64 wdev_id;
+    |char ifname[IFNAMSIZ + 1];
+    |char brname[IFNAMSIZ];
+    |unsigned int beacon_set:1;
+    |unsigned int added_if_into_bridge:1;
+    |unsigned int added_bridge:1;
+    |unsigned int in_deinit:1;
+    |unsigned int wdev_id_set:1;
+    |unsigned int added_if:1;
+    |unsigned int static_ap:1;
+
+    |u8 addr[ETH_ALEN];
+
+    |int freq;
+    |int bandwidth;
+    |int if_dynamic;
+
+    |void *ctx;
+    |struct nl_handle *nl_preq, *nl_mgmt;
+    |struct nl_cb *nl_cb;
+
+    |struct nl80211_wiphy_data *wiphy_data;
+    |struct dl_list wiphy_list;
+		}"];
+	}
+
+	subgraph cluster_struct_nl80211_global{
+		label="struct nl80211_global";
+		"struct nl80211_global"[label="{
+		void *ctx;
+    |struct dl_list interfaces;
+    |int if_add_ifindex;
+    |u64 if_add_wdevid;
+    |int if_add_wdevid_set;
+    |struct netlink_data *netlink;
+    |struct nl_cb *nl_cb;
+    |struct nl_handle *nl;
+    |int nl80211_id;
+    |int ioctl_sock; /* socket for ioctl() use */
+    |struct nl_handle *nl_event;
+	}"];
+	}
+
+	"struct wpa_driver_nl80211_data":global->"struct nl80211_global"[color=red];
+	subgraph cluster_struct_wpa_driver_nl80211_data{
+		label="struct wpa_driver_nl80211_data";
+		"struct wpa_driver_nl80211_data"[label="{
+		<global>struct nl80211_global *global;
+    |struct dl_list list;
+    |struct dl_list wiphy_list;
+    |char phyname[32];
+    |unsigned int wiphy_idx;
+    |u8 perm_addr[ETH_ALEN];
+    |void *ctx;
+    |int ifindex;
+    |int if_removed;
+    |int if_disabled;
+    |int ignore_if_down_event;
+    |struct rfkill_data *rfkill;
+    |struct wpa_driver_capa capa;
+    |u8 *extended_capa, *extended_capa_mask;
+    |unsigned int extended_capa_len;
+    |int has_capability;
+
+    |int operstate;
+
+    |int scan_complete_events;
+	|enum scan_states \{\n
+        NO_SCAN, SCAN_REQUESTED, SCAN_STARTED, SCAN_COMPLETED,
+        \nSCAN_ABORTED, SCHED_SCAN_STARTED, SCHED_SCAN_STOPPED,
+        \nSCHED_SCAN_RESULTS
+    \} scan_state;
+	|u8 auth_bssid[ETH_ALEN];
+    |u8 auth_attempt_bssid[ETH_ALEN];
+    |u8 bssid[ETH_ALEN];
+    |u8 prev_bssid[ETH_ALEN];
+    |int associated;
+    |u8 ssid[SSID_MAX_LEN];
+    |size_t ssid_len;
+    |enum nl80211_iftype nlmode;
+    |enum nl80211_iftype ap_scan_as_station;
+    |unsigned int assoc_freq;
+
+    |int monitor_sock;
+    |int monitor_ifidx;
+    |int monitor_refcount;
+	|unsigned int disabled_11b_rates:1;
+    |unsigned int pending_remain_on_chan:1;
+    |unsigned int in_interface_list:1;
+    |unsigned int device_ap_sme:1;
+    |unsigned int poll_command_supported:1;
+    |unsigned int data_tx_status:1;
+    |unsigned int scan_for_auth:1;
+    |unsigned int retry_auth:1;
+    |unsigned int use_monitor:1;
+    |unsigned int ignore_next_local_disconnect:1;
+    |unsigned int ignore_next_local_deauth:1;
+    |unsigned int hostapd:1;
+    |unsigned int start_mode_ap:1;
+    |unsigned int start_iface_up:1;
+    |unsigned int test_use_roc_tx:1;
+    |unsigned int ignore_deauth_event:1;
+    |unsigned int vendor_cmd_test_avail:1;
+    |unsigned int roaming_vendor_cmd_avail:1;
+    |unsigned int dfs_vendor_cmd_avail:1;
+    |unsigned int have_low_prio_scan:1;
+    |unsigned int force_connect_cmd:1;
+    |unsigned int addr_changed:1;
+    |unsigned int get_features_vendor_cmd_avail:1;
+    |unsigned int set_rekey_offload:1;
+    |unsigned int p2p_go_ctwindow_supported:1;
+    |unsigned int setband_vendor_cmd_avail:1;
+    |unsigned int get_pref_freq_list:1;
+    |unsigned int set_prob_oper_freq:1;
+    |unsigned int scan_vendor_cmd_avail:1;
+    |unsigned int connect_reassoc:1;
+	
+	|......
+
+	}"];
+	}
+	
+	subgraph cluster_struct_rfkill_config{
+		label="struct rfkill_config";
+		bgcolor="pink";
+		"struct rfkill_config"[label="{
+			void *ctx;
+    |char ifname[IFNAMSIZ];
+    |void (*blocked_cb)(void *ctx);
+    |void (*unblocked_cb)(void *ctx);
+		}"];
+	}
+	subgraph cluster_struct_sk_buff{
+		label="struct sk_buff";
+		bgcolor="pink";
+		"struct sk_buff"[label=<
+			<table>
+				<tr>
+					<td>
+						<table>
+						<tr>
+						<td>struct sk_buff  *next</td>
+						</tr>
+						<tr>
+						<td> struct sk_buff  *prev</td>
+						</tr>
+						<tr>
+							<td>
+								ktime_t     tstamp
+							</td>
+							<td>
+								struct skb_mstamp skb_mstamp
+							</td>
+						</tr>
+						</table>
+					</td>
+					<td>
+						struct rb_node rbnode----tcp stack
+					</td>
+				</tr>
+				<tr><td>struct sock     *sk</td></tr>
+				<tr><td>struct net_device   *dev</td></tr>
+				<tr><td>char   cb[48] __aligned(8)</td></tr>
+				<tr><td>............</td></tr>
+				<tr><td>sk_buff_data_t      tail</td></tr>
+				<tr><td>sk_buff_data_t      end</td></tr>
+				<tr><td>unsigned char       *head</td></tr>
+				<tr><td>unsigned char  *data</td></tr>
+				<tr><td>............</td></tr>
+			</table>
+		>];
+	}
+
+	"struct sock":recv_queue->"struct sk_buff"[color=red];
+	"struct netlink_sock":sock->"struct sock"[color=blue];
+
+	subgraph cluster_struct_netlink_sock{
+		label="struct netlink_sock";
+		"struct netlink_sock"[label="{
+			<sock>struct sock     sk
+    |u32         portid
+    |u32         dst_portid
+    |u32         dst_group
+    |u32         flags
+    |u32         subscriptions
+    |u32         ngroups
+    |unsigned long       *groups
+    |unsigned long       state
+    |size_t          max_recvmsg_len
+    |wait_queue_head_t   wait
+    |bool            bound
+    |bool            cb_running
+    |struct netlink_callback cb
+    |struct mutex        *cb_mutex
+    |struct mutex        cb_def_mutex
+	|void            (*netlink_rcv)(struct sk_buff *skb)
+    |int         (*netlink_bind)(struct net *net, int group)
+    |void            (*netlink_unbind)(struct net *net, int group)
+    |struct module       *module
+	|struct mutex        pg_vec_lock
+    |struct netlink_ring rx_ring
+    |struct netlink_ring tx_ring
+    |atomic_t        mapped
+	|struct rhash_head   node
+    |struct rcu_head     rcu
+		}"];
+	}
+
+	subgraph cluster_struct_sock{
+		label="struct sock";
+		bgcolor="yellow";
+		"struct sock"[label="{
+			<common>struct sock_common  __sk_common
+			|..........
+			|socket_lock_t   sk_lock
+			|<recv_queue>struct sk_buff_head sk_receive_queue--进入的数据包队列
+			|struct \{\n
+			atomic_t    rmem_alloc\n
+			int     len\n
+			struct sk_buff  *head\n
+			struct sk_buff  *tail\n
+			\}sk_backlog\n
+			|int         sk_forward_alloc
+			|__u32           sk_txhash--在发送的时候使用的经过计算的flow hash值
+			|unsigned int        sk_napi_id--上一个接收数据包的napi的上下文的id号
+			|unsigned int        sk_ll_usec--当没有数据的时候，轮询的微秒数
+			|atomic_t        sk_drops
+			|int         sk_rcvbuf--接收缓冲区的大小按字节记录
+			|struct sk_filter __rcu  *sk_filter--套接字过滤指令
+			|union \{\n
+			struct socket_wq __rcu  *sk_wq--套接字等待队列和异步队列头\n
+			struct socket_wq    *sk_wq_raw\n
+			\}\n
+			|struct dst_entry    *sk_rx_dst--由早期的demux使用的输入路由
+			|struct dst_entry __rcu  *sk_dst_cache--目的地缓存
+			|int         sk_sndbuf--发送缓冲区的大小
+			|struct sk_buff_head sk_write_queue--发送包队列
+			|unsigned int        sk_shutdown--SEND_SHUTDOWN和RCV_SHUTDOWN的掩码
+			|unsigned int        sk_no_check_tx--SO_NO_CHECK设置，在tx数据包当中设置校验和
+			|unsigned int        sk_no_check_rx--在rx数据包当中允许0校验和
+			|unsigned int        sk_userlocks--SO_SNDBUF和SO_RCVBUF设置
+			|unsigned int        sk_protocol--在当前的网络族中当前的sock所属的协议
+			|unsigned int        sk_type--套接字的类型，比如SOCK_STREAM
+			|int         sk_wmem_queued--持久队列的大小
+			|gfp_t           sk_allocation--allocation模式
+			|u32         sk_pacing_rate
+			|u32         sk_max_pacing_rate
+			|int         sk_gso_type--GSO的类型一种分片方式
+			|unsigned int        sk_gso_max_size--最大的GSO分片大小
+			|u16         sk_gso_max_segs--最大的GSO分片数目
+			|int         sk_rcvlowat--跟SO_RCVLOWAT相关的设定
+			|unsigned long           sk_lingertime--SO_LINGER的设置超时时间,指定面向连接的close的操作模式
+			|struct sk_buff_head sk_error_queue
+			|struct proto        *sk_prot_creator
+			|rwlock_t        sk_callback_lock
+			|int         sk_err，sk_err_soft
+			|u32         sk_ack_backlog--当前监听的backlog
+			|u32         sk_max_ack_backlog
+			|__u32           sk_priority
+			|__u32           sk_cgrp_prioidx--套接字组的优先级映射索引需要开启net cgroup功能
+			|struct pid      *sk_peer_pid
+			|const struct cred   *sk_peer_cred--跟SO_PEERCRED有关的设定
+			|long            sk_rcvtimeo--跟SO_RCVTIMEO相关的设定
+			|long            sk_sndtimeo--跟SO_SNDTIMEO相关的设定
+			|struct timer_list   sk_timer--套接字清理定时器
+			|ktime_t         sk_stamp--接收上一个数据包的时候的时间戳
+			|u16         sk_tsflags--SO_TIMESTAMPING选项设置
+			|u32         sk_tskey--用于消除并发的tstamp请求的计数器
+			|struct socket       *sk_socket--标识和报告IO信号
+			|void            *sk_user_data--RPC层的私有数据
+			|struct page_frag    sk_frag--缓存的page frag
+			|struct sk_buff      *sk_send_head--传输前的一些数据
+			|__s32           sk_peek_off
+			|int         sk_write_pending
+			|__u32           sk_mark--通用的packet mark
+			|u32         sk_classid--该套接字的cgroup classid
+			|struct cg_proto     *sk_cgrp--跟该套接字相关的cgroup 协议具体的数据
+			|void   (*sk_state_change)(struct sock *sk)\n
+			套接字状态改变的回调函数
+			|void            (*sk_data_ready)(struct sock *sk)\n
+			表明有数据处理时的回调函数
+			|void            (*sk_write_space)(struct sock *sk)\n
+			表明有发送空间时的回调函数
+			|void            (*sk_error_report)(struct sock *sk)\n
+			表示有错误发生时的回调函数
+			|int         (*sk_backlog_rcv)(struct sock *sk,struct sk_buff *skb)\n
+			用于处理backlog发生时的回调函数
+			|void                    (*sk_destruct)(struct sock *sk)\n
+			当sock被释放的时候的回调函数
+
+		}"];
+	}
+	"struct sock":common->"struct sock_common"[color=red];
+
+	subgraph cluster_struct_sock_common{
+		label="struct sock_common";
+		bgcolor="pink";
+		"struct sock_common"[label="{
+	    		union \{\n
+				__addrpair  skc_addrpair\n
+				struct \{\n
+				__be32  skc_daddr....外部的ipv4地址\n
+				__be32  skc_rcv_saddr...绑定过的本地ipv4地址..\n
+				\}\n
+				\}
+		  |union \{\n
+			unsigned int    skc_hash...哈希值，用于各种协议查找表..\n
+			 __u16       skc_u16hashes\[2\]...两个16位的哈希值，用于udp查找表..\n
+			 \}\n
+		  |union \{\n
+			__portpair  skc_portpair\n
+			struct \{\n
+			__be16  skc_dport...inet_dport和tw_dport的占位符\n
+			 __u16   skc_num---inet_num和tw_num的占位符\n
+			\}
+			\}
+		|unsigned short      skc_family--网络地址族
+		|volatile unsigned char  skc_state--连接状态
+		|unsigned char       skc_reuse--SO_REUSEADDR设置
+		|unsigned char       skc_reuseport--SO_REUSEPORT设置
+		|unsigned char       skc_ipv6only
+		|unsigned char       skc_net_refcnt
+		|int         skc_bound_dev_if--绑定的设置的索引
+		|union \{\n
+		struct hlist_node   skc_bind_node--用于各种协议查找表的哈兮链表\n
+		struct hlist_nulls_node skc_portaddr_node--用于UDP或UDP-Lite协议的第二哈希链表\n
+		\}
+		|struct proto        *skc_prot--网络协议族的句柄
+		| possible_net_t      skc_net--该套接子的网络命名空间的指针
+		|atomic64_t      skc_cookie
+		|union \{\n
+		unsigned long   skc_flags--sk_flags的占位符SO_LINGER SO_BROADCAST SO_KEEPALIVE SO_OOBINLINE SO_TIMESTAMPING\n
+		struct sock *skc_listener\n
+		struct inet_timewait_death_row *skc_tw_dr\n
+		\}
+		|int         skc_dontcopy_begin\[0\]
+		|union \{
+			struct hlist_node   skc_node--用于各种协议查找表的哈希链表\n
+			struct hlist_nulls_node skc_nulls_node--针对TCP UDP UDP-Lite的住哈希链表\n
+		\}
+		|int         skc_tx_queue_mapping--针对该连接的tx队列的数目
+		|union \{\n
+		int     skc_incoming_cpu--记录或者是匹配cpu正在处理的数据包\n
+		u32     skc_rcv_wnd\n
+		u32     skc_tw_rcv_nxt\n
+		\}
+		|atomic_t        skc_refcnt--引用计数
+		|int  skc_dontcopy_end\[0\]
+		|union \{\n
+		u32     skc_rxhash\n
+		u32     skc_window_clamp\n
+		u32     skc_tw_snd_nxt\n
+		\}
+
+	
+	
+	}"];
+	}
+
+}
