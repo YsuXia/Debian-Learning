@@ -30,7 +30,7 @@ digraph libnl{
 	subgraph cluster_struct_nl_cache{
 		label="struct nl_cache";
 		"struct nl_cache"[label="{
-			struct nl_list_head c_items
+			<items>struct nl_list_head c_items--可以找到genl_family
     |int         c_nitems
     |int                     c_iarg1
     |int                     c_iarg2
@@ -39,6 +39,7 @@ digraph libnl{
 	}
 
 	"struct nl_cache":ops->"struct nl_cache_ops"[color=blue];
+	"struct nl_cache":items->"struct genl_family":ce_list[color=blue];
 
 	subgraph cluster_struct_nl_cache_ops{
 		label="struct nl_cache_ops";
@@ -59,13 +60,26 @@ digraph libnl{
 		}"];
 	}
 
+	subgraph cluster_struct_nl_object{
+		label="struct nl_object";
+		"struct nl_object"[label="{
+			int         ce_refcnt
+			|struct nl_object_ops *  ce_ops
+			|struct nl_cache *   ce_cache
+			|struct nl_list_head ce_list
+			|int         ce_msgtype
+			|int         ce_flags
+			|uint32_t    ce_mask
+		}"];
+	}
+
 	subgraph cluster_struct_genl_family{
 		label="struct genl_family";
 		"struct genl_family"[label="{
 		int         ce_refcnt
     |struct nl_object_ops *  ce_ops
     |<cache>struct nl_cache *   ce_cache
-    |struct nl_list_head ce_list
+    |<ce_list>struct nl_list_head ce_list
     |int         ce_msgtype
     |int         ce_flags
     |uint32_t        ce_mask

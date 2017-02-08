@@ -1,0 +1,54 @@
+digraph libnl{
+	node[shape=record];
+	subgraph cluster_struct_sdio_func{
+		label="struct sdio_func";
+		"struct sdio_func"[label="{
+	struct mmc_card     *card----the card this device belongs to
+    |struct device       dev----the device
+    |sdio_irq_handler_t  *irq_handler-----IRQ callback
+    |unsigned int        num----function number
+    |unsigned char       class-----standard interface class
+    |unsigned short      vendor------vendor id
+    |unsigned short      device------device id
+    |unsigned        max_blksize------maximum block size
+    |unsigned        cur_blksize------current block size
+    |unsigned        enable_timeout-----max enable timeout in msec
+    |unsigned int        state----function state
+    |u8          tmpbuf[4]-----DMA able scratch buffer
+    |unsigned        num_info-----number of info strings
+    |const char      **info------info strings
+    |struct sdio_func_tuple *tuples
+		}"];
+	}
+
+	subgraph cluster_struct_sdioh_info{
+		label="struct sdioh_info";
+		"struct sdioh_info"[label="{
+		osl_t       *osh------osh handler
+    void        *bcmsdh------upper layer handle
+    bool        client_intr_enabled-----interrupt connnected flag
+    bool        intr_handler_valid---client driver interrupt handler valid
+    sdioh_cb_fn_t   intr_handler---registered interrupt handler
+    void        *intr_handler_arg---argument to call interrupt handler
+    uint16      intmask----Current active interrupts
+
+    int     intrcount---Client interrupts
+    bool        sd_use_dma----DMA on CMD53
+    bool        sd_blockmode----sd_blockmode == FALSE => 64 Byte Cmd 53s
+                        \nMust be on for sd_multiblock to be effective
+    bool        use_client_ints---If this is false, make sure to restore
+    int     sd_mode---SD1/SD4/SPI
+    int     client_block_size[SDIOD_MAX_IOFUNCS];       /* Blocksize */
+    uint8       num_funcs;      /* Supported funcs on client */
+    uint32      com_cis_ptr;
+    uint32      func_cis_ptr[SDIOD_MAX_IOFUNCS];
+    bool        use_rxchain;
+    struct scatterlist  sg_list[SDIOH_SDMMC_MAX_SG_ENTRIES];
+    struct sdio_func    fake_func0;
+    struct sdio_func    *func[SDIOD_MAX_IOFUNCS];
+
+    uint    txglom_mode;        /* Txglom mode: 0 - copy, 1 - multi-descriptor */
+
+	}"];
+	}
+}
