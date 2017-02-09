@@ -7497,7 +7497,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1486555638330" POSITION="right" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1471313923568" ID="ID_984050240" MODIFIED="1486619253517" POSITION="right" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471313935648" ID="ID_52548290" MODIFIED="1486555598614">
 <richcontent TYPE="NODE"><html>
@@ -7771,7 +7771,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1486555619698" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+<node CREATED="1475896151069" ID="ID_1362020755" MODIFIED="1486626654107" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475999878646" ID="ID_1055025927" MODIFIED="1482849695873">
 <richcontent TYPE="NODE"><html>
@@ -7785,7 +7785,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475999888353" FOLDED="true" ID="ID_803433592" MODIFIED="1486555599173" TEXT="suspend&#x8fc7;&#x7a0b;">
+<node CREATED="1475999888353" ID="ID_803433592" MODIFIED="1486626662151" TEXT="suspend&#x8fc7;&#x7a0b;">
 <node CREATED="1475999900201" ID="ID_1184571104" MODIFIED="1476064570971">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8128,7 +8128,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1483238846872" FOLDED="true" ID="ID_1084913528" MODIFIED="1486555598620" TEXT="suspend&#x4ee3;&#x7801;&#x5206;&#x6790;">
+<node CREATED="1483238846872" ID="ID_1084913528" MODIFIED="1486626665082" TEXT="suspend&#x4ee3;&#x7801;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1483349770591" ID="ID_354720761" MODIFIED="1483349790780" TEXT="1.suspend&#x6d41;&#x7a0b;&#x56fe;&#xff0c;&#x89c1;UML&#x6587;&#x4ef6;"/>
 <node CREATED="1483349794935" ID="ID_1784812268" MODIFIED="1483350006146">
@@ -8176,7 +8176,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483282137541" FOLDED="true" ID="ID_1687444721" MODIFIED="1486555599173" TEXT="/sys/power/wakeup_count">
+<node CREATED="1483282137541" ID="ID_1687444721" MODIFIED="1486626687719" TEXT="/sys/power/wakeup_count">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1483282174502" ID="ID_820863831" MODIFIED="1483328734873">
 <richcontent TYPE="NODE"><html>
@@ -11201,8 +11201,7 @@
       &#20840;&#36895;&#27169;&#24335;&#30340;&#25968;&#25454;&#20256;&#36755;&#36895;&#29575;&#21487;&#20197;&#36229;&#36807;100Mb/s
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
