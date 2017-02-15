@@ -1618,7 +1618,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1435560325020" ID="ID_1852650945" MODIFIED="1482911182799" POSITION="left" TEXT="&#x97f3;&#x9891;&#x7cfb;&#x7edf;">
+<node CREATED="1435560325020" FOLDED="true" ID="ID_1852650945" MODIFIED="1487039177621" POSITION="left" TEXT="&#x97f3;&#x9891;&#x7cfb;&#x7edf;">
 <node CREATED="1435560344479" ID="ID_1409256327" MODIFIED="1435560375290" TEXT="1.Framework&#x670d;&#x52a1;AudioManager"/>
 <node CREATED="1435560386479" ID="ID_1058672613" MODIFIED="1435560396295" TEXT="2.&#x672c;&#x5730;&#x670d;&#x52a1;AudioFlinger"/>
 <node CREATED="1435560410432" ID="ID_1148366396" MODIFIED="1435560417854" TEXT="3.&#x62bd;&#x8c61;&#x5c42;ALSAHAL"/>
@@ -1842,38 +1842,6 @@
   </body>
 </html></richcontent>
 </node>
-</node>
-</node>
-<node CREATED="1470644180506" ID="ID_1771369128" MODIFIED="1482911182859" POSITION="left" TEXT="ap6234&#x82af;&#x7247;datasheet&#x9605;&#x8bfb;">
-<node CREATED="1470644230698" ID="ID_1153262216" MODIFIED="1470644981492">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      1.&#31532;13&#21495;&#24341;&#33050;WL_REG_ON
-    </p>
-    <p>
-      &#20869;&#37096;&#31283;&#21387;&#30005;&#28304;&#20351;&#33021;&#24341;&#33050;&#65292;&#25511;&#21046;wlan&#30340;&#27169;&#22359;&#30340;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1470644735554" ID="ID_907595600" MODIFIED="1470644802590">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      2.&#31532;34&#21495;&#24341;&#33050;BT_RST_N
-    </p>
-    <p>
-      &#34013;&#29273;&#26680;&#24515;&#27169;&#22359;&#20302;&#30005;&#20301;&#26377;&#25928;&#22797;&#20301;&#24341;&#33050;
-    </p>
-  </body>
-</html></richcontent>
 </node>
 </node>
 <node CREATED="1470710623566" ID="ID_1118439170" MODIFIED="1486605727649" POSITION="right" TEXT="Linux&#x84dd;&#x7259;&#x9a71;&#x52a8;&#x548c;bluez&#x4f7f;&#x7528;">
@@ -4496,8 +4464,7 @@
       &#29366;&#24577;&#19979;&#38754;&#23436;&#20840;&#20851;&#38381;radio&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1486707091990" ID="ID_8040713" MODIFIED="1486707362300">
 <richcontent TYPE="NODE"><html>
@@ -4518,8 +4485,7 @@
       hid host&#27809;&#26377;&#24110;&#21161;&#30340;&#30005;&#36335;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1486707368923" ID="ID_1270677732" MODIFIED="1486707649143">
 <richcontent TYPE="NODE"><html>
@@ -4546,8 +4512,7 @@
       hid host&#21487;&#20197;&#20027;&#21160;&#22320;&#26029;&#24320;&#35813;&#35774;&#22791;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1486708194933" ID="ID_531520326" MODIFIED="1486708252607">
 <richcontent TYPE="NODE"><html>
@@ -4562,8 +4527,7 @@
       <b><i>&#31995;&#32479;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1486708585866" ID="ID_1357592901" MODIFIED="1486708666752">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4580,8 +4544,7 @@
       &#21487;&#33021;&#20250;&#20241;&#30496;&#24456;&#38271;&#30340;&#19968;&#27573;&#26102;&#38388;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5688,7 +5651,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476337707048" ID="ID_259942704" MODIFIED="1482911183027" POSITION="left">
+<node CREATED="1476337707048" ID="ID_259942704" MODIFIED="1487131093189" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8746,6 +8709,74 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1487039187302" ID="ID_1900448817" MODIFIED="1487039201141" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1470644180506" FOLDED="true" ID="ID_811862480" MODIFIED="1487039239523" TEXT="ap6234&#x82af;&#x7247;datasheet&#x9605;&#x8bfb;">
+<node CREATED="1470644230698" ID="ID_619733051" MODIFIED="1470644981492">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#31532;13&#21495;&#24341;&#33050;WL_REG_ON
+    </p>
+    <p>
+      &#20869;&#37096;&#31283;&#21387;&#30005;&#28304;&#20351;&#33021;&#24341;&#33050;&#65292;&#25511;&#21046;wlan&#30340;&#27169;&#22359;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1470644735554" ID="ID_1469490488" MODIFIED="1470644802590">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2.&#31532;34&#21495;&#24341;&#33050;BT_RST_N
+    </p>
+    <p>
+      &#34013;&#29273;&#26680;&#24515;&#27169;&#22359;&#20302;&#30005;&#20301;&#26377;&#25928;&#22797;&#20301;&#24341;&#33050;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1487039244587" ID="ID_258433070" MODIFIED="1487039769954">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ap6356
+    </p>
+    <p>
+      &#35813;&#33455;&#29255;&#21644;IEEE 802.11 a/b/g/n/ac 2x2 MIMO&#26631;&#20934;&#20860;&#23481;
+    </p>
+    <p>
+      wifi&#27169;&#22359;&#25903;&#25345;PCIe/SDIO&#25509;&#21475;
+    </p>
+    <p>
+      bt&#27169;&#22359;&#25903;&#25345;uart/pcm&#25509;&#21475;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1487039775736" ID="ID_891575910" MODIFIED="1487039783611">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bt-wifi-soc/ap6356.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
