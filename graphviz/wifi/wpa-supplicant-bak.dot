@@ -794,6 +794,72 @@ digraph bluedroid{
 		}"];
 	}
 
+	subgraph cluster_struct_scm_cookie{
+		label="struct scm_cookie";
+		"struct scm_cookie"[label="{
+			struct pid      *pid
+			|<fp>struct scm_fp_list  *fp
+			|<cred>struct scm_creds    creds
+			|u32         secid
+		}"];
+	}
+	"struct scm_cookie":cred->"struct scm_creds"[color=blue];
+	subgraph cluster_struct_scm_creds{
+		label="struct scm_creds";
+		"struct scm_creds"[label="{
+		 u32 pid
+    	|kuid_t  uid
+    	|kgid_t  gid	
+	}"];
+	}
+
+	"struct scm_cookie":fp->"struct scm_fp_list"[color=blue];
+
+	subgraph cluster_struct_scm_fp_list{
+		label="struct scm_fp_list";
+		"struct scm_fp_list"[label="{
+		 short           count
+    	|short           max
+    	|struct user_struct  *user
+    	|<file>struct file     *fp[SCM_MAX_FD]
+		}"];
+	}
+
+	subgraph cluster_struct_cmsghdr{
+		label="struct cmsghdr";
+		"struct cmsghdr"[label="{
+			 __kernel_size_t cmsg_len
+			 |int     cmsg_level
+			 |int     cmsg_type\ntype不同，cmsg后面的data部分也是不同的
+			|****可能是一个cmsghdr数组
+		}"];
+	}
+
+	subgraph cluster_struct_msghdr{
+		label="struct msghdr";
+		bgcolor="purple";
+		"struct msghdr"[label="{
+		void        *msg_name
+    	|int     msg_namelen
+    	|struct iov_iter msg_iter
+    	|<control>void        *msg_control
+    	|__kernel_size_t msg_controllen
+    	|unsigned int    msg_flags
+    	|struct kiocb    *msg_iocb
+		}"];
+	}
+	"struct msghdr":control->"struct cmsghdr"[color=red];
+
+	subgraph cluster_struct_sockaddr_nl{
+		label="struct sockaddr_nl";
+		"struct sockaddr_nl"[label="{
+		 __kernel_sa_family_t    nl_family
+    	|unsigned short  nl_pad
+    	|__u32       nl_pid---port ID
+    	|__u32       nl_groups---multicast groups mask
+	}"];
+	}
+
 	subgraph cluster_struct_sock{
 		label="struct sock";
 		bgcolor="yellow";
