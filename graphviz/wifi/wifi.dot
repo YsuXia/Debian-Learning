@@ -5,7 +5,7 @@ digraph wifi{
 		label="struct ieee80211_local";
 		"struct ieee80211_local"[label="{
 			struct ieee80211_hw hw ***暴露给底层****
-			|const struct ieee80211_ops *ops
+			|const struct ieee80211_ops *ops****驱动暴露给mac80211层的***
 			|struct workqueue_struct *workqueue
 			|unsigned long queue_stop_reasons[IEEE80211_MAX_QUEUES]
 			|int q_stop_reasons[IEEE80211_MAX_QUEUES][IEEE80211_QUEUE_STOP_REASONS]
@@ -54,6 +54,24 @@ digraph wifi{
 			|......
 			|struct work_struct tdls_chsw_work
 			|struct sk_buff_head skb_queue_tdls_chsw
+		}"];
+	}
+
+	subgraph cluster_struct_iwl_mvm{
+		label="struct iwl_mvm";
+		"struct iwl_mvm"[label="{
+			struct device *dev;
+    |struct iwl_trans *trans;
+    |const struct iwl_fw *fw;
+    |const struct iwl_cfg *cfg;
+    |struct iwl_phy_db *phy_db;
+    |struct ieee80211_hw *hw;
+    |struct mutex mutex;
+    |struct list_head async_handlers_list;
+    |spinlock_t async_handlers_lock;
+    |struct work_struct async_handlers_wk;
+    |struct work_struct roc_done_wk;
+	|........
 		}"];
 	}
 }
