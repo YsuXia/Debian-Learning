@@ -6179,8 +6179,7 @@
       &#20351;&#24471;&#26080;&#32447;Wi-Fi&#33021;&#22815;&#22312;&#23433;&#20840;&#24615;&#26041;&#38754;&#36798;&#21040;&#20225;&#19994;&#32423;&#29992;&#25143;&#30340;&#38656;&#27714;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1478593289930" ID="ID_1884029507" MODIFIED="1478593364748">
@@ -6280,6 +6279,31 @@
     1. wpa_cli &#24037;&#20855;&#21487;&#20197;&#26174;&#31034;&#24403;&#21069;wifi&#30340;&#27169;&#24335;&#29366;&#24577; 2. hostapd /data/misc/wifi/hostapd.conf&#160; &#21551;&#21160;hostap&#21518;&#21488;
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1487645617002" ID="ID_1097251120" MODIFIED="1487768044522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      supplicant&#21629;&#20196;&#34892;&#25805;&#20316;:
+    </p>
+    <p>
+      1.&#36830;&#25509;&#21040;AP
+    </p>
+    <p>
+      wpa_supplicant -i wlan0 -c ap.conf
+    </p>
+    <p>
+      2.&#33719;&#24471;IP&#22320;&#22336;
+    </p>
+    <p>
+      dhcpcd wlan0
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1479894956954" ID="ID_706981663" MODIFIED="1483358712863" TEXT="wifi&#x603b;&#x4f53;&#x67b6;&#x6784;&#x56fe;">
@@ -6539,7 +6563,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1482385494062" FOLDED="true" ID="ID_783307510" MODIFIED="1484548753989">
+<node CREATED="1482385494062" ID="ID_783307510" MODIFIED="1487645589919">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8841,8 +8865,7 @@
       <i><font color="#f00b0b">4.900 GHz ~ 5.845 GHz (5.0 GHz ISM Band)</font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
