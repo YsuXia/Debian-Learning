@@ -45,7 +45,7 @@ digraph bluedroid{
 		bgcolor=tan;
 		"struct wpa_global"[label="{
 	|<ifaces>struct wpa_supplicant *ifaces;
-    |struct wpa_params params;
+    |<params>struct wpa_params params;
     |<ctrl_iface>struct ctrl_iface_global_priv *ctrl_iface;
     |struct wpas_dbus_priv *dbus;
     |struct wpas_binder_priv *binder;
@@ -74,14 +74,17 @@ digraph bluedroid{
     |struct psk_list_entry *add_psk;
 		}"];
 	}
+	"struct wpa_global":params->"struct wpa_params"[color=purple];
 	"struct wpa_global":ctrl_iface->"struct ctrl_iface_global_priv"[color=blue];
 	subgraph cluster_struct_ctrl_iface_global_priv{
 		label="struct ctrl_iface_global_priv";
 		bgcolor=pink;
 		"struct ctrl_iface_global_priv"[label="{
-			 int sock;
+			 int sock---unix
     		|struct wpa_ctrl_dst *ctrl_dst;
-    		|u8 cookie[COOKIE_LEN]
+    		|int android_control_socket
+			|struct dl_list msg_queue
+			|unsigned int throttle_count
 		}"];
 	}
 
@@ -126,9 +129,9 @@ digraph bluedroid{
     \nint kqueue_nevents;
     \nstruct kevent *kqueue_events;
 \n#endif
-    |struct eloop_sock_table readers;
-    |struct eloop_sock_table writers;
-    |struct eloop_sock_table exceptions;
+    |<reader>struct eloop_sock_table readers;
+    |<writer>struct eloop_sock_table writers;
+    |<exception>struct eloop_sock_table exceptions;
     |struct dl_list timeout;
     |int signal_count;
     |struct eloop_signal *signals;
@@ -137,6 +140,10 @@ digraph bluedroid{
     |int terminate;
 		}"];
 	}
+
+	"struct eloop_data":reader->"struct eloop_sock_table"[color=purple];
+	"struct eloop_data":writer->"struct eloop_sock_table"[color=purple];
+	"struct eloop_data":exception->"struct eloop_sock_table"[color=purple];
 
 	subgraph cluster_struct_eloop_sock_table{
 		label="struct eloop_sock_table";
