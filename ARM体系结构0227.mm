@@ -11,8 +11,8 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#0a08ab" CREATED="1432112956357" FOLDED="true" ID="ID_751123708" MODIFIED="1471850891193" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0;&#xff1a;ARM&#x6307;&#x4ee4;&#x5206;&#x7c7b;&#x53ca;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
-<node CREATED="1432112956357" ID="ID_240060230" MODIFIED="1468809783783" TEXT="ARM&#x6307;&#x4ee4;&#x53ef;&#x4ee5;&#x5206;&#x4e3a;6&#x7c7b;">
+<node COLOR="#0a08ab" CREATED="1432112956357" ID="ID_751123708" MODIFIED="1488165233986" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0;&#xff1a;ARM&#x6307;&#x4ee4;&#x5206;&#x7c7b;&#x53ca;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
+<node CREATED="1432112956357" ID="ID_240060230" MODIFIED="1488165233991" TEXT="ARM&#x6307;&#x4ee4;&#x53ef;&#x4ee5;&#x5206;&#x4e3a;6&#x7c7b;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -37,7 +37,8 @@
       6.&#24322;&#24120;&#20013;&#26029;&#20135;&#29983;&#25351;&#20196;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1432112956357" ID="ID_1325694403" MODIFIED="1471445804386">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6457,7 +6458,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1479562887410" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
+<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1488165454315" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471275813283" FOLDED="true" ID="ID_545263273" MODIFIED="1474811443087" TEXT="1.&#x6307;&#x4ee4;cache&#x548c;&#x6570;&#x636e;cache">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -6788,7 +6789,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473579425727" FOLDED="true" ID="ID_183642504" MODIFIED="1474811449390">
+<node CREATED="1473579425727" FOLDED="true" ID="ID_183642504" MODIFIED="1488165452683">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6930,8 +6931,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1483440898336" ID="ID_960133668" MODIFIED="1483440931297">
 <richcontent TYPE="NODE"><html>
@@ -6943,8 +6943,7 @@
       <b><i>1.&#23450;&#26102;&#22120;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1483440936764" ID="ID_1462078647" MODIFIED="1483442634982">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6982,8 +6981,7 @@
       &#21457;&#29983;&#30340;&#26102;&#20505;&#25165;&#20250;&#30495;&#27491;&#36215;&#20316;&#29992;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1483442638546" ID="ID_1077607576" MODIFIED="1483443024289">
 <richcontent TYPE="NODE"><html>
@@ -7007,9 +7005,45 @@
       &#20869;&#37096;&#35302;&#21457;&#36755;&#20837;&#65306;ITRx----&gt; &#20351;&#29992;&#19968;&#20010;&#23450;&#26102;&#22120;&#20316;&#20026;&#21478;&#19968;&#20010;&#23450;&#26102;&#22120;&#30340;&#20998;&#39057;&#36755;&#20837;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1488165252952" ID="ID_152338568" MODIFIED="1488165262080" POSITION="right" TEXT="ARMV8-a">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1488165456780" ID="ID_875061242" MODIFIED="1488166513345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#20027;&#35201;&#30340;&#26032;&#29305;&#24615;
+    </p>
+    <p>
+      a)&#22686;&#21152;&#20102;&#19968;&#22871;64bit&#30340;&#25351;&#20196;&#38598;&#65292;&#31616;&#31216;&#20026;A64
+    </p>
+    <p>
+      b)&#21521;&#21069;&#20860;&#23481;32bit&#30340;&#25351;&#20196;&#38598;&#65292;&#31616;&#31216;&#20026;A32&#21644;T32
+    </p>
+    <p>
+      c)&#23450;&#20041;&#20102;AArch64&#21644;AArch32&#20004;&#22871;&#36816;&#34892;&#29615;&#22659;(Execution State)
+    </p>
+    <p>
+      &#36719;&#20214;&#22312;&#38656;&#35201;&#30340;&#26102;&#20505;&#21487;&#20197;&#33258;&#30001;&#20999;&#25442;
+    </p>
+    <p>
+      d)&#20351;&#29992;&#20102;&#26032;&#30340;&#27010;&#24565;&#65292;exception level
+    </p>
+    <p>
+      e)&#22312;ARMv7 security extention&#30340;&#22522;&#30784;&#19978;&#65292;&#26032;&#22686;&#20102;security model
+    </p>
+    <p>
+      f)&#22312;ARMv7 vitualization extention&#30340;&#22522;&#30784;&#19978;&#65292;&#25552;&#20379;&#20102;&#23436;&#25972;&#30340;vitualization&#26694;&#26550;
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 </node>
