@@ -1901,7 +1901,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473497667298" ID="ID_67937435" MODIFIED="1488210255419">
+<node CREATED="1473497667298" FOLDED="true" ID="ID_67937435" MODIFIED="1488551458646">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2495,7 +2495,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479047279336" ID="ID_712481540" MODIFIED="1488209249431">
+<node CREATED="1479047279336" FOLDED="true" ID="ID_712481540" MODIFIED="1488551452019">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2681,6 +2681,18 @@
     </p>
     <p>
       <font color="#de0505"><i>&#30340;&#23439;&#23450;&#20041;&#30340;&#22320;&#26041;</i></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1488471234170" ID="ID_182499363" MODIFIED="1488471296002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>init_fnc_t init_sequence_r[]&#20989;&#25968;&#32452;&#20998;&#26512;</b>
     </p>
   </body>
 </html></richcontent>
@@ -7408,8 +7420,7 @@
       &#20855;&#26377;&#19968;&#20010;&#21516;&#27493;&#33455;&#29255;&#29992;&#20110;&#21516;&#27493;&#23450;&#26102;&#22120;&#21644;&#22806;&#37096;&#30340;&#36755;&#20837;&#20449;&#21495;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1488536213970" ID="ID_873873858" MODIFIED="1488536310503">
 <richcontent TYPE="NODE"><html>
@@ -7439,8 +7450,7 @@
       &#8211; Output compare
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1488545375354" ID="ID_1549808601" MODIFIED="1488546613397">
@@ -7471,8 +7481,7 @@
       CCxOF&#38656;&#35201;&#25105;&#20204;&#25163;&#21160;&#36827;&#34892;&#28165;&#38646;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1488529569143" ID="ID_25559331" MODIFIED="1488529576497" TEXT="ICM20603">
@@ -7507,8 +7516,7 @@
       FIFO_MODE&#34987;&#32622;&#20301;&#65292;&#37027;&#20040;&#26032;&#30340;&#25968;&#25454;&#20250;&#34987;&#25918;&#20837;fifo&#24403;&#20013;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
