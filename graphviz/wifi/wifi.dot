@@ -1,10 +1,12 @@
 digraph wifi{
 	node[shape=record];
 
+	"struct ieee80211_local":hw->"iwl_mvm_hw_ops"[arrowhead=none color=red];
 	subgraph cluster_struct_ieee80211_local{
+		bgcolor="pink";
 		label="struct ieee80211_local";
 		"struct ieee80211_local"[label="{
-			struct ieee80211_hw hw ***暴露给底层****
+			|<hw>struct ieee80211_hw hw ***暴露给底层****
 			|const struct ieee80211_ops *ops****驱动暴露给mac80211层的***
 			|struct workqueue_struct *workqueue
 			|unsigned long queue_stop_reasons[IEEE80211_MAX_QUEUES]
@@ -74,4 +76,138 @@ digraph wifi{
 	|........
 		}"];
 	}
+
+	subgraph cluster_struct_iwl_op_mode{
+		label="struct iwl_op_mode";
+		"struct iwl_op_mode"[label="{
+			|<ops>const struct iwl_op_mode_ops *ops
+		    |char op_mode_specific[0]
+		}"];
+	}
+"struct iwl_op_mode":ops->"struct iwl_op_mode_ops"[color=purple];
+	subgraph cluster_struct_iwl_op_mode_ops{
+		label="struct iwl_op_mode_ops";
+		"struct iwl_op_mode_ops"[label="{
+			struct iwl_op_mode *(*start)(struct iwl_trans *trans,
+					\nconst struct iwl_cfg *cfg,
+					\nconst struct iwl_fw *fw,
+					\nstruct dentry *dbgfs_dir)
+		|void (*stop)(struct iwl_op_mode *op_mode)
+		|void (*rx)(struct iwl_op_mode *op_mode, struct napi_struct *napi,
+           \nstruct iwl_rx_cmd_buffer *rxb)
+|void (*rx_rss)(struct iwl_op_mode *op_mode, struct napi_struct *napi,
+               \nstruct iwl_rx_cmd_buffer *rxb, unsigned int queue)
+|void (*queue_full)(struct iwl_op_mode *op_mode, int queue);
+|void (*queue_not_full)(struct iwl_op_mode *op_mode, int queue);
+|bool (*hw_rf_kill)(struct iwl_op_mode *op_mode, bool state);
+|void (*free_skb)(struct iwl_op_mode *op_mode, struct sk_buff *skb);
+|void (*nic_error)(struct iwl_op_mode *op_mode);
+|void (*cmd_queue_full)(struct iwl_op_mode *op_mode);
+|void (*nic_config)(struct iwl_op_mode *op_mode);
+|void (*wimax_active)(struct iwl_op_mode *op_mode);
+|int (*enter_d0i3)(struct iwl_op_mode *op_mode);
+|int (*exit_d0i3)(struct iwl_op_mode *op_mode);		
+		}"];
+	}
+
+	subgraph cluster_struct_iwl_mvm{
+		label="struct iwl_mvm";
+		"struct iwl_mvm"[label="{
+	|struct device *dev;
+    |struct iwl_trans *trans;
+    |const struct iwl_fw *fw;
+    |const struct iwl_cfg *cfg;
+    |struct iwl_phy_db *phy_db;
+    |struct ieee80211_hw *hw
+	|struct mutex mutex;
+    |struct list_head async_handlers_list;
+    |spinlock_t async_handlers_lock;
+    |struct work_struct async_handlers_wk;
+    |struct work_struct roc_done_wk;
+    |unsigned long status
+	|struct iwl_mvm_vif *bf_allowed_vif
+	|enum iwl_ucode_type cur_ucode;
+    |bool ucode_loaded;
+    |bool calibrating;
+    |u32 error_event_table;
+    |u32 log_event_table;
+    |u32 umac_error_event_table;
+    |bool support_umac_log;
+    |struct iwl_sf_region sf_space;
+    |u32 ampdu_ref;
+    |struct iwl_notif_wait_data notif_wait;
+    |struct mvm_statistics_rx rx_stats;
+	}"];
+
+	}
+	subgraph cluster_struct_wiphy{
+		label="struct wiphy";
+		bgcolor="purple";
+		"struct wiphy"[label="{
+		 |u8 perm_addr[ETH_ALEN];
+    |u8 addr_mask[ETH_ALEN];
+    |struct mac_address *addresses;
+    |const struct ieee80211_txrx_stypes *mgmt_stypes;
+    |const struct ieee80211_iface_combination *iface_combinations;
+    |int n_iface_combinations;
+    |u16 software_iftypes;
+    |u16 n_addresses;
+|u16 interface_modes;
+    |u16 max_acl_mac_addrs;
+    |u32 flags, regulatory_flags, features;
+    |u8 ext_features[DIV_ROUND_UP(NUM_NL80211_EXT_FEATURES, 8)];
+    |u32 ap_sme_capa;
+    |enum cfg80211_signal_type signal_type;
+    |int bss_priv_size;
+    |u8 max_scan_ssids;
+    |u8 max_sched_scan_ssids;
+    |u8 max_match_sets;
+    |u16 max_scan_ie_len;
+    |u16 max_sched_scan_ie_len;
+    |u32 max_sched_scan_plans;
+    |u32 max_sched_scan_plan_interval;
+    |u32 max_sched_scan_plan_iterations;
+|int n_cipher_suites;
+    |const u32 *cipher_suites;
+    |u8 retry_short;
+    |u8 retry_long;
+    |u32 frag_threshold;
+    |u32 rts_threshold;
+    |u8 coverage_class;
+    |char fw_version[ETHTOOL_FWVERS_LEN];
+    |u32 hw_version;
+const struct wiphy_wowlan_support *wowlan;
+    struct cfg80211_wowlan *wowlan_config;
+ u16 max_remain_on_channel_duration;
+    u8 max_num_pmkids;
+    u32 available_antennas_tx;
+    u32 available_antennas_rx;
+u32 probe_resp_offload;
+    const u8 *extended_capabilities, *extended_capabilities_mask;
+    u8 extended_capabilities_len;
+	const void *privid;
+    struct ieee80211_supported_band *bands[IEEE80211_NUM_BANDS];
+    void (*reg_notifier)(struct wiphy *wiphy,
+                 struct regulatory_request *request);
+    const struct ieee80211_regdomain __rcu *regd;
+    struct device dev;
+    bool registered;
+    struct dentry *debugfsdir;
+    const struct ieee80211_ht_cap *ht_capa_mod_mask;
+    const struct ieee80211_vht_cap *vht_capa_mod_mask;
+    possible_net_t _net;
+const struct iw_handler_def *wext;
+    const struct wiphy_coalesce_support *coalesce;
+    const struct wiphy_vendor_command *vendor_commands;
+    const struct nl80211_vendor_cmd_info *vendor_events;
+    int n_vendor_commands, n_vendor_events;
+    u16 max_ap_assoc_sta;
+    u8 max_num_csa_counters;
+    u8 max_adj_channel_rssi_comp;
+    char priv[0] __aligned(NETDEV_ALIGN);
+
+
+	}"];
+	}
+
 }
