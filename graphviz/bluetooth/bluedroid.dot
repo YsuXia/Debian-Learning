@@ -84,6 +84,8 @@ digraph bluedroid{
 	"struct reactor_object_t":fd->"struct fixed_queue_t":dequeue_sem[label="sem.fd" arrowhead=none color=red];
 	subgraph cluster_struct_hash_map_t{
 		label="struct hash_map_t";
+		bgcolor="pink";
+		fontcolor="blue";
 		"struct hash_map_t"[label="{
 		|<bucket>hash_map_bucket_t *bucket;                                                        
 		|size_t num_bucket;                                                                
@@ -105,5 +107,31 @@ digraph bluedroid{
 		}"];
 	}
 
-	
+	subgraph cluster_struct_hci_t{
+		label="struct hci_t";
+		bgcolor="pink";
+		"struct hci_t"[label="{
+			void (*send_low_power_command)(low_power_command_t command)
+			|void (*do_postload)(void)
+			|<data_dispatcher>data_dispatcher_t *event_dispatcher
+			|void (*set_data_queue)(fixed_queue_t *queue)
+			|void (*transmit_command)(BT_HDR *command,
+			\ncommand_complete_cb complete_callback,command_status_cb status_cb,
+			\nvoid *context)
+			|future_t *(*transmit_command_futured)(BT_HDR *command)
+			|void (*transmit_downward)(data_dispatcher_type_t type, void *data)
+			|void (*ssr_cleanup)(int reason)
+		}"];
+	}
+	subgraph cluster_struct_data_dispatcher_t{
+		label="struct data_dispatcher_t";
+		"strcut data_dispatcher_t"[label="{
+			char *name
+			|<table>hash_map_t *dispatch_table
+			|fixed_queue_t *default_queue
+		}"];
+	}
+	"struct hci_t":data_dispatcher->"strcut data_dispatcher_t"[color=red];
+	"strcut data_dispatcher_t":table->"struct hash_map_t"[color=blue];
+
 }
