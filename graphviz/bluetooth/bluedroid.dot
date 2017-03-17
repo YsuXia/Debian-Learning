@@ -133,5 +133,26 @@ digraph bluedroid{
 	}
 	"struct hci_t":data_dispatcher->"strcut data_dispatcher_t"[color=red];
 	"strcut data_dispatcher_t":table->"struct hash_map_t"[color=blue];
+	subgraph cluster_struct_tBTIF_CONTEXT_SWITCH_CBACK{
+		label="struct tBTIF_CONTEXT_SWITCH_CBACK";
+		bgcolor="green";
+		"struct tBTIF_CONTEXT_SWITCH_CBACK"[label="{
+		|<hdr>BT_HDR               hdr
+    	|tBTIF_CBACK*         p_cb
+    	|UINT16               event
+    	|char                 p_param[0]
+		}"];
+	}
+	subgraph cluster_struct_BT_HDR{
+		label="struct BT_HDR";
+		"struct BT_HDR"[label="{
+		uint16_t      event;
+    	|uint16_t          len;
+    	|uint16_t          offset;
+    	|uint16_t          layer_specific;
+    	|uint8_t           data[];
+	}"];
+	}
+	"struct tBTIF_CONTEXT_SWITCH_CBACK":hdr->"struct BT_HDR"[color=red];
 
 }
