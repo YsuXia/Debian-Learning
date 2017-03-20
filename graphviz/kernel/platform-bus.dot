@@ -38,7 +38,7 @@ digraph platform_bus{
     |struct list_head interfaces;
     |struct mutex mutex;
     |struct kset *drivers_kset;
-    |struct klist klist_devices;
+    |<devices>struct klist klist_devices;
     |struct klist klist_drivers;
     |struct blocking_notifier_head bus_notifier;
     |unsigned int drivers_autoprobe:1;
@@ -47,6 +47,8 @@ digraph platform_bus{
     |struct class *class;
 	}"];
 	}
+
+	"struct subsys_private":devices->"struct klist"[color=red];
 
 	subgraph cluster_struct_device{
 		label="struct device";
@@ -101,6 +103,43 @@ digraph platform_bus{
     |struct klist_node knode_bus
     |struct list_head deferred_probe
     |struct device *device
+	}"];
+	}
+
+	subgraph cluster_struct_klist{
+		label="struct klist";
+		"struct klist"[label="{
+	|spinlock_t      k_lock
+    |<list>struct list_head    k_list
+    |void       (*get)(struct klist_node *)
+    |void       (*put)(struct klist_node *)
+		}"];
+	}
+	"struct klist":list->"struct list_head"[color=blue];
+
+	subgraph cluster_struct_klist_iter{
+		label="struct klist_iter";
+		"struct klist_iter"[label="{
+		|<i_klist>struct klist        *i_klist
+    	|<cur>struct klist_node   *i_cur
+	}"];
+	}
+	"struct klist_iter":i_klist->"struct klist"[color=purple];
+	"struct klist_iter":cur->"struct klist_node"[color=purple];
+	subgraph cluster_struct_klist_node{
+		label="struct klist_node";
+		"struct klist_node"[label="{
+		void            *n_klist
+    |<n_node>struct list_head    n_node;
+    |struct kref     n_ref;
+	}"];
+	}
+	"struct klist_node":n_node->"struct list_head"[color=red];
+	subgraph cluster_struct_list_head{
+		label="struct list_head";
+		"struct list_head"[label="{
+		struct list_head *next
+		|struct list_head *prev
 	}"];
 	}
 

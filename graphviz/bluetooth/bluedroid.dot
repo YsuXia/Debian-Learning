@@ -23,7 +23,7 @@ digraph bluedroid{
 		|<context>void *context
 		|<reactor>reactor_t *reactor
 		|pthread_mutex_t lock
-		|void (*read_ready)(void *context)
+		|<read_ready>void (*read_ready)(void *context)
 		|void (*write_ready)(void *context)
 		}"];
 	}
@@ -48,7 +48,7 @@ digraph bluedroid{
 	"struct thread_t"->node03[arrowhead=none style=invisible];
 	"struct thread_t"->node04[arrowhead=none style=invisible];
 	"struct thread_t":reactor->"struct reactor_t"[color=red];
-	"struct thread_t":fixed_queue->"struct fixed_queue_t"[color=red];
+	"struct thread_t":work_queue->"struct fixed_queue_t"[color=red];
 
 	subgraph cluster_struct_reactor_t{
 		label="struct reactor_t";
@@ -75,7 +75,8 @@ digraph bluedroid{
 		|<dequeue_sem>semaphore_t *dequeue_sem;
 		|pthread_mutex_t lock;
 		|size_t capacity;
-		|reactor_object_t *dequeue_object;
+		|reactor_object_t *dequeue_object\n
+		结合thread_t里面的reactor来生成reactor_object_t
 		|fixed_queue_cb dequeue_ready;
 		|void *dequeue_context;
 		}"
@@ -154,5 +155,41 @@ digraph bluedroid{
 	}"];
 	}
 	"struct tBTIF_CONTEXT_SWITCH_CBACK":hdr->"struct BT_HDR"[color=red];
+	subgraph cluster_struct_non_repeating_timer_t{
+		label="struct non_repeating_timer_t";
+		bgcolor="pink";
+		"struct non_repeating_timer_t"[label="{
+	|alarm_t *alarm;
+  	|period_ms_t duration;
+  	|alarm_callback_t callback;
+  	|void *data;
+		}
+		"];
+	}
+
+	subgraph cluster_struct_packet_receive_data_t{
+		label="struct packet_receive_data_t";
+		"struct packet_receive_data_t"[label="{
+	|receive_state_t state;
+  |uint16_t bytes_remaining;
+  |uint8_t preamble[PREAMBLE_BUFFER_SIZE];
+  |uint16_t index;
+  |<buffer>BT_HDR *buffer;
+	}"];
+	}
+	"struct packet_receive_data_t":buffer->"struct BT_HDR"[color=purple];
+
+	subgraph cluster_struct_socket_t{
+		label="struct socket_t";
+		"struct socket_t"[label="{
+			int fd----tcp套接字描述符
+		|<reactor>reactor_object_t *reactor_object
+		|socket_cb read_ready
+		|socket_cb write_ready
+		|void *context
+		}"];
+	}
+	"struct socket_t":reactor->"struct reactor_object_t"[color=red];
+
 
 }
