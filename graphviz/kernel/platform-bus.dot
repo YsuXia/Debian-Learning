@@ -34,7 +34,7 @@ digraph platform_bus{
 		label="struct subsys_private";
 		"struct subsys_private"[label="{
 		struct kset subsys;
-    |struct kset *devices_kset;
+    |<dev_kset>struct kset *devices_kset;
     |struct list_head interfaces;
     |struct mutex mutex;
     |struct kset *drivers_kset;
@@ -47,8 +47,20 @@ digraph platform_bus{
     |struct class *class;
 	}"];
 	}
-
+	"struct subsys_private":dev_kset->"struct kset"[color=red];
 	"struct subsys_private":devices->"struct klist"[color=red];
+
+	subgraph cluster_struct_kset{
+		label="struct kset";
+		"struct kset"[label="{
+		struct list_head list;
+    |spinlock_t list_lock;
+    |<obj>struct kobject kobj;
+    |const struct kset_uevent_ops *uevent_ops
+	}"];
+	}
+
+	"struct kset":obj->"struct kobject"[color=blue];
 
 	subgraph cluster_struct_device{
 		label="struct device";
@@ -64,7 +76,7 @@ digraph platform_bus{
 		|void     *platform_data
 		|void     *driver_data
 		|struct dev_pm_info  power
-		|struct dev_pm_domain    *pm_domain
+		|<pm_domain>struct dev_pm_domain    *pm_domain
     |struct irq_domain   *msi_domain;
     |struct dev_pin_info *pins;
     |struct list_head    msi_list;
@@ -92,6 +104,8 @@ digraph platform_bus{
     |bool            offline:1;
 	}"];
 	}
+
+	"struct device":pm_domain->"struct dev_pm_domain"[color=blue];
 	"struct device":private->"struct device_private"[color=red];
 	"struct device":bus->"struct bus_type"[color=red];
 	subgraph cluster_struct_device_private{
@@ -104,6 +118,17 @@ digraph platform_bus{
     |struct list_head deferred_probe
     |struct device *device
 	}"];
+	}
+
+	subgraph cluster_struct_dev_pm_domain{
+		label="struct dev_pm_domain";
+		"struct dev_pm_domain"[label="{
+			struct dev_pm_ops   ops;
+    |void (*detach)(struct device *dev, bool power_off);
+    |int (*activate)(struct device *dev);
+    |void (*sync)(struct device *dev);
+    |void (*dismiss)(struct device *dev);
+		}"];
 	}
 
 	subgraph cluster_struct_klist{
@@ -140,6 +165,25 @@ digraph platform_bus{
 		"struct list_head"[label="{
 		struct list_head *next
 		|struct list_head *prev
+	}"];
+	}
+
+	subgraph cluster_struct_kobject{
+		label="struct kobject";
+		"struct kobject"[label="{
+		const char      *name;
+    |struct list_head    entry;
+    |struct kobject      *parent;
+    |struct kset     *kset;
+    |struct kobj_type    *ktype;
+    |struct kernfs_node  *sd
+    |struct kref     kref;
+    |struct delayed_work release;
+    |unsigned int state_initialized:1;
+    |unsigned int state_in_sysfs:1;
+    |unsigned int state_add_uevent_sent:1;
+    |unsigned int state_remove_uevent_sent:1;
+    |unsigned int uevent_suppress:1;
 	}"];
 	}
 

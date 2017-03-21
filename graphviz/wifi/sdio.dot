@@ -3,7 +3,7 @@ digraph libnl{
 	subgraph cluster_struct_sdio_func{
 		label="struct sdio_func";
 		"struct sdio_func"[label="{
-	struct mmc_card     *card----the card this device belongs to
+	<card>struct mmc_card     *card----the card this device belongs to
     |struct device       dev----the device
     |sdio_irq_handler_t  *irq_handler-----IRQ callback
     |unsigned int        num----function number
@@ -18,6 +18,48 @@ digraph libnl{
     |unsigned        num_info-----number of info strings
     |const char      **info------info strings
     |struct sdio_func_tuple *tuples
+		}"];
+	}
+
+	"struct sdio_func":card->"struct mmc_card"[color=red];
+	subgraph cluster_struct_mmc_card{
+		label="struct mmc_card";
+		"struct mmc_card"[label="{
+			|struct mmc_host     *host*****the host this device belongs to
+    |struct device       dev
+    |u32         ocr*******the current OCR setting
+    |unsigned int        rca******relative card address of device
+    |unsigned int        type*******card type
+    |unsigned int        state******card state
+    |unsigned int        quirks****** card quirks
+    |unsigned int        erase_size
+    |unsigned int        erase_shift
+    |unsigned int        pref_erase
+    |unsigned int        eg_boundary
+    |u8          erased_byte
+	|u32         raw_cid[4]
+    |u32         raw_csd[4]
+    |u32         raw_scr[2]
+    |struct mmc_cid      cid******card identification
+    |struct mmc_csd      csd********card specific
+    |struct mmc_ext_csd  ext_csd*******mmc v4 extended card specific
+    |struct sd_scr       scr******extra SD information
+    |struct sd_ssr       ssr*******yet more SD information
+    |struct sd_switch_caps   sw_caps********switch (CMD6) caps
+    |unsigned int        sdio_funcs******number of SDIO functions
+    |struct sdio_cccr    cccr*******common card info
+    |struct sdio_cis     cis************common tuple info
+    |struct sdio_func    *sdio_func[SDIO_MAX_FUNCS]
+    |struct sdio_func    *sdio_single_irq****SDIO function when only one IRQ active
+    |unsigned        num_info
+    |const char      **info
+    |struct sdio_func_tuple  *tuples
+    |unsigned int        sd_bus_speed
+    |unsigned int        mmc_avail_type
+    |unsigned int        drive_strength******for UHS-I, HS200 or HS400
+    |struct dentry       *debugfs_root;
+    |struct mmc_part part[MMC_NUM_PHY_PARTITION]
+    |unsigned int    nr_parts
 		}"];
 	}
 

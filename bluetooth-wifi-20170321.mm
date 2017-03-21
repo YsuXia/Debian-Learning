@@ -6458,7 +6458,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1476337737584" ID="ID_1437865057" MODIFIED="1483535513829">
+<node CREATED="1476337737584" FOLDED="true" ID="ID_1437865057" MODIFIED="1490067182949">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6473,7 +6473,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1476337747472" ID="ID_853430536" MODIFIED="1483535485867">
+<node CREATED="1476337747472" FOLDED="true" ID="ID_853430536" MODIFIED="1490067175583">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6550,7 +6550,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483631192465" ID="ID_1112368410" MODIFIED="1483631445032">
+<node CREATED="1483631192465" ID="ID_1112368410" MODIFIED="1490067152827">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6647,7 +6647,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483546853320" ID="ID_1507841872" MODIFIED="1483546867630" TEXT="sdio&#x9a71;&#x52a8;&#x4ecb;&#x7ecd;">
+<node CREATED="1483546853320" FOLDED="true" ID="ID_1507841872" MODIFIED="1490067136521" TEXT="sdio&#x9a71;&#x52a8;&#x4ecb;&#x7ecd;">
 <node CREATED="1483546910173" ID="ID_1859345497" MODIFIED="1483547448301">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6675,7 +6675,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483547488085" ID="ID_1177530447" MODIFIED="1483547729631">
+<node CREATED="1483547488085" FOLDED="true" ID="ID_1177530447" MODIFIED="1490067135409">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6769,7 +6769,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1483598127757" ID="ID_1544266574" MODIFIED="1483598142161" TEXT="PCI&#x9a71;&#x52a8;">
+<node CREATED="1483598127757" FOLDED="true" ID="ID_1544266574" MODIFIED="1490067132633" TEXT="PCI&#x9a71;&#x52a8;">
 <node CREATED="1483598145090" ID="ID_31584946" MODIFIED="1483889108425">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6838,7 +6838,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1478570008107" ID="ID_1850460194" MODIFIED="1484548753702">
+<node CREATED="1478570008107" FOLDED="true" ID="ID_1850460194" MODIFIED="1490067106260">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7143,7 +7143,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1478597840581" ID="ID_1200259656" MODIFIED="1483408054940">
+<node CREATED="1478597840581" FOLDED="true" ID="ID_1200259656" MODIFIED="1490067103859">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7216,7 +7216,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479894956954" ID="ID_706981663" MODIFIED="1483358712863" TEXT="wifi&#x603b;&#x4f53;&#x67b6;&#x6784;&#x56fe;">
+<node CREATED="1479894956954" FOLDED="true" ID="ID_706981663" MODIFIED="1490067101868" TEXT="wifi&#x603b;&#x4f53;&#x67b6;&#x6784;&#x56fe;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1479894972349" ID="ID_412357435" MODIFIED="1483358721718">
 <richcontent TYPE="NODE"><html>
@@ -7325,8 +7325,7 @@
       <b><i>wpa_ctrl.h wpa_ctrl.c ctrl_iface_unix.c ctrl_iface.h ctrl_iface.c</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1489482584774" ID="ID_1988464962" MODIFIED="1489482624888">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7340,8 +7339,7 @@
       &#24314;&#31435;&#19968;&#20010;&#19982;wpa&#26381;&#21153;&#31471;&#36827;&#34892;&#36890;&#20449;&#30340;unix domain socket&#23458;&#25143;&#31471;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1489482639276" ID="ID_1954317092" MODIFIED="1489482659629">
 <richcontent TYPE="NODE"><html>
@@ -7356,8 +7354,7 @@
       &#38144;&#27585;&#24050;&#32463;&#24314;&#31435;&#30340;&#23458;&#25143;&#31471;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1489482709707" ID="ID_1689480702" MODIFIED="1489482735715">
 <richcontent TYPE="NODE"><html>
@@ -7375,8 +7372,7 @@
       &#160;&#160;&#160;&#160;&#160;void (*msg_cb)(char *msg, size_t len))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1489482754730" ID="ID_1415418149" MODIFIED="1489482785290">
 <richcontent TYPE="NODE"><html>
@@ -7409,8 +7405,7 @@
       /* &#33719;&#21462;&#25346;&#36215;&#30340;event &#20107;&#20214; */
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1489482910751" ID="ID_1864407774" MODIFIED="1489483016727">
 <richcontent TYPE="NODE"><html>
@@ -7443,8 +7438,7 @@
       /* &#21521;&#27880;&#20876;&#30340;monitor interfaces &#20027;&#21160;&#21457;&#36865;event&#20107;&#20214; */
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1489482506401" ID="ID_1629906117" MODIFIED="1489482537786">
@@ -7460,8 +7454,7 @@
       <b>&#21508;&#31181;request&#21629;&#20196;&#30340;&#24213;&#23618;&#22788;&#29702;&#20989;&#25968;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1479897948643" ID="ID_753665034" MODIFIED="1489481824785" TEXT="wpa&#x7684;&#x4e0b;&#x884c;&#x63a5;&#x53e3;">
@@ -7508,8 +7501,7 @@
       extern struct wpa_driver_ops wpa_driver_nl80211_ops
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1489482015282" ID="ID_438131556" MODIFIED="1489482031353">
 <richcontent TYPE="NODE"><html>
@@ -7524,8 +7516,7 @@
       <b>PF_PACKET socket&#25509;&#21475;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7835,7 +7826,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1481620046145" ID="ID_441546622" MODIFIED="1483535362551">
+<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1490067083534">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8075,7 +8066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482222777984" ID="ID_1585324012" MODIFIED="1486458761296">
+<node CREATED="1482222777984" FOLDED="true" ID="ID_1585324012" MODIFIED="1490067069711">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8626,6 +8617,9 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1490067192257" ID="ID_1593141844" MODIFIED="1490067231462" TEXT="sdio card specific &#x6587;&#x6863;&#x9605;&#x8bfb;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1479953700450" FOLDED="true" ID="ID_1348786010" MODIFIED="1486605666397" POSITION="right" TEXT="Linux Network Internals">
@@ -9860,7 +9854,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1487039187302" ID="ID_1900448817" MODIFIED="1487039201141" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
+<node CREATED="1487039187302" FOLDED="true" ID="ID_1900448817" MODIFIED="1490067072302" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1470644180506" FOLDED="true" ID="ID_811862480" MODIFIED="1487039239523" TEXT="ap6234&#x82af;&#x7247;datasheet&#x9605;&#x8bfb;">
 <node CREATED="1470644230698" ID="ID_619733051" MODIFIED="1470644981492">
