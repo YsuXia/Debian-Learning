@@ -61,6 +61,61 @@ digraph platform_bus{
 	}
 
 	"struct kset":obj->"struct kobject"[color=blue];
+	subgraph cluster_struct_dev_pin_info{
+		label="struct dev_pin_info";
+		"struct dev_pin_info"[label="{
+			<p>struct pinctrl *p;
+    |struct pinctrl_state *default_state;
+    |struct pinctrl_state *sleep_state;
+    |struct pinctrl_state *idle_state;
+		}"];
+	}
+	"struct device":pins->"struct dev_pin_info"[color=blue];
+	"struct dev_pin_info":p->"struct pinctrl";
+
+	subgraph cluster_struct_pinctrl{
+		label="struct pinctrl";
+		"struct pinctrl"[label="{
+		struct list_head node;
+    |struct device *dev;
+    |struct list_head states;
+    |struct pinctrl_state *state;
+    |struct list_head dt_maps;
+    |struct kref users;
+	}"];
+	}
+
+	subgraph cluster_struct_pinctrl_dev{
+		label="struct pinctrl_dev";
+		"struct pinctrl_dev"[label="{
+		struct list_head node****用于挂接到全局的controller list(pinctrldev_list)当中去
+    |<desc>struct pinctrl_desc *desc*****初始化pin controller用到的描述符
+    |struct radix_tree_root pin_desc_tree;
+    |struct list_head gpio_ranges****由该controller处理的gpio ranges, 系统当中所有的gpio是分片的**
+    |struct device *dev;
+    |struct module *owner;
+    |void *driver_data;
+    |<p>struct pinctrl *p;
+    |struct pinctrl_state *hog_default;
+    |struct pinctrl_state *hog_sleep;
+    |struct mutex mutex;
+    |struct dentry *device_root;
+	}"];
+	}
+	"struct pinctrl_dev":p->"struct pinctrl";
+	"struct pinctrl_dev":desc->"struct pinctrl_desc"[color=blue];
+	subgraph cluster_struct_pinctrl_desc{
+		label="struct pinctrl_desc";
+		"struct pinctrl_desc"[label="{
+		const char *name;
+    |struct pinctrl_pin_desc const *pins****pin脚描述符***
+    |unsigned int npins;
+    |const struct pinctrl_ops *pctlops;
+    |const struct pinmux_ops *pmxops;
+    |const struct pinconf_ops *confops;
+    |struct module *owner;
+	}"];
+	}
 
 	subgraph cluster_struct_device{
 		label="struct device";
@@ -78,7 +133,7 @@ digraph platform_bus{
 		|struct dev_pm_info  power
 		|<pm_domain>struct dev_pm_domain    *pm_domain
     |struct irq_domain   *msi_domain;
-    |struct dev_pin_info *pins;
+    |<pins>struct dev_pin_info *pins;
     |struct list_head    msi_list;
     |int     numa_node
     |u64     *dma_mask
