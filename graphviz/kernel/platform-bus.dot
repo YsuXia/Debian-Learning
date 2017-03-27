@@ -91,7 +91,7 @@ digraph platform_bus{
 		struct list_head node****用于挂接到全局的controller list(pinctrldev_list)当中去
     |<desc>struct pinctrl_desc *desc*****初始化pin controller用到的描述符
     |struct radix_tree_root pin_desc_tree;
-    |struct list_head gpio_ranges****由该controller处理的gpio ranges, 系统当中所有的gpio是分片的**
+    |<ranges>struct list_head gpio_ranges****由该controller处理的gpio ranges, 系统当中所有的gpio是分片的**
     |struct device *dev;
     |struct module *owner;
     |void *driver_data;
@@ -102,6 +102,21 @@ digraph platform_bus{
     |struct dentry *device_root;
 	}"];
 	}
+	"struct pinctrl_dev":ranges->"struct pinctrl_gpio_range"[color=red];
+	subgraph cluster_struct_pinctrl_gpio_range{
+		label="struct pinctrl_gpio_range";
+		"struct pinctrl_gpio_range"[label="{
+			struct list_head node
+    |const char *name
+    |unsigned int id
+    |unsigned int base
+    |unsigned int pin_base
+    |unsigned const *pins
+    |unsigned int npins
+    |struct gpio_chip *gc
+		}"];
+	}
+
 	"struct pinctrl_dev":p->"struct pinctrl";
 	"struct pinctrl_dev":desc->"struct pinctrl_desc"[color=blue];
 	subgraph cluster_struct_pinctrl_desc{

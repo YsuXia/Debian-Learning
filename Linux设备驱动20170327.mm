@@ -5019,7 +5019,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459779886162" ID="ID_1296719661" MODIFIED="1490168602465" TEXT="1.&#x5177;&#x4f53;&#x7684;&#x63a5;&#x53e3;&#x5f62;&#x6001;">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459780026289" FOLDED="true" ID="ID_443208363" MODIFIED="1467859154962">
+<node CREATED="1459780026289" ID="ID_443208363" MODIFIED="1490609161713">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5110,14 +5110,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1459781573811" ID="ID_925287204" MODIFIED="1459781740590">
+<node CREATED="1459781573811" ID="ID_925287204" MODIFIED="1490613805500">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      3.&#36319;devicetree&#25110;&#32773;&#26159;machine driver&#30340;&#25509;&#21475;
+      <b>3.&#36319;devicetree&#25110;&#32773;&#26159;machine driver&#30340;&#25509;&#21475;</b>
     </p>
     <p>
       &#20027;&#35201;&#26159;&#20026;pinctrl subsystem&#25552;&#20379;pin mapping database&#30340;&#25903;&#25345;
@@ -5156,8 +5156,34 @@
       };
     </p>
   </body>
-</html></richcontent>
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</html>
+</richcontent>
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1490612992970" ID="ID_1534118675" MODIFIED="1490613781908">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>4.&#36319;&#39537;&#21160;&#27169;&#22411;&#30340;&#25509;&#21475;</i></b>
+    </p>
+    <p>
+      &#22312;&#39537;&#21160;&#27169;&#22411;&#30340;&#32465;&#23450;&#20989;&#25968;really_probe&#24403;&#20013;&#20250;&#35843;&#29992;&#20989;&#25968;
+    </p>
+    <p>
+      pinctrl_bind_pins(dev)&#65292;
+    </p>
+    <p>
+      &#22312;&#35813;&#20989;&#25968;&#24403;&#20013;&#20250;&#29983;&#25104;device&#24403;&#20013;&#30340;pins&#25104;&#21592;&#65292;&#29992;&#20110;&#35774;&#32622;
+    </p>
+    <p>
+      &#35813;device&#23545;&#24212;&#30340;pinctrl&#30340;&#40664;&#35748;&#30340;&#29366;&#24577;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -5212,7 +5238,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490175170640" FOLDED="true" ID="ID_200428281" MODIFIED="1490259108599" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
+<node CREATED="1490175170640" ID="ID_200428281" MODIFIED="1490607524804" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490175442996" ID="ID_1694769749" MODIFIED="1490176448827">
 <richcontent TYPE="NODE"><html>
@@ -5377,8 +5403,7 @@
       &#26597;&#35810;&#25991;&#26723;Documentation/devicetree/bindings/pinctrl/pinctrl-bindings.txt&#33719;&#21462;&#37197;&#32622;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1490257435878" ID="ID_1467097056" MODIFIED="1490257455458">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5488,8 +5513,7 @@
       <i><font color="#000000"><b>}</b></font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1490185957189" ID="ID_1269760393" MODIFIED="1490185982391">
@@ -5577,7 +5601,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490233528087" FOLDED="true" ID="ID_357125436" MODIFIED="1490259111927" TEXT="&#x6587;&#x6863;gpio.txt&#x9605;&#x8bfb;">
+<node CREATED="1490233528087" ID="ID_357125436" MODIFIED="1490607882284" TEXT="&#x6587;&#x6863;gpio.txt&#x9605;&#x8bfb;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490233551814" ID="ID_54356047" MODIFIED="1490234601100">
 <richcontent TYPE="NODE"><html>
@@ -5616,8 +5640,7 @@
       &#30340;&#25991;&#26723;&#24212;&#35813;&#25918;&#32622;&#21040;binding&#37324;&#38754;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1490234605069" ID="ID_1780700668" MODIFIED="1490235046730">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5676,8 +5699,7 @@
       gpio1&#30340;cell&#26159;2, gpio2&#30340;cell&#26159;1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1490235053544" ID="ID_1273623932" MODIFIED="1490236009824">
@@ -5693,8 +5715,7 @@
       gpio-specifier&#24212;&#35813;&#21253;&#21547;&#19968;&#20010;flag&#29992;&#26469;&#25351;&#31034;GPIO&#30340;&#26497;&#24615;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1490236013703" ID="ID_186215042" MODIFIED="1490256691787">
 <richcontent TYPE="NODE"><html>
@@ -5814,8 +5835,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -11865,7 +11885,7 @@
 </node>
 <node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1490085556498" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1490086758929">
+<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1490607378546">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12323,7 +12343,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1490085238885">
+<node CREATED="1477640364241" ID="ID_706701660" MODIFIED="1490607373980">
 <richcontent TYPE="NODE"><html>
   <head>
     
