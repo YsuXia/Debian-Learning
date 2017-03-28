@@ -123,13 +123,23 @@ digraph platform_bus{
 		label="struct pinctrl_desc";
 		"struct pinctrl_desc"[label="{
 		const char *name;
-    |struct pinctrl_pin_desc const *pins****pin脚描述符***
+    |<pins>struct pinctrl_pin_desc const *pins****pin脚描述符***
     |unsigned int npins;
     |const struct pinctrl_ops *pctlops;
     |const struct pinmux_ops *pmxops;
     |const struct pinconf_ops *confops;
     |struct module *owner;
 	}"];
+	}
+
+	"struct pinctrl_desc":pins->"struct pinctrl_pin_desc"[color=red];
+	subgraph cluster_struct_pinctrl_pin_desc{
+		label="struct pinctrl_pin_desc";
+		"struct pinctrl_pin_desc"[label="{
+			unsigned number
+			|const char *name
+			|void *drv_data
+		}"];
 	}
 
 	subgraph cluster_struct_device{
@@ -254,6 +264,32 @@ digraph platform_bus{
     |unsigned int state_add_uevent_sent:1;
     |unsigned int state_remove_uevent_sent:1;
     |unsigned int uevent_suppress:1;
+	}"];
+	}
+
+	subgraph cluster_struct_msm_pinctrl_soc_data{
+		label="struct msm_pinctrl_soc_data";
+		"struct msm_pinctrl_soc_data"[label="{
+	|const struct pinctrl_pin_desc *pins\n
+	an array describe all pins the controller affects
+    |unsigned npins
+    |const struct msm_function *functions\n
+    an array of all mux function controller supports
+    |unsigned nfunctions;
+    |const struct msm_pingroup *groups;
+    |unsigned ngroups;
+    |unsigned ngpios;
+		}"];
+	}
+
+	subgraph cluster_struct_pinctrl_map{
+		label="struct pinctrl_map";
+		"struct pinctrl_map"[label="{
+		const char *dev_name
+    |const char *name
+    |enum pinctrl_map_type type;
+    |const char *ctrl_dev_name;
+	|{struct pinctrl_map_mux mux|struct pinctrl_map_configs configs}
 	}"];
 	}
 
