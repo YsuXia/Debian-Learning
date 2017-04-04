@@ -1080,7 +1080,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1487914175676" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1491198098333" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" ID="ID_1785780009" MODIFIED="1486555597819">
 <richcontent TYPE="NODE"><html>
@@ -3315,7 +3315,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1455762629108" ID="ID_1460639053" MODIFIED="1486719776310" POSITION="left">
+<node CREATED="1455762629108" FOLDED="true" ID="ID_1460639053" MODIFIED="1491198093723" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3327,7 +3327,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1455763244152" ID="ID_1570856145" MODIFIED="1486555598206">
+<node CREATED="1455763244152" FOLDED="true" ID="ID_1570856145" MODIFIED="1491198080251">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5156,8 +5156,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1490612992970" ID="ID_1534118675" MODIFIED="1490613781908">
@@ -5182,8 +5181,7 @@
       &#35813;device&#23545;&#24212;&#30340;pinctrl&#30340;&#40664;&#35748;&#30340;&#29366;&#24577;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6590,7 +6588,7 @@
 </node>
 <node CREATED="1468229217652" ID="ID_572194135" MODIFIED="1490083887798" POSITION="left" TEXT="Kbuild&#x7cfb;&#x7edf;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1468229234101" ID="ID_999465662" MODIFIED="1486555598562">
+<node CREATED="1468229234101" FOLDED="true" ID="ID_999465662" MODIFIED="1491269984789">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6622,7 +6620,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1468229547716" FOLDED="true" ID="ID_279059387" MODIFIED="1486555599172">
+<node CREATED="1468229547716" ID="ID_279059387" MODIFIED="1491198267916">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6696,7 +6694,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468249463723" ID="ID_1791617227" MODIFIED="1486555598566">
+<node CREATED="1468249463723" FOLDED="true" ID="ID_1791617227" MODIFIED="1491198695535">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6753,7 +6751,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468249761361" FOLDED="true" ID="ID_37184477" MODIFIED="1490083929266" TEXT="&#x8ddf;&#x7f16;&#x8bd1;&#x7cfb;&#x7edf;&#x76f8;&#x5173;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;">
+<node CREATED="1468249761361" FOLDED="true" ID="ID_37184477" MODIFIED="1491269981734" TEXT="&#x8ddf;&#x7f16;&#x8bd1;&#x7cfb;&#x7edf;&#x76f8;&#x5173;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;">
 <node CREATED="1468250159742" ID="ID_526143328" MODIFIED="1468250168887" TEXT="KCPPFLAGS&#x7528;&#x4e8e;&#x9884;&#x5904;&#x7406;&#x7684;&#x9009;&#x9879;"/>
 <node CREATED="1468250232533" ID="ID_496396200" MODIFIED="1468250255865">
 <richcontent TYPE="NODE"><html>
@@ -6767,7 +6765,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1468250323773" FOLDED="true" ID="ID_1036893408" MODIFIED="1486555599172" TEXT="&#x7ed9;$(AS)&#x4f7f;&#x7528;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;">
+<node CREATED="1468250323773" ID="ID_1036893408" MODIFIED="1491198706626" TEXT="&#x7ed9;$(AS)&#x4f7f;&#x7528;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;">
 <node CREATED="1468250343380" ID="ID_1283940558" MODIFIED="1468250372915">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6800,7 +6798,7 @@
 </node>
 </node>
 <node CREATED="1468250852721" ID="ID_1184336307" MODIFIED="1468250867365" TEXT="KCFLAGS&#x8ddf;c&#x7f16;&#x8bd1;&#x5668;&#x76f8;&#x5173;&#x7684;&#x53ef;&#x9009;&#x9879;"/>
-<node CREATED="1468250978256" FOLDED="true" ID="ID_1596889748" MODIFIED="1486555599172" TEXT="&#x8ddf;$(CC)&#x6709;&#x5173;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;">
+<node CREATED="1468250978256" ID="ID_1596889748" MODIFIED="1491198721544" TEXT="&#x8ddf;$(CC)&#x6709;&#x5173;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;">
 <node CREATED="1468251018807" ID="ID_1582604069" MODIFIED="1468251034363" TEXT="CFLAGS_KERNEL&#x7f16;&#x8bd1;&#x5d4c;&#x5165;&#x5230;&#x5185;&#x6838;&#x5f53;&#x4e2d;&#x7684;&#x4ee3;&#x7801;"/>
 <node CREATED="1468251050519" ID="ID_727515669" MODIFIED="1468251061649" TEXT="CFLAGS_MODULE&#x8ddf;&#x7f16;&#x8bd1;&#x6a21;&#x5757;&#x76f8;&#x5173;&#x7684;&#x53ef;&#x9009;&#x9879;"/>
 </node>
@@ -7028,8 +7026,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468290646801" ID="ID_111318205" MODIFIED="1486555598598" TEXT="&#x5185;&#x6838;makefile">
-<node CREATED="1468290662337" FOLDED="true" ID="ID_1324818214" MODIFIED="1486555599172">
+<node CREATED="1468290646801" FOLDED="true" ID="ID_111318205" MODIFIED="1491269990637" TEXT="&#x5185;&#x6838;makefile">
+<node CREATED="1468290662337" FOLDED="true" ID="ID_1324818214" MODIFIED="1491269976085">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7113,7 +7111,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468293614186" ID="ID_102844332" MODIFIED="1490083887800">
+<node CREATED="1468293614186" FOLDED="true" ID="ID_102844332" MODIFIED="1491269973772">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7130,7 +7128,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1468311504627" FOLDED="true" ID="ID_763019342" MODIFIED="1478596717290" TEXT="&#x7b2c;&#x4e09;&#x90e8;&#x5206;">
+<node CREATED="1468311504627" ID="ID_763019342" MODIFIED="1491198992567" TEXT="&#x7b2c;&#x4e09;&#x90e8;&#x5206;">
 <node CREATED="1468302210735" ID="ID_576654895" MODIFIED="1468305044759">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7366,7 +7364,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1468312308164" FOLDED="true" ID="ID_431558417" MODIFIED="1474123670378">
+<node CREATED="1468312308164" ID="ID_431558417" MODIFIED="1491201811651">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7420,7 +7418,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468313658405" FOLDED="true" ID="ID_1452523954" MODIFIED="1471748954332">
+<node CREATED="1468313658405" ID="ID_1452523954" MODIFIED="1491199006896">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7606,7 +7604,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468317870159" FOLDED="true" ID="ID_204563732" MODIFIED="1474123665039" TEXT="&#x7b2c;&#x4e94;&#x90e8;&#x5206;:kbuild clean&#x5de5;&#x5177;">
+<node CREATED="1468317870159" FOLDED="true" ID="ID_204563732" MODIFIED="1491199315043" TEXT="&#x7b2c;&#x4e94;&#x90e8;&#x5206;:kbuild clean&#x5de5;&#x5177;">
 <node CREATED="1468318600959" ID="ID_1836860729" MODIFIED="1468318959116">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7671,8 +7669,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468337897909" FOLDED="true" ID="ID_697366277" MODIFIED="1474123659753" TEXT="&#x7b2c;&#x516d;&#x90e8;&#x5206;:&#x67b6;&#x6784;&#x76f8;&#x5173;&#x7684;makefile">
-<node CREATED="1468338050509" FOLDED="true" ID="ID_1613029233" MODIFIED="1474123655625">
+<node CREATED="1468337897909" ID="ID_697366277" MODIFIED="1491199016586" TEXT="&#x7b2c;&#x516d;&#x90e8;&#x5206;:&#x67b6;&#x6784;&#x76f8;&#x5173;&#x7684;makefile">
+<node CREATED="1468338050509" ID="ID_1613029233" MODIFIED="1491199026263">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7731,7 +7729,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1468339624384" FOLDED="true" ID="ID_1431066623" MODIFIED="1475896811700" TEXT="1.&#x8bbe;&#x7f6e;&#x53d8;&#x91cf;&#x8c03;&#x6574;&#x5bf9;&#x67b6;&#x6784;&#x7684;&#x6784;&#x5efa;">
+<node CREATED="1468339624384" ID="ID_1431066623" MODIFIED="1491199206052" TEXT="1.&#x8bbe;&#x7f6e;&#x53d8;&#x91cf;&#x8c03;&#x6574;&#x5bf9;&#x67b6;&#x6784;&#x7684;&#x6784;&#x5efa;">
 <node CREATED="1468339776327" ID="ID_862426094" MODIFIED="1468339817481">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8102,7 +8100,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1468380767766" FOLDED="true" ID="ID_58595401" MODIFIED="1474123651865">
+<node CREATED="1468380767766" ID="ID_58595401" MODIFIED="1491199325469">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8262,6 +8260,527 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1491269996613" ID="ID_1842522828" MODIFIED="1491270057542">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>&#21338;&#23458;: Linux&#20869;&#26680;&#26500;&#24314;&#31995;&#32479;&#23398;&#20064;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491270089493" ID="ID_1218138841" MODIFIED="1491297413177">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#dd0d0d">&#31532;&#20108;&#31687;&#65306; &#26500;&#25104;&#26500;&#24314;&#31995;&#32479;&#30340;&#25991;&#20214;</font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491270114341" ID="ID_32705983" MODIFIED="1491270179415">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39030;&#23618;Makefile
+    </p>
+    <p>
+      &#25552;&#20379;&#38024;&#23545;&#21508;&#31181;&#30446;&#26631;&#30340;&#25509;&#21475;&#65292;&#19968;&#33324;&#21644;&#23454;&#29616;&#26080;&#20851;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491270183300" ID="ID_723434256" MODIFIED="1491272519493">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24179;&#21488;&#30456;&#20851;&#30340;makefile
+    </p>
+    <p>
+      &#36890;&#24120;&#20301;&#20110;arch/*/&#19979;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491272546651" ID="ID_1140887424" MODIFIED="1491297415496">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21508;&#31867;&#35268;&#21017;&#25991;&#20214;&#65292;&#20301;&#20110;scripts&#30446;&#24405;&#19979;&#38754;
+    </p>
+    <p>
+      &#21487;&#20197;&#35270;&#20026;&#39030;&#23618;&#30340;makefile&#25991;&#20214;&#30340;&#21508;&#20010;&#25509;&#21475;&#30340;&#23454;&#29616;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491272816737" ID="ID_736280168" MODIFIED="1491272857211">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kbuild.include
+    </p>
+    <p>
+      &#36890;&#29992;&#30340;&#25991;&#20214;&#65292;&#35813;&#25991;&#20214;&#34987;&#39030;&#23618;&#30340;makefile&#21644;
+    </p>
+    <p>
+      Makefile.build&#25991;&#20214;&#21253;&#21547;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491272867729" ID="ID_1159924594" MODIFIED="1491272933620">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.build
+    </p>
+    <p>
+      &#35813;&#25991;&#20214;&#23450;&#20041;&#20102;&#35768;&#22810;&#32534;&#35793;&#35268;&#21017;&#65292;&#29992;&#20110;&#32534;&#35793;built-in.o,
+    </p>
+    <p>
+      lib.a&#31561;&#32452;&#20214;&#65292;&#36825;&#20123;&#32452;&#20214;&#26500;&#25104;&#20102;linux&#20869;&#26680;&#30340;&#38236;&#20687;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491272948464" ID="ID_1336938693" MODIFIED="1491273087513">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.lib
+    </p>
+    <p>
+      &#35813;&#25991;&#20214;&#32473;&#35768;&#22810;&#30340;&#21464;&#37327;&#36827;&#34892;&#20102;&#36171;&#20540;&#25805;&#20316;&#65292;&#27604;&#22914;
+    </p>
+    <p>
+      obj-y, obj-m, subdir-y, subdir-m&#31561;&#31561;&#12290;&#36825;&#20123;&#21464;&#37327;&#25152;&#20195;&#34920;
+    </p>
+    <p>
+      &#30340;&#25991;&#20214;&#21644;&#30446;&#24405;&#37117;&#26159;&#38656;&#35201;&#36827;&#34892;&#32534;&#35793;&#30340;&#65292;&#21478;&#22806;&#36824;&#23450;&#20041;&#20102;&#19968;&#31995;&#21015;&#30340;cmd,
+    </p>
+    <p>
+      &#29992;&#20110;&#25645;&#37197;if_changed&#31995;&#21015;&#20351;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491273134775" ID="ID_986635715" MODIFIED="1491273348065">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.host
+    </p>
+    <p>
+      &#22312;linux&#20869;&#26680;&#32534;&#35793;&#30340;&#36807;&#31243;&#24403;&#20013;&#65292;&#19981;&#20165;&#38656;&#35201;&#20351;&#29992;gcc, as, ld&#31561;&#24037;&#20855;&#65292;
+    </p>
+    <p>
+      &#36824;&#38656;&#35201;&#20351;&#29992;&#35768;&#22810;&#20854;&#20182;&#30340;&#31243;&#24207;&#26469;&#36827;&#34892;&#22788;&#29702;&#12290;&#27604;&#22914;&#20351;&#29992;fixdep&#26469;&#22788;&#29702;
+    </p>
+    <p>
+      &#20381;&#36182;&#20851;&#31995;&#65292;&#20351;&#29992;conf/gconf/mconf&#31561;&#20247;&#22810;&#24037;&#20855;&#26469;&#35299;&#26512;Kconfig&#37197;&#32622;&#25991;&#20214;
+    </p>
+    <p>
+      &#24403;&#20013;&#30340;&#37197;&#32622;&#20197;&#29983;&#25104;.config&#25991;&#20214;&#12290;&#20351;&#29992;genksyms&#35745;&#31639;&#20869;&#26680;&#23548;&#20986;&#31526;&#21495;&#30340;
+    </p>
+    <p>
+      &#26657;&#39564;&#21644;&#31561;&#31561;&#12290;&#36825;&#20123;&#24037;&#20855;&#30340;&#28304;&#20195;&#30721;&#25918;&#32622;&#22312;scripts&#30340;&#19981;&#21516;&#30446;&#24405;&#19979;&#38754;&#65292;
+    </p>
+    <p>
+      Makefile.host&#23450;&#20041;&#20102;&#22914;&#20309;&#23558;&#23427;&#20204;&#32534;&#35793;&#20986;&#26469;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491273368277" ID="ID_490826990" MODIFIED="1491273399167">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.clean
+    </p>
+    <p>
+      &#35814;&#32454;&#23450;&#20041;&#20102;&#20869;&#26680;&#20570;clean&#21160;&#20316;&#30340;&#19968;&#31995;&#21015;&#30340;&#35268;&#21017;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491273419317" ID="ID_1483708926" MODIFIED="1491273451896">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.headerisnt
+    </p>
+    <p>
+      &#23450;&#20041;&#20102;&#22914;&#20309;&#23433;&#35013;&#20869;&#26680;&#22836;&#25991;&#20214;&#30340;&#19968;&#31995;&#21015;&#35268;&#21017;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491273620395" ID="ID_1817956798" MODIFIED="1491273755725">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.modinst
+    </p>
+    <p>
+      &#23450;&#20041;&#20102;&#22914;&#20309;&#23433;&#35013;&#20869;&#37096;&#27169;&#22359;&#21040;INSTALL_MOD_PATH&#36335;&#24452;&#24403;&#20013;
+    </p>
+    <p>
+      &#21435;&#30340;&#19968;&#20123;&#21015;&#30340;&#35268;&#21017;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491273784403" ID="ID_994533779" MODIFIED="1491273854814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.modpost
+    </p>
+    <p>
+      &#22312;2.6&#20869;&#26680;&#30340;&#32534;&#35793;&#36807;&#31243;&#24403;&#20013;&#65292;&#27169;&#22359;&#30340;&#32534;&#35793;&#38656;&#35201;&#20004;&#20010;&#38454;&#27573;&#12290;
+    </p>
+    <p>
+      &#31532;&#19968;&#20010;&#38454;&#27573;&#26159;&#23558;&#30456;&#24212;&#30340;&#28304;&#20195;&#30721;&#32534;&#35793;&#25104;.o&#25991;&#20214;&#65292;&#31532;&#20108;&#20010;&#38454;&#27573;
+    </p>
+    <p>
+      &#26159;&#23558;&#23545;&#24212;&#30340;.o&#25991;&#20214;&#38142;&#25509;&#25104;&#27169;&#22359;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491273872569" ID="ID_715202670" MODIFIED="1491274922225">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makefile.fwinst
+    </p>
+    <p>
+      &#22312;2.6.27&#29256;&#26412;&#20043;&#21069;&#65292;&#39537;&#21160;&#31243;&#24207;&#21644;&#30456;&#24212;&#30340;&#22266;&#20214;&#26159;&#19968;&#21516;&#36827;&#34892;&#32534;&#35793;&#30340;&#65292;
+    </p>
+    <p>
+      &#22312;2.6.27&#29256;&#26412;&#21450;&#20854;&#20043;&#21518;&#30340;&#29256;&#26412;&#65292;drivers/firmware&#34987;&#21333;&#29420;&#21462;&#20986;&#25918;&#32622;
+    </p>
+    <p>
+      &#21040;firmware&#30446;&#24405;&#37324;&#38754;&#65292;&#35813;&#25991;&#20214;&#23601;&#26159;&#23558;firmware&#37324;&#38754;&#30340;&#25991;&#20214;&#23433;&#35013;&#21040;
+    </p>
+    <p>
+      &#25991;&#20214;&#31995;&#32479;&#29305;&#23450;&#30340;&#30446;&#24405;&#19979;&#38754;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1491274945610" ID="ID_428886487" MODIFIED="1491275055740">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20195;&#30721;&#26641;&#19979;&#21508;&#30446;&#24405;&#30340;makefile
+    </p>
+    <p>
+      &#20869;&#26680;&#30340;&#26500;&#24314;&#26159;&#19968;&#20010;&#19981;&#26029;&#36882;&#24402;&#36827;&#34892;&#30340;&#36807;&#31243;&#65292;&#21508;&#20010;
+    </p>
+    <p>
+      &#30446;&#24405;&#19979;&#38754;&#30340;makefile&#25991;&#20214;&#25110;&#32773;&#26159;kbuild&#25991;&#20214;&#36127;&#36131;
+    </p>
+    <p>
+      &#23545;&#26412;&#30446;&#24405;&#19979;&#38754;&#30340;&#25991;&#20214;&#36827;&#34892;&#32534;&#35793;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491276191281" ID="ID_1632312480" MODIFIED="1491276212554">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20195;&#30721;&#26641;&#21508;&#30446;&#24405;&#19979;&#38754;&#30340;&#37197;&#32622;&#25991;&#20214;Kconfig
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1491276991843" ID="ID_1298505986" MODIFIED="1491277477341">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#19977;&#31687;&#65306;&#39030;&#23618;Makefile&#30340;&#24635;&#20307;&#26694;&#26550;&#32467;&#26500;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491291292295" ID="ID_1401334981" MODIFIED="1491291476880">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24433;&#21709;&#20869;&#26680;&#26500;&#24314;&#21160;&#20316;&#30340;&#26377;&#25968;&#20010;&#21464;&#37327;:
+    </p>
+    <p>
+      &#31532;&#19968;&#32452; KBUILD_SRC KBUILD_OUTPUT skip-makefile
+    </p>
+    <p>
+      &#31532;&#20108;&#32452; mixed-targets config-targets dot-config
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491291483053" ID="ID_1630354893" MODIFIED="1491291528992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#19968;&#32452;&#21464;&#37327;&#26159;&#20026;&#20102;&#25903;&#25345;&#23558;&#32534;&#35793;&#36755;&#20986;&#25991;&#20214;&#25918;&#32622;
+    </p>
+    <p>
+      &#21040;&#21478;&#22806;&#30340;&#30446;&#24405;&#19979;&#38754;&#21435;&#30340;&#30446;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491292160480" ID="ID_1388983278" MODIFIED="1491292207427">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#20108;&#32452;&#21629;&#20196;&#65292;&#26159;&#20026;&#20102;&#36866;&#24212;make&#21629;&#20196;&#25152;&#36319;&#30340;Targets
+    </p>
+    <p>
+      &#25968;&#30446;&#21644;&#31867;&#22411;&#19978;&#30340;&#22810;&#26679;&#24615;&#32780;&#24050;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491292948363" ID="ID_1252189189" MODIFIED="1491296813503">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      no-dot-config-targets := clean clobber mrproper distclean \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;help %docs check% coccicheck \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ubootversion backup
+    </p>
+    <p>
+      config-targets := 0
+    </p>
+    <p>
+      mixed-targets&#160;&#160;:= 0
+    </p>
+    <p>
+      dot-config&#160;&#160;&#160;&#160;&#160;:= 1
+    </p>
+    <p>
+      ifneq ($(filter $(no-dot-config-targets), $(MAKECMDGOALS)),)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ifeq ($(filter-out $(no-dot-config-targets), $(MAKECMDGOALS)),)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dot-config := 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;endif
+    </p>
+    <p>
+      endif
+    </p>
+    <p>
+      <i><font color="#181de3">ifeq ($(KBUILD_EXTMOD),) </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ifneq ($(filter config %config,$(MAKECMDGOALS)),) </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;config-targets := 1 </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ifneq ($(words $(MAKECMDGOALS)),1) </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mixed-targets := 1&#160;&#160;&#28151;&#21512;&#30446;&#26631; </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;endif </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;endif </font></i>
+    </p>
+    <p>
+      <i><font color="#181de3">endif</font></i>
+    </p>
+    <p>
+      <font color="#d71c1c">&#39030;&#23618;&#30340;makefile 430&#34892;&#24038;&#21491;&#23450;&#20041;&#20102;&#22914;&#19978;&#30340;&#25805;&#20316;&#65292;&#36890;&#36807;&#19968;&#20010;no-dot-config-targets&#21464;&#37327; </font>
+    </p>
+    <p>
+      <font color="#d71c1c">&#23450;&#20041;&#20102;&#25152;&#26377;&#36319;.config&#26080;&#20851;&#30340;&#30446;&#26631;&#38598;&#21512;&#12290;makefile&#20250;&#20998;&#26512;&#20174;make&#21629;&#20196;&#20256;&#20837;&#30340;&#21442;&#25968;&#30446;&#26631; </font>
+    </p>
+    <p>
+      <font color="#d71c1c">&#24403;&#20013;&#26159;&#21542;&#23450;&#20041;&#20102;&#36319;.config&#26377;&#20851;&#30340;&#30446;&#26631;&#65292;&#22914;&#26524;&#26377;&#19988;&#20165;&#26377;&#22312;no-dot-config-targets&#24403;&#20013;&#23450;&#20041;&#30340; </font>
+    </p>
+    <p>
+      <font color="#d71c1c">target,&#37027;&#20040;&#23601;&#23558;dot-config&#23450;&#20041;&#25104;0&#65292;&#21542;&#21017;&#23601;&#35774;&#32622;&#25104;&#40664;&#35748;&#30340;1.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491296240812" ID="ID_79779942" MODIFIED="1491296608346">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#2b2a89">ifeq ($(mixed-targets),1) </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">PHONY += $(MAKECMDGOALS) __build_one_by_one </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">$(filter-out __build_one_by_one, $(MAKECMDGOALS)): __build_one_by_one </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">&#160;&#160;&#160;&#160;@: </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">__build_one_by_one: </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">&#160;&#160;&#160;&#160;$(Q)set -e; \ </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">&#160;&#160;&#160;&#160;for i in $(MAKECMDGOALS); do \ </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(MAKE) -f $(srctree)/Makefile $$i; \ </font></i>
+    </p>
+    <p>
+      <i><font color="#2b2a89">&#160;&#160;&#160;&#160;done</font></i>
+    </p>
+    <p>
+      &#22312;&#28304;&#20195;&#30721;&#30340;&#39030;&#23618;&#30446;&#24405;&#24403;&#20013;&#65292;&#20250;&#21028;&#26029;&#24403;&#21069;&#36755;&#20837;&#30340;&#30446;&#26631;&#26159;&#19981;&#26159;&#28151;&#21512;&#30446;&#26631;&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#26159;&#28151;&#21512;&#30446;&#26631;&#30340;&#35805;&#65292;&#23601;&#20250;&#25384;&#20010;&#25191;&#34892;&#36755;&#20837;&#30340;&#30446;&#26631;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491296521562" ID="ID_747450763" MODIFIED="1491296593960">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#21482;&#26159;&#21333;&#19968;&#30340;&#37197;&#32622;&#30446;&#26631;&#65292;&#37027;&#20040;&#36827;&#34892;&#22914;&#19979;&#30340;&#22788;&#29702;
+    </p>
+    <p>
+      <i><font color="#d90e0e">KBUILD_DEFCONFIG := sandbox_defconfig </font></i>
+    </p>
+    <p>
+      <i><font color="#d90e0e">export KBUILD_DEFCONFIG KBUILD_KCONFIG </font></i>
+    </p>
+    <p>
+      <i><font color="#d90e0e">config: scripts_basic outputmakefile FORCE </font></i>
+    </p>
+    <p>
+      <i><font color="#d90e0e">&#160;&#160;&#160;&#160;$(Q)$(MAKE) $(build)=scripts/kconfig $@ </font></i>
+    </p>
+    <p>
+      <i><font color="#d90e0e">#The only place to match make xxx_defconfig </font></i>
+    </p>
+    <p>
+      <i><font color="#d90e0e">%config: scripts_basic outputmakefile FORCE </font></i>
+    </p>
+    <p>
+      <i><font color="#d90e0e">&#160;&#160;&#160;&#160;$(Q)$(MAKE) $(build)=scripts/kconfig $@</font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -8541,9 +9060,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1475896151069" ID="ID_1362020755" MODIFIED="1486626654107" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1491197869373" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475999878646" ID="ID_1055025927" MODIFIED="1486977443269">
+<node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1491197821438">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9260,7 +9779,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1486974920735" ID="ID_1347078890" MODIFIED="1486974940188" TEXT="1.ACPI&#x517c;&#x5bb9;&#x7cfb;&#x7edf;&#x7684;&#x8bbe;&#x5907;&#x5982;&#x4f55;&#x5524;&#x9192;&#x7cfb;&#x7edf;">
+<node CREATED="1486974920735" FOLDED="true" ID="ID_1347078890" MODIFIED="1491197833806" TEXT="1.ACPI&#x517c;&#x5bb9;&#x7cfb;&#x7edf;&#x7684;&#x8bbe;&#x5907;&#x5982;&#x4f55;&#x5524;&#x9192;&#x7cfb;&#x7edf;">
 <node CREATED="1486974974526" ID="ID_721029365" MODIFIED="1487127494344">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10003,7 +10522,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1475917220585" ID="ID_1364440222" MODIFIED="1486974438542" POSITION="left">
+<node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1491197871037" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10015,7 +10534,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475917339823" ID="ID_526840807" MODIFIED="1486543831532">
+<node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1491197837293">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10195,7 +10714,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1476064923956" ID="ID_895397883" MODIFIED="1486543781089">
+<node CREATED="1476064923956" FOLDED="true" ID="ID_895397883" MODIFIED="1491197841286">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10331,7 +10850,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476077041382" ID="ID_1538495126" MODIFIED="1483014008865">
+<node CREATED="1476077041382" FOLDED="true" ID="ID_1538495126" MODIFIED="1491197843246">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10368,7 +10887,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1476078253343" ID="ID_1619791911" MODIFIED="1483014043187">
+<node CREATED="1476078253343" FOLDED="true" ID="ID_1619791911" MODIFIED="1491197844693">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10503,7 +11022,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1478661053173" ID="ID_1422883878" MODIFIED="1486543760459">
+<node CREATED="1478661053173" FOLDED="true" ID="ID_1422883878" MODIFIED="1491197846293">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10602,7 +11121,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1482889542718" ID="ID_758317088" MODIFIED="1482889563958">
+<node CREATED="1482889542718" FOLDED="true" ID="ID_758317088" MODIFIED="1491197856981">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10727,7 +11246,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483369813652" ID="ID_1687834763" MODIFIED="1486974454846">
+<node CREATED="1483369813652" FOLDED="true" ID="ID_1687834763" MODIFIED="1491197850413">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10841,7 +11360,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1483373947773" ID="ID_1006498594" MODIFIED="1483374485121">
+<node CREATED="1483373947773" FOLDED="true" ID="ID_1006498594" MODIFIED="1491197853461">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11417,7 +11936,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477535464680" FOLDED="true" ID="ID_1619933124" MODIFIED="1486555617314" POSITION="left">
+<node CREATED="1477535464680" FOLDED="true" ID="ID_1619933124" MODIFIED="1491198059644" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11438,7 +11957,7 @@
     <img src="i2c/i2c&#x603b;&#x7ebf;&#x9a71;&#x52a8;&#x6846;&#x67b6;.jpg" />
   </body>
 </html></richcontent>
-<node CREATED="1477539857560" FOLDED="true" ID="ID_1947968621" MODIFIED="1486555599175">
+<node CREATED="1477539857560" ID="ID_1947968621" MODIFIED="1491197957503">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11458,7 +11977,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477540091348" FOLDED="true" ID="ID_336523858" MODIFIED="1482300624174">
+<node CREATED="1477540091348" ID="ID_336523858" MODIFIED="1491197961242">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11592,7 +12111,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478507869697" FOLDED="true" ID="ID_1052998927" MODIFIED="1486555599176">
+<node CREATED="1478507869697" ID="ID_1052998927" MODIFIED="1491197908431">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11836,7 +12355,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478510896716" FOLDED="true" ID="ID_1531819648" MODIFIED="1486555599176">
+<node CREATED="1478510896716" ID="ID_1531819648" MODIFIED="1491197916793">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12512,7 +13031,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1486555663162" ID="ID_217587555" MODIFIED="1486555673373" POSITION="left" TEXT="SDIO&#x9a71;&#x52a8;">
+<node CREATED="1486555663162" FOLDED="true" ID="ID_217587555" MODIFIED="1491269977973" POSITION="left" TEXT="SDIO&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1486555676946" ID="ID_1961085868" MODIFIED="1486555688485" TEXT="sdio&#x6574;&#x4f53;&#x67b6;&#x6784;">
 <node CREATED="1486557770538" ID="ID_278806248" MODIFIED="1486557779967" TEXT="1.sdio&#x4fe1;&#x53f7;&#x5b9a;&#x4e49;">

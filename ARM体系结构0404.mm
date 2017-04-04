@@ -1196,7 +1196,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1442155802949" ID="ID_1668647094" MODIFIED="1488207727102">
+<node CREATED="1442155802949" ID="ID_1668647094" MODIFIED="1491299392127">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1363,7 +1363,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1444786209232" FOLDED="true" ID="ID_1714373959" MODIFIED="1474124039462" TEXT="2.Makefile&#x5206;&#x6790;">
+<node CREATED="1444786209232" ID="ID_1714373959" MODIFIED="1491146141957" TEXT="2.Makefile&#x5206;&#x6790;">
 <node COLOR="#ff3300" CREATED="1453023306220" ID="ID_1425486651" MODIFIED="1453036040983">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1601,7 +1601,7 @@
 <node CREATED="1445095381344" ID="ID_1233592332" MODIFIED="1445095389435" TEXT="bootam&#x547d;&#x4ee4;&#x7684;&#x79fb;&#x690d;"/>
 </node>
 </node>
-<node CREATED="1473497533753" ID="ID_1739221794" MODIFIED="1476583231671">
+<node CREATED="1473497533753" FOLDED="true" ID="ID_1739221794" MODIFIED="1491145132509">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2698,7 +2698,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468204134477" FOLDED="true" ID="ID_449599574" MODIFIED="1488206287805" TEXT="uboot-kbuild">
+<node CREATED="1468204134477" FOLDED="true" ID="ID_449599574" MODIFIED="1491146079397" TEXT="uboot-kbuild">
 <node CREATED="1468204305751" ID="ID_1602710959" MODIFIED="1468204357752">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2717,7 +2717,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1468205536025" ID="ID_1711700978" MODIFIED="1480257633623" TEXT="&#x8f6f;&#x4ef6;&#x914d;&#x7f6e;">
+<node CREATED="1468205536025" FOLDED="true" ID="ID_1711700978" MODIFIED="1491146073197" TEXT="&#x8f6f;&#x4ef6;&#x914d;&#x7f6e;">
 <node CREATED="1468205546409" ID="ID_459947761" MODIFIED="1468206659517">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2779,7 +2779,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468207871130" ID="ID_864742221" MODIFIED="1480257430827" TEXT="&#x521d;&#x59cb;&#x5316;&#x6d41;&#x7a0b;">
+<node CREATED="1468207871130" FOLDED="true" ID="ID_864742221" MODIFIED="1491146071524" TEXT="&#x521d;&#x59cb;&#x5316;&#x6d41;&#x7a0b;">
 <node CREATED="1468207888810" ID="ID_602078063" MODIFIED="1468215313921">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2829,7 +2829,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468215717217" ID="ID_767433180" MODIFIED="1480257433874" TEXT="&#x5982;&#x4f55;&#x914d;&#x7f6e;">
+<node CREATED="1468215717217" FOLDED="true" ID="ID_767433180" MODIFIED="1491146069861" TEXT="&#x5982;&#x4f55;&#x914d;&#x7f6e;">
 <node CREATED="1468215729873" ID="ID_285443316" MODIFIED="1468218407873">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3360,7 +3360,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468476752771" ID="ID_1149244691" MODIFIED="1480257613680">
+<node CREATED="1468476752771" FOLDED="true" ID="ID_1149244691" MODIFIED="1491146067876">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3421,7 +3421,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1468477958581" ID="ID_1699264026" MODIFIED="1479564614076" TEXT="&#x5982;&#x4f55;&#x6784;&#x5efa;&#x8f6f;&#x4ef6;">
+<node CREATED="1468477958581" FOLDED="true" ID="ID_1699264026" MODIFIED="1491146065908" TEXT="&#x5982;&#x4f55;&#x6784;&#x5efa;&#x8f6f;&#x4ef6;">
 <node CREATED="1468478130556" ID="ID_1003922408" MODIFIED="1468478151204">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3750,7 +3750,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468483822217" FOLDED="true" ID="ID_134400308" MODIFIED="1474123820318" TEXT="SPL&#x6846;&#x67b6;">
+<node CREATED="1468483822217" FOLDED="true" ID="ID_134400308" MODIFIED="1491146062517" TEXT="SPL&#x6846;&#x67b6;">
 <node CREATED="1468484092457" ID="ID_512703086" MODIFIED="1468484229541">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3803,7 +3803,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1469084980266" ID="ID_1142508505" MODIFIED="1480258742563" TEXT="lds&#x811a;&#x672c;&#x6587;&#x4ef6;&#x8bed;&#x6cd5;&#x5b66;&#x4e60;">
+<node CREATED="1469084980266" FOLDED="true" ID="ID_1142508505" MODIFIED="1491146059525" TEXT="lds&#x811a;&#x672c;&#x6587;&#x4ef6;&#x8bed;&#x6cd5;&#x5b66;&#x4e60;">
 <node CREATED="1469085024120" FOLDED="true" ID="ID_421310560" MODIFIED="1475842348712" TEXT="1.&#x5173;&#x4e8e;&#x6587;&#x4ef6;&#x5904;&#x7406;&#x7684;&#x547d;&#x4ee4;">
 <node CREATED="1469085050704" ID="ID_692599693" MODIFIED="1469085118618">
 <richcontent TYPE="NODE"><html>
@@ -3969,7 +3969,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1468560942268" FOLDED="true" ID="ID_1650428074" MODIFIED="1475842327896">
+<node CREATED="1468560942268" HGAP="84" ID="ID_1650428074" MODIFIED="1491301526331" VSHIFT="-67">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4044,9 +4044,10 @@
     <p>
       $@ &#34920;&#31034;&#35268;&#21017;&#30340;&#30446;&#26631;&#25991;&#20214;&#21517;&#31216;
     </p>
-    $% &#24403;&#35268;&#21017;&#30340;&#30446;&#26631;&#25991;&#20214;&#26159;&#19968;&#20010;&#38745;&#24577;&#24211;&#30340;&#26102;&#20505;&#65292;&#20195;&#34920;&#38745;&#24577;&#24211;&#30340;&#19968;&#20010;&#25104;&#21592;&#21517;&#31216; $&lt; &#35268;&#21017;&#30340;&#31532;&#19968;&#20010;&#20381;&#36182;&#25991;&#20214;&#21517;&#31216;
+    $% &#24403;&#35268;&#21017;&#30340;&#30446;&#26631;&#25991;&#20214;&#26159;&#19968;&#20010;&#38745;&#24577;&#24211;&#30340;&#26102;&#20505;&#65292;&#20195;&#34920;&#38745;&#24577;&#24211;&#30340;&#19968;&#20010;&#25104;&#21592;&#21517;&#31216; $&lt; &#35268;&#21017;&#30340;&#31532;&#19968;&#20010;&#20381;&#36182;&#25991;&#20214;&#21517;&#31216; <b><i><font color="#d90e0e">&#21487;&#20197;&#21442;&#32771;&#32593;&#31449;http://blog.csdn.net/lixiangminghate/article/details/50471491</font></i></b>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1468827852501" ID="ID_1364245574" MODIFIED="1468827866570" TEXT="makefile.build&#x6587;&#x4ef6;&#x662f;&#x7f16;&#x8bd1;&#x7cfb;&#x7edf;&#x6838;&#x5fc3;"/>
 <node CREATED="1468827876494" ID="ID_647029059" MODIFIED="1468829227928">
 <richcontent TYPE="NODE"><html>
@@ -4084,7 +4085,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1474123973928" FOLDED="true" ID="ID_164809639" MODIFIED="1475842322481">
+<node CREATED="1474123973928" FOLDED="true" ID="ID_164809639" MODIFIED="1491301494120">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4104,7 +4105,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474879387533" FOLDED="true" ID="ID_526139270" MODIFIED="1475842321056">
+<node CREATED="1474879387533" ID="ID_526139270" MODIFIED="1491298559975">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4118,6 +4119,9 @@
     </p>
     <p>
       $(Q)$(MAKE) -f $(srctree)/scripts/Makefile.build obj=scripts/basic
+    </p>
+    <p>
+      <font color="#b30b0b">&#35813;make&#21629;&#20196;&#30340;&#23454;&#38469;&#25928;&#26524;&#26159;&#21435;&#32534;&#35793;&#20986; scripts/basic &#30446;&#24405;&#19979;&#30340;host program</font>
     </p>
   </body>
 </html></richcontent>
@@ -4133,10 +4137,531 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1491197108638" ID="ID_59313829" MODIFIED="1491299257090">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#e82727">1.&#23545;&#32534;&#35793;&#25991;&#20214;Makefile.build&#36827;&#34892;&#20998;&#26512;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491197213268" ID="ID_350613596" MODIFIED="1491203253555">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>a.&#21028;&#26029;&#20256;&#20837;&#30340;obj&#21464;&#37327;&#26159;&#21542;&#26159;&#20197;tpl&#25110;&#32773;spl</i></b>
+    </p>
+    <p>
+      &#20316;&#20026;&#36335;&#24452;&#30340;&#24320;&#22836;&#30340;&#65292;&#22914;&#26524;&#26159;&#21017;&#23558;&#21464;&#37327;prefix
+    </p>
+    <p>
+      &#36171;&#20540;&#25104;&#20026;tpl&#25110;&#32773;spl,&#22914;&#26524;&#19981;&#26159;&#21017;&#23558;&#21464;&#37327;prefix
+    </p>
+    <p>
+      &#36171;&#20540;&#20026;'.'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491197524595" ID="ID_1446129436" MODIFIED="1491199834283">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>b.&#23558;&#22914;&#19979;&#30340;&#21464;&#37327;&#36827;&#34892;&#21021;&#22987;&#21270;</i></b>
+    </p>
+    <p>
+      obj-y obj-m lib-y lib-m always targets
+    </p>
+    <p>
+      subdir-y subdir-m EXTRA_AFLAGS&#160;&#160;&#160;
+    </p>
+    <p>
+      EXTRA_CFLAGS&#160;EXTRA_CPPFLAGS
+    </p>
+    <p>
+      EXTRA_LDFLAGS&#160;
+    </p>
+    <p>
+      asflags-y&#160;ccflags-y&#160;cppflags-y ldflags-y&#160;
+    </p>
+    <p>
+      subdir-asflags-y subdir-ccflags-y
+    </p>
+    <p>
+      save-cflags := $(CFLAGS)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491197678522" ID="ID_761512240" MODIFIED="1491197740533">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>c.&#23558;&#37197;&#32622;&#25991;&#20214;&#21253;&#21547;&#36827;&#26469;</b>
+    </p>
+    <p>
+      -include include/config/auto.conf
+    </p>
+    <p>
+      -include $(prefix)/include/autoconf.mk
+    </p>
+    <p>
+      include scripts/Makefile.uncmd_spl
+    </p>
+    <p>
+      include scripts/Kbuild.include----&gt;&#21253;&#21547;kbuild&#20351;&#29992;&#30340;&#36890;&#29992;&#30340;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491298668058" ID="ID_921154180" MODIFIED="1491298723731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if_changed&#21629;&#20196;
+    </p>
+    <p>
+      &#24403;&#30446;&#26631;&#30340;&#20808;&#20915;&#26465;&#20214;&#27604;&#30446;&#26631;&#26356;&#26032;&#25110;&#32773;&#21629;&#20196;&#34892;&#24050;&#32463;&#34987;
+    </p>
+    <p>
+      &#26356;&#25913;&#65292;&#21017;&#25191;&#34892;&#21629;&#20196;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1491200900600" ID="ID_34862812" MODIFIED="1491299223454">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>d. &#30001;&#20110;&#20256;&#20837;&#30340;src = obj = scripts/basic</i></b>
+    </p>
+    <p>
+      <i><font color="#be2c2c" face="Serif">&#25152;&#20197;&#22312;basic&#30446;&#24405;&#19979;&#38754;&#23547;&#25214;Makefile&#25110;&#32773;&#26159;Kbuild&#25991;&#20214;&#65292; </font></i>
+    </p>
+    <p>
+      <i><font color="#be2c2c" face="Serif">&#21253;&#21547;&#30456;&#24212;&#30340;&#20256;&#20837;&#30340;obj&#30446;&#26631;&#19979;&#38754;&#30340;makefile&#25110;&#32773;&#26159;kbuild&#25991;&#20214;</font></i>
+    </p>
+    <p>
+      &#28982;&#21518;&#21253;&#21547;&#35813;&#25991;&#20214;
+    </p>
+    <p>
+      include $(kbuild-file)
+    </p>
+    <p>
+      scripts/basic&#30446;&#24405;&#19979;&#38754;&#30340;Makefile&#25991;&#20214;&#29992;&#26469;&#32534;&#35793;&#29983;&#25104;fixdep&#31243;&#24207;
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#ed640c" DESTINATION="ID_34862812" ENDARROW="Default" ENDINCLINATION="847;0;" ID="Arrow_ID_1785801322" SOURCE="ID_711080305" STARTARROW="None" STARTINCLINATION="847;0;"/>
+</node>
+<node CREATED="1491201278053" ID="ID_616799324" MODIFIED="1491201316762">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>e.&#28155;&#21152;&#23545;uboot&#25903;&#25345;&#30340;&#21464;&#37327;</i></b>
+    </p>
+    <p>
+      asflags-y&#160;&#160;+= $(PLATFORM_CPPFLAGS)
+    </p>
+    <p>
+      ccflags-y&#160;&#160;+= $(PLATFORM_CPPFLAGS)
+    </p>
+    <p>
+      cppflags-y += $(PLATFORM_CPPFLAGS)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491201663755" ID="ID_353480679" MODIFIED="1491201770163">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>e.&#21253;&#21547;&#25991;&#20214;include scripts/Makefile.lib</i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491202397453" ID="ID_675764528" MODIFIED="1491203265538">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#d80f0f">f.</font>&#26816;&#26597;&#21464;&#37327;hostprogs-y&#21644;hostprogs-m&#26159;&#21542;&#20026;&#31354;&#65292;</i></b>
+    </p>
+    <p>
+      &#22914;&#26524;&#19981;&#26159;&#31354;&#65292;&#21017;&#23558;&#25991;&#20214;
+    </p>
+    <p>
+      include scripts/Makefile.host
+    </p>
+    <p>
+      &#21253;&#21547;&#36827;&#26469;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491203125783" ID="ID_936270056" MODIFIED="1491203224603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>g. &#21028;&#26029;KBUILD_SRC&#26159;&#21542;&#20026;&#31354;</i></b>&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#19981;&#26159;&#31354;(&#19968;&#33324;&#22312;&#30495;&#27491;&#32534;&#35793;uboot&#30340;&#26102;&#20505;&#35813;&#20540;&#19981;&#31354;)&#65292;
+    </p>
+    <p>
+      &#21017;&#26681;&#25454;&#20256;&#20837;&#30340;obj&#30340;&#20540;&#65292;&#21019;&#24314;obj&#21644;obj-dirs&#23545;&#24212;&#30340;&#30446;&#24405;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491203556190" ID="ID_45250146" MODIFIED="1491203641039">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>h.&#22914;&#26524;&#24050;&#32463;&#30495;&#27491;&#36827;&#20837;&#20102;&#32534;&#35793;&#20195;&#30721;&#30340;&#38454;&#27573;&#65292;</i></b>&#37027;&#20040;&#23601;&#36890;&#36807;&#22914;&#19979;&#30340;&#36171;&#20540;
+    </p>
+    <p>
+      &#25351;&#23450;&#32534;&#35793;&#32467;&#26463;&#21518;&#30340;&#30456;&#20851;&#32467;&#26524;&#30340;&#20301;&#32622;
+    </p>
+    <p>
+      lib-target := $(obj)/lib.a
+    </p>
+    <p>
+      builtin-target := $(obj)/built-in.o
+    </p>
+    <p>
+      modorder-target := $(obj)/modules.order
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491206026956" ID="ID_1284916225" MODIFIED="1491206106225">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      122 __build: $(if $(KBUILD_BUILTIN),$(builtin-target) $(lib-target) $(extra-y)) \
+    </p>
+    <p>
+      123&#160;&#160;&#160;&#160;&#160;&#160;$(if $(KBUILD_MODULES),$(obj-m) $(modorder-target)) \
+    </p>
+    <p>
+      124&#160;&#160;&#160;&#160;&#160;&#160;$(subdir-ym) $(always)
+    </p>
+    <p>
+      125&#160;&#160;&#160;&#160;&#160;@:
+    </p>
+    <p>
+      &#39030;&#23618;&#30446;&#24405;&#30340;Makefile&#25991;&#20214;&#24050;&#32463;&#23558;KBUILD_BUILTIN&#35774;&#32622;&#25104;1&#65292;
+    </p>
+    <p>
+      &#32780;&#23558;KBUILD_MODULES&#27809;&#26377;&#36827;&#34892;&#35774;&#32622;&#65292;
+    </p>
+    <p>
+      &#20063;&#23601;&#26159;&#35828;u-boot&#40664;&#35748;&#26159;&#37319;&#29992;builtin&#32534;&#35793;&#27169;&#24335;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491297907135" ID="ID_1480152721" MODIFIED="1491298110793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(builtin-target): $(obj-y) FORCE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(call if_changed,link_o_target)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491298166133" ID="ID_1854524770" MODIFIED="1491298187334">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(lib-target): $(lib-y) FORCE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(call if_changed,link_l_target)
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1469342159438" FOLDED="true" ID="ID_1769058040" MODIFIED="1475842316188">
+</node>
+</node>
+<node CREATED="1491298289077" ID="ID_1554641990" MODIFIED="1491298348197">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;&#30446;&#26631;outputmakefile,&#20854;&#23454;&#21482;&#26159;&#22312;make&#21629;&#20196;&#24102;&#26377;
+    </p>
+    <p>
+      O&#36873;&#39033;&#30340;&#26102;&#20505;&#25165;&#26377;&#20316;&#29992;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491298855240" ID="ID_711080305" LINK="#ID_34862812" MODIFIED="1491299631636">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20998;&#26512;<i><font color="#e81313">$(Q)$(MAKE) $(build)=scripts/kconfig $@ </font></i></b>
+    </p>
+    <p>
+      <b>&#21363;&#20998;&#26512; </b>
+    </p>
+    <p>
+      <b>make -f scripts/Makefile.build obj=scripts/kconfig s3c2410_defconfig</b>
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#ed640c" DESTINATION="ID_34862812" ENDARROW="Default" ENDINCLINATION="847;0;" ID="Arrow_ID_1785801322" STARTARROW="None" STARTINCLINATION="847;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1491299282142" ID="ID_383307405" MODIFIED="1491299463598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#39318;&#20808;&#20250;&#21253;&#21547;scripts/kconfig&#30446;&#24405;&#19979;&#38754;&#30340;makefile
+    </p>
+    <p>
+      &#25991;&#20214;&#65292;&#23545;&#35813;&#25991;&#20214;&#36827;&#34892;&#20998;&#26512;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491299695530" ID="ID_839625115" MODIFIED="1491300361950">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39318;&#20808;&#25105;&#20204;&#25214;&#21040;&#40664;&#35748;&#30340;&#30446;&#26631;&#65306;
+    </p>
+    <p>
+      <i><font color="#d90505">115 %_defconfig: $(obj)/conf </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">116&#160;&#160;&#160;&#160;&#160;$(Q)$&lt; $(silent) --defconfig=arch/$(SRCARCH)/configs/$@ $(Kconfig) </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">117 </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">118 # Added for U-Boot (backward compatibility) </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">119 %_config: %_defconfig </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">120&#160;&#160;&#160;&#160;&#160;@:</font></i>
+    </p>
+    <p>
+      &#21487;&#20197;&#30475;&#21040;u-boot&#20026;%_config&#20570;&#20102;&#20860;&#23481;&#24615;&#30340;&#22788;&#29702;&#65292;&#29992;&#20110;&#22788;&#29702;&#23601;&#29256;&#26412;&#30340;&#32534;&#35793;&#26041;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491300207239" ID="ID_510646270" MODIFIED="1491300262495">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(obj)/conf&#26159;host&#31243;&#24207;&#65292;&#21363;&#36827;&#34892;Kconfig&#36807;&#31243;&#30340;&#20027;&#31243;&#24207;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491300347510" ID="ID_744119757" MODIFIED="1491300877337">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#310909">$(Q)$&lt; $(silent) --defconfig=arch/$(SRCARCH)/configs/$@ $(Kconfig) </font></i>
+    </p>
+    <p>
+      <i><font color="#310909">$&lt;&#34920;&#31034;&#31532;&#19968;&#20010;&#20381;&#36182;&#65292;&#21363;conf&#31243;&#24207; </font></i>
+    </p>
+    <p>
+      &#25152;&#20197;&#35813;&#21629;&#20196;&#22914;&#19979;:
+    </p>
+    <p>
+      conf --defconfig=arch/../configs/s3c2410_defconfig kconfig
+    </p>
+    <p>
+      &#22312;u-boot&#28304;&#20195;&#30721;&#30446;&#24405;&#30340;configs&#30446;&#24405;&#19979;&#38754;&#65292;&#25105;&#20204;&#20197;&#19977;&#26143;&#20195;&#30721;&#20026;&#20363;&#23376;&#65292;&#21487;&#20197;&#30475;&#21040;&#22914;&#19979;&#30340;
+    </p>
+    <p>
+      &#37197;&#32622;&#25991;&#20214;:
+    </p>
+    <p>
+      smdk2410_defconfig&#160;&#160;smdk5250_defconfig&#160;&#160;smdk5420_defconfig&#160; smdkc100_defconfig&#160;&#160;smdkv310_defconfig
+    </p>
+    <p>
+      &#35813;&#21629;&#20196;&#30340;&#23454;&#38469;&#20316;&#29992;&#23601;&#26159;&#35835;&#21462;&#40664;&#35748;&#30340;&#37197;&#32622;&#21644;&#28304;&#20195;&#30721;&#39030;&#23618;&#30446;&#24405;&#24403;&#20013;&#30340;kconfig&#37197;&#32622;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491300885089" ID="ID_170643425" MODIFIED="1491301254222">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="SansSerif">&#20998;&#26512;&#26368;&#39030;&#23618;&#30340;Kconfig&#25991;&#20214;&#65292;&#25105;&#20204;&#21487;&#20197;&#30475;&#21040;&#38500;&#20102;&#35774;&#32622; </font>
+    </p>
+    <p>
+      <font size="4" face="SansSerif">&#19968;&#20123;&#37197;&#32622;&#21464;&#37327;&#20043;&#22806;&#65292;&#36824;source&#20102;&#22914;&#19979;&#36335;&#24452;&#24403;&#20013;&#30340;kconfig </font>
+    </p>
+    <p>
+      <font size="4" face="SansSerif">source &quot;arch/Kconfig&quot;</font>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;common/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;cmd/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;dts/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;net/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;drivers/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;fs/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;lib/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;test/Kconfig&quot;</font></i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1491300309574" ID="ID_806401935" MODIFIED="1491300342031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25105;&#20204;&#30475;makefile&#25991;&#20214;&#30340;&#24320;&#36890;&#36827;&#34892;&#20102;&#22914;&#19979;&#30340;&#22788;&#29702;
+    </p>
+    <p>
+      15 SRCARCH := ..
+    </p>
+    <p>
+      &#160;16
+    </p>
+    <p>
+      &#160;17 ifdef KBUILD_KCONFIG
+    </p>
+    <p>
+      &#160;18 Kconfig := $(KBUILD_KCONFIG)
+    </p>
+    <p>
+      &#160;19 else
+    </p>
+    <p>
+      &#160;20 Kconfig := Kconfig
+    </p>
+    <p>
+      &#160;21 endif
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1491146234120" ID="ID_342765257" MODIFIED="1491146397131">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#25105;&#20204;&#22312;&#39030;&#23618;&#30446;&#24405;&#30340;Makefile&#25991;&#20214;&#37324;&#38754;&#24050;&#32463;&#30475;&#21040;&#20102;&#35813;&#35821;&#21477;
+    </p>
+    <p>
+      &#160;&#160;include scripts/Kbuild.include
+    </p>
+    <p>
+      &#22312;&#25991;&#20214;Kbuild.include&#24403;&#20013;&#65292;&#23450;&#20041;&#20102;&#21464;&#37327;build
+    </p>
+    <p>
+      build := -f $(srctree)/scripts/Makefile.build obj
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1469342159438" FOLDED="true" HGAP="62" ID="ID_1769058040" MODIFIED="1491146202515" VSHIFT="-398">
 <richcontent TYPE="NODE"><html>
   <head>
     
