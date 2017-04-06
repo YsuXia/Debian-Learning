@@ -2120,8 +2120,7 @@
       <b>&#21253;&#25324;&#23545;&#20110;&#36923;&#36753;&#20256;&#36755;&#23618;&#21644;&#36923;&#36753;&#38142;&#36335;&#23618;&#30340;&#24314;&#31435;&#21644;&#25511;&#21046;&#65292;&#23545;&#20110;&#29289;&#29702;&#38142;&#36335;&#30340;&#25511;&#21046;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1470641187426" ID="ID_825756476" MODIFIED="1470641195078">
@@ -2447,8 +2446,7 @@
   <body>
     <img src="bluetoothpic/a2dp-profile-stack01.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1490591701357" ID="ID_695436321" MODIFIED="1490591712815" TEXT="2.Application Layer">
@@ -2483,8 +2481,7 @@
       &#24212;&#29992;&#26381;&#21153;&#33021;&#21147;&#21253;&#25324;audio codec&#33021;&#21147;&#21644;&#20869;&#23481;&#20445;&#25252;&#33021;&#21147;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1490592906421" ID="ID_1442228425" MODIFIED="1490593976833">
 <richcontent TYPE="NODE"><html>
@@ -2514,8 +2511,7 @@
       <i>&#20063;&#20250;&#34987;&#25351;&#23450; </i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490593774512" ID="ID_1355415358" MODIFIED="1490593786771">
 <richcontent TYPE="NODE"><html>
@@ -2525,8 +2521,7 @@
   <body>
     <img src="bluetoothpic/audio-stream-procedures.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1490593991415" ID="ID_388918831" MODIFIED="1490594819059">
 <richcontent TYPE="NODE"><html>
@@ -2559,8 +2554,7 @@
       &#20250;&#36890;&#36807;&#20256;&#36755;&#23618;&#30340;&#36890;&#36947;&#20351;&#29992;&#36873;&#25321;&#30340;&#20256;&#36755;&#26381;&#21153;&#21457;&#36865;&#20986;&#21435;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1490594825561" ID="ID_933810291" MODIFIED="1490594994218">
 <richcontent TYPE="NODE"><html>
@@ -2572,8 +2566,7 @@
       2.receive audio stream
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1490595000024" ID="ID_269439389" MODIFIED="1490595825065">
@@ -2586,8 +2579,7 @@
       3. audio codec&#20114;&#25805;&#20316;&#24615;&#35201;&#27714;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2620,7 +2612,7 @@
 <node CREATED="1435560552311" ID="ID_1789568863" MODIFIED="1490347199861" TEXT="5.external&#x7684;ALSA-LIB&#x5916;&#x90e8;&#x5e93;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1435560570031" FOLDED="true" ID="ID_1202614947" MODIFIED="1490341562314">
+<node CREATED="1435560570031" ID="ID_1202614947" MODIFIED="1491357103828">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2632,7 +2624,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1472400207636" ID="ID_1502746956" MODIFIED="1484548753523" TEXT="PCM&#x8bbe;&#x5907;">
-<node CREATED="1472400623079" ID="ID_1684430482" MODIFIED="1484548753527">
+<node CREATED="1472400623079" ID="ID_1684430482" MODIFIED="1491357302184">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2886,7 +2878,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1470710623566" FOLDED="true" ID="ID_1118439170" MODIFIED="1490355594467" POSITION="right" TEXT="Linux&#x84dd;&#x7259;&#x9a71;&#x52a8;&#x548c;bluez&#x4f7f;&#x7528;">
+<node CREATED="1470710623566" ID="ID_1118439170" MODIFIED="1491356924602" POSITION="right" TEXT="Linux&#x84dd;&#x7259;&#x9a71;&#x52a8;&#x548c;bluez&#x4f7f;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1470710686973" FOLDED="true" ID="ID_1378656370" MODIFIED="1488694918468">
 <richcontent TYPE="NODE"><html>
@@ -6737,7 +6729,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1476337737584" FOLDED="true" ID="ID_1437865057" MODIFIED="1490354931615">
+<node CREATED="1476337737584" ID="ID_1437865057" MODIFIED="1491357577747">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6752,7 +6744,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1476337747472" FOLDED="true" ID="ID_853430536" MODIFIED="1490067175583">
+<node CREATED="1476337747472" FOLDED="true" ID="ID_853430536" MODIFIED="1491357583177">
 <richcontent TYPE="NODE"><html>
   <head>
     
