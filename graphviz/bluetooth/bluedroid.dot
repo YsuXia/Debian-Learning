@@ -19,8 +19,8 @@ digraph bluedroid{
 	subgraph cluster_struct_reactor_object_t{
 		label="struct reactor_object_t";
 		"struct reactor_object_t"[label="{
-		|<fd>int fd
-		|<context>void *context
+		|<fd>int fd****将需要监听的文件描述符跟epoll文件描述符关联起来
+		|<context>void *context****往往指向包含thread_t的更大结构体
 		|<reactor>reactor_t *reactor
 		|pthread_mutex_t lock
 		|<read_ready>void (*read_ready)(void *context)
@@ -190,6 +190,18 @@ digraph bluedroid{
 		}"];
 	}
 	"struct socket_t":reactor->"struct reactor_object_t"[color=red];
-
+	subgraph cluster_struct_hci_reader_t{
+		label="struct hci_reader_t";
+		"struct hci_reader_t"[label="{
+	|int inbound_fd;
+  |const allocator_t *allocator;
+  |size_t buffer_size;
+  |uint8_t *data_buffer;
+  |int rd_ptr;
+  |int wr_ptr;
+  |thread_t *inbound_read_thread;
+  |reactor_object_t *inbound_read_object;
+		}"];
+	}
 
 }

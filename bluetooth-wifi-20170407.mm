@@ -2690,6 +2690,99 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1491563706684" ID="ID_879442190" MODIFIED="1491563752837">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#35895;&#27468;&#32593;&#31449;&#19978;&#30340;audio&#26041;&#38754;&#30340;&#26415;&#35821;</b>
+    </p>
+    <p>
+      https://source.android.com/devices/audio/terminology
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491563755166" ID="ID_712749614" MODIFIED="1491563782957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Digital Audio&#30456;&#20851;&#30340;&#26415;&#35821;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1491563785636" ID="ID_1354986411" MODIFIED="1491564719056">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      acoustics&#22768;&#23398;
+    </p>
+    <p>
+      &#29992;&#20110;&#30740;&#31350;&#22768;&#38899;&#30340;&#26426;&#26800;&#23646;&#24615;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491564722791" ID="ID_1970111291" MODIFIED="1491564796330">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      attenuation&#34928;&#20943;
+    </p>
+    <p>
+      &#20316;&#29992;&#20110;&#22768;&#38899;&#19978;&#38754;&#30340;&#34928;&#20943;&#22240;&#23376;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491564800408" ID="ID_1701882387" MODIFIED="1491565082296">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      audiophile&#21457;&#28903;&#21451;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1491565086407" ID="ID_921354504" MODIFIED="1491565219194">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>channel</i></b>
+    </p>
+    <p>
+      audio&#20449;&#24687;&#30340;&#21333;&#20010;&#27969;&#65292;&#36890;&#24120;&#23545;&#24212;&#19968;&#20010;recording&#25110;&#32773;&#26159;playback
+    </p>
+    <p>
+      &#30340;&#20301;&#32622;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1436169438422" FOLDED="true" ID="ID_297200867" MODIFIED="1486606936994" POSITION="right">
@@ -5588,7 +5681,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1475057675334" ID="ID_486765396" MODIFIED="1484376273241" TEXT="HW&#x5c42;&#x7684;&#x5b9a;&#x4e49;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1475057688790" FOLDED="true" ID="ID_940209254" MODIFIED="1486605643942">
+<node CREATED="1475057688790" ID="ID_940209254" MODIFIED="1491545677101">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6341,7 +6434,7 @@
 </node>
 <node CREATED="1475113360384" ID="ID_1315763748" MODIFIED="1484376264303" TEXT="JNI&#x5c42;&#x5b9a;&#x4e49;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1475127425045" FOLDED="true" ID="ID_1605582275" MODIFIED="1486605646942">
+<node CREATED="1475127425045" ID="ID_1605582275" MODIFIED="1491545656682">
 <richcontent TYPE="NODE"><html>
   <head>
     
