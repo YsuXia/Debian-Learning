@@ -2645,6 +2645,122 @@
 </node>
 </node>
 </node>
+<node CREATED="1491402997302" ID="ID_554999827" MODIFIED="1491705010245">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#eb1818">&#21338;&#23458;&#65306;Linux ALSA&#22768;&#21345;&#39537;&#21160;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491403058127" FOLDED="true" ID="ID_1330749952" MODIFIED="1491704959895" TEXT="&#x7b2c;&#x4e00;&#x7bc7;&#xff1a;&#x67b6;&#x6784;&#x7b80;&#x4ecb;">
+<node CREATED="1491403079559" ID="ID_1047694526" MODIFIED="1491403087068">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="alsa/alsa-architecture-400-300.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491403115575" ID="ID_361564801" MODIFIED="1491403125948" TEXT="alsa&#x8bbe;&#x5907;&#x6587;&#x4ef6;&#x7ed3;&#x6784;">
+<node CREATED="1491403132581" ID="ID_996401320" MODIFIED="1491403423700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#127a37">&#22312;/dev/snd&#30446;&#24405;&#19979;&#38754;&#65292;&#26377;&#22914;&#19979;&#30340;&#35774;&#22791;&#25991;&#20214;</font></i>
+    </p>
+    <p>
+      controlC0&#29992;&#20110;&#22768;&#21345;&#30340;&#25511;&#21046;&#65292;&#27604;&#22914;&#28151;&#38899;&#65292;&#40614;&#20811;&#39118;&#30340;&#25511;&#21046;
+    </p>
+    <p>
+      hwC0D0
+    </p>
+    <p>
+      hwC0D3
+    </p>
+    <p>
+      pcmC0D0c &#22768;&#21345;0&#19979;&#38754;&#30340;&#35774;&#22791;0&#65292;&#29992;&#20110;capture
+    </p>
+    <p>
+      pcmC0D0p &#22768;&#21345;0&#19979;&#38754;&#30340;&#35774;&#22791;0&#65292;&#29992;&#20110;play
+    </p>
+    <p>
+      pcmC0D3p &#22768;&#21345;0&#19979;&#38754;&#30340;&#35774;&#22791;3&#65292;&#29992;&#20110;play
+    </p>
+    <p>
+      seq &#38899;&#24207;&#22120;
+    </p>
+    <p>
+      timer &#23450;&#26102;&#22120;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491404054593" ID="ID_294740669" MODIFIED="1491404134500">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#0c5024">include/sound/core.h&#23450;&#20041;&#20102;&#22914;&#19979;&#30340;&#35774;&#22791;&#31867;&#22411;:</font></i>
+    </p>
+    <p>
+      enum snd_device_type {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_LOWLEVEL,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_CONTROL,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_INFO,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_BUS,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_CODEC,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_PCM,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_COMPRESS,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_RAWMIDI,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_TIMER,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_SEQUENCER,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_HWDEP,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;SNDRV_DEV_JACK,
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1490341570322" ID="ID_859680549" MODIFIED="1490347164069">
 <richcontent TYPE="NODE"><html>
@@ -2703,8 +2819,7 @@
       https://source.android.com/devices/audio/terminology
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1491563755166" ID="ID_712749614" MODIFIED="1491563782957">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2715,8 +2830,7 @@
       Digital Audio&#30456;&#20851;&#30340;&#26415;&#35821;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1491563785636" ID="ID_1354986411" MODIFIED="1491564719056">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2730,8 +2844,7 @@
       &#29992;&#20110;&#30740;&#31350;&#22768;&#38899;&#30340;&#26426;&#26800;&#23646;&#24615;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491564722791" ID="ID_1970111291" MODIFIED="1491564796330">
 <richcontent TYPE="NODE"><html>
@@ -2746,8 +2859,7 @@
       &#20316;&#29992;&#20110;&#22768;&#38899;&#19978;&#38754;&#30340;&#34928;&#20943;&#22240;&#23376;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491564800408" ID="ID_1701882387" MODIFIED="1491565082296">
 <richcontent TYPE="NODE"><html>
@@ -2759,8 +2871,7 @@
       audiophile&#21457;&#28903;&#21451;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491565086407" ID="ID_921354504" MODIFIED="1491565219194">
 <richcontent TYPE="NODE"><html>
@@ -2778,8 +2889,7 @@
       &#30340;&#20301;&#32622;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
