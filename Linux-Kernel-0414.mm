@@ -13,7 +13,25 @@
 </html></richcontent>
 <node CREATED="1490259736385" ID="ID_1413497133" MODIFIED="1490259797536" POSITION="right" TEXT="Linux Kernel Development 3">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1490259752393" ID="ID_1153863074" MODIFIED="1490259779002" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#xff1a; &#x8fdb;&#x7a0b;&#x7ba1;&#x7406;"/>
+<node CREATED="1490259752393" ID="ID_1153863074" MODIFIED="1492086646310">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#19977;&#31456;&#65306; &#36827;&#31243;&#31649;&#29702;
+    </p>
+    <p>
+      &#29616;&#20195;&#25805;&#20316;&#31995;&#32479;&#19978;&#65292;&#25552;&#20379;&#20102;&#20004;&#20010;&#34394;&#25311;&#21270;:
+    </p>
+    <p>
+      &#34394;&#25311;&#21270;&#30340;&#22788;&#29702;&#22120;&#21644;&#34394;&#25311;&#21270;&#30340;&#20869;&#23384;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1490507874776" FOLDED="true" ID="ID_1734272830" MODIFIED="1491812928412" POSITION="left">
 <richcontent TYPE="NODE"><html>
@@ -373,8 +391,7 @@
       <b>autoconf&#25991;&#26723;&#38405;&#35835;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1491812964755" ID="ID_1603387011" MODIFIED="1491815312595">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -412,8 +429,7 @@
       autoconf&#32473;&#22312;c&#35821;&#35328;&#24403;&#20013;&#36319;#if&#19968;&#36215;&#20351;&#29992;&#30340;&#23439;&#21517;&#31216;&#26045;&#21152;&#20102;&#19968;&#20123;&#38480;&#21046;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491815457559" ID="ID_1268490348" MODIFIED="1491815732533">
 <richcontent TYPE="NODE"><html>
@@ -434,8 +450,7 @@
       &#26368;&#37325;&#35201;&#30340;&#20960;&#20010;&#32452;&#20214;&#26159;Autoconf, Automake&#21644;Libtool&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1491815996436" ID="ID_1311038765" MODIFIED="1491816656211">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -455,8 +470,7 @@
       &#30340;&#25991;&#20214;Makefile.in&#26469;&#37197;&#21512;Autoconf&#36827;&#34892;&#20351;&#29992;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491816664105" ID="ID_1953594862" MODIFIED="1491818687586">
 <richcontent TYPE="NODE"><html>
@@ -480,8 +494,7 @@
       gnulib&#27169;&#22359;&#36890;&#24120;&#21253;&#21547;&#28304;&#20195;&#30721;&#20197;&#21450;&#29992;&#20110;&#37197;&#32622;&#28304;&#20195;&#30721;&#30340;Autoconf&#30340;&#23439;&#23450;&#20041;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491818690214" ID="ID_1508815442" MODIFIED="1491820202898">
 <richcontent TYPE="NODE"><html>
@@ -505,8 +518,7 @@
       &#21487;&#20197;&#23545;&#20849;&#20139;&#24211;&#36827;&#34892;&#21319;&#32423;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1491820208694" ID="ID_733315246" MODIFIED="1491824762223">
@@ -549,8 +561,7 @@
       5. &#19968;&#20010;&#31216;&#20026;config.log&#30340;&#25991;&#20214;&#65292;&#29992;&#20110;&#20445;&#23384;&#32534;&#35793;&#30340;&#32467;&#26524;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1491824884590" ID="ID_1655615782" MODIFIED="1491825472724">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -576,8 +587,7 @@
       &#20998;&#21457;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491825486225" ID="ID_1010843823" MODIFIED="1491825930496">
 <richcontent TYPE="NODE"><html>
@@ -598,8 +608,7 @@
       &#25991;&#20214;(autoconf.m4)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1491825933352" ID="ID_1940843492" MODIFIED="1491825940198">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -608,8 +617,37 @@
   <body>
     <img src="linuxkernel/autoconf.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1491880957318" ID="ID_235800744" MODIFIED="1491880973757">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linuxkernel/aclocal-m4.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491881046472" ID="ID_1895754483" MODIFIED="1491881051833">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linuxkernel/makefile-in.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1491881322150" ID="ID_1237042525" MODIFIED="1491881330186">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linuxkernel/configure.png" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
