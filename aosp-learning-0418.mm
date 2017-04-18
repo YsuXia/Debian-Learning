@@ -1972,6 +1972,72 @@
 </node>
 <node CREATED="1491046245928" HGAP="12" ID="ID_389646716" MODIFIED="1491046283862" TEXT="make idegen &amp;&amp; development/tools/idegen/idegen.sh" VSHIFT="11"/>
 </node>
+<node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1492429538023" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>10.Android Camera HAL </b>
+    </p>
+    <p>
+      <b>https://source.android.com/devices/camera/camera3</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1492429588556" ID="ID_1170241637" MODIFIED="1492429760495">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#dd1919">camera hal1</font></i></b>
+    </p>
+    <p>
+      camera hal1&#26159;&#34987;&#35774;&#35745;&#25104;&#19968;&#20010;&#40657;&#30418;&#23376;&#30340;&#65292;&#25317;&#26377;&#39640;&#23618;&#25511;&#21046;&#21644;&#19979;&#38754;&#30340;
+    </p>
+    <p>
+      &#19977;&#31181;&#25805;&#20316;&#27169;&#24335;
+    </p>
+    <p>
+      Preview
+    </p>
+    <p>
+      Video Record
+    </p>
+    <p>
+      Still Capture
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1492430482477" ID="ID_1168344426" MODIFIED="1492430702484">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.android7.0 &#20173;&#28982;&#32487;&#32493;&#25903;&#25345;hal1, &#38500;&#27492;&#20043;&#22806;
+    </p>
+    <p>
+      android camera &#26381;&#21153;&#20173;&#28982;&#25903;&#25345;hal1&#21644;hal3&#30340;&#23454;&#29616;&#65292;
+    </p>
+    <p>
+      &#24403;&#20320;&#24076;&#26395;&#25903;&#25345;&#21151;&#33021;&#31616;&#21333;&#30340;&#21069;&#32622;&#25668;&#20687;&#22836;&#30340;&#26102;&#20505;&#21487;&#20197;&#20351;&#29992;hal1,
+    </p>
+    <p>
+      &#24403;&#20320;&#24076;&#26395;&#25903;&#25345;&#21151;&#33021;&#26356;&#22797;&#26434;&#30340;&#21518;&#32622;&#25668;&#20687;&#22836;&#30340;&#26102;&#20505;&#21487;&#20197;&#20351;&#29992;hal3
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1484720898460" ID="ID_346512524" MODIFIED="1484720919173" POSITION="right" TEXT="9.Android&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x53ca;&#x70e7;&#x5199;">
 <node CREATED="1484720921741" ID="ID_332037652" MODIFIED="1484740146382">
 <richcontent TYPE="NODE"><html>

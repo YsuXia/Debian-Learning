@@ -2844,8 +2844,7 @@
       &#29992;&#20110;&#30740;&#31350;&#22768;&#38899;&#30340;&#26426;&#26800;&#23646;&#24615;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491564722791" ID="ID_1970111291" MODIFIED="1491795762549">
 <richcontent TYPE="NODE"><html>
@@ -2860,8 +2859,7 @@
       &#20316;&#29992;&#20110;&#22768;&#38899;&#19978;&#38754;&#30340;&#34928;&#20943;&#22240;&#23376;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491564800408" ID="ID_1701882387" MODIFIED="1491565082296">
 <richcontent TYPE="NODE"><html>
@@ -2915,8 +2913,7 @@
       &#26377;&#28322;&#20986;&#21644;&#38480;&#36752;&#30340;&#21487;&#33021;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491794660448" ID="ID_954946084" MODIFIED="1491795685042">
 <richcontent TYPE="NODE"><html>
@@ -2937,8 +2934,7 @@
       &#22240;&#20026;dsp&#22788;&#29702;dsd&#26684;&#24335;&#20250;&#26377;&#20123;&#19981;&#21512;&#36866;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1491795687790" ID="ID_205383213" MODIFIED="1491795737423">
 <richcontent TYPE="NODE"><html>
@@ -2956,8 +2952,7 @@
       &#30340;&#22768;&#38899;&#22823;&#23567;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -10423,9 +10418,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1487039187302" FOLDED="true" ID="ID_1900448817" MODIFIED="1490355468171" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
+<node CREATED="1487039187302" ID="ID_1900448817" MODIFIED="1492140195911" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1470644180506" FOLDED="true" ID="ID_811862480" MODIFIED="1487039239523" TEXT="ap6234&#x82af;&#x7247;datasheet&#x9605;&#x8bfb;">
+<node CREATED="1470644180506" ID="ID_811862480" MODIFIED="1492140198849" TEXT="ap6234&#x82af;&#x7247;datasheet&#x9605;&#x8bfb;">
 <node CREATED="1470644230698" ID="ID_619733051" MODIFIED="1470644981492">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10457,7 +10452,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1487039244587" ID="ID_258433070" MODIFIED="1487039769954">
+<node CREATED="1487039244587" ID="ID_258433070" MODIFIED="1492140745938">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10516,6 +10511,17 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1492140649209" ID="ID_341501100" MODIFIED="1492140654255">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="bt-wifi-soc/ap6356-interface-400-300.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
