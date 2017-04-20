@@ -1985,8 +1985,7 @@
       <b>https://source.android.com/devices/camera/camera3</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1492429588556" ID="ID_1170241637" MODIFIED="1492429760495">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2012,8 +2011,7 @@
       Still Capture
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1492430482477" ID="ID_1168344426" MODIFIED="1492430702484">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2031,6 +2029,104 @@
     </p>
     <p>
       &#24403;&#20320;&#24076;&#26395;&#25903;&#25345;&#21151;&#33021;&#26356;&#22797;&#26434;&#30340;&#21518;&#32622;&#25668;&#20687;&#22836;&#30340;&#26102;&#20505;&#21487;&#20197;&#20351;&#29992;hal3
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1492653017734" ID="ID_500027607" MODIFIED="1492653972966">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ea0c0c">&#19968;&#20123;&#26415;&#35821;:</font></b>
+    </p>
+    <p>
+      <b>camera API1</b>
+    </p>
+    <p>
+      app&#23618;&#38754;&#30340;framework&#26694;&#26550;&#65292;&#36816;&#34892;&#22312;&#26089;&#26399;&#30340;android4.4&#19978;&#38754;,
+    </p>
+    <p>
+      &#36890;&#36807;android.hardware.Camera&#26292;&#38706;&#20986;&#26469;
+    </p>
+    <p>
+      <b>Camera API2</b>
+    </p>
+    <p>
+      &#36816;&#34892;&#22312;android5.0&#21363;&#20197;&#21518;&#30340;&#24179;&#21488;&#19978;&#38754;
+    </p>
+    <p>
+      android.hardware.camera2
+    </p>
+    <p>
+      <b>Camera HAL</b>
+    </p>
+    <p>
+      camera module&#23618;&#65292;&#30001;&#20855;&#20307;&#30340;&#21378;&#23478;&#23454;&#29616;&#65292;app&#23618;&#38754;&#30340;framework&#26159;
+    </p>
+    <p>
+      &#22522;&#20110;hal&#23618;&#26500;&#24314;&#20986;&#26469;&#30340;
+    </p>
+    <p>
+      <b>Camera HAL3.1</b>
+    </p>
+    <p>
+      android4.4&#24403;&#20013;release&#20986;&#26469;&#30340;hal&#23618;&#30340;&#29256;&#26412;
+    </p>
+    <p>
+      <b>Camera HAL3.2</b>
+    </p>
+    <p>
+      Android5.0&#24403;&#20013;release&#20986;&#26469;&#30340;hal&#23618;&#29256;&#26412;
+    </p>
+    <p>
+      <b>Camera API1 CTS</b>
+    </p>
+    <p>
+      camera&#20860;&#23481;&#24615;&#27979;&#35797;&#22871;&#20214;,&#22522;&#20110;camera api1
+    </p>
+    <p>
+      <b>Camera API2 CTS</b>
+    </p>
+    <p>
+      camera&#20860;&#23481;&#24615;&#27979;&#35797;&#22871;&#20214;&#65292;&#22522;&#20110;camera api2
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1492654584536" ID="ID_494604736" MODIFIED="1492656427453">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      camera framwork api2&#26292;&#38706;&#20102;&#26356;&#24213;&#23618;&#30340;camera&#25511;&#21046;&#25509;&#21475;&#32473;app,
+    </p>
+    <p>
+      &#21253;&#25324;&#39640;&#25928;&#30340;&#38646;&#25335;&#36125;burst/streaming&#27969;&#21644;&#23545;&#21333;&#24103;&#30340;
+    </p>
+    <p>
+      exposure, gain, white balance gains, color conversion, denoising, sharpening
+    </p>
+    <p>
+      &#31561;&#21442;&#25968;&#30340;&#25511;&#21046;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1492656434946" ID="ID_664487457" MODIFIED="1492657128099">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Android5.0&#21253;&#25324;&#21518;&#38754;
     </p>
   </body>
 </html>
