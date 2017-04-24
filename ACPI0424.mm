@@ -12,9 +12,9 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1470036184089" ID="ID_1965515505" MODIFIED="1470036221511" POSITION="right" TEXT="&#x7b2c;&#x4e94;&#x7ae0;:&#x8f6f;&#x4ef6;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
+<node CREATED="1470036184089" FOLDED="true" ID="ID_1965515505" MODIFIED="1493015572635" POSITION="right" TEXT="&#x7b2c;&#x4e94;&#x7ae0;:&#x8f6f;&#x4ef6;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1470036276458" ID="ID_1508203164" MODIFIED="1470036313231" TEXT="&#x7cfb;&#x7edf;&#x63cf;&#x8ff0;&#x7b26;&#x8868;&#x6982;&#x8ff0;">
+<node CREATED="1470036276458" FOLDED="true" ID="ID_1508203164" MODIFIED="1493015571836" TEXT="&#x7cfb;&#x7edf;&#x63cf;&#x8ff0;&#x7b26;&#x8868;&#x6982;&#x8ff0;">
 <node CREATED="1470036341323" ID="ID_233711255" MODIFIED="1470036939141">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -166,7 +166,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1470036951459" ID="ID_629687207" MODIFIED="1470037979051">
+<node CREATED="1470036951459" FOLDED="true" ID="ID_629687207" MODIFIED="1493015570724">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -187,9 +187,9 @@
 <node CREATED="1470036995595" ID="ID_1042903809" MODIFIED="1470037011765" TEXT="&#x4f7f;&#x80fd;&#x4e86;UEFI&#x7684;&#x7cfb;&#x7edf;&#x4e0a;"/>
 </node>
 </node>
-<node CREATED="1472747146088" ID="ID_1334417789" MODIFIED="1472747156244" POSITION="left" TEXT="GCC&#x76f8;&#x5173;">
+<node CREATED="1472747146088" FOLDED="true" ID="ID_1334417789" MODIFIED="1493015552131" POSITION="left" TEXT="GCC&#x76f8;&#x5173;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1472747159607" ID="ID_458461248" MODIFIED="1472747171994" TEXT="gcc&#x5185;&#x5d4c;&#x6c47;&#x7f16;&#x8bed;&#x6cd5;&#x89e3;&#x6790;">
+<node CREATED="1472747159607" FOLDED="true" ID="ID_458461248" MODIFIED="1493015551164" TEXT="gcc&#x5185;&#x5d4c;&#x6c47;&#x7f16;&#x8bed;&#x6cd5;&#x89e3;&#x6790;">
 <node CREATED="1472748143562" ID="ID_1321803758" MODIFIED="1472748648083">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -270,7 +270,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479821386326" ID="ID_1474922455" MODIFIED="1479821436071" POSITION="right">
+<node CREATED="1479821386326" FOLDED="true" ID="ID_1474922455" MODIFIED="1493015569036" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -280,8 +280,7 @@
       <b><i>ACPI&#31995;&#32479;&#36816;&#34892;&#26102;&#32452;&#20214;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1479821608645" ID="ID_993312103" MODIFIED="1479821749205">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -301,8 +300,7 @@
       &#27491;&#24120;&#24037;&#20316;&#30340;&#20219;&#24847;&#30340;&#25805;&#20316;&#24207;&#21015;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479821755770" ID="ID_296808035" MODIFIED="1479821917160">
 <richcontent TYPE="NODE"><html>
@@ -317,8 +315,7 @@
       &#30828;&#20214;&#25509;&#21475;&#24403;&#20013;&#30340;&#24378;&#21046;&#24615;&#30340;&#37096;&#20998;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479822016945" ID="ID_411109830" MODIFIED="1479822128762">
 <richcontent TYPE="NODE"><html>
@@ -339,11 +336,10 @@
       &#36825;&#27573;&#20195;&#30721;&#24456;&#23569;&#20250;&#34987;&#35843;&#29992;&#21040;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1479824896243" ID="ID_1229339360" MODIFIED="1479824941811" POSITION="left">
+<node CREATED="1479824896243" FOLDED="true" ID="ID_1229339360" MODIFIED="1493015565404" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -353,8 +349,7 @@
       <b><i><font color="#dc0f0f">&#31995;&#32479;&#35774;&#35745;&#26102;&#35201;&#27714;&#30340;ACPI&#30340;&#26368;&#23567;&#30340;&#23454;&#29616;</font></i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1479825005410" ID="ID_1587066781" MODIFIED="1479825009771" TEXT="ACPI System Description Tables"/>
 <node CREATED="1479825056106" ID="ID_1733334701" MODIFIED="1479825058767" TEXT="ACPI-defined Fixed Registers Interfaces"/>
 <node CREATED="1479825603406" ID="ID_1630367917" MODIFIED="1479825624317">
@@ -373,8 +368,7 @@
       (also possible in generic space)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479825638782" ID="ID_298671189" MODIFIED="1479825649570">
 <richcontent TYPE="NODE"><html>
@@ -386,8 +380,7 @@
       Real time clock wakeup alarm control/status
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479825698559" ID="ID_1501602278" MODIFIED="1479825711254">
 <richcontent TYPE="NODE"><html>
@@ -402,8 +395,7 @@
       System power state controls (sleeping/wake control) (Section 7)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479825757533" ID="ID_1318232805" MODIFIED="1479825769278">
 <richcontent TYPE="NODE"><html>
@@ -421,8 +413,7 @@
       Processor performance state control/status (Section 8)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479825810150" ID="ID_1114014041" MODIFIED="1479825821889">
 <richcontent TYPE="NODE"><html>
@@ -434,8 +425,7 @@
       General-purpose event control/status
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479825834430" ID="ID_1667865039" MODIFIED="1479825845147">
 <richcontent TYPE="NODE"><html>
@@ -447,8 +437,7 @@
       Global Lock control/status
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479825868109" ID="ID_1736750247" MODIFIED="1479825873377" TEXT="System Reset control (Section 4.7.3.6)"/>
 <node CREATED="1479825893068" ID="ID_935531790" MODIFIED="1479825896423" TEXT="Embedded Controller control/status (Section 12)"/>
@@ -473,8 +462,7 @@
       &#160;System power state control (Section 7.3)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479826325729" ID="ID_159296524" MODIFIED="1479826329868" TEXT="Devices and device controls (Section 9):"/>
 <node CREATED="1479826357474" ID="ID_1781961745" MODIFIED="1479826361711" TEXT="Processor (Section 8)"/>
@@ -491,13 +479,110 @@
       Smart Battery Subsystem (Section 10)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479826427209" ID="ID_1537772049" MODIFIED="1479826431153" TEXT="Embedded controller (Section 12)"/>
 <node CREATED="1479826447368" ID="ID_757734500" MODIFIED="1479826450991" TEXT="ACPI Event programming model (Section 5.6)"/>
 <node CREATED="1479826471280" ID="ID_865406192" MODIFIED="1479826474725" TEXT="ACPI-defined System BIOS Responsibilities"/>
 <node CREATED="1479826513056" ID="ID_116820645" MODIFIED="1479826516896" TEXT="ACPI-defined State Definitions (Section 2"/>
+</node>
+<node CREATED="1493015578268" ID="ID_1873921854" MODIFIED="1493016780023" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#dc1313">Intel&#174; Platform Innovation Framework for UEFI Specification </font></i></b>
+    </p>
+    <p>
+      <b>intel&#24179;&#21488;&#38024;&#23545;uefi&#35268;&#33539;&#30340;&#21019;&#26032;&#26550;&#26500;</b>
+    </p>
+    <p>
+      http://www.intel.com/content/www/us/en/architecture-and-technology/
+    </p>
+    <p>
+      unified-extensible-firmware-interface/efi-specifications-general-technology.html
+    </p>
+    <p>
+      &#35813;&#35268;&#33539;&#25551;&#36848;&#20102;&#20026;&#22522;&#20110;intel&#26550;&#26500;&#30340;&#24179;&#21488;&#26500;&#24314;&#24179;&#21488;&#22266;&#20214;&#30340;&#21019;&#26032;&#26041;&#27861;&#24403;&#20013;&#30340;&#20027;&#35201;&#30340;&#35774;&#35745;&#20803;&#32032;
+    </p>
+    <p>
+      &#35813;&#26550;&#26500;&#30340;&#29305;&#28857;&#26159;&#26377;&#19968;&#20010;&#20013;&#22830;&#26694;&#26550;&#29992;&#20110;&#25552;&#20379;&#26381;&#21153;&#21644;&#32452;&#20214;&#26469;&#23558;&#27169;&#22359;&#21270;&#30340;&#36719;&#20214;&#26500;&#24314;&#22359;&#20803;&#32032;
+    </p>
+    <p>
+      &#32452;&#32455;&#36215;&#26469;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1493017095507" ID="ID_1969202704" MODIFIED="1493017272747">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22522;&#30784;&#35774;&#26045;&#20195;&#30721;&#21644;&#21512;&#36866;&#30340;&#27169;&#22359;&#26500;&#24314;&#22359;&#36873;&#25321;&#19968;&#36215;&#26500;&#25104;&#20102;&#23436;&#25972;&#30340;
+    </p>
+    <p>
+      &#24179;&#21488;&#36719;&#20214;&#29992;&#26469;&#21021;&#22987;&#21270;&#24179;&#21488;&#21644;&#25805;&#20316;&#31995;&#32479;&#20197;&#21450;&#20854;&#20182;&#30340;&#23458;&#25143;&#24212;&#29992;&#29615;&#22659;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1493017287602" ID="ID_1134311464" MODIFIED="1493017381474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#22522;&#30784;&#21253;&#25324;pre-EFI&#30340;&#21021;&#22987;&#21270;&#21644;&#39537;&#21160;&#25191;&#34892;&#29615;&#22659;(DXE)&#38454;&#27573;&#65292;
+    </p>
+    <p>
+      &#35813;&#25991;&#26723;&#37324;&#38754;&#37117;&#26377;&#35828;&#26126;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1493017500633" ID="ID_1013929276" MODIFIED="1493017628697">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#25991;&#26723;&#36824;&#25551;&#36848;&#20102;&#19968;&#20123;&#20854;&#20182;&#30340;&#35774;&#35745;&#20803;&#32032;&#29992;&#20110;&#25552;&#20379;&#23436;&#25972;&#30340;
+    </p>
+    <p>
+      &#22522;&#32447;&#35774;&#35745;&#21644;&#26381;&#21153;&#25903;&#25345;&#38598;&#21512;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1493017724751" ID="ID_89165751" MODIFIED="1493017854760">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39069;&#22806;&#30340;&#35774;&#35745;&#20803;&#32032;&#21253;&#25324;&#23433;&#20840;&#26381;&#21153;&#65292;boot-device&#31574;&#30053;&#31649;&#29702;&#65292;&#36816;&#34892;&#26102;&#26381;&#21153;&#65292;
+    </p>
+    <p>
+      afterlife, &#22266;&#20214;&#23384;&#20648;&#65292; &#29992;&#25143;&#25509;&#21475;&#65292; &#22266;&#20214;&#34701;&#21512;&#26381;&#21153;&#65292; &#31649;&#29702;&#33021;&#21147;&#25903;&#25345;&#65292;
+    </p>
+    <p>
+      &#20256;&#32479;&#24615;&#20860;&#23481;&#65292; boot&#21644;resume&#36335;&#24452;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>

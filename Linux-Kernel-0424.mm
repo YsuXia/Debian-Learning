@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1490259697760" ID="ID_1034780742" MODIFIED="1490259794625">
+<node CREATED="1490259697760" ID="ID_1034780742" MODIFIED="1493019865930">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -29,8 +29,7 @@
       &#34394;&#25311;&#21270;&#30340;&#22788;&#29702;&#22120;&#21644;&#34394;&#25311;&#21270;&#30340;&#20869;&#23384;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1490507874776" FOLDED="true" ID="ID_1734272830" MODIFIED="1491812928412" POSITION="left">
@@ -381,7 +380,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1491812937292" ID="ID_1979671906" MODIFIED="1491812962164" POSITION="left">
+<node CREATED="1491812937292" FOLDED="true" ID="ID_1979671906" MODIFIED="1493019859390" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -431,7 +430,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491815457559" ID="ID_1268490348" MODIFIED="1491815732533">
+<node CREATED="1491815457559" FOLDED="true" ID="ID_1268490348" MODIFIED="1493019855678">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -521,7 +520,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1491820208694" ID="ID_733315246" MODIFIED="1491824762223">
+<node CREATED="1491820208694" FOLDED="true" ID="ID_733315246" MODIFIED="1493019854510">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -589,7 +588,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491825486225" ID="ID_1010843823" MODIFIED="1491825930496">
+<node CREATED="1491825486225" FOLDED="true" ID="ID_1010843823" MODIFIED="1493019853495">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -649,6 +648,56 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1493019868391" ID="ID_1508398331" MODIFIED="1493019886663" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1493020020758" ID="ID_996974118" MODIFIED="1493020316545">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      init/main.c::start_kernel()&#20989;&#25968;&#26159;Linux&#20869;&#26680;&#30340;&#21551;&#21160;&#20989;&#25968;&#12290;
+    </p>
+    <p>
+      init/main.c&#25991;&#20214;&#26159;&#25972;&#20010;Linux&#30340;&#32852;&#32467;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1493021823653" ID="ID_106927126" MODIFIED="1493022164229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.14&#20869;&#26680;
+    </p>
+    <p>
+      start_kernel()&#20989;&#25968;&#24403;&#20013;&#30340;vfs_caches_init(totalram_pages)&#20989;&#25968;
+    </p>
+    <p>
+      &#29992;&#26469;&#21021;&#22987;&#21270;&#26681;&#25991;&#20214;&#31995;&#32479;(&#22522;&#20110;&#20869;&#23384;&#30340;)&#12290; start_kernel&#22312;&#26411;&#23614;&#20250;&#35843;&#29992;&#20989;&#25968;
+    </p>
+    <p>
+      rest_init&#20989;&#25968;&#65292;&#35813;&#20989;&#25968;&#21551;&#21160;&#19968;&#20010;&#20869;&#26680;&#32447;&#31243;&#36816;&#34892;<b>kernel_init()</b>&#20989;&#25968;&#12290;
+    </p>
+    <p>
+      kernel_init&#20989;&#25968;&#20250;&#23436;&#25104;&#21021;&#22987;&#21270;rootfs,&#21152;&#36733;&#20869;&#26680;&#27169;&#22359;&#65292; &#25346;&#36733;&#30495;&#27491;&#30340;&#26681;&#25991;&#20214;&#31995;&#32479;&#12290;
+    </p>
+    <p>
+      &#26681;&#25454;&#25991;&#26723;Documentation/early-userspace/README&#30340;&#25551;&#36848;&#65292;
+    </p>
+    <p>
+      Linux&#25903;&#25345;&#19977;&#31181;&#26041;&#24335;&#25346;&#36733;&#26368;&#32456;&#30340;&#25991;&#20214;&#31995;&#32479;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
