@@ -8389,8 +8389,42 @@
 </node>
 </node>
 </node>
+<node CREATED="1493177234129" ID="ID_1561615521" MODIFIED="1493177328301">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>wifi&#30340;&#34394;&#25311;&#25509;&#21475;&#27169;&#24335;:</b>
+    </p>
+    <p>
+      Supported interface modes:
+    </p>
+    <p>
+      * IBSS
+    </p>
+    <p>
+      * managed
+    </p>
+    <p>
+      * AP
+    </p>
+    <p>
+      * P2P-client
+    </p>
+    <p>
+      * P2P-GO
+    </p>
+    <p>
+      * P2P-device
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1490354957183">
+</node>
+<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1493177155728">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8630,7 +8664,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482222777984" FOLDED="true" ID="ID_1585324012" MODIFIED="1490067069711">
+<node CREATED="1482222777984" FOLDED="true" ID="ID_1585324012" MODIFIED="1493177213672">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10418,7 +10452,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1487039187302" ID="ID_1900448817" MODIFIED="1492140195911" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
+<node CREATED="1487039187302" ID="ID_1900448817" MODIFIED="1493184985200" POSITION="left" TEXT="BT/WIFI&#x82af;&#x7247;datasheet&#x89e3;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1470644180506" ID="ID_811862480" MODIFIED="1492140198849" TEXT="ap6234&#x82af;&#x7247;datasheet&#x9605;&#x8bfb;">
 <node CREATED="1470644230698" ID="ID_619733051" MODIFIED="1470644981492">
@@ -10520,8 +10554,53 @@
   <body>
     <img src="bt-wifi-soc/ap6356-interface-400-300.png" />
   </body>
+</html></richcontent>
+<node CREATED="1493185005320" ID="ID_1566961779" MODIFIED="1493200708229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AP6356SDPR pcie&#25509;&#21475;:
+    </p>
+    <p>
+      8 GPIO_8 sdio&#21644;pcie&#25509;&#21475;&#25414;&#32465;&#36873;&#39033;
+    </p>
+    <p>
+      9 GPIO_9 sdio&#21644;pcie&#25509;&#21475;&#25414;&#32465;&#36873;&#39033;
+    </p>
+    <p>
+      29 PCIE_WAKEn pcie&#21796;&#37266;&#20449;&#21495;
+    </p>
+    <p>
+      30 PCIE_CLKREQn pcie&#26102;&#38047;&#35831;&#27714;
+    </p>
+    <p>
+      31 PCIE_PERSTn &#20027;&#26426;&#25351;&#31034;&#20449;&#21495;&#65292;&#29992;&#20110;reset&#33455;&#29255;
+    </p>
+    <p>
+      33 PCIE_RCLK_N
+    </p>
+    <p>
+      34 PCIE_RCLK_P pcie&#26102;&#38047;&#20449;&#21495;
+    </p>
+    <p>
+      36 PCIE_TX_N
+    </p>
+    <p>
+      37 PCIE_TX_P pcie&#20256;&#36755;&#20449;&#21495;
+    </p>
+    <p>
+      39 PCIE_RX_N
+    </p>
+    <p>
+      40 PCIE_RX_P pcie&#25509;&#25910;&#20449;&#21495;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 </node>
 </node>

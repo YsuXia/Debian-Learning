@@ -4438,7 +4438,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" ID="ID_897771791" MODIFIED="1490162628374" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
+<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1493174126652" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1492755740208">
 <richcontent TYPE="NODE"><html>
@@ -9957,7 +9957,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456929335533" ID="ID_1088410273" MODIFIED="1492682163359" POSITION="right">
+<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1493174136467" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10642,7 +10642,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1491197871037" POSITION="left">
+<node CREATED="1475917220585" ID="ID_1364440222" MODIFIED="1493174110142" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10654,7 +10654,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1491197837293">
+<node CREATED="1475917339823" ID="ID_526840807" MODIFIED="1493174110173">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10695,7 +10695,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1475917858032" FOLDED="true" ID="ID_484567526" MODIFIED="1486555599174">
+<node CREATED="1475917858032" ID="ID_484567526" MODIFIED="1493200731925">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12522,7 +12522,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1492755633968" POSITION="right" TEXT="Device Tree">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1493174165763" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1490607378546">
 <richcontent TYPE="NODE"><html>
@@ -13150,6 +13150,23 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1493174169787" ID="ID_720737300" MODIFIED="1493174502890" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#157450">&#29305;&#21035;&#31456;&#33410;: Linux&#24403;&#20013;&#30340;&#21021;&#22987;&#21270;&#23439;&#23450;&#20041;</font>
+    </p>
+    <p>
+      http://blog.chinaunix.net/uid-25445243-id-3971724.html
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1486555663162" FOLDED="true" ID="ID_217587555" MODIFIED="1491269977973" POSITION="left" TEXT="SDIO&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
