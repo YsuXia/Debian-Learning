@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1490259697760" ID="ID_1034780742" MODIFIED="1493019865930">
+<node CREATED="1490259697760" ID="ID_1034780742" MODIFIED="1490259794625">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13,7 +13,7 @@
 </html></richcontent>
 <node CREATED="1490259736385" ID="ID_1413497133" MODIFIED="1490259797536" POSITION="right" TEXT="Linux Kernel Development 3">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1490259752393" ID="ID_1153863074" MODIFIED="1492086646310">
+<node CREATED="1490259752393" ID="ID_1153863074" MODIFIED="1492614764735">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -30,6 +30,27 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1492439381187" ID="ID_233215115" MODIFIED="1492517779318">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36827;&#31243;&#25551;&#36848;&#31526;&#21644;task struct
+    </p>
+    <p>
+      &#20869;&#26680;&#23558;&#36827;&#31243;&#21015;&#34920;&#23384;&#25918;&#22312;&#19968;&#20010;&#21452;&#21521;&#38142;&#34920;&#24403;&#20013;&#65292;&#35813;&#38142;&#34920;&#31216;&#20043;&#20026;task list&#12290;
+    </p>
+    <p>
+      task list&#24403;&#20013;&#30340;&#27599;&#20010;&#20803;&#32032;&#26159;&#36827;&#31243;&#25551;&#36848;&#31526;&#65292;&#31867;&#22411;&#26159;struct task_struct&#65292;
+    </p>
+    <p>
+      &#23450;&#20041;&#22312;&#25991;&#20214;&lt;linux/sched.h&gt;&#24403;&#20013;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1490507874776" FOLDED="true" ID="ID_1734272830" MODIFIED="1491812928412" POSITION="left">
@@ -380,7 +401,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1491812937292" FOLDED="true" ID="ID_1979671906" MODIFIED="1493019859390" POSITION="left">
+<node CREATED="1491812937292" ID="ID_1979671906" MODIFIED="1492954134082" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -430,7 +451,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491815457559" FOLDED="true" ID="ID_1268490348" MODIFIED="1493019855678">
+<node CREATED="1491815457559" ID="ID_1268490348" MODIFIED="1491815732533">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -520,7 +541,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1491820208694" FOLDED="true" ID="ID_733315246" MODIFIED="1493019854510">
+<node CREATED="1491820208694" ID="ID_733315246" MODIFIED="1491824762223">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -588,7 +609,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491825486225" FOLDED="true" ID="ID_1010843823" MODIFIED="1493019853495">
+<node CREATED="1491825486225" ID="ID_1010843823" MODIFIED="1491825930496">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -651,6 +672,93 @@
 </node>
 </node>
 </node>
+<node CREATED="1492618335035" ID="ID_1716444536" MODIFIED="1492618367590" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#e01717">gnu libc&#25509;&#21475;&#20989;&#25968;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1492618440128" ID="ID_634305800" MODIFIED="1492618502877" TEXT="the basic program/system interface">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1492618487002" ID="ID_1492902980" MODIFIED="1492787606395">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b>parsing program options using getopt</b></i>
+    </p>
+    <p>
+      <font color="#e41217">int getopt(int argc, char * const argv[],const char *optstring)</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1492618641857" ID="ID_579755677" MODIFIED="1492787312238">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#2219ea">1.&#36319;getopt&#30456;&#20851;&#30340;&#20840;&#23616;&#21464;&#37327;</font></i></b>
+    </p>
+    <p>
+      int opterr
+    </p>
+    <p>
+      &#22914;&#26524;&#35813;&#20540;&#19981;&#26159;0&#65292;&#37027;&#20040;&#24403;getopt&#36935;&#21040;&#19981;&#35782;&#21035;&#30340;&#36873;&#39033;
+    </p>
+    <p>
+      &#25110;&#32773;&#26159;&#36873;&#39033;&#21518;&#38754;&#27809;&#26377;&#21442;&#25968;&#65292;&#37027;&#20040;&#20250;&#36755;&#20986;&#38169;&#35823;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#35813;&#20540;&#35774;&#32622;&#25104;&#20102;0&#65292;&#37027;&#20040;&#23601;&#19981;&#20250;&#36755;&#20986;&#38169;&#35823;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      int optopt
+    </p>
+    <p>
+      &#22914;&#26524;&#36935;&#21040;&#20102;&#19981;&#35782;&#21035;&#30340;&#36873;&#39033;&#25110;&#32773;&#26159;&#36873;&#39033;&#21518;&#38754;&#27809;&#26377;&#28155;&#21152;&#21442;&#25968;&#65292;
+    </p>
+    <p>
+      &#37027;&#20040;&#35813;&#20540;&#20250;&#23384;&#20648;&#35813;&#36873;&#39033;
+    </p>
+    <p>
+      <i><font color="#f10505">int optind </font></i>
+    </p>
+    <p>
+      <i><font color="#f10505">&#35813;&#31526;&#21495;&#25351;&#21521;&#24403;&#21069;&#20998;&#26512;&#30340;&#36873;&#39033;&#21518;&#38754;&#24102;&#30340;&#21442;&#25968;&#32034;&#24341;</font></i>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1492787628441" ID="ID_1283417481" MODIFIED="1492949861829">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#20989;&#25968;&#30340;&#21442;&#25968;optstring
+    </p>
+    <p>
+      &#35813;&#23383;&#31526;&#20018;&#21253;&#21547;&#20102;&#21512;&#27861;&#30340;&#36873;&#39033;&#23383;&#31526;&#65292;&#22914;&#26524;&#19968;&#20010;&#23383;&#31526;&#21518;&#38754;&#36319;&#38543;&#30528;
+    </p>
+    <p>
+      &#19968;&#20010;&#20882;&#21495;&#65292;&#37027;&#20040;&#23601;&#35828;&#26126;&#35813;&#36873;&#39033;&#38656;&#35201;&#19968;&#20010;&#21442;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1493019868391" ID="ID_1508398331" MODIFIED="1493019886663" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493020020758" ID="ID_996974118" MODIFIED="1493020316545">
@@ -666,8 +774,7 @@
       init/main.c&#25991;&#20214;&#26159;&#25972;&#20010;Linux&#30340;&#32852;&#32467;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1493021823653" ID="ID_106927126" MODIFIED="1493022164229">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -696,8 +803,7 @@
       Linux&#25903;&#25345;&#19977;&#31181;&#26041;&#24335;&#25346;&#36733;&#26368;&#32456;&#30340;&#25991;&#20214;&#31995;&#32479;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

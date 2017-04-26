@@ -314,6 +314,7 @@ digraph platform_bus{
 	"struct msm_pinctrl_dd":msm_pintype->"struct msm_pintype_info"[color=brown];
 	"struct msm_pinctrl_dd":pctl->"struct pinctrl_desc pctl"[color=blue];
 	"struct msm_pinctrl_dd":pctl_dev->"struct pinctrl_dev"[color=blue];
+	"struct msm_pinctrl_dd"->"struct msm_tlmm_desc"[arrowhead=none color=blue];
 
 	subgraph cluster_struct_msm_tlmm_desc{
 		label="struct msm_tlmm_desc";
@@ -341,7 +342,7 @@ digraph platform_bus{
     |u32 num_pins;
     |int pin_start;
     |int pin_end;
-    |struct gpio_chip gc;
+    |<gc>struct gpio_chip gc;
     |struct msm_tlmm_irq_chip *irq_chip;
     |bool supports_gpio;
     |struct pinctrl_gpio_range grange;
@@ -350,49 +351,47 @@ digraph platform_bus{
 	}"];
 	}
 	"struct msm_tlmm_desc":pintypes->"struct msm_pintype_info"[color=blue];
+	"struct msm_pintype_info":gc->"struct gpio_chip"[color=red];
 
 	subgraph cluster_struct_gpio_chip{
 		label="struct gpio_chip";
 		"struct gpio_chip"[label="{
 			const char      *label;
-    struct device       *dev;
-    struct module       *owner;
-    struct list_head        list;
+    |struct device       *dev;
+    |struct module       *owner;
+    |struct list_head        list;
 
-    int         (*request)(struct gpio_chip *chip,
-                        unsigned offset);
-    void            (*free)(struct gpio_chip *chip,
-                        unsigned offset);
-    int         (*get_direction)(struct gpio_chip *chip,
-                        unsigned offset);
-    int         (*direction_input)(struct gpio_chip *chip,
-                        unsigned offset);
-    int         (*get)(struct gpio_chip *chip,
-                        unsigned offset);
-    int         (*direction_output)(struct gpio_chip *chip,
-                        unsigned offset, int value);
-    int         (*set_debounce)(struct gpio_chip *chip,
-                        unsigned offset, unsigned debounce);
-
-    void            (*set)(struct gpio_chip *chip,
-                        unsigned offset, int value);
-
-    int         (*to_irq)(struct gpio_chip *chip,
-                        unsigned offset);
-
-    void            (*dbg_show)(struct seq_file *s,
-                        struct gpio_chip *chip);
-    int         base;
-    u16         ngpio;
-    struct gpio_desc    *desc;
-    const char      *const *names;
-    unsigned        can_sleep:1;
-    unsigned        exported:1;
-    struct device_node *of_node;
-    int of_gpio_n_cells;
-    int (*of_xlate)(struct gpio_chip *gc,
-                const struct of_phandle_args *gpiospec, u32 *flags)
-	struct list_head pin_ranges
+    |int         (*request)(struct gpio_chip *chip,
+                        \nunsigned offset);
+    |void            (*free)(struct gpio_chip *chip,
+                        \nunsigned offset);
+    |int         (*get_direction)(struct gpio_chip *chip,
+                        \nunsigned offset);
+    |int         (*direction_input)(struct gpio_chip *chip,
+                        \nunsigned offset);
+    |int         (*get)(struct gpio_chip *chip,
+                        \nunsigned offset);
+    |int         (*direction_output)(struct gpio_chip *chip,
+                        \nunsigned offset, int value);
+    |int         (*set_debounce)(struct gpio_chip *chip,
+                        \nunsigned offset, unsigned debounce)
+    |void    (*set)(struct gpio_chip *chip,
+                \nunsigned offset, int value)
+    |int     (*to_irq)(struct gpio_chip *chip,
+                        \nunsigned offset);
+    |void            (*dbg_show)(struct seq_file *s,
+                        \nstruct gpio_chip *chip);
+    |int         base
+    |u16         ngpio;
+    |struct gpio_desc    *desc;
+    |const char      *const *names;
+    |unsigned        can_sleep:1;
+    |unsigned        exported:1;
+    |struct device_node *of_node;
+    |int of_gpio_n_cells;
+    |int (*of_xlate)(struct gpio_chip *gc,
+                \nconst struct of_phandle_args *gpiospec, u32 *flags)
+	|struct list_head pin_ranges
 		}"];
 	}
 
