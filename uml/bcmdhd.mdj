@@ -19460,8 +19460,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 992,
-											"top": 2096,
+											"left": 1088,
+											"top": 2056,
 											"width": 233,
 											"height": 33,
 											"autoResize": false,
@@ -19476,9 +19476,9 @@
 											},
 											"visible": true,
 											"enabled": true,
-											"lineColor": "#000000",
+											"lineColor": "#f10606",
 											"fillColor": "#ffffff",
-											"fontColor": "#000000",
+											"fontColor": "#f20505",
 											"font": "Arial;13;0",
 											"showShadow": true,
 											"containerChangeable": false,
@@ -19490,7 +19490,7 @@
 												"$ref": "AAAAAAFbrOasnu4VsVo="
 											},
 											"lineStyle": 1,
-											"points": "1512:2170;1225:2129"
+											"points": "1512:2170;1200:2128;1203:2089"
 										},
 										{
 											"_type": "UMLSeqMessageView",
