@@ -4438,7 +4438,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1493219529285" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
+<node COLOR="#cc0033" CREATED="1458395797887" ID="ID_897771791" MODIFIED="1493715756998" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1493219461790">
 <richcontent TYPE="NODE"><html>
@@ -4513,7 +4513,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1493219528125" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
+<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1493715760885" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458444050579" FOLDED="true" ID="ID_345597075" MODIFIED="1493219523410">
 <richcontent TYPE="NODE"><html>
@@ -5911,6 +5911,44 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1493715764749" ID="ID_710540631" MODIFIED="1493715788606">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#39640;&#36890;&#24179;&#21488;&#23545;&#22806;&#22260;&#35774;&#22791;&#30340;&#31649;&#29702;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1493715794275" ID="ID_934446208" MODIFIED="1493716253596">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>BLSP</b>: BAM Low-Speed Peripheral
+    </p>
+    <p>
+      <b>BAM</b>: Bus Access Module
+    </p>
+    <p>
+      <b>QUP</b>: Qualcomm universal Peripheral
+    </p>
+    <p>
+      &#27599;&#20010;BLSP&#21306;&#22359;&#21253;&#21547;&#22810;&#20010;QUP&#21644;UART&#26680;&#24515;&#65292;BAM&#26159;&#29992;&#20110;&#31227;&#21160;&#22806;&#22260;&#35774;&#22791;
+    </p>
+    <p>
+      &#24403;&#20013;&#30340;&#25968;&#25454;&#32531;&#23384;&#30340;&#12290;&#27599;&#20010;&#22806;&#22260;&#35774;&#22791;&#37117;&#20250;&#36830;&#25509;&#21040;&#19968;&#23545;BAM&#30340;&#31649;&#36947;&#19978;&#38754;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -11753,7 +11791,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1486555650114" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1493693179182" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1476668469784" ID="ID_960888638" MODIFIED="1476858086791">
 <richcontent TYPE="NODE"><html>
@@ -12126,7 +12164,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477535464680" FOLDED="true" ID="ID_1619933124" MODIFIED="1491198059644" POSITION="left">
+<node CREATED="1477535464680" ID="ID_1619933124" MODIFIED="1493690992036" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12592,7 +12630,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1493219537401" POSITION="right" TEXT="Device Tree">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1493715706115" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1490607378546">
 <richcontent TYPE="NODE"><html>

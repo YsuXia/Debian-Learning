@@ -131,7 +131,7 @@ digraph platform_bus{
     |struct module *owner;
 	}"];
 	}
-
+	"struct pinctrl_desc":pins->"struct msm_pinctrl_soc_data":pins[arrowhead=none color=blue];
 	"struct pinctrl_desc":pins->"struct pinctrl_pin_desc"[color=red];
 	subgraph cluster_struct_pinctrl_pin_desc{
 		label="struct pinctrl_pin_desc";
@@ -141,6 +141,23 @@ digraph platform_bus{
 			|void *drv_data
 		}"];
 	}
+
+	subgraph cluster_struct_platform_device{
+		label="struct platform_device";
+		"struct platform_device"[label="{
+		 const char  *name;
+    	|int     id;
+    	|bool        id_auto;
+    	|<dev>struct device   dev;
+    	|u32     num_resources;
+    	|struct resource *resource;
+    	|const struct platform_device_id *id_entry;
+    	|char *driver_override
+    	|struct mfd_cell *mfd_cell;
+    	|struct pdev_archdata    archdata;
+	}"];
+	}
+	"struct platform_device":dev->"struct device"[color=red];
 
 	subgraph cluster_struct_device{
 		label="struct device";
@@ -267,19 +284,48 @@ digraph platform_bus{
 	}"];
 	}
 
+	subgraph cluster_struct_msm_pinctrl{
+		label="struct msm_pinctrl";
+		"struct msm_pinctrl"[label="{
+		struct device *dev;
+    	|<pctrl>struct pinctrl_dev *pctrl
+    	|struct gpio_chip chip
+    	|struct notifier_block restart_nb
+    	|int irq
+    	|spinlock_t lock
+    	|DECLARE_BITMAP(dual_edge_irqs, MAX_NR_GPIO)
+    	|DECLARE_BITMAP(enabled_irqs, MAX_NR_GPIO)
+    	|<soc>const struct msm_pinctrl_soc_data *soc
+    	|void __iomem *regs
+		}"];
+	}
+	"struct msm_pinctrl":pctrl->"struct pinctrl_dev"[color=purple];
+	"struct msm_pinctrl":soc->"struct msm_pinctrl_soc_data"[color=blue];
+
 	subgraph cluster_struct_msm_pinctrl_soc_data{
 		label="struct msm_pinctrl_soc_data";
+		bgcolor="pink";
 		"struct msm_pinctrl_soc_data"[label="{
-	|const struct pinctrl_pin_desc *pins\n
+	|<pins>const struct pinctrl_pin_desc *pins\n
 	an array describe all pins the controller affects
     |unsigned npins
-    |const struct msm_function *functions\n
+    |<functions>const struct msm_function *functions\n
     an array of all mux function controller supports
     |unsigned nfunctions;
     |const struct msm_pingroup *groups;
     |unsigned ngroups;
     |unsigned ngpios;
 		}"];
+	}
+	"struct msm_pinctrl_soc_data":functions->"struct msm_function"[color=red];
+	subgraph cluster_struct_msm_function{
+		label="struct msm_function";
+		bgcolor="cyan";
+		"struct msm_function"[label="{
+		const char *name
+    	|const char * const *groups
+    	|unsigned ngroups
+	}"];
 	}
 
 	subgraph cluster_struct_pinctrl_map{
