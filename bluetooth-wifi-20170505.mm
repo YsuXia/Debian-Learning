@@ -8105,7 +8105,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1479900434466" FOLDED="true" ID="ID_966620068" MODIFIED="1483358740229" TEXT="wpa_supplicant&#x4ee3;&#x7801;&#x521d;&#x59cb;&#x5316;&#x6d41;&#x7a0b;">
+<node CREATED="1479900434466" ID="ID_966620068" MODIFIED="1493950690683" TEXT="wpa_supplicant&#x4ee3;&#x7801;&#x521d;&#x59cb;&#x5316;&#x6d41;&#x7a0b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1479900456138" ID="ID_513745837" MODIFIED="1479900497977">
 <richcontent TYPE="NODE"><html>
@@ -8420,8 +8420,7 @@
       * P2P-device
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1493177155728">
@@ -8664,7 +8663,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482222777984" FOLDED="true" ID="ID_1585324012" MODIFIED="1493177213672">
+<node CREATED="1482222777984" ID="ID_1585324012" MODIFIED="1493966553457">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9133,17 +9132,17 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1486459286794" ID="ID_1881198372" MODIFIED="1486459313268">
+<node CREATED="1486459286794" ID="ID_1881198372" MODIFIED="1493967997760">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      netlink&#31867;&#22411;
+      <b>netlink&#31867;&#22411;</b>
     </p>
     <p>
-      1.socket&#21019;&#24314;
+      1.socket&#21019;&#24314;&#160;&#160;&#39044;&#23450;&#20041;&#30340;&#21327;&#35758;&#31867;&#22411;
     </p>
     <p>
       socket fd=socket(AF NETLINK,SOCK RAW,protocol) &#30446;&#21069;linux4.4&#20869;&#26680;&#24403;&#20013;&#25903;&#25345;&#30340;protocol&#22914;&#19979;&#65306;
@@ -9212,7 +9211,39 @@
       #define NETLINK_CRYPTO&#160;&#160;&#160;&#160;&#160;&#160;21&#160;&#160;/* Crypto layer */
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1493969119891" ID="ID_1785088080" MODIFIED="1493969135071" TEXT="&#x5185;&#x6838;&#x7a7a;&#x95f4;netlink&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1493969137991" ID="ID_1551707580" MODIFIED="1493969420915">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ea1111"><i>static inline struct sock * </i></font>
+    </p>
+    <p>
+      <font color="#ea1111"><i>netlink_kernel_create(struct net *net, int unit, struct netlink_kernel_cfg *cfg)</i></font>
+    </p>
+    <p>
+      &#29992;&#25143;&#22312;&#20869;&#26680;&#24403;&#20013;&#27880;&#20876;&#19968;&#20010;socket&#22788;&#29702;&#20989;&#25968;
+    </p>
+    <p>
+      net &#32593;&#32476;&#21629;&#21517;&#31354;&#38388;&#65292;&#22312;&#35813;&#31354;&#38388;&#37324;&#38754;&#26377;&#33258;&#24049;&#30340;&#36716;&#21457;&#20449;&#24687;&#24211;&#65292;&#26377;&#33258;&#24049;&#30340;&#19968;&#22871;net_device
+    </p>
+    <p>
+      unit &#34920;&#31034;netlink&#21327;&#35758;&#31867;&#22411;
+    </p>
+    <p>
+      cfg cfg&#37324;&#38754;&#23450;&#20041;&#20102;netlink&#30340;&#28040;&#24687;&#22788;&#29702;&#20989;&#25968;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -9220,11 +9251,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1479953700450" FOLDED="true" ID="ID_1348786010" MODIFIED="1486605666397" POSITION="right" TEXT="Linux Network Internals">
+<node CREATED="1479953700450" ID="ID_1348786010" MODIFIED="1493950655341" POSITION="right" TEXT="Linux Network Internals">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1479953715900" FOLDED="true" ID="ID_72904870" MODIFIED="1486276941624" TEXT="1.&#x8d2f;&#x7a7f;&#x5168;&#x5c40;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1479953715900" ID="ID_72904870" MODIFIED="1493968760975" TEXT="1.&#x8d2f;&#x7a7f;&#x5168;&#x5c40;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1479953744989" FOLDED="true" ID="ID_1449486188" MODIFIED="1486276937999">
+<node CREATED="1479953744989" ID="ID_1449486188" MODIFIED="1493968764553">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9325,7 +9356,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1479969567165" FOLDED="true" ID="ID_1891127323" MODIFIED="1486276934567">
+<node CREATED="1479969567165" ID="ID_1891127323" MODIFIED="1493968777244">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9388,7 +9419,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479978109392" FOLDED="true" ID="ID_336923871" MODIFIED="1486276933199">
+<node CREATED="1479978109392" FOLDED="true" ID="ID_336923871" MODIFIED="1493968797816">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10598,8 +10629,7 @@
       40 PCIE_RX_P pcie&#25509;&#25910;&#20449;&#21495;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

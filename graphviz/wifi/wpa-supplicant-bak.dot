@@ -6,11 +6,11 @@ digraph bluedroid{
 		"struct wpa_interface"[label="{
 			|const char *confname(/data/misc/wifi/wpa_supplicant.conf)
 			|const char *confanother(/system/etc/wifi/wpa_supplicant_overlay.conf)
-			|const char *ctrl_interface
-			|const char *driver(nl80211)
-			|const char *driver_param
-			|const char *ifname(wlan0)
-			|const char *bridge_ifname
+			|const char *ctrl_interface(对应于-C选项)
+			|const char *driver(nl80211对应于-D选项)
+			|const char *driver_param(对应于-p选项)
+			|const char *ifname(wlan0对应于-i选项)
+			|const char *bridge_ifname(对应于-d选项)
 			|int p2p_mgmt
 		}"];
 	}
@@ -18,20 +18,20 @@ digraph bluedroid{
 	subgraph cluster_struct_wpa_params{
 		label="struct wpa_params";
 		"struct wpa_params"[label="{
-			int daemonize
+			int daemonize(对应于-B选项)
 			|int wait_for_monitor
 			|char *pid_file
 			|int wpa_debug_level
-			|int wpa_debug_show_keys
+			|int wpa_debug_show_keys(对应于-K选项)
 			|int wpa_debug_timestamp
-			|char *ctrl_interface(@android:wpa_wlan0)
-			|char *ctrl_interface_group
+			|char *ctrl_interface(@android:wpa_wlan0对应于-g选项)
+			|char *ctrl_interface_group(对应于-G选项)
 			|const char *wpa_debug_file_path
 			|int wpa_debug_syslog
 			|int wpa_debug_tracing
-			|char *override_driver
-			|char *override_ctrl_interface(/data/misc/wifi/sockets)
-			|char *entropy_file(/data/misc/wifi/entropy.bin)
+			|char *override_driver(对应于-o选项)
+			|char *override_ctrl_interface(/data/misc/wifi/sockets对应于-O选项)
+			|char *entropy_file(/data/misc/wifi/entropy.bin对应-e选项)
 			|char *conf_p2p_dev(/data/misc/wifi/p2p_supplicant.conf)
 			|<match_ifaces>struct wpa_interface *match_ifaces
 			|int match_iface_count
@@ -83,6 +83,7 @@ digraph bluedroid{
 			 int sock---unix
     		|struct wpa_ctrl_dst *ctrl_dst;
     		|int android_control_socket
+			|struct wpa_global *global----走unix套接字的接口
 			|struct dl_list msg_queue
 			|unsigned int throttle_count
 		}"];
@@ -487,7 +488,7 @@ digraph bluedroid{
 	|........
 	|char *confname
 	|char *confanother
-	|struct wpa_config *conf
+	|<conf>struct wpa_config *conf
 	|......
 	|const struct wpa_driver_ops *driver
 	|......
@@ -497,7 +498,7 @@ digraph bluedroid{
 	|......
 	|struct gas_query *gas
 	|......
-	|void *drv_priv; /* private data used by driver_ops */
+	|void *drv_priv---i802_bss /* private data used by driver_ops */
     |void *global_drv_priv;
 	|struct \{
         \nstruct hostapd_hw_modes *modes
@@ -509,6 +510,7 @@ digraph bluedroid{
 	
 		}"];
 	}
+	"struct wpa_supplicant":conf->"struct wpa_interface"[color=blue arrowhead=none label="参数传递"];
 
 	"struct wpa_supplicant":eapol->"struct eapol_sm"[color=blue];
 	"struct wpa_supplicant":ctrl_iface->"struct ctrl_iface_priv"[color=red];
@@ -627,12 +629,21 @@ digraph bluedroid{
     |int if_add_ifindex;
     |u64 if_add_wdevid;
     |int if_add_wdevid_set;
-    |struct netlink_data *netlink;
+    |<netlink>struct netlink_data *netlink;
     |struct nl_cb *nl_cb;
-    |struct nl_handle *nl;
+    |struct nl_handle *nl---netlink socket,连接到GENERIC_NETLINK;
     |int nl80211_id;
     |int ioctl_sock; /* socket for ioctl() use */
-    |struct nl_handle *nl_event;
+    |struct nl_handle *nl_event---监听套接字,注册到eloop.read数组
+	}"];
+	}
+	"struct nl80211_global":netlink->"struct netlink_data"[color=red];
+	subgraph cluster_struct_netlink_data{
+		label="struct netlink_data";
+		"struct netlink_data"[label="{
+		struct netlink_config *cfg
+    	|int sock--netlink套接字，分配了NETLINK_ROUTE\n
+		'协议，放置到eloop.read当中监听'
 	}"];
 	}
 
@@ -859,12 +870,22 @@ digraph bluedroid{
 
 	subgraph cluster_struct_sockaddr_nl{
 		label="struct sockaddr_nl";
+		bgcolor="pink";
 		"struct sockaddr_nl"[label="{
 		 __kernel_sa_family_t    nl_family
     	|unsigned short  nl_pad
     	|__u32       nl_pid---port ID
     	|__u32       nl_groups---multicast groups mask
 	}"];
+	}
+	"struct sockaddr_nl"->"struct sockaddr"[arrowhead=none color=blue];
+	subgraph cluster_struct_sockaddr{
+		label="struct sockaddr";
+		bgcolor="blue";
+		"struct sockaddr"[label="{
+			sa_family_t sa_family
+			|char        sa_data[14]
+		}"];
 	}
 
 	subgraph cluster_struct_sock{
@@ -1016,6 +1037,18 @@ digraph bluedroid{
 	
 	
 	}"];
+	}
+
+	subgraph cluster_struct_netlink_config{
+		label="struct netlink_config";
+		bgcolor="purple";
+		"struct netlink_config"[label="{
+			void *ctx
+    |void (*newlink_cb)(void *ctx, struct ifinfomsg *ifi, 
+			\nu8 *buf,size_t len)
+    |void (*dellink_cb)(void *ctx, struct ifinfomsg *ifi, 
+			\nu8 *buf,size_t len)
+		}"];
 	}
 
 }
