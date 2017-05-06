@@ -463,7 +463,7 @@ digraph platform_bus{
                         \nunsigned offset);
     |void            (*dbg_show)(struct seq_file *s,
                         \nstruct gpio_chip *chip);
-    |int         base
+    |<base>int         base
     |u16         ngpio;
     |struct gpio_desc    *desc;
     |const char      *const *names;
@@ -477,7 +477,7 @@ digraph platform_bus{
 		}"];
 	}
 	"struct gpio_chip":gpiodev->"struct gpio_device"[color=blue];
-
+	"struct gpio_chip":base->"struct gpio_device":base[arrowhead=none color=purple];
 	subgraph cluster_struct_gpio_device{
 		label="struct gpio_device";
 		"struct gpio_device"[label="{
@@ -486,9 +486,9 @@ digraph platform_bus{
     |struct cdev     chrdev
     |struct device       *mockdev
     |struct module       *owner
-    |struct gpio_chip    *chip
+    |<chip>struct gpio_chip    *chip
     |<descs>struct gpio_desc    *descs
-    |int         base
+    |<base>int         base
     |u16         ngpio
     |char            *label
     |void            *data
@@ -497,7 +497,7 @@ digraph platform_bus{
 	}"];
 	}
 	"struct gpio_device":descs->"struct gpio_desc"[color=blue];
-	
+	"struct gpio_device":chip->"struct gpio_chip"[color=red];
 	subgraph cluster_struct_gpio_desc{
 		label="struct gpio_desc";
 		"struct gpio_desc"[label="{
