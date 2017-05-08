@@ -49,7 +49,7 @@ digraph bluedroid{
     |<ctrl_iface>struct ctrl_iface_global_priv *ctrl_iface;
     |struct wpas_dbus_priv *dbus;
     |struct wpas_binder_priv *binder;
-    |void **drv_priv;
+    |<drv_priv>void **drv_priv---对应每个driver的global_init返回对象，比如nl80211_global
 	|size_t drv_count;
     |struct os_time suspend_time;
     |struct p2p_data *p2p;
@@ -74,6 +74,7 @@ digraph bluedroid{
     |struct psk_list_entry *add_psk;
 		}"];
 	}
+	"struct wpa_global":drv_priv->"struct nl80211_global"[arrowhead=none color=blue];
 	"struct wpa_global":params->"struct wpa_params"[color=purple];
 	"struct wpa_global":ctrl_iface->"struct ctrl_iface_global_priv"[color=blue];
 	subgraph cluster_struct_ctrl_iface_global_priv{
@@ -498,8 +499,8 @@ digraph bluedroid{
 	|......
 	|struct gas_query *gas
 	|......
-	|void *drv_priv---i802_bss /* private data used by driver_ops */
-    |void *global_drv_priv;
+	|<drv_priv>void *drv_priv---struct i802_bss/* private data used by driver_ops */
+    |void *global_drv_priv--对应与wpa_global-\>drv_priv当中的一个,比如nl80211_global;
 	|struct \{
         \nstruct hostapd_hw_modes *modes
         \nu16 num_modes
@@ -511,6 +512,7 @@ digraph bluedroid{
 		}"];
 	}
 	"struct wpa_supplicant":conf->"struct wpa_interface"[color=blue arrowhead=none label="参数传递"];
+	"struct wpa_supplicant":conf->"struct wpa_config"[color=red];
 
 	"struct wpa_supplicant":eapol->"struct eapol_sm"[color=blue];
 	"struct wpa_supplicant":ctrl_iface->"struct ctrl_iface_priv"[color=red];
@@ -529,14 +531,31 @@ digraph bluedroid{
 	subgraph cluster_struct_wpa_config{
 		label="struct wpa_config";
 		"struct wpa_config"[label="{
-		struct wpa_ssid *ssid
-		|struct wpa_ssid **pssid
-		|int num_prio
-		|struct wpa_cred *cred
-		|int eapol_version
-		|int ap_scan
+		struct wpa_ssid *ssid--全局配置网络列表
+		|struct wpa_ssid **pssid---按照优先级排序的网络列表
+		|int num_prio---应用到网络列表当中的优先级的数量
+		|struct wpa_cred *cred---凭据列表头
+		|int eapol_version---IEEE 802.1X/EAPOL版本号
+		\n在wpa的代码当中默认的版本号是1,这里可以修改版本号
+		|int ap_scan\n在默认的情况下wpa_supplicant会负责对ap进行扫描和选择
+		\n另一种可选的情况是驱动负责对ap进行扫描和选择\n
+		而wpa_supplicant只负责解析EAPOL数据帧\n当该值是1,wpa_supplicant
+		负责对ap进行扫描和选择\n当该值是0,驱动负责对ap进行扫描和选择，以及
+		802.1x相关参数的解析\n当该值是2,跟0值的配置相似，只不过会使用安全策略和ssid
 		|char *bgscan
 		|int disable_scan_offload
+		|char *ctrl_interface
+		\n用于控制接口的参数\n如果该参数被指定，那么wpa_supplicant就会打开一个控制的接口\n
+		该控制接口可以用来让外部的程序来控制wpa_supplicant\n
+		|char *ctrl_interface_group
+		|int fast_reauth----用于使能或者禁止eap快速重验证
+		|char *opensc_engine_path
+		|char *pkcs11_engine_path
+		|char *pkcs11_module_path
+		|char *pcsc_reader
+		|char *pcsc_pin
+		|int external_sim
+		|char *driver_param---该字符串会被传递给选定的驱动的接口
 	}"];
 	}
 
@@ -720,11 +739,19 @@ digraph bluedroid{
     |unsigned int set_prob_oper_freq:1;
     |unsigned int scan_vendor_cmd_avail:1;
     |unsigned int connect_reassoc:1;
+	|unsigned int single_radio:1;
 	
 	|......
+	|int default_if_indices[16]
+	|int *if_indices
+	|int num_if_indices
+	|......
+	|<first_bss>struct i802_bss *first_bss
+	|.......
 
 	}"];
 	}
+	"struct wpa_driver_nl80211_data":first_bss->"struct i802_bss"[color=purple];
 	
 	subgraph cluster_struct_rfkill_config{
 		label="struct rfkill_config";

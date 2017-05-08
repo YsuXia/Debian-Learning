@@ -1,21 +1,88 @@
 digraph libnl{
 	node[shape=record];
+
+	subgraph cluster_struct_nl_msg{
+		label="struct nl_msg";
+		"struct nl_msg"[label="{
+	int         nm_protocol;
+    |int         nm_flags;
+    |struct sockaddr_nl  nm_src;
+    |struct sockaddr_nl  nm_dst;
+    |struct ucred        nm_creds;
+    |<nm_nlh>struct nlmsghdr *   nm_nlh\n分配一个页面的内存空间;
+	\n------------------
+	\n struct nlmsghdr
+	\n struct genlmsghdr
+	\n data
+	\n-------------------
+    |size_t          nm_size;
+    |int         nm_refcnt;
+		}"];
+	}
+	"struct nl_msg":nm_nlh->"struct nlmsghdr"[color=blue];
+
+	subgraph cluster_struct_nlmsghdr{
+		label="struct nlmsghdr";
+		"struct nlmsghdr"[label="{
+	__u32       nlmsg_len;  /* Length of message including header */
+    |__u16       nlmsg_type---对应nl80211的family id
+    |__u16       nlmsg_flags;    /* Additional flags */
+    |__u32       nlmsg_seq;  /* Sequence number */
+    |__u32       nlmsg_pid;  /* Sending process port ID */
+	}"];
+	}
+
+	subgraph cluster_struct_genlmsghdr{
+		label="struct genlmsghdr";
+		"struct genlmsghdr"[label="{
+		__u8    cmd
+    |__u8    version
+    |__u16   reserved
+	}"];
+	}
+
+	subgraph cluster_struct_iovec{
+		label="struct iovec";
+		"struct iovec"[label="{
+	<base>void *iov_base----Pointer to data
+    |size_t iov_len----Length of data
+	}"];
+	}
+	"struct iovec":base->"struct nl_msg":nm_nlh[color=blue];
+
+	subgraph cluster_struct_msghdr{
+		label="struct msghdr";
+		"struct msghdr"[label="{
+		<name>void *msgname
+		|socklen_t msg_namelen
+		|<msg_iov>struct iovec *msg_iov
+		|size_t msg_iovlen
+		|void *msg_control
+		|size_t msg_controllen
+		|int msg_flags
+	}"];
+	}
+	 "struct msghdr":msg_iov->"struct iovec"[color=red];
+	"struct msghdr":name->"struct nl_sock"[color=red];
+
 	subgraph cluster_struct_nl_sock{
 		label="struct nl_sock";
 		"struct nl_sock"[label="{
-		<local>struct sockaddr_nl  s_local;
-    	|<peer>struct sockaddr_nl  s_peer;
-    	|int         s_fd;
+		<local>struct sockaddr_nl  s_local\n内部的nl_family会被设置成AF_NETLINK;
+		\n内部的nl_pid设置成调用者的pid和port的组合形式
+    	|<peer>struct sockaddr_nl  s_peer\n内部的nl_family会被设置成AF_NETLINK;
+    	|int         s_fd--调用nl_connect的时候生成并且绑定
     	|int         s_proto;
     	|unsigned int        s_seq_next;
     	|unsigned int        s_seq_expect;
     	|int         s_flags;
-    	|struct nl_cb *      s_cb;
+    	|<cb>struct nl_cb *      s_cb;
 		}"];
 	}
 
 	"struct nl_sock":local->"struct sockaddr_nl"[color=red];
 	"struct nl_sock":peer->"struct sockaddr_nl"[color=red];
+	"struct nl_sock":cb->"struct nl_cb"[color=red];
 
 	subgraph cluster_struct_sockaddr_nl{
 		label="struct sockaddr_nl";
@@ -93,5 +160,21 @@ digraph libnl{
 	}
 
 	"struct genl_family":cache->"struct nl_cache"[color=red];
+	subgraph cluster_struct_nl_cb{
+		label="struct nl_cb";
+		"struct nl_cb"[label="{
+			nl_recvmsg_msg_cb_t cb_set[NL_CB_TYPE_MAX+1]
+			|void *  cb_args[NL_CB_TYPE_MAX+1]
+			|nl_recvmsg_err_cb_t cb_err
+			|void *          cb_err_arg
+			|int (*cb_recvmsgs_ow)(struct nl_sock *,struct nl_cb *)
+			|int   (*cb_recv_ow)(struct nl_sock *,
+			\nstruct sockaddr_nl *,
+            \nunsigned char **,
+            \nstruct ucred **);
+|int   (*cb_send_ow)(struct nl_sock *,struct nl_msg *)
+|int         cb_refcnt
+		}"];
+	}
 
 }

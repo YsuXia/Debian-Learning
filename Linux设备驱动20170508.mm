@@ -5923,8 +5923,7 @@
       <b>&#39640;&#36890;&#24179;&#21488;&#23545;&#22806;&#22260;&#35774;&#22791;&#30340;&#31649;&#29702;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1493715794275" ID="ID_934446208" MODIFIED="1493716253596">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5947,8 +5946,7 @@
       &#24403;&#20013;&#30340;&#25968;&#25454;&#32531;&#23384;&#30340;&#12290;&#27599;&#20010;&#22806;&#22260;&#35774;&#22791;&#37117;&#20250;&#36830;&#25509;&#21040;&#19968;&#23545;BAM&#30340;&#31649;&#36947;&#19978;&#38754;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -9288,9 +9286,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1491197869373" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+<node CREATED="1475896151069" ID="ID_1362020755" MODIFIED="1494223894382" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1491197821438">
+<node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1494223908918">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10007,7 +10005,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1486974920735" FOLDED="true" ID="ID_1347078890" MODIFIED="1491197833806" TEXT="1.ACPI&#x517c;&#x5bb9;&#x7cfb;&#x7edf;&#x7684;&#x8bbe;&#x5907;&#x5982;&#x4f55;&#x5524;&#x9192;&#x7cfb;&#x7edf;">
+<node CREATED="1486974920735" FOLDED="true" ID="ID_1347078890" MODIFIED="1494223900470" TEXT="1.ACPI&#x517c;&#x5bb9;&#x7cfb;&#x7edf;&#x7684;&#x8bbe;&#x5907;&#x5982;&#x4f55;&#x5524;&#x9192;&#x7cfb;&#x7edf;">
 <node CREATED="1486974974526" ID="ID_721029365" MODIFIED="1487127494344">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10063,6 +10061,53 @@
 <node CREATED="1490165194139" ID="ID_1564199583" MODIFIED="1490165200299" TEXT="http://blog.csdn.net/wavemcu/article/details/8544333">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+</node>
+<node CREATED="1494223925055" ID="ID_1813003510" MODIFIED="1494223951989" TEXT="Intel soc &#x4f4e;&#x529f;&#x8017;/&#x4f11;&#x7720;&#x673a;&#x5236;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1494223960112" ID="ID_1944115341" MODIFIED="1494223968320" TEXT="Atom&#x7cfb;&#x5217;"/>
+<node CREATED="1494223978807" ID="ID_639406366" MODIFIED="1494224052474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e50e0e"><i>&#30456;&#20851;&#30340;&#27979;&#35797;&#21629;&#20196;</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1494223989631" ID="ID_75631460" MODIFIED="1494224036963">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#27979;&#35797;s0i3&#30340;&#21344;&#29992;&#27604;</b>
+    </p>
+    <p>
+      adb shell cat /sys/kernel/debug/pmc_atom/sleep_state
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1494224749965" ID="ID_188575836" MODIFIED="1494224772977">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e30303"><i>rfkill&#26426;&#21046;</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1487915780483" POSITION="right">
@@ -10750,7 +10795,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1491197871037" POSITION="left">
+<node CREATED="1475917220585" ID="ID_1364440222" MODIFIED="1494210681972" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11349,7 +11394,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1482889542718" FOLDED="true" ID="ID_758317088" MODIFIED="1491197856981">
+<node CREATED="1482889542718" ID="ID_758317088" MODIFIED="1494210686949">
 <richcontent TYPE="NODE"><html>
   <head>
     
