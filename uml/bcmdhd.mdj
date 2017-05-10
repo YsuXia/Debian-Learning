@@ -18626,7 +18626,7 @@
 													"containerChangeable": false,
 													"containerExtending": false,
 													"left": 71,
-													"top": 133,
+													"top": 13,
 													"width": 93,
 													"height": 13,
 													"autoResize": false,
@@ -18651,7 +18651,7 @@
 													"containerChangeable": false,
 													"containerExtending": false,
 													"left": 5,
-													"top": 133,
+													"top": 13,
 													"width": 61,
 													"height": 13,
 													"autoResize": false,
@@ -18671,9 +18671,9 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 0,
-											"top": 128,
-											"width": 2657,
-											"height": 2993,
+											"top": 8,
+											"width": 3017,
+											"height": 3113,
 											"autoResize": false,
 											"nameLabel": {
 												"$ref": "AAAAAAFbo5rRZkl/ecg="
@@ -19062,8 +19062,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 16,
-											"top": 96,
+											"left": 8,
+											"top": 176,
 											"width": 153,
 											"height": 160,
 											"autoResize": false,
@@ -19092,7 +19092,7 @@
 												"$ref": "AAAAAAFbo5wLTEm19yU="
 											},
 											"lineStyle": 1,
-											"points": "296:162;192:208;169:200"
+											"points": "296:162;192:208;161:221"
 										},
 										{
 											"_type": "UMLSeqMessageView",
