@@ -7184,7 +7184,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1483546853320" FOLDED="true" ID="ID_1507841872" MODIFIED="1490067136521" TEXT="sdio&#x9a71;&#x52a8;&#x4ecb;&#x7ecd;">
+<node CREATED="1483546853320" FOLDED="true" ID="ID_1507841872" MODIFIED="1494852161060" TEXT="sdio&#x9a71;&#x52a8;&#x4ecb;&#x7ecd;">
 <node CREATED="1483546910173" ID="ID_1859345497" MODIFIED="1483547448301">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7306,7 +7306,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1483598127757" FOLDED="true" ID="ID_1544266574" MODIFIED="1490067132633" TEXT="PCI&#x9a71;&#x52a8;">
+<node CREATED="1483598127757" FOLDED="true" ID="ID_1544266574" MODIFIED="1494852164484" TEXT="PCI&#x9a71;&#x52a8;">
 <node CREATED="1483598145090" ID="ID_31584946" MODIFIED="1483889108425">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7373,6 +7373,22 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1494852168057" ID="ID_393200434" MODIFIED="1494852184806">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#36164;&#26009;
+    </p>
+    <p>
+      http://fanli7.net/a/JAVAbiancheng/ANT/20120703/180214.html
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1478570008107" ID="ID_1850460194" MODIFIED="1490152121847">
@@ -8423,7 +8439,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1493177155728">
+<node CREATED="1481620046145" FOLDED="true" ID="ID_441546622" MODIFIED="1494852132685">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9211,8 +9227,7 @@
       #define NETLINK_CRYPTO&#160;&#160;&#160;&#160;&#160;&#160;21&#160;&#160;/* Crypto layer */
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1493969119891" ID="ID_1785088080" MODIFIED="1493969135071" TEXT="&#x5185;&#x6838;&#x7a7a;&#x95f4;netlink&#x5b66;&#x4e60;">
@@ -9242,8 +9257,7 @@
       cfg cfg&#37324;&#38754;&#23450;&#20041;&#20102;netlink&#30340;&#28040;&#24687;&#22788;&#29702;&#20989;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

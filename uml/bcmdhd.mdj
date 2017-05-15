@@ -20833,7 +20833,7 @@
 													"left": 1910,
 													"top": 172,
 													"width": 14,
-													"height": 2141,
+													"height": 2341,
 													"autoResize": false
 												}
 											],
@@ -29353,6 +29353,173 @@
 										},
 										{
 											"_type": "UMLSeqMessageView",
+											"_id": "AAAAAAFcCw1IfoOXSQ0=",
+											"_parent": {
+												"$ref": "AAAAAAFbo5rRZkl9C84="
+											},
+											"model": {
+												"$ref": "AAAAAAFcCw1IfYOWD+I="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFcCw1IfoOYWuk=",
+													"_parent": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"model": {
+														"$ref": "AAAAAAFcCw1IfYOWD+I="
+													},
+													"visible": true,
+													"enabled": true,
+													"lineColor": "#000000",
+													"fillColor": "#ffffff",
+													"fontColor": "#000000",
+													"font": "Arial;13;0",
+													"showShadow": true,
+													"containerChangeable": false,
+													"containerExtending": false,
+													"left": 1844,
+													"top": 2211,
+													"width": 236,
+													"height": 13,
+													"autoResize": false,
+													"alpha": 1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"edgePosition": 1,
+													"underline": false,
+													"text": "48 : wl_iw_attach(net, (void *)&dhd->pub)",
+													"horizontalAlignment": 2,
+													"verticalAlignment": 5
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFcCw1If4OZepY=",
+													"_parent": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"model": {
+														"$ref": "AAAAAAFcCw1IfYOWD+I="
+													},
+													"visible": false,
+													"enabled": true,
+													"lineColor": "#000000",
+													"fillColor": "#ffffff",
+													"fontColor": "#000000",
+													"font": "Arial;13;0",
+													"showShadow": true,
+													"containerChangeable": false,
+													"containerExtending": false,
+													"left": 1977,
+													"top": 2211,
+													"width": 0,
+													"height": 13,
+													"autoResize": false,
+													"alpha": 1.5707963267948966,
+													"distance": 25,
+													"hostEdge": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"edgePosition": 1,
+													"underline": false,
+													"horizontalAlignment": 2,
+													"verticalAlignment": 5
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFcCw1If4OajPc=",
+													"_parent": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"model": {
+														"$ref": "AAAAAAFcCw1IfYOWD+I="
+													},
+													"visible": false,
+													"enabled": true,
+													"lineColor": "#000000",
+													"fillColor": "#ffffff",
+													"fontColor": "#000000",
+													"font": "Arial;13;0",
+													"showShadow": true,
+													"containerChangeable": false,
+													"containerExtending": false,
+													"left": 1943,
+													"top": 2212,
+													"width": 0,
+													"height": 13,
+													"autoResize": false,
+													"alpha": -1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"edgePosition": 1,
+													"underline": false,
+													"horizontalAlignment": 2,
+													"verticalAlignment": 5
+												},
+												{
+													"_type": "UMLActivationView",
+													"_id": "AAAAAAFcCw1If4Ob/gU=",
+													"_parent": {
+														"$ref": "AAAAAAFcCw1IfoOXSQ0="
+													},
+													"model": {
+														"$ref": "AAAAAAFcCw1IfYOWD+I="
+													},
+													"visible": true,
+													"enabled": true,
+													"lineColor": "#000000",
+													"fillColor": "#ffffff",
+													"fontColor": "#000000",
+													"font": "Arial;13;0",
+													"showShadow": true,
+													"containerChangeable": false,
+													"containerExtending": false,
+													"left": 1917,
+													"top": 2228,
+													"width": 14,
+													"height": 29,
+													"autoResize": false
+												}
+											],
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"head": {
+												"$ref": "AAAAAAFbrhskQsEF7wA="
+											},
+											"tail": {
+												"$ref": "AAAAAAFbrhskQsEF7wA="
+											},
+											"lineStyle": 0,
+											"points": "1923:2208;1953:2208;1953:2228;1930:2228",
+											"nameLabel": {
+												"$ref": "AAAAAAFcCw1IfoOYWuk="
+											},
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFcCw1If4OZepY="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFcCw1If4OajPc="
+											},
+											"activation": {
+												"$ref": "AAAAAAFcCw1If4Ob/gU="
+											},
+											"showProperty": true,
+											"showType": true
+										},
+										{
+											"_type": "UMLSeqMessageView",
 											"_id": "AAAAAAFbrOdxee4r10o=",
 											"_parent": {
 												"$ref": "AAAAAAFbo5rRZkl9C84="
@@ -29391,7 +29558,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "48 : si_setcore(bus->sih, PCIE2_CORE_ID, 0)",
+													"text": "49 : si_setcore(bus->sih, PCIE2_CORE_ID, 0)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -29558,7 +29725,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "49 : sbpcieregs = (sbpcieregs_t*)(bus->regs)",
+													"text": "50 : sbpcieregs = (sbpcieregs_t*)(bus->regs)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -29725,7 +29892,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "50 : W_REG(osh, &sbpcieregs->configaddr, 0x4e0);",
+													"text": "51 : W_REG(osh, &sbpcieregs->configaddr, 0x4e0);",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -29892,7 +30059,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "51 : val = R_REG(osh, &sbpcieregs->configdata);",
+													"text": "52 : val = R_REG(osh, &sbpcieregs->configdata);",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -30020,6 +30187,100 @@
 											"showType": true
 										},
 										{
+											"_type": "UMLNoteView",
+											"_id": "AAAAAAFb7AHKHprRqpg=",
+											"_parent": {
+												"$ref": "AAAAAAFbo5rRZkl9C84="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 1992,
+											"top": 1320,
+											"width": 321,
+											"height": 161,
+											"autoResize": false,
+											"text": "init_waitqueue_head(&dhd->ioctl_resp_wait);\n    init_waitqueue_head(&dhd->d3ack_wait);\n    init_waitqueue_head(&dhd->ctrl_wait);\n\n    /* Initialize the spinlocks */\n    spin_lock_init(&dhd->sdlock);\n    spin_lock_init(&dhd->txqlock);\n    spin_lock_init(&dhd->dhd_lock);\n    spin_lock_init(&dhd->rxf_lock);\n",
+											"wordWrap": true
+										},
+										{
+											"_type": "UMLNoteLinkView",
+											"_id": "AAAAAAFb7AHKIprUp78=",
+											"_parent": {
+												"$ref": "AAAAAAFbo5rRZkl9C84="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#f80202",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"head": {
+												"$ref": "AAAAAAFb7AHKHprRqpg="
+											},
+											"tail": {
+												"$ref": "AAAAAAFb7AFzTpq8w24="
+											},
+											"lineStyle": 1,
+											"points": "1953:1618;2112:1552;2131:1481"
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "AAAAAAFb7Adgopshn4c=",
+											"_parent": {
+												"$ref": "AAAAAAFbo5rRZkl9C84="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 2088,
+											"top": 1648,
+											"width": 497,
+											"height": 105,
+											"autoResize": false,
+											"text": "wake_lock_init(&dhd->wl_wifi, WAKE_LOCK_SUSPEND, \"wlan_wake\");\nwake_lock_init(&dhd->wl_rxwake, WAKE_LOCK_SUSPEND, \"wlan_rx_wake\");\nwake_lock_init(&dhd->wl_ctrlwake, WAKE_LOCK_SUSPEND, \"wlan_ctrl_wake\");\nwake_lock_init(&dhd->wl_wdwake, WAKE_LOCK_SUSPEND, \"wlan_wd_wake\");\nmutex_init(&dhd->dhd_net_if_mutex);\nmutex_init(&dhd->dhd_suspend_mutex);",
+											"wordWrap": true
+										},
+										{
+											"_type": "UMLNoteLinkView",
+											"_id": "AAAAAAFb7Adgp5skEHY=",
+											"_parent": {
+												"$ref": "AAAAAAFbo5rRZkl9C84="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#fb0404",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"head": {
+												"$ref": "AAAAAAFb7Adgopshn4c="
+											},
+											"tail": {
+												"$ref": "AAAAAAFb7Acx75sMzvc="
+											},
+											"lineStyle": 1,
+											"points": "1953:1842;2193:1753"
+										},
+										{
 											"_type": "UMLSeqMessageView",
 											"_id": "AAAAAAFbrgy3XbBBULc=",
 											"_parent": {
@@ -30059,7 +30320,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "52 : W_REG(osh, &sbpcieregs->configdata, val)",
+													"text": "53 : W_REG(osh, &sbpcieregs->configdata, val)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -30187,100 +30448,6 @@
 											"showType": true
 										},
 										{
-											"_type": "UMLNoteView",
-											"_id": "AAAAAAFb7AHKHprRqpg=",
-											"_parent": {
-												"$ref": "AAAAAAFbo5rRZkl9C84="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 1992,
-											"top": 1320,
-											"width": 321,
-											"height": 161,
-											"autoResize": false,
-											"text": "init_waitqueue_head(&dhd->ioctl_resp_wait);\n    init_waitqueue_head(&dhd->d3ack_wait);\n    init_waitqueue_head(&dhd->ctrl_wait);\n\n    /* Initialize the spinlocks */\n    spin_lock_init(&dhd->sdlock);\n    spin_lock_init(&dhd->txqlock);\n    spin_lock_init(&dhd->dhd_lock);\n    spin_lock_init(&dhd->rxf_lock);\n",
-											"wordWrap": true
-										},
-										{
-											"_type": "UMLNoteLinkView",
-											"_id": "AAAAAAFb7AHKIprUp78=",
-											"_parent": {
-												"$ref": "AAAAAAFbo5rRZkl9C84="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#f80202",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"head": {
-												"$ref": "AAAAAAFb7AHKHprRqpg="
-											},
-											"tail": {
-												"$ref": "AAAAAAFb7AFzTpq8w24="
-											},
-											"lineStyle": 1,
-											"points": "1953:1618;2112:1552;2131:1481"
-										},
-										{
-											"_type": "UMLNoteView",
-											"_id": "AAAAAAFb7Adgopshn4c=",
-											"_parent": {
-												"$ref": "AAAAAAFbo5rRZkl9C84="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 2088,
-											"top": 1743,
-											"width": 265,
-											"height": 55,
-											"autoResize": false,
-											"text": "mutex_init(&dhd->dhd_net_if_mutex);\n    mutex_init(&dhd->dhd_suspend_mutex);\n",
-											"wordWrap": true
-										},
-										{
-											"_type": "UMLNoteLinkView",
-											"_id": "AAAAAAFb7Adgp5skEHY=",
-											"_parent": {
-												"$ref": "AAAAAAFbo5rRZkl9C84="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#fb0404",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"head": {
-												"$ref": "AAAAAAFb7Adgopshn4c="
-											},
-											"tail": {
-												"$ref": "AAAAAAFb7Acx75sMzvc="
-											},
-											"lineStyle": 1,
-											"points": "1953:1842;2096:1824;2156:1798"
-										},
-										{
 											"_type": "UMLSeqMessageView",
 											"_id": "AAAAAAFbrhWGEsCqC8s=",
 											"_parent": {
@@ -30320,7 +30487,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "53 : bus->ramsize = bus->orig_ramsize",
+													"text": "54 : bus->ramsize = bus->orig_ramsize",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -30487,7 +30654,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "54 : bus->srmemsize = si_socram_srmem_size(bus->sih)",
+													"text": "55 : bus->srmemsize = si_socram_srmem_size(bus->sih)",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -30654,7 +30821,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "55 : bus->def_intmask = PCIE_MB_D2H_MB_MASK | PCIE_MB_TOPCIE_FN0_0 | PCIE_MB_TOPCIE_FN0_1",
+													"text": "56 : bus->def_intmask = PCIE_MB_D2H_MB_MASK | PCIE_MB_TOPCIE_FN0_0 | PCIE_MB_TOPCIE_FN0_1",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -30821,7 +30988,7 @@
 													},
 													"edgePosition": 1,
 													"underline": false,
-													"text": "56 : dhd_attach",
+													"text": "57 : dhd_attach",
 													"horizontalAlignment": 2,
 													"verticalAlignment": 5
 												},
@@ -31751,6 +31918,23 @@
 									},
 									"target": {
 										"$ref": "AAAAAAFbqcpirjZOg60="
+									},
+									"visibility": "public",
+									"messageSort": "synchCall",
+									"isConcurrentIteration": false
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "AAAAAAFcCw1IfYOWD+I=",
+									"_parent": {
+										"$ref": "AAAAAAFbo5rRZkl825Q="
+									},
+									"name": "wl_iw_attach(net, (void *)&dhd->pub)",
+									"source": {
+										"$ref": "AAAAAAFbrhskQMD+RP4="
+									},
+									"target": {
+										"$ref": "AAAAAAFbrhskQMD+RP4="
 									},
 									"visibility": "public",
 									"messageSort": "synchCall",
@@ -43253,12 +43437,12 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 1664,
-											"top": 120,
-											"width": 441,
-											"height": 153,
+											"left": 1496,
+											"top": 112,
+											"width": 537,
+											"height": 329,
 											"autoResize": false,
-											"text": "dhd_inetaddr_notifier\ndhd_inet6addr_notifier\ndhd_reboot_notifier\ndhd_pm_notifier\nwl_cfg80211_netdev_notifier",
+											"text": "dhd_inetaddr_notifier\ndhd_inet6addr_notifier\ndhd_reboot_notifier\ndhd_pm_notifier\nwl_cfg80211_netdev_notifier\nwl_android_priv_cmd: Android private cmd \"SETSUSPENDMODE 0\" on wlan0\n 133:         24          6          6          1  CHV-GPIO   15-demux     intel_soc_pmic\n148:          1          0          0          0  CHV-GPIO   16-demux     bt_host_wake\n\n4847 [ 2529.927874] pmc_atom: 16 - GBE in SC is in D0 prior to sleep\n4848 [ 2529.927878] pmc_atom: 17 - SATA in SC is in D0 prior to sleep\n4849 [ 2529.927881] pmc_atom: 20 - PCIE_PORT0 in SC is in D0 prior to sleep\n4850 [ 2529.927883] pmc_atom: 31 - LPSS2_F7_I2C7 in SC is in D0 prior to sleep\n4851 [ 2529.927885] pmc_atom: 32 - SMB in SC is in D0 prior to sleep\nchv_gpio: irq[133] might wake up system!\n124 [  338.893985] chv_gpio: irq[148] might wake up system!\n  125 [  338.894026] chv_gpio: irq[133] might wake up system!\nWakeup IRQ 133 intel_soc_pmic pending",
 											"wordWrap": true
 										}
 									],
