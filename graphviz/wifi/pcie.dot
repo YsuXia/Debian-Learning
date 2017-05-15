@@ -1,4 +1,50 @@
 digraph pcie{
 	node[shape=record];
+	subgraph cluster_struct_msgbuf_ring{
+	label="struct msgbuf_ring";
+	bgcolor="pink";
+		"struct msgbuf_ring"[label="{
+			bool        inited;
+    		|uint16      idx;
+    		|uchar       name[24];
+    		|dhd_mem_map_t   ring_base;
+	|#ifdef TXP_FLUSH_NITEMS\n
+    void*       start_addr\n
+    uint16      pend_items_count\n
+	#endif
+    |<ringmem>ring_mem_t  *ringmem;
+    |<ringstate>ring_state_t    *ringstate;
+	|#if defined\(PCIE_D2H_SYNC\)
+    \nuint32      seqnum;
+	\n#endif
+    |void *secdma;
+		}"];
+	}
+	"struct msgbuf_ring":ringstate->"struct ring_state"[color=blue];
+	"struct msgbuf_ring":ringmem->"struct ring_mem"[color=blue];
+
+	subgraph cluster_struct_ring_state{
+		label="struct ring_state";
+		bgcolor="brown";
+		"struct ring_state"[label="{
+			uint8 idx;
+		    |uint8 state;
+			|uint16 r_offset;
+			|uint16 w_offset;
+			|uint16 e_offset;
+		}"];
+	}
+
+	subgraph cluster_struct_ring_mem{
+		label="struct ring_mem";
+		"struct ring_mem"[label="{
+		uint16      idx;
+    	|uint8       type;
+    	|uint8       rsvd;
+    	|uint16      max_item;
+    	|uint16      len_items;
+    	|sh_addr_t   base_addr;
+		}"];
+	}
 	
 }
