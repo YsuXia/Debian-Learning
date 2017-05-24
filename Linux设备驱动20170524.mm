@@ -1080,9 +1080,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1491198098333" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1495608081359" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1432176050648" ID="ID_1785780009" MODIFIED="1486555597819">
+<node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1221,7 +1221,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1486555597825" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1495608096294" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1442,7 +1442,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1433836099543" ID="ID_582463794" MODIFIED="1486555597840">
+<node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1495608097454">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1508,7 +1508,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433838675723" ID="ID_1496785705" MODIFIED="1486555597845" TEXT="4.&#x5982;&#x4f55;&#x5728;&#x5c40;&#x90e8;&#x6216;&#x5168;&#x5c40;&#x73af;&#x5883;&#x4e0b;&#x6253;&#x5f00;&#x548c;&#x5173;&#x95ed;printk">
+<node CREATED="1433838675723" FOLDED="true" ID="ID_1496785705" MODIFIED="1495608099118" TEXT="4.&#x5982;&#x4f55;&#x5728;&#x5c40;&#x90e8;&#x6216;&#x5168;&#x5c40;&#x73af;&#x5883;&#x4e0b;&#x6253;&#x5f00;&#x548c;&#x5173;&#x95ed;printk">
 <node CREATED="1433841585192" ID="ID_1070638651" MODIFIED="1433841669322">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1573,7 +1573,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433853570573" ID="ID_434256939" MODIFIED="1486555597850">
+<node CREATED="1433853570573" FOLDED="true" ID="ID_434256939" MODIFIED="1495608100982">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1609,7 +1609,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433853739522" ID="ID_861178982" MODIFIED="1486555597857">
+<node CREATED="1433853739522" FOLDED="true" ID="ID_861178982" MODIFIED="1495608102350">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2076,7 +2076,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1487914213021" ID="ID_1288142286" MODIFIED="1487914799161">
+<node CREATED="1487914213021" FOLDED="true" ID="ID_1288142286" MODIFIED="1495608106638">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2151,6 +2151,20 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1495608114296" ID="ID_141978653" MODIFIED="1495608162432">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#1a8a8c" size="3">10.</font><font size="3" face="Microsoft Yahei, Hei, Tahoma, SimHei, sans-serif" color="rgb(68, 68, 68)">&#22522;&#20110;pstore &#21644; ramoops&#23454;&#29616;&#22312;&#38750;&#26131;&#22833;&#24615;&#20869;&#23384;&#20013;&#20445;&#23384;panic&#26085;&#24535;</font></b>&#160; </i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1495612173668" ID="ID_1179732713" MODIFIED="1495612176675" TEXT="http://www.spinics.net/lists/linux-acpi/msg57973.html"/>
 </node>
 </node>
 <node COLOR="#cc0033" CREATED="1434600032779" FOLDED="true" ID="ID_389670617" MODIFIED="1493219498805" POSITION="right" TEXT="5.&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;">
@@ -4440,7 +4454,7 @@
 </node>
 <node COLOR="#cc0033" CREATED="1458395797887" ID="ID_897771791" MODIFIED="1493715756998" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1495432520832">
+<node CREATED="1458440850768" ID="ID_1906210875" MODIFIED="1495624294830">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12170,8 +12184,7 @@
   <body>
     <img src="lddpic/msi-capability-structure-400-500.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1495505326023" ID="ID_426850666" MODIFIED="1495507330540">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12191,8 +12204,7 @@
       &#26469;&#30003;&#35831;&#26381;&#21153;&#12290;&#31995;&#32479;&#36719;&#20214;&#21487;&#20197;&#36890;&#36807;&#20351;&#33021;&#35813;&#23492;&#23384;&#22120;&#30340;bit0&#26469;&#20351;&#33021;msi&#21151;&#33021;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12223,8 +12235,7 @@
       &#20110;bar&#30340;&#20559;&#31227;&#37327;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1495516838611" ID="ID_140695277" MODIFIED="1495516846403">
 <richcontent TYPE="NODE"><html>
@@ -12234,8 +12245,7 @@
   <body>
     <img src="lddpic/msi-x-table.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1495517819002" ID="ID_960622371" MODIFIED="1495518138841">
@@ -12263,8 +12273,7 @@
       &#31995;&#32479;&#36719;&#20214;&#29420;&#31435;&#22320;&#31649;&#29702;&#36825;&#20123;&#20013;&#26029;&#26426;&#21046;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1495519378479" ID="ID_658508934" MODIFIED="1495521124717">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12284,8 +12293,7 @@
       &#26102;&#20505;&#65292;&#36719;&#20214;&#26159;&#19981;&#33021;&#20462;&#25913;&#23427;&#30340;address&#21644;data&#22495;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1495521129659" ID="ID_173807990" MODIFIED="1495522487258">
 <richcontent TYPE="NODE"><html>
@@ -12324,8 +12332,7 @@
       &#23545;&#20110;MSI-X, MSI-X table&#38024;&#23545;&#27599;&#20010;&#20998;&#37197;&#30340;vector&#33267;&#23569;&#21253;&#21547;&#19968;&#20010;entry&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1495522499190" ID="ID_1098871003" MODIFIED="1495525183791">
 <richcontent TYPE="NODE"><html>
@@ -12382,8 +12389,7 @@
       &#21457;&#29983;&#65292;&#37027;&#20040;&#35813;pending&#20301;&#24212;&#35813;&#34987;&#37325;&#26032;&#32622;&#20301;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1495525192083" ID="ID_1171505862" MODIFIED="1495525451763">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12406,8 +12412,7 @@
       &#25152;&#23545;&#24212;&#30340;address&#21644;data value&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12454,8 +12459,7 @@
       you own the computer and all data contained within.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

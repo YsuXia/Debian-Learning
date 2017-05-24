@@ -1,0 +1,87 @@
+digraph mfd_pmic{
+	node[shape=record];
+	subgraph cluster_struct_intel_soc_pmic{
+		label="struct intel_soc_pmic";
+		"struct intel_soc_pmic"[label="{
+		const char          *label;
+    	|struct device           *dev;
+    	|struct mutex            io_lock******For registers
+    	|struct mutex            irq_lock******irq_bus_lock
+    	|int             irq_need_update;
+    	|int             irq;
+    	|unsigned long           irq_flags;
+    	|int             irq_num;
+    	|int             irq_base;
+    	|unsigned long           irq_mask[INTEL_PMIC_IRQ_MAX/32];
+    	|int             pmic_int_gpio;
+    	|int             default_client;
+    	|int             (*init)(void);
+    	|int             (*readb)(int);
+    	|int             (*writeb)(int, u8);
+    	|int             (*readmul)(int, u8, u8*);
+    	|int             (*writemul)(int, u8, u8*);
+    	|<irq>struct intel_pmic_irqregmap *irq_regmap;
+    	|<cell>struct mfd_cell         *cell_dev;
+    	|struct intel_pmic_opregion  *opregion;
+    	|int             print_wakeup;
+		}"];
+	}
+
+
+	"struct intel_soc_pmic":irq->"struct intel_pmic_irqregmap"[color=red];
+	"struct intel_soc_pmic":cell->"struct mfd_cell"[color=red];
+
+	subgraph cluster_struct_intel_pmic_irqregmap{
+		label="struct intel_pmic_irqregmap";
+		"struct intel_pmic_irqregmap"[label="{
+		struct intel_pmic_regmap    mask;
+    	|struct intel_pmic_regmap    status;
+    	|struct intel_pmic_regmap    ack;
+	}"];
+	}
+
+	subgraph cluster_struct_mfd_cell{
+		label="struct mfd_cell";
+		"struct mfd_cell"[label="{
+		const char      *name;
+    |int         id;
+    |****refcounting for multiple drivers to use a single cell****
+    \natomic_t        *usage_count;
+    |int         (*enable)(struct platform_device *dev);
+    |int         (*disable)(struct platform_device *dev);
+
+    |int         (*suspend)(struct platform_device *dev);
+    |int         (*resume)(struct platform_device *dev);
+
+    |******platform data passed to the sub devices drivers***
+    \nvoid            *platform_data;
+    |size_t          pdata_size;
+    |
+     \n* Device Tree compatible string
+     \n* See: Documentation/devicetree/usage-model.txt Chapter 2.2 for details
+     \n*
+    \nconst char      *of_compatible;
+
+    |*
+     \n* These resources can be specified relative to the parent device.
+     \n* For accessing hardware you should use resources from the platform dev
+     \n*
+    \nint         num_resources;
+    |const struct resource   *resources;
+
+    |bool            ignore_resource_conflicts;
+
+    |*
+     \n* Disable runtime PM callbacks for this subdevice - see
+     \n* pm_runtime_no_callbacks().
+     \n*
+    \nbool            pm_runtime_no_callbacks;
+
+    |* A list of regulator supplies that should be mapped to the MFD
+     \n* device rather than the child device when requested
+     \n*
+    \nconst char      **parent_supplies;
+    |int         num_parent_supplies;
+	}"];
+	}
+}
