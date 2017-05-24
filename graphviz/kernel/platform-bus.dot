@@ -291,7 +291,7 @@ digraph platform_bus{
 		"struct msm_pinctrl"[label="{
 		struct device *dev;
     	|<pctrl>struct pinctrl_dev *pctrl
-    	|struct gpio_chip chip
+    	|<chip>struct gpio_chip chip
     	|struct notifier_block restart_nb
     	|int irq
     	|spinlock_t lock
@@ -301,6 +301,7 @@ digraph platform_bus{
     	|void __iomem *regs
 		}"];
 	}
+	"struct msm_pinctrl":chip->"struct gpio_chip"[color=red];
 	"struct msm_pinctrl":pctrl->"struct pinctrl_dev"[color=purple];
 	"struct msm_pinctrl":soc->"struct msm_pinctrl_soc_data"[color=blue];
 
