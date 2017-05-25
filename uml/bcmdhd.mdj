@@ -18772,8 +18772,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 0,
-											"top": 0,
+											"left": -32,
+											"top": 128,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -18796,9 +18796,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1535,
-											"width": 118,
+											"left": 3333,
+											"top": 1599,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -18821,8 +18821,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 0,
-											"top": 0,
+											"left": -32,
+											"top": 128,
 											"width": 72,
 											"height": 13,
 											"autoResize": false,
@@ -18846,8 +18846,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 0,
-											"top": 0,
+											"left": -32,
+											"top": 128,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -18865,9 +18865,9 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 3344,
-									"top": 1528,
-									"width": 128,
+									"left": 3328,
+									"top": 1592,
+									"width": 486,
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -18911,9 +18911,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1558,
-											"width": 118,
+											"left": 3333,
+											"top": 1622,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -18939,13 +18939,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1573,
-											"width": 118,
+											"left": 3333,
+											"top": 1637,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+bustype: uint",
+											"text": "+bustype: uint {Tag1=\"SI_BUS, PCI_BUS\n\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -18967,13 +18967,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1588,
-											"width": 118,
+											"left": 3333,
+											"top": 1652,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+buscoretype: uint",
+											"text": "+buscoretype: uint {Tag1=\"PCI_CORE_ID, PCIE_CORE_ID, PCMCIA_CORE_ID\n\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -18995,13 +18995,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1603,
-											"width": 118,
+											"left": 3333,
+											"top": 1667,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+buscorerev: uint",
+											"text": "+buscorerev: uint {Tag1=\"buscore rev\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19023,13 +19023,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1618,
-											"width": 118,
+											"left": 3333,
+											"top": 1682,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+buscoreidx: uint",
+											"text": "+buscoreidx: uint {Tag1=\"buscore index\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19051,13 +19051,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1633,
-											"width": 118,
+											"left": 3333,
+											"top": 1697,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+ccrev: int",
+											"text": "+ccrev: int {Tag1=\"chip common core rev\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19079,13 +19079,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1648,
-											"width": 118,
+											"left": 3333,
+											"top": 1712,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+cccaps: uint32",
+											"text": "+cccaps: uint32 {Tag1=\"chip common capabilities\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19107,13 +19107,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1663,
-											"width": 118,
+											"left": 3333,
+											"top": 1727,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+cccaps_ext: uint32",
+											"text": "+cccaps_ext: uint32 {Tag1=\"chip common capabilities extension\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19135,13 +19135,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1678,
-											"width": 118,
+											"left": 3333,
+											"top": 1742,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+pmurev: int",
+											"text": "+pmurev: int {Tag1=\"pmu core rev\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19163,13 +19163,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1693,
-											"width": 118,
+											"left": 3333,
+											"top": 1757,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+pmucaps: uint32",
+											"text": "+pmucaps: uint32 {Tag1=\"pmu capabilities\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19191,13 +19191,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1708,
-											"width": 118,
+											"left": 3333,
+											"top": 1772,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+boardtype: uint",
+											"text": "+boardtype: uint {Tag1=\"board type\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19219,9 +19219,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1723,
-											"width": 118,
+											"left": 3333,
+											"top": 1787,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19247,9 +19247,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1738,
-											"width": 118,
+											"left": 3333,
+											"top": 1802,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19275,9 +19275,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1753,
-											"width": 118,
+											"left": 3333,
+											"top": 1817,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19303,9 +19303,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1768,
-											"width": 118,
+											"left": 3333,
+											"top": 1832,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19331,13 +19331,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1783,
-											"width": 118,
+											"left": 3333,
+											"top": 1847,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+chip: uint",
+											"text": "+chip: uint {Tag1=\"chip number\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19359,9 +19359,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1798,
-											"width": 118,
+											"left": 3333,
+											"top": 1862,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19387,13 +19387,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1813,
-											"width": 118,
+											"left": 3333,
+											"top": 1877,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+chippkg: uint",
+											"text": "+chippkg: uint {Tag1=\"chip package option\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19415,9 +19415,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1828,
-											"width": 118,
+											"left": 3333,
+											"top": 1892,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19443,13 +19443,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1843,
-											"width": 118,
+											"left": 3333,
+											"top": 1907,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+issim: bool",
+											"text": "+issim: bool {Tag1=\"chip is in simulation or emulation\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19471,13 +19471,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1858,
-											"width": 118,
+											"left": 3333,
+											"top": 1922,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+socirev: uint",
+											"text": "+socirev: uint {Tag1=\"SOC interconnect rev\"}",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -19499,9 +19499,9 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 3349,
-											"top": 1873,
-											"width": 118,
+											"left": 3333,
+											"top": 1937,
+											"width": 476,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -19519,9 +19519,9 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 3344,
-									"top": 1553,
-									"width": 128,
+									"left": 3328,
+									"top": 1617,
+									"width": 486,
 									"height": 338,
 									"autoResize": false
 								},
@@ -19543,9 +19543,9 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 3344,
-									"top": 1891,
-									"width": 128,
+									"left": 3328,
+									"top": 1955,
+									"width": 486,
 									"height": 10,
 									"autoResize": false
 								},
@@ -19567,8 +19567,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 0,
-									"top": 0,
+									"left": -16,
+									"top": 64,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -19591,8 +19591,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 0,
-									"top": 0,
+									"left": -16,
+									"top": 64,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -19607,9 +19607,9 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
-							"left": 3344,
-							"top": 1528,
-							"width": 128,
+							"left": 3328,
+							"top": 1592,
+							"width": 486,
 							"height": 373,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
@@ -22434,6 +22434,419 @@
 							},
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAFcH0qCeB0/73o="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAFcPmFsUe/bS4c=",
+							"_parent": {
+								"$ref": "AAAAAAFbn0PQYuxTIG0="
+							},
+							"model": {
+								"$ref": "AAAAAAFcPmFsUO/X3OE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsUu/cZds=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/X3OE="
+									},
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#f40202",
+									"fillColor": "#ffffff",
+									"fontColor": "#f50303",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3509,
+									"top": 1381,
+									"width": 25,
+									"height": 13,
+									"autoResize": false,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 1,
+									"underline": false,
+									"text": "+sih",
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/dBlw=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/X3OE="
+									},
+									"visible": null,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3507,
+									"top": 1377,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 1,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/eIUo=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/X3OE="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3550,
+									"top": 1390,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 1,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/fTq0=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Yrnk="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3536,
+									"top": 1560,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 2,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/gTHM=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Yrnk="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3523,
+									"top": 1559,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 2,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/hsoQ=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Yrnk="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3564,
+									"top": 1562,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": -0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 2,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/iWG4=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Z/WA="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3537,
+									"top": 1324,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 0,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/j+6M=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Z/WA="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3524,
+									"top": 1322,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 0,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFcPmFsU+/kEEc=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Z/WA="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 3565,
+									"top": 1327,
+									"width": 0,
+									"height": 13,
+									"autoResize": false,
+									"alpha": 0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"edgePosition": 0,
+									"underline": false,
+									"horizontalAlignment": 2,
+									"verticalAlignment": 5
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAFcPmFsU+/l7Io=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Yrnk="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAFcPmFsVO/mVLE=",
+									"_parent": {
+										"$ref": "AAAAAAFcPmFsUe/bS4c="
+									},
+									"model": {
+										"$ref": "AAAAAAFcPmFsUO/Z/WA="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 0,
+									"top": 0,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								}
+							],
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFbqTk4RxN8+PY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFb904kUxTPVJw="
+							},
+							"lineStyle": 1,
+							"points": "3554:1591;3536:1392;3559:1309",
+							"stereotypeDisplay": "label",
+							"showVisibility": true,
+							"showProperty": true,
+							"nameLabel": {
+								"$ref": "AAAAAAFcPmFsUu/cZds="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAFcPmFsU+/dBlw="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAFcPmFsU+/eIUo="
+							},
+							"showMultiplicity": true,
+							"showType": true,
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAFcPmFsU+/fTq0="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAFcPmFsU+/gTHM="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAFcPmFsU+/hsoQ="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAFcPmFsU+/iWG4="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAFcPmFsU+/j+6M="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAFcPmFsU+/kEEc="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAFcPmFsU+/l7Io="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAFcPmFsVO/mVLE="
 							}
 						}
 					]
@@ -47195,6 +47608,54 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "struct si_pub",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFcPmFsUO/X3OE=",
+							"_parent": {
+								"$ref": "AAAAAAFb904kUBTN8P4="
+							},
+							"name": "sih",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFcPmFsUO/Yrnk=",
+								"_parent": {
+									"$ref": "AAAAAAFcPmFsUO/X3OE="
+								},
+								"reference": {
+									"$ref": "AAAAAAFb904kUBTN8P4="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFcPmFsUO/Z/WA=",
+								"_parent": {
+									"$ref": "AAAAAAFcPmFsUO/X3OE="
+								},
+								"reference": {
+									"$ref": "AAAAAAFbqTk4RBN6wP0="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "shared",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
 					"visibility": "public",
 					"attributes": [
 						{
@@ -47222,6 +47683,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "bustype",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl1OPsdUqQk=",
+									"_parent": {
+										"$ref": "AAAAAAFb906u2hpyQQ0="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "SI_BUS, PCI_BUS\n",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47240,6 +47715,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "buscoretype",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl2Tjcl04bw=",
+									"_parent": {
+										"$ref": "AAAAAAFb9076NR1KfoQ="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "PCI_CORE_ID, PCIE_CORE_ID, PCMCIA_CORE_ID\n",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47258,6 +47747,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "buscorerev",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl3cO8xtmeE=",
+									"_parent": {
+										"$ref": "AAAAAAFb9080TiAiR4s="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "buscore rev",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47276,6 +47779,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "buscoreidx",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl4Lzc6NBL0=",
+									"_parent": {
+										"$ref": "AAAAAAFb9097qSL6Wrk="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "buscore index",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47294,6 +47811,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "ccrev",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl5W1NCtp5c=",
+									"_parent": {
+										"$ref": "AAAAAAFb90+5fiXSpp4="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "chip common core rev",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47312,6 +47843,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "cccaps",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl6QNNLNbhA=",
+									"_parent": {
+										"$ref": "AAAAAAFb91AGnSiq51U="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "chip common capabilities",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47330,6 +47875,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "cccaps_ext",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl7NbNYx+58=",
+									"_parent": {
+										"$ref": "AAAAAAFb91BE/SuCHdc="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "chip common capabilities extension",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47348,6 +47907,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "pmurev",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl79xNhRucs=",
+									"_parent": {
+										"$ref": "AAAAAAFb91CBXC5a40g="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "pmu core rev",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47366,6 +47939,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "pmucaps",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl8qxNpxElo=",
+									"_parent": {
+										"$ref": "AAAAAAFb91C6jTEy9o8="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "pmu capabilities",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47384,6 +47971,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "boardtype",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl9batyRynQ=",
+									"_parent": {
+										"$ref": "AAAAAAFb91D6VDQKoxM="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "board type",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47474,6 +48075,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "chip",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPl/IDN9TB/c=",
+									"_parent": {
+										"$ref": "AAAAAAFb91ItVEJCPD8="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "chip number",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47510,6 +48125,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "chippkg",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPmAIZOJLRP8=",
+									"_parent": {
+										"$ref": "AAAAAAFb91KiQ0fyRpg="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "chip package option",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47546,6 +48175,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "issim",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPmBOHORrVKQ=",
+									"_parent": {
+										"$ref": "AAAAAAFb91MVVE2ipUw="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "chip is in simulation or emulation",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -47564,6 +48207,20 @@
 								"$ref": "AAAAAAFb904kUBTN8P4="
 							},
 							"name": "socirev",
+							"tags": [
+								{
+									"_type": "Tag",
+									"_id": "AAAAAAFcPmEnlOaLYj8=",
+									"_parent": {
+										"$ref": "AAAAAAFb91Ny/FB6qgM="
+									},
+									"name": "Tag1",
+									"kind": "string",
+									"value": "SOC interconnect rev",
+									"checked": false,
+									"number": 0
+								}
+							],
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
