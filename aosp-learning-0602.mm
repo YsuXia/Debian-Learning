@@ -1929,8 +1929,7 @@
       6.android&#31995;&#32479;&#20998;&#26512;&#24037;&#20855;,&#26085;&#24535;&#24037;&#20855;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1479707423903" FOLDED="true" ID="ID_1549739821" MODIFIED="1484720860428">
 <richcontent TYPE="NODE"><html>
@@ -2014,6 +2013,35 @@
     </p>
     <p>
       &#28982;&#24460;&#22312;&#19979;&#19968;&#20491;HW_VSYNC_0&#20358;&#30340;&#26178;&#20505;, &#39023;&#31034;&#22312;display&#19978;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1496221895678" ID="ID_127873495" MODIFIED="1496221898681" TEXT="adb shell">
+<node CREATED="1496221901919" ID="ID_261410774" MODIFIED="1496222380947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#d90e0e">1.&#22312;&#36830;&#25509;&#23637;&#35759;&#24179;&#21488;&#30340;&#24320;&#21457;&#26495;&#30340;&#26102;&#20505;&#26080;&#27861;&#36827;&#34892;&#36830;&#25509;</font>
+    </p>
+    <p>
+      &#37197;&#32622;&#20102; ~/.android/adb_usb.ini &#22686;&#21152;&#20102;&#23637;&#35759;&#30340;vendor id&#36827;&#21435;
+    </p>
+    <p>
+      &#22312;&#30446;&#24405;/etc/udev/rules.d&#19979;&#38754;&#22686;&#21152;&#20102;70-persistent-net.rules&#25991;&#20214;&#65292;
+    </p>
+    <p>
+      &#32593;&#19978;&#36164;&#26009;&#19978;&#38754;&#35828;&#65292;&#36816;&#34892;&#19979;&#38754;&#30340;&#21629;&#20196;&#21487;&#20197;&#33258;&#21160;&#29983;&#25104;70-persistent-net.ruies&#25991;&#20214;
+    </p>
+    <p>
+      sudo udevadm trigger --subsystem-match=net --action=add
+    </p>
+    <p>
+      udevadm trigger --help
     </p>
   </body>
 </html></richcontent>
@@ -2373,7 +2401,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1492954048303">
+<node CREATED="1492653017734" ID="ID_500027607" MODIFIED="1496194828919">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2455,6 +2483,111 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1496283080255" ID="ID_845987155" MODIFIED="1496283099972">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>camera api2&#30340;&#20195;&#30721;&#20301;&#32622;</b>
+    </p>
+    <p>
+      <span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; white-space: normal; font-style: normal; letter-spacing: normal; background-color: rgb(255, 255, 255); float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left" http-equiv="content-type" content="text/html; charset=utf-8"><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px">ICameraService.aidl:frameworks/base/core/java/android/hardware</font></span><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px"><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">CameraService.cpp:frameworks/av/services/camera/libcameraservice</span><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">CameraManager.java:frameworks/base/core/java/android/hardware/camera2</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1496283396140" ID="ID_1381189423" MODIFIED="1496283631290">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      java&#23618;&#22312;&#26412;&#22320;&#36890;&#36807;binder&#26426;&#21046;&#33719;&#21462;&#20102;&#19968;&#20010;cameraservice&#26381;&#21153;&#65292;
+    </p>
+    <p>
+      &#22312;cameraservice&#24403;&#20013;&#36890;&#36807;&#20195;&#29702;ICameraDeviceUser&#26469;&#23454;&#29616;&#65292;&#36890;&#36807;AIDL
+    </p>
+    <p>
+      &#23454;&#29616;&#19968;&#20010;ICameraDeviceUser&#25509;&#21475;&#65292;&#20174;&#32780;&#22312;java&#23618;&#36890;&#36807;camerauser&#20195;&#29702;&#36827;&#34892;&#36890;&#20449;
+    </p>
+    <p>
+      &#20195;&#30721;&#20301;&#32622;
+    </p>
+    <p>
+      <span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; white-space: normal; font-style: normal; letter-spacing: normal; background-color: rgb(255, 255, 255); float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left" http-equiv="content-type" content="text/html; charset=utf-8"><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px">ICameraDeviceUser.aidl:frameworks/base/core/java/android/hardware/camera2</font></span><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px"><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">ICameraDeviceUser.cpp:frameworks/av/camera/camera2</span><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">CameraDeviceImpl.java:frameworks/base/core/java/android/hardware/camera2/impl</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1496285737756" ID="ID_1102669095" MODIFIED="1496286751490">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#208456">framework&#23618;&#25171;&#24320;&#30456;&#26426;&#30340;&#27969;&#31243;:</font></b></i>
+    </p>
+    <p>
+      IBinder cameraServiceBinder = ServiceManager.getService(CAMERA_SERVICE_BINDER_NAME);
+    </p>
+    <p>
+      ICameraService cameraServiceRaw = ICameraService.Stub.asInterface(cameraServiceBinder);
+    </p>
+    <p>
+      ICameraService cameraService = CameraServiceBinderDecorator.newInstance(cameraServiceRaw);
+    </p>
+    <p>
+      mCameraService = cameraService;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      android.hardware.camera2.impl.CameraDeviceImpl deviceImpl =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;new android.hardware.camera2.impl.CameraDeviceImpl(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;callback,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;handler,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;characteristics);
+    </p>
+    <p>
+      BinderHolder holder = new BinderHolder()
+    </p>
+    <p>
+      ICameraDeviceCallbacks callbacks = deviceImpl.getCallbacks();
+    </p>
+    <p>
+      cameraService.connectDevice(callbacks, id,mContext.getOpPackageName(), USE_CALLING_UID, holder);
+    </p>
+    <p>
+      cameraUser = ICameraDeviceUser.Stub.asInterface(holder.getBinder());
+    </p>
+    <p>
+      deviceImpl.setRemoteDevice(cameraUser)
+    </p>
+    <p>
+      device = deviceImpl;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1492656434946" ID="ID_664487457" MODIFIED="1492657128099">
 <richcontent TYPE="NODE"><html>
