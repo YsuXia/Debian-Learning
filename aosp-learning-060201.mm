@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1433813407807" ID="ID_1562618889" MODIFIED="1492614471327" TEXT="&#x8001;&#x7f57;&#x5b89;&#x5353;&#x4e4b;&#x65c5;">
+<node CREATED="1433813407807" ID="ID_1562618889" MODIFIED="1496409680113" TEXT="&#x8001;&#x7f57;&#x5b89;&#x5353;&#x4e4b;&#x65c5;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#ff6666" CREATED="1433813443993" ID="ID_807162115" MODIFIED="1479707412944" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -2496,8 +2496,7 @@
       <span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; white-space: normal; font-style: normal; letter-spacing: normal; background-color: rgb(255, 255, 255); float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left" http-equiv="content-type" content="text/html; charset=utf-8"><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px">ICameraService.aidl:frameworks/base/core/java/android/hardware</font></span><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px"><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">CameraService.cpp:frameworks/av/services/camera/libcameraservice</span><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">CameraManager.java:frameworks/base/core/java/android/hardware/camera2</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1496283396140" ID="ID_1381189423" MODIFIED="1496283631290">
 <richcontent TYPE="NODE"><html>
@@ -2521,8 +2520,7 @@
       <span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; white-space: normal; font-style: normal; letter-spacing: normal; background-color: rgb(255, 255, 255); float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left" http-equiv="content-type" content="text/html; charset=utf-8"><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px">ICameraDeviceUser.aidl:frameworks/base/core/java/android/hardware/camera2</font></span><font face="microsoft yahei" color="rgb(0, 0, 0)" size="14px"><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">ICameraDeviceUser.cpp:frameworks/av/camera/camera2</span><span class="Apple-converted-space">&#160;</span><br align="left" style="text-indent: 0px; word-spacing: 0px; background-color: rgb(255, 255, 255); white-space: normal; letter-spacing: normal; text-transform: none" /><span style="display: inline !important; text-transform: none; word-spacing: 0px; font-size: 14px; font-family: microsoft yahei; font-style: normal; white-space: normal; background-color: rgb(255, 255, 255); letter-spacing: normal; float: none; text-indent: 0px; color: rgb(0, 0, 0); font-weight: normal; text-align: left">CameraDeviceImpl.java:frameworks/base/core/java/android/hardware/camera2/impl</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1496285737756" ID="ID_1102669095" MODIFIED="1496286751490">
 <richcontent TYPE="NODE"><html>
@@ -2585,8 +2583,7 @@
       device = deviceImpl;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1492656434946" ID="ID_664487457" MODIFIED="1492657128099">
@@ -2597,6 +2594,169 @@
   <body>
     <p>
       Android5.0&#21253;&#25324;&#21518;&#38754;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1496325792494" ID="ID_1061517957" MODIFIED="1496325803972" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1496325970164" ID="ID_173538414" MODIFIED="1496325976513" TEXT="mediaserver&#x8be6;&#x89e3;">
+<node CREATED="1496325982101" ID="ID_687050765" MODIFIED="1496327154695">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e81b1b">main&#20989;&#25968;&#25152;&#22312;&#25991;&#20214; </font>
+    </p>
+    <p>
+      <font color="#e81b1b">frameworks/av/media/mediaserver/main_mediaserver.cpp </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#20204;&#27880;&#24847;&#21040;&#22312;main&#20989;&#25968;&#24403;&#20013;&#65292;&#39318;&#20808;&#22768;&#26126;&#20102;ProcessState&#21464;&#37327;
+    </p>
+    <p>
+      sp&lt;ProcessState&gt; proc(ProcessState::self());
+    </p>
+    <p>
+      sp&lt;IServiceManager&gt; sm = defaultServiceManager();
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1496331415309" ID="ID_1250615424" MODIFIED="1496331472098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25105;&#20204;&#26469;&#30475;&#30475;defaultServiceManager&#20989;&#25968;&#30340;&#23454;&#29616;&#65292;&#35813;&#23454;&#29616;&#20301;&#20110;
+    </p>
+    <p>
+      IServiceManager.cpp&#24403;&#20013;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1496327176688" ID="ID_156865957" MODIFIED="1496327185363" TEXT="ProcessState&#x7c7b;&#x8be6;&#x89e3;">
+<node CREATED="1496327227205" ID="ID_51944443" MODIFIED="1496327265105">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#25105;&#20204;&#39318;&#20808;&#30475;&#21040;ProcessState&#31867;&#30340;self&#20989;&#25968;&#30340;&#30446;&#30340;&#23601;&#26159;&#29983;&#25104;&#19968;&#20010;ProcessState&#31867;
+    </p>
+    <p>
+      sp&lt;ProcessState&gt; ProcessState::self()
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Mutex::Autolock _l(gProcessMutex);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (gProcess != NULL) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return gProcess;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gProcess = new ProcessState;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return gProcess;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1496327269038" ID="ID_613730162" MODIFIED="1496327436565">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#25105;&#20204;&#20877;&#26469;&#30475;ProcessState&#31867;&#30340;&#26500;&#36896;&#20989;&#25968;</b>
+    </p>
+    <p>
+      ProcessState::ProcessState()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;: mDriverFD(open_driver())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;, mVMStart(MAP_FAILED)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;, mManagesContexts(false)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;, mBinderContextCheckFunc(NULL)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;, mBinderContextUserData(NULL)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;, mThreadPoolStarted(false)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;, mThreadPoolSeq(1)
+    </p>
+    <p>
+      {&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (mDriverFD &gt;= 0) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// mmap the binder, providing a chunk of virtual address space to receive transactions.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mVMStart = mmap(0, BINDER_VM_SIZE, PROT_READ, MAP_PRIVATE | MAP_NORESERVE, mDriverFD, 0);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (mVMStart == MAP_FAILED) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// *sigh*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALOGE(&quot;Using /dev/binder failed: unable to mmap transaction memory.\n&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;close(mDriverFD);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mDriverFD = -1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;}
+    </p>
+    <p>
+      }&#21487;&#20197;&#30475;&#21040;&#35813;&#26500;&#36896;&#20989;&#25968;&#35843;&#29992;&#20102;open_driver&#25171;&#24320;&#20102;&#24213;&#23618;&#30340;binder&#35774;&#22791;&#65292;&#24182;&#19988;&#20351;&#29992;mmap&#20989;&#25968;&#23558;binder&#35774;&#22791;&#30340;
+    </p>
+    <p>
+      &#25991;&#20214;&#31354;&#38388;&#26144;&#23556;&#21040;&#20102;&#20869;&#23384;&#31354;&#38388;mVMStart&#24403;&#20013;
     </p>
   </body>
 </html></richcontent>

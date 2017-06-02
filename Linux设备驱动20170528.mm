@@ -2162,8 +2162,7 @@
       <i><b><font color="#1a8a8c" size="3">10.</font><font size="3" face="Microsoft Yahei, Hei, Tahoma, SimHei, sans-serif" color="rgb(68, 68, 68)">&#22522;&#20110;pstore &#21644; ramoops&#23454;&#29616;&#22312;&#38750;&#26131;&#22833;&#24615;&#20869;&#23384;&#20013;&#20445;&#23384;panic&#26085;&#24535;</font></b>&#160; </i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1495612173668" ID="ID_1179732713" MODIFIED="1495612176675" TEXT="http://www.spinics.net/lists/linux-acpi/msg57973.html"/>
 </node>
 </node>
@@ -5250,7 +5249,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490175170640" FOLDED="true" ID="ID_200428281" MODIFIED="1493219512157" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
+<node CREATED="1490175170640" ID="ID_200428281" MODIFIED="1495806334054" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490175442996" ID="ID_1694769749" MODIFIED="1490176448827">
 <richcontent TYPE="NODE"><html>
@@ -9302,7 +9301,7 @@
 </node>
 <node CREATED="1475896151069" ID="ID_1362020755" MODIFIED="1494223894382" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1494223908918">
+<node CREATED="1475999878646" ID="ID_1055025927" MODIFIED="1495806369860">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9314,7 +9313,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1475999888353" FOLDED="true" ID="ID_803433592" MODIFIED="1490083923874" TEXT="suspend&#x8fc7;&#x7a0b;">
+<node CREATED="1475999888353" ID="ID_803433592" MODIFIED="1495806376962" TEXT="suspend&#x8fc7;&#x7a0b;">
 <node CREATED="1475999900201" ID="ID_1184571104" MODIFIED="1476064570971">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9719,6 +9718,25 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1495806429229" ID="ID_1465641167" MODIFIED="1495806563979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#d30b0b">&#22312;suspend&#36807;&#31243;&#24403;&#20013;&#20250;freeze&#29992;&#25143;&#36827;&#31243;&#21644;&#20869;&#26680;&#36827;&#31243;&#65292; </font></i>
+    </p>
+    <p>
+      <i><font color="#d30b0b">&#22914;&#26524;&#21457;&#29616;&#24403;&#21069;&#26159;&#21457;&#36215;suspend&#30340;&#36827;&#31243;&#65292;&#21017;freeze&#20250;&#36339;&#36807;&#35813;&#36827;&#31243;&#65292; </font></i>
+    </p>
+    <p>
+      <i><font color="#d30b0b">&#25152;&#20197;&#21457;&#36215;suspend&#30340;&#29992;&#25143;&#36827;&#31243;&#25110;&#32773;&#20869;&#26680;&#32447;&#31243;&#26159;&#19981;&#20250;&#34987;&#20923;&#32467;&#30340;</font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1483356480711" ID="ID_1655803082" MODIFIED="1483356506435">
 <richcontent TYPE="NODE"><html>
