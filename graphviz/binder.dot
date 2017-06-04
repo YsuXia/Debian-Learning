@@ -1,0 +1,51 @@
+digraph binder{
+	node[shape=record];
+	subgraph cluster_struct_binder_transaction_data{
+		label="struct binder_transaction_data";
+		"struct binder_transaction_data"[label=<
+			<table>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>__u32 handle</td>
+								<td>binder_uintptr_t ptr</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>binder_uintptr_t cookie</td>
+				</tr>
+				<tr>
+					<td>__u32 code</td>
+				</tr>
+				<tr>
+					<td>__u32 flags</td>
+				</tr>
+				<tr>
+					<td>pid_t sender_pid</td>
+				</tr>
+				<tr>
+					<td>uid_t sender_euid</td>
+				</tr>
+				<tr>
+					<td>binder_size_t data_size</td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>binder_uintptr_t buffer</td>
+							</tr>
+							<tr>
+								<td>binder_uintptr_t offsets</td>
+							</tr>
+						</table>
+					</td>
+					<td>_u8 buf[8]</td>
+				</tr>
+			</table>
+		>];
+	}
+}
