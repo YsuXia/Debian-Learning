@@ -2463,7 +2463,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492654584536" ID="ID_494604736" MODIFIED="1492656427453">
+<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1496650685362">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2597,6 +2597,55 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1496650692468" ID="ID_1529457093" MODIFIED="1496650700526" TEXT="camera api1">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1496650702938" ID="ID_1766165661" MODIFIED="1496652359648">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      base/core/java/android/hardware/Camera.java&#37324;&#38754;&#20250;
+    </p>
+    <p>
+      &#35843;&#29992;native&#20989;&#25968;&#65292;&#36827;&#34892;jni&#30340;&#35843;&#29992;&#21040;&#20301;&#20110;&#25991;&#20214;
+    </p>
+    <p>
+      frameworks/base/core/jni/android_hardware_Camera.cpp&#37324;&#38754;
+    </p>
+    <p>
+      &#23450;&#20041;&#30340;&#26412;&#22320;&#20989;&#25968;&#24403;&#20013;&#12290;
+    </p>
+    <p>
+      &#22312;android_hardware_Camera_native_setup&#24403;&#20013;&#36890;&#36807;&#35843;&#29992;sp&lt;Camera&gt; camera = Camera::connect
+    </p>
+    <p>
+      &#36319;CameraService&#36890;&#36807;binder&#24314;&#31435;&#20102;&#20114;&#30456;&#30340;&#23458;&#25143;&#20195;&#29702;&#35775;&#38382;&#26426;&#21046;&#65292;&#25105;&#20204;&#20174;&#32780;&#21487;&#20197;&#35775;&#38382;
+    </p>
+    <p>
+      cameraservice&#37324;&#38754;&#23450;&#20041;&#30340;startPreview&#21644;autoFocus&#31561;&#20989;&#25968;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      frameworks/av/services/camera/libcameraservice/api1/CameraClient.cpp&#24403;&#20013;&#30340;initialize&#20250;&#30452;&#25509;&#36319;
+    </p>
+    <p>
+      CameraHardwareInterface&#36827;&#34892;&#20132;&#27969;&#65292;&#20877;&#30452;&#25509;&#36319;hal&#23618;&#36827;&#34892;&#20132;&#27969;
+    </p>
+    <p>
+      frameworks/av/services/camera/libcameraservice/device1/CameraHardwareInterface.h
+    </p>
+    <p>
+      &#30452;&#25509;&#36319;hal&#23618;&#36827;&#34892;&#36890;&#20449;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
