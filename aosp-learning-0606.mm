@@ -2643,9 +2643,19 @@
       &#30452;&#25509;&#36319;hal&#23618;&#36827;&#34892;&#36890;&#20449;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1496707116451" ID="ID_139126017" MODIFIED="1496707128567">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/android-camera-framework.png" />
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 </node>
