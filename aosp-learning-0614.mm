@@ -2339,6 +2339,74 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1497439750076" ID="ID_636173960" MODIFIED="1497439767016" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1497439770180" ID="ID_1800164131" MODIFIED="1497440838823">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ION&#23450;&#20041;&#20102;&#22235;&#31181;&#19981;&#21516;&#30340;heap,&#23454;&#29616;&#19981;&#21516;&#30340;&#20869;&#23384;&#20998;&#37197;&#31574;&#30053;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1497440844738" ID="ID_1999533562" MODIFIED="1497440851091">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ION_HEAP_TYPE_SYSTEM : &#36890;&#36807;vmalloc&#20998;&#37197;&#20869;&#23384;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1497440871707" ID="ID_1294028365" MODIFIED="1497440879442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ION_HEAP_TYPE_SYSTEM_CONTIG: &#36890;&#36807;kmalloc&#20998;&#37197;&#20869;&#23384;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1497440906201" ID="ID_1113501747" MODIFIED="1497440915594">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ION_HEAP_TYPE_CARVEOUT: &#22312;&#20445;&#30041;&#20869;&#23384;&#22359;&#20013;&#65288;reserve memory&#20998;&#37197;&#20869;&#23384;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1497440917913" ID="ID_1981588105" MODIFIED="1497440945274">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ION_HEAP_TYPE_CUSTOM: &#30001;&#23458;&#25143;&#33258;&#24049;&#23450;&#20041;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1492614455924" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2654,9 +2722,19 @@
   <body>
     <img src="camera/android-camera-framework.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1497428548995" ID="ID_831054097" MODIFIED="1497428591873">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/exif&#x5f53;&#x4e2d;&#x4fdd;&#x5b58;&#x7684;&#x56fe;&#x7247;&#x65cb;&#x8f6c;&#x6807;&#x5fd7;.png" />
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 <node CREATED="1496325792494" ID="ID_1061517957" MODIFIED="1496325803972" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
@@ -2820,6 +2898,17 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1497404600624" ID="ID_1154712373" MODIFIED="1497404608831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/android-binder.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
