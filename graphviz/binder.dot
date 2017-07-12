@@ -48,4 +48,46 @@ digraph binder{
 			</table>
 		>];
 	}
+
+	subgraph cluster_struct_binder_state{
+		label="struct binder_state";
+		"struct binder_state"[label="{
+		 int fd;
+    	|void *mapped;
+    	|size_t mapsize;
+		}"];
+	}
+
+	subgraph cluster_struct_binder_io{
+		label="struct binder_io";
+		bgcolor="pink";
+		"struct binder_io"[label="{
+		char *data
+    	|binder_size_t *offs
+    	|size_t data_avail
+    	|size_t offs_avail
+    	|char *data0;
+    	|binder_size_t *offs0;
+    	|uint32_t flags;
+    	|uint32_t unused;
+	}"];
+	}
+
+	subgraph cluster_struct_svcinfo{
+		label="struct svcinfo";
+		"struct svcinfo"[label="{
+		struct svcinfo *next;
+    |uint32_t handle;
+    |struct binder_death death;
+    |int allow_isolated;
+    |size_t len;
+    |uint16_t name[0];
+	}"];
+	}
+
+	
+
+
 }
+
+
