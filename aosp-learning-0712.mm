@@ -287,7 +287,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff3399" CREATED="1434595137079" FOLDED="true" ID="ID_952755098" MODIFIED="1479707415167" POSITION="right" TEXT="3.android&#x786c;&#x4ef6;&#x62bd;&#x8c61;&#x5c42;&#x7684;&#x7f16;&#x5199;">
+<node COLOR="#ff3399" CREATED="1434595137079" FOLDED="true" ID="ID_952755098" MODIFIED="1499740318304" POSITION="right" TEXT="3.android&#x786c;&#x4ef6;&#x62bd;&#x8c61;&#x5c42;&#x7684;&#x7f16;&#x5199;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1434595402842" ID="ID_11414605" MODIFIED="1435563673556" TEXT="1.&#x5728;&#x5185;&#x6838;&#x6e90;&#x4ee3;&#x7801;&#x5f53;&#x4e2d;&#x6dfb;&#x52a0;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;">
 <node CREATED="1434595511258" ID="ID_402416564" MODIFIED="1434595693868">
@@ -1867,7 +1867,7 @@
 </node>
 <node CREATED="1476935359890" ID="ID_505596854" MODIFIED="1491040718791" POSITION="right" TEXT="5.android&#x7684;&#x5c0f;&#x77e5;&#x8bc6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1476935377161" FOLDED="true" ID="ID_1113704051" MODIFIED="1477053052453">
+<node CREATED="1476935377161" FOLDED="true" ID="ID_1113704051" MODIFIED="1499740313049">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2351,8 +2351,7 @@
       <b>ION&#23450;&#20041;&#20102;&#22235;&#31181;&#19981;&#21516;&#30340;heap,&#23454;&#29616;&#19981;&#21516;&#30340;&#20869;&#23384;&#20998;&#37197;&#31574;&#30053;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1497440844738" ID="ID_1999533562" MODIFIED="1497440851091">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2363,8 +2362,7 @@
       ION_HEAP_TYPE_SYSTEM : &#36890;&#36807;vmalloc&#20998;&#37197;&#20869;&#23384;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497440871707" ID="ID_1294028365" MODIFIED="1497440879442">
 <richcontent TYPE="NODE"><html>
@@ -2376,8 +2374,7 @@
       ION_HEAP_TYPE_SYSTEM_CONTIG: &#36890;&#36807;kmalloc&#20998;&#37197;&#20869;&#23384;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497440906201" ID="ID_1113501747" MODIFIED="1497440915594">
 <richcontent TYPE="NODE"><html>
@@ -2389,8 +2386,7 @@
       ION_HEAP_TYPE_CARVEOUT: &#22312;&#20445;&#30041;&#20869;&#23384;&#22359;&#20013;&#65288;reserve memory&#20998;&#37197;&#20869;&#23384;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1497440917913" ID="ID_1981588105" MODIFIED="1497440945274">
 <richcontent TYPE="NODE"><html>
@@ -2402,9 +2398,33 @@
       ION_HEAP_TYPE_CUSTOM: &#30001;&#23458;&#25143;&#33258;&#24049;&#23450;&#20041;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1498117154864" ID="ID_1166414303" MODIFIED="1498117293582">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Heap: &#29992;&#26469;&#34920;&#31034;&#20869;&#23384;&#20998;&#37197;&#30340;&#30456;&#20851;&#20449;&#24687;&#65292;&#21253;&#25324;id, type, name&#31561;&#12290;&#29992;struct ion_heap&#34920;&#31034;
+    </p>
+    <p>
+      Client: Ion&#30340;&#20351;&#29992;&#32773;&#65292;&#29992;&#25143;&#31354;&#38388;&#21644;&#20869;&#26680;&#25511;&#20214;&#35201;&#20351;&#29992;ION&#30340;buffer,&#24517;&#39035;&#20808;&#21019;&#24314;&#19968;&#20010;client,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#19968;&#20010;client&#21487;&#20197;&#26377;&#22810;&#20010;buffer&#65292;&#29992;struct ion_buffer&#34920;&#31034;
+    </p>
+    <p>
+      Handle: &#23558;buffer&#35813;&#25277;&#35937;&#20986;&#26469;&#65292;&#21487;&#20197;&#35748;&#20026;ION&#29992;handle&#26469;&#31649;&#29702;buffe
+    </p>
+    <p>
+      &#29992;struct ion_handle&#34920;&#31034;
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
 </node>
 </node>
 <node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1492614455924" POSITION="left">
@@ -2531,7 +2551,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1496650685362">
+<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1498033845572">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2733,8 +2753,7 @@
   <body>
     <img src="camera/exif&#x5f53;&#x4e2d;&#x4fdd;&#x5b58;&#x7684;&#x56fe;&#x7247;&#x65cb;&#x8f6c;&#x6807;&#x5fd7;.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1496325792494" ID="ID_1061517957" MODIFIED="1496325803972" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
@@ -2907,8 +2926,7 @@
   <body>
     <img src="camera/android-binder.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

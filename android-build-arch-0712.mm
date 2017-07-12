@@ -1,7 +1,29 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1434418999667" ID="ID_932276210" MODIFIED="1434419023220" TEXT="android &#x7f16;&#x8bd1;&#x6846;&#x67b6;">
-<node CREATED="1434419078201" ID="ID_338187251" MODIFIED="1434628981043" POSITION="right" TEXT="build/envsetup.sh">
+<node CREATED="1434418999667" ID="ID_932276210" MODIFIED="1498571567373">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0e7457" face="Purisa" size="4"><b>android &#32534;&#35793;&#26694;&#26550;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1434419078201" ID="ID_338187251" MODIFIED="1498571502156" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#31532;&#19968;&#31456;&#12288;build/envsetup.sh</b>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1434419158635" ID="ID_1415907625" MODIFIED="1436411874647">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1676,6 +1698,79 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1498571449155" ID="ID_807044949" MODIFIED="1498571596462" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>&#31532;&#20108;&#31456;&#12288;gcc&#23398;&#20064;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1498571610709" ID="ID_1186653952" MODIFIED="1498572058467">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ad0808"><b>&#23454;&#38469;&#32534;&#35793;&#24037;&#31243;&#24403;&#20013;&#36935;&#21040;&#30340;&#38382;&#39064;&#24635;&#32467;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1498571672190" ID="ID_1391154612" MODIFIED="1498572037175">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#d51111"><i>1.undefined reference to `__stack_chk_guard'</i></font>
+    </p>
+    <p>
+      &#36825;&#24212;&#35813;&#26159;&#19968;&#20010;stack overflow&#26816;&#26597;&#30340;&#19968;&#31181;&#26426;&#21046;&#25152;&#25253;&#20986;&#26469;&#30340;&#38169;&#35823;&#65292;
+    </p>
+    <p>
+      &#35813;&#26426;&#21046;&#22312;gcc 4.1&#24403;&#20013;&#23601;&#34987;&#24341;&#20837;&#20102;&#12290;&#36825;&#31181;&#26426;&#21046;&#34987;&#31216;&#20026;GccSsp.
+    </p>
+    <p>
+      &#38024;&#23545;&#35813;&#38169;&#35823;&#30340;&#35299;&#20915;&#26041;&#27861;&#65292;&#30446;&#21069;&#26159;&#22312;cflags&#24403;&#20013;&#31105;&#29992;&#35813;&#26426;&#21046;&#65292;&#21363;
+    </p>
+    <p>
+      &#21152;&#20837;-fno-stack-protector &#25110;&#32773;&#26159;-nostdlib in CPPFLAGS&#12290;
+    </p>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;:
+    </p>
+    <p>
+      https://wiki.ubuntu.com/ToolChain/CompilerFlags
+    </p>
+    <p>
+      https://wiki.ubuntu.com/GccSsp
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1498571640341" ID="ID_147279557" MODIFIED="1498572121113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#a61414"><b>&#32534;&#35793;&#22120;&#30340;&#29702;&#35770;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
