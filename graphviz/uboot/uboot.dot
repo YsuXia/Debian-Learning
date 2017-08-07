@@ -1,0 +1,109 @@
+digraph uboot{
+	node[shape=record];
+	subgraph cluster_struct_global_data{
+		label="struct global_data";
+		"struct global_data"[label="{
+		bd_t *bd
+    	|unsigned long flags
+    	|unsigned int baudrate
+    	|unsigned long cpu_clk*****CPU clock in Hz
+    	|unsigned long bus_clk
+		|unsigned long pci_clk;
+    	|unsigned long mem_clk;
+		|\#if defined(CONFIG_LCD) \|\| defined(CONFIG_VIDEO)
+    	\nunsigned long fb_base\n*******Base address of framebuffer mem****
+		\n\#endif
+		|\#if defined(CONFIG_POST) \|\| defined(CONFIG_LOGBUFFER)
+    	\nunsigned long post_log_word\n*****Record POST activities***
+    	\nunsigned long post_log_res\n****success of POST test****
+    	\nunsigned long post_init_f_time\n*****When post_init_f started****
+		\n\#endif
+
+
+		}"];
+	}
+
+	subgraph cluster_struct_bd_info{
+		label="struct bd_info";
+		"struct bd_info"[label="{
+		unsigned long   bi_memstart\n*****start of DRAM memory****
+    	|phys_size_t bi_memsize\n*******size  of DRAM memory in bytes*****
+    	|unsigned long   bi_flashstart\n******start of FLASH memory*****
+    	|unsigned long   bi_flashsize\n******size  of FLASH memory*****
+    	|unsigned long   bi_flashoffset\n*****reserved area for startup monitor*****
+    	|unsigned long   bi_sramstart\n****start of SRAM memory****
+    	|unsigned long   bi_sramsize\n****size  of SRAM memory*****
+		|\#ifdef CONFIG_AVR32
+    	\nunsigned char   bi_phy_id\[4\]\n*****PHY address for ATAG_ETHERNET***
+    	\nunsigned long   bi_board_number\n****ATAG_BOARDINFO****
+		\n\#endif
+		|\#ifdef CONFIG_ARM
+    	\nunsigned long   bi_arm_freq\n*****arm frequency****
+    	\nunsigned long   bi_dsp_freq\n****dsp core frequency****
+    	\nunsigned long   bi_ddr_freq\n****ddr frequency****
+		\n\#endif
+		|\#if defined(CONFIG_5xx) \|\| defined(CONFIG_8xx) \|\| defined(CONFIG_MPC8260)\n
+    	\|\| defined(CONFIG_E500) \|\| defined(CONFIG_MPC86xx)\n
+    	unsigned long   bi_immr_base\n*****base of IMMR register****
+		\n\#endif
+		|\#if defined(CONFIG_MPC5xxx) \|\| defined(CONFIG_M68K)
+    	\nunsigned long   bi_mbar_base\n******base of internal registers****
+		\n\#endif
+		|\#if defined(CONFIG_MPC83xx)
+    	\nunsigned long   bi_immrbar;
+		\n\#endif
+		|unsigned long   bi_bootflags\n*****boot\/reboot flag (Unused)****
+    	|unsigned long   bi_ip_addr\n****IP Address****
+    	|unsigned char   bi_enetaddr\[6\]\n*****OLD: see README.enetaddr***
+    	|unsigned short  bi_ethspeed\n****Ethernet speed in Mbps****
+    	|unsigned long   bi_intfreq\n****Internal Freq, in MHz****
+    	|unsigned long   bi_busfreq\n****Bus Freq, in MHz*****
+		|\#if defined(CONFIG_CPM2)
+    	\nunsigned long   bi_cpmfreq\n*****CPM_CLK Freq, in MHz****
+    	\nunsigned long   bi_brgfreq\n****BRG_CLK Freq, in MHz****
+    	\nunsigned long   bi_sccfreq\n*****SCC_CLK Freq, in MHz****
+    	\nunsigned long   bi_vco\n*****VCO Out from PLL, in MHz****
+		\n\#endif
+		|\#if defined(CONFIG_MPC512X)
+    	\nunsigned long   bi_ipsfreq\n*****IPS Bus Freq, in MHz****
+		\n\#endif
+		|\#if defined(CONFIG_MPC5xxx) \|\| defined(CONFIG_M68K)
+    	\nunsigned long   bi_ipbfreq\n*****IPB Bus Freq, in MHz****
+    	\nunsigned long   bi_pcifreq\n*****PCI Bus Freq, in MHz****
+		|\#endif
+		|\#if defined(CONFIG_EXTRA_CLOCK)
+    	\nunsigned long bi_inpfreq\n*****input Freq in MHz****
+    	\nunsigned long bi_vcofreq\n*****vco Freq in MHz****
+    	\nunsigned long bi_flbfreq\n******Flexbus Freq in MHz*****
+		\n\#endif
+		|\#if defined(CONFIG_405) \|\| defined(CONFIG_405GP) \|\|\n
+        defined(CONFIG_405EP) \|\| defined(CONFIG_405EZ) \|\|\n
+        defined(CONFIG_405EX) \|\| defined(CONFIG_440)
+    	\nunsigned char   bi_s_version\[4\]\n******Version of this structure****
+    	\nunsigned char   bi_r_version\[32\]\n*****Version of the ROM (AMCC)****
+    	\nunsigned int    bi_procfreq\n******CPU (Internal) Freq, in Hz****
+    	\nunsigned int    bi_plb_busfreq\n******PLB Bus speed, in Hz****
+    	\nunsigned int    bi_pci_busfreq\n******PCI Bus speed, in Hz****
+    	\nunsigned char   bi_pci_enetaddr\[6\]\n*****PCI Ethernet MAC address*****
+		\n\#endif
+		|......
+	}"];
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
