@@ -13576,19 +13576,26 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1495432510528" POSITION="right" TEXT="Device Tree">
+<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1502267172790" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1490607378546">
+<node CREATED="1477562014348" ID="ID_737257459" MODIFIED="1502270508589">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#e50a0a"><b><i>Device Tree&#20195;&#30721;&#21551;&#21160;&#20998;&#26512;</i></b></font>
+      <font color="#e50a0a"><b><i>Device Tree&#20195;&#30721;&#21551;&#21160;&#20998;&#26512; </i></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#110e15">https://0xax.gitbooks.io/linux-insides/content/Initialization/linux-initialization-4.html</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1477562530567" ID="ID_1185698741" MODIFIED="1477562878961">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13607,7 +13614,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1477562929718" ID="ID_1744590774" MODIFIED="1486555598926">
+<node CREATED="1477562929718" ID="ID_1744590774" MODIFIED="1502271600067">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13617,13 +13624,20 @@
       <b>2.void __init setup_arch(char **cmdline_p)&#20989;&#25968;&#20998;&#26512;</b>
     </p>
     <p>
-      &#35813;&#20989;&#25968;&#26159;device tree&#21021;&#22987;&#21270;&#20195;&#30721;&#30340;&#24635;&#30340;
+      &#35813;&#20989;&#25968;&#26159;device tree&#21021;&#22987;&#21270;&#20195;&#30721;&#30340;&#24635;&#30340;&#20837;&#21475;&#20989;&#25968;
     </p>
     <p>
-      &#20837;&#21475;&#20989;&#25968;
+      &#29992;__init&#20462;&#39280;&#30340;&#20989;&#25968;&#34920;&#26126;&#26159;&#22312;kernel&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#34987;&#35843;&#29992;&#65292;&#24403;&#21021;&#22987;&#21270;
+    </p>
+    <p>
+      &#23436;&#25104;&#20043;&#21518;&#20869;&#26680;&#20250;&#37322;&#25918;&#25481;&#35813;&#37096;&#20998;&#30340;&#20195;&#30721;&#31354;&#38388;
+    </p>
+    <p>
+      #define __init&#160;&#160;&#160;&#160;&#160;&#160;__section(.init.text) __cold notrace
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1477566851078" ID="ID_788490843" MODIFIED="1490085743092">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14036,7 +14050,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1495432508800">
+<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1502267181105">
 <richcontent TYPE="NODE"><html>
   <head>
     
