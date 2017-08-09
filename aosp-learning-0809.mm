@@ -1477,10 +1477,215 @@
 </node>
 </node>
 </node>
-<node CREATED="1435564212116" ID="ID_1802347718" MODIFIED="1492005301485" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
+<node CREATED="1435564212116" ID="ID_1802347718" MODIFIED="1502183795081" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1435564224130" ID="ID_1217317356" MODIFIED="1435564228566" TEXT="git&#x5b66;&#x4e60;"/>
-<node CREATED="1435564231787" ID="ID_371090293" MODIFIED="1477451447242" TEXT="&#x7b80;&#x5355;&#x7684;diff&#x548c;patch">
+<node CREATED="1435564224130" ID="ID_1217317356" MODIFIED="1502184439258" TEXT="git&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1502183812413" ID="ID_568706704" MODIFIED="1502183890728">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>remotes/origin/HEAD&#21644;remotes/origin/master&#21644;origin/master&#20043;&#38388;&#30340;&#21306;&#21035;</i></b>
+    </p>
+    <p>
+      Take a clone of a remote repository and run git
+    </p>
+    <p>
+      &#160;branch -a (to show all the branches git knows about). It will probably look something like this:
+    </p>
+    <p>
+      * master
+    </p>
+    <p>
+      &#160;&#160;remotes/origin/HEAD -&gt; origin/master
+    </p>
+    <p>
+      &#160;&#160;remotes/origin/master
+    </p>
+    <p>
+      Here, master is a branch in the local repository.
+    </p>
+    <p>
+      remotes/origin/master is a branch named master on the remote named origin.
+    </p>
+    <p>
+      You can refer to this as either origin/master, as in:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff origin/master..master
+    </p>
+    <p>
+      You can also refer to it as remotes/origin/master:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff remotes/origin/master..master
+    </p>
+    <p>
+      These are just two different ways of referring to the same thing (incidentally, both of these commands mean
+    </p>
+    <p>
+      &quot;show me the changes between the remote master branch and my master branch).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      remotes/origin/HEAD is the default
+    </p>
+    <p>
+      &#160;branch for the remote named origin. This lets you simply say origin instead of origin/master.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1502184426298" ID="ID_1510917630" MODIFIED="1502184435338" TEXT="Gir Pro&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1502184443554" ID="ID_778677540" MODIFIED="1502184475851">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ea0909"><b><i>&#31532;&#19977;&#31456; Git Branch</i></b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1502184485921" ID="ID_831825345" MODIFIED="1502184500539">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Remote Branches
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1502184522753" ID="ID_580472649" MODIFIED="1502189924349">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#1b53f3"><b>Push&#25805;&#20316;</b></font>
+    </p>
+    <p>
+      git push (remote) (branch)
+    </p>
+    <p>
+      &#20363;&#22914;&#65306;
+    </p>
+    <p>
+      git push origin serverfix
+    </p>
+    <p>
+      &#36825;&#23454;&#38469;&#19978;&#26159;&#19968;&#31181;&#31616;&#20889;&#65292;git&#20250;&#23558;&#20854;&#25193;&#20805;&#25104;&#22914;&#19979;:
+    </p>
+    <p>
+      git push origin refs/heads/serverfix:refs/heads/serverfix
+    </p>
+    <p>
+      &#24847;&#24605;&#23601;&#26159;&#35828;&#33719;&#21462;&#26412;&#22320;&#30340;serverfix&#20998;&#25903;&#65292;&#24182;&#23558;&#20854;&#25512;&#36865;&#26356;&#26032;&#21040;&#36828;&#31471;&#30340;serverfix&#20998;&#25903;&#19978;
+    </p>
+    <p>
+      git push origin serverfix:serverfix&#36319;&#19978;&#38754;&#30340;&#24847;&#24605;&#26159;&#19968;&#26679;&#30340;
+    </p>
+    <p>
+      &#22312;&#21478;&#19968;&#21488;&#26381;&#21153;&#22120;&#19978;&#65292;&#36816;&#34892;
+    </p>
+    <p>
+      git checkout -b serverfix origin/serverfix
+    </p>
+    <p>
+      &#23601;&#21487;&#20197;&#22312;&#26412;&#22320;&#36319;&#36394;&#36828;&#31243;&#30340;&#20998;&#25903;&#20102;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push &lt;remotename&gt; &lt;commit SHA&gt;:refs/heads/&lt;remotebranchname&gt;</b>
+    </p>
+    <p>
+      <font color="#e70c0c">push&#19968;&#20010;&#29305;&#23450;&#30340;&#25552;&#20132;&#21040;&#36828;&#31243;&#20998;&#25903;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1502185489903" ID="ID_26690415" MODIFIED="1502189881557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#1a5cf5"><b>Tracking Branches</b></font>
+    </p>
+    <p>
+      <font color="#f61111">git checkout --track origin/serverfix</font>
+    </p>
+    <p>
+      &#22312;&#26412;&#22320;&#24314;&#31435;&#19968;&#20010;&#36319;&#36394;&#36828;&#31243;&#20998;&#25903;serverfix&#30340;&#20998;&#25903;&#65292;&#21517;&#31216;
+    </p>
+    <p>
+      &#36319;&#36828;&#31471;&#30340;&#20998;&#25903;serverfix&#26159;&#19968;&#26679;&#30340;
+    </p>
+    <p>
+      <font color="#ad0808">git checkout -b sf origin/serverfix</font>
+    </p>
+    <p>
+      &#22312;&#26412;&#22320;&#24314;&#31435;&#19968;&#20010;&#36319;&#36394;&#36828;&#31471;&#20998;&#25903;serverfix&#30340;&#20998;&#25903;&#65292;
+    </p>
+    <p>
+      &#21517;&#31216;&#21483;&#20570;sf
+    </p>
+    <p>
+      <b>&#22914;&#26524;&#24819;&#26356;&#25913;&#26412;&#22320;&#20998;&#25903;&#25152;&#36861;&#36394;&#30340;&#36828;&#31471;&#20998;&#25903;&#65292;&#21487;&#20197;&#20351;&#29992;&#22914;&#19979;&#30340;&#21629;&#20196; </b>
+    </p>
+    <p>
+      <b>git branch -u origin/serverfix </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#dc0f0f">git branch -vv </font>
+    </p>
+    <p>
+      <font color="#dc0f0f">&#35813;&#21629;&#20196;&#21487;&#20197;&#21015;&#20986;&#26412;&#22320;&#30340;&#20998;&#25903;&#25152;&#36861;&#36394;&#30340;&#36828;&#31471;&#20998;&#25903; </font>
+    </p>
+    <p>
+      <font color="#dc0f0f">&#27880;&#24847;&#24403;&#21069;&#21015;&#20986;&#30340;&#36319;&#36828;&#31471;&#20998;&#25903;&#30340;&#20851;&#31995;&#21482;&#26159;&#32531;&#23384;&#22312;&#26412;&#22320;&#30340;&#24773;&#20917;&#65292;&#22914;&#26524;&#20320;&#24819;&#30830;&#20999;&#22320;&#30693;&#36947;&#36319;&#36828;&#31471;&#26381;&#21153;&#22120; </font>
+    </p>
+    <p>
+      <font color="#dc0f0f">&#30340;&#20851;&#31995;&#65292;&#24212;&#35813;&#25191;&#34892;&#22914;&#19979;&#30340;&#21629;&#20196; </font>
+    </p>
+    <p>
+      <font color="#10191c"><b>git fetch --all; git branch -vv</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1435564231787" FOLDED="true" ID="ID_371090293" MODIFIED="1502183803268" TEXT="&#x7b80;&#x5355;&#x7684;diff&#x548c;patch">
 <node CREATED="1435564248218" FOLDED="true" ID="ID_1482464879" MODIFIED="1476935130640">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1610,7 +1815,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492005320793" ID="ID_19007191" MODIFIED="1492005380700">
+<node CREATED="1492005320793" FOLDED="true" ID="ID_19007191" MODIFIED="1502183801525">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1919,7 +2124,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479707368505" ID="ID_6989081" MODIFIED="1495610852620" POSITION="left">
+<node CREATED="1479707368505" FOLDED="true" ID="ID_6989081" MODIFIED="1502162402320" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2222,7 +2427,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484377644917" ID="ID_1430971308" MODIFIED="1484551674331" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
+<node CREATED="1484377644917" FOLDED="true" ID="ID_1430971308" MODIFIED="1502162401064" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1484377660789" HGAP="6" ID="ID_1943217630" MODIFIED="1491046273718" VSHIFT="-117">
 <richcontent TYPE="NODE"><html>
@@ -2423,11 +2628,10 @@
       &#29992;struct ion_handle&#34920;&#31034;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1492614455924" POSITION="left">
+<node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1502168603563" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2756,7 +2960,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1496325792494" ID="ID_1061517957" MODIFIED="1496325803972" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
+<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1502162399425" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1496325970164" ID="ID_173538414" MODIFIED="1496325976513" TEXT="mediaserver&#x8be6;&#x89e3;">
 <node CREATED="1496325982101" ID="ID_687050765" MODIFIED="1496327154695">
@@ -2927,6 +3131,53 @@
     <img src="camera/android-binder.png" />
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1502162415873" ID="ID_1595158135" MODIFIED="1502162440090" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>Android Media&#26694;&#26550;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1502162443745" ID="ID_155688899" MODIFIED="1502168598161">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://source.android.com/devices/media/
+    </p>
+    <p>
+      Stagefright &#19968;&#20010;native&#23618;&#38754;&#30340;&#23186;&#20307;&#25773;&#25918;&#24341;&#25806;&#65292;&#20869;&#23884;&#26377;&#36719;&#20214;&#35299;&#30721;&#22120;&#65292;
+    </p>
+    <p>
+      &#21487;&#20197;&#25773;&#25918;&#24403;&#21069;&#27969;&#34892;&#30340;&#23186;&#20307;&#26684;&#24335;&#12290;
+    </p>
+    <p>
+      Stagefright audio and video playback features&#21253;&#25324;&#36319;OpenMAX code
+    </p>
+    <p>
+      &#30340;&#34701;&#21512;&#65292;session&#31649;&#29702;&#65292;&#26102;&#38388;&#21516;&#27493;&#28210;&#26579;&#65292;&#20256;&#36755;&#25511;&#21046;&#21644;DRM&#12290;
+    </p>
+    <p>
+      Stagefright&#20063;&#25903;&#25345;&#36319;&#23458;&#25143;&#25552;&#20379;&#30340;&#30828;&#20214;codec&#36827;&#34892;&#34701;&#21512;&#65292;&#20026;&#20102;&#35774;&#32622;&#19968;&#20010;&#30828;&#20214;&#30340;&#36890;&#36335;
+    </p>
+    <p>
+      &#21435;&#32534;&#30721;&#21644;&#35299;&#30721;&#23186;&#20307;&#25991;&#20214;&#65292;&#20320;&#24517;&#39035;&#23454;&#29616;&#19968;&#20010;&#22522;&#20110;&#30828;&#20214;&#30340;codec&#65292;&#20316;&#20026;OpenMax IL (Integration Layer)
+    </p>
+    <p>
+      &#30340;&#19968;&#20010;&#32452;&#20214;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
