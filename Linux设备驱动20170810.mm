@@ -93,9 +93,9 @@
 <node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x7cfb;&#x7edf;&#x4e2d;&#x7684;&#x5b89;&#x5168;&#x95ee;&#x9898;&#x662f;&#x7531;&#x5185;&#x6838;&#x5f3a;&#x5236;&#x52a0;&#x4e0a;&#x53bb;&#x7684;"/>
 </node>
 </node>
-<node COLOR="#cc0000" CREATED="1432001536511" FOLDED="true" ID="ID_89389509" MODIFIED="1486555644186" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#x5b57;&#x7b26;&#x9a71;&#x52a8;">
+<node COLOR="#cc0000" CREATED="1432001536511" ID="ID_89389509" MODIFIED="1502348438783" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#x5b57;&#x7b26;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1432001536511" ID="ID_1504972745" MODIFIED="1486555597572" TEXT="SCULL&#x7684;&#x4ecb;&#x7ecd;">
+<node CREATED="1432001536511" FOLDED="true" ID="ID_1504972745" MODIFIED="1502348449301" TEXT="SCULL&#x7684;&#x4ecb;&#x7ecd;">
 <edge COLOR="#ff0066"/>
 <node CREATED="1432001536511" FOLDED="true" ID="ID_1336937959" MODIFIED="1486555599157">
 <richcontent TYPE="NODE"><html>
@@ -142,19 +142,19 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1096034248" MODIFIED="1486555599158" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;">
-<node CREATED="1432001536512" FOLDED="true" ID="ID_353294307" MODIFIED="1482300647134" TEXT="&#x4e3b;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x4f7f;&#x7528;&#x54ea;&#x4e2a;&#x9a71;&#x52a8;">
+<node CREATED="1432001536511" ID="ID_1096034248" MODIFIED="1502348453405" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_353294307" MODIFIED="1502348458005" TEXT="&#x4e3b;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x4f7f;&#x7528;&#x54ea;&#x4e2a;&#x9a71;&#x52a8;">
 <node BACKGROUND_COLOR="#33ff33" CREATED="1432105653336" ID="ID_1035150399" MODIFIED="1432105710224" TEXT="&#x4e5f;&#x6709;&#x591a;&#x4e2a;&#x9a71;&#x52a8;&#x5171;&#x4eab;&#x4e00;&#x4e2a;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x60c5;&#x51b5;">
 <edge COLOR="#3333ff"/>
 </node>
 </node>
 <node CREATED="1432001536512" ID="ID_183491251" MODIFIED="1432001536512" TEXT="&#x6b21;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x5177;&#x4f53;&#x7684;&#x8bbe;&#x5907;"/>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_1042749064" MODIFIED="1486555599158" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x7684;&#x5185;&#x90e8;&#x6807;&#x8bc6;">
+<node CREATED="1432001536512" ID="ID_1042749064" MODIFIED="1502348459549" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x7684;&#x5185;&#x90e8;&#x6807;&#x8bc6;">
 <node COLOR="#ff6666" CREATED="1432001536512" ID="ID_1408585560" MODIFIED="1432105797516" TEXT="dev_t&#x83b7;&#x5f97;&#x4e3b;&#x6b21;&#x7f16;&#x53f7;"/>
 <node CREATED="1432001536512" ID="ID_841449011" MODIFIED="1432001536512" TEXT="&#x7531;&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x83b7;&#x5f97;dev_t"/>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_1653444239" MODIFIED="1486555599158" TEXT="&#x5206;&#x914d;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_1653444239" MODIFIED="1502348475261" TEXT="&#x5206;&#x914d;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
 <node COLOR="#cc0000" CREATED="1432001536512" FOLDED="true" ID="ID_837056629" MODIFIED="1471749036229">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -428,8 +428,8 @@
 <arrowlink COLOR="#0066ff" DESTINATION="ID_1658142979" ENDARROW="Default" ENDINCLINATION="472;0;" ID="Arrow_ID_825262927" STARTARROW="None" STARTINCLINATION="410;-75;"/>
 <linktarget COLOR="#ff0099" DESTINATION="ID_479153915" ENDARROW="Default" ENDINCLINATION="-160;15;" ID="Arrow_ID_911860929" SOURCE="ID_1008626152" STARTARROW="None" STARTINCLINATION="-153;15;"/>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1196680412" MODIFIED="1486555599158" TEXT="file:f_op&#x5b57;&#x6bb5;">
-<node CREATED="1432116064073" FOLDED="true" ID="ID_936260860" MODIFIED="1482300655470" TEXT="1.void *private_data,&#x8c03;&#x7528;open&#x65f6;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;">
+<node CREATED="1432001536513" ID="ID_1196680412" MODIFIED="1502348484421" TEXT="file:f_op&#x5b57;&#x6bb5;">
+<node CREATED="1432116064073" ID="ID_936260860" MODIFIED="1502348487487" TEXT="1.void *private_data,&#x8c03;&#x7528;open&#x65f6;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;">
 <node COLOR="#ff0099" CREATED="1433831827079" ID="ID_740947904" MODIFIED="1433832217801" TEXT="1.scull_open(struct inode *inode, struct file *filp)"/>
 <node CREATED="1433831838824" ID="ID_1767823674" MODIFIED="1433831866854">
 <richcontent TYPE="NODE"><html>
@@ -521,7 +521,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1008626152" MODIFIED="1486555599158">
+<node CREATED="1432001536513" ID="ID_1008626152" MODIFIED="1502348501063">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -787,6 +787,31 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1502348761685" ID="ID_1462092267" MODIFIED="1502348889022">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20851;&#20110;unlocked_ioctl&#21644;compat_ioctl</b>
+    </p>
+    <p>
+      unlocked_ioctl&#26159;&#26367;&#20195;&#20256;&#32479;&#30340;ioctl&#30340;&#65292;&#20256;&#32479;&#30340;ioctl&#22312;&#25191;&#34892;&#30340;&#26102;&#20505;
+    </p>
+    <p>
+      &#20250;&#35843;&#29992;&#22823;&#20869;&#26680;&#38145;&#65292;&#25302;&#24930;&#30495;&#20010;&#31995;&#32479;&#30340;&#23454;&#26102;&#24615;&#65292;unlocked_ioctl&#21017;&#35201;&#27714;
+    </p>
+    <p>
+      &#39537;&#21160;&#31243;&#24207;&#33258;&#24049;&#23454;&#29616;&#20114;&#26021;&#30340;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      compat_ioctl&#21017;&#26159;&#20026;&#20102;&#28385;&#36275;&#22312;32bit&#30340;&#29992;&#25143;&#31354;&#38388;&#35843;&#29992;64bit&#20869;&#26680;&#30340;&#25805;&#20316;&#38656;&#27714;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1432001536513" ID="ID_1369221128" MODIFIED="1486555597689" TEXT="scull&#x7684;&#x5185;&#x5b58;&#x4f7f;&#x7528;">
@@ -2166,7 +2191,7 @@
 <node CREATED="1495612173668" ID="ID_1179732713" MODIFIED="1495612176675" TEXT="http://www.spinics.net/lists/linux-acpi/msg57973.html"/>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1434600032779" FOLDED="true" ID="ID_389670617" MODIFIED="1493219498805" POSITION="right" TEXT="5.&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;">
+<node COLOR="#cc0033" CREATED="1434600032779" FOLDED="true" ID="ID_389670617" MODIFIED="1502348430837" POSITION="right" TEXT="5.&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1434600072078" ID="ID_333258577" MODIFIED="1434600082269" TEXT="1.makefile&#x7684;&#x4e8c;&#x6b21;&#x52a0;&#x8f7d;"/>
 <node CREATED="1434600084757" ID="ID_1963536127" MODIFIED="1434600100459" TEXT="2.obj-m&#x6307;&#x5b9a;&#x9700;&#x8981;&#x7f16;&#x8bd1;&#x7684;&#x6a21;&#x5757;"/>
@@ -13578,7 +13603,7 @@
 </node>
 <node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1502267172790" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" ID="ID_737257459" MODIFIED="1502270508589">
+<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1502348421749">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13594,8 +13619,7 @@
       <font color="#110e15">https://0xax.gitbooks.io/linux-insides/content/Initialization/linux-initialization-4.html</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1477562530567" ID="ID_1185698741" MODIFIED="1477562878961">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13636,8 +13660,7 @@
       #define __init&#160;&#160;&#160;&#160;&#160;&#160;__section(.init.text) __cold notrace
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1477566851078" ID="ID_788490843" MODIFIED="1490085743092">
 <richcontent TYPE="NODE"><html>
   <head>

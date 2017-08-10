@@ -88,15 +88,14 @@
       &#35813;&#21015;&#34920;&#26159;&#26550;&#26500;&#30456;&#20851;&#30340;&#65292;&#23545;&#20110;x86&#26550;&#26500;&#26469;&#35828;&#65292;&#35813;&#21015;&#34920;&#23450;&#20041;&#22312;&#25991;&#20214;arch/i386/kernel/syscall_64.c&#24403;&#20013;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1494494882982" ID="ID_1248143805" MODIFIED="1494494890301" TEXT="&#x756a;&#x5916;&#x7bc7;">
 <node CREATED="1494494895501" ID="ID_268476970" MODIFIED="1494494909506" TEXT="&#x7b2c;&#x4e00;&#x7ae0; linux backtrace"/>
 <node CREATED="1495701208894" ID="ID_985213935" MODIFIED="1495701218878" TEXT="&#x7b2c;&#x4e8c;&#x7ae0; cpu hotplug"/>
-<node CREATED="1495854455084" FOLDED="true" ID="ID_1085427835" MODIFIED="1495875967680" TEXT="&#x7b2c;&#x4e09;&#x7ae0; &#x5185;&#x6838;&#x62a2;&#x5360;preempt">
+<node CREATED="1495854455084" FOLDED="true" ID="ID_1085427835" MODIFIED="1502333792330" TEXT="&#x7b2c;&#x4e09;&#x7ae0; &#x5185;&#x6838;&#x62a2;&#x5360;preempt">
 <node CREATED="1495854478515" FOLDED="true" ID="ID_1692262965" MODIFIED="1495875966517">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -228,6 +227,56 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1502333828402" ID="ID_293677454" MODIFIED="1502333848131">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#22235;&#31456; kobj kset sysfs
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1502333853314" ID="ID_1082732740" MODIFIED="1502347613224">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      kobject&#26159;&#22312;linux2.6&#20869;&#26680;&#24341;&#20837;&#30340;&#26032;&#30340;&#35774;&#22791;&#31649;&#29702;&#30340;&#26426;&#21046;&#65292;&#36890;&#36807;&#36825;&#20010;&#25968;&#25454;&#32467;&#26500;&#20351;&#25152;&#26377;&#35774;&#22791;
+    </p>
+    <p>
+      &#22312;&#24213;&#23618;&#37117;&#20855;&#26377;&#32479;&#19968;&#30340;&#25509;&#21475;&#12290;kobj&#25552;&#20379;&#22522;&#26412;&#30340;&#23545;&#35937;&#31649;&#29702;&#65292;&#19982;sysfs&#25991;&#20214;&#31995;&#32479;&#32039;&#23494;&#30456;&#20851;&#12290;
+    </p>
+    <p>
+      kobj&#26159;&#32452;&#25104;&#35774;&#22791;&#27169;&#22411;&#30340;&#22522;&#26412;&#32467;&#26500;&#65292;&#31867;&#20284;&#20110;c++&#24403;&#20013;&#30340;&#22522;&#31867;&#65292;&#23427;&#23884;&#20837;&#21040;&#26356;&#22823;&#30340;&#23545;&#35937;&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#29992;&#26469;&#25551;&#36848;&#35774;&#22791;&#27169;&#22411;&#30340;&#32452;&#20214;&#65292;&#22914;bus,devices,drivers.&#36825;&#20123;&#22823;&#30340;&#23481;&#22120;&#23545;&#35937;&#36890;&#36807;kobject
+    </p>
+    <p>
+      &#32852;&#36890;&#36215;&#26469;&#24418;&#25104;&#26641;&#29366;&#32467;&#26500;&#22312;sysfs&#25991;&#20214;&#31995;&#32479;&#24403;&#20013;&#26174;&#31034;&#20986;&#26469;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      kset&#26368;&#37325;&#35201;&#30340;&#26159;&#24314;&#31435;&#19978;&#23618;(sub-system)&#21644;&#19979;&#23618;(kobject)&#20043;&#38388;&#30340;&#20851;&#31995;&#65292;kobj&#20250;&#21033;&#29992;&#23427;&#26469;
+    </p>
+    <p>
+      &#20998;&#36776;&#33258;&#24049;&#23646;&#20110;&#21738;&#19968;&#31867;&#22411;&#28982;&#21518;&#22312;/sys&#30446;&#24405;&#19979;&#38754;&#24314;&#31435;&#27491;&#30830;&#30340;&#30446;&#24405;&#12290;kobj&#24403;&#20013;&#30340;kset&#25104;&#21592;&#25351;&#21521;
+    </p>
+    <p>
+      kset,&#24182;&#19988;kobj&#37324;&#38754;&#30340;ktype&#26159;&#30001;kset&#36171;&#20104;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -580,7 +629,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1491812937292" ID="ID_1979671906" MODIFIED="1495696165125" POSITION="left">
+<node CREATED="1491812937292" FOLDED="true" ID="ID_1979671906" MODIFIED="1502333775411" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -851,7 +900,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492618335035" FOLDED="true" ID="ID_1716444536" MODIFIED="1495864156601" POSITION="right">
+<node CREATED="1492618335035" FOLDED="true" ID="ID_1716444536" MODIFIED="1502333799730" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -938,9 +987,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1495712981387" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1502333818346" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1493020020758" ID="ID_996974118" MODIFIED="1493020316545">
+<node CREATED="1493020020758" FOLDED="true" ID="ID_996974118" MODIFIED="1502333814698">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -986,7 +1035,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1495864161465" ID="ID_380967431" MODIFIED="1495864178630" POSITION="right" TEXT="&#x5e76;&#x884c;&#x7f16;&#x7a0b;&#x548c;GPU">
+<node CREATED="1495864161465" FOLDED="true" ID="ID_380967431" MODIFIED="1502333819810" POSITION="right" TEXT="&#x5e76;&#x884c;&#x7f16;&#x7a0b;&#x548c;GPU">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1495864180953" ID="ID_1071100540" MODIFIED="1495864364058">
 <richcontent TYPE="NODE"><html>
@@ -1013,10 +1062,11 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1495696275121" ID="ID_547317161" MODIFIED="1495696286965" POSITION="left" TEXT="&#x5b66;&#x4e60;&#x8d44;&#x6599;&#x7f51;&#x7ad9;">
+<node CREATED="1495696275121" ID="ID_547317161" MODIFIED="1502348249614" POSITION="left" TEXT="&#x5b66;&#x4e60;&#x8d44;&#x6599;&#x7f51;&#x7ad9;">
 <node CREATED="1495696289823" ID="ID_768488095" MODIFIED="1495696291998" TEXT="http://kernel.meizu.com/linux-process-stop.html"/>
 <node CREATED="1495701147887" ID="ID_868501819" MODIFIED="1495701150813" TEXT="https://wiki.linaro.org/WorkingGroups/"/>
 <node CREATED="1495712989869" ID="ID_2581395" MODIFIED="1495712994087" TEXT="http://www.tldp.org/HOWTO/Linux-i386-Boot-Code-HOWTO/smpboot.html"/>
+<node CREATED="1502348253198" ID="ID_924128231" MODIFIED="1502348256082" TEXT="https://lkml.org/"/>
 </node>
 </node>
 </map>

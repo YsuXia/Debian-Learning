@@ -56,7 +56,9 @@ digraph platform_bus{
 		struct list_head list;
     |spinlock_t list_lock;
     |<obj>struct kobject kobj;
-    |const struct kset_uevent_ops *uevent_ops
+    |const struct kset_uevent_ops *uevent_ops\n
+	****当任何kobj需要上报uevent的时候都需要通过kset的ops进行过滤****\n
+	****和添加环境变量,没有kset的kobject是不允许上报uevent的*********
 	}"];
 	}
 
@@ -171,7 +173,7 @@ digraph platform_bus{
 		|const struct device_type *type
 		|struct mutex        mutex
 		|<bus>struct bus_type *bus
-		|struct device_driver *driver
+		|<driver>struct device_driver *driver
 		|void     *platform_data
 		|void     *driver_data
 		|struct dev_pm_info  power
@@ -195,12 +197,69 @@ digraph platform_bus{
     |spinlock_t      devres_lock;
     |struct list_head    devres_head;
     |struct klist_node   knode_class;
-    |struct class        *class;
+    |<class>struct class        *class;
     |const struct attribute_group **groups
 	|void    (*release)(struct device *dev);
     |struct iommu_group  *iommu_group;
     |bool            offline_disabled:1;
     |bool            offline:1;
+	}"];
+	}
+	"struct device":driver->"struct device_driver"[color=blue];
+	"struct device":class->"struct class"[color=red];
+
+	subgraph cluster_struct_class{
+		label="struct class";
+		"struct class"[label="{
+		const char      *name
+    	|struct module       *owner
+    	|struct class_attribute      *class_attrs
+    |struct device_attribute     *dev_attrs
+    |struct bin_attribute        *dev_bin_attrs
+    |struct kobject          *dev_kobj
+    |int (*dev_uevent)(struct device *dev, struct kobj_uevent_env *env)
+    |char *(*devnode)(struct device *dev, umode_t *mode)
+    |void (*class_release)(struct class *class)
+    |void (*dev_release)(struct device *dev)
+    |int (*suspend)(struct device *dev, pm_message_t state)
+    |int (*resume)(struct device *dev);
+    |const struct kobj_ns_type_operations *ns_type;
+    |const void *(*namespace)(struct device *dev);
+    |const struct dev_pm_ops *pm;
+    |struct subsys_private *p;
+	}"];
+	}
+
+	subgraph cluster_struct_device_driver{
+		label="struct device_driver";
+		bgcolor="powderblue";
+		"struct device_driver"[label="{
+		const char      *name;
+    	|struct bus_type     *bus;
+    	|struct module       *owner;
+    	|const char      *mod_name\n****used for built-in modules***
+    	|bool suppress_bind_attrs\n*****disables bind\/unbind via sysfs****
+    	|<of_device>const struct of_device_id   *of_match_table
+    	|const struct acpi_device_id *acpi_match_table
+    	|int (*probe) (struct device *dev);
+    	|int (*remove) (struct device *dev);
+    	|void (*shutdown) (struct device *dev);
+    	|int (*suspend) (struct device *dev, pm_message_t state);
+    	|int (*resume) (struct device *dev);
+    	|const struct attribute_group **groups;
+    	|const struct dev_pm_ops *pm;
+    	|struct driver_private *p;
+		}"];
+	}
+	"struct device_driver":of_device->"struct of_device_id"[color=blue];
+	subgraph cluster_struct_of_device_id{
+		label="struct of_device_id";
+		bgcolor="pink";
+		"struct of_device_id"[label="{
+		 char    name[32];
+    	|char    type[32];
+    	|char    compatible[128];
+    	|const void *data;
 	}"];
 	}
 
@@ -270,11 +329,12 @@ digraph platform_bus{
 	subgraph cluster_struct_kobject{
 		label="struct kobject";
 		"struct kobject"[label="{
-		const char      *name;
+	****kobject在析构时会通过ktype来析构其派生的数据结构体****
+	|const char      *name;
     |struct list_head    entry;
     |struct kobject      *parent;
     |struct kset     *kset;
-    |struct kobj_type    *ktype;
+    |<ktype>struct kobj_type    *ktype;\n***ktype里面包含有操作kobj的函数和针对sysfs操作的函数****
     |struct kernfs_node  *sd
     |struct kref     kref;
     |struct delayed_work release;
@@ -283,6 +343,18 @@ digraph platform_bus{
     |unsigned int state_add_uevent_sent:1;
     |unsigned int state_remove_uevent_sent:1;
     |unsigned int uevent_suppress:1;
+	}"];
+	}
+	"struct kobject":ktype->"struct kobj_type"[color=red];
+
+	subgraph cluster_struct_kobj_type{
+		label="struct kobj_type";
+		"struct kobj_type"[label="{
+		 void (*release)(struct kobject *kobj)
+    	|const struct sysfs_ops *sysfs_ops
+    	|struct attribute **default_attrs
+    	|const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj)
+    	|const void *(*namespace)(struct kobject *kobj)
 	}"];
 	}
 
