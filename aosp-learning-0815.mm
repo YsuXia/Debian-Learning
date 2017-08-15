@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1433813407807" ID="ID_1562618889" MODIFIED="1496409680113" TEXT="&#x8001;&#x7f57;&#x5b89;&#x5353;&#x4e4b;&#x65c5;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#ff6666" CREATED="1433813443993" ID="ID_807162115" MODIFIED="1479707412944" POSITION="right">
+<node COLOR="#ff6666" CREATED="1433813443993" FOLDED="true" ID="ID_807162115" MODIFIED="1502794310446" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -18,8 +18,8 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1433813482436" ID="ID_89612854" MODIFIED="1433813491165" TEXT="android&#x6e90;&#x4ee3;&#x7801;&#x7f16;&#x8bd1;"/>
-<node CREATED="1433813494355" ID="ID_1660476030" MODIFIED="1433813499742" TEXT="kernel&#x7f16;&#x8bd1;">
-<node CREATED="1433813502803" ID="ID_126974958" MODIFIED="1433813520066" TEXT="&#x786e;&#x5b9a;emulator&#x5bf9;&#x5e94;&#x7684;kernel">
+<node CREATED="1433813494355" FOLDED="true" ID="ID_1660476030" MODIFIED="1502794309286" TEXT="kernel&#x7f16;&#x8bd1;">
+<node CREATED="1433813502803" FOLDED="true" ID="ID_126974958" MODIFIED="1502794308166" TEXT="&#x786e;&#x5b9a;emulator&#x5bf9;&#x5e94;&#x7684;kernel">
 <node CREATED="1433813531531" ID="ID_673274706" MODIFIED="1433813540510" TEXT="1.&#x8fd0;&#x884c;&#x6a21;&#x62df;&#x5668;"/>
 <node CREATED="1433813542938" ID="ID_574459761" MODIFIED="1433813549637" TEXT="2.&#x542f;&#x52a8;adb shell"/>
 <node CREATED="1433813552243" ID="ID_972882700" MODIFIED="1435060107328" TEXT="3.cat /proc/version">
@@ -1477,9 +1477,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1435564212116" ID="ID_1802347718" MODIFIED="1502183795081" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
+<node CREATED="1435564212116" FOLDED="true" ID="ID_1802347718" MODIFIED="1502794333703" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1435564224130" ID="ID_1217317356" MODIFIED="1502184439258" TEXT="git&#x5b66;&#x4e60;">
+<node CREATED="1435564224130" FOLDED="true" ID="ID_1217317356" MODIFIED="1502794329951" TEXT="git&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502183812413" ID="ID_568706704" MODIFIED="1502183890728">
 <richcontent TYPE="NODE"><html>
@@ -1545,12 +1545,11 @@
       &#160;branch for the remote named origin. This lets you simply say origin instead of origin/master.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1502184426298" ID="ID_1510917630" MODIFIED="1502184435338" TEXT="Gir Pro&#x5b66;&#x4e60;">
+<node CREATED="1502184426298" FOLDED="true" ID="ID_1510917630" MODIFIED="1502794324606" TEXT="Gir Pro&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1502184443554" ID="ID_778677540" MODIFIED="1502184475851">
+<node CREATED="1502184443554" FOLDED="true" ID="ID_778677540" MODIFIED="1502794323382">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1560,9 +1559,8 @@
       <font color="#ea0909"><b><i>&#31532;&#19977;&#31456; Git Branch</i></b></font>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1502184485921" ID="ID_831825345" MODIFIED="1502184500539">
+</html></richcontent>
+<node CREATED="1502184485921" FOLDED="true" ID="ID_831825345" MODIFIED="1502794322590">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1572,8 +1570,7 @@
       Remote Branches
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1502184522753" ID="ID_580472649" MODIFIED="1502189924349">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1623,8 +1620,7 @@
       <font color="#e70c0c">push&#19968;&#20010;&#29305;&#23450;&#30340;&#25552;&#20132;&#21040;&#36828;&#31243;&#20998;&#25903;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1502185489903" ID="ID_26690415" MODIFIED="1502189881557">
 <richcontent TYPE="NODE"><html>
@@ -1678,8 +1674,7 @@
       <font color="#10191c"><b>git fetch --all; git branch -vv</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2070,7 +2065,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476935359890" ID="ID_505596854" MODIFIED="1491040718791" POSITION="right" TEXT="5.android&#x7684;&#x5c0f;&#x77e5;&#x8bc6;">
+<node CREATED="1476935359890" FOLDED="true" ID="ID_505596854" MODIFIED="1502794305822" POSITION="right" TEXT="5.android&#x7684;&#x5c0f;&#x77e5;&#x8bc6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1476935377161" FOLDED="true" ID="ID_1113704051" MODIFIED="1499740313049">
 <richcontent TYPE="NODE"><html>
@@ -2470,7 +2465,7 @@
 </node>
 <node CREATED="1491046245928" HGAP="12" ID="ID_389646716" MODIFIED="1491046283862" TEXT="make idegen &amp;&amp; development/tools/idegen/idegen.sh" VSHIFT="11"/>
 </node>
-<node CREATED="1484720898460" ID="ID_346512524" MODIFIED="1484720919173" POSITION="right" TEXT="9.Android&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x53ca;&#x70e7;&#x5199;">
+<node CREATED="1484720898460" FOLDED="true" ID="ID_346512524" MODIFIED="1502794301647" POSITION="right" TEXT="9.Android&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x53ca;&#x70e7;&#x5199;">
 <node CREATED="1484720921741" ID="ID_332037652" MODIFIED="1484740146382">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2517,7 +2512,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492247580941" ID="ID_1395858297" MODIFIED="1492247621380" POSITION="right">
+<node CREATED="1492247580941" FOLDED="true" ID="ID_1395858297" MODIFIED="1502794293782" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2544,9 +2539,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1497439750076" ID="ID_636173960" MODIFIED="1497439767016" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
+<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1502794291918" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1497439770180" ID="ID_1800164131" MODIFIED="1497440838823">
+<node CREATED="1497439770180" FOLDED="true" ID="ID_1800164131" MODIFIED="1502794290654">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2631,7 +2626,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1502168603563" POSITION="left">
+<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1502794231046" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2645,7 +2640,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492429588556" ID="ID_1170241637" MODIFIED="1492429760495">
+<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1502794226390">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2693,7 +2688,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492653017734" ID="ID_500027607" MODIFIED="1496194828919">
+<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1502794223318">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3133,7 +3128,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1502162415873" ID="ID_1595158135" MODIFIED="1502162440090" POSITION="left">
+<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1502794238182" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3143,8 +3138,7 @@
       <b><i>Android Media&#26694;&#26550;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1502162443745" ID="ID_155688899" MODIFIED="1502168598161">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3176,8 +3170,7 @@
       &#30340;&#19968;&#20010;&#32452;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

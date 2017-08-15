@@ -4,7 +4,7 @@
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456222858229" ID="ID_1988131115" MODIFIED="1469155383395" POSITION="right" TEXT="&#x8bbe;&#x5907;&#x5b9e;&#x4f8b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456223078399" ID="ID_148465083" MODIFIED="1456385500482">
+<node CREATED="1456223078399" FOLDED="true" ID="ID_148465083" MODIFIED="1502794395754">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -254,7 +254,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456222860959" ID="ID_1547948907" MODIFIED="1469155372529" POSITION="left">
+<node CREATED="1456222860959" FOLDED="true" ID="ID_1547948907" MODIFIED="1502794400926" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -593,7 +593,7 @@
 </node>
 <node CREATED="1456222863406" ID="ID_1740167756" MODIFIED="1456283030532" POSITION="right" TEXT="&#x5b50;&#x8bbe;&#x5907;&#x5b9e;&#x4f8b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456223113677" ID="ID_985161457" MODIFIED="1469155388603" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;v4l2_subdev">
+<node CREATED="1456223113677" FOLDED="true" ID="ID_985161457" MODIFIED="1502794391175" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;v4l2_subdev">
 <node CREATED="1456224724087" ID="ID_456067746" MODIFIED="1456224807137">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -729,7 +729,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1456299046549" ID="ID_287870645" MODIFIED="1456299063620">
+<node CREATED="1456299046549" FOLDED="true" ID="ID_287870645" MODIFIED="1502794389623">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1223,7 +1223,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456222865879" ID="ID_1512787561" MODIFIED="1469155414698" POSITION="left" TEXT="&#x6587;&#x4ef6;&#x53e5;&#x67c4;">
+<node CREATED="1456222865879" FOLDED="true" ID="ID_1512787561" MODIFIED="1502794399554" POSITION="left" TEXT="&#x6587;&#x4ef6;&#x53e5;&#x67c4;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456223190786" ID="ID_988059920" MODIFIED="1456391010449">
 <richcontent TYPE="NODE"><html>
@@ -1332,7 +1332,7 @@
 <node CREATED="1456222964383" ID="ID_52040675" MODIFIED="1456222989047" POSITION="right" TEXT="&#x89c6;&#x9891;&#x7f13;&#x51b2;&#x6846;&#x67b6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1456393574909" ID="ID_1341033271" MODIFIED="1469155361755" POSITION="left">
+<node CREATED="1456393574909" FOLDED="true" ID="ID_1341033271" MODIFIED="1502794402486" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1456,6 +1456,50 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1502794414287" ID="ID_491536815" MODIFIED="1502794425919" POSITION="right" TEXT="MIPI&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1502794468790" ID="ID_1882812769" MODIFIED="1502794511567">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26723;
+    </p>
+    <p>
+      MIPI Alliance Specification for Camera Serial Interface 2
+    </p>
+    <p>
+      Version 1.01.00 Revision 0.04
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1502794717510" ID="ID_1865830493" MODIFIED="1502794728270" TEXT="overview">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1502794734814" ID="ID_375875861" MODIFIED="1502796155852">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CSI-2&#21327;&#35758;&#23450;&#20041;&#20102;&#22312;&#20256;&#36755;&#31471;&#21644;&#25509;&#25910;&#31471;&#20043;&#38388;&#30340;&#26631;&#20934;&#30340;&#25968;&#25454;&#21644;&#25511;&#21046;&#25509;&#21475;&#12290;
+    </p>
+    <p>
+      &#25968;&#25454;&#20256;&#36755;&#25509;&#21475;&#26159;&#21333;&#21521;(unidirectional)&#24046;&#20998;&#20018;&#34892;&#25509;&#21475;&#65292;&#20851;&#20110;&#35813;&#25509;&#21475;&#30340;&#29289;&#29702;&#23618;&#30340;&#25551;&#36848;&#65292;&#21487;&#20197;&#21442;&#32771;&#25991;&#26723;
+    </p>
+    <p>
+      MIPI Alliance Specification for D-PHY
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
