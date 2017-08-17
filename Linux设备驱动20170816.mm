@@ -2185,8 +2185,7 @@
       <font color="#d10909">#echo 'file &#25991;&#20214;&#21517; -p' &gt; /sys/kernel/debug/dynamic_debug/control</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1487915420407" ID="ID_254564939" MODIFIED="1487915507042">
 <richcontent TYPE="NODE"><html>
@@ -10286,7 +10285,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1501830384229" POSITION="right">
+<node CREATED="1456929335533" ID="ID_1088410273" MODIFIED="1502869111068" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13625,9 +13624,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1502796209202" POSITION="right" TEXT="Device Tree">
+<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1502869137972" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1502348421749">
+<node CREATED="1477562014348" ID="ID_737257459" MODIFIED="1502869325689">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14097,7 +14096,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1502267181105">
+<node CREATED="1477640364241" ID="ID_706701660" MODIFIED="1502940830874">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14158,9 +14157,37 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1502940839909" ID="ID_1548033348" MODIFIED="1502940888359">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <b>#address-cells</b>&#160;property indicate how many cells (i.e 32 bits values)
+    </p>
+    <p>
+      are needed to form the base address part in the reg property.
+    </p>
+    <p>
+      The <b>#size-cells</b>&#160;is the same, for the size part of the reg property.
+    </p>
+    <p>
+      The <b>ranges</b>&#160;property can describe an address translation between the child bus and the parent bus.
+    </p>
+    <p>
+      When simply defined as ranges;,
+    </p>
+    <p>
+      it means that the translation is an identity translation.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1490085626105" FOLDED="true" ID="ID_136194061" MODIFIED="1493219534704" TEXT="&#x5185;&#x6838;&#x6587;&#x6863;interrupts.txt&#x9605;&#x8bfb;">
+</node>
+<node CREATED="1490085626105" ID="ID_136194061" MODIFIED="1502869143497" TEXT="&#x5185;&#x6838;&#x6587;&#x6863;interrupts.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490086793556" ID="ID_700313303" MODIFIED="1490088085359">
 <richcontent TYPE="NODE"><html>
@@ -14207,7 +14234,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490088088985" FOLDED="true" ID="ID_1548402338" MODIFIED="1493219533159">
+<node CREATED="1490088088985" ID="ID_1548402338" MODIFIED="1502869149361">
 <richcontent TYPE="NODE"><html>
   <head>
     
