@@ -1104,7 +1104,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1502796182179" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1503042796732" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -1245,7 +1245,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1502796174770" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1503495703814" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1285,7 +1285,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1432188997835" FOLDED="true" ID="ID_1392310371" MODIFIED="1502796173410">
+<node CREATED="1432188997835" ID="ID_1392310371" MODIFIED="1503495706321">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1466,7 +1466,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1502780453321">
+<node CREATED="1433836099543" ID="ID_582463794" MODIFIED="1503495698938">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1597,7 +1597,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433853570573" FOLDED="true" ID="ID_434256939" MODIFIED="1495608100982">
+<node CREATED="1433853570573" FOLDED="true" ID="ID_434256939" MODIFIED="1503495694781">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2100,7 +2100,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1487914213021" FOLDED="true" ID="ID_1288142286" MODIFIED="1502796179483">
+<node CREATED="1487914213021" ID="ID_1288142286" MODIFIED="1504615933818">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2212,6 +2212,21 @@
   </body>
 </html></richcontent>
 <node CREATED="1495612173668" ID="ID_1179732713" MODIFIED="1495612176675" TEXT="http://www.spinics.net/lists/linux-acpi/msg57973.html"/>
+</node>
+<node CREATED="1503042813268" ID="ID_682983874" MODIFIED="1503042856438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      11. <b>&#25171;&#24320;kernel lockup and hang detection&#21487;&#20197;&#23450;&#20301;&#31995;&#32479;hang&#20303; </b>
+    </p>
+    <p>
+      <b>&#26102;&#30340;back trace</b>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#cc0033" CREATED="1434600032779" FOLDED="true" ID="ID_389670617" MODIFIED="1502348430837" POSITION="right" TEXT="5.&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;">
@@ -3575,7 +3590,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1457940670562" FOLDED="true" ID="ID_32425074" MODIFIED="1486555624522" POSITION="left">
+<node CREATED="1457940670562" ID="ID_32425074" MODIFIED="1504766912517" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4497,6 +4512,35 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1504766931841" ID="ID_736192438" MODIFIED="1504766957322">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>Platform &#39537;&#21160;&#21644;&#35774;&#22791;&#30340;&#32465;&#23450;&#36807;&#31243;&#20998;&#26512;</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1504766961778" ID="ID_229695315" MODIFIED="1504767010979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#26368;&#32456;&#36827;&#34892;&#21305;&#37197;&#30340;&#20989;&#25968;
+    </p>
+    <p>
+      int platform_match(struct device *dev, struct device_driver *drv)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1499823335170" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
@@ -10970,7 +11014,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1499823281064" POSITION="left">
+<node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1504664635275" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13624,7 +13668,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1502869137972" POSITION="right" TEXT="Device Tree">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1504766880717" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1477562014348" ID="ID_737257459" MODIFIED="1502869325689">
 <richcontent TYPE="NODE"><html>
@@ -14182,8 +14226,7 @@
       it means that the translation is an identity translation.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14686,6 +14729,33 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1504507980067" ID="ID_1280172444" MODIFIED="1504508005404" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e40606">&#29305;&#21035;&#31456;&#33410;</font>
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1504508011275" ID="ID_1976280137" MODIFIED="1504508021980" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x641c;&#x96c6;&#x7684;&#x535a;&#x5ba2;">
+<node CREATED="1504508026131" ID="ID_20057698" MODIFIED="1504508033181">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://blog.yufeng.info/archives/category/linux_kb/page/2
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -12,7 +12,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#0a08ab" CREATED="1432112956357" FOLDED="true" ID="ID_751123708" MODIFIED="1488206361627" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0;&#xff1a;ARM&#x6307;&#x4ee4;&#x5206;&#x7c7b;&#x53ca;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
+<node COLOR="#0a08ab" CREATED="1432112956357" ID="ID_751123708" MODIFIED="1504148464890" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0;&#xff1a;ARM&#x6307;&#x4ee4;&#x5206;&#x7c7b;&#x53ca;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
 <node CREATED="1432112956357" ID="ID_240060230" MODIFIED="1488165233991" TEXT="ARM&#x6307;&#x4ee4;&#x53ef;&#x4ee5;&#x5206;&#x4e3a;6&#x7c7b;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -159,7 +159,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#c32b82" CREATED="1432112956358" FOLDED="true" ID="ID_1044673581" MODIFIED="1471850893393" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;&#xff1a;ARM&#x6982;&#x8ff0;&#x53ca;&#x5176;&#x57fa;&#x672c;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
+<node COLOR="#c32b82" CREATED="1432112956358" ID="ID_1044673581" MODIFIED="1504148479170" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;&#xff1a;ARM&#x6982;&#x8ff0;&#x53ca;&#x5176;&#x57fa;&#x672c;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
 <node CREATED="1432112956358" FOLDED="true" ID="ID_1138917039" MODIFIED="1471445718003" TEXT="ARM&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x7684;&#x7248;&#x672c;">
 <node CREATED="1432112956358" ID="ID_1134676044" MODIFIED="1432112956358" TEXT="&#x7248;&#x672c;1&#x548c;2&#x5df2;&#x7ecf;&#x4e0d;&#x518d;&#x4f7f;&#x7528;"/>
 <node CREATED="1432112956358" ID="ID_332174694" MODIFIED="1432113326063" TEXT="&#x7248;&#x672c;3&#x6709;&#x8f83;&#x5927;&#x7684;&#x6539;&#x8fdb;">
@@ -530,7 +530,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433729248799" FOLDED="true" ID="ID_592568468" MODIFIED="1471850806425" TEXT="ARM&#x5bc4;&#x5b58;&#x5668;&#x4ecb;&#x7ecd;">
+<node CREATED="1433729248799" ID="ID_592568468" MODIFIED="1504148482195" TEXT="ARM&#x5bc4;&#x5b58;&#x5668;&#x4ecb;&#x7ecd;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -541,7 +541,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1433730004706" FOLDED="true" ID="ID_411174682" MODIFIED="1471850798033" TEXT="1.&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;">
+<node CREATED="1433730004706" ID="ID_411174682" MODIFIED="1504148502803" TEXT="1.&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;">
 <node CREATED="1433730207215" ID="ID_1459896487" MODIFIED="1433730268910">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -560,7 +560,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433730218642" FOLDED="true" ID="ID_110667514" MODIFIED="1471850797073" TEXT="&#x5907;&#x4efd;&#x5bc4;&#x5b58;&#x5668;">
+<node CREATED="1433730218642" ID="ID_110667514" MODIFIED="1504148553360" TEXT="&#x5907;&#x4efd;&#x5bc4;&#x5b58;&#x5668;">
 <node CREATED="1433730275378" ID="ID_142015550" MODIFIED="1433730455308">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -576,7 +576,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433730458498" FOLDED="true" ID="ID_663278016" MODIFIED="1471850795920">
+<node CREATED="1433730458498" ID="ID_663278016" MODIFIED="1504148555049">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -605,7 +605,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433730611982" FOLDED="true" ID="ID_491109695" MODIFIED="1471850794729">
+<node CREATED="1433730611982" ID="ID_491109695" MODIFIED="1504148560023">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -638,7 +638,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#3300ff" CREATED="1433730227265" FOLDED="true" ID="ID_1169635008" MODIFIED="1471445677178">
+<node COLOR="#3300ff" CREATED="1433730227265" ID="ID_1169635008" MODIFIED="1504148538014">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -694,7 +694,7 @@
 </node>
 </node>
 <node CREATED="1433730014243" ID="ID_1694798427" MODIFIED="1468809783822" TEXT="2.&#x72b6;&#x6001;&#x5bc4;&#x5b58;&#x5668;">
-<node CREATED="1438782312327" FOLDED="true" ID="ID_531718010" MODIFIED="1471445651540">
+<node CREATED="1438782312327" ID="ID_531718010" MODIFIED="1504148500189">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8237,8 +8237,7 @@
       Virtual Machines: Versatile Platforms for Systems and Processes
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

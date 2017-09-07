@@ -1477,9 +1477,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1435564212116" FOLDED="true" ID="ID_1802347718" MODIFIED="1502794333703" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
+<node CREATED="1435564212116" ID="ID_1802347718" MODIFIED="1503379549235" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1435564224130" FOLDED="true" ID="ID_1217317356" MODIFIED="1502794329951" TEXT="git&#x5b66;&#x4e60;">
+<node CREATED="1435564224130" ID="ID_1217317356" MODIFIED="1503494051308" TEXT="git&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502183812413" ID="ID_568706704" MODIFIED="1502183890728">
 <richcontent TYPE="NODE"><html>
@@ -1547,9 +1547,9 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1502184426298" FOLDED="true" ID="ID_1510917630" MODIFIED="1502794324606" TEXT="Gir Pro&#x5b66;&#x4e60;">
+<node CREATED="1502184426298" ID="ID_1510917630" MODIFIED="1503494054471" TEXT="Gir Pro&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1502184443554" FOLDED="true" ID="ID_778677540" MODIFIED="1502794323382">
+<node CREATED="1502184443554" ID="ID_778677540" MODIFIED="1503494056358">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1560,7 +1560,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1502184485921" FOLDED="true" ID="ID_831825345" MODIFIED="1502794322590">
+<node CREATED="1502184485921" ID="ID_831825345" MODIFIED="1503494058164">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1810,7 +1810,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492005320793" FOLDED="true" ID="ID_19007191" MODIFIED="1502183801525">
+<node CREATED="1492005320793" ID="ID_19007191" MODIFIED="1503379551428">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2062,6 +2062,21 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1503379558876" ID="ID_933687868" MODIFIED="1503379613013">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#d90505">&#20351;&#29992;repo&#21629;&#20196;&#23545;&#25152;&#26377;&#30340;&#20998;&#25903;&#36827;&#34892;&#25805;&#20316;</font></b>
+    </p>
+    <p>
+      <b>repo forall -c 'git reset --hard &amp;&amp; git clean -fdx'</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -2119,7 +2134,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479707368505" FOLDED="true" ID="ID_6989081" MODIFIED="1502162402320" POSITION="left">
+<node CREATED="1479707368505" ID="ID_6989081" MODIFIED="1504147355465" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2131,14 +2146,14 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1479707423903" FOLDED="true" ID="ID_1549739821" MODIFIED="1484720860428">
+<node CREATED="1479707423903" FOLDED="true" ID="ID_1549739821" MODIFIED="1504761241093">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      systrace&#24037;&#20855;&#30340;&#20351;&#29992;
+      <font color="#ad0c0c"><b>systrace&#24037;&#20855;&#30340;&#20351;&#29992;</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -2218,7 +2233,17 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1496221895678" ID="ID_127873495" MODIFIED="1496221898681" TEXT="adb shell">
+<node CREATED="1496221895678" FOLDED="true" ID="ID_127873495" MODIFIED="1504761238861">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#9f1212"><b>adb shell</b></font>
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1496221901919" ID="ID_261410774" MODIFIED="1496222380947">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2245,6 +2270,97 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1504147366198" FOLDED="true" ID="ID_32429342" MODIFIED="1504761244142">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#c20808"><b>tombstone</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1504147462766" ID="ID_239064288" MODIFIED="1504147836119">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      addr2line&#29992;&#20110;&#33719;&#24471;&#25351;&#23450;&#30340;&#21160;&#24577;&#38142;&#25509;&#24211;&#25991;&#20214;&#25110;&#32773;&#21487;&#25191;&#34892;&#25991;&#20214;&#24403;&#20013;
+    </p>
+    <p>
+      &#25351;&#23450;&#22320;&#22336;&#23545;&#24212;&#30340;&#28304;&#20195;&#30721;&#20449;&#24687;&#30340;&#24037;&#20855;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1504147849061" ID="ID_1708476179" MODIFIED="1504751257993">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#a20707"><b>yunos tombstone&#30340;&#26684;&#24335;:</b></font>
+    </p>
+    <p>
+      <font color="#1239f2">SP:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PC:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(offset:binary),&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;export_symbol:instruction_offset</font>
+    </p>
+    <p>
+      <font color="#143dee">SP: 0xacdfe930 PC: 0xb4284cb6(0x0008bcb6:/usr/lib/libcamerahal.so), JPEG_HWGetSize:201 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#143dee">addr2line&#19968;&#33324;&#24773;&#20917;&#19979;&#21487;&#20197;&#20351;&#29992;&#23548;&#20986;&#31526;&#21495;&#21518;&#38754;&#32473;&#23450;&#30340;offset&#20316;&#20026;&#21442;&#25968;&#65292;&#20294;&#26159;&#26377;&#22914;&#19979;&#30340;&#20363;&#22806;: </font>
+    </p>
+    <p>
+      <font color="#d60f08">addr2line -a 0x000156dd -e cow/libVideoDecodeV4l2.so </font>
+    </p>
+    <p>
+      <font color="#d60f08">arm-linux-androideabi-addr2line -f -e libstagefright.so&#160;&#160;0007cd0f</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1. PC&#20026;LR&#23492;&#23384;&#22120;&#65292;&#20063;&#23601;&#26159;&#36339;&#36716;&#25351;&#20196;&#30340;&#19979;&#19968;&#26465;&#25351;&#20196;&#22320;&#22336;(addr2line &#26102;&#38656;&#35201;&#22238;&#28335;&#21040;&#36339;&#36716;&#25351;&#20196;&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;* thumb&#25351;&#20196;&#24773;&#20917;&#19979;&#160;&#160;pc - 3
+    </p>
+    <p>
+      &#160;&#160;&#160;* arm &#27169;&#24335;&#19979; pc -4
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2. &#26597;&#30475;binary &#20195;&#30721;&#27573;&#21152;&#36733;&#22320;&#22336;&#26159;&#21542;&#19982;&#25991;&#20214;&#20559;&#31227;&#30456;&#31561;&#65288;&#22823;&#37096;&#20998;&#30456;&#31561;&#65292;&#19981;&#30456;&#31561;&#24773;&#20917;&#19979;
+    </p>
+    <p>
+      &#160;&#160;&#160;pc - binary vm start &#65288;maps &#20013;&#30340;&#36215;&#22987;&#22320;&#22336;&#65289;+ vm_addr - offset &#65288;readelf -l &#20013; .text &#30340;&#20449;&#24687;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      addr2line &#21442;&#25968;&#20013; &#24212;&#25351;&#23450; -iCaf
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#25235;&#21462;tombstone&#30340;&#26041;&#27861;:</b>&#160;adb &#8211;host pull /var/tools/tombstones
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -2539,7 +2655,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1502794291918" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
+<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1504761575739" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1497439770180" FOLDED="true" ID="ID_1800164131" MODIFIED="1502794290654">
 <richcontent TYPE="NODE"><html>
@@ -2626,7 +2742,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1502794231046" POSITION="left">
+<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1504761260837" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2640,7 +2756,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1502794226390">
+<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1504516226612">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2688,7 +2804,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1502794223318">
+<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1504761256029">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2750,7 +2866,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1498033845572">
+<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1504516247588">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2885,7 +3001,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1496650692468" ID="ID_1529457093" MODIFIED="1496650700526" TEXT="camera api1">
+<node CREATED="1496650692468" FOLDED="true" ID="ID_1529457093" MODIFIED="1504761253845" TEXT="camera api1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1496650702938" ID="ID_1766165661" MODIFIED="1496652359648">
 <richcontent TYPE="NODE"><html>
@@ -3128,7 +3244,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1502794238182" POSITION="left">
+<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1504786372652" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     

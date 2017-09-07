@@ -12,7 +12,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1470036184089" FOLDED="true" ID="ID_1965515505" MODIFIED="1493015572635" POSITION="right" TEXT="&#x7b2c;&#x4e94;&#x7ae0;:&#x8f6f;&#x4ef6;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
+<node CREATED="1470036184089" FOLDED="true" ID="ID_1965515505" MODIFIED="1504664709515" POSITION="right" TEXT="&#x7b2c;&#x4e94;&#x7ae0;:&#x8f6f;&#x4ef6;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1470036276458" FOLDED="true" ID="ID_1508203164" MODIFIED="1493015571836" TEXT="&#x7cfb;&#x7edf;&#x63cf;&#x8ff0;&#x7b26;&#x8868;&#x6982;&#x8ff0;">
 <node CREATED="1470036341323" ID="ID_233711255" MODIFIED="1470036939141">
@@ -589,8 +589,7 @@
       <b>&#31995;&#32479;&#30005;&#28304;&#29366;&#24577;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1494212188762" ID="ID_813309607" MODIFIED="1494212423962">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -616,8 +615,7 @@
       &#28145;&#20837;&#30340;&#29366;&#24577;&#28040;&#32791;&#26368;&#23569;&#30340;&#30005;&#37327;(&#27604;&#22914;s0i3&#29366;&#24577;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1494213029014" ID="ID_207884610" MODIFIED="1494213056146">
 <richcontent TYPE="NODE"><html>
@@ -632,8 +630,207 @@
       http://blog.csdn.net/pankul/article/details/22182995
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1504664719249" ID="ID_266458746" MODIFIED="1504664734123" POSITION="right" TEXT="Linux&#x5bf9;ACPI&#x7684;&#x652f;&#x6301;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1504664737195" ID="ID_743594477" MODIFIED="1504664769813">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.acpi sys&#25991;&#20214;&#31995;&#32479;&#19979;&#30340;&#21508;&#20010;&#25991;&#20214;&#30340;&#20316;&#29992;&#25551;&#36848;
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1504664774211" ID="ID_983395618" MODIFIED="1504664790381">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What: /sys/bus/acpi/devices/.../path
+    </p>
+    <p>
+      Date: December 2006
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      This attribute indicates the full path of ACPI namespace
+    </p>
+    <p>
+      object associated with the device object.&#160;&#160;For example,
+    </p>
+    <p>
+      \_SB_.PCI0.
+    </p>
+    <p>
+      This file is not present for device objects representing
+    </p>
+    <p>
+      fixed ACPI hardware features (like power and sleep
+    </p>
+    <p>
+      buttons).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      What: /sys/bus/acpi/devices/.../modalias
+    </p>
+    <p>
+      Date: July 2007
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      This attribute indicates the PNP IDs of the device object.
+    </p>
+    <p>
+      That is acpi:HHHHHHHH:[CCCCCCC:].&#160;&#160;Where each HHHHHHHH or
+    </p>
+    <p>
+      CCCCCCCC contains device object's PNPID (_HID or _CID).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      What: /sys/bus/acpi/devices/.../hid
+    </p>
+    <p>
+      Date: April 2005
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      This attribute indicates the hardware ID (_HID) of the
+    </p>
+    <p>
+      device object.&#160;&#160;For example, PNP0103.
+    </p>
+    <p>
+      This file is present for device objects having the _HID
+    </p>
+    <p>
+      control method.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      What: /sys/bus/acpi/devices/.../description
+    </p>
+    <p>
+      Date: October 2012
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      This attribute contains the output of the device object's
+    </p>
+    <p>
+      _STR control method, if present.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      What: /sys/bus/acpi/devices/.../adr
+    </p>
+    <p>
+      Date: October 2012
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      This attribute contains the output of the device object's
+    </p>
+    <p>
+      _ADR control method, which is present for ACPI device
+    </p>
+    <p>
+      objects representing devices having standard enumeration
+    </p>
+    <p>
+      algorithms, such as PCI.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      What: /sys/bus/acpi/devices/.../uid
+    </p>
+    <p>
+      Date: October 2012
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      This attribute contains the output of the device object's
+    </p>
+    <p>
+      _UID control method, if present.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      What: /sys/bus/acpi/devices/.../eject
+    </p>
+    <p>
+      Date: December 2006
+    </p>
+    <p>
+      Contact: Rafael J. Wysocki &lt;rjw@rjwysocki.net&gt;
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      Writing 1 to this attribute will trigger hot removal of
+    </p>
+    <p>
+      this device object.&#160;&#160;This file exists for every device
+    </p>
+    <p>
+      object that has _EJ0 method.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
