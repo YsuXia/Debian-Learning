@@ -239,8 +239,7 @@
       &#31532;&#22235;&#31456; kobj kset sysfs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1502333853314" ID="ID_1082732740" MODIFIED="1502347613224">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -275,8 +274,7 @@
       kset,&#24182;&#19988;kobj&#37324;&#38754;&#30340;ktype&#26159;&#30001;kset&#36171;&#20104;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -900,7 +898,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492618335035" FOLDED="true" ID="ID_1716444536" MODIFIED="1502333799730" POSITION="right">
+<node CREATED="1492618335035" FOLDED="true" ID="ID_1716444536" MODIFIED="1507709384435" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -987,7 +985,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1502333818346" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1507709382931" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493020020758" FOLDED="true" ID="ID_996974118" MODIFIED="1502333814698">
 <richcontent TYPE="NODE"><html>
@@ -1035,7 +1033,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1495864161465" FOLDED="true" ID="ID_380967431" MODIFIED="1502333819810" POSITION="right" TEXT="&#x5e76;&#x884c;&#x7f16;&#x7a0b;&#x548c;GPU">
+<node CREATED="1495864161465" FOLDED="true" ID="ID_380967431" MODIFIED="1507709380484" POSITION="right" TEXT="&#x5e76;&#x884c;&#x7f16;&#x7a0b;&#x548c;GPU">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1495864180953" ID="ID_1071100540" MODIFIED="1495864364058">
 <richcontent TYPE="NODE"><html>
@@ -1067,6 +1065,18 @@
 <node CREATED="1495701147887" ID="ID_868501819" MODIFIED="1495701150813" TEXT="https://wiki.linaro.org/WorkingGroups/"/>
 <node CREATED="1495712989869" ID="ID_2581395" MODIFIED="1495712994087" TEXT="http://www.tldp.org/HOWTO/Linux-i386-Boot-Code-HOWTO/smpboot.html"/>
 <node CREATED="1502348253198" ID="ID_924128231" MODIFIED="1502348256082" TEXT="https://lkml.org/"/>
+<node CREATED="1506482478103" ID="ID_472080521" MODIFIED="1506482508257">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#22269;&#20869;&#22806;&#23398;&#26415;&#26399;&#21002;&#35770;&#25991;&#32593;&#31449;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </map>

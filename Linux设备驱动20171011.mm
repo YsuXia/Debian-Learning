@@ -4522,8 +4522,7 @@
       <b><i>Platform &#39537;&#21160;&#21644;&#35774;&#22791;&#30340;&#32465;&#23450;&#36807;&#31243;&#20998;&#26512;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1504766961778" ID="ID_229695315" MODIFIED="1504767010979">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4537,8 +4536,7 @@
       int platform_match(struct device *dev, struct device_driver *drv)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -10329,7 +10327,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456929335533" ID="ID_1088410273" MODIFIED="1502869111068" POSITION="right">
+<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1507709497708" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14751,6 +14749,23 @@
   <body>
     <p>
       http://blog.yufeng.info/archives/category/linux_kb/page/2
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1505822974956" ID="ID_1958034353" MODIFIED="1505822985028" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x5f00;&#x6e90;&#x9879;&#x76ee;">
+<node CREATED="1505822992572" ID="ID_165995557" MODIFIED="1505823062565">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Linux Easy Profiling&#23435;&#23453;&#21326;&#32769;&#24072;&#25171;&#36896;&#30340;linux&#24615;&#33021;&#20998;&#26512;&#24037;&#20855;
+    </p>
+    <p>
+      <font color="#e91212">http://www.linuxep.com</font>
     </p>
   </body>
 </html></richcontent>

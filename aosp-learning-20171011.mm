@@ -1479,7 +1479,7 @@
 </node>
 <node CREATED="1435564212116" ID="ID_1802347718" MODIFIED="1503379549235" POSITION="left" TEXT="4.linux&#x7248;&#x672c;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1435564224130" ID="ID_1217317356" MODIFIED="1503494051308" TEXT="git&#x5b66;&#x4e60;">
+<node CREATED="1435564224130" FOLDED="true" ID="ID_1217317356" MODIFIED="1507709190467" TEXT="git&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502183812413" ID="ID_568706704" MODIFIED="1502183890728">
 <richcontent TYPE="NODE"><html>
@@ -1549,7 +1549,7 @@
 </node>
 <node CREATED="1502184426298" ID="ID_1510917630" MODIFIED="1503494054471" TEXT="Gir Pro&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1502184443554" ID="ID_778677540" MODIFIED="1503494056358">
+<node CREATED="1502184443554" FOLDED="true" ID="ID_778677540" MODIFIED="1507709186395">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1560,7 +1560,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1502184485921" ID="ID_831825345" MODIFIED="1503494058164">
+<node CREATED="1502184485921" FOLDED="true" ID="ID_831825345" MODIFIED="1507709185251">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1810,7 +1810,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492005320793" ID="ID_19007191" MODIFIED="1503379551428">
+<node CREATED="1492005320793" FOLDED="true" ID="ID_19007191" MODIFIED="1507709171363">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1866,7 +1866,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1492005926370" ID="ID_667911999" MODIFIED="1492005959584">
+<node CREATED="1492005926370" FOLDED="true" ID="ID_667911999" MODIFIED="1507709170035">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1929,7 +1929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492091523807" ID="ID_542054995" MODIFIED="1492091533880" TEXT="repo&#x53c2;&#x8003;&#x547d;&#x4ee4;">
+<node CREATED="1492091523807" FOLDED="true" ID="ID_542054995" MODIFIED="1507709168883" TEXT="repo&#x53c2;&#x8003;&#x547d;&#x4ee4;">
 <node CREATED="1492091542373" ID="ID_1274950315" MODIFIED="1492091662341">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2077,6 +2077,27 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1506050494206" FOLDED="true" ID="ID_1345830249" MODIFIED="1507709133803" TEXT="ssh&#x76f8;&#x5173;&#x64cd;&#x4f5c;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1506050507823" ID="ID_248244595" MODIFIED="1506050527288">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#f10e0e">&#26356;&#25442;&#20102;.ssh&#30446;&#24405;&#19979;&#38754;&#30340;&#23494;&#38053;&#20043;&#21518;&#30340;&#26356;&#26032;&#25805;&#20316;:</font></b>
+    </p>
+    <p>
+      ssh-add -D
+    </p>
+    <p>
+      ssh-add id_rsa
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2359,8 +2380,7 @@
       <b>&#25235;&#21462;tombstone&#30340;&#26041;&#27861;:</b>&#160;adb &#8211;host pull /var/tools/tombstones
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2655,7 +2675,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1504761575739" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
+<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1507709042091" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1497439770180" FOLDED="true" ID="ID_1800164131" MODIFIED="1502794290654">
 <richcontent TYPE="NODE"><html>
@@ -2742,7 +2762,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1504761260837" POSITION="left">
+<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1507709094515" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3071,7 +3091,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1502162399425" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
+<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1507709112667" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1496325970164" ID="ID_173538414" MODIFIED="1496325976513" TEXT="mediaserver&#x8be6;&#x89e3;">
 <node CREATED="1496325982101" ID="ID_687050765" MODIFIED="1496327154695">
@@ -3244,7 +3264,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1504786372652" POSITION="left">
+<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1507709114971" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3288,6 +3308,10 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1506408352929" FOLDED="true" ID="ID_1882094916" MODIFIED="1507709043666" POSITION="right" TEXT="13. android &#x5171;&#x4eab;&#x5185;&#x5b58;">
+<node CREATED="1506408366358" ID="ID_541543196" MODIFIED="1506408378534" TEXT="ashmem &#x865a;&#x62df;&#x5730;&#x5740;&#x8fde;&#x7eed;&#x7684;&#x5171;&#x4eab;&#x5185;&#x5b58;"/>
+<node CREATED="1506408382550" ID="ID_816489210" MODIFIED="1506408402224" TEXT="pmem &#x7269;&#x7406;&#x5730;&#x5740;&#x8fde;&#x7eed;&#x7684;&#x5171;&#x4eab;&#x5185;&#x5b58;"/>
 </node>
 </node>
 </map>
