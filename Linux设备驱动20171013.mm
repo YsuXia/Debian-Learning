@@ -14334,7 +14334,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1486555663162" FOLDED="true" ID="ID_217587555" MODIFIED="1491269977973" POSITION="left" TEXT="SDIO&#x9a71;&#x52a8;">
+<node CREATED="1486555663162" FOLDED="true" ID="ID_217587555" MODIFIED="1507898998356" POSITION="left" TEXT="SDIO&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1486555676946" ID="ID_1961085868" MODIFIED="1486555688485" TEXT="sdio&#x6574;&#x4f53;&#x67b6;&#x6784;">
 <node CREATED="1486557770538" ID="ID_278806248" MODIFIED="1486557779967" TEXT="1.sdio&#x4fe1;&#x53f7;&#x5b9a;&#x4e49;">
@@ -14358,6 +14358,19 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1507899001252" ID="ID_162542934" MODIFIED="1507899023880" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Regmap&#26694;&#26550;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1493174169787" ID="ID_720737300" MODIFIED="1493174502890" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -14740,8 +14753,7 @@
       <b><i>&#21407;&#23376;&#25805;&#20316;</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1507723394048" ID="ID_1926308032" MODIFIED="1507723410273" TEXT="arm&#x67b6;&#x6784;&#x5e95;&#x5c42;&#x652f;&#x6301;&#x7684;&#x673a;&#x5236;">
 <node CREATED="1507723414808" ID="ID_1871632326" MODIFIED="1507723474890">
 <richcontent TYPE="NODE"><html>
@@ -14756,8 +14768,7 @@
       <font color="#f00f0f">LDREX STREX &#25351;&#20196;</font><br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1507723508305" ID="ID_552965333" MODIFIED="1507723581338">
 <richcontent TYPE="NODE"><html>
@@ -14772,13 +14783,12 @@
       &#36890;&#36807;&#31105;&#27490;cpu&#20013;&#26029;&#26469;&#23454;&#29616;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1507710825797" POSITION="right">
+<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1507898995010" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
