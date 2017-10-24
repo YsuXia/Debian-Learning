@@ -1458,6 +1458,22 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1508501631356" ID="ID_172284524" MODIFIED="1508502271811" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0d630f"><b>V4L2&#25991;&#26723;&#23398;&#20064;</b></font>
+    </p>
+    <p>
+      <font color="#a00505">&#32593;&#22336;: https://linuxtv.org/downloads/v4l-dvb-apis/uapi/v4l/v4l2.html</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1502794414287" ID="ID_491536815" MODIFIED="1502794425919" POSITION="right" TEXT="MIPI&#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502794468790" ID="ID_1882812769" MODIFIED="1502794511567">
@@ -1778,8 +1794,7 @@
       6.16-bit&#30340;&#26657;&#39564;&#30721;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
