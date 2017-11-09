@@ -1144,7 +1144,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1442123195928" FOLDED="true" ID="ID_857878324" MODIFIED="1501830285947" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
+<node COLOR="#ff0000" CREATED="1442123195928" ID="ID_857878324" MODIFIED="1510230622518" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#330033" CREATED="1442127652218" FOLDED="true" ID="ID_1746631417" MODIFIED="1471850941033">
 <richcontent TYPE="NODE"><html>
@@ -4954,7 +4954,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456407828827" FOLDED="true" ID="ID_1592564339" MODIFIED="1488206295694">
+<node CREATED="1456407828827" FOLDED="true" ID="ID_1592564339" MODIFIED="1510230880798">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4965,7 +4965,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1456407927279" ID="ID_1113365315" MODIFIED="1480233053647">
+<node CREATED="1456407927279" FOLDED="true" ID="ID_1113365315" MODIFIED="1510230874873">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4985,7 +4985,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1456407968915" ID="ID_836813859" MODIFIED="1480233072259">
+<node CREATED="1456407968915" FOLDED="true" ID="ID_836813859" MODIFIED="1510230873418">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5035,7 +5035,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1469369901921" ID="ID_1560500342" MODIFIED="1480233121479" TEXT="RS232 25pin&#x5404;&#x4e2a;&#x4fe1;&#x53f7;&#x7ebf;&#x4f5c;&#x7528;">
+<node CREATED="1469369901921" FOLDED="true" ID="ID_1560500342" MODIFIED="1510230872083" TEXT="RS232 25pin&#x5404;&#x4e2a;&#x4fe1;&#x53f7;&#x7ebf;&#x4f5c;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1469369989257" ID="ID_1355713725" MODIFIED="1469370103254">
 <richcontent TYPE="NODE"><html>
@@ -5484,7 +5484,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456476000084" ID="ID_365512776" MODIFIED="1480239093607">
+<node CREATED="1456476000084" FOLDED="true" ID="ID_365512776" MODIFIED="1510230869301">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5522,7 +5522,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1456478411977" ID="ID_1334213737" MODIFIED="1480239095824">
+<node CREATED="1456478411977" FOLDED="true" ID="ID_1334213737" MODIFIED="1510230867749">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5542,7 +5542,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1456479830913" ID="ID_386785365" MODIFIED="1480239097671">
+<node CREATED="1456479830913" FOLDED="true" ID="ID_386785365" MODIFIED="1510230865647">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6110,7 +6110,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479567503447" ID="ID_347252617" MODIFIED="1480160111680">
+<node CREATED="1479567503447" FOLDED="true" ID="ID_347252617" MODIFIED="1510230858734">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6130,7 +6130,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1479567547992" ID="ID_1011669690" MODIFIED="1479570903289">
+<node CREATED="1479567547992" FOLDED="true" ID="ID_1011669690" MODIFIED="1510230857603">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6172,8 +6172,26 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1506440458615" ID="ID_1081794815" MODIFIED="1506440666463">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#30005;&#36335;&#22270;&#19978;&#30475;OM1&#30005;&#24179;&#24050;&#32463;&#38480;&#23450;&#20026;0&#20102;&#65292;
+    </p>
+    <p>
+      &#20174;s3c2440a&#30340;datasheet&#19978;&#24471;&#30693;&#65292;&#22914;&#26524;OM0&#26159;0,&#21017;&#20174;nand flash&#21551;&#21160;&#65292;&#19988;bus&#30340;&#24102;&#23485;&#26159;32bit
+    </p>
+    <p>
+      &#22914;&#26524;OM0&#26159;1,&#37027;&#20040;bus&#30340;&#24102;&#23485;&#23601;&#26159;16bit
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1479572163064" ID="ID_1308911755" MODIFIED="1479657166356">
+</node>
+<node CREATED="1479572163064" FOLDED="true" ID="ID_1308911755" MODIFIED="1510230856285">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6196,6 +6214,260 @@
     </p>
     <p>
       &#26657;&#39564;&#25968;&#25454;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1503322520811" ID="ID_1251517085" MODIFIED="1503413452487">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ECC&#26657;&#39564;&#33021;&#22815;&#32416;&#27491;&#21333;&#27604;&#29305;&#38169;&#35823;&#21644;&#26816;&#27979;&#21040;&#21452;&#27604;&#29305;&#38169;&#35823;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1503824182797" FOLDED="true" ID="ID_1023527406" MODIFIED="1510230761840">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22522;&#20110;Hamming&#31639;&#27861;&#30340;ECC&#26657;&#39564;&#30721;&#30340;&#29983;&#25104;
+    </p>
+    <p>
+      &#35813;&#31639;&#27861;&#20250;&#29983;&#25104;&#20004;&#32452;ECC&#26657;&#39564;&#30721;&#65292;&#26657;&#39564;&#30721;&#24403;&#20013;&#30340;&#27599;&#20010;bit&#37117;&#20195;&#34920;&#20102;&#19968;&#20010;
+    </p>
+    <p>
+      &#34987;&#35745;&#31639;&#36807;&#30340;&#25968;&#25454;&#21253;&#24403;&#20013;&#30340;&#19968;&#21322;&#30340;&#25968;&#25454;&#30340;&#22855;&#20598;&#26657;&#39564;&#30721;&#12290;
+    </p>
+    <p>
+      &#20026;&#20102;&#35745;&#31639;&#25152;&#26377;&#30340;ECC&#24403;&#20013;&#30340;&#27599;&#20010;bit&#30340;&#25968;&#20540;&#65292;&#25152;&#26377;&#30340;&#25968;&#25454;&#21253;&#20250;&#25353;&#29031;
+    </p>
+    <p>
+      1/2, 1/4&#20570;&#21010;&#20998;&#65292;&#30452;&#21040;&#21010;&#20998;&#30340;&#31890;&#24230;&#21464;&#26368;&#23567;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1503825046869" ID="ID_1202489675" MODIFIED="1503825230618">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="ECC/ECC-Partition.png" />
+      
+    </p>
+    <p>
+      <b><font color="#dd0101">&#20174;&#19978;&#22270;&#21487;&#20197;&#30475;&#21040;&#65292;&#23545;&#20110;8bit&#25968;&#25454;&#30340;&#21010;&#20998;&#65292;&#20808;&#25353;&#29031;1/2&#36827;&#34892;&#21010;&#20998;&#65292;&#28982;&#21518;&#25353;&#29031;1/4&#36827;&#34892;&#21010;&#20998;(&#21363;2&#20010;bit&#20026;&#19968;&#32452;&#36827;&#34892;&#21010;&#20998;)&#65292;&#30452;&#21040; </font></b>
+    </p>
+    <p>
+      <b><font color="#dd0101">&#26368;&#21518;&#25353;&#29031;1bit&#36827;&#34892;&#21010;&#20998;&#12290;&#21010;&#20998;&#20986;&#26469;&#30340;&#32452;&#20998;&#25104;&#22855;&#25968;&#32452;&#21644;&#20598;&#25968;&#32452;&#65292;&#20998;&#21035;&#35745;&#31639;&#20182;&#20204;&#30340;&#22855;&#20598;&#26657;&#39564;&#30721;&#65292;&#28982;&#21518;&#32452;&#21512;&#25104;&#19968;&#20010;ECC&#26657;&#39564;&#30721;&#12290;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1503825811315" ID="ID_707947956" MODIFIED="1503825965942">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#31181;Hamming&#32534;&#30721;&#30340;ECC&#26657;&#39564;&#30721;&#21487;&#20197;&#26657;&#39564;2^n&#20010;&#25968;&#25454;&#12290;
+    </p>
+    <p>
+      &#27604;&#22914;&#19968;&#20010;6bit&#30340;ECC&#26657;&#39564;&#30721;&#65292;&#35813;&#26657;&#39564;&#30721;&#26159;&#30001;3bit&#30340;&#22855;&#26657;&#39564;&#30721;
+    </p>
+    <p>
+      &#21644;3bit&#30340;&#20598;&#26657;&#39564;&#30721;&#32452;&#25104;&#30340;&#65292;&#21363;&#24403;&#21069;&#30340;n&#30340;&#20540;&#26159;3,&#25152;&#20197;&#21487;&#20197;&#26657;&#39564;
+    </p>
+    <p>
+      2^3 = 8bit&#30340;&#25968;&#25454;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1503210304469" FOLDED="true" ID="ID_310320755" MODIFIED="1510230783698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#35813;&#33455;&#29255;&#30340;&#25968;&#25454;&#20301;&#23485;&#24230;&#26159;8bit</b>
+    </p>
+    <p>
+      &#39029;&#22823;&#23567;&#26159;2048+64 byte,&#20854;&#20013;64&#23383;&#33410;&#26159;spare area(&#38386;&#32622;&#21306;&#22495;)
+    </p>
+    <p>
+      Block Size: 64&#20010;&#39029;&#22823;&#23567;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>nand flash&#25509;&#21475;:</b>
+    </p>
+    <p>
+      Open NAND Flash Interface (ONFI) 1.0 compliant
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1503213478597" ID="ID_1771079032" MODIFIED="1503213565912">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#25968;&#25454;&#20256;&#36755;&#30340;8&#20010;&#24341;&#33050;&#36824;&#35201;&#20316;&#20026;&#21629;&#20196;&#20256;&#36755;&#65292;&#22320;&#22336;&#35774;&#32622;&#30340;&#24341;&#33050;&#12290;
+    </p>
+    <p>
+      8&#20010;&#24341;&#33050;&#20877;&#37197;&#21512;&#19981;&#21516;&#20316;&#29992;&#26631;&#35782;&#30340;&#20854;&#20182;&#24341;&#33050;&#65292;&#23601;&#21487;&#20197;&#23454;&#29616;8&#20010;&#24341;&#33050;&#30340;&#22797;&#29992;&#21151;&#33021;&#12290;
+    </p>
+    <p>
+      Commands, Data, and Addresses are asynchronously introduced using CE#, WE#, ALE, and CLE control
+    </p>
+    <p>
+      pins.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1503213760603" ID="ID_1733076313" MODIFIED="1503213790668">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#26377;&#19968;&#20010;&#36755;&#20986;&#24341;&#33050;&#21487;&#20197;&#26631;&#35782;&#24403;&#21069;&#33455;&#29255;&#30340;&#29366;&#24577;</b>
+    </p>
+    <p>
+      The output pin R/B# (open drain buffer) signals the status of the device during each operation. It identifies if
+    </p>
+    <p>
+      the program/erase/read controller is currently active. The use of an open-drain output allows the Ready/Busy
+    </p>
+    <p>
+      pins from several memories to connect to a single pull-up resistor. In a system with multiple memories the
+    </p>
+    <p>
+      R/B# pins can be connected all together to provide a global status signal.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1503840976726" ID="ID_1400867365" MODIFIED="1503846602064">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="ECC/nand-flash-&#x7535;&#x8def;&#x8fde;&#x63a5;&#x56fe;.png" />
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      WE &#20889;&#20351;&#33021;&#24341;&#33050; GPA19
+    </p>
+    <p>
+      ALE &#22320;&#22336;&#20351;&#33021;&#24341;&#33050; GPA18
+    </p>
+    <p>
+      CE &#33455;&#29255;&#20351;&#33021;&#24341;&#33050; GPA22
+    </p>
+    <p>
+      RE &#35835;&#20351;&#33021;&#24341;&#33050; GPA20
+    </p>
+    <p>
+      WP &#20889;&#20445;&#25252;
+    </p>
+    <p>
+      RDY/B ready/busy
+    </p>
+    <p>
+      CLE <b><font color="#cc0f0f">command latch enable</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1505650759018" ID="ID_95003080" MODIFIED="1505652734174">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CFI&#25509;&#21475;(Common Flash Interface)
+    </p>
+    <p>
+      &#35813;&#25509;&#21475;&#35268;&#33539;&#26159;JEDEC(&#30005;&#23376;&#22120;&#20214;&#24037;&#31243;&#32852;&#21512;&#22996;&#21592;&#20250;)&#21046;&#23450;&#30340;&#65292;&#30446;&#30340;&#26159;&#24110;&#21161;&#31243;&#24207;&#35835;&#21462;flash&#30340;<br />&#21046;&#36896;&#21830;id,&#35774;&#22791;id,&#30830;&#23450;flash&#30340;&#22823;&#23567;&#65292;&#33719;&#21462;flash&#30340;&#21508;&#31181;&#29289;&#29702;&#20449;&#24687;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1505654295675" FOLDED="true" ID="ID_1237490696" MODIFIED="1510230700595">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#114fe0">SDRAM&#30340;&#30828;&#20214;&#37096;&#32626;&#24773;&#20917; </font></b>
+    </p>
+    <p>
+      &#20351;&#29992;&#30340;&#26159;EM63A165TS&#65292;&#26159;&#19968;&#20010;&#39640;&#36895;&#30340;cmos&#21516;&#27493;&#21160;&#24577;&#38543;&#26426;&#23384;&#20648;&#22120;SDRAM
+    </p>
+    <p>
+      &#23427;&#21253;&#21547;&#26377;256Mbit&#30340;&#23481;&#37327;&#65292;&#23427;&#30340;&#20869;&#37096;&#34987;&#37197;&#32622;&#25104;4 x 4M words * 16 bit
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1505655142405" ID="ID_1966225360" MODIFIED="1505657063025">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      soc&#30340;LADDR2-LADDR14&#26159;&#36319;&#33455;&#29255;&#30340;A0-A12&#30456;&#36830;&#30340;,
+    </p>
+    <p>
+      LADDR24, LADDR25&#36830;&#25509;&#30528;&#33455;&#29255;&#30340;BA0,BA1
+    </p>
+    <p>
+      A0-A12&#29992;&#20110;&#36873;&#25321;&#26576;&#20010;bank&#24403;&#20013;&#30340;&#20855;&#20307;&#30340;&#19968;&#20010;&#22320;&#22336;&#20301;&#32622;&#65292;<b>&#20854;&#20013;A0-A8&#23450;&#20041;&#21015;&#22320;&#22336;&#65292;A10&#23450;&#20041;&#26159;&#21542;Precharge</b>
+    </p>
+    <p>
+      <b>&#28982;&#21518;A0-A12&#29992;&#20110;&#23450;&#20041;&#34892;&#22320;&#22336;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1506439164812" ID="ID_1335165329" MODIFIED="1506439184406">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20301;&#23485;:
+    </p>
+    <p>
+      16 bit
     </p>
   </body>
 </html></richcontent>
@@ -7192,6 +7464,51 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1510230634047">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#b00d0d">uboot&#35774;&#22791;&#26641;&#21644;&#35774;&#22791;&#27169;&#22411;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1505834796830" ID="ID_280403561" MODIFIED="1505836320842">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26723;doc/README.fdt-control&#38405;&#35835;:
+    </p>
+    <p>
+      #define CONFIG_DEFAULT_DEVICE_TREE&#160;&#160;&quot;&lt;name&gt;&quot; &#20351;&#29992;&#35813;&#23439;&#23450;&#20041;&#26469;&#35774;&#32622;&#35774;&#22791;&#26641;&#28304;&#25991;&#20214;&#30340;&#21517;&#31216;
+    </p>
+    <p>
+      &#28982;&#21518;&#23558;&#25991;&#20214;&#25918;&#32622;&#21040;&#30446;&#24405; board/&lt;vendor&gt;/dts/&lt;name&gt;.dts &#19979;&#38754;
+    </p>
+    <p>
+      &#24403;&#28982;&#35813;dts&#25991;&#20214;&#21487;&#33021;&#20250;&#24341;&#29992;&#21040;&#20320;&#30340;&#24320;&#21457;&#26495;&#30340;soc&#30456;&#20851;&#30340;&#35774;&#22791;&#26641;&#25991;&#20214;&#65292;&#36825;&#20123;&#25991;&#20214;&#25918;&#32622;&#22312;&#30446;&#24405;arch/&lt;arch&gt;/dts
+    </p>
+    <p>
+      &#22914;&#26524;&#23439; CONFIG_OF_EMBED &#34987;&#23450;&#20041;&#65292; &#37027;&#20040;dtb&#23558;&#34987;&#30452;&#25509;&#25918;&#32622;&#21040;u-boot.bin&#25991;&#20214;&#37324;&#38754;&#65292;&#36825;&#31181;&#26041;&#24335;&#36866;&#21512;&#20110;&#24320;&#21457;
+    </p>
+    <p>
+      &#21644;debug,&#20294;&#26159;&#19981;&#36866;&#21512;&#20110;&#20135;&#21697;&#30340;&#21457;&#24067;&#24418;&#24335;
+    </p>
+    <p>
+      &#22914;&#26524;CONFIG_OF_SEPARATE&#34987;&#23450;&#20041;&#65292;&#37027;&#20040;dtb&#21644;u-boot&#20250;&#34987;&#21333;&#29420;&#32534;&#35793;&#20986;&#26469;&#65292;&#21487;&#20197;&#20351;&#29992;&#19979;&#38754;&#30340;&#21629;&#20196;&#23558;&#20004;&#32773;&#32452;&#21512;
+    </p>
+    <p>
+      cat u-boot.bin u-boot.dtb &gt;image.bin
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node COLOR="#009933" CREATED="1445351839072" FOLDED="true" ID="ID_1683018728" MODIFIED="1488206363242" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -7404,7 +7721,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1488206365554" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
+<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1510230565882" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471275813283" FOLDED="true" ID="ID_545263273" MODIFIED="1474811443087" TEXT="1.&#x6307;&#x4ee4;cache&#x548c;&#x6570;&#x636e;cache">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -7735,7 +8052,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473579425727" ID="ID_183642504" MODIFIED="1488206241389">
+<node CREATED="1473579425727" FOLDED="true" ID="ID_183642504" MODIFIED="1510230564770">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7746,7 +8063,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1473579560830" FOLDED="true" ID="ID_1848646619" MODIFIED="1474811447453">
+<node CREATED="1473579560830" FOLDED="true" ID="ID_1848646619" MODIFIED="1510230563394">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7842,7 +8159,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1487085527289" FOLDED="true" ID="ID_572304124" MODIFIED="1488206250514" TEXT="&#x534f;&#x5904;&#x7406;&#x5668;&#x5404;&#x5bc4;&#x5b58;&#x5668;&#x4f5c;&#x7528;">
+<node CREATED="1487085527289" FOLDED="true" ID="ID_572304124" MODIFIED="1510230531472" TEXT="&#x534f;&#x5904;&#x7406;&#x5668;&#x5404;&#x5bc4;&#x5b58;&#x5668;&#x4f5c;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1487085560599" ID="ID_1923470276" MODIFIED="1487168709196">
 <richcontent TYPE="NODE"><html>
@@ -8122,9 +8439,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1501557640100" FOLDED="true" ID="ID_951202516" MODIFIED="1501830291995" POSITION="right" TEXT="ARMV8&#x67b6;&#x6784;">
+<node CREATED="1501557640100" FOLDED="true" ID="ID_951202516" MODIFIED="1510230569786" POSITION="right" TEXT="ARMV8&#x67b6;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1488165252952" FOLDED="true" ID="ID_1669548965" MODIFIED="1501557876397">
+<node CREATED="1488165252952" FOLDED="true" ID="ID_1669548965" MODIFIED="1510230568650">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8170,12 +8487,12 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1501557694289" FOLDED="true" ID="ID_1986806430" MODIFIED="1501830058735" TEXT="armv8&#x67b6;&#x6784;&#x5bf9;&#x5e94;&#x7684;&#x5904;&#x7406;&#x5668;&#x7c7b;&#x578b;">
+<node CREATED="1501557694289" FOLDED="true" ID="ID_1986806430" MODIFIED="1510230567585" TEXT="armv8&#x67b6;&#x6784;&#x5bf9;&#x5e94;&#x7684;&#x5904;&#x7406;&#x5668;&#x7c7b;&#x578b;">
 <node CREATED="1501557717928" ID="ID_1067920447" MODIFIED="1501557726040" TEXT="Cortex-A53"/>
 <node CREATED="1501557735889" ID="ID_975404402" MODIFIED="1501557741993" TEXT="Cortex-A57"/>
 </node>
 </node>
-<node CREATED="1501557851023" FOLDED="true" ID="ID_777178217" MODIFIED="1501830266282" POSITION="right">
+<node CREATED="1501557851023" FOLDED="true" ID="ID_777178217" MODIFIED="1510230427993" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8191,8 +8508,35 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1501557893221" ID="ID_1138115973" MODIFIED="1501557900357" TEXT="&#x5bf9;&#x5e94;&#x7684;&#x5904;&#x7406;&#x5668;&#x578b;&#x53f7;"/>
+<node CREATED="1506250857678" ID="ID_558212292" MODIFIED="1506252829148">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      armv7&#26550;&#26500;&#26377;&#19977;&#20010;&#23618;&#38754;:
+    </p>
+    <p>
+      A&#20195;&#34920;&#24212;&#29992;
+    </p>
+    <p>
+      R&#20195;&#34920;&#23454;&#26102;
+    </p>
+    <p>
+      M&#20195;&#34920;&#24494;&#25511;&#21046;
+    </p>
+    <p>
+      &#30001;&#20110;A&#21644;R&#20855;&#26377;&#24456;&#22810;&#30456;&#20284;&#30340;&#22320;&#26041;&#65292;&#25152;&#20197;&#23427;&#20204;&#34987;&#25918;&#32622;&#21040;&#21516;&#19968;&#20010;mannual&#37324;&#38754;&#36827;&#34892;&#25551;&#36848;
+    </p>
+    <p>
+      M&#31995;&#21015;&#34987;&#21333;&#29420;&#25918;&#32622;&#21040;&#19968;&#20010;mannual&#25991;&#26723;&#37324;&#38754;&#36827;&#34892;&#25551;&#36848;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1502105108418" FOLDED="true" ID="ID_1087043511" MODIFIED="1507709313899" POSITION="right" TEXT="&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x76f8;&#x5173;&#x7684;&#x4e66;&#x7c4d;">
+</node>
+<node CREATED="1502105108418" FOLDED="true" ID="ID_1087043511" MODIFIED="1510230889097" POSITION="right" TEXT="&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x76f8;&#x5173;&#x7684;&#x4e66;&#x7c4d;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502105123113" ID="ID_915899844" MODIFIED="1502105415848">
 <richcontent TYPE="NODE"><html>
@@ -8239,7 +8583,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1506060326806" FOLDED="true" ID="ID_2213276" MODIFIED="1507709310827">
+<node CREATED="1506060326806" FOLDED="true" ID="ID_2213276" MODIFIED="1510230404338">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8296,6 +8640,60 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1504343386589" ID="ID_383848503" MODIFIED="1504343396007" TEXT="NVIDIA&#xae; Jetson&#x2122; TX1/TX2">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1509288952491" FOLDED="true" ID="ID_1086060493" MODIFIED="1510230581444" POSITION="left" TEXT="BeagleBone Balck&#x5f00;&#x53d1;&#x677f;&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1509289374385" ID="ID_1436234014" MODIFIED="1509290260177">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#36164;&#26009;&#30340;&#33719;&#21462;
+    </p>
+    <p>
+      &#20174;&#32593;&#31449;https://elinux.org/Beagleboard:BeagleBoneBlack#LATEST_PRODUCTION_FILES_.28C.29&#21487;&#20197;
+    </p>
+    <p>
+      &#33719;&#21462;&#21407;&#29702;&#22270;&#65292;&#20301;&#21495;&#22270;&#30340;&#36164;&#26009;&#12290;
+    </p>
+    <p>
+      .art .drl &#25991;&#20214;&#65292; &#36825;&#20123;&#25991;&#20214;&#37117;&#26159;gerber&#26684;&#24335;&#30340;&#25991;&#20214;&#65292;gerber&#26159;pcb&#35774;&#35745;&#24403;&#20013;&#20351;&#29992;&#21040;&#30340;&#19968;&#31181;&#25968;&#25454;&#26684;&#24335;
+    </p>
+    <p>
+      &#22312;ubuntu&#29615;&#22659;&#19979;&#38754;&#20351;&#29992;gerbv&#36825;&#20010;&#36719;&#20214;&#21487;&#20197;&#38405;&#35835;gerber&#30340;&#25968;&#25454;&#25991;&#20214;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1509460225854" FOLDED="true" ID="ID_1300908732" MODIFIED="1510230580475" TEXT="dts&#x7ed3;&#x6784;&#x5206;&#x6790;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1509460270320" ID="ID_1731286474" MODIFIED="1509460273318" TEXT="am335x-boneblack.dts">
+<node CREATED="1509460284043" ID="ID_360689261" MODIFIED="1509460286490" TEXT="am33xx.dtsi">
+<node CREATED="1509460324906" ID="ID_626582710" MODIFIED="1509460327835" TEXT="skeleton.dtsi"/>
+</node>
+<node CREATED="1509460300271" ID="ID_1948923016" MODIFIED="1509460303130" TEXT="am335x-bone-common.dtsi">
+<node CREATED="1509460370529" ID="ID_577143681" MODIFIED="1509460373280" TEXT="am33xx.dtsi"/>
+</node>
+</node>
+<node CREATED="1509460421090" ID="ID_467692288" MODIFIED="1509460423549" TEXT="am335x-evm.dts">
+<node CREATED="1509460433634" ID="ID_719017114" MODIFIED="1509460436421" TEXT="am33xx.dtsi"/>
+</node>
+<node CREATED="1509460455554" ID="ID_1642337363" MODIFIED="1509460460177" TEXT="am335x-bone.dts">
+<node CREATED="1509460468074" ID="ID_717711731" MODIFIED="1509460470838" TEXT="am33xx.dtsi"/>
+<node CREATED="1509460478979" ID="ID_1829492055" MODIFIED="1509460482008" TEXT="am335x-bone-common.dtsi"/>
+</node>
+<node CREATED="1509460499627" ID="ID_1077455530" MODIFIED="1509460502280" TEXT="am335x-evmsk.dts">
+<node CREATED="1509460510891" ID="ID_32605652" MODIFIED="1509460513779" TEXT="am33xx.dtsi"/>
+</node>
+<node CREATED="1509460534284" ID="ID_1040226702" MODIFIED="1509460536825" TEXT="am335x-tester.dts">
+<node CREATED="1509460544995" ID="ID_266596539" MODIFIED="1509460547763" TEXT="am33xx.dtsi"/>
 </node>
 </node>
 </node>
