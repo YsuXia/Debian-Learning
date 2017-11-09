@@ -14369,8 +14369,7 @@
       <b>Regmap&#26694;&#26550;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1493174169787" ID="ID_720737300" MODIFIED="1493174502890" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -14788,7 +14787,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1507898995010" POSITION="right">
+<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1510224624187" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14800,7 +14799,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1504508011275" FOLDED="true" ID="ID_1976280137" MODIFIED="1507710824965" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x641c;&#x96c6;&#x7684;&#x535a;&#x5ba2;">
+<node CREATED="1504508011275" FOLDED="true" ID="ID_1976280137" MODIFIED="1510224623075" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x641c;&#x96c6;&#x7684;&#x535a;&#x5ba2;">
 <node CREATED="1504508026131" ID="ID_20057698" MODIFIED="1504508033181">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14814,7 +14813,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1505822974956" FOLDED="true" ID="ID_1958034353" MODIFIED="1507710824341" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x5f00;&#x6e90;&#x9879;&#x76ee;">
+<node CREATED="1505822974956" FOLDED="true" ID="ID_1958034353" MODIFIED="1510224619794" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x5f00;&#x6e90;&#x9879;&#x76ee;">
 <node CREATED="1505822992572" ID="ID_165995557" MODIFIED="1505823062565">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14830,6 +14829,30 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1510045832657" FOLDED="true" ID="ID_1482848038" MODIFIED="1510224664947" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0d5edb"><b>Linux&#39537;&#21160;&#24403;&#20013;&#30340;&#20869;&#23384;&#25805;&#20316;&#20989;&#25968;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1510052035358" ID="ID_1184838772" MODIFIED="1510060438697">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      copy_to_user &#21644; copy_from_user
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
