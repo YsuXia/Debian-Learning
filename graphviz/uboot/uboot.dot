@@ -25,6 +25,7 @@ digraph uboot{
 
 	subgraph cluster_struct_bd_info{
 		label="struct bd_info";
+		bgcolor="powderblue";
 		"struct bd_info"[label="{
 		unsigned long   bi_memstart\n*****start of DRAM memory****
     	|phys_size_t bi_memsize\n*******size  of DRAM memory in bytes*****
@@ -91,7 +92,38 @@ digraph uboot{
 	}
 
 
-
+	subgraph cluster_struct_flash_info_t{
+		label="struct flash_info_t";
+		bgcolor="pink";
+		"struct flash_info_t"[label="{
+		ulong   size *****************total bank size in bytes
+    |ushort  sector_count *************number of erase units
+    |ulong   flash_id *****************combined device and manufacturer code
+    |ulong   start\[CONFIG_SYS_MAX_FLASH_SECT\] ******virtual sector start address
+    |uchar   protect\[CONFIG_SYS_MAX_FLASH_SECT\] ******sector protection status
+    |uchar   portwidth  *****************the width of the port
+    |uchar   chipwidth  ******************the width of the chip
+    |ushort  buffer_size ***************of bytes in write buffer
+    |ulong   erase_blk_tout **************maximum block erase timeout
+    |ulong   write_tout ****************maximum write timeout
+    |ulong   buffer_write_tout ***********maximum buffer write timeout
+    |ushort  vendor **********************the primary vendor id
+    |ushort  cmd_reset;  ***************vendor specific reset command
+    |uchar   cmd_erase_sector **********vendor specific erase sect command
+    |ushort  interface  ****************used for x8\/x16 adjustments
+    |ushort  legacy_unlock *************support Intel legacy \(un\)locking
+    |ushort  manufacturer_id  *************manufacturer id
+    |ushort  device_id  ******************device id
+    |ushort  device_id2 *******************extended device id
+    |ushort  ext_addr  *******************extended query table address
+    |ushort  cfi_version  ***************cfi version
+    |ushort  cfi_offset   ****************offset for cfi query
+    |ulong   addr_unlock1  **************unlock address 1 for AMD flash roms
+    |ulong   addr_unlock2 *************unlock address 2 for AMD flash roms
+    |const char *name  ******************human-readable name
+    |struct mtd_info *mtd
+	}"];
+	}
 
 
 
