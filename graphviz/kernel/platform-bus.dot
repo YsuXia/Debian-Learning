@@ -161,7 +161,21 @@ digraph platform_bus{
     	|struct pdev_archdata    archdata;
 	}"];
 	}
+	subgraph cluster_struct_platform_driver{
+		label="struct platform_driver";
+		"struct platform_driver"[label="{
+			int (*probe)(struct platform_device *)
+			|int (*remove)(struct platform_device *)
+			|void (*shutdown)(struct platform_device *)
+			|int (*suspend)(struct platform_device *, pm_message_t state)
+			|int (*resume)(struct platform_device *)
+			|<driver>struct device_driver driver
+			|const struct platform_device_id *id_table
+		}"];
+	}
+
 	"struct platform_device":dev->"struct device"[color=red];
+	"struct platform_driver":driver->"struct device_driver"[color=red];
 
 	subgraph cluster_struct_device{
 		label="struct device";
@@ -178,7 +192,7 @@ digraph platform_bus{
 		|void     *driver_data
 		|struct dev_pm_info  power
 		|<pm_domain>struct dev_pm_domain    *pm_domain
-    |struct irq_domain   *msi_domain;
+    |<irq>struct irq_domain   *msi_domain;
     |<pins>struct dev_pin_info *pins;
     |struct list_head    msi_list;
     |int     numa_node
@@ -207,6 +221,7 @@ digraph platform_bus{
 	}
 	"struct device":driver->"struct device_driver"[color=blue];
 	"struct device":class->"struct class"[color=red];
+	"struct device":irq->"struct irq_domain"[color=brown label="msi_domain"];
 
 	subgraph cluster_struct_class{
 		label="struct class";
@@ -502,11 +517,28 @@ digraph platform_bus{
     |bool supports_gpio;
     |struct pinctrl_gpio_range grange;
     |struct device_node *node;
-    |const struct msm_pintype_data *pintype_data;
+    |<pintype>const struct msm_pintype_data *pintype_data;
 	}"];
 	}
 	"struct msm_tlmm_desc":pintypes->"struct msm_pintype_info"[color=blue];
 	"struct msm_pintype_info":gc->"struct gpio_chip"[color=red];
+	"struct msm_pintype_info":pintype->"struct msm_pintype_data"[color=blue];
+
+	subgraph cluster_struct_msm_pintype_data{
+		label="struct msm_pintype_data";
+		"struct msm_pintype_data"[label=<
+		<table>
+			<tr>
+				<td>unsigned long reg_base_offset</td>
+			</tr>
+			<tr>
+				<td>u32 gp_reg_size</td>
+				<td>s32 sdc_reg_offsets[MSM_PINTYPE_SDC_REGS_MAX]</td>
+				<td>s32 ebi_reg_offsets[MSM_PINTYPE_EBI_REGS_MAX]</td>
+			</tr>
+		</table>
+		>];
+	}
 
 	subgraph cluster_struct_gpio_chip{
 		label="struct gpio_chip";
@@ -579,5 +611,154 @@ digraph platform_bus{
 	|const char      *label
 	|const char      *name
 	}"];
-	}
+
+	}	
+	
+subgraph cluster_struct_irq_domain{
+	label="struct irq_domain";
+	bgcolor="purple";
+	"struct irq_domain"[label="{
+*****硬件中断号的翻译实体******
+	|struct list_head link
+    |const char *name
+    |<ops>const struct irq_domain_ops *ops
+    |void *host_data
+    |unsigned int flags
+    |struct fwnode_handle *fwnode
+    |enum irq_domain_bus_token bus_token
+    |struct irq_domain_chip_generic *gc
+    |struct irq_domain *parent
+    |irq_hw_number_t hwirq_max\n*****该中断控制器里面最大的hw interrrupt id的值******
+    |unsigned int revmap_direct_max_irq
+    |unsigned int revmap_size\n***线性映射的size,for radix map和no map，该值是0***
+    |struct radix_tree_root revmap_tree
+    |unsigned int linear_revmap\[\]\n***线性映射使用到的查找表****
+}"];
+}
+
+"struct irq_domain":ops->"struct irq_domain_ops"[color=blue label="ops"];
+
+subgraph cluster_struct_irq_domain_ops{
+	label="struct irq_domain_ops";
+	bgcolor="green";
+	"struct irq_domain_ops"[label="{
+	int \(*match\)\(struct irq_domain *d, struct device_node *node,\r
+                    enum irq_domain_bus_token bus_token\)\r
+    |int \(*map\)\(struct irq_domain *d, unsigned int virq, irq_hw_number_t hw\)\r
+    |void \(*unmap\)\(struct irq_domain *d, unsigned int virq\)\r
+    |int \(*xlate\)\(struct irq_domain *d, struct device_node *node,\r
+                    const u32 *intspec, unsigned int intsize,\r
+                    unsigned long *out_hwirq, unsigned int *out_type\)\r
+	|int \(*alloc\)\(struct irq_domain *d, unsigned int virq,\r
+                    unsigned int nr_irqs, void *arg\)\r
+    |void \(*free\)\(struct irq_domain *d, unsigned int virq,\r
+                     unsigned int nr_irqs\)\r
+    |void \(*activate\)\(struct irq_domain *d, struct irq_data *irq_data\)
+    |void \(*deactivate\)\(struct irq_domain *d, struct irq_data *irq_data\)
+    |int \(*translate\)\(struct irq_domain *d, struct irq_fwspec *fwspec,\r
+                         unsigned long *out_hwirq, unsigned int *out_type\)\r
+}"];
+}
+	
+subgraph cluster_struct_irq_desc{
+	label="struct irq_desc";
+	bgcolor="brown";
+	"struct irq_desc"[label="{
+    |******中断例程描述符******\n****通过virq索引到irq_desc*****
+	|struct irq_common_data  irq_common_data
+    |<data>struct irq_data     irq_data
+    |unsigned int __percpu   *kstat_irqs
+    |irq_flow_handler_t  handle_irq
+	|<action>struct irqaction    *action
+    |unsigned int        status_use_accessors
+    |unsigned int        core_internal_state__do_not_mess_with_it
+    |unsigned int        depth
+    |unsigned int        wake_depth
+    |unsigned int        irq_count
+    |unsigned long       last_unhandled
+    |unsigned int        irqs_unhandled
+    |atomic_t        threads_handled
+    |int         threads_handled_last
+    |raw_spinlock_t      lock
+    |struct cpumask      *percpu_enabled
+	|const struct cpumask    *affinity_hint
+    |struct irq_affinity_notify *affinity_notify
+	|cpumask_var_t       pending_mask
+	|unsigned long       threads_oneshot
+    |atomic_t        threads_active
+    |wait_queue_head_t       wait_for_threads
+	|unsigned int        nr_actions
+    |unsigned int        no_suspend_depth
+    |unsigned int        cond_suspend_depth
+    |unsigned int        force_resume_depth
+	|struct proc_dir_entry   *dir
+	|int         parent_irq
+    |struct module       *owner
+    |const char      *name
+}"];
+}
+"struct irq_desc":action->"struct irqaction"[arrowhead=open color=red];
+"struct irq_desc":data->"struct irq_data"[arrowhead=open color=blue label="通过virq找到irq_desc再找到irq_data"];
+
+subgraph cluster_struct_irq_data{
+	label="struct irq_data";
+	"struct irq_data"[label="{
+	u32         mask
+    |unsigned int        irq
+    |unsigned long       hwirq
+    |struct irq_common_data  *common
+    |struct irq_chip     *chip
+    |struct irq_domain   *domain
+    |struct irq_data     *parent_data
+    |void            *chip_data
+}"];
+}
+
+subgraph cluster_struct_irqaction{
+	label="struct irqaction";
+	"struct irqaction"[label="{
+	irq_handler_t       handler
+    |void            *dev_id
+    |void __percpu       *percpu_dev_id
+    |struct irqaction    *next
+    |irq_handler_t       thread_fn
+    |struct task_struct  *thread
+    |struct irqaction    *secondary
+    |unsigned int        irq
+    |unsigned int        flags
+    |unsigned long       thread_flags
+    |unsigned long       thread_mask
+    |const char      *name
+    |struct proc_dir_entry   *dir
+	}"];
+}
+	
+	
+subgraph cluster_struct_gic_chip_data{
+	label="struct gic_chip_data";
+	"struct gic_chip_data"[label="{
+	 union gic_base dist_base
+    |union gic_base cpu_base
+	|u32 saved_spi_enable\[DIV_ROUND_UP\(1020, 32\)\]
+    |u32 saved_spi_active\[DIV_ROUND_UP\(1020, 32\)\]
+    |u32 saved_spi_conf\[DIV_ROUND_UP\(1020, 16\)\]
+    |u32 saved_spi_target\[DIV_ROUND_UP\(1020, 4\)\]
+    |u32 __percpu *saved_ppi_enable
+    |u32 __percpu *saved_ppi_active
+    |u32 __percpu *saved_ppi_conf
+	|<domain>struct irq_domain *domain
+    |unsigned int gic_irqs
+}"];
+}
+"struct gic_chip_data":domain->"struct irq_domain"[color=red label="domain"];
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 }

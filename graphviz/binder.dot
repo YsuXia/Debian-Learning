@@ -1,4 +1,5 @@
 digraph binder{
+	rankdir=BT
 	node[shape=record];
 	subgraph cluster_struct_binder_transaction_data{
 		label="struct binder_transaction_data";
@@ -85,9 +86,429 @@ digraph binder{
 	}"];
 	}
 
+	IBinder[
+		label="{
+			class IBinder|
+			| + virtual sp\<IInterface\>  queryLocalInterface(const String16& descriptor)
+			| + virtual const String16& getInterfaceDescriptor() const = 0
+			| + virtual bool            isBinderAlive() const = 0;
+			| + virtual status_t        pingBinder() = 0;
+			| + virtual status_t        transact(uint32_t code,\nconst Parcel& data,\nParcel* reply,\nuint32_t flags = 0) = 0;
+			| + virtual BBinder*        localBinder()
+			| + virtual BpBinder*       remoteBinder()
+		}"
+	]
 	
+	RefBase[
+		label="{class RefBase||}"
+	]
 
+	BpBinder[
+		label="{
+			class BpBinder|
+			| - const   int32_t   mHandle | - mutable Mutex  mLock | - volatile int32_t    mAlive
+			| - volatile int32_t    mObitsSent | - Vector\<Obituary\>*   mObituaries | - ObjectManager       mObjects | - Parcel*   mConstantData
+			| - mutable String16   mDescriptorCache
+			| + virtual BpBinder*   remoteBinder()|# virtual void        onFirstRef()
+		}"
+	]
+	BpBinder->IBinder[label="public" arrowhead="empty"];
+	IBinder->RefBase[label="virtual" arrowhead="empty"];
+	BBinder[
+		label="{
+			class BBinder|
+			|+ virtual const String16& getInterfaceDescriptor() const
+			|+ virtual bool        isBinderAlive() const
+			|+ virtual status_t    pingBinder()
+			|+ virtual status_t    transact(uint32_t code,\nconst Parcel& data,\nParcel* reply,\nuint32_t flags = 0);\n***调用onTransact*****
+			|# virtual status_t    onTransact( uint32_t code,\nconst Parcel& data,\nParcel* reply,\nuint32_t flags = 0);\n****调用派生类的onTransact来完成具体业务*****
+			|
+			|- BBinder(const BBinder& o)
+			|- BBinder&    operator=(const BBinder& o)
+			|- class Extras
+			|- atomic_uintptr_t    mExtras
+			|- void*       mReserved0
+		}"
+	]
+	BBinder->IBinder[arrowhead="empty"];
+	IInterface[
+		label="{
+			class IInterface|
+			|+ IInterface()|+ sp<IBinder>         asBinder();|+ sp<const IBinder>   asBinder() const
+			|# virtual  ~IInterface()|# virtual IBinder*            onAsBinder() = 0
+		}"
+	]
+	IInterface->RefBase[arrowhead="empty" label="virtual"];
+	IServiceManager[
+		label="{
+			class IServiceManager|
+			|+ DECLARE_META_INTERFACE(ServiceManager) ****这是一个宏定义*****
+			|+ virtual sp\<IBinder\>         getService( const String16& name) const = 0
+			|+ virtual sp\<IBinder\>         checkService( const String16& name) const = 0
+			|+ virtual status_t            addService( const String16& name,\nconst sp\<IBinder\>& service,\nbool allowIsolated = false) = 0;
+			|+ virtual Vector\<String16\>    listServices() = 0
+		}"
+	]
+	IServiceManager->IInterface[arrowhead="empty" label="public"];
+	BnServiceManager[
+		color="red";
+		label="{
+			class BnServiceManager|****这是一个虚类，具体的事物需要子类来实现*****
+			|virtual status_t    onTransact( uint32_t code,\nconst Parcel& data,\nParcel* reply,\nuint32_t flags = 0);
+		}"
+	]
+	BnServiceManager->BnInterface[arrowhead="empty" label="public"];
+	BnInterface[
+		label="{
+			class BnInterface|
+			|+ virtual sp\<IInterface\>      queryLocalInterface(const String16& _descriptor)
+			|+ virtual const String16&     getInterfaceDescriptor() const
+			|# virtual IBinder*            onAsBinder()
+		}"
+	]
+	BnInterface->BBinder[arrowhead="empty" label="public"];
+	BnInterface->IServiceManager[arrowhead="empty" label="public"];
+
+	BpInterface[
+		label="{
+			class BpInterface|
+			|+ BpInterface(const sp<IBinder>& remote)
+			|# virtual IBinder*            onAsBinder()
+		}"
+	]
+	BpInterface->BpRefBase[arrowhead="empty" label="public"];
+	BpInterface->IServiceManager[arrowhead="empty" label="public"];
+	BpRefBase[
+		label="{
+			class BpRefBase|
+			|+ BpRefBase(const sp<IBinder>& o)
+			|+ virtual                 ~BpRefBase()
+			|+ virtual void            onFirstRef()
+			|+ virtual void            onLastStrongRef(const void* id)
+			|+ virtual bool            onIncStrongAttempted(uint32_t flags, const void* id)
+			|- IBinder* const          mRemote ***通过它来向服务端传递消息,指向BpBinder***
+			|- RefBase::weakref_type*  mRefs
+			|- volatile int32_t        mState
+		}"
+	]
+	BpRefBase->RefBase[arrowhead="empty" label="virtual public"];
+	BpServiceManager[
+		color="red";
+		label="{
+			class BpServiceManager|
+			|+ BpServiceManager(const sp\<IBinder\>& impl)
+			|+ virtual sp\<IBinder\> getService(const String16& name) const
+			|+ virtual sp\<IBinder\> checkService(const String16& name) const
+			|+ virtual status_t addService(const String16& name, const sp\<IBinder\>& service,\nbool allowIsolated)
+			|+ virtual Vector\<String16\> listServices()
+		}"
+	]
+	BpServiceManager->BpInterface[arrowhead="empty" label="public"];
+	MediaPlayerService[
+		label="{
+			class MediaPlayerService||
+		}"
+	]
+	BnMediaPlayerService[
+		label="{
+			class BnMediaPlayerService||
+			+ virtual status_t    onTransact( uint32_t code,\nconst Parcel& data,\nParcel* reply,\nuint32_t flags = 0);
+		}"
+	]
+	MediaPlayerService->BnMediaPlayerService[arrowhead="empty" label="public"];
+	BnMediaPlayerService->BnInterface[arrowhead="empty" label="public"];
+	IMediaPlayerService[
+		label="{
+			class IMediaPlayerService|
+			|+ DECLARE_META_INTERFACE(MediaPlayerService)
+			|+ virtual sp\<IMediaRecorder\> createMediaRecorder() = 0
+			|+ virtual sp\<IMediaMetadataRetriever\> createMetadataRetriever() = 0
+			|+ virtual sp\<IMediaPlayer\> create(const sp\<IMediaPlayerClient\>& client, int audioSessionId = 0) = 0
+			|+ virtual status_t         decode(\nconst sp\<IMediaHTTPService\> &httpService,\nconst char* url,\nuint32_t *pSampleRate,\n
+					int* pNumChannels,\naudio_format_t* pFormat,\nconst sp\<IMemoryHeap\>& heap, size_t *pSize) = 0;
+		}"
+	]
+	IMediaPlayerService->IInterface[arrowhead="empty" label="public"];
+	BnInterface->IMediaPlayerService[arrowhead="empty" label="public"];
+
+	CameraService[
+		label="{
+			class CameraService|
+			|- Mutex               mServiceLock;|- std::shared_ptr\<WaitableMutexWrapper\> mServiceLockWrapper
+			|- CameraClientManager mActiveClientManager|- std::map\<String8, std::shared_ptr\<CameraState\>\> mCameraStates
+			|- mutable Mutex mCameraStatesLock|- RingBuffer\<String8\> mEventLog|- Mutex mLogLock
+			|- std::set\<userid_t\> mAllowedUsers|-  int                 mNumberOfCameras;|- int                 mNumberOfNormalCameras
+			|- Mutex               mSoundLock|- sp\<MediaPlayer\>     mSoundPlayer\[NUM_SOUNDS\]|-  int                 mSoundRef
+			|- bool                mInitialized|sp\<CameraProviderManager\> mCameraProviderManager|- std::vector\<sp\<hardware::ICameraServiceListener\>\> mListenerList
+			|- Mutex       mStatusListenerLock|- sp\<CameraFlashlight\> mFlashlight|- Mutex                mTorchStatusMutex
+			|- Mutex                mTorchClientMapMutex|- Mutex                mTorchUidMapMutex|- KeyedVector\<String8, hardware::camera::common::V1_0::TorchModeStatus\> mTorchStatusMap
+			|- KeyedVector\<String8, sp\<IBinder\>\> mTorchClientMap|- std::map\<String8, std::pair\<int, int\>\> mTorchUidMap
+			| wp\<BasicClient\>     mClient\[MAX_CAMERAS\] ******android5.0******			
+		}"
+	]
+	BinderService[
+		label="{
+			class BinderService||
+    + static status_t publish\(bool allowIsolated = false\) \{\n
+        sp\<IServiceManager\> sm\(defaultServiceManager\(\)\);\n
+        return sm-\>addService\(\n
+                String16(SERVICE::getServiceName\(\)\),\n
+                new SERVICE\(\), allowIsolated\);\n
+    \}|
+    + static void publishAndJoinThreadPool\(bool allowIsolated = false\) \{\n
+        publish\(allowIsolated\);\n
+        joinThreadPool\(\);\n
+    \}|
+    + static void instantiate\(\) \{ publish\(\); \}|
+    + static status_t shutdown\(\) \{ return NO_ERROR; \}|
+    - static void joinThreadPool\(\) \{\n
+        sp\<ProcessState\> ps\(ProcessState::self\(\)\);\n
+        ps-\>startThreadPool\(\);\n
+        ps-\>giveThreadPoolName\(\);\n
+        IPCThreadState::self\(\)-\>joinThreadPool\(\);\n
+    \}|
+		}"
+	]
+	BnCameraService[
+		label="{
+			class BnCameraService||
+            + virtual status_t  onTransact\(uint32_t code,\n
+                                    const Parcel& data,\n
+                                    Parcel* reply,\n
+                                    uint32_t flags = 0)
+		}"
+	]
+	DeathRecipient[
+			label="{
+				class IBinder::DeathRecipient||
+			}"
+	]
+
+	ICameraProviderCallback[
+		label="{
+			hardware\:\:camera\:\:provider\:\:V2_4\:\:ICameraProviderCallback|
+		}"
+	]
+    ICameraService[
+        label="{
+			class ICameraService||
+            + DECLARE_META_INTERFACE\(CameraService\)|
+			+ virtual int32_t  getNumberOfCameras() = 0;|
+    + virtual status_t getCameraInfo\(int cameraId,\n
+            struct CameraInfo* cameraInfo\) = 0;|
+    + virtual status_t getCameraCharacteristics\(int cameraId,\n
+            CameraMetadata* cameraInfo\) = 0|
+    + virtual status_t getCameraVendorTagDescriptor\(\n
+            sp\<VendorTagDescriptor\>& desc\) = 0 |
+    
+    + virtual status_t addListener\(const sp\<ICameraServiceListener\>& listener\)\n
+                                                                            = 0;|
+    
+    + virtual status_t removeListener\(const sp\<ICameraServiceListener\>& listener\)\n
+                                                                            = 0;|
+    + virtual status_t connect\(const sp\<ICameraClient\>& cameraClient,\n
+            int cameraId,\n
+            const String16& clientPackageName,\n
+            int clientUid,\n
+            sp\<ICamera\>& device\) = 0 |
+
+    + virtual status_t connectPro\(const sp\<IProCameraCallbacks\>& cameraCb,\n
+            int cameraId,\n
+            const String16& clientPackageName,\n
+            int clientUid,\n
+            sp\<IProCameraUser\>& device\) = 0;|
+
+    + virtual status_t connectDevice\(\n
+            const sp\<ICameraDeviceCallbacks\>& cameraCb,\n
+            int cameraId,\n
+            const String16& clientPackageName,\n
+            int clientUid,\n
+            sp\<ICameraDeviceUser\>& device\) = 0|
+		}"
+	]
+	hidl_death_recipient[
+		label="{
+			hardware\:\:hidl_death_recipient|
+		}"
+	]
+
+	CameraService->BinderService;
+	CameraService->BnCameraService;
+	CameraService->camera_module_callbacks_t;
+    BnCameraService->BnInterface;
+    BnInterface->ICameraService;
+    ICameraService->IInterface;
+
+	Camera[
+		color="green";
+		label="{
+			class Camera||
+	+ static  sp\<Camera\>  create\(const sp\<ICamera\>& camera\);|
+    + static  sp\<Camera\>  connect\(int cameraId,\n
+                                const String16& clientPackageName,\n
+                                int clientUid\);|
+			
+		}"
+	]
+
+	Camera->info[arrowhead=none color=red];
+
+	info[
+		label="{
+			****沟通java层和native层的c++文件是base\/core\/jni\/android_hardware_Camera.cpp*******\n
+			****该文件内部的函数android_hardware_Camera_native_setup调用到了这一句: \n
+			****sp\<Camera\> camera = Camera\:\:connect\(cameraId\) 这句话实际上生成了BnCameraClient\n
+			****并且camera-\>mCamera直接指向了BpCamera即CameraClient或者Camera2Client********\n
+			****相应的BpCameraClient的binder被存放到了CameraService的BasicClient里面去了********
+		}"
+	]
+
+	CameraBase[
+		label="{
+			class CameraBase||
+			+ static sp\<Camera\>  connect(int cameraId,\n
+							const String16& clientPackageName,\n
+							int clientUid);|
+			\# sp\<ICamera\>    mCamera ****存放的是BpCamera****|
+			\# sp\<CameraListener\>  mListener|
+		}"
+	]
+
+	BnCameraClient[
+		label="{
+			class BnCameraClient||
+		}"
+	]
+
+	ICameraClient[
+		label="{
+			class ICameraClient||
+			DECLARE_META_INTERFACE\(CameraClient\) |
+			+ virtual void    notifyCallback\(int32_t msgType, int32_t ext1, int32_t ext2\) = 0 |
+			+ virtual void    dataCallback\(int32_t msgType, const sp\<IMemory\>& data,\n
+							camera_frame_metadata_t *metadata\) = 0; |
+			+ virtual void    dataCallbackTimestamp\(nsecs_t timestamp, int32_t msgType, 
+								const sp\<IMemory\>& data\) = 0
+		}"
+	]
+
+	Camera->CameraBase;
+	Camera->BnCameraClient;
+	BnCameraClient->BnInterface;
+	BnInterface->ICameraClient;
+	ICameraClient->IInterface;
+
+	ICamera[
+		label="{
+			class ICamera||
+			+ DECLARE_META_INTERFACE\(Camera\)|
+			+ virtual void disconnect\(\) = 0|
+			+ virtual status_t connect\(const sp\<ICameraClient\>& client\) = 0 |
+			+ virtual status_t  lock\(\) = 0 |
+			+ virtual status_t  unlock\(\) = 0 |
+			+ virtual status_t    setPreviewTarget\(\n
+					            const sp<IGraphicBufferProducer>& bufferProducer\) = 0;|
+			+ virtual void    setPreviewCallbackFlag\(int flag\) = 0 |
+			+ virtual status_t  setPreviewCallbackTarget\(\n
+					            const sp\<IGraphicBufferProducer\>& callbackProducer\) = 0; |
+			+ virtual status_t    startPreview\(\) = 0; |
+			+ virtual void    stopPreview\(\) = 0; |
+			**********
+		}"
+	]
+	ICamera->IInterface;
+
+	BasicClient[
+		label="{
+			class BasicClient||
+			+ virtual status_t  initialize\(camera_module_t *module\) = 0|
+			+ virtual void      disconnect\(\) |
+			+ virtual sp\<IBinder\> asBinderWrapper\(\) = 0 |
+		\# bool   mDestructionStarted |
+        \# sp\<CameraService\>    mCameraService |
+        \# int   mCameraId |
+        \# int   mCameraFacing |
+        \# const String16   mClientPackageName |
+        \# pid_t   mClientPid |
+        \# uid_t   mClientUid |
+        \# pid_t  mServicePid |
+        \# int   mBurstCnt|
+        \# sp\<IBinder\>   mRemoteBinder
+		}"
+	]
+	BnCamera[
+		label="{
+			class BnCamera|
+			virtual status_t  onTransact\(uint32_t code,\n
+                                    const Parcel& data,\n
+                                    Parcel* reply,\n
+                                    uint32_t flags = 0\)
+		}"
+	]
+	Client[
+		label="{
+			class Client|*****该类是CameraService的内部定义的类****|
+			sp\<ICameraClient\> mRemoteCallback ****存放上层传递下来的BpCameraClient******
+		}"
+	]
+	BasicClient->RefBase;
+	Client->BnCamera[color=purple];
+	Client->BasicClient[color=purple];
+	BnCamera->BnInterface[color=purple];
+	BnInterface->ICamera[color=purple];
+	CameraClient->Client[color=red];
+
+	ProviderInfo[
+		label="{
+			struct ProviderInfo|
+			|+ const std\:\:string mProviderName|+ const sp\<hardware\:\:camera\:\:provider\:\:V2_4\:\:ICameraProvider\> mInterface
+			|+ const metadata_vendor_id_t mProviderTagid
+			|+ std\:\:vector\<std\:\:unique_ptr\<DeviceInfo\>\> mDevices
+			|+ std\:\:set\<std\:\:string\> mUniqueCameraIds
+			|+ std\:\:set\<std\:\:string\> mUniqueAPI1CompatibleCameraIds
+			|- std::string mType
+			|- uint32_t mId
+			|- std\:\:mutex mLock
+			|- CameraProviderManager *mManager
+			|
+			|+ status_t initialize();
+			|+ const std\:\:string& getType() const;
+			|+ status_t addDevice(const std::string& name,\n
+					 hardware\:\:camera\:\:common\:\:V1_0\:\:CameraDeviceStatus initialStatus =\n
+					 hardware\:\:camera\:\:common\:\:V1_0\:\:CameraDeviceStatus::PRESENT,\n
+					 /*out*/ std\:\:string *parsedId = nullptr);
+			|+ status_t dump(int fd, const Vector\<String16\>& args) const
+			|+ virtual hardware::Return\<void\> cameraDeviceStatusChange
+			|+ virtual hardware::Return\<void\> torchModeStatusChange
+			|+ virtual void serviceDied(uint64_t cookie, const wp\<hidl::base::V1_0::IBase\>& who) override
+			|- template\<class DeviceInfoT\>\n
+				std\:\:unique_ptr\<DeviceInfo\> initializeDeviceInfo\(const std\:\:string &name,\n
+				const metadata_vendor_id_t tagId, const std\:\:string &id,\n
+				uint16_t minorVersion) const;
+			|- template\<class InterfaceT\>\n
+				 sp\<InterfaceT\> getDeviceInterface(const std\:\:string &name) const
+			|- static status_t parseProviderName(const std\:\:string& name,\n
+				std::string *type, uint32_t *id);
+			|- static status_t parseDeviceName(const std\:\:string& name,\n
+					uint16_t *major, uint16_t *minor, std\:\:string *type, std\:\:string *id);
+			|- static metadata_vendor_id_t generateVendorTagId(const std\:\:string &name)
+		}"
+	]
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

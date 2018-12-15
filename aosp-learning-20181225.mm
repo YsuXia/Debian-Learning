@@ -2155,7 +2155,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479707368505" FOLDED="true" ID="ID_6989081" MODIFIED="1508830869031" POSITION="left">
+<node CREATED="1479707368505" FOLDED="true" ID="ID_6989081" MODIFIED="1528247479874" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2558,7 +2558,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1484377644917" FOLDED="true" ID="ID_1430971308" MODIFIED="1508305873232" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
+<node CREATED="1484377644917" FOLDED="true" ID="ID_1430971308" MODIFIED="1535360604961" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1484377660789" HGAP="6" ID="ID_1943217630" MODIFIED="1491046273718" VSHIFT="-117">
 <richcontent TYPE="NODE"><html>
@@ -2601,7 +2601,7 @@
 </node>
 <node CREATED="1491046245928" HGAP="12" ID="ID_389646716" MODIFIED="1491046283862" TEXT="make idegen &amp;&amp; development/tools/idegen/idegen.sh" VSHIFT="11"/>
 </node>
-<node CREATED="1484720898460" FOLDED="true" ID="ID_346512524" MODIFIED="1508306027536" POSITION="right" TEXT="9.Android&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x53ca;&#x70e7;&#x5199;">
+<node CREATED="1484720898460" FOLDED="true" ID="ID_346512524" MODIFIED="1543386526486" POSITION="right" TEXT="9.Android&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x53ca;&#x70e7;&#x5199;">
 <node CREATED="1484720921741" ID="ID_332037652" MODIFIED="1484740146382">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2648,7 +2648,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492247580941" FOLDED="true" ID="ID_1395858297" MODIFIED="1508306030064" POSITION="right">
+<node CREATED="1492247580941" FOLDED="true" ID="ID_1395858297" MODIFIED="1534898565879" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2675,7 +2675,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1508306036704" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
+<node CREATED="1497439750076" FOLDED="true" ID="ID_636173960" MODIFIED="1543386532258" POSITION="right" TEXT="12. android ION&#x6846;&#x67b6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1497439770180" FOLDED="true" ID="ID_1800164131" MODIFIED="1502794290654">
 <richcontent TYPE="NODE"><html>
@@ -2762,7 +2762,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1508830876455" POSITION="left">
+<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1543386435144" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2776,7 +2776,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492429588556" ID="ID_1170241637" MODIFIED="1508305865655">
+<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1535360629340">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2824,7 +2824,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492653017734" ID="ID_500027607" MODIFIED="1508305726039">
+<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1536301562302">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2886,7 +2886,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1508305747216">
+<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1536301553814">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3021,7 +3021,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1496650692468" FOLDED="true" ID="ID_1529457093" MODIFIED="1508305932864" TEXT="camera api1">
+<node CREATED="1496650692468" FOLDED="true" ID="ID_1529457093" MODIFIED="1536301550910" TEXT="camera api1">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1496650702938" ID="ID_1766165661" MODIFIED="1496652359648">
 <richcontent TYPE="NODE"><html>
@@ -3079,6 +3079,16 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1535010899004" ID="ID_739069034" MODIFIED="1535010909964">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/ape_fwk_camera2.png" />
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1497428548995" ID="ID_831054097" MODIFIED="1497428591873">
 <richcontent TYPE="NODE"><html>
@@ -3090,10 +3100,963 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1530841569353" ID="ID_686994364" MODIFIED="1530844480892">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct camera_metadata {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_size_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;size;&#160;&#160;&#160;&#160;//&#25972;&#20010;metadata&#25968;&#25454;&#22823;&#23567;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;version; //&#29256;&#26412;&#21495;&#65292;&#25105;&#20204;&#19981;&#29992;&#31649;&#23427;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;flags;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_size_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;entry_count;&#160;&#160; //&#24050;&#32463;&#28155;&#21152;TAG&#30340;&#20837;&#21475;&#25968;&#37327;,&#65288;&#21363;&#20869;&#23384;&#22359;&#20013;&#24050;&#32463;&#21253;&#21547;&#22810;&#23569;TAG&#20102;&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_size_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;entry_capacity;//&#26368;&#22823;&#33021;&#23481;&#32435;TAG&#30340;&#20837;&#21475;&#25968;&#37327;&#65288;&#21363;&#26368;&#22823;&#33021;&#25918;&#22810;&#23569;tag&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_uptrdiff_t&#160;&#160;&#160;&#160;&#160;&#160;entries_start; // Offset from camera_metadata entry&#25968;&#25454;&#21306;&#22495;&#30456;&#23545;&#24320;&#22987;&#22788;&#30340;&#20559;&#31227;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_size_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;data_count;&#160;&#160;&#160;&#160;//&#35760;&#24405;&#25968;&#25454;&#27573;&#24403;&#21069;&#24050;&#29992;&#30340;&#20869;&#23384;&#31354;&#38388;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_size_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;data_capacity; //&#24635;&#30340;&#25968;&#25454;&#27573;&#20869;&#23384;&#31354;&#38388;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;metadata_uptrdiff_t&#160;&#160;&#160;&#160;&#160;&#160;data_start; // Offset from camera_metadata&#160; data&#25968;&#25454;&#21306;&#30456;&#23545;&#24320;&#22987;&#22788;&#30340;&#20559;&#31227;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reserved[]; &#20445;&#30041;
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      typedef struct camera_metadata_buffer_entry {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t tag;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t count;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;union {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t offset;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;value[4];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} data;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t&#160;&#160;type;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t&#160;&#160;reserved[3];
+    </p>
+    <p>
+      } camera_metadata_buffer_entry_t;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1508830879039" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
+<node CREATED="1535015297963" ID="ID_208278175" MODIFIED="1535015336223">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e8291f"><b>Android 9 Multicamera Support</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536197599490" ID="ID_525145164" MODIFIED="1536197606841" TEXT="1.&#x4ee3;&#x7801;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1536198069764" ID="ID_1926744974" MODIFIED="1536198134207">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><i>Status CameraService::connect(</i></font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const sp&lt;ICameraClient&gt;&amp; cameraClient,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int api1CameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const String16&amp; clientPackageName,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int clientUid,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int clientPid,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sp&lt;ICamera&gt;* device<font size="4"><i>)</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1538272491942" ID="ID_1567553604" MODIFIED="1538272862351">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">sp&lt;Client&gt; client = nullptr;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1536198333048" ID="ID_609221105" MODIFIED="1538272516576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><i>connectHelper&lt;ICameraClient,Client&gt;</i></font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font size="4"><i>&#160;(</i></font>cameraClient, id, api1CameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CAMERA_HAL_API_VERSION_UNSPECIFIED, clientPackageName, clientUid, clientPid, API_1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*legacyMode*/ false, /*shimUpdateOnly*/ false,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/client<font size="4"><i>) </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#cb0707"><i>template&lt;class CALLBACK, class CLIENT&gt;</i></font>
+    </p>
+    <p>
+      <font size="4" color="#c81717"><i>Status CameraService::connectHelper(</i></font><i><font size="4">const sp&lt;CALLBACK&gt;&amp; cameraCb, const String8&amp; cameraId, </font></i>
+    </p>
+    <p>
+      <font size="4"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int api1CameraId, int halVersion, const String16&amp; clientPackageName, int clientUid, </i></font>
+    </p>
+    <p>
+      <font size="4"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int clientPid, apiLevel effectiveApiLevel, bool legacyMode, bool shimUpdateOnly, </i></font>
+    </p>
+    <p>
+      <font size="4"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/sp&lt;CLIENT&gt;&amp; device</i></font><i><font size="4" color="#d11212">)</font></i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536202412485" ID="ID_1204584507" MODIFIED="1536202472371">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sp&lt;BasicClient&gt; clientTmp = nullptr;
+    </p>
+    <p>
+      std::shared_ptr&lt;resource_policy::ClientDescriptor&lt;String8, sp&lt;BasicClient&gt;&gt;&gt; partial;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1536202539624" ID="ID_1117220175" MODIFIED="1536202593612">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      handleEvictionsLocked(cameraId, originalClientPid, effectiveApiLevel,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;IInterface::asBinder(cameraCb), clientName8, /*out*/&amp;clientTmp,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/&amp;partial))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1538273228088" ID="ID_961530657" MODIFIED="1538273244021" TEXT="sp&lt;BasicClient&gt; tmp = nullptr;"/>
+<node CREATED="1538273247322" ID="ID_356246693" MODIFIED="1538277168845">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      makeClient(this, cameraCb, clientPackageName, cameraId, facing, clientPid,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clientUid, getpid(), legacyMode, halVersion, deviceVersion, effectiveApiLevel,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/&amp;tmp))
+    </p>
+    <p>
+      &#22312;&#20989;&#25968;makeClient&#37324;&#38754;&#65292;&#23545;&#20110;hal3&#65292;&#20250;&#36208;&#22914;&#19979;&#30340;&#27969;&#31243;
+    </p>
+    <ol>
+      <li>
+        sp&lt;hardware::camera2::ICameraDeviceCallbacks&gt; tmp = static_cast&lt;hardware::camera2::ICameraDeviceCallbacks*&gt;(cameraCb.get());
+      </li>
+      <li>
+        *client = new CameraDeviceClient(cameraService, tmp, packageName, cameraId,facing, clientPid, clientUid, servicePid);
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      client = static_cast&lt;CLIENT*&gt;(tmp.get());
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1538277247177" ID="ID_717294254" MODIFIED="1538277249685" TEXT="err = client-&gt;initialize(mCameraProviderManager);"/>
+<node CREATED="1538277265207" ID="ID_563493882" MODIFIED="1538277267941" TEXT="device = client;"/>
+</node>
+<node CREATED="1538272868379" ID="ID_1783441534" MODIFIED="1538272902686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">*device = client;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1538276553937" ID="ID_1921305147" MODIFIED="1538276708121">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3" color="#f51717"><b>&#23545;&#20110;hal3&#26469;&#35828;&#65292;&#36830;&#25509;service&#36208;&#30340;&#26159;&#22914;&#19979;&#30340;&#27969;&#31243;:</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Status CameraService::connectDevice(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const sp&lt;hardware::camera2::ICameraDeviceCallbacks&gt;&amp; cameraCb,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const String16&amp; cameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const String16&amp; clientPackageName,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int clientUid,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sp&lt;hardware::camera2::ICameraDeviceUser&gt;* device)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1538276724293" ID="ID_14677516" MODIFIED="1538276737751">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sp&lt;CameraDeviceClient&gt; client = nullptr;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1538276741157" ID="ID_1210746798" MODIFIED="1538276779202">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      connectHelper&lt;hardware::camera2::ICameraDeviceCallbacks,CameraDeviceClient&gt;(cameraCb, id,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CAMERA_HAL_API_VERSION_UNSPECIFIED, clientPackageName,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clientUid, USE_CALLING_PID, API_2,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*legacyMode*/ false, /*shimUpdateOnly*/ false,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/client);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1538276801766" ID="ID_544033918" MODIFIED="1538276804935" TEXT="*device = client"/>
+</node>
+<node CREATED="1536203209819" ID="ID_1631683599" MODIFIED="1536203241481">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      status_t CameraService::enumerateProviders()
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536213070379" ID="ID_1209650645" MODIFIED="1536213072920" TEXT="std::vector&lt;std::string&gt; deviceIds;"/>
+<node CREATED="1536213083875" ID="ID_1324336524" MODIFIED="1536213086255" TEXT="deviceIds = mCameraProviderManager-&gt;getCameraDeviceIds();"/>
+</node>
+<node CREATED="1536213343587" ID="ID_1316616040" MODIFIED="1536213869672">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      status_t CameraProviderManager::addProviderLocked(const std::string&amp; newProvider, bool expected)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#29992;&#26469;get&#27880;&#20876;&#21040;&#31995;&#32479;&#24403;&#20013;&#30340;provider&#26381;&#21153;
+    </p>
+    <p>
+      interface = mServiceProxy-&gt;getService(newProvider);
+    </p>
+    <p>
+      sp&lt;ProviderInfo&gt; providerInfo =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;new ProviderInfo(newProvider, interface, this);
+    </p>
+    <p>
+      &#21033;&#29992;&#33719;&#24471;&#30340;&#26381;&#21153;&#25509;&#21475;&#29983;&#25104;&#19968;&#20010;ProviderInfo
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      providerInfo-&gt;initialize(); &#35843;&#29992;&#35813;providerinfo&#30340;&#21021;&#22987;&#21270;&#25509;&#21475;
+    </p>
+    <p>
+      &#19979;&#38754;&#20998;&#26512;&#35813;initialize&#30340;&#25509;&#21475;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536214055123" ID="ID_1584834967" MODIFIED="1536214069126">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      status_t CameraProviderManager::ProviderInfo::initialize()
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536214144716" ID="ID_948050407" MODIFIED="1536214261877">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hardware::Return&lt;Status&gt; status = mInterface-&gt;setCallback(this);
+    </p>
+    <p>
+      &#21521;&#26381;&#21153;&#31471;&#30340;CameraProver&#35774;&#32622;callback&#25509;&#21475;&#65292;&#25509;&#21475;&#31867;&#22411;&#26159;ICameraProviderCallback&#65292;
+    </p>
+    <p>
+      &#30001;&#20110;ProviderInfo&#32487;&#25215;&#20102;&#35813;&#25509;&#21475;&#65292;&#25152;&#20197;&#36825;&#37324;&#20256;&#20837;this&#25351;&#38024;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1536214331238" ID="ID_1704775372" MODIFIED="1536214369273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hardware::Return&lt;bool&gt; linked = mInterface-&gt;linkToDeath(this, /*cookie*/ mId);
+    </p>
+    <p>
+      &#27880;&#20876;provider&#26381;&#21153;&#31471;death&#20043;&#21518;&#30340;&#36890;&#30693;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1536214605984" ID="ID_1949790365" MODIFIED="1536221956782">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      std::vector&lt;std::string&gt; devices;
+    </p>
+    <p>
+      hardware::Return&lt;void&gt; ret = mInterface-&gt;getCameraIdList([&amp;status, &amp;devices](
+    </p>
+    <p>
+      Status idStatus,
+    </p>
+    <p>
+      const hardware::hidl_vec&lt;hardware::hidl_string&gt;&amp; cameraDeviceNames) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;status = idStatus;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (status == Status::OK) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for (size_t i = 0; i &lt; cameraDeviceNames.size(); i++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;devices.push_back(cameraDeviceNames[i]);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20174;provider&#31471;&#33719;&#21462;&#24213;&#23618;&#30340;camera&#30340;&#35774;&#22791;&#21015;&#34920;&#65292;&#28982;&#21518;&#20445;&#23384;&#21040;&#20869;&#37096;&#25104;&#21592;&#21464;&#37327;mDevices&#24403;&#20013;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mDevice&#23454;&#38469;&#19978;&#23384;&#20648;&#30340;&#26159;DeviceInfo3, DeviceInfo3&#37324;&#38754;&#20445;&#23384;&#30528;&#26381;&#21153;&#31471;&#30340;CameraDevice
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1539284331624" ID="ID_906183995" MODIFIED="1539539632967">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><a href="http://androidxref.com/8.1.0_r33/s?defs=using&amp;project=hardware"><font size="4" color="#009966"><b>using</b></font></a><font size="4" color="#009966"><b>&#160;<a href="http://androidxref.com/8.1.0_r33/s?defs=RequestMetadataQueue&amp;project=hardware">RequestMetadataQueue</a>&#160;= <a href="http://androidxref.com/8.1.0_r33/s?defs=MessageQueue&amp;project=hardware">MessageQueue</a>&lt;<a href="http://androidxref.com/8.1.0_r33/s?defs=uint8_t&amp;project=hardware">uint8_t</a>, <a href="http://androidxref.com/8.1.0_r33/s?defs=kSynchronizedReadWrite&amp;project=hardware">kSynchronizedReadWrite</a>&gt;</b></font></pre>
+    <pre><a href="http://androidxref.com/8.1.0_r33/s?defs=using&amp;project=hardware"><font size="4" color="#009966"><b>using</b></font></a><font size="4" color="#009966"><b>&#160;<a href="http://androidxref.com/8.1.0_r33/s?defs=ResultMetadataQueue&amp;project=hardware">ResultMetadataQueue</a>&#160;= <a href="http://androidxref.com/8.1.0_r33/s?defs=MessageQueue&amp;project=hardware">MessageQueue</a>&lt;<a href="http://androidxref.com/8.1.0_r33/s?defs=uint8_t&amp;project=hardware">uint8_t</a>, <a href="http://androidxref.com/8.1.0_r33/s?defs=kSynchronizedReadWrite&amp;project=hardware">kSynchronizedReadWrite</a>&gt;</b></font>
+</pre>
+    <p>
+      MessageQueue&#23450;&#20041;&#22312;&#25991;&#20214;system/libfmq/include/fmq/MessageQueue.h&#24403;&#20013;
+    </p>
+    <pre><a class="l" name="37" href="http://androidxref.com/8.1.0_r33/xref/system/libfmq/include/fmq/MessageQueue.h#37">
+</a><a href="http://androidxref.com/8.1.0_r33/s?defs=template&amp;project=system"><font size="4">template</font></a><font size="4"> &lt;<a href="http://androidxref.com/8.1.0_r33/s?defs=typename&amp;project=system">typename</a> T, <a href="http://androidxref.com/8.1.0_r33/s?defs=MQFlavor&amp;project=system">MQFlavor</a> <a href="http://androidxref.com/8.1.0_r33/s?defs=flavor&amp;project=system">flavor</a>&gt;
+<b>struct</b> <a class="xs" name="MessageQueue">
+</a><a href="http://androidxref.com/8.1.0_r33/s?refs=MessageQueue&amp;project=system" class="xs">MessageQueue</a> {</font></pre>
+    <p>
+      <font size="4">}</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <tt>/<a href="http://androidxref.com/8.1.0_r33/xref/system/">system</a>/<a href="http://androidxref.com/8.1.0_r33/xref/system/libhidl/">libhidl</a>/<a href="http://androidxref.com/8.1.0_r33/xref/system/libhidl/base/">base</a>/<a href="http://androidxref.com/8.1.0_r33/xref/system/libhidl/base/include/">include</a>/<a href="http://androidxref.com/8.1.0_r33/xref/system/libhidl/base/include/hidl/">hidl</a>/<a href="http://androidxref.com/8.1.0_r33/xref/system/libhidl/base/include/hidl/MQDescriptor.h">MQDescriptor.h&#23450;&#20041;&#20102;kSynchronizedReadWrite </a></tt>
+    </p>
+    <pre><b><font size="2">enum</font></b><font size="2">&#160;<a href="http://androidxref.com/8.1.0_r33/s?defs=MQFlavor&amp;project=system">MQFlavor</a>&#160;: <a href="http://androidxref.com/8.1.0_r33/s?defs=uint32_t&amp;project=system">uint32_t</a>&#160;{
+&#160;&#160;/*
+&#160;&#160;&#160;* kSynchronizedReadWrite represents the wait-free synchronized flavor of the
+&#160;&#160;&#160;* FMQ. It is intended to be have a single reader and single writer.
+&#160;&#160;&#160;* Attempts to <a href="http://androidxref.com/8.1.0_r33/s?path=overflow/">overflow</a>/<a href="http://androidxref.com/8.1.0_r33/s?path=overflow/underflow">underflow</a>&#160;returns a failure.
+&#160;&#160;&#160;*/
+&#160; <a href="http://androidxref.com/8.1.0_r33/s?defs=kSynchronizedReadWrite&amp;project=system">kSynchronizedReadWrite</a>&#160;= 0x01,
+&#160;&#160;/*
+&#160;&#160;&#160;* kUnsynchronizedWrite represents the flavor of FMQ where writes always
+&#160;&#160;&#160;* succeed. This flavor allows one writer and many readers. A read operation
+&#160;&#160;&#160;* can detect an overwrite and reset the read counter.
+&#160;&#160;&#160;*/
+&#160; <a href="http://androidxref.com/8.1.0_r33/s?defs=kUnsynchronizedWrite&amp;project=system">kUnsynchronizedWrite</a>&#160;= 0x02
+};</font></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1536283010301" ID="ID_664150876" MODIFIED="1536283025373" TEXT="2.&#x591a;camera&#x7684;&#x7ba1;&#x7406;">
+<node CREATED="1536283099862" ID="ID_60478480" MODIFIED="1536307737221">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>void CameraHidlTest::configurePreviewStreams3_4(</b>const std::string &amp;name, int32_t deviceVersion,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sp&lt;ICameraProvider&gt; provider,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#e21010">const AvailableStream *previewThreshold</font>,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const std::unordered_set&lt;std::string&gt;&amp; physicalIds,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sp&lt;device::V3_4::ICameraDeviceSession&gt; *session3_4 /*out*/,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#ad11e6">V3_2::Stream *previewStream /*out*/</font>,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#3408f2">device::V3_4::HalStreamConfiguration *halStreamConfig</font>&#160;/*out*/,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool *supportsPartialResults /*out*/,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint32_t *partialResultCount /*out*/<b>) </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#21482;&#26500;&#24314;&#20004;&#20010;stream&#30340;&#37197;&#32622; &#65292; &#36820;&#22238;&#31532;&#19968;&#20010;stream</b>
+    </p>
+    <p>
+      <b>physicalIds&#20808;&#21069;&#20570;&#20102;&#28165;&#29702;&#65292;&#21482;&#21253;&#21547;&#20102;2&#20010;&#29289;&#29702;id&#21495;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536285735507" ID="ID_1704938492" MODIFIED="1536301689015">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e00b0b" size="3"><i>struct AvailableStream { </i></font>
+    </p>
+    <p>
+      <font color="#e00b0b" size="3"><i>&#160;&#160;&#160;&#160;int32_t width; </i></font>
+    </p>
+    <p>
+      <font color="#e00b0b" size="3"><i>&#160;&#160;&#160;&#160;int32_t height; </i></font>
+    </p>
+    <p>
+      <font color="#e00b0b" size="3"><i>&#160;&#160;&#160;&#160;int32_t format; </i></font>
+    </p>
+    <p>
+      <font color="#e00b0b" size="3"><i>}; </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#e00b0b" size="3"><i>AvailableStream previewThreshold = {kMaxPreviewWidth, kMaxPreviewHeight, </i></font>
+    </p>
+    <p>
+      <font color="#e00b0b" size="3"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; static_cast&lt;int32_t&gt;(PixelFormat::YCBCR_420_888)};</i></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1536286623539" ID="ID_878837005" MODIFIED="1536288386350">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#af0ded">struct Stream {</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int32_t id __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;StreamType streamType __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t width __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t height __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;::android::hardware::graphics::common::V1_0::PixelFormat format __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint64_t usage __attribute__ ((aligned(8)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int32_t dataSpace __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;StreamRotation rotation __attribute__ ((aligned(4)));
+    </p>
+    <p>
+      <b><font color="#be19ed">};</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1536286779349" ID="ID_96019941" MODIFIED="1536288443207">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#390ced">struct HalStreamConfiguration { </font>
+    </p>
+    <p>
+      <font color="#390ced">&#160;&#160;&#160;&#160;vec&lt;HalStream&gt; streams; </font>
+    </p>
+    <p>
+      <font color="#390ced">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      V3_4
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct HalStream {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/**
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* The definition of HalStream from the prior version.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@3.3::HalStream v3_3;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/**
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* The physical camera id the current Hal stream belongs to.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* If current camera device isn't a logical camera, or the Hal stream isn't
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* from a physical camera of the logical camera, this must be an empty
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* string.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* A logical camera is a camera device backed by multiple physical camera
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* devices.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* When not empty, this field is the &lt;id&gt; field of one of the full-qualified device
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* instance names returned by getCameraIdList().
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;string physicalCameraId;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1536287716977" ID="ID_1739103931" MODIFIED="1536288300883">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct HalStream {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/**
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* The definition of HalStream from the prior version.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@3.2::HalStream v3_2;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;DataspaceFlags overrideDataSpace;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct HalStream {
+    </p>
+    <p>
+      &#160;&#160;int32_t id;
+    </p>
+    <p>
+      &#160;&#160;android.hardware.graphics.common@1.0::PixelFormat overrideFormat;
+    </p>
+    <p>
+      &#160;&#160;BufferUsageFlags producerUsage;
+    </p>
+    <p>
+      &#160;&#160;BufferUsageFlags consumerUsage;
+    </p>
+    <p>
+      &#160;&#160;uint32_t maxBuffers;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1536289530909" ID="ID_806623483" MODIFIED="1536289543872" TEXT="3.&#x591a;camera&#x652f;&#x6301;&#x7684;&#x8981;&#x6c42;">
+<node CREATED="1536289547573" ID="ID_1997152171" MODIFIED="1536307268714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      androidp &#24403;&#20013;&#22810;multicamera&#30340;&#25903;&#25345;&#37117;&#25918;&#22312;&#20102;device v3_4&#37324;&#38754;&#20102;&#65292;
+    </p>
+    <p>
+      &#35201;&#27714;vendor&#23618;&#30340;hal&#23454;&#29616;&#35201;&#25903;&#25345;device v3.4&#65292;
+    </p>
+    <p>
+      &#22312;&#21028;&#26029;&#24213;&#23618;&#30340;&#35774;&#22791;&#26159;&#21542;&#25903;&#25345;multi camera&#30340;&#26102;&#20505;&#20250;&#21028;&#26029;
+    </p>
+    <p>
+      ANDROID_REQUEST_AVAILABLE_CAPABILITIES &#36825;&#20010;tag&#37324;&#38754;&#26377;&#27809;&#26377;<font color="#e81313">ANDROID_REQUEST_AVAILABLE_CAPABILITIES_LOGICAL_MULTI_CAMERA</font>
+    </p>
+    <p>
+      &#23383;&#27573;&#30340;&#25903;&#25345;&#65292;&#35813;&#23383;&#27573;&#26159;&#20174;androidP &#24341;&#20837;&#30340;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ANDROID_LOGICAL_MULTI_CAMERA_PHYSICAL_IDS &#21253;&#21547;&#26576;&#20010;logical multicamera&#20869;&#37096;&#21253;&#21547;&#30340;physical camera id&#30340;&#21015;&#34920;
+    </p>
+    <p>
+      ANDROID_REQUEST_AVAILABLE_PHYSICAL_CAMERA_REQUEST_KEYS
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ANDROID_SCALER_AVAILABLE_STREAM_CONFIGURATIONS_OUTPUT &#33719;&#21462;output stream
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1535360655759" ID="ID_1383373227" MODIFIED="1535360732659">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0c17eb" size="5">Android8.0 &#19979;&#22522;&#20110;aidl&#27169;&#24335;camera api2&#36830;&#25509;camera service </font>
+    </p>
+    <p>
+      <font color="#0c17eb" size="5">&#30340;&#36807;&#31243;&#20998;&#26512;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1535360791084" ID="ID_623549504" MODIFIED="1535360962789">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      java&#23618;
+    </p>
+    <p>
+      &#22312;&#25991;&#20214;frameworks/base/core/java/android/hardware/camera2/CameraManager.java&#25991;&#20214;&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#20989;&#25968;
+    </p>
+    <p>
+      private CameraDevice openCameraDeviceUserAsync(String cameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CameraDevice.StateCallback callback, Handler handler, final int uid)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throws CameraAccessException &#37324;&#38754;&#26377;&#36830;&#25509;camera service&#30340;&#25805;&#20316;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ICameraService cameraService = CameraManagerGlobal.get().getCameraService()
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1535361017615" ID="ID_924622420" MODIFIED="1535362651105">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public ICameraService getCameraService() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;synchronized(mLock) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;connectCameraServiceLocked();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (mCameraService == null &amp;&amp; !sCameraServiceDisabled) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log.e(TAG, &quot;Camera service is unavailable&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return mCameraService;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      <b>&#30475;&#19968;&#19979;connectCameraServiceLocked&#20989;&#25968;&#26159;&#24590;&#20040;&#25805;&#20316;&#30340;: </b>
+    </p>
+    <p>
+      <b>IBinder cameraServiceBinder = ServiceManager.getService(CAMERA_SERVICE_BINDER_NAME); </b>
+    </p>
+    <p>
+      <b>ICameraService cameraService = ICameraService.Stub.asInterface(cameraServiceBinder);</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ICameraService&#26159;&#32463;&#36807;ICameraService.aidl&#32463;&#36807;&#24037;&#20855;&#29983;&#25104;&#30340;&#65292;&#30446;&#21069;&#29983;&#25104;&#26377;3&#31181;&#25991;&#20214;&#65292;&#20998;&#21035;&#26159;
+    </p>
+    <p>
+      ICameraService.java , ICameraService.cpp, ICameraService.h
+    </p>
+    <p>
+      ICameraService.cpp&#37324;&#38754;&#26377;<font size="4" color="#ec0e0e">BnCameraService</font>&#30340;&#20855;&#20307;&#23454;&#29616;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1535360613330" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1496325970164" ID="ID_173538414" MODIFIED="1496325976513" TEXT="mediaserver&#x8be6;&#x89e3;">
+<node CREATED="1496325970164" FOLDED="true" ID="ID_173538414" MODIFIED="1535360569211" TEXT="mediaserver&#x8be6;&#x89e3;">
 <node CREATED="1496325982101" ID="ID_687050765" MODIFIED="1496327154695">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3158,11 +4121,10 @@
       CameraService
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1496327176688" ID="ID_156865957" MODIFIED="1496327185363" TEXT="ProcessState&#x7c7b;&#x8be6;&#x89e3;">
+<node CREATED="1496327176688" FOLDED="true" ID="ID_156865957" MODIFIED="1535360570694" TEXT="ProcessState&#x7c7b;&#x8be6;&#x89e3;">
 <node CREATED="1496327227205" ID="ID_51944443" MODIFIED="1496327265105">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3289,7 +4251,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1508830903191" POSITION="left">
+<node CREATED="1502162415873" FOLDED="true" ID="ID_1595158135" MODIFIED="1536301509927" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3334,7 +4296,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1508830905479" ID="ID_1540724775" MODIFIED="1508830936608" POSITION="left">
+<node CREATED="1508830905479" FOLDED="true" ID="ID_1540724775" MODIFIED="1536301513897" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3344,8 +4306,7 @@
       <b>15.Android&#26234;&#33021;&#25351;&#38024;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1508830947463" ID="ID_1790727205" MODIFIED="1508831014355">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3362,8 +4323,7 @@
       &#21478;&#19968;&#20010;&#26159;&#38656;&#35201;&#23454;&#29616;&#25805;&#20316;&#35813;&#24341;&#29992;&#35745;&#25968;&#30340;&#26234;&#33021;&#25351;&#38024;&#31867;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1508831065637" ID="ID_1776320046" MODIFIED="1508840606171">
 <richcontent TYPE="NODE"><html>
@@ -3375,8 +4335,7 @@
       <b>2.&#36731;&#37327;&#32423;&#24341;&#29992;&#35745;&#25968;&#22120;class LightRefBase&#65292; &#36319;&#23427;&#37197;&#21512;&#30340;&#26234;&#33021;&#25351;&#38024;&#31867;&#26159;class sp</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1508840680642" ID="ID_759890415" MODIFIED="1508840744926">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3426,80 +4385,117 @@
       <b><font color="#c60c0c">&#21487;&#20197;&#30475;&#21040;&#26234;&#33021;&#25351;&#38024;&#22312;&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#37117;&#20250;&#35843;&#29992;&#27169;&#26495;&#30340;incStrong&#20989;&#25968;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1508841363627" ID="ID_1552578554" MODIFIED="1508841550202">
+</html></richcontent>
+</node>
+<node CREATED="1526114786080" ID="ID_1550945198" MODIFIED="1526114823334">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      void RefBase::incStrong(const void* id) const&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      class LightRefBase
     </p>
     <p>
-      {&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;weakref_impl* const refs = mRefs;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      public:
     </p>
     <p>
-      &#160;&#160;&#160;&#160;refs-&gt;incWeak(id);&#160;&#160;<b><font color="#b41111">//&#23454;&#38469;&#19978;&#26159;&#23558;&#23454;&#38469;&#30340;&#23545;&#35937;&#25351;&#38024;&#23384;&#20648;&#21040;&#20102;weakref_impl&#37324;&#38754;&#30340;ref_entry&#30340;&#38142;&#34920;&#37324;&#38754;&#20102;</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;inline LightRefBase() : mCount(0) { }
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;inline void incStrong(__attribute__((unused)) const void* id) const {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;refs-&gt;addStrongRef(id);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;__sync_fetch_and_add(&amp;mCount, 1);
     </p>
     <p>
-      &#160;&#160;&#160;&#160;const int32_t c = refs-&gt;mStrong.fetch_add(1, std::memory_order_relaxed);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;}&#160;&#160;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ALOG_ASSERT(c &gt; 0, &quot;incStrong() called on %p after last strong ref&quot;, refs);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;inline void decStrong(__attribute__((unused)) const void* id) const {
     </p>
     <p>
-      #if PRINT_REFS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (__sync_fetch_and_sub(&amp;mCount, 1) == 1) {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ALOGD(&quot;incStrong of %p from %p: cnt=%d\n&quot;, this, id, c);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;delete static_cast&lt;const T*&gt;(this);
     </p>
     <p>
-      #endif&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
     <p>
-      &#160;&#160;&#160;&#160;if (c != INITIAL_STRONG_VALUE)&#160;&#160;{&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;}&#160;&#160;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;//! DEBUGGING ONLY: Get current strong ref count.
     </p>
     <p>
-      &#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;inline int32_t getStrongCount() const {
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return mCount;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;int32_t old = refs-&gt;mStrong.fetch_sub(INITIAL_STRONG_VALUE,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;}&#160;&#160;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;std::memory_order_relaxed);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      
     </p>
     <p>
-      &#160;&#160;&#160;&#160;// A decStrong() must still happen after us.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      &#160;&#160;&#160;&#160;typedef LightRefBase&lt;T&gt; basetype;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ALOG_ASSERT(old &gt; INITIAL_STRONG_VALUE, &quot;0x%x too small&quot;, old);&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      
     </p>
     <p>
-      &#160;&#160;&#160;&#160;refs-&gt;mBase-&gt;onFirstRef();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      protected:
     </p>
     <p>
-      }
+      &#160;&#160;&#160;&#160;inline ~LightRefBase() { }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      private:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;friend class ReferenceMover;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;inline static void moveReferences(void* d, void const* s, size_t n,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const ReferenceConverterBase&amp; caster) { }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      private:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mutable volatile int32_t mCount;
+    </p>
+    <p>
+      };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1526114879197" ID="ID_336440835" MODIFIED="1526114915554">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#e80f0f">&#21482;&#25552;&#20379;&#26368;&#22522;&#26412;&#30340;&#24341;&#29992;&#35745;&#25968;mCount</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3516,8 +4512,7 @@
       <b><font color="#dc1b1b">&#27880;&#24847;sp&#26159;&#19968;&#20010;&#24378;&#25351;&#38024;&#65292;&#37197;&#21512;RefBase&#30340;&#36824;&#26377;&#19968;&#20010;&#24369;&#25351;&#38024;&#21483;&#20570;calss wp</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1508836115940" ID="ID_1123331860" MODIFIED="1508841521333">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3615,8 +4610,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1508839523315" ID="ID_879569915" MODIFIED="1508839532093">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3625,8 +4619,79 @@
   <body>
     <img src="binder/weakref_type.gif" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1508841363627" ID="ID_1552578554" MODIFIED="1508841550202">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      void RefBase::incStrong(const void* id) const&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      {&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;weakref_impl* const refs = mRefs;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;refs-&gt;incWeak(id);&#160;&#160;<b><font color="#b41111">//&#23454;&#38469;&#19978;&#26159;&#23558;&#23454;&#38469;&#30340;&#23545;&#35937;&#25351;&#38024;&#23384;&#20648;&#21040;&#20102;weakref_impl&#37324;&#38754;&#30340;ref_entry&#30340;&#38142;&#34920;&#37324;&#38754;&#20102;</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;refs-&gt;addStrongRef(id);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;const int32_t c = refs-&gt;mStrong.fetch_add(1, std::memory_order_relaxed);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ALOG_ASSERT(c &gt; 0, &quot;incStrong() called on %p after last strong ref&quot;, refs);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      #if PRINT_REFS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ALOGD(&quot;incStrong of %p from %p: cnt=%d\n&quot;, this, id, c);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      #endif&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (c != INITIAL_STRONG_VALUE)&#160;&#160;{&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int32_t old = refs-&gt;mStrong.fetch_sub(INITIAL_STRONG_VALUE,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;std::memory_order_relaxed);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// A decStrong() must still happen after us.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ALOG_ASSERT(old &gt; INITIAL_STRONG_VALUE, &quot;0x%x too small&quot;, old);&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;refs-&gt;mBase-&gt;onFirstRef();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1508838266267" ID="ID_1300052966" MODIFIED="1508839379997">
@@ -3651,8 +4716,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1508841964965" ID="ID_1534603519" MODIFIED="1508841988599">
 <richcontent TYPE="NODE"><html>
@@ -3664,17 +4728,1521 @@
       <font size="16px" color="rgb(69, 69, 69)" face="PingFang SC, Microsoft YaHei, SimHei, Arial, SimSun"><span style="font-weight: normal; margin-right: 0px; margin-top: 0px; padding-left: 0px; padding-top: 0px; font-style: normal; padding-right: 0px; margin-left: 0px; padding-bottom: 0px; margin-bottom: 0px"><strong style="background-color: rgb(255, 255, 255); white-space: normal; font-size: 16px; word-spacing: 0px; color: rgb(69, 69, 69); text-indent: 0px; text-transform: none; font-style: normal; text-align: start; font-weight: bold; font-family: PingFang SC, Microsoft YaHei, SimHei, Arial, SimSun; letter-spacing: normal" http-equiv="content-type" content="text/html; charset=utf-8"><b><em style="font-style: italic"><i>&#36825;&#37324;&#24635;&#32467;&#19968;&#19979;&#24378;&#25351;&#38024;&#31867;sp&#22312;&#20854;&#26500;&#36896;&#20989;&#25968;&#37324;&#38754;&#25152;&#20570;&#30340;&#20107;&#24773;&#23601;&#26159;&#20998;&#21035;&#20026;&#30446;&#26631;&#23545;&#35937;&#30340;&#24378;&#24341;&#29992;&#35745;&#25968;&#21644;&#24369;&#24341;&#21644;&#35745;&#25968;&#22686;&#21152;&#20102;1&#12290;</i></em></b></strong></span></font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1528247495355" FOLDED="true" ID="ID_1749217998" MODIFIED="1543386430370" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#320bf1"><b>HIDL</b></font>
+    </p>
+    <p>
+      hal interface definition language(&quot;hide-L&quot;) is an interface definition language to specify
+    </p>
+    <p>
+      a interface between hal and its users
+    </p>
+    <p>
+      hidl&#30340;&#23454;&#38469;&#30446;&#30340;&#23601;&#26159;&#35753;hal&#23618;&#21644;framework&#23618;&#21487;&#20197;&#20998;&#24320;&#65292;&#36825;&#26679;framework&#23601;&#21487;&#20197;&#21333;&#29420;&#21319;&#32423;&#65292;hal&#21487;&#20197;
+    </p>
+    <p>
+      &#30001;oem&#21378;&#21830;&#21333;&#29420;&#21319;&#32423;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1528253778288" ID="ID_1358551860" MODIFIED="1528255640311">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hidl&#20195;&#30721;&#30340;&#32452;&#32455;&#32467;&#26500;&#24418;&#24335;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hidl&#20195;&#30721;&#30001;&#29992;&#25143;&#23450;&#20041;&#31867;&#22411;&#65292; &#25509;&#21475; &#21644; &#21253;&#32452;&#25104;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      User-defined types(UDTs) HIDL&#25552;&#20379;&#19968;&#31995;&#21015;&#30340;&#22522;&#26412;&#30340;&#25968;&#25454;&#35775;&#38382;&#65292;&#36825;&#20123;&#25968;&#25454;&#21487;&#20197;&#32452;&#25104;
+    </p>
+    <p>
+      &#26356;&#22797;&#26434;&#30340;&#25968;&#25454;&#32467;&#26500;&#24418;&#24335;&#65292; udts&#21487;&#20197;&#34987;&#20256;&#36882;&#32473;interface&#24403;&#20013;&#30340;method.
+    </p>
+    <p>
+      udts&#21487;&#20197;&#22312;package&#23618;&#38754;&#36827;&#34892;&#23450;&#20041;(&#30001;&#25152;&#26377;&#30340;interface&#20849;&#20139;)&#65292;&#20063;&#21487;&#20197;&#22312;interface&#23618;&#38754;
+    </p>
+    <p>
+      &#36827;&#34892;&#23450;&#20041;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Interface: &#25509;&#21475;&#21253;&#21547;UDT&#21644;method&#22768;&#26126;&#65292; interface&#20063;&#21487;&#20197;&#20174;&#20854;&#20182;&#30340;interface&#32487;&#25215;&#32780;&#26469;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Packages: &#30001;&#30456;&#20851;&#30340;interface&#21644;udt&#32452;&#21512;&#32780;&#25104;&#65292;&#19968;&#20010;pakcage&#30001;name&#21644;version&#26631;&#35782;&#32780;&#25104;&#65292;&#24182;&#19988;&#21253;&#21547;&#22914;&#19979;&#30340;&#19996;&#35199;:
+    </p>
+    <p>
+      &#25968;&#25454;&#31867;&#22411;&#23450;&#20041;&#25991;&#20214;: types.hal
+    </p>
+    <p>
+      &#38646;&#20010;&#25110;&#32773;&#22810;&#20010;interface&#25991;&#20214;: &#22312;&#21508;&#33258;&#30340;.hal&#25991;&#20214;&#37324;&#38754;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1528271580610" ID="ID_1266680919" MODIFIED="1528272600462">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">HIDL&#30340;&#20195;&#30721;&#24067;&#23616;:</font></b>
+    </p>
+    <p>
+      HIDL&#30340;&#20195;&#30721;&#21253;&#25324;&#26680;&#24515;&#21253;&#21644;vendor&#23618;&#21253;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26680;&#24515;HIDL&#25509;&#21475;&#20195;&#30721;&#26159;&#30001;google&#25351;&#23450;&#30340;&#65292;&#36825;&#20123;&#21253;&#20197;android.hardware.&#24320;&#22836;
+    </p>
+    <p>
+      &#25152;&#26377;&#30340;&#26680;&#24515;&#21253;&#37117;&#25918;&#32622;&#22312;hardware/interface&#30446;&#24405;&#19979;&#38754;,&#25918;&#32622;&#30340;&#20855;&#20307;&#30446;&#24405;&#22914;&#19979;&#25152;&#31034;:
+    </p>
+    <p>
+      The package android.hardware.[name1].[name2]&#8230; at version $m.$n is under hardware/interfaces/name1/name2/&#8230;/$m.$n/;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38750;&#26680;&#24515;&#20195;&#30721;&#26159;&#30001;vendor&#21019;&#24314;&#30340;&#65292;&#21629;&#21517;&#35268;&#21017;&#26159;vendor.$(VENDOR).hardware, &#23545;&#24212;&#30340;&#36335;&#24452;&#26159;vendor/$(VENDOR)/hardware
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1528273017674" ID="ID_1072636160" MODIFIED="1528278456798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Fully-qualified user-defined-type names</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;hidl&#37324;&#38754;&#65292;&#27599;&#19968;&#20010;type&#37117;&#25317;&#26377;&#19968;&#20010;fully-qualified&#21517;&#31216;&#65292;&#35813;&#21517;&#31216;&#21253;&#25324;&#35813;type&#26412;&#36523;&#30340;&#21517;&#31216;&#65292;
+    </p>
+    <p>
+      &#35813;type&#25152;&#22312;&#30340;&#21253;&#30340;&#21517;&#31216;&#21644;&#35813;&#21253;&#30340;version&#21495;&#12290;
+    </p>
+    <p>
+      &#22312;&#23450;&#20041;&#35813;type&#30340;&#26102;&#20505;&#21482;&#20250;&#20986;&#29616;&#35813;type&#30340;&#21517;&#31216;&#65292;&#22312;&#22768;&#26126;&#35813;type&#30340;&#19968;&#20010;&#23454;&#20363;&#30340;&#26102;&#20505;&#25165;&#20250;&#20986;&#29616;&#35813;
+    </p>
+    <p>
+      type&#30340;fully-qualified&#21517;&#31216;
+    </p>
+    <p>
+      &#27604;&#22914;&#22312;&#25991;&#20214;types.hal&#24403;&#20013;&#20250;&#23450;&#20041;&#22914;&#19979;&#30340;type
+    </p>
+    <p>
+      struct NfcData {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;vec&lt;uint8_t&gt; data;
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      &#20294;&#26159;&#22312;&#22768;&#26126;&#35813;type&#30340;&#23454;&#20363;&#30340;&#26102;&#20505;&#26159;&#20351;&#29992;&#30340;&#22914;&#19979;:
+    </p>
+    <p>
+      android.hardware.nfc@1.0::NfcData
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534410536867" ID="ID_616726503" MODIFIED="1534410562655">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Package</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534410646974" ID="ID_1930615208" MODIFIED="1534410753783">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1. package&#30340;&#21517;&#31216;&#21487;&#20197;&#25317;&#26377;&#23376;&#21517;&#31216;&#65292;&#27604;&#22914;package.subpackage
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534410757580" ID="ID_249279210" MODIFIED="1534411053861">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;packages&#26469;&#35828;&#65292;&#23427;&#30340;&#26681;&#30446;&#24405;&#26159;hardware/interfaces&#25110;&#32773;vendor/vendorName
+    </p>
+    <p>
+      package&#30340;&#21517;&#31216;&#26159;&#30001;&#20301;&#20110;&#26681;&#30446;&#24405;&#19979;&#38754;&#30340;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;&#23376;&#30446;&#24405;&#30340;&#21517;&#31216;&#32452;&#25104;&#30340;&#65292;
+    </p>
+    <p>
+      &#25152;&#26377;&#30340;&#29992;&#26469;&#23450;&#20041;&#19968;&#20010;package&#30340;&#25991;&#20214;&#37117;&#22312;&#19968;&#20010;&#30446;&#24405;&#37324;&#38754;
+    </p>
+    <p>
+      &#27604;&#22914;android.hardware.example.extension.light@2.0 &#23545;&#24212;&#30340;&#36335;&#24452;&#26159;
+    </p>
+    <p>
+      hardware/interfaces/example/extension/light/2.0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534411153454" ID="ID_854689978" MODIFIED="1534987949222">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#da2121">android.hardware.* hardware/interfaces/* </font></b>
+    </p>
+    <p>
+      <b><font size="4" color="#da2121">android.frameworks.* frameworks/hardware/interfaces/* </font></b>
+    </p>
+    <p>
+      <b><font size="4" color="#da2121">android.system.* &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;system/hardware/interfaces/* </font></b>
+    </p>
+    <p>
+      <b><font size="4" color="#da2121">android.hidl.* &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;system/libhidl/transport/*</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534411260885" ID="ID_856250476" MODIFIED="1534411518042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      package&#36335;&#24452;&#19979;&#38754;&#20250;&#21253;&#21547;&#19968;&#31995;&#21015;&#30340;.hal&#25991;&#20214;&#65292;&#27599;&#20010;&#25991;&#20214;&#24517;&#39035;&#21253;&#21547;&#19968;&#20010;package&#35821;&#21477;
+    </p>
+    <p>
+      &#29992;&#26469;&#21629;&#21517;&#35813;&#25991;&#20214;&#25152;&#23646;&#30340;&#21253;&#30340;&#21517;&#31216;&#21644;&#29256;&#26412;&#21495;&#65292;
+    </p>
+    <p>
+      types.hal&#19981;&#26159;&#29992;&#20110;&#23450;&#20041;&#25509;&#21475;&#30340;&#65292;&#26159;&#29992;&#26469;&#23450;&#20041;&#25968;&#25454;&#31867;&#22411;&#30340;&#65292;&#35813;&#25968;&#25454;&#31867;&#22411;&#22312;&#24403;&#21069;&#30446;&#24405;
+    </p>
+    <p>
+      &#19979;&#30340;&#25152;&#26377;&#30340;interface&#37117;&#21487;&#20197;&#35775;&#38382;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1534411537263" ID="ID_1942815485" MODIFIED="1534411563686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Interface definition</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1528278465645" ID="ID_1776476652" MODIFIED="1528358430854">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Interface&#30340;&#23450;&#20041;
+    </p>
+    <p>
+      &#38500;&#20102;types.hal&#25991;&#20214;&#65292;&#20854;&#20182;&#30340;.hal&#25991;&#20214;&#23450;&#20041;&#20102;interface,&#19968;&#20010;&#20856;&#22411;&#30340;&#25509;&#21475;&#23450;&#20041;&#22914;&#19979;&#25152;&#31034;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      interface IBar extends IFoo { // IFoo is another interface
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// embedded types
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct MyStruct {/*...*/};
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// interface methods
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;create(int32_t id) generates (MyStruct s);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;close();
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27809;&#26377;extends&#20851;&#38190;&#23383;&#30340;&#25509;&#21475;&#23454;&#38469;&#19978;&#26159;&#38544;&#24418;&#22320;&#32487;&#25215;&#20102;android.hidl.base@1.0::IBase
+    </p>
+    <p>
+      IBase&#23450;&#20041;&#20102;&#19968;&#20123;&#20854;&#20182;&#30340;&#25509;&#21475;&#19981;&#33021;&#22768;&#26126;&#30340;&#26041;&#27861;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ping
+    </p>
+    <p>
+      interfaceChain
+    </p>
+    <p>
+      interfaceDescriptor
+    </p>
+    <p>
+      notifySyspropsChanged
+    </p>
+    <p>
+      linkToDeath
+    </p>
+    <p>
+      unlinkToDeath
+    </p>
+    <p>
+      setHALInstrumentation
+    </p>
+    <p>
+      getDebugInfo
+    </p>
+    <p>
+      debug
+    </p>
+    <p>
+      getHashChain
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534820430514" ID="ID_673128991" MODIFIED="1534821262530">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><i><b>&#25509;&#21475;&#32487;&#25215; </b></i></font>
+    </p>
+    <p>
+      <font size="4"><i><b>interface inheritance</b></i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534871751051" ID="ID_260813232" MODIFIED="1534872198772">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;interface&#21482;&#33021;&#25193;&#23637;&#21478;&#19968;&#20010;interface, &#19981;&#33021;&#36827;&#34892;&#22810;&#20010;&#25193;&#23637;&#12290;
+    </p>
+    <p>
+      &#24403;&#19968;&#20010;package&#30340;&#29256;&#26412;&#21495;&#30340;minor&#26159;&#38750;0&#30340;&#65292;&#37027;&#20040;&#35813;package&#37324;&#38754;&#30340;&#25152;&#26377;&#30340;interface
+    </p>
+    <p>
+      &#21482;&#33021;&#25193;&#23637;&#35813;package&#30340;&#20808;&#21069;&#29256;&#26412;&#30340;&#37324;&#38754;&#30340;&#23545;&#24212;&#30340;interface.
+    </p>
+    <p>
+      &#27604;&#22914;&#20301;&#20110;4.0&#29256;&#26412;&#30340;package derivative&#37324;&#38754;&#30340;&#25509;&#21475;IBar, &#25193;&#23637;&#20301;&#20110;&#29256;&#26412;1.2&#30340;original&#21253;&#37324;&#38754;&#30340;&#25509;&#21475;IFoo,
+    </p>
+    <p>
+      &#37027;&#20040;&#24403;1.3&#29256;&#26412;&#30340;&#21253;original&#34987;&#21019;&#24314;&#20986;&#26469;&#20043;&#21518;&#65292;4.1&#29256;&#26412;&#30340;IBar&#26159;&#19981;&#33021;&#25193;&#23637;1.3&#29256;&#26412;&#30340;IFoo&#30340;&#65292;&#23427;&#21482;&#33021;&#25193;&#23637;
+    </p>
+    <p>
+      4.0&#29256;&#26412;&#37324;&#38754;&#30340;IBar&#25509;&#21475;&#12290;
+    </p>
+    <p>
+      5.0&#29256;&#26412;&#30340;IBar&#21017;&#21487;&#20197;&#20043;&#38469;&#25193;&#23637;1.3&#29256;&#26412;&#30340;IFoo&#25509;&#21475;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1534819583030" ID="ID_609910735" MODIFIED="1534819619280">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>import&#35821;&#21477;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534819670195" ID="ID_1110136136" MODIFIED="1534820002233">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import&#35821;&#21477;&#26159;&#19968;&#31181;&#26426;&#21046;&#65292;&#29992;&#26469;&#35775;&#38382;package interface&#20197;&#21450;&#20301;&#20110;&#19968;&#20010;package&#37324;&#38754;&#30340;type&#23450;&#20041;&#65292;
+    </p>
+    <p>
+      &#19968;&#20010;import&#35821;&#21477;&#36830;&#25509;&#20102;&#20004;&#20010;&#23454;&#20307;&#65292;
+    </p>
+    <p>
+      &#19968;&#20010;&#23454;&#20307;&#26159;&#20351;&#29992;import&#35821;&#21477;&#30340;&#23454;&#20307;&#65292;&#35813;&#23454;&#20307;&#21487;&#20197;&#26159;package&#25110;&#32773;&#26159;interface
+    </p>
+    <p>
+      &#21478;&#19968;&#20010;&#23454;&#20307;&#26159;&#34987;import&#36827;&#26469;&#30340;&#23454;&#20307;&#65292;&#35813;&#23454;&#20307;&#20063;&#21487;&#20197;&#26159;package&#25110;&#32773;&#26159;interface
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24403;import&#35821;&#21477;&#26159;&#20301;&#20110;type.hal&#25991;&#20214;&#24403;&#20013;&#65292;import&#36827;&#26469;&#30340;&#19996;&#35199;&#21487;&#20197;&#34987;&#25972;&#20010;package&#30475;&#21040;
+    </p>
+    <p>
+      &#24403;import&#35821;&#21477;&#20301;&#20110;interface&#23450;&#20041;&#30340;&#25991;&#20214;&#24403;&#20013;&#65292;&#37027;&#20040;&#36825;&#23601;&#26159;&#19968;&#20010;interface&#23618;&#38754;&#30340;&#19996;&#35199;&#20102;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534820008528" ID="ID_1622706521" MODIFIED="1534820312143">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import&#36827;&#26469;&#30340;&#23454;&#20307;&#30340;&#36873;&#25321;:
+    </p>
+    <p>
+      &#36319;&#22312;import&#35821;&#21477;&#21518;&#38754;&#30340;&#23454;&#20307;&#30340;&#21517;&#31216;&#21487;&#20197;&#19981;&#24517;&#26159;fully-qualified&#30340;&#21517;&#31216;&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#35813;&#21517;&#31216;&#26159;&#19968;&#20010;&#31616;&#30053;&#30340;&#21517;&#31216;&#65292;&#37027;&#20040;&#21482;&#21305;&#37197;&#24403;&#21069;package&#37324;&#38754;&#30340;&#23454;&#20307;&#65307;
+    </p>
+    <p>
+      &#22914;&#26524;&#35813;&#21517;&#31216;&#26159;&#19968;&#20010;fully-qualified&#30340;&#21517;&#31216;&#65292;&#37027;&#20040;&#38656;&#35201;&#26681;&#25454;&#19979;&#38754;&#30340;&#35268;&#21017;&#36827;&#34892;&#21305;&#37197;&#30340;&#24037;&#20316;:
+    </p>
+    <ul>
+      <li>
+        <strong>Whole-package imports</strong>. If the value is a package name and a version (syntax described below), then the entire package is imported into the importing entity.
+      </li>
+      <li>
+        <strong>Partial imports</strong>. If the value is:
+
+        <ul>
+          <li>
+            An interface, the package's <code>types.hal</code>&#160;and that interface are imported into the importing entity.
+          </li>
+          <li>
+            A UDT defined in <code>types.hal</code>, then only that UDT is imported into the importing entity (other types in <code>types.hal</code>&#160;are not imported).
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Types-only imports</strong>. If the value uses the syntax of a partial import described above, but with the keyword <code>types</code>&#160;instead of an Interface name, only the UDTs in <code>types.hal</code>&#160;of the designated package are imported.
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534820376631" ID="ID_1848006740" MODIFIED="1534820418202">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="prettyprint"><font size="4"><b>&#19968;&#20123;&#20363;&#23376;&#30340;&#35828;&#26126;</b></font>
+import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// import a whole package<br />import&#160;android.hardware.example@1.0::IQuux;&#160;// import an interface and types.hal<br />import&#160;android.hardware.example@1.0::types;&#160;// import just types.ha</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1534872359671" ID="ID_230820125" MODIFIED="1534872395340">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000"><b>vendor&#25193;&#23637;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534873555509" ID="ID_1341724371" MODIFIED="1534873587369">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b><i>Interface&#30340;&#24067;&#23616;&#24635;&#32467;</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534873628085" ID="ID_928796871" MODIFIED="1534873635068" TEXT="interface hashing">
+<node CREATED="1534873752319" ID="ID_1923058597" MODIFIED="1534874152296">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24067;&#23616;&#65306;
+    </p>
+    <p>
+      &#27599;&#20010;&#21253;&#30340;&#26681;&#30446;&#24405;&#65292;android.hardware&#23545;&#24212;&#20110;hardware/interfaces, vendor.foo&#23545;&#24212;&#20110;vendor/foo/hardware/interfaces
+    </p>
+    <p>
+      &#24517;&#39035;&#21253;&#21547;&#19968;&#20010;current.txt&#25991;&#20214;&#65292;&#35813;&#25991;&#20214;&#37324;&#38754;&#21253;&#21547;&#30528;&#25152;&#26377;&#24050;&#32463;release&#20986;&#26469;&#30340;HIDL&#30340;&#25509;&#21475;&#25991;&#20214;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534874156685" ID="ID_851577076" MODIFIED="1534877963475">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hash with hidl-gen:
+    </p>
+    <p>
+      &#21487;&#20197;&#25163;&#21160;&#21521;current.txt&#37324;&#38754;&#28155;&#21152;&#21704;&#24076;&#20540;&#25110;&#32773;&#36890;&#36807;&#24037;&#20855;hidl-gen&#26469;&#36827;&#34892;&#28155;&#21152;&#65292;
+    </p>
+    <p>
+      &#29983;&#25104;hash&#20540;&#30340;&#21629;&#20196;:
+    </p>
+    <p>
+      hidl-gen -L hash -r vendor.awesome:vendor/awesome/hardware/interfaces -r
+    </p>
+    <p>
+      android.hardware:hardware/interfaces -r android.hidl:system/libhidl/transport vendor.awesome.nfc@1.0
+    </p>
+    <p>
+      9626fd18...f9d298a6 vendor.awesome.nfc@1.0::types
+    </p>
+    <p>
+      07ac2dc9...11e3cf57 vendor.awesome.nfc@1.0::INfc
+    </p>
+    <p>
+      f2fe5442...72655de6 vendor.awesome.nfc@1.0::INfcClientCallback
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hidl-gen -L hash -r vendor.awesome:vendor/awesome/hardware/interfaces -r android.hardware:hardware/interfaces -r
+    </p>
+    <p>
+      android.hidl:system/libhidl/transport vendor.awesome.nfc@1.0&#160; &gt;&gt; vendor/awesome/hardware/interfaces/current.txt
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534878206346" ID="ID_970612689" MODIFIED="1534878489288">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#20010;&#30001;hidl-gen&#20135;&#29983;&#30340;interface&#23450;&#20041;&#24211;&#37117;&#21253;&#21547;&#26377;&#21704;&#24076;&#20540;&#65292;&#35813;&#21704;&#24076;&#20540;&#21487;&#20197;&#36890;&#36807;&#25509;&#21475;
+    </p>
+    <p>
+      IBase::getHashChain&#33719;&#24471;&#12290;&#24403;hidl-gen&#22312;&#32534;&#35793;&#25509;&#21475;&#30340;&#26102;&#20505;&#65292;&#23427;&#20250;&#39318;&#20808;&#26597;&#30475;&#21253;&#30340;&#26681;&#30446;&#24405;&#19979;&#38754;&#30340;current.txt
+    </p>
+    <p>
+      &#25991;&#20214;&#26469;&#26816;&#26597;&#24403;&#21069;&#30340;interface&#26159;&#21542;&#24050;&#32463;&#34987;&#20462;&#25913;&#12290;
+    </p>
+    <ol>
+      <li>
+        &#22914;&#26524;&#27809;&#26377;hash&#20540;&#34987;&#21457;&#29616;&#65292;&#37027;&#20040;&#32534;&#35793;&#32487;&#32493;
+      </li>
+      <li>
+        &#22914;&#26524;hash&#34987;&#25214;&#21040;&#65292;&#37027;&#20040;&#20250;&#23558;hash&#20540;&#36319;&#24403;&#21069;&#30340;&#25509;&#21475;&#36827;&#34892;&#27604;&#23545;&#12290;&#22914;&#26524;&#27604;&#23545;&#30340;&#32467;&#26524;&#26159;&#27491;&#30830;&#30340;&#65292;&#37027;&#20040;&#32534;&#35793;&#20250;&#32487;&#32493;&#36827;&#34892;&#12290;&#22914;&#26524;&#27604;&#23545;&#30340;&#32467;&#26524;&#26159;&#19981;&#27491;&#30830;&#30340;&#65292;&#35828;&#26126;interface&#34987;&#20462;&#25913;&#36807;&#65292;&#23545;&#20110;ABI&#23618;&#38754;&#30340;&#20462;&#25913;&#24517;&#39035;&#22312;&#32534;&#35793;&#20043;&#21069;&#23545;current.txt&#36827;&#34892;&#20462;&#25913;&#65292;&#22914;&#26524;&#26159;&#20854;&#20182;&#30340;&#20462;&#25913;&#37027;&#20040;&#24212;&#35813;&#23545;interface&#30340;&#29256;&#26412;&#36827;&#34892;&#21319;&#32423;&#20102;&#12290;
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1534879706330" FOLDED="true" ID="ID_855756407" MODIFIED="1537406622619">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#26381;&#21153;&#21644;&#25968;&#25454;&#20256;&#36755;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534879761767" ID="ID_1772700705" MODIFIED="1534879842794">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300ff">&#35813;&#37096;&#20998;&#20027;&#35201;&#25551;&#36848;&#22914;&#20309;&#21457;&#29616;&#21644;&#27880;&#20876;&#26381;&#21153;&#65292;&#20197;&#21450;&#22914;&#20309;&#36890;&#36807;&#23450;&#20041;&#22312;.hal&#25991;&#20214;&#37324;&#38754;&#30340; </font>
+    </p>
+    <p>
+      <font color="#3300ff">&#25509;&#21475;&#21521;&#26381;&#21153;&#21457;&#36865;&#25968;&#25454;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534879902590" ID="ID_1924313945" MODIFIED="1534887559786">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#27880;&#20876;&#26381;&#21153;:</b>
+    </p>
+    <p>
+      HIDL&#25509;&#21475;&#26381;&#21153;(&#29992;&#26469;&#23454;&#29616;&#25509;&#21475;&#30340;&#23454;&#20307;)&#21487;&#20197;&#34987;&#27880;&#20876;&#25104;&#20026;&#26377;&#21517;&#31216;&#30340;&#26381;&#21153;&#12290;
+    </p>
+    <p>
+      &#27880;&#20876;&#30340;&#21517;&#31216;&#19981;&#38656;&#35201;&#36319;&#25509;&#21475;&#25110;&#32773;&#21253;&#30456;&#20851;&#65292;&#22914;&#26524;&#27809;&#26377;&#25351;&#23450;&#21517;&#31216;&#65292;&#37027;&#20040;&quot;default&quot;&#23601;&#20250;&#34987;&#20351;&#29992;&#12290;
+    </p>
+    <p>
+      &#25509;&#21475;&#27880;&#20876;&#25104;&#26381;&#21153;&#30340;&#33539;&#20363;&#20195;&#30721;&#22914;&#19979;:
+    </p>
+    <p>
+      status_t status = myFoo-&gt;registerAsService();
+    </p>
+    <p>
+      status_t anotherStatus = anotherFoo-&gt;registerAsService(&quot;another_foo_service&quot;);&#160;&#160;// <font color="#ff0033">if needed </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25509;&#21475;&#30340;&#29256;&#26412;&#21495;&#22312;&#27880;&#20876;&#30340;&#26102;&#20505;&#19981;&#38656;&#35201;&#36827;&#34892;&#25351;&#23450;&#65292;&#24050;&#32463;&#40664;&#35748;&#21253;&#21547;&#22312;&#20102;&#25509;&#21475;&#24403;&#20013;&#20102;&#65292;&#33719;&#21462;&#25509;&#21475;&#30340;&#29256;&#26412;&#21495;&#30340;
+    </p>
+    <p>
+      &#26041;&#27861;&#22914;&#19979;&#25152;&#31034;:
+    </p>
+    <p>
+      android::hardware::IInterface::getInterfaceVersion()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      server object&#19981;&#38656;&#35201;&#36827;&#34892;&#27880;&#20876;&#65292;&#23427;&#21487;&#20197;&#36890;&#36807;HIDL&#26041;&#27861;&#37324;&#38754;&#30340;&#21442;&#25968;&#20256;&#36882;&#21040;&#21478;&#22806;&#30340;&#36827;&#31243;&#24403;&#20013;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534887567692" ID="ID_1559147902" MODIFIED="1534892686403">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21457;&#29616;&#26381;&#21153;:
+    </p>
+    <p>
+      &#30001;&#23458;&#25143;&#20195;&#30721;&#21457;&#36215;&#30340;&#35831;&#27714;&#21253;&#25324;interface&#30340;&#21517;&#31216;&#36319;&#29256;&#26412;&#21495;&#65292;&#36890;&#36807;&#35843;&#29992;getService()&#20989;&#25968;&#33719;&#21462;&#26381;&#21153;
+    </p>
+    <p>
+      &#23454;&#20363;&#20195;&#30721;&#22914;&#19979;:
+    </p>
+    // C++<br />sp&lt;V1_1::IFooService&gt;&#160;service =&#160;V1_1::IFooService::getService();<br />sp&lt;V1_1::IFooService&gt;&#160;alternateService =&#160;V1_1::IFooService::getService(&quot;another_foo_service&quot;);<br />// Java<br />V1_1.IFooService&#160;service =&#160;V1_1.IFooService.getService(true&#160;/* retry */);<br />V1_1.IFooService&#160;alternateService =&#160;V1_1.IFooService.getService(&quot;another&quot;,&#160;true&#160;/* retry */);
+
+    <p>
+      &#19981;&#21516;&#30340;&#29256;&#26412;&#30340;interface&#20250;&#34987;&#24403;&#25104;&#20998;&#31163;&#24320;&#26469;&#30340;interface&#36827;&#34892;&#27880;&#20876;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Vendor Interface Object&#23545;&#20110;&#36820;&#22238;&#30340;&#25509;&#21475;&#37324;&#38754;&#30340;&#26159;&#21738;&#20123;&#20256;&#36755;&#26041;&#27861;&#20063;&#26377;&#24433;&#21709;&#65292;&#27604;&#22914;&#20301;&#20110;package android.hardware.foo@1.0
+    </p>
+    <p>
+      &#37324;&#38754;&#30340;&#25509;&#21475;IFoo, &#36890;&#36807;&#35843;&#29992;IFoo::getService&#36820;&#22238;&#30340;&#25509;&#21475;&#20351;&#29992;&#30340;&#20256;&#36755;&#26041;&#27861;&#65292;&#20250;&#20248;&#20808;&#20351;&#29992;&#22312;device manifest&#37324;&#38754;&#22768;&#26126;&#30340;&#20301;&#20110;
+    </p>
+    <p>
+      android.hardware.foo&#37324;&#38754;&#30340;&#20837;&#21475;&#65292;&#22914;&#26524;&#22768;&#26126;&#30340;&#20837;&#21475;&#27809;&#26377;&#23545;&#24212;&#30340;&#20256;&#36755;&#26041;&#27861;&#65292;&#37027;&#20040;nullptr&#23601;&#20250;&#34987;&#36820;&#22238;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534892695788" ID="ID_1039243205" MODIFIED="1534893299645">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Service death notifications
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#23458;&#25143;&#31471;&#20195;&#30721;&#24819;&#24471;&#21040;framework&#25512;&#36865;&#30340;service died &#36890;&#30693;&#65292;&#24517;&#39035;&#20570;&#22914;&#19979;&#30340;&#21160;&#20316;:
+    </p>
+    <p>
+      1.Subclass the HIDL class/interface hidl_death_recipient (in C++ code, not in HIDL).
+    </p>
+    <p>
+      2.Override its serviceDied() method.
+    </p>
+    <p>
+      3.Instantiate an object of the hidl_death_recipient subclass.
+    </p>
+    <p>
+      4.Call the linkToDeath() method on the service to monitor, passing in the IDeathRecipient's interface object.
+    </p>
+    <p>
+      Note that this method does not take ownership of the death recipient or the proxy on which it is called.
+    </p>
+    <p>
+      &#31034;&#20363;&#20195;&#30721;&#22914;&#19979;:
+    </p>
+    class&#160;IMyDeathReceiver&#160;:&#160;hidl_death_recipient {<br />&#160; virtual&#160; void&#160;serviceDied(uint64_t cookie,<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;wp&lt;IBase&gt;&amp;&#160; service)&#160;override&#160;{<br />&#160;&#160;&#160;&#160;log(&quot;RIP service %d!&quot;,&#160;cookie);&#160;&#160;// Cookie should be 42<br />&#160; }<br />};<br />....<br />IMyDeathReceiver&#160; deathReceiver =&#160;new&#160;IMyDeathReceiver();<br />m_importantService-&gt;linkToDeath(deathReceiver,&#160; 42);
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534893820145" ID="ID_256923480" MODIFIED="1534900183052">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Data Transfer</b></font>
+    </p>
+    <p>
+      data&#21487;&#33021;&#20250;&#36890;&#36807;&#23450;&#20041;&#22312;&#25509;&#21475;&#25991;&#20214;.hal&#37324;&#38754;&#30340;&#26041;&#27861;&#20256;&#36755;&#32473;service, &#26377;&#20004;&#31181;&#31867;&#22411;&#30340;&#26041;&#27861;:
+    </p>
+    <p>
+      <font color="#ff0033">Blocking method</font>&#20250;&#31561;&#24453;&#65292;&#30452;&#21040;server&#36820;&#22238;&#19968;&#20010;&#32467;&#26524;
+    </p>
+    <p>
+      <font color="#ff0033">Oneway method</font>&#21482;&#22312;&#19968;&#20010;&#26041;&#21521;&#21457;&#36865;&#25968;&#25454;&#24182;&#19988;&#19981;&#20250;block&#20303;&#12290;&#22914;&#26524;&#21457;&#36865;&#30340;&#25968;&#25454;&#36229;&#36807;&#20102;&#32531;&#23384;&#30340;&#38480;&#21046;&#65292;
+    </p>
+    <p>
+      &#35843;&#29992;&#21487;&#33021;&#20250;&#34987;&#38459;&#22622;&#20303;&#25110;&#32773;&#20250;&#36820;&#22238;&#19968;&#20010;&#38169;&#35823;&#30340;&#26631;&#35782;&#31526;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#19968;&#20010;&#26041;&#27861;&#19981;&#36820;&#22238;&#20219;&#20309;&#20540;&#24182;&#19988;&#27809;&#26377;&#34987;&#22768;&#26126;&#25104;Oneway, &#37027;&#20040;&#35813;&#26041;&#27861;&#20173;&#28982;&#26159;&#38459;&#22622;&#24335;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">callback&#65306;callback&#20998;&#20026;&#21516;&#27493;&#22238;&#35843;&#36319;&#24322;&#27493;&#22238;&#35843;</font>
+    </p>
+    <p>
+      &#21516;&#27493;&#22238;&#35843;&#29992;&#20110;&#37027;&#20123;&#20250;&#36820;&#22238;&#22797;&#26434;&#25968;&#25454;&#30340;HIDL&#26041;&#27861;&#24403;&#20013;&#65292;&#35813;&#22238;&#35843;&#20989;&#25968;&#26159;&#26377;client&#26469;&#25552;&#20379;&#30340;&#65292;&#29992;&#20110;&#25552;&#20379;&#25968;&#25454;&#30340;&#20256;&#36755;&#12290;
+    </p>
+    <p>
+      &#24322;&#27493;&#22238;&#35843;&#20801;&#35768;HIDL&#26041;&#27861;&#30340;&#26381;&#21153;&#31471;&#20063;&#21487;&#20197;&#21457;&#36215;&#19968;&#20010;&#35843;&#29992;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Per-transaction limits
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Method implementations
+    </p>
+    <p>
+      HIDL&#20250;&#29983;&#25104;&#22836;&#25991;&#20214;&#65292;&#35813;&#25991;&#20214;&#37324;&#38754;&#20250;&#29992;&#30446;&#26631;&#35821;&#35328;(c++/Java)&#22768;&#26126;&#24517;&#35201;&#30340;type, methods &#21644; callbacks&#12290;
+    </p>
+    <p>
+      &#23545;&#20110;&#23458;&#25143;&#31471;&#21644;&#26381;&#21153;&#31471;&#26469;&#35828;&#65292;HIDL&#23450;&#20041;&#30340;&#26041;&#27861;&#21407;&#22411;&#37117;&#26159;&#30456;&#21516;&#30340;&#12290;HIDL&#22312;&#35843;&#29992;&#31471;&#20026;&#36828;&#31243;&#26041;&#27861;&#35843;&#29992;&#30340;&#20256;&#36755;&#25552;&#20379;&#20102;&#19968;&#20010;proxy
+    </p>
+    <p>
+      &#30340;&#23454;&#29616;&#65292;&#22312;&#34987;&#35843;&#29992;&#31471;&#25552;&#20379;&#20102;&#25509;&#25910;&#30340;&#23454;&#29616;&#29992;&#20110;&#23558;&#26041;&#27861;&#21644;&#21442;&#25968;&#20256;&#36882;&#32473;&#23454;&#29616;&#26041;&#30340;&#20989;&#25968;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Non-RPC data transfer
+    </p>
+    <p>
+      HIDL&#22312;&#19981;&#20351;&#29992;&#36828;&#31243;&#35843;&#29992;&#30340;&#24773;&#20917;&#19979;&#65292;&#26377;&#20004;&#31181;&#26041;&#27861;&#21487;&#20197;&#23454;&#29616;&#25968;&#25454;&#30340;&#20256;&#36755;&#65292;&#21363;shared memory&#21644;Fast Message Queue(FMQ),
+    </p>
+    <p>
+      &#36825;&#20004;&#31181;&#26041;&#27861;&#37117;&#21482;&#25903;&#25345;c++
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534897244302" ID="ID_805994043" MODIFIED="1534897571958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fast Message Queue (FMQ)
+    </p>
+    <p>
+      HIDL&#22312;&#20351;&#29992;&#36828;&#31243;&#35843;&#29992;&#30340;&#26102;&#20505;&#31995;&#32479;&#30340;&#24320;&#38144;&#20250;&#27604;&#36739;&#22823;&#65292;&#25152;&#20197;&#36825;&#37324;&#24341;&#36827;&#20102;FMQ&#31995;&#32479;&#26469;&#38477;&#20302;&#31995;&#32479;&#30340;&#24320;&#38144;&#12290;
+    </p>
+    <p>
+      FMQ&#29992;&#38656;&#27714;&#30340;&#23646;&#24615;&#26469;&#21019;&#24314;&#28040;&#24687;&#38431;&#21015;&#65292;MQDescriptorSync &#25110;&#32773; MQDescriptorUnsync&#23454;&#20307;&#20250;&#36890;&#36807;
+    </p>
+    <p>
+      HIDL&#30340;&#36828;&#31243;&#35843;&#29992;&#26469;&#20256;&#36882;&#32473;&#21478;&#19968;&#20010;&#36827;&#31243;&#65292;&#36825;&#26679;&#21478;&#19968;&#20010;&#36827;&#31243;&#23601;&#21487;&#20197;&#35775;&#38382;&#28040;&#24687;&#38431;&#21015;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28040;&#24687;&#38431;&#21015;&#26377;&#20004;&#31181;&#31867;&#22411;:
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1534899668941" ID="ID_492774086" MODIFIED="1534899697537">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>HIDL Memory Block</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26377;&#31354;&#20877;&#30475;&#12290;&#12290;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534900290583" ID="ID_1190827014" MODIFIED="1534900310943">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#32447;&#31243;&#27169;&#22411;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534900939506" FOLDED="true" ID="ID_1325269962" MODIFIED="1537406624729">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033">Server&#31471;&#30340;&#32447;&#31243;&#27169;&#22411;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534900980363" ID="ID_852114959" MODIFIED="1534901438442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38500;&#20102;passthrouth&#27169;&#24335;&#65292; &#29992;&#20110;&#23454;&#29616;HIDL&#25509;&#21475;&#30340;server&#31471;&#26159;&#20301;&#20110;&#19981;&#21516;&#30340;&#36827;&#31243;&#24403;&#20013;&#30340;&#12290;
+    </p>
+    <p>
+      &#26381;&#21153;&#31471;&#30340;&#36827;&#31243;&#37324;&#38754;&#21487;&#33021;&#20250;&#26377;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;&#32447;&#31243;&#29992;&#26469;&#22788;&#29702;&#23458;&#25143;&#31471;&#30340;&#26041;&#27861;&#35843;&#29992;&#12290;
+    </p>
+    <p>
+      &#36825;&#20123;&#32447;&#31243;&#37117;&#26159;&#20301;&#20110;&#26381;&#21153;&#31471;&#30340;&#32447;&#31243;&#27744;&#37324;&#38754;&#30340;&#12290;&#26381;&#21153;&#31471;&#21487;&#20197;&#20915;&#23450;&#32447;&#31243;&#27744;&#37324;&#38754;&#30340;&#32447;&#31243;&#30340;&#25968;&#37327;&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#32447;&#31243;&#27744;&#37324;&#38754;&#21482;&#26377;&#19968;&#20010;&#32447;&#31243;&#65292;&#37027;&#20040;&#26381;&#21153;&#31471;&#20250;&#39034;&#24207;&#25191;&#34892;&#23458;&#25143;&#31471;&#30340;&#26041;&#27861;&#35843;&#29992;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1534901572598" ID="ID_1109009668" MODIFIED="1539284128343">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0033ff"><b>&#23558;&#20256;&#32479;&#30340;HAL&#27169;&#22359;&#36716;&#25442;&#25104;hidl&#27169;&#24335;&#30340;hal&#27169;&#22359;&#30340;&#26041;&#27861;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534905285722" ID="ID_282153012" MODIFIED="1534905413693">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36716;&#25442;&#26087;&#30340;hal&#23618;&#30340;&#22836;&#25991;&#20214;: hardware/libhardware/include/hardware, &#20351;&#29992;c2hal&#24037;&#20855;
+    </p>
+    <code class="devsite-terminal"><font size="4"><b>make c2hal</b></font></code><font size="4"><b>&#160;</b></font> <i>c2hal -r android.hardware:hardware/interfaces -randroid.hidl:system/libhidl/transport -p android.hardware.nfc@1.0 &#160;&#160;&#160;&#160;hardware/libhardware/include/hardware/nfc.h</i>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534905744596" ID="ID_1730855325" MODIFIED="1534906006585">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      implementing the hal
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21019;&#24314;&#20102;.hal&#25991;&#20214;&#20043;&#21518;&#65292;&#24517;&#39035;&#21019;&#24314;makefile&#25991;&#20214;&#65292;&#25991;&#20214;./hardware/interfaces/update-makefiles.sh
+    </p>
+    <p>
+      &#21487;&#20197;&#20026;&#20301;&#20110;
+    </p>
+    <p>
+      <code>hardware/interfaces &#30446;&#24405;&#19979;&#38754;&#30340;hal&#25991;&#20214;&#33258;&#21160;&#20135;&#29983;makefile&#25991;&#20214;&#65292; </code>
+    </p>
+    <p>
+      &#24403;makefile&#23436;&#22791;&#20043;&#21518;&#65292;&#23601;&#21487;&#20197;&#30528;&#25163;&#29983;&#25104;&#22836;&#25991;&#20214;&#20102;&#65292;&#24182;&#29992;c++&#25110;&#32773;java&#26469;&#23454;&#29616;&#23545;&#24212;&#30340;&#25509;&#21475;&#20102;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534906213575" ID="ID_1430120961" MODIFIED="1534906248938">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#9900ff"><b>HIDL C++</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534906285565" ID="ID_1664254107" MODIFIED="1534907374716">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#37096;&#20998;&#25551;&#36848;&#20102;c++&#23454;&#29616;&#19979;&#30340;hidl interface&#12290;
+    </p>
+    <p>
+      &#21253;&#25324;&#21033;&#29992;hidl-gen&#32534;&#35793;&#22120;&#36890;&#36807;.hal&#25991;&#20214;&#29983;&#25104;&#30340;&#25991;&#20214;&#30340;&#25551;&#36848;&#65292;
+    </p>
+    <p>
+      &#36825;&#20123;&#25991;&#20214;&#22914;&#20309;&#34987;&#25171;&#21253;&#65292;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534988989246" ID="ID_312304733" MODIFIED="1534989006220">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/treble_cpp_legacy_hal_progression.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1535093358311" ID="ID_1571936114" MODIFIED="1535094224082">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>Passthrough &#27169;&#24335;&#30340;&#22836;&#25991;&#20214;</i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20551;&#35774;&#24403;&#21069;&#30340;&#25509;&#21475;&#21517;&#31216;&#21483;&#20570;Foo, &#24403;&#35813;&#25509;&#21475;&#30340;.hal&#25991;&#20214;&#34987;&#32534;&#35793;&#65292;hidl-gen&#38500;&#20102;&#20135;&#29983;&#29992;&#20110;binder&#36890;&#20449;&#30340;&#22836;&#25991;&#20214;&#36824;&#20250;&#20135;&#29983;&#39069;&#22806;&#30340;
+    </p>
+    <p>
+      passthrough&#22836;&#25991;&#20214;BsFoo.h,&#160; &#35813;&#25991;&#20214;&#23450;&#20041;&#20102;&#21487;&#20197;&#34987;dlopen&#30340;&#20989;&#25968;&#12290;&#22240;&#20026;passthrough hal&#36319;&#35843;&#29992;&#32773;&#26159;&#36816;&#34892;&#22312;&#21516;&#19968;&#20010;&#36827;&#31243;&#24403;&#20013;&#30340;&#65292;
+    </p>
+    <p>
+      hal&#37324;&#38754;&#30340;&#22823;&#37096;&#20998;&#20989;&#25968;&#21487;&#20197;&#34987;&#30452;&#25509;&#35843;&#29992;&#12290;oneway&#26041;&#27861;&#21487;&#20197;&#22312;&#19968;&#20010;&#21333;&#29420;&#30340;&#32447;&#31243;&#37324;&#38754;&#36816;&#34892;&#65292;&#36825;&#24847;&#21619;&#30528;&#35813;&#26041;&#27861;&#24517;&#39035;&#26159;&#32447;&#31243;&#23433;&#20840;&#30340;&#12290;
+    </p>
+    <p>
+      BsFoo.h&#20250;&#23558;hidl&#20135;&#29983;&#30340;&#26041;&#27861;&#20570;&#19968;&#23618;&#23553;&#35013;&#29992;&#20197;&#25552;&#20379;&#20854;&#20182;&#30340;&#19968;&#20123;&#29305;&#24615;(&#27604;&#22914;&#35753;oneway&#26041;&#27861;&#36816;&#34892;&#22312;&#21478;&#19968;&#20010;&#32447;&#31243;&#24403;&#20013;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535094232680" ID="ID_1066307313" MODIFIED="1535102731150">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Binderizing passthrouth HALs</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20320;&#21487;&#20197;binder&#21270;&#19968;&#20010;&#25903;&#25345;passthrough&#27169;&#24335;&#30340;hal&#23454;&#29616;&#65292;&#27604;&#22914;&#26377;&#19968;&#20010;&#25509;&#21475;a..b.c.d@M.N::IFoo, &#26377;&#20004;&#20010;&#21253;&#20250;&#34987;
+    </p>
+    <p>
+      &#21019;&#24314;:
+    </p>
+    <p>
+      <b>a.b.c.d@M.N::IFoo-impl</b>(&#23545;&#20110;camera provider&#26469;&#35828;&#23601;&#26159;android.hardware.camera.provider@2.4-impl)&#65292;&#36825;&#20010;&#21253;&#37324;&#38754;
+    </p>
+    <p>
+      &#21253;&#21547;&#20102;hal&#23618;&#30340;&#23454;&#29616;&#20197;&#21450;&#19968;&#20010;&#26292;&#38706;&#32473;&#22806;&#30028;&#30340;&#25509;&#21475;&#20989;&#25968;IFoo* HIDL_FETCH_IFoo(const char* name)&#12304;&#23545;&#20110;camera provider&#26469;&#35828;
+    </p>
+    <p>
+      &#23601;&#26159;ICameraProvider* HIDL_FETCH_ICameraProvider(const char* name)&#12305;&#22312;legacy&#35774;&#22791;&#19978;&#65292;&#35813;&#21253;&#26159;&#30452;&#25509;&#36890;&#36807;dlopen&#25171;&#24320;&#30340;&#65292;
+    </p>
+    <p>
+      &#24182;&#19988;&#36890;&#36807;HIDL_FETCH_IFoo&#26469;&#23454;&#20363;&#21270;(HIDL_FETCH_ICameraProvider&#23601;&#26159;&#30452;&#25509;new&#20102;&#19968;&#20010;CameraProvider)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>a.b.c.d@M.N::IFoo-service</b>(android.hardware.camera.provider@2.4-service) &#35813;&#21253;&#30340;&#20316;&#29992;&#23601;&#26159;&#25171;&#24320;&#19978;&#38754;&#25152;&#35828;&#30340;passthrough&#27169;&#24335;&#30340;
+    </p>
+    <p>
+      hal&#65292;&#24182;&#19988;&#23558;&#20854;&#27880;&#20876;&#25104;&#19968;&#20010;binder&#26381;&#21153;&#65292; &#36825;&#26679;&#35813;hal&#30340;&#23454;&#29616;&#23601;&#21487;&#20197;&#34987;&#24403;&#20570;passthrough&#27169;&#24335;&#20351;&#29992;&#65292;&#20063;&#21487;&#20197;&#20316;&#20026;binder service&#26469;&#20351;&#29992;&#20102;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36890;&#36807;&#35843;&#29992;sp&lt;IFoo&gt; IFoo::getService(string name, bool getStub)&#23601;&#21487;&#20197;&#33719;&#21462;IFoo&#30340;&#23454;&#20363;&#65292;&#22312;CameraProviderManager&#37324;&#38754;&#23601;&#26159;&#35843;&#29992;
+    </p>
+    <p>
+      CameraProvider::getService&#26469;&#33719;&#21462;&#24403;&#21069;&#30340;camera provider&#23454;&#20363;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1534989251665" ID="ID_175406384" MODIFIED="1534989262847" TEXT="OverVIew">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1534989267282" ID="ID_1989230039" MODIFIED="1534990274999">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create the hal client
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      a. &#23558;hal&#23618;&#30340;&#24211;&#21253;&#21547;&#22312;makefile&#24403;&#20013;, &#20004;&#31181;&#20889;&#27861;
+    </p>
+    <p>
+      Make: LOCAL_SHARED_LIBRARIES += android.hardware.nfc@1.0
+    </p>
+    <p>
+      Soong: shared_libs: [ &#8230;, android.hardware.nfc@1.0 ]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      b.&#22312;&#23454;&#29616;&#30340;&#25991;&#20214;&#24403;&#20013;&#21253;&#21547;hal&#23618;&#30340;&#22836;&#25991;&#20214;
+    </p>
+    <p>
+      #include &lt;android/hardware/nfc/1.0/IFoo.h&gt;
+    </p>
+    <p>
+      &#8230;
+    </p>
+    <p>
+      // in code:
+    </p>
+    <p>
+      sp&lt;IFoo&gt; client = IFoo::getService();
+    </p>
+    <p>
+      client-&gt;doThing();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534990279560" ID="ID_1834170861" MODIFIED="1535332693128">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21019;&#24314;&#26381;&#21153;&#31471;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      a. &#20026;&#20102;&#21019;&#24314;&#26381;&#21153;&#31471;&#65292;&#24517;&#39035;&#25317;&#26377;&#20195;&#34920;hal&#23618;&#30340;.hal&#25991;&#20214;&#65292;&#32780;&#19988;&#35201;&#21033;&#29992;hidl-gen&#26469;&#29983;&#25104;hal&#23618;&#30340;makefile&#25991;&#20214;(&#20351;&#29992;-Lmakefile &#25110;&#32773; -Landroidbp&#21629;&#20196;
+    </p>
+    <p>
+      ,./hardware/interfaces/update-makefiles.sh&#37324;&#38754;&#23601;&#26377;&#20351;&#29992;&#30340;&#33539;&#20363;&#65292;&#21487;&#20197;&#21442;&#32771;&#19968;&#19979;)
+    </p>
+    <p>
+      &#20351;&#29992;c2hal&#24037;&#20855;&#21487;&#20197;&#23558;&#20256;&#32479;&#30340;hal&#23618;&#30340;&#22836;&#25991;&#20214;&#36716;&#25442;&#25104;.hal&#30340;&#25991;&#20214;
+    </p>
+    <p>
+      &#19979;&#38754;&#26159;&#19968;&#20010;&#36716;&#25442;makefile&#25991;&#20214;&#30340;&#20351;&#29992;&#33539;&#20363;
+    </p>
+    <p>
+      <i><font size="4">PACKAGE=android.hardware.nfc@1.0 </font></i>
+    </p>
+    <p>
+      <i><font size="4">LOC=hardware/interfaces/nfc/1.0/default/ </font></i>
+    </p>
+    <p>
+      <i><font size="4">m -j hidl-gen </font></i>
+    </p>
+    <p>
+      <i><font size="4">hidl-gen -o $LOC -Lc++-impl -randroid.hardware:hardware/interfaces \ </font></i>
+    </p>
+    <p>
+      <i><font size="4">&#160;&#160;&#160;&#160;-randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+    </p>
+    <p>
+      <i><font size="4">hidl-gen -o $LOC -Landroidbp-impl -randroid.hardware:hardware/interfaces \ </font></i>
+    </p>
+    <p>
+      <i><font size="4">&#160;&#160;&#160;&#160;-randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font size="4">b.&#23558;&#26381;&#21153;&#31471;&#27880;&#20876; </font></i>
+    </p>
+    <p>
+      <i><font size="4">#include &lt;hidl/LegacySupport.h&gt; </font></i>
+    </p>
+    <p>
+      <i><font size="4">int main(int /* argc */, char* /* argv */ []) { </font></i>
+    </p>
+    <p>
+      <i><font size="4">&#160;&#160;&#160;&#160;return defaultPassthroughServiceImplementation&lt;INfc&gt;(&quot;nfc&quot;); </font></i>
+    </p>
+    <p>
+      <i><font size="4">}</font></i>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535332772473" ID="ID_964896449" MODIFIED="1535332796947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#37197;&#32622;sepolicy</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1535332852354" ID="ID_981245756" MODIFIED="1535332887314">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e42323"><b>Packages</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1535332977179" ID="ID_1672950939" MODIFIED="1535333367169">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38500;&#20102;&#26497;&#23569;&#30340;&#20363;&#22806;&#65292; hidl&#20135;&#29983;&#30340;&#21253;&#20301;&#20110;&#30446;&#24405;hardware/interfaces&#19979;&#38754;&#25110;&#32773;&#26159;vendor/&#30446;&#24405;&#19979;&#38754;
+    </p>
+    <p>
+      hardware/interfaces&#23545;&#24212;&#20110;android.hardware&#21629;&#21517;&#31354;&#38388;
+    </p>
+    <p>
+      hidl-gen&#23558;.hal&#25991;&#20214;&#32534;&#35793;&#25104;&#19968;&#31995;&#21015;&#30340;.h&#21644;.cpp&#25991;&#20214;&#65292;&#23458;&#25143;&#31471;&#21644;&#26381;&#21153;&#31471;&#37117;&#20250;&#38142;&#25509;&#30001;&#36825;&#20123;.h&#21644;.cpp&#24418;&#25104;&#30340;&#21253;&#12290;
+    </p>
+    <p>
+      &#26500;&#24314;&#35813;&#20849;&#20139;&#24211;&#30340;&#25991;&#20214;Android.bp&#26159;&#30001;&#33050;&#26412;hardware/interfaces/update-makefiles.sh&#20135;&#29983;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535333632276" ID="ID_849877538" MODIFIED="1535333659274">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/treble_cpp_compiler_generated_files.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1535337111390" ID="ID_1947008732" MODIFIED="1535337137958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Interfaces</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535337145478" ID="ID_1971442744" MODIFIED="1535337167335">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Data Types</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535337174702" ID="ID_1806955038" MODIFIED="1535337198387">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Functions</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1535337818557" ID="ID_472946994" MODIFIED="1535337854183" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0c26e7"><b>ConfigStore HAL</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534888567661" FOLDED="true" ID="ID_1436064826" MODIFIED="1543386502226" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Vendor Interface Object(VINTF object)</b></font>
+    </p>
+    <p>
+      &#29992;&#20110;&#32858;&#21512;&#35774;&#22791;&#30340;&#30456;&#20851;&#20449;&#24687;&#65292;&#24182;&#25552;&#20379;&#30456;&#20851;&#30340;api&#26469;&#20379;&#31532;&#19977;&#26041;&#36827;&#34892;&#26597;&#35810;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534889480816" ID="ID_1467867287" MODIFIED="1534889518980">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/treble_vintf_mm.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1534889605380" ID="ID_1904382881" MODIFIED="1534890476669">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Manifests&#21644;matrices</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;&#20110;android8.0&#26469;&#35828;&#65292;&#26377;&#19968;&#20010;&#36816;&#34892;&#26102;&#30340;api&#21487;&#20197;&#29992;&#26469;&#21672;&#35810;&#35774;&#22791;&#30340;&#33021;&#21147;&#65292;&#24182;&#23558;&#36825;&#20123;&#20449;&#24687;
+    </p>
+    <p>
+      &#21457;&#36865;&#32473;OTA&#26356;&#26032;&#26381;&#21153;&#22120;&#25110;&#32773;&#26159;&#20854;&#20182;&#26377;&#20852;&#36259;&#30340;&#31532;&#19977;&#26041;(CTS)&#12290;&#26377;&#20123;&#20449;&#24687;&#26159;&#36816;&#34892;&#26102;&#33719;&#21462;&#30340;&#65292;&#26377;&#20123;&#21017;&#26159;&#38745;&#24577;&#23450;&#20041;&#30340;&#12290;
+    </p>
+    <p>
+      device manifest&#23450;&#20041;&#20102;&#35774;&#22791;&#21487;&#20197;&#25552;&#20379;&#32473;framework&#30340;&#38745;&#24577;&#32452;&#20214;
+    </p>
+    <p>
+      framework compatibility matrix&#21017;&#23450;&#20041;&#20102;framework&#26399;&#26395;&#35774;&#22791;&#25552;&#20379;&#30340;&#32452;&#20214;
+    </p>
+    <p>
+      framework manifest&#25551;&#36848;&#20102;framework&#21487;&#20197;&#25552;&#20379;&#32473;device&#30340;&#39640;&#23618;&#26381;&#21153;
+    </p>
+    <p>
+      device compatibility matrix&#25551;&#36848;&#20102;device&#24076;&#26395;&#20174;framework&#33719;&#21462;&#30340;&#26381;&#21153;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#31616;&#32780;&#35328;&#20043;manifest&#21644;matrix&#25551;&#36848;&#20102;&#25552;&#20379;&#20160;&#20040;&#21644;&#38656;&#35201;&#20160;&#20040;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1534890582888" ID="ID_879198928" MODIFIED="1543386497733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      manifest
+    </p>
+    <p>
+      VINTF object&#20174;device manifest&#21644;framework manifest&#24403;&#20013;&#33719;&#21462;&#20449;&#24687;&#65292;&#22312;&#36816;&#34892;&#26102;&#20174;&#35774;&#22791;&#24403;&#20013;&#33719;&#21462;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      device manifest&#21644;framework manifest&#20998;&#20139;&#30456;&#21516;&#30340;xml&#26684;&#24335;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      device manifest&#30001;vendor manifest&#21644;ODM manifest&#32452;&#25104;&#65306;
+    </p>
+    <p>
+      <font color="#ff0033">vendor manifest&#25351;&#23450;HALs,VNDK&#31561;soc&#36890;&#29992;&#30340;&#29256;&#26412;</font>&#65292;&#36890;&#24120;&#24314;&#35758;&#25918;&#32622;&#22312;&#30446;&#24405;
+    </p>
+    <p>
+      device/${VENDOR}/${DEVICE}/manifest.xml&#19979;&#38754;&#12290;ODM manifest&#20250;&#35206;&#30422;&#25481;vendor manifest,
+    </p>
+    <p>
+      &#24182;&#19988;&#20250;&#34987;&#24403;&#21069;&#30340;&#20135;&#21697;&#25351;&#23450;&#20855;&#20307;&#30340;HALs.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      framework manifest(&#30001;google&#25552;&#20379;)&#34987;&#25918;&#32622;&#22312;&#28304;&#20195;&#30721;&#30340;&#30446;&#24405;/system/libhidl/manifest.xml&#24403;&#20013;
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1534891294009" ID="ID_289006845" MODIFIED="1534891511293">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Compatibility Matrices
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Framework compatibility matrix (FCM)&#25551;&#36848;&#20102;&#36816;&#34892;&#22312;&#29305;&#23450;&#35774;&#22791;&#19978;&#30340;framework&#30340;&#38656;&#27714;&#65292;
+    </p>
+    <p>
+      matrix&#25991;&#20214;&#36319;system.img&#26159;&#20851;&#32852;&#36215;&#26469;&#30340;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Device compatibility matrix (DCM)&#25551;&#36848;&#20102;&#35774;&#22791;&#23545;&#20110;framework&#30340;&#35201;&#27714;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      matrix&#30340;&#35821;&#27861;&#65292;&#21442;&#32771;&#38142;&#25509; https://source.android.com/devices/architecture/vintf/comp-matrices
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1506408352929" FOLDED="true" ID="ID_1882094916" MODIFIED="1508306042576" POSITION="right" TEXT="13. android &#x5171;&#x4eab;&#x5185;&#x5b58;">
+</node>
+<node CREATED="1506408352929" FOLDED="true" ID="ID_1882094916" MODIFIED="1543386534442" POSITION="right" TEXT="13. android &#x5171;&#x4eab;&#x5185;&#x5b58;">
 <node CREATED="1506408366358" ID="ID_541543196" MODIFIED="1506408378534" TEXT="ashmem &#x865a;&#x62df;&#x5730;&#x5740;&#x8fde;&#x7eed;&#x7684;&#x5171;&#x4eab;&#x5185;&#x5b58;"/>
 <node CREATED="1506408382550" ID="ID_816489210" MODIFIED="1506408402224" TEXT="pmem &#x7269;&#x7406;&#x5730;&#x5740;&#x8fde;&#x7eed;&#x7684;&#x5171;&#x4eab;&#x5185;&#x5b58;"/>
 </node>
-<node CREATED="1508405934501" ID="ID_145164834" MODIFIED="1508405941813" POSITION="right" TEXT="14. android debug">
+<node CREATED="1508405934501" FOLDED="true" ID="ID_145164834" MODIFIED="1543386538155" POSITION="right" TEXT="14. android debug">
 <node CREATED="1508405945445" ID="ID_1833291569" MODIFIED="1508405949218" TEXT="https://sites.google.com/a/itspaclub.com/www/android-debug/7-how-to-debug-native-code/7-6-android-tombstones"/>
+</node>
+<node CREATED="1537406665769" ID="ID_1431826577" MODIFIED="1537406718429" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#009999"><b><i>VTS&#27979;&#35797;</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1543386542819" ID="ID_1329610924" MODIFIED="1543386566064" POSITION="right" TEXT="16. android &#x989c;&#x8272;&#x7a7a;&#x95f4;">
+<node CREATED="1543386709074" ID="ID_1088319198" MODIFIED="1543386918478">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;android8.1 &#24320;&#22987;&#25903;&#25345;&#39068;&#33394;&#31649;&#29702;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1543386921099" ID="ID_1466144956" MODIFIED="1543388291321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20855;&#26377;&#23485;&#33394;&#22495;&#26174;&#31034;&#33021;&#21147;&#30340;&#35774;&#32622;&#24212;&#35813;&#25903;&#25345;&#23433;&#21331;&#30340;&#39068;&#33394;&#31649;&#29702;&#65292;&#22312;&#20351;&#33021;&#36825;&#20010;feature&#20043;&#21069;&#65292;&#30830;&#20445;&#35774;&#22791;
+    </p>
+    <p>
+      &#28385;&#36275;&#22914;&#19979;&#30340;&#35201;&#27714;:
+    </p>
+    <ol>
+      <li>
+        &#35774;&#22791;&#26174;&#31034;&#28385;&#36275;&#35774;&#22791;&#30340;&#35201;&#27714;&#65292;&#21253;&#25324;&#25903;&#25345;Display-P3&#39068;&#33394;&#31354;&#38388;&#12290;&#20026;&#20102;&#20943;&#23569;cpu&#21644;gpu&#30340;&#24433;&#21709;&#65292;&#38656;&#35201;&#22312;&#26174;&#31034;pipeline&#24403;&#20013;&#25903;&#25345;&#25193;&#23637;&#30340;sRGB&#36319;HDR10
+      </li>
+      <li>
+        &#25903;&#25345;&#26657;&#20934;&#27969;&#31243;&#30340;&#26174;&#31034;&#35774;&#22791;&#65292;&#26657;&#20934;&#25968;&#25454;&#33267;&#23569;&#24212;&#24403;&#33021;&#22815;&#35753;&#35813;&#35774;&#22791;&#33021;&#22815;&#31934;&#30830;&#24471;&#26174;&#31034;sRGB&#20869;&#23481;&#21644;D65, D73&#30333;&#33394;&#28857;(&#20197;&#21518;&#21487;&#33021;&#20250;&#22686;&#21152;&#23545;ICC&#29305;&#24615;&#30340;&#25903;&#25345;)
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1543387340880" ID="ID_672198295" MODIFIED="1543388678715">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23454;&#26045;&#39068;&#33394;&#31649;&#29702;
+    </p>
+    <p>
+      &#20026;&#20102;&#23454;&#29616;&#39068;&#33394;&#31649;&#29702;&#65292;&#24517;&#39035;&#39318;&#20808;&#26356;&#26032;hardware composer 2(HWC2)&#39537;&#21160;&#20197;&#29702;&#35299;&#39068;&#33394;&#27169;&#24335;&#21644;&#23558;
+    </p>
+    <p>
+      &#39068;&#33394;&#27169;&#24335;&#24212;&#29992;&#21040;&#35774;&#22791;&#19978;&#65292;&#29305;&#21035;&#24471;HWC2&#24517;&#39035;&#33021;&#22815;&#25253;&#21578;sRGB&#27169;&#24335;&#36319;Display-P3&#27169;&#24335;&#65292;&#20351;&#29992;&#25509;&#21475;
+    </p>
+    <p>
+      HWCDisplay::GetColorModes
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19979;&#19968;&#27493;&#26159;&#20351;&#33021;OpenGL&#30340;&#30456;&#20851;&#25193;&#23637;&#36319;&#24211;&#65292;&#23558;OpenGL color space&#32763;&#35793;&#25104;<b>hal data spaces</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>

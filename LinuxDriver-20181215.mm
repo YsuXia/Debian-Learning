@@ -12,10 +12,10 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#cc0033" CREATED="1432001536510" FOLDED="true" ID="ID_1355499788" MODIFIED="1486719849121" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;&#x8bbe;&#x5907;&#x9a71;&#x52a8;&#x4ecb;&#x7ecd;">
+<node COLOR="#cc0033" CREATED="1432001536510" FOLDED="true" ID="ID_1355499788" MODIFIED="1544867540859" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;&#x8bbe;&#x5907;&#x9a71;&#x52a8;&#x4ecb;&#x7ecd;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1432001536510" ID="ID_413707106" MODIFIED="1486555597552" TEXT="&#x9a71;&#x52a8;&#x7684;&#x89d2;&#x8272;">
-<node CREATED="1432001536510" FOLDED="true" ID="ID_755263179" MODIFIED="1486555599156">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_413707106" MODIFIED="1544867539066" TEXT="&#x9a71;&#x52a8;&#x7684;&#x89d2;&#x8272;">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_755263179" MODIFIED="1527815355570">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34,19 +34,19 @@
 </html></richcontent>
 <node CREATED="1432001536510" ID="ID_303312917" MODIFIED="1432002140179" TEXT="&#x7f16;&#x5199;&#x9a71;&#x52a8;&#x5c3d;&#x91cf;&#x4e0d;&#x8981;&#x6d89;&#x53ca;&#x7b56;&#x7565;&#x7684;&#x90e8;&#x5206;"/>
 </node>
-<node CREATED="1432001536510" FOLDED="true" ID="ID_577086635" MODIFIED="1486555599157" TEXT="&#x7b56;&#x7565;&#x900f;&#x660e;&#x7684;&#x9a71;&#x52a8;&#x6240;&#x5177;&#x6709;&#x7684;&#x7279;&#x5f81;">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_577086635" MODIFIED="1527815352882" TEXT="&#x7b56;&#x7565;&#x900f;&#x660e;&#x7684;&#x9a71;&#x52a8;&#x6240;&#x5177;&#x6709;&#x7684;&#x7279;&#x5f81;">
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x652f;&#x6301;&#x540c;&#x6b65;&#x548c;&#x5f02;&#x6b65;"/>
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x591a;&#x6b21;&#x6253;&#x5f00;&#x7684;&#x80fd;&#x529b;"/>
 </node>
-<node CREATED="1432001536510" FOLDED="true" ID="ID_1110536121" MODIFIED="1486555599157" TEXT="&#x5185;&#x6838;&#x89d2;&#x8272;&#x7684;&#x5212;&#x5206;">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_1110536121" MODIFIED="1527815360338" TEXT="&#x5185;&#x6838;&#x89d2;&#x8272;&#x7684;&#x5212;&#x5206;">
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x8fdb;&#x7a0b;&#x7ba1;&#x7406;"/>
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x5185;&#x5b58;&#x7ba1;&#x7406;"/>
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x6587;&#x4ef6;&#x7cfb;&#x7edf;"/>
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x8bbe;&#x5907;&#x63a7;&#x5236;"/>
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x7f51;&#x7edc;"/>
 </node>
-<node CREATED="1432001536510" FOLDED="true" ID="ID_1354787353" MODIFIED="1486555599157" TEXT="&#x9a71;&#x52a8;&#x6a21;&#x5757;&#x7684;&#x5212;&#x5206;">
-<node CREATED="1432001536510" FOLDED="true" ID="ID_35820574" MODIFIED="1475896811327" TEXT="&#x5b57;&#x7b26;&#x8bbe;&#x5907;">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_1354787353" MODIFIED="1544867538129" TEXT="&#x9a71;&#x52a8;&#x6a21;&#x5757;&#x7684;&#x5212;&#x5206;">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_35820574" MODIFIED="1527815362906" TEXT="&#x5b57;&#x7b26;&#x8bbe;&#x5907;">
 <node CREATED="1432001536510" MODIFIED="1432001536510" TEXT="&#x5f53;&#x505a;&#x5b57;&#x8282;&#x6d41;&#x6765;&#x5b58;&#x53d6;&#x7684;&#x8bbe;&#x5907;"/>
 <node CREATED="1432001536510" ID="ID_1351821472" MODIFIED="1432002446072">
 <richcontent TYPE="NODE"><html>
@@ -64,11 +64,11 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536510" FOLDED="true" ID="ID_810170604" MODIFIED="1475896811327" TEXT="&#x5757;&#x8bbe;&#x5907;">
+<node CREATED="1432001536510" FOLDED="true" ID="ID_810170604" MODIFIED="1527815369298" TEXT="&#x5757;&#x8bbe;&#x5907;">
 <node CREATED="1432001536511" ID="ID_1434743738" MODIFIED="1432001536511" TEXT="&#x901a;&#x8fc7;&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x7684;&#x5165;&#x53e3;&#x6765;&#x5b58;&#x53d6;"/>
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="linux&#x5141;&#x8bb8;&#x5757;&#x8bbe;&#x5907;&#x50cf;&#x5b57;&#x7b26;&#x8bbe;&#x5907;&#x90a3;&#x6837;&#x5b58;&#x53d6;"/>
+<node CREATED="1432001536511" ID="ID_1835962326" MODIFIED="1432001536511" TEXT="linux&#x5141;&#x8bb8;&#x5757;&#x8bbe;&#x5907;&#x50cf;&#x5b57;&#x7b26;&#x8bbe;&#x5907;&#x90a3;&#x6837;&#x5b58;&#x53d6;"/>
 </node>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_981641251" MODIFIED="1475896811328">
+<node CREATED="1432001536511" FOLDED="true" ID="ID_981641251" MODIFIED="1527815374482">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -89,15 +89,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536511" ID="ID_1458470954" MODIFIED="1486555597556" TEXT="&#x5b89;&#x5168;&#x95ee;&#x9898;">
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x7cfb;&#x7edf;&#x4e2d;&#x7684;&#x5b89;&#x5168;&#x95ee;&#x9898;&#x662f;&#x7531;&#x5185;&#x6838;&#x5f3a;&#x5236;&#x52a0;&#x4e0a;&#x53bb;&#x7684;"/>
+<node CREATED="1432001536511" FOLDED="true" ID="ID_1458470954" MODIFIED="1544867540121" TEXT="&#x5b89;&#x5168;&#x95ee;&#x9898;">
+<node CREATED="1432001536511" ID="ID_24562969" MODIFIED="1432001536511" TEXT="&#x7cfb;&#x7edf;&#x4e2d;&#x7684;&#x5b89;&#x5168;&#x95ee;&#x9898;&#x662f;&#x7531;&#x5185;&#x6838;&#x5f3a;&#x5236;&#x52a0;&#x4e0a;&#x53bb;&#x7684;"/>
 </node>
 </node>
-<node COLOR="#cc0000" CREATED="1432001536511" FOLDED="true" ID="ID_89389509" MODIFIED="1502796205074" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#x5b57;&#x7b26;&#x9a71;&#x52a8;">
+<node COLOR="#cc0000" CREATED="1432001536511" FOLDED="true" ID="ID_89389509" MODIFIED="1540394871100" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#x5b57;&#x7b26;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1504972745" MODIFIED="1502348449301" TEXT="SCULL&#x7684;&#x4ecb;&#x7ecd;">
+<node CREATED="1432001536511" ID="ID_1504972745" MODIFIED="1522973524161" TEXT="SCULL&#x7684;&#x4ecb;&#x7ecd;">
 <edge COLOR="#ff0066"/>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1336937959" MODIFIED="1486555599157">
+<node CREATED="1432001536511" ID="ID_1336937959" MODIFIED="1522973532839">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -114,21 +114,21 @@
 <node CREATED="1432001536511" ID="ID_886513184" MODIFIED="1432001536511" TEXT="&#x7531;&#x5168;&#x5c40;&#x7684;&#x5185;&#x5b58;&#x533a;&#x7ec4;&#x6210;"/>
 <node CREATED="1432001536511" ID="ID_945918228" MODIFIED="1432001536511" TEXT="&#x7531;&#x6c38;&#x4e45;&#x7684;&#x5185;&#x5b58;&#x533a;&#x7ec4;&#x6210;"/>
 </node>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1823904421" MODIFIED="1486555599157" TEXT="scullpipe0&#x5230;scullpipe3">
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x884c;&#x4e3a;&#x50cf;&#x662f;&#x7ba1;&#x9053;"/>
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x5b9e;&#x73b0;&#x963b;&#x585e;&#x548c;&#x975e;&#x963b;&#x585e;"/>
+<node CREATED="1432001536511" ID="ID_1823904421" MODIFIED="1522973582761" TEXT="scullpipe0&#x5230;scullpipe3">
+<node CREATED="1432001536511" ID="ID_786883843" MODIFIED="1432001536511" TEXT="&#x884c;&#x4e3a;&#x50cf;&#x662f;&#x7ba1;&#x9053;"/>
+<node CREATED="1432001536511" ID="ID_134230882" MODIFIED="1432001536511" TEXT="&#x5b9e;&#x73b0;&#x963b;&#x585e;&#x548c;&#x975e;&#x963b;&#x585e;"/>
 </node>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1605671330" MODIFIED="1486555599157" TEXT="scullsingle">
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x53ea;&#x5141;&#x8bb8;&#x4e00;&#x6b21;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#x4f7f;&#x7528;"/>
+<node CREATED="1432001536511" ID="ID_1605671330" MODIFIED="1522973596081" TEXT="scullsingle">
+<node CREATED="1432001536511" ID="ID_765058061" MODIFIED="1432001536511" TEXT="&#x53ea;&#x5141;&#x8bb8;&#x4e00;&#x6b21;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#x4f7f;&#x7528;"/>
 </node>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_145566488" MODIFIED="1486555599157" TEXT="scullpriv">
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x5bf9;&#x6bcf;&#x4e2a;&#x865a;&#x62df;&#x7ec8;&#x7aef;&#x662f;&#x79c1;&#x6709;&#x7684;"/>
+<node CREATED="1432001536511" ID="ID_145566488" MODIFIED="1522973598439" TEXT="scullpriv">
+<node CREATED="1432001536511" ID="ID_1202904424" MODIFIED="1432001536511" TEXT="&#x5bf9;&#x6bcf;&#x4e2a;&#x865a;&#x62df;&#x7ec8;&#x7aef;&#x662f;&#x79c1;&#x6709;&#x7684;"/>
 </node>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1695524747" MODIFIED="1486555599158" TEXT="sculluid&#x548c;scullwuid">
-<node CREATED="1432001536511" MODIFIED="1432001536511" TEXT="&#x53ef;&#x4ee5;&#x591a;&#x7528;&#x6237;&#x6b21;&#x6253;&#x5f00;&#x4f46;&#x662f;&#x4e00;&#x6b21;&#x53ea;&#x80fd;&#x4e00;&#x4e2a;&#x7528;&#x6237;"/>
+<node CREATED="1432001536511" ID="ID_1695524747" MODIFIED="1522973600833" TEXT="sculluid&#x548c;scullwuid">
+<node CREATED="1432001536511" ID="ID_17928343" MODIFIED="1432001536511" TEXT="&#x53ef;&#x4ee5;&#x591a;&#x7528;&#x6237;&#x6b21;&#x6253;&#x5f00;&#x4f46;&#x662f;&#x4e00;&#x6b21;&#x53ea;&#x80fd;&#x4e00;&#x4e2a;&#x7528;&#x6237;"/>
 </node>
 </node>
-<node COLOR="#ff3333" CREATED="1432001536511" FOLDED="true" ID="ID_991336956" MODIFIED="1502796203826">
+<node COLOR="#ff3333" CREATED="1432001536511" ID="ID_991336956" MODIFIED="1522973610196">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -142,20 +142,20 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1432001536511" FOLDED="true" ID="ID_1096034248" MODIFIED="1502796203106" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;">
-<node CREATED="1432001536512" FOLDED="true" ID="ID_353294307" MODIFIED="1502348458005" TEXT="&#x4e3b;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x4f7f;&#x7528;&#x54ea;&#x4e2a;&#x9a71;&#x52a8;">
+<node CREATED="1432001536511" ID="ID_1096034248" MODIFIED="1522973628965" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_353294307" MODIFIED="1527756849511" TEXT="&#x4e3b;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x4f7f;&#x7528;&#x54ea;&#x4e2a;&#x9a71;&#x52a8;">
 <node BACKGROUND_COLOR="#33ff33" CREATED="1432105653336" ID="ID_1035150399" MODIFIED="1432105710224" TEXT="&#x4e5f;&#x6709;&#x591a;&#x4e2a;&#x9a71;&#x52a8;&#x5171;&#x4eab;&#x4e00;&#x4e2a;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x60c5;&#x51b5;">
 <edge COLOR="#3333ff"/>
 </node>
 </node>
 <node CREATED="1432001536512" ID="ID_183491251" MODIFIED="1432001536512" TEXT="&#x6b21;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x5177;&#x4f53;&#x7684;&#x8bbe;&#x5907;"/>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_1042749064" MODIFIED="1502796202426" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x7684;&#x5185;&#x90e8;&#x6807;&#x8bc6;">
+<node CREATED="1432001536512" ID="ID_1042749064" MODIFIED="1522973637157" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x7684;&#x5185;&#x90e8;&#x6807;&#x8bc6;">
 <node COLOR="#ff6666" CREATED="1432001536512" ID="ID_1408585560" MODIFIED="1432105797516" TEXT="dev_t&#x83b7;&#x5f97;&#x4e3b;&#x6b21;&#x7f16;&#x53f7;"/>
 <node CREATED="1432001536512" ID="ID_841449011" MODIFIED="1432001536512" TEXT="&#x7531;&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x83b7;&#x5f97;dev_t"/>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_1653444239" MODIFIED="1502348475261" TEXT="&#x5206;&#x914d;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
-<node COLOR="#cc0000" CREATED="1432001536512" FOLDED="true" ID="ID_837056629" MODIFIED="1471749036229">
+<node CREATED="1432001536512" ID="ID_1653444239" MODIFIED="1522973641852" TEXT="&#x5206;&#x914d;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
+<node COLOR="#cc0000" CREATED="1432001536512" ID="ID_837056629" MODIFIED="1522973646029">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -217,6 +217,87 @@
     </p>
     <p>
       <b><font color="#b90f11"><i>} *chrdevs[CHRDEV_MAJOR_HASH_SIZE];</i></font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527760207724" ID="ID_579635941" MODIFIED="1527760366719">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#e30c0c"><i>int register_chrdev_region(dev_t from, unsigned count, const char *name)</i></font> </b>
+    </p>
+    <p>
+      <b>{ </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;struct char_device_struct *cd; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;dev_t to = from + count; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;dev_t n, next; </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;for (n = from; n &lt; to; n = next) { </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;next = MKDEV(MAJOR(n)+1, 0); </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (next &gt; to) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;next = to; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cd = __register_chrdev_region(MAJOR(n), MINOR(n), </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;next - n, name); </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (IS_ERR(cd)) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;goto fail; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;} </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;return 0; </b>
+    </p>
+    <p>
+      <b>fail: </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;to = n; </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;for (n = from; n &lt; to; n = next) { </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;next = MKDEV(MAJOR(n)+1, 0); </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;kfree(__unregister_chrdev_region(MAJOR(n), MINOR(n), next - n)); </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;} </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;return PTR_ERR(cd); </b>
+    </p>
+    <p>
+      <b>} </b>
     </p>
   </body>
 </html></richcontent>
@@ -289,7 +370,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_194646339" MODIFIED="1486555599158" TEXT="&#x91ca;&#x653e;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" ID="ID_194646339" MODIFIED="1522975312081" TEXT="&#x91ca;&#x653e;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
 <node CREATED="1432001536512" ID="ID_46282766" MODIFIED="1432108775378" TEXT="&#x91ca;&#x653e;&#x8bbe;&#x5907;&#xff1a;cleanup&#x51fd;&#x6578;&#x5f53;&#x4e2d;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -303,9 +384,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_1289513604" MODIFIED="1486555599158" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" ID="ID_1289513604" MODIFIED="1522975319209" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;">
 <node COLOR="#990099" CREATED="1432001536512" ID="ID_852379625" MODIFIED="1454924875758" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x4f18;&#x70b9;"/>
-<node COLOR="#990099" CREATED="1432001536512" FOLDED="true" ID="ID_92675797" MODIFIED="1482300649478" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x7f3a;&#x70b9;">
+<node COLOR="#990099" CREATED="1432001536512" ID="ID_92675797" MODIFIED="1522975324954" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x7f3a;&#x70b9;">
 <node COLOR="#ff3333" CREATED="1432001536512" ID="ID_1680690855" MODIFIED="1454924935531">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -327,7 +408,7 @@
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#006666" CREATED="1432001536512" FOLDED="true" ID="ID_1467083384" MODIFIED="1482300650598" TEXT="&#x52a0;&#x8f7d;&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x6a21;&#x5757;&#x7684;&#x65b9;&#x6cd5;">
+<node COLOR="#006666" CREATED="1432001536512" ID="ID_1467083384" MODIFIED="1522975345173" TEXT="&#x52a0;&#x8f7d;&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x6a21;&#x5757;&#x7684;&#x65b9;&#x6cd5;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1432001536512" ID="ID_366208074" MODIFIED="1432001536512" TEXT="1.&#x8c03;&#x7528;insmod"/>
 <node CREATED="1432001536512" ID="ID_797593665" MODIFIED="1438829765122">
@@ -357,7 +438,7 @@
 </node>
 <node CREATED="1432001536512" ID="ID_1199466996" MODIFIED="1438829776314" TEXT="3.mknod &#x5efa;&#x7acb;&#x7279;&#x6b8a;&#x6587;&#x4ef6;"/>
 </node>
-<node COLOR="#006666" CREATED="1432001536512" FOLDED="true" ID="ID_657866416" MODIFIED="1482300652046">
+<node COLOR="#006666" CREATED="1432001536512" ID="ID_657866416" MODIFIED="1522975348040">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -406,7 +487,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536512" FOLDED="true" ID="ID_1336978487" MODIFIED="1502796199882" TEXT="&#x91cd;&#x8981;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1432001536512" ID="ID_1336978487" MODIFIED="1522975412708" TEXT="&#x91cd;&#x8981;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <node CREATED="1432001536512" ID="ID_479153915" MODIFIED="1477971432180">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -428,8 +509,8 @@
 <arrowlink COLOR="#0066ff" DESTINATION="ID_1658142979" ENDARROW="Default" ENDINCLINATION="472;0;" ID="Arrow_ID_825262927" STARTARROW="None" STARTINCLINATION="410;-75;"/>
 <linktarget COLOR="#ff0099" DESTINATION="ID_479153915" ENDARROW="Default" ENDINCLINATION="-160;15;" ID="Arrow_ID_911860929" SOURCE="ID_1008626152" STARTARROW="None" STARTINCLINATION="-153;15;"/>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1196680412" MODIFIED="1502796198866" TEXT="file:f_op&#x5b57;&#x6bb5;">
-<node CREATED="1432116064073" FOLDED="true" ID="ID_936260860" MODIFIED="1502796195730" TEXT="1.void *private_data,&#x8c03;&#x7528;open&#x65f6;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;">
+<node CREATED="1432001536513" ID="ID_1196680412" MODIFIED="1522975415624" TEXT="file:f_op&#x5b57;&#x6bb5;">
+<node CREATED="1432116064073" ID="ID_936260860" MODIFIED="1522975419444" TEXT="1.void *private_data,&#x8c03;&#x7528;open&#x65f6;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;">
 <node COLOR="#ff0099" CREATED="1433831827079" ID="ID_740947904" MODIFIED="1433832217801" TEXT="1.scull_open(struct inode *inode, struct file *filp)"/>
 <node CREATED="1433831838824" ID="ID_1767823674" MODIFIED="1433831866854">
 <richcontent TYPE="NODE"><html>
@@ -461,11 +542,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_776943990" MODIFIED="1486555599158" TEXT="inode">
+<node CREATED="1432001536513" ID="ID_776943990" MODIFIED="1522975417331" TEXT="inode">
 <node CREATED="1432001536513" ID="ID_1875008772" MODIFIED="1432001536513" TEXT="2&#x4e2a;&#x91cd;&#x8981;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x548c;2&#x4e2a;&#x91cd;&#x8981;&#x7684;&#x5b8f;&#x5b9a;&#x4e49;"/>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_99749949" MODIFIED="1502796194506" TEXT="&#x5b57;&#x7b26;&#x8bbe;&#x5907;&#x7684;&#x6ce8;&#x518c;">
+<node CREATED="1432001536513" ID="ID_99749949" MODIFIED="1522975428089" TEXT="&#x5b57;&#x7b26;&#x8bbe;&#x5907;&#x7684;&#x6ce8;&#x518c;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -521,7 +602,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1008626152" MODIFIED="1502796193554">
+<node CREATED="1432001536513" ID="ID_1008626152" MODIFIED="1522978955839">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -593,7 +674,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_236152283" MODIFIED="1502796191930">
+<node CREATED="1432001536513" ID="ID_236152283" MODIFIED="1523893952152">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -675,7 +756,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#009900" CREATED="1437292697018" FOLDED="true" ID="ID_562626581" MODIFIED="1486555599159">
+<node COLOR="#009900" CREATED="1437292697018" ID="ID_562626581" MODIFIED="1522982300065">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -769,7 +850,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1374754760" MODIFIED="1502796190426" TEXT="file_operations&#x7ed3;&#x6784;&#x4f53;&#x4e2d;&#x5404;&#x4e2a;&#x51fd;&#x6570;&#x5177;&#x4f53;&#x89e3;&#x6790;">
+<node CREATED="1432001536513" ID="ID_1374754760" MODIFIED="1524728868672" TEXT="file_operations&#x7ed3;&#x6784;&#x4f53;&#x4e2d;&#x5404;&#x4e2a;&#x51fd;&#x6570;&#x5177;&#x4f53;&#x89e3;&#x6790;">
 <node CREATED="1432001536513" ID="ID_1655145673" MODIFIED="1432001536513" TEXT="int (*open)(struct inode *inode, struct file *filp);"/>
 <node CREATED="1432001536513" ID="ID_1487078488" MODIFIED="1438760864749" TEXT="ssize_t read(struct file *filp, char __user *buff, size_t count, loff_t &#xa;*offp); &#x5728;&#x9a71;&#x52a8;&#x5f53;&#x4e2d;&#x4e0d;&#x8981;&#x76f4;&#x63a5;&#x4f7f;&#x7528;buff,&#x800c;&#x662f;&#x5e94;&#x8be5;&#x4f7f;&#x7528;copy_to_buffer&#x548c;copy_from_buffer&#xa;&#x5728;&#x672c;&#x4f8b;&#x5b50;&#x5f53;&#x4e2d;&#xff0c;&#x6700;&#x591a;&#x8bfb;&#x53d6;quantum&#x5b57;&#x8282;&#x4e2a;&#x6570;&#x636e;"/>
 <node CREATED="1432001536513" ID="ID_1682353476" MODIFIED="1438761219013" TEXT="ssize_t write(struct file *filp, const char __user *buff, size_t count, &#xa;loff_t *offp); &#xa;if (dev-&gt;size &lt; *offp)&#xa;dev-&gt;size = *offp;&#xa;"/>
@@ -813,7 +894,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1369221128" MODIFIED="1502796189602" TEXT="scull&#x7684;&#x5185;&#x5b58;&#x4f7f;&#x7528;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_1369221128" MODIFIED="1522992884097" TEXT="scull&#x7684;&#x5185;&#x5b58;&#x4f7f;&#x7528;">
 <node CREATED="1432001536513" FOLDED="true" ID="ID_1192511723" MODIFIED="1486555599159" TEXT="&#x51e0;&#x79cd;&#x52a8;&#x6001;&#x6539;&#x53d8;scull&#x5206;&#x914d;&#x7684;&#x5185;&#x5b58;&#x7684;&#x65b9;&#x6cd5;">
 <node CREATED="1432001536513" ID="ID_20164375" MODIFIED="1432001536513" TEXT="1&#x7f16;&#x8bd1;&#x65f6;&#x901a;&#x8fc7;&#x6539;&#x53d8;SCULL_QUANTUM&#x548c;SCULL_QSET&#x5728;&#x5934;&#x6587;&#x4ef6;&#x4e2d;&#x7684;&#x503c;"/>
 <node CREATED="1432001536513" ID="ID_849331691" MODIFIED="1432001536513" TEXT="2&#x5728;&#x6a21;&#x5757;&#x52a0;&#x8f7d;&#x65f6;&#x8bbe;&#x7f6e;scull_quantum&#x548c;scull_qset&#x7684;&#x503c;"/>
@@ -821,14 +902,14 @@
 </node>
 <node CREATED="1432001536513" ID="ID_1055152758" MODIFIED="1432001536513" TEXT="&#x4ece;&#x7528;&#x6237;&#x7a7a;&#x95f4;&#x83b7;&#x5f97;&#x6570;&#x636e;&#x65f6;&#x5185;&#x6838;&#x63d0;&#x4f9b;&#x4e86;2&#x79cd;&#x51fd;&#x6570;"/>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_903106643" MODIFIED="1502796188858" TEXT="&#x4f7f;&#x7528;read/write&#x51fd;&#x6570;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_903106643" MODIFIED="1522992888895" TEXT="&#x4f7f;&#x7528;read/write&#x51fd;&#x6570;">
 <node CREATED="1432001536513" ID="ID_1229006274" MODIFIED="1432001536513" TEXT="&#x9700;&#x8981;&#x5b9e;&#x65f6;&#x66f4;&#x65b0;&#x6587;&#x4ef6;&#x6307;&#x9488;&#x7684;&#x4f4d;&#x7f6e;&#x4e00;&#x904d;&#x5185;&#x6838;&#x540c;&#x6b65;&#x5230;file&#x4e2d;"/>
 <node CREATED="1432001536513" ID="ID_1555760555" MODIFIED="1432001536513" TEXT="&#x5982;&#x679c;read/write&#x5728;&#x5b8c;&#x6210;&#x4f20;&#x8f93;&#x4e4b;&#x540e;&#x7cfb;&#x7edf;&#x51fa;&#x73b0;&#x4e86;&#x9519;&#x8bef;&#xff0c;&#x5219;&#x8be5;&#x9519;&#x8bef;&#x4ee3;&#x7801;&#x5728;&#x4e0b;&#x4e00;&#x6b21;&#x8fd4;&#x56de;&#x65f6;&#x8fd4;&#x56de;"/>
 <node CREATED="1432001536513" ID="ID_1443812468" MODIFIED="1432001536513" TEXT="pread&#x51fd;&#x6570;"/>
 <node CREATED="1432001536513" ID="ID_758859841" MODIFIED="1432001536513" TEXT="unix&#x7248;&#x672c;&#x7684;readv&#x548c;writev&#x51fd;&#x6570;"/>
 </node>
 </node>
-<node CREATED="1432003024602" FOLDED="true" ID="ID_1859888168" MODIFIED="1487914174678" POSITION="left">
+<node CREATED="1432003024602" FOLDED="true" ID="ID_1859888168" MODIFIED="1525416976344" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2229,7 +2310,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1434600032779" FOLDED="true" ID="ID_389670617" MODIFIED="1502348430837" POSITION="right" TEXT="5.&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;">
+<node COLOR="#cc0033" CREATED="1434600032779" FOLDED="true" ID="ID_389670617" MODIFIED="1544867536921" POSITION="right" TEXT="5.&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1434600072078" ID="ID_333258577" MODIFIED="1434600082269" TEXT="1.makefile&#x7684;&#x4e8c;&#x6b21;&#x52a0;&#x8f7d;"/>
 <node CREATED="1434600084757" ID="ID_1963536127" MODIFIED="1434600100459" TEXT="2.obj-m&#x6307;&#x5b9a;&#x9700;&#x8981;&#x7f16;&#x8bd1;&#x7684;&#x6a21;&#x5757;"/>
@@ -2529,7 +2610,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1454674211713" FOLDED="true" ID="ID_501267520" MODIFIED="1507710849934" POSITION="right">
+<node COLOR="#cc0033" CREATED="1454674211713" FOLDED="true" ID="ID_501267520" MODIFIED="1528421611557" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2541,7 +2622,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1455007337777" ID="ID_1410005813" MODIFIED="1486555598088" TEXT="ioctl&#x64cd;&#x4f5c;">
+<node CREATED="1455007337777" FOLDED="true" ID="ID_1410005813" MODIFIED="1515281887282" TEXT="ioctl&#x64cd;&#x4f5c;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1455007365274" ID="ID_1680057345" MODIFIED="1455007547687">
 <richcontent TYPE="NODE"><html>
@@ -2561,7 +2642,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1455104682941" FOLDED="true" ID="ID_58343841" MODIFIED="1486555599161">
+<node CREATED="1455104682941" FOLDED="true" ID="ID_58343841" MODIFIED="1515281882544">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2703,7 +2784,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1455108600687" ID="ID_769253357" MODIFIED="1486555598112">
+<node CREATED="1455108600687" FOLDED="true" ID="ID_769253357" MODIFIED="1527909830879">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2760,9 +2841,9 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1455110508552" ID="ID_821094301" MODIFIED="1486555598135" TEXT="Blocking I/O">
+<node CREATED="1455110508552" FOLDED="true" ID="ID_821094301" MODIFIED="1528421608708" TEXT="Blocking I/O">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1455110836184" FOLDED="true" ID="ID_228938913" MODIFIED="1486555599161">
+<node CREATED="1455110836184" ID="ID_228938913" MODIFIED="1527945555278">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2779,7 +2860,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1455547846588" ID="ID_1733088782" MODIFIED="1455549531915">
+<node CREATED="1455547846588" ID="ID_1733088782" MODIFIED="1527951158815">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2794,10 +2875,22 @@
     <p>
       &#25345;&#26377;spinlock,seqlock&#25110;&#32773;RCU lock&#30340;&#26102;&#20505;&#65292;&#39537;&#21160;&#19981;&#33021;&#20241;&#30496;&#12290;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      2.&#24403;&#20195;&#30721;&#24050;&#32463;&#31105;&#27490;&#20013;&#26029;&#30340;&#26102;&#20505;&#19981;&#33021;&#36827;&#34892;&#20241;&#30496;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3.&#24403;&#25345;&#26377;&#20449;&#21495;&#37327;&#30340;&#26102;&#20505;&#26159;&#21487;&#20197;&#36827;&#20837;&#20241;&#30496;&#29366;&#24577;&#30340;
+    </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1455549109686" FOLDED="true" ID="ID_1280948464" MODIFIED="1475896811624">
+<node CREATED="1455549109686" ID="ID_1280948464" MODIFIED="1527945596803">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2842,12 +2935,15 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1455549656602" ID="ID_96256415" MODIFIED="1455550063582">
+<node CREATED="1455549656602" ID="ID_96256415" MODIFIED="1528160088969">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      <font color="#181928" size="4"><b>&#36827;&#31243;&#21796;&#37266;&#30340;&#26102;&#20505;&#24517;&#39035;&#26816;&#27979;&#23427;&#25152;&#31561;&#24453;&#30340;&#26465;&#20214;&#24050;&#32463;&#21464;&#25104;&#20102;TRUE</b></font>
+    </p>
     <p>
       <font color="#cc0000"><b><i>&#36827;&#31243;&#20241;&#30496;&#30340;&#26041;&#27861;&#65306; </i></b></font>
     </p>
@@ -2875,8 +2971,32 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1528161230811" ID="ID_570456357" MODIFIED="1528161776443">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21796;&#37266;&#25805;&#20316;&#65292;&#27880;&#24847;&#65292;&#21796;&#37266;&#25805;&#20316;&#21487;&#20197;&#22312;&#20854;&#20182;&#30340;&#36827;&#31243;&#24403;&#20013;&#25191;&#34892;&#65292;&#20063;&#21487;&#20197;&#22312;&#20013;&#26029;&#25191;&#34892;&#21477;&#26564;&#24403;&#20013;&#25191;&#34892;
+    </p>
+    <p>
+      &#21796;&#37266;&#30340;&#20989;&#25968;&#26377;&#22810;&#31181;&#24418;&#24335;&#65292;&#25105;&#20204;&#37325;&#28857;&#20851;&#27880;&#22914;&#19979;&#30340;&#20004;&#20010;&#24418;&#24335;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      void wake_up(wait_queue_head_t *queue)&#160;&#160;----------------------- &#23545;&#24212;&#19982;wait_event
+    </p>
+    <p>
+      void wake_up_interruptible(wait_queue_head_t *queue) ----------------&#23545;&#24212;&#20110;wait_event_interruptble
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1455693958735" FOLDED="true" ID="ID_1778348366" MODIFIED="1486555599161">
+</node>
+<node CREATED="1455693958735" ID="ID_1778348366" MODIFIED="1527945559553">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2913,6 +3033,123 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1528162846088" ID="ID_1705028331" MODIFIED="1528164011613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36827;&#31243;&#22312;&#35843;&#29992;open&#20989;&#25968;&#25171;&#24320;&#25991;&#20214;&#25551;&#36848;&#31526;&#30340;&#26102;&#20505;&#21487;&#20197;&#25351;&#23450;non-block&#26631;&#24535;&#65292;
+    </p>
+    <p>
+      O_NONBLOCK&#65292; &#35813;&#26631;&#24535;&#26159;&#34987;&#23384;&#25918;&#22312;filp-&gt;f_flags&#24403;&#20013;&#30340;&#12290;&#22914;&#26524;&#27983;&#35272;&#28304;&#20195;&#30721;&#65292;&#20320;&#20250;&#30475;&#21040;
+    </p>
+    <p>
+      &#26377;&#20123;&#22320;&#26041;&#20250;&#24341;&#29992;O_NDELAY&#26631;&#24535;&#65292;&#35813;&#26631;&#24535;&#30340;&#20316;&#29992;&#36319;O_NONBLOCK&#26159;&#19968;&#26679;&#30340;&#65292;&#35813;&#26631;&#24535;
+    </p>
+    <p>
+      &#26159;&#20026;&#20102;&#20860;&#23481;System V&#20195;&#30721;&#30340;&#12290;&#24212;&#29992;&#36719;&#20214;&#22312;&#22788;&#29702;O_NONBLOCK&#30340;&#35774;&#22791;&#30340;&#26102;&#20505;&#24517;&#39035;&#29305;&#21035;
+    </p>
+    <p>
+      &#23567;&#24515;&#65292;&#22240;&#20026;&#36935;&#21040;EOF&#30340;&#24773;&#20917;&#30340;&#26102;&#20505;&#31243;&#24207;&#20063;&#20250;&#30452;&#25509;&#36820;&#22238;&#12290;&#21442;&#30475;&#22914;&#19979;&#20174;&#25991;&#20013;&#30340;&#25688;&#24405;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Applications must be careful when using the stdio func-
+    </p>
+    <p>
+      tions while dealing with nonblocking files, because they can easily mistake a non-
+    </p>
+    <p>
+      blocking return for EOF . They always have to check errno .
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1528165111927" ID="ID_1107175581" MODIFIED="1528165134199" TEXT="&#x4ee3;&#x7801;&#x5b9e;&#x73b0;">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1528165137720" ID="ID_1123613762" MODIFIED="1528165218926">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">&#24102;&#26377;&#30828;&#20214;&#30340;&#26102;&#20505;&#30340;&#23454;&#29616;&#26159;&#22312;&#20013;&#26029;&#22788;&#29702;&#20989;&#25968;&#37324;&#38754;&#23558;&#24403;&#21069;&#38459;&#22622;&#20303;&#30340;&#36827;&#31243;&#21796;&#37266;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#dd0606" size="4">Within a driver, a process blocked in a read call is awakened when data arrives; usu- </font>
+    </p>
+    <p>
+      <font color="#dd0606" size="4">ally the hardware issues an interrupt to signal such an event, and the driver awakens </font>
+    </p>
+    <p>
+      <font color="#dd0606" size="4">waiting processes as part of handling the interrupt.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1528165238112" ID="ID_1697310674" MODIFIED="1528165289897">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>scullpipe&#30340;&#23454;&#29616;&#26159;&#23454;&#29616;&#19968;&#20010;&#31649;&#36947;&#30340;&#24418;&#24335;&#65292;&#30001;write&#36827;&#31243;&#26469;&#21796;&#37266; </b>
+    </p>
+    <p>
+      <b>&#38459;&#22622;&#20303;&#30340;read&#36827;&#31243;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1528168392443" ID="ID_1908286061" MODIFIED="1528168551580">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>struct scull_pipe { </b>
+    </p>
+    <p>
+      <b>wait_queue_head_t inq, outq;&#160;&#160;&#160;*******read and write queues </b>
+    </p>
+    <p>
+      <b>char *buffer, *end;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;********begin of buf, end of buf </b>
+    </p>
+    <p>
+      <b>int buffersize;&#160;&#160;********used in pointer arithmetic </b>
+    </p>
+    <p>
+      <b>char *rp, *wp;&#160;&#160;******** where to read, where to write </b>
+    </p>
+    <p>
+      <b>int nreaders, nwriters;&#160;&#160;********** number of openings for r/w </b>
+    </p>
+    <p>
+      <b>struct fasync_struct *async_queue;&#160;&#160;********asynchronous readers </b>
+    </p>
+    <p>
+      <b>struct semaphore sem; ******** mutual exclusion semaphore </b>
+    </p>
+    <p>
+      <b>struct cdev cdev; ******* Char device structure </b>
+    </p>
+    <p>
+      <b>}; </b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1455698408391" ID="ID_733138319" MODIFIED="1455698472247">
@@ -2936,7 +3173,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1455698550301" FOLDED="true" ID="ID_242657617" MODIFIED="1486555599161">
+<node CREATED="1455698550301" FOLDED="true" ID="ID_242657617" MODIFIED="1515281902315">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3347,7 +3584,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1455865796200" FOLDED="true" ID="ID_415466477" MODIFIED="1486555599162">
+<node CREATED="1455865796200" ID="ID_415466477" MODIFIED="1527945543591">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3390,8 +3627,141 @@
 </node>
 </node>
 </node>
+<node CREATED="1527909833976" ID="ID_920713861" MODIFIED="1527929906327">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#dd1e1e">&#24322;&#27493;I/O&#25805;&#20316;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#1326ee" DESTINATION="ID_998841584" ENDARROW="Default" ENDINCLINATION="-338;-106;" ID="Arrow_ID_1616113988" STARTARROW="None" STARTINCLINATION="628;0;"/>
+<node CREATED="1527909926621" ID="ID_1668374088" MODIFIED="1527910052482">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25903;&#25345;&#24322;&#27493;&#25805;&#20316;&#30340;&#39537;&#21160;&#31243;&#24207;&#24212;&#35813;&#21253;&#21547;&#22836;&#25991;&#20214;linux/aio.h
+    </p>
+    <p>
+      &#25105;&#20204;&#26469;&#30475;&#30475;&#24322;&#27493;&#25805;&#20316;&#30340;&#35835;&#20989;&#25968;&#21644;&#20889;&#20989;&#25968;
+    </p>
+    <p>
+      ssize_t (*aio_read) (struct kiocb *iocb, char *buffer,
+    </p>
+    <p>
+      size_t count, loff_t offset);
+    </p>
+    <p>
+      ssize_t (*aio_write) (struct kiocb *iocb, const char *buffer,
+    </p>
+    <p>
+      size_t count, loff_t offset);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#20204;&#30475;&#21040;offset&#37319;&#29992;&#30340;&#26159;&#20540;&#20256;&#36882;&#30340;&#26041;&#24335;&#65292;&#22240;&#20026;&#24322;&#27493;&#25805;&#20316;&#19981;&#20250;&#25913;&#21464;file position,&#25152;&#20197;&#27809;&#26377;&#24517;&#35201;&#20256;&#36882;&#25351;&#38024;&#12290;
+    </p>
+    <p>
+      &#21478;&#22806;&#36824;&#26377;&#19968;&#20010;&#21442;&#25968;iocb,&#25105;&#20204;&#31216;&#20043;&#20026;I/O control block
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1455762629108" FOLDED="true" ID="ID_1460639053" MODIFIED="1491198093723" POSITION="left">
+<node CREATED="1527923072370" ID="ID_708373387" MODIFIED="1527927352810">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      aio_read&#21644;aio_write&#23384;&#22312;&#30340;&#30446;&#30340;&#23601;&#26159;&#21021;&#22987;&#21270;read&#21644;write&#25805;&#20316;&#65292;
+    </p>
+    <p>
+      &#36825;&#20123;&#25805;&#20316;&#22312;&#36820;&#22238;&#30340;&#26102;&#20505;&#26377;&#21487;&#33021;&#20173;&#28982;&#27809;&#26377;&#23436;&#25104;&#20219;&#21153;&#12290;
+    </p>
+    <p>
+      static ssize_t my_aio_read(struct kiocb *iocb, char *buffer,
+    </p>
+    <p>
+      ssize_t count, loff_t offset)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      return my_read(iocb-&gt;ki_filp, buffer, count, &amp;offset);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      &#27880;&#24847;file&#25351;&#38024;&#26159;&#23384;&#25918;&#22312;kiocb&#30340;ki_filp&#23383;&#27573;&#37324;&#38754;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527927356494" ID="ID_212076395" MODIFIED="1527929832150">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#20320;&#25903;&#25345;&#24322;&#27493;I/O, &#20320;&#24517;&#39035;&#28165;&#26970;kernel&#26377;&#26102;&#20505;&#20250;&#21019;&#24314;synchronous IOCBs&#65292;
+    </p>
+    <p>
+      &#36825;&#20123;&#26159;&#24517;&#39035;&#34987;&#21516;&#27493;&#25191;&#34892;&#30340;&#24322;&#27493;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#21516;&#27493;&#25805;&#20316;&#30340;&#26631;&#35782;&#34987;&#26631;&#35760;&#21040;&#20102;IOCB&#37324;&#38754;&#65292;&#20320;&#21487;&#20197;&#36890;&#36807;&#20989;&#25968;int is_sync_kiocb(struct kiocb *iocb)
+    </p>
+    <p>
+      &#26597;&#35810;&#24403;&#21069;&#30340;&#29366;&#24577;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#35813;&#20989;&#25968;&#36820;&#22238;&#38750;0&#20540;&#65292;&#37027;&#20040;&#20320;&#30340;&#39537;&#21160;&#31243;&#24207;&#24517;&#39035;&#21516;&#27493;&#25191;&#34892;&#35813;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#20320;&#30340;&#39537;&#21160;&#31243;&#24207;&#21487;&#20197;&#21021;&#22987;&#21270;&#24322;&#27493;&#25805;&#20316;(&#25110;&#32773;&#21482;&#26159;&#31616;&#21333;&#22320;&#23558;&#35813;&#25805;&#20316;&#25490;&#36827;&#38431;&#21015;&#20197;&#20415;&#23558;&#26469;&#25191;&#34892;)
+    </p>
+    <p>
+      &#23427;&#24517;&#39035;&#35201;&#20570;&#20004;&#20214;&#20107;&#24773;: &#19968;&#20010;&#26159;&#35201;&#35760;&#20303;&#25152;&#26377;&#38656;&#35201;&#35760;&#20303;&#30340;&#20449;&#24687;&#65292;&#21478;&#19968;&#20010;&#26159;&#21521;&#19978;&#23618;&#36820;&#22238;-EIOCBQUEUED&#12290;
+    </p>
+    <p>
+      &#35760;&#20303;&#24517;&#35201;&#30340;&#20449;&#24687;&#21253;&#25324;&#38656;&#35201;&#35760;&#20303;&#29992;&#25143;&#31354;&#38388;&#32531;&#23384;&#30340;&#22320;&#22336;&#65292;&#22240;&#20026;&#20320;&#27809;&#26377;&#26426;&#20250;&#20877;&#33719;&#21462;&#35813;&#22320;&#22336;&#20102;&#65292;&#36890;&#24120;&#24847;&#20041;&#19978;&#65292;
+    </p>
+    <p>
+      &#36825;&#24847;&#21619;&#30528;&#20320;&#38656;&#35201;&#21435;&#35774;&#32622;&#30452;&#25509;&#20869;&#23384;&#26144;&#23556;(get_user_pages)&#25110;&#32773;&#26159;DMA&#26144;&#23556;&#12290;
+    </p>
+    <p>
+      -EIOCBQUEUED&#38169;&#35823;&#20195;&#30721;&#24847;&#21619;&#30528;&#35813;&#25805;&#20316;&#36824;&#27809;&#26377;&#23436;&#25104;&#65292;&#23427;&#30340;&#26368;&#32456;&#29366;&#24577;&#20250;&#22312;&#31245;&#21518;&#25253;&#21578;&#21040;&#19978;&#23618;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24403;&#39537;&#21160;&#23436;&#25104;&#20102;&#20219;&#21153;&#20043;&#21518;&#65292;&#21487;&#20197;&#35843;&#29992;&#22914;&#19979;&#30340;&#20989;&#25968;&#26469;&#21521;&#19978;&#23618;&#25253;&#21578;
+    </p>
+    <p>
+      int aio_complete(struct kiocb *iocb, long res, long res2);
+    </p>
+    <p>
+      iocb&#26159;&#20808;&#21069;&#20256;&#36882;&#19979;&#26469;&#30340;&#65292; res&#26159;&#25191;&#34892;&#32467;&#26524;&#30340;&#36820;&#22238;&#20540;&#65292; res2&#36890;&#24120;&#20250;&#34987;&#35774;&#32622;&#25104;0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1455762629108" FOLDED="true" ID="ID_1460639053" MODIFIED="1527940350841" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3403,7 +3773,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1455763244152" FOLDED="true" ID="ID_1570856145" MODIFIED="1491198080251">
+<node CREATED="1455763244152" ID="ID_1570856145" MODIFIED="1523895111139">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3589,8 +3959,53 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1523979493348" ID="ID_92293835" MODIFIED="1523979637510">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#39537;&#21160;&#30340;makefile&#25991;&#20214;&#24403;&#20013;&#65292;&#32463;&#24120;&#20250;&#30475;&#21040;&#22914;&#19979;&#30340;&#35821;&#21477;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      depend .depend dep:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(CC) $(EXTRA_CFLAGS) -M *.c &gt; .depend
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ifeq (.depend,$(wildcard .depend))
+    </p>
+    <p>
+      include .depend
+    </p>
+    <p>
+      endif
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#20010;&#26159;&#21033;&#29992;gcc -M&#30340;&#21151;&#33021;&#23558;&#25152;&#26377;&#30340;&#28304;&#25991;&#20214;&#30340;&#22836;&#25991;&#20214;&#30340;&#20381;&#36182;&#20851;&#31995;&#23548;&#20837;&#21040;&#20102;.depend&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#36825;&#26679;&#24403;&#26576;&#19968;&#20010;&#22836;&#25991;&#20214;&#34987;&#20462;&#25913;&#30340;&#26102;&#20505;&#65292;&#36816;&#34892;make&#30340;&#26102;&#20505;&#21253;&#21547;&#35813;&#22836;&#25991;&#20214;&#30340;&#28304;&#25991;&#20214;&#37117;&#20250;&#34987;&#37325;&#26032;&#32534;&#35793;&#12290;
+    </p>
+    <p>
+      &#27599;&#27425;&#26032;&#28155;&#21152;&#19968;&#20010;&#22836;&#25991;&#20214;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#36816;&#34892;&#19968;&#27425;depend
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1457940670562" FOLDED="true" ID="ID_32425074" MODIFIED="1507710820053" POSITION="left">
+</node>
+<node CREATED="1457940670562" FOLDED="true" ID="ID_32425074" MODIFIED="1525416967235" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4103,7 +4518,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1457950439871" FOLDED="true" ID="ID_1645872669" MODIFIED="1507710809661">
+<node CREATED="1457950439871" ID="ID_1645872669" MODIFIED="1520158120677">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4141,7 +4556,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1457950954704" FOLDED="true" ID="ID_1779660090" MODIFIED="1486555599171">
+<node CREATED="1457950954704" ID="ID_1779660090" MODIFIED="1520158131471">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4227,8 +4642,83 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1520265245787" ID="ID_1829764744" MODIFIED="1520265288733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ee1111"><i>kobj&#30340;&#20998;&#37197;&#21644;&#37322;&#25918;</i></font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1520265689462" ID="ID_62943729" MODIFIED="1520265722404">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;kmalloc&#21160;&#24577;&#20998;&#37197;&#65292;&#24182;&#22312;&#21021;&#22987;&#21270;&#20043;&#21518;&#28155;&#21152;&#21040;&#20869;&#26680;&#24403;&#20013;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1520347347465" ID="ID_1844931411" MODIFIED="1520347447565">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>void kobject_init(struct kobject *kobj, struct kobj_type *ktype)</b>
+    </p>
+    <p>
+      <font color="#b60c0c"><b><i>&#21021;&#22987;&#21270;struct kobject&#25351;&#38024;</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1458187049204" FOLDED="true" ID="ID_1192180758" MODIFIED="1486555599171">
+<node CREATED="1520348324813" ID="ID_971544683" MODIFIED="1520348452104">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>int kobject_add(struct kobject *kobj, struct kobject *parent, </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const char *fmt, ...)</b>
+    </p>
+    <p>
+      <font color="#ca1010">&#23558;&#21021;&#22987;&#21270;&#23436;&#25104;&#30340;kobject&#28155;&#21152;&#21040;&#20869;&#26680;&#24403;&#20013;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520348497430" ID="ID_312647447" MODIFIED="1520348566993">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>int kobject_init_and_add(struct kobject *kobj, struct kobj_type *ktype, </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct kobject *parent, const char *fmt, ...)</b>
+    </p>
+    <p>
+      <b><i><font color="#cd0909">&#19978;&#38754;&#20004;&#20010;&#25509;&#21475;&#30340;&#38598;&#21512;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1458187049204" ID="ID_1192180758" MODIFIED="1520262804778">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4267,7 +4757,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458187102241" FOLDED="true" ID="ID_190739162" MODIFIED="1486555599171">
+<node CREATED="1458187102241" ID="ID_190739162" MODIFIED="1520262811629">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4309,7 +4799,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1460273055228" FOLDED="true" ID="ID_1354610669" MODIFIED="1486555599172">
+<node CREATED="1460273055228" ID="ID_1354610669" MODIFIED="1520262816051">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4371,7 +4861,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1458184304797" FOLDED="true" ID="ID_1323385442" MODIFIED="1507710812005">
+<node CREATED="1458184304797" ID="ID_1323385442" MODIFIED="1520158124349">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4491,7 +4981,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1458286112588" FOLDED="true" ID="ID_297001465" MODIFIED="1507710816557">
+<node CREATED="1458286112588" ID="ID_297001465" MODIFIED="1520158106728">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4512,7 +5002,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1504766931841" FOLDED="true" ID="ID_736192438" MODIFIED="1507710815461">
+<node CREATED="1504766931841" ID="ID_736192438" MODIFIED="1520158109068">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4541,9 +5031,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1499823335170" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
+<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1540394862540" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1499823331349">
+<node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1526952804199">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4616,9 +5106,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1499823332824" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
+<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1540394860733" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1458444050579" FOLDED="true" ID="ID_345597075" MODIFIED="1499823328983">
+<node CREATED="1458444050579" FOLDED="true" ID="ID_345597075" MODIFIED="1540394854171">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4633,7 +5123,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1458446261967" FOLDED="true" ID="ID_1518217915" MODIFIED="1493219463841" TEXT="pin control&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x67b6;&#x6784;">
+<node CREATED="1458446261967" FOLDED="true" ID="ID_1518217915" MODIFIED="1526952808215" TEXT="pin control&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x67b6;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458446288669" ID="ID_1963969073" MODIFIED="1458446695190">
 <richcontent TYPE="NODE"><html>
@@ -4769,7 +5259,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459761171090" FOLDED="true" ID="ID_353188260" MODIFIED="1493219493850">
+<node CREATED="1459761171090" FOLDED="true" ID="ID_353188260" MODIFIED="1540394846203">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4780,7 +5270,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1459761914877" FOLDED="true" ID="ID_1073168285" MODIFIED="1493219492585">
+<node CREATED="1459761914877" FOLDED="true" ID="ID_1073168285" MODIFIED="1540394844608">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4809,9 +5299,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1459775491727" FOLDED="true" ID="ID_48223857" MODIFIED="1493219487749" TEXT="1.pinctrl&#x5411;&#x5176;&#x4ed6;driver&#x63d0;&#x4f9b;&#x7684;&#x63a5;&#x53e3;">
+<node CREATED="1459775491727" FOLDED="true" ID="ID_48223857" MODIFIED="1540394840045" TEXT="1.pinctrl&#x5411;&#x5176;&#x4ed6;driver&#x63d0;&#x4f9b;&#x7684;&#x63a5;&#x53e3;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459775543674" FOLDED="true" ID="ID_706896912" MODIFIED="1493219477085">
+<node CREATED="1459775543674" FOLDED="true" ID="ID_706896912" MODIFIED="1540394837412">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4848,7 +5338,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459775573746" FOLDED="true" ID="ID_1003800495" MODIFIED="1493219482049">
+<node CREATED="1459775573746" FOLDED="true" ID="ID_1003800495" MODIFIED="1540394838740">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4860,10 +5350,21 @@
     <p>
       &#38656;&#35201;&#20102;&#35299;pinctrl state holder&#30340;&#27010;&#24565;
     </p>
+    <ol>
+      <li>
+        <font color="#ea0c0c">&#33719;&#21462;pin control state holder, &#21363;&#32467;&#26500;&#20307;struct pinctrl </font>
+      </li>
+      <li>
+        <font color="#ea0c0c">&#35774;&#23450;pin control&#30340;&#29366;&#24577; </font>
+      </li>
+      <li>
+        <font color="#ea0c0c">&#37322;&#25918;pin control state holder&#30340;&#21477;&#26564;</font>
+      </li>
+    </ol>
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459777867480" FOLDED="true" ID="ID_1307995723" MODIFIED="1493219479103" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1459777867480" FOLDED="true" ID="ID_1307995723" MODIFIED="1540394835174" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459776584339" ID="ID_1346475980" MODIFIED="1459778181371">
 <richcontent TYPE="NODE"><html>
@@ -4906,7 +5407,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1459776992359" FOLDED="true" ID="ID_482818732" MODIFIED="1493219472825">
+<node CREATED="1459776992359" FOLDED="true" ID="ID_482818732" MODIFIED="1540394827035">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4954,7 +5455,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459777149118" FOLDED="true" ID="ID_452436352" MODIFIED="1493219471216">
+<node CREATED="1459777149118" FOLDED="true" ID="ID_452436352" MODIFIED="1540394825632">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5008,7 +5509,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459777239645" FOLDED="true" ID="ID_1440417104" MODIFIED="1493219470071">
+<node CREATED="1459777239645" FOLDED="true" ID="ID_1440417104" MODIFIED="1540394824314">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5062,7 +5563,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459778041480" FOLDED="true" ID="ID_512155678" MODIFIED="1493219480968" TEXT="&#x51fd;&#x6570;&#x63a5;&#x53e3;">
+<node CREATED="1459778041480" FOLDED="true" ID="ID_512155678" MODIFIED="1540394819211" TEXT="&#x51fd;&#x6570;&#x63a5;&#x53e3;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459778065448" ID="ID_758197521" MODIFIED="1459778352807">
 <richcontent TYPE="NODE"><html>
@@ -5118,11 +5619,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1459779838155" FOLDED="true" ID="ID_1860691904" MODIFIED="1493219486821" TEXT="2.pinctrl subsystem&#x548c;gpio subsystem&#x7684;&#x4ea4;&#x4e92;">
+<node CREATED="1459779838155" FOLDED="true" ID="ID_1860691904" MODIFIED="1540394813802" TEXT="2.pinctrl subsystem&#x548c;gpio subsystem&#x7684;&#x4ea4;&#x4e92;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459779886162" FOLDED="true" ID="ID_1296719661" MODIFIED="1493219485067" TEXT="1.&#x5177;&#x4f53;&#x7684;&#x63a5;&#x53e3;&#x5f62;&#x6001;">
+<node CREATED="1459779886162" FOLDED="true" ID="ID_1296719661" MODIFIED="1540394811476" TEXT="1.&#x5177;&#x4f53;&#x7684;&#x63a5;&#x53e3;&#x5f62;&#x6001;">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459780026289" FOLDED="true" ID="ID_443208363" MODIFIED="1493219483650">
+<node CREATED="1459780026289" FOLDED="true" ID="ID_443208363" MODIFIED="1540394809784">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5288,7 +5789,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459762131859" FOLDED="true" ID="ID_304684176" MODIFIED="1499823323993" TEXT="pin control subsystem&#x5185;&#x90e8;&#x6a21;&#x5757;&#x56fe;">
+<node CREATED="1459762131859" FOLDED="true" ID="ID_304684176" MODIFIED="1540394801628" TEXT="pin control subsystem&#x5185;&#x90e8;&#x6a21;&#x5757;&#x56fe;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1459762153899" ID="ID_1054135346" MODIFIED="1459762340458">
 <richcontent TYPE="NODE"><html>
@@ -5339,7 +5840,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490175170640" FOLDED="true" ID="ID_200428281" MODIFIED="1499823321472" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
+<node CREATED="1490175170640" FOLDED="true" ID="ID_200428281" MODIFIED="1540394787524" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490175442996" ID="ID_1694769749" MODIFIED="1490176448827">
 <richcontent TYPE="NODE"><html>
@@ -5377,7 +5878,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490176455403" FOLDED="true" ID="ID_1394610283" MODIFIED="1493219507682">
+<node CREATED="1490176455403" FOLDED="true" ID="ID_1394610283" MODIFIED="1540394781042">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5461,7 +5962,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490180403710" FOLDED="true" ID="ID_393075270" MODIFIED="1493219506081">
+<node CREATED="1490180403710" FOLDED="true" ID="ID_393075270" MODIFIED="1540394779093">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5702,9 +6203,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490233528087" FOLDED="true" ID="ID_357125436" MODIFIED="1493219515630" TEXT="&#x6587;&#x6863;gpio.txt&#x9605;&#x8bfb;">
+<node CREATED="1490233528087" FOLDED="true" ID="ID_357125436" MODIFIED="1540394795520" TEXT="&#x6587;&#x6863;gpio.txt&#x9605;&#x8bfb;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1490233551814" FOLDED="true" ID="ID_54356047" MODIFIED="1493219513790">
+<node CREATED="1490233551814" FOLDED="true" ID="ID_54356047" MODIFIED="1540394789688">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5941,7 +6442,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1458444473730" FOLDED="true" ID="ID_1382263222" MODIFIED="1495432526584">
+<node CREATED="1458444473730" FOLDED="true" ID="ID_1382263222" MODIFIED="1540394852961">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5955,7 +6456,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1458447111848" FOLDED="true" ID="ID_922373483" MODIFIED="1493219519473" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x6a21;&#x5757;&#x56fe;">
+<node CREATED="1458447111848" FOLDED="true" ID="ID_922373483" MODIFIED="1540394851557" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x6a21;&#x5757;&#x56fe;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458447141976" ID="ID_1774644299" MODIFIED="1458447257353">
 <richcontent TYPE="NODE"><html>
@@ -6016,7 +6517,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1493715764749" FOLDED="true" ID="ID_710540631" MODIFIED="1499823333764">
+<node CREATED="1493715764749" FOLDED="true" ID="ID_710540631" MODIFIED="1540394859265">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6053,7 +6554,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1455869533894" FOLDED="true" ID="ID_1951293954" MODIFIED="1495432451076" POSITION="right">
+<node CREATED="1455869533894" FOLDED="true" ID="ID_1951293954" MODIFIED="1540482995719" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6520,7 +7021,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1457923936486" FOLDED="true" ID="ID_1033231398" MODIFIED="1495432449490">
+<node CREATED="1457923936486" ID="ID_1033231398" MODIFIED="1527675129598">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6625,7 +7126,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1457936506692" FOLDED="true" ID="ID_591379314" MODIFIED="1494667521931">
+<node CREATED="1457936506692" ID="ID_591379314" MODIFIED="1527675119791">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6725,9 +7226,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1468229217652" FOLDED="true" ID="ID_572194135" MODIFIED="1499823279386" POSITION="left" TEXT="Kbuild&#x7cfb;&#x7edf;&#x5b66;&#x4e60;">
+<node CREATED="1468229217652" FOLDED="true" ID="ID_572194135" MODIFIED="1544867564537" POSITION="left" TEXT="Kbuild&#x7cfb;&#x7edf;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1468229234101" FOLDED="true" ID="ID_999465662" MODIFIED="1491269984789">
+<node CREATED="1468229234101" FOLDED="true" ID="ID_999465662" MODIFIED="1544867563417">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6759,7 +7260,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1468229547716" ID="ID_279059387" MODIFIED="1491198267916">
+<node CREATED="1468229547716" FOLDED="true" ID="ID_279059387" MODIFIED="1544867561929">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6833,7 +7334,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468249463723" FOLDED="true" ID="ID_1791617227" MODIFIED="1491198695535">
+<node CREATED="1468249463723" FOLDED="true" ID="ID_1791617227" MODIFIED="1544867560521">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7165,8 +7666,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468290646801" FOLDED="true" ID="ID_111318205" MODIFIED="1491269990637" TEXT="&#x5185;&#x6838;makefile">
-<node CREATED="1468290662337" FOLDED="true" ID="ID_1324818214" MODIFIED="1491269976085">
+<node CREATED="1468290646801" FOLDED="true" ID="ID_111318205" MODIFIED="1544867559265" TEXT="&#x5185;&#x6838;makefile">
+<node CREATED="1468290662337" FOLDED="true" ID="ID_1324818214" MODIFIED="1544867558016">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7250,7 +7751,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468293614186" FOLDED="true" ID="ID_102844332" MODIFIED="1491269973772">
+<node CREATED="1468293614186" FOLDED="true" ID="ID_102844332" MODIFIED="1544867556601">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7267,7 +7768,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1468311504627" ID="ID_763019342" MODIFIED="1491198992567" TEXT="&#x7b2c;&#x4e09;&#x90e8;&#x5206;">
+<node CREATED="1468311504627" FOLDED="true" ID="ID_763019342" MODIFIED="1544867555289" TEXT="&#x7b2c;&#x4e09;&#x90e8;&#x5206;">
 <node CREATED="1468302210735" ID="ID_576654895" MODIFIED="1468305044759">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7503,7 +8004,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1468312308164" ID="ID_431558417" MODIFIED="1491201811651">
+<node CREATED="1468312308164" FOLDED="true" ID="ID_431558417" MODIFIED="1526886192871">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7557,7 +8058,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468313658405" ID="ID_1452523954" MODIFIED="1491199006896">
+<node CREATED="1468313658405" FOLDED="true" ID="ID_1452523954" MODIFIED="1526886191207">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7729,7 +8230,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1468317622574" ID="ID_1729345163" MODIFIED="1490083887802" TEXT="&#x7b2c;&#x56db;&#x90e8;&#x5206;:&#x7b80;&#x5355;&#x7684;&#x4e3b;&#x673a;&#x7a0b;&#x5e8f;&#x652f;&#x6301;">
+<node CREATED="1468317622574" FOLDED="true" ID="ID_1729345163" MODIFIED="1526886189512" TEXT="&#x7b2c;&#x56db;&#x90e8;&#x5206;:&#x7b80;&#x5355;&#x7684;&#x4e3b;&#x673a;&#x7a0b;&#x5e8f;&#x652f;&#x6301;">
 <node CREATED="1468822940777" ID="ID_1155308987" MODIFIED="1468822965219">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7808,8 +8309,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468337897909" ID="ID_697366277" MODIFIED="1491199016586" TEXT="&#x7b2c;&#x516d;&#x90e8;&#x5206;:&#x67b6;&#x6784;&#x76f8;&#x5173;&#x7684;makefile">
-<node CREATED="1468338050509" ID="ID_1613029233" MODIFIED="1491199026263">
+<node CREATED="1468337897909" FOLDED="true" ID="ID_697366277" MODIFIED="1526886187632" TEXT="&#x7b2c;&#x516d;&#x90e8;&#x5206;:&#x67b6;&#x6784;&#x76f8;&#x5173;&#x7684;makefile">
+<node CREATED="1468338050509" FOLDED="true" ID="ID_1613029233" MODIFIED="1526886185640">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7868,7 +8369,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1468339624384" ID="ID_1431066623" MODIFIED="1491199206052" TEXT="1.&#x8bbe;&#x7f6e;&#x53d8;&#x91cf;&#x8c03;&#x6574;&#x5bf9;&#x67b6;&#x6784;&#x7684;&#x6784;&#x5efa;">
+<node CREATED="1468339624384" FOLDED="true" ID="ID_1431066623" MODIFIED="1526886183907" TEXT="1.&#x8bbe;&#x7f6e;&#x53d8;&#x91cf;&#x8c03;&#x6574;&#x5bf9;&#x67b6;&#x6784;&#x7684;&#x6784;&#x5efa;">
 <node CREATED="1468339776327" ID="ID_862426094" MODIFIED="1468339817481">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8239,7 +8740,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1468380767766" ID="ID_58595401" MODIFIED="1491199325469">
+<node CREATED="1468380767766" FOLDED="true" ID="ID_58595401" MODIFIED="1526886180592">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8403,7 +8904,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1491269996613" FOLDED="true" ID="ID_1842522828" MODIFIED="1499823277661">
+<node CREATED="1491269996613" FOLDED="true" ID="ID_1842522828" MODIFIED="1534946205800">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8414,7 +8915,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1491270089493" FOLDED="true" ID="ID_1218138841" MODIFIED="1493219408686">
+<node CREATED="1491270089493" ID="ID_1218138841" MODIFIED="1526886205761">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8455,7 +8956,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491272546651" FOLDED="true" ID="ID_1140887424" MODIFIED="1493219406867">
+<node CREATED="1491272546651" ID="ID_1140887424" MODIFIED="1526886337991">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8687,7 +9188,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1491276991843" FOLDED="true" ID="ID_1298505986" MODIFIED="1493219419405">
+<node CREATED="1491276991843" ID="ID_1298505986" MODIFIED="1526886430086">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8698,7 +9199,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1491291292295" FOLDED="true" ID="ID_1401334981" MODIFIED="1493219418209">
+<node CREATED="1491291292295" ID="ID_1401334981" MODIFIED="1526886433712">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8730,7 +9231,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491292160480" FOLDED="true" ID="ID_1388983278" MODIFIED="1493219414661">
+<node CREATED="1491292160480" ID="ID_1388983278" MODIFIED="1526886438411">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8896,11 +9397,582 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1474123973928" ID="ID_164809639" MODIFIED="1526886882269">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e81313"><i>483 %config: scripts_basic outputmakefile FORCE </i></font>
+    </p>
+    <p>
+      <font color="#e81313"><i>484&#160;&#160;&#160;&#160;&#160;$(Q)$(MAKE) $(build)=scripts/kconfig $@ </i></font>
+    </p>
+    <p>
+      &#21333;&#29420;&#20998;&#26512;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1474879387533" ID="ID_526139270" MODIFIED="1526886900365">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      scripts_basic:
+    </p>
+    <p>
+      $(Q)$(MAKE) $(build)=scripts/basic
+    </p>
+    <p>
+      $(Q)$(MAKE) -f $(srctree)/scripts/Makefile.build obj=scripts/basic
+    </p>
+    <p>
+      <font color="#b30b0b">&#35813;make&#21629;&#20196;&#30340;&#23454;&#38469;&#25928;&#26524;&#26159;&#21435;&#32534;&#35793;&#20986; scripts/basic &#30446;&#24405;&#19979;&#30340;host program</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1474880641204" ID="ID_1953050304" MODIFIED="1474880689162">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#d70707"><i>scripts/Makefile.lib&#33050;&#26412; </i></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491197108638" ID="ID_59313829" MODIFIED="1526886902084">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#e82727">1.&#23545;&#32534;&#35793;&#25991;&#20214;Makefile.build&#36827;&#34892;&#20998;&#26512;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491197213268" ID="ID_350613596" MODIFIED="1491203253555">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>a.&#21028;&#26029;&#20256;&#20837;&#30340;obj&#21464;&#37327;&#26159;&#21542;&#26159;&#20197;tpl&#25110;&#32773;spl</i></b>
+    </p>
+    <p>
+      &#20316;&#20026;&#36335;&#24452;&#30340;&#24320;&#22836;&#30340;&#65292;&#22914;&#26524;&#26159;&#21017;&#23558;&#21464;&#37327;prefix
+    </p>
+    <p>
+      &#36171;&#20540;&#25104;&#20026;tpl&#25110;&#32773;spl,&#22914;&#26524;&#19981;&#26159;&#21017;&#23558;&#21464;&#37327;prefix
+    </p>
+    <p>
+      &#36171;&#20540;&#20026;'.'
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491197524595" ID="ID_1446129436" MODIFIED="1491199834283">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>b.&#23558;&#22914;&#19979;&#30340;&#21464;&#37327;&#36827;&#34892;&#21021;&#22987;&#21270;</i></b>
+    </p>
+    <p>
+      obj-y obj-m lib-y lib-m always targets
+    </p>
+    <p>
+      subdir-y subdir-m EXTRA_AFLAGS&#160;&#160;&#160;
+    </p>
+    <p>
+      EXTRA_CFLAGS&#160;EXTRA_CPPFLAGS
+    </p>
+    <p>
+      EXTRA_LDFLAGS&#160;
+    </p>
+    <p>
+      asflags-y&#160;ccflags-y&#160;cppflags-y ldflags-y&#160;
+    </p>
+    <p>
+      subdir-asflags-y subdir-ccflags-y
+    </p>
+    <p>
+      save-cflags := $(CFLAGS)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491197678522" ID="ID_761512240" MODIFIED="1501036442875">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>c.&#23558;&#37197;&#32622;&#25991;&#20214;&#21253;&#21547;&#36827;&#26469;</b>
+    </p>
+    <p>
+      -include include/config/auto.conf
+    </p>
+    <p>
+      -include $(prefix)/include/autoconf.mk
+    </p>
+    <p>
+      include scripts/Makefile.uncmd_spl
+    </p>
+    <p>
+      include scripts/Kbuild.include----&gt;&#21253;&#21547;kbuild&#20351;&#29992;&#30340;&#36890;&#29992;&#30340;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491298668058" ID="ID_921154180" MODIFIED="1491298723731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if_changed&#21629;&#20196;
+    </p>
+    <p>
+      &#24403;&#30446;&#26631;&#30340;&#20808;&#20915;&#26465;&#20214;&#27604;&#30446;&#26631;&#26356;&#26032;&#25110;&#32773;&#21629;&#20196;&#34892;&#24050;&#32463;&#34987;
+    </p>
+    <p>
+      &#26356;&#25913;&#65292;&#21017;&#25191;&#34892;&#21629;&#20196;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1491200900600" ID="ID_34862812" MODIFIED="1526886896120">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>d. &#30001;&#20110;&#20256;&#20837;&#30340;src = obj = scripts/basic</i></b>
+    </p>
+    <p>
+      <i><font color="#be2c2c" face="Serif">&#25152;&#20197;&#22312;basic&#30446;&#24405;&#19979;&#38754;&#23547;&#25214;Makefile&#25110;&#32773;&#26159;Kbuild&#25991;&#20214;&#65292; </font></i>
+    </p>
+    <p>
+      <i><font color="#be2c2c" face="Serif">&#21253;&#21547;&#30456;&#24212;&#30340;&#20256;&#20837;&#30340;obj&#30446;&#26631;&#19979;&#38754;&#30340;makefile&#25110;&#32773;&#26159;kbuild&#25991;&#20214;</font></i>
+    </p>
+    <p>
+      &#28982;&#21518;&#21253;&#21547;&#35813;&#25991;&#20214;
+    </p>
+    <p>
+      include $(kbuild-file)
+    </p>
+    <p>
+      scripts/basic&#30446;&#24405;&#19979;&#38754;&#30340;Makefile&#25991;&#20214;&#29992;&#26469;&#32534;&#35793;&#29983;&#25104;fixdep&#31243;&#24207;
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#ed640c" DESTINATION="ID_34862812" ENDARROW="Default" ENDINCLINATION="847;0;" ID="Arrow_ID_1785801322" SOURCE="ID_711080305" STARTARROW="None" STARTINCLINATION="847;0;"/>
+</node>
+<node CREATED="1491201278053" ID="ID_616799324" MODIFIED="1491201316762">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>e.&#28155;&#21152;&#23545;uboot&#25903;&#25345;&#30340;&#21464;&#37327;</i></b>
+    </p>
+    <p>
+      asflags-y&#160;&#160;+= $(PLATFORM_CPPFLAGS)
+    </p>
+    <p>
+      ccflags-y&#160;&#160;+= $(PLATFORM_CPPFLAGS)
+    </p>
+    <p>
+      cppflags-y += $(PLATFORM_CPPFLAGS)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491201663755" ID="ID_353480679" MODIFIED="1491201770163">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>e.&#21253;&#21547;&#25991;&#20214;include scripts/Makefile.lib</i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491202397453" ID="ID_675764528" MODIFIED="1491203265538">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#d80f0f">f.</font>&#26816;&#26597;&#21464;&#37327;hostprogs-y&#21644;hostprogs-m&#26159;&#21542;&#20026;&#31354;&#65292;</i></b>
+    </p>
+    <p>
+      &#22914;&#26524;&#19981;&#26159;&#31354;&#65292;&#21017;&#23558;&#25991;&#20214;
+    </p>
+    <p>
+      include scripts/Makefile.host
+    </p>
+    <p>
+      &#21253;&#21547;&#36827;&#26469;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491203125783" ID="ID_936270056" MODIFIED="1491203224603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>g. &#21028;&#26029;KBUILD_SRC&#26159;&#21542;&#20026;&#31354;</i></b>&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#19981;&#26159;&#31354;(&#19968;&#33324;&#22312;&#30495;&#27491;&#32534;&#35793;uboot&#30340;&#26102;&#20505;&#35813;&#20540;&#19981;&#31354;)&#65292;
+    </p>
+    <p>
+      &#21017;&#26681;&#25454;&#20256;&#20837;&#30340;obj&#30340;&#20540;&#65292;&#21019;&#24314;obj&#21644;obj-dirs&#23545;&#24212;&#30340;&#30446;&#24405;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491203556190" ID="ID_45250146" MODIFIED="1526890154392">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>h.&#22914;&#26524;&#24050;&#32463;&#30495;&#27491;&#36827;&#20837;&#20102;&#32534;&#35793;&#20195;&#30721;&#30340;&#38454;&#27573;&#65292;</i></b>&#37027;&#20040;&#23601;&#36890;&#36807;&#22914;&#19979;&#30340;&#36171;&#20540;
+    </p>
+    <p>
+      &#25351;&#23450;&#32534;&#35793;&#32467;&#26463;&#21518;&#30340;&#30456;&#20851;&#32467;&#26524;&#30340;&#20301;&#32622;
+    </p>
+    <p>
+      lib-target := $(obj)/lib.a
+    </p>
+    <p>
+      builtin-target := $(obj)/built-in.o
+    </p>
+    <p>
+      modorder-target := $(obj)/modules.order
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491206026956" ID="ID_1284916225" MODIFIED="1526890162313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      122 __build: $(if $(KBUILD_BUILTIN),$(builtin-target) $(lib-target) $(extra-y)) \
+    </p>
+    <p>
+      123&#160;&#160;&#160;&#160;&#160;&#160;$(if $(KBUILD_MODULES),$(obj-m) $(modorder-target)) \
+    </p>
+    <p>
+      124&#160;&#160;&#160;&#160;&#160;&#160;$(subdir-ym) $(always)
+    </p>
+    <p>
+      125&#160;&#160;&#160;&#160;&#160;@:
+    </p>
+    <p>
+      &#39030;&#23618;&#30446;&#24405;&#30340;Makefile&#25991;&#20214;&#24050;&#32463;&#23558;KBUILD_BUILTIN&#35774;&#32622;&#25104;1&#65292;
+    </p>
+    <p>
+      &#32780;&#23558;KBUILD_MODULES&#27809;&#26377;&#36827;&#34892;&#35774;&#32622;&#65292;
+    </p>
+    <p>
+      &#20063;&#23601;&#26159;&#35828;u-boot&#40664;&#35748;&#26159;&#37319;&#29992;builtin&#32534;&#35793;&#27169;&#24335;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491297907135" ID="ID_1480152721" MODIFIED="1491298110793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(builtin-target): $(obj-y) FORCE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(call if_changed,link_o_target)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491298166133" ID="ID_1854524770" MODIFIED="1491298187334">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(lib-target): $(lib-y) FORCE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(call if_changed,link_l_target)
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1492248380396" FOLDED="true" ID="ID_1978186560" MODIFIED="1493219440993">
+</node>
+<node CREATED="1491298289077" ID="ID_1554641990" MODIFIED="1491298348197">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;&#30446;&#26631;outputmakefile,&#20854;&#23454;&#21482;&#26159;&#22312;make&#21629;&#20196;&#24102;&#26377;
+    </p>
+    <p>
+      O&#36873;&#39033;&#30340;&#26102;&#20505;&#25165;&#26377;&#20316;&#29992;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491298855240" ID="ID_711080305" LINK="#ID_34862812" MODIFIED="1526886896120">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20998;&#26512;<i><font color="#e81313">$(Q)$(MAKE) $(build)=scripts/kconfig $@ </font></i></b>
+    </p>
+    <p>
+      <b>&#21363;&#20998;&#26512; </b>
+    </p>
+    <p>
+      <b>make -f scripts/Makefile.build obj=scripts/kconfig s3c2410_defconfig</b>
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#ed640c" DESTINATION="ID_34862812" ENDARROW="Default" ENDINCLINATION="847;0;" ID="Arrow_ID_1785801322" STARTARROW="None" STARTINCLINATION="847;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1491299282142" ID="ID_383307405" MODIFIED="1526886894438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#39318;&#20808;&#20250;&#21253;&#21547;scripts/kconfig&#30446;&#24405;&#19979;&#38754;&#30340;makefile
+    </p>
+    <p>
+      &#25991;&#20214;&#65292;&#23545;&#35813;&#25991;&#20214;&#36827;&#34892;&#20998;&#26512;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491299695530" ID="ID_839625115" MODIFIED="1526886896626">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39318;&#20808;&#25105;&#20204;&#25214;&#21040;&#40664;&#35748;&#30340;&#30446;&#26631;&#65306;
+    </p>
+    <p>
+      <i><font color="#d90505">115 %_defconfig: $(obj)/conf </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">116&#160;&#160;&#160;&#160;&#160;$(Q)$&lt; $(silent) --defconfig=arch/$(SRCARCH)/configs/$@ $(Kconfig) </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">117 </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">118 # Added for U-Boot (backward compatibility) </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">119 %_config: %_defconfig </font></i>
+    </p>
+    <p>
+      <i><font color="#d90505">120&#160;&#160;&#160;&#160;&#160;@:</font></i>
+    </p>
+    <p>
+      &#21487;&#20197;&#30475;&#21040;u-boot&#20026;%_config&#20570;&#20102;&#20860;&#23481;&#24615;&#30340;&#22788;&#29702;&#65292;&#29992;&#20110;&#22788;&#29702;&#23601;&#29256;&#26412;&#30340;&#32534;&#35793;&#26041;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491300207239" ID="ID_510646270" MODIFIED="1491300262495">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $(obj)/conf&#26159;host&#31243;&#24207;&#65292;&#21363;&#36827;&#34892;Kconfig&#36807;&#31243;&#30340;&#20027;&#31243;&#24207;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1491300347510" FOLDED="true" ID="ID_744119757" MODIFIED="1501829857031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#310909">$(Q)$&lt; $(silent) --defconfig=arch/$(SRCARCH)/configs/$@ $(Kconfig) </font></i>
+    </p>
+    <p>
+      <i><font color="#310909">$&lt;&#34920;&#31034;&#31532;&#19968;&#20010;&#20381;&#36182;&#65292;&#21363;conf&#31243;&#24207; </font></i>
+    </p>
+    <p>
+      &#25152;&#20197;&#35813;&#21629;&#20196;&#22914;&#19979;:
+    </p>
+    <p>
+      conf --defconfig=arch/../configs/s3c2410_defconfig kconfig
+    </p>
+    <p>
+      &#22312;u-boot&#28304;&#20195;&#30721;&#30446;&#24405;&#30340;configs&#30446;&#24405;&#19979;&#38754;&#65292;&#25105;&#20204;&#20197;&#19977;&#26143;&#20195;&#30721;&#20026;&#20363;&#23376;&#65292;&#21487;&#20197;&#30475;&#21040;&#22914;&#19979;&#30340;
+    </p>
+    <p>
+      &#37197;&#32622;&#25991;&#20214;:
+    </p>
+    <p>
+      smdk2410_defconfig&#160;&#160;smdk5250_defconfig&#160;&#160;smdk5420_defconfig&#160; smdkc100_defconfig&#160;&#160;smdkv310_defconfig
+    </p>
+    <p>
+      &#35813;&#21629;&#20196;&#30340;&#23454;&#38469;&#20316;&#29992;&#23601;&#26159;&#35835;&#21462;&#40664;&#35748;&#30340;&#37197;&#32622;&#21644;&#28304;&#20195;&#30721;&#39030;&#23618;&#30446;&#24405;&#24403;&#20013;&#30340;kconfig&#37197;&#32622;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1491300885089" ID="ID_170643425" MODIFIED="1491301254222">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="SansSerif">&#20998;&#26512;&#26368;&#39030;&#23618;&#30340;Kconfig&#25991;&#20214;&#65292;&#25105;&#20204;&#21487;&#20197;&#30475;&#21040;&#38500;&#20102;&#35774;&#32622; </font>
+    </p>
+    <p>
+      <font size="4" face="SansSerif">&#19968;&#20123;&#37197;&#32622;&#21464;&#37327;&#20043;&#22806;&#65292;&#36824;source&#20102;&#22914;&#19979;&#36335;&#24452;&#24403;&#20013;&#30340;kconfig </font>
+    </p>
+    <p>
+      <font size="4" face="SansSerif">source &quot;arch/Kconfig&quot;</font>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;common/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;cmd/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;dts/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;net/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;drivers/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;fs/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;lib/Kconfig&quot; </font></i></b>
+    </p>
+    <p>
+      <b><i><font size="4" face="SansSerif">source &quot;test/Kconfig&quot;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node CREATED="1491300309574" ID="ID_806401935" MODIFIED="1491300342031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25105;&#20204;&#30475;makefile&#25991;&#20214;&#30340;&#24320;&#36890;&#36827;&#34892;&#20102;&#22914;&#19979;&#30340;&#22788;&#29702;
+    </p>
+    <p>
+      15 SRCARCH := ..
+    </p>
+    <p>
+      &#160;16
+    </p>
+    <p>
+      &#160;17 ifdef KBUILD_KCONFIG
+    </p>
+    <p>
+      &#160;18 Kconfig := $(KBUILD_KCONFIG)
+    </p>
+    <p>
+      &#160;19 else
+    </p>
+    <p>
+      &#160;20 Kconfig := Kconfig
+    </p>
+    <p>
+      &#160;21 endif
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1491146234120" ID="ID_342765257" MODIFIED="1491146397131">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.&#25105;&#20204;&#22312;&#39030;&#23618;&#30446;&#24405;&#30340;Makefile&#25991;&#20214;&#37324;&#38754;&#24050;&#32463;&#30475;&#21040;&#20102;&#35813;&#35821;&#21477;
+    </p>
+    <p>
+      &#160;&#160;include scripts/Kbuild.include
+    </p>
+    <p>
+      &#22312;&#25991;&#20214;Kbuild.include&#24403;&#20013;&#65292;&#23450;&#20041;&#20102;&#21464;&#37327;build
+    </p>
+    <p>
+      build := -f $(srctree)/scripts/Makefile.build obj
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1492248380396" ID="ID_1978186560" MODIFIED="1526886545703">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8935,8 +10007,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1492248639050" FOLDED="true" ID="ID_1769353011" MODIFIED="1493219439342" TEXT="&#x6784;&#x5efa;&#x8fc7;&#x7a0b;&#x5206;&#x6790;">
-<node CREATED="1492249263351" FOLDED="true" ID="ID_835594399" MODIFIED="1493219437522">
+<node CREATED="1492248639050" ID="ID_1769353011" MODIFIED="1526886556071" TEXT="&#x6784;&#x5efa;&#x8fc7;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1492249263351" ID="ID_835594399" MODIFIED="1526886577278">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8965,7 +10037,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492269075892" FOLDED="true" ID="ID_539573432" MODIFIED="1493219433891">
+<node CREATED="1492269075892" ID="ID_539573432" MODIFIED="1526891614047">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8984,7 +10056,7 @@
       <i><font color="#e00e0e">-include include/config/auto.conf.cmd </font></i>
     </p>
     <p>
-      <i><font color="#e00e0e">$(KCONFIG_CONFIG) include/config/auto.conf.cmd: ; </font></i>
+      <i><font color="#e00e0e">$(KCONFIG_CONFIG) include/config/auto.conf.cmd: ;&#160;&#160;&#160;&#160; </font><font color="#340f0f"># To avoid any implicit rule to kick in, define an empty command</font></i>
     </p>
     <p>
       <i><font color="#e00e0e">include/config/%.conf: $(KCONFIG_CONFIG) include/config/auto.conf.cmd </font></i>
@@ -9013,7 +10085,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1492269883394" ID="ID_1017357685" MODIFIED="1492269911218" TEXT="KCONFIG_CONFIG&#x6307;&#x4ee3;&#x7684;&#x5c31;&#x662f;.config&#x6587;&#x4ef6;"/>
-<node CREATED="1492270355739" FOLDED="true" ID="ID_1045030740" MODIFIED="1493219432448">
+<node CREATED="1492270355739" ID="ID_1045030740" MODIFIED="1526890725931">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9038,7 +10110,7 @@
       <font color="#122fe8"><i>46&#160;&#160;&#160;&#160;&#160;$(Q)mkdir -p include/config include/generated </i></font>
     </p>
     <p>
-      <font color="#122fe8"><i>47&#160;&#160;&#160;&#160;&#160;$&lt; $(silent) --$@ $(Kconfig)</i></font>
+      <font color="#122fe8"><i>47&#160;&#160;&#160;&#160;&#160;$&lt; $(silent) --$@ $(Kconfig)&#160;&#160;&#160; </i></font><i><font color="#e10a20"><b>&#36825;&#21477;&#21629;&#20196;&#23637;&#24320;&#23601;&#26159;: conf --silentoldconfig Kconfig</b></font></i>
     </p>
   </body>
 </html></richcontent>
@@ -9114,8 +10186,44 @@
 </node>
 </node>
 </node>
+<node CREATED="1526892904265" FOLDED="true" ID="ID_1253744710" MODIFIED="1544867549906">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#0f28e8">&#20869;&#26680;&#32534;&#35793;&#20986;&#26469;&#30340;&#20960;&#31181;&#26684;&#24335;&#21450;&#20854;&#29983;&#25104;&#36807;&#31243;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526892959128" ID="ID_130930099" MODIFIED="1526893410966">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>vmlinux</b>&#160;&#20869;&#26680;&#32534;&#35793;&#20986;&#26469;&#30340;&#26368;&#21407;&#22987;&#30340;elf&#25991;&#20214;
+    </p>
+    <p>
+      <b>zImage</b>&#160;&#32463;&#36807;objcopy&#22788;&#29702;&#65292;gzip&#21387;&#32553;&#36807;&#30340;&#20869;&#26680;&#20108;&#36827;&#21046;&#25991;&#20214;&#65292;&#33258;&#24102;&#35299;&#21387;&#32553;&#30340;&#31243;&#24207;
+    </p>
+    <p>
+      <b>bzImage </b>&#34920;&#31034;&quot;big zImage&quot;,&#20854;&#36319;zImage&#30340;&#21306;&#21035;&#23601;&#26159;zImage&#26159;&#35299;&#21387;&#32553;&#21040;&#20302;&#31471;&#20869;&#23384;&#30340;(&#31532;&#19968;&#20010;640k)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bzImage&#26159;&#35299;&#21387;&#21040;&#39640;&#31471;&#20869;&#23384;&#30340;(&#31532;&#19968;&#20010;1M),&#22914;&#26524;&#20869;&#26680;&#36739;&#22823;&#65292;&#24212;&#35813;&#20351;&#29992;bzImage
+    </p>
+    <p>
+      <b>uImage</b>&#160;&#26159;uboot&#19987;&#29992;&#30340;image,&#23427;&#26159;&#22312;zImage&#30340;&#21069;&#38754;&#28155;&#21152;&#20102;64byte&#30340;&#22836;&#37096;&#20449;&#24687;&#24418;&#25104;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1493219586599" POSITION="right" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+</node>
+</node>
+<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1527043084922" POSITION="right" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471313935648" FOLDED="true" ID="ID_52548290" MODIFIED="1493219581269">
 <richcontent TYPE="NODE"><html>
@@ -9389,7 +10497,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1499823207657" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1524644211986" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1499823186488">
 <richcontent TYPE="NODE"><html>
@@ -10327,7 +11435,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456929335533" ID="ID_1088410273" MODIFIED="1510279594837" POSITION="right">
+<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1544867534935" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10381,7 +11489,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1457969453362" FOLDED="true" ID="ID_1271920120" MODIFIED="1510279606523">
+<node CREATED="1457969453362" ID="ID_1271920120" MODIFIED="1527039178605">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10392,209 +11500,2408 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1457969498354" FOLDED="true" ID="ID_480363006" MODIFIED="1486555599173">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font size="4" color="#333300">irq domain&#30340;&#27010;&#24565;&#21644;&#20854;callback&#20989;&#25968;</font></b><font size="4" color="#006666">&#160; </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">struct irq_domain { </font><b><font size="3" color="#ff0033">/*&#20869;&#26680;&#29256;&#26412;4.4.8*/</font></b>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">struct list_head link;&#160;&#160;&#160;&#160;&#160;const char *name;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct irq_domain_ops *ops; </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">void *host_data;&#160;&#160;&#160;&#160;&#160;unsigned int flags;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct fwnode_handle *fwnode; </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">&#160;enum irq_domain_bus_token bus_token;&#160;&#160;&#160;&#160;struct irq_domain_chip_generic *gc; </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">#ifdef&#160;&#160;CONFIG_IRQ_DOMAIN_HIERARCHY </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">struct irq_domain *parent; </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">#endif </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">/* reverse map data. The linear map gets appended to the irq_domain */ </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">irq_hw_number_t hwirq_max; </font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">unsigned int revmap_direct_max_irq; <b>&#30452;&#25509;&#26144;&#23556;&#26041;&#24335;&#20013;&#26368;&#22823;&#30340;hwirq&#20540;</b></font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">unsigned int revmap_size;<b>&#160;&#32447;&#24615;&#26144;&#23556;&#34920;&#30340;&#22823;&#23567;</b></font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">struct radix_tree_root revmap_tree; <b>radix&#26641;</b></font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">&#160;unsigned int linear_revmap[];<b>&#160;hwirq-&gt;virq&#30340;&#26144;&#23556;&#34920;&#26684;</b></font>
-    </p>
-    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
-      <font size="3">};</font>
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1461078537489" ID="ID_358095483" MODIFIED="1461509522931">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">struct irq_domain_ops</font></b><font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">&#160;{</font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">int (*<b>match</b>)(struct irq_domain *d, struct device_node *node);&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">int (*<b>map</b>)(struct irq_domain *d, unsigned int virq, irq_hw_number_t hw);&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">void (*<b>unmap</b>)(struct irq_domain *d, unsigned int virq);&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">int (*<b>xlate</b>)(struct irq_domain *d, struct device_node *node,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">const u32 *intspec, unsigned int intsize,&#160;&#160;unsigned long *out_hwirq, </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">unsigned int *out_type);&#160; </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">}; </font>
-    </p>
-    <p>
-      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">1.xlate&#20989;&#25968;&#29992;&#20110;&#23558;device tree&#37324;&#38754;&#30340;&#25351;&#23450;&#20010;&#25968;(intsize)&#30340;&#20013;&#26029;&#23646;&#24615; </font>
-    </p>
-    <p>
-      (intspec)&#32763;&#35793;&#25104;hw irq(out_hwirq)&#21644;&#20854;&#23545;&#24212;&#30340;trigger&#23646;&#24615;(out_type)
-    </p>
-    <p>
-      2.match&#20989;&#25968;&#29992;&#20110;&#21028;&#26029;&#20256;&#20837;&#30340;&#20195;&#34920;interrupt controller&#30340;node&#33410;&#28857;&#26159;&#21542;
-    </p>
-    <p>
-      &#36319;&#24403;&#21069;&#30340;irq_domain&#21305;&#37197;
-    </p>
-    <p>
-      3.map&#20989;&#25968;&#26159;&#22312;&#29992;&#20110;&#26356;&#26032;&#25110;&#32773;&#21019;&#24314;hw interrupt id&#21644;irq number&#20851;&#31995;&#30340;
-    </p>
-    <p>
-      &#26102;&#20505;&#34987;&#35843;&#29992;&#12290;
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1461509588742" ID="ID_577602559" MODIFIED="1461509613093" TEXT="&#x6240;&#x6709;&#x7684;irq_domain&#x90fd;&#x88ab;&#x6302;&#x5165;&#x5230;&#x4e00;&#x4e2a;&#x5168;&#x5c40;&#x7684;&#x94fe;&#x8868;&#x5f53;&#x4e2d;">
+<node COLOR="#cc0000" CREATED="1461079575435" FOLDED="true" ID="ID_81324376" MODIFIED="1544867533697" TEXT="2440&#x4e2d;&#x65ad;&#x7cfb;&#x7edf;&#x4ee3;&#x7801;&#x5206;&#x6790;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1510455009202" FOLDED="true" ID="ID_38009795" MODIFIED="1544867532378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#0c0ef2">arm linux&#24322;&#24120;&#21521;&#37327;&#34920;&#30340;&#24314;&#31435;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1510455119410" ID="ID_1816810487" MODIFIED="1510471099185">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20195;&#30721;&#35843;&#29992;&#30340;&#20301;&#32622;:
+    </p>
+    <p>
+      void __init setup_arch(char **cmdline_p) ------&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;paging_init(mdesc) ---------&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;devicemaps_init(mdesc)-----&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;vectors = early_alloc(PAGE_SIZE * 2);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;early_trap_init(vectors);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1510471104226" FOLDED="true" ID="ID_944323132" MODIFIED="1544867528379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#137d2a">void __init early_trap_init(void *vectors_base)</font></b>
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;......
+    </p>
+    <p>
+      &#160;&#160;&#160;memcpy((void *)vectors, __vectors_start, __vectors_end - __vectors_start);
+    </p>
+    <p>
+      &#160;&#160;&#160;memcpy((void *)vectors + 0x1000, __stubs_start, __stubs_end - __stubs_start);
+    </p>
+    <p>
+      &#160;&#160;&#160;......
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1510471273471" ID="ID_1150404517" MODIFIED="1543121793795">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>__vectors_start&#23450;&#20041;&#22312;&#25991;&#20214;entry-armv.S&#24403;&#20013;</b>
+    </p>
+    <p>
+      __vectors_start:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_rst&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_und
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(ldr)&#160;&#160;pc, __vectors_start + 0x1000&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_pabt&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_dabt
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_addrexcptn&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_irq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;W(b)&#160;&#160;&#160;&#160;vector_fiq
+    </p>
+    <p>
+      <b><font color="#e71010"><i>&#31995;&#32479;&#23450;&#20041;&#20102;7&#31181;&#24322;&#24120;&#27169;&#24335;</i></font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1510471439970" FOLDED="true" ID="ID_520343036" MODIFIED="1544867526746">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      __stubs_start&#20063;&#23450;&#20041;&#22312;&#25991;&#20214;entry-armv.S&#24403;&#20013;&#65292;&#23450;&#20041;&#20102;&#21508;&#31181;&#24322;&#24120;&#30340;&#22788;&#29702;&#36923;&#36753;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>__stubs_start:</b>
+    </p>
+    <p>
+      .word&#160;&#160;&#160;vector_swi
+    </p>
+    <p>
+      vector_rst:
+    </p>
+    <p>
+      &#160;ARM(&#160;&#160;&#160;swi SYS_ERROR0&#160;&#160;)
+    </p>
+    <p>
+      &#160;THUMB( svc #0&#160;&#160;&#160;&#160;&#160;&#160;)
+    </p>
+    <p>
+      &#160;THUMB( nop&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;b&#160;&#160;&#160;vector_und
+    </p>
+    <p>
+      vector_stub irq, IRQ_MODE, 4
+    </p>
+    <p>
+      vector_stub dabt, ABT_MODE, 8
+    </p>
+    <p>
+      vector_stub pabt, ABT_MODE, 4
+    </p>
+    <p>
+      vector_stub und, UND_MODE
+    </p>
+    <p>
+      vector_addrexcptn:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;b&#160;&#160;&#160;vector_addrexcptn
+    </p>
+    <p>
+      vector_stub fiq, FIQ_MODE, 4
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1510471645817" FOLDED="true" ID="ID_220290384" MODIFIED="1544867522125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;<b>&#160;.macro&#160;&#160;vector_stub, name, mode, correction=0</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.align&#160;&#160;5
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      vector_\name:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.if \correction
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;sub lr, lr, #\correction&#160;&#160;&#35843;&#25972;&#36820;&#22238;&#20540;pc,&#27604;&#22914;&#23545;&#20110;irq,&#38656;&#35201;&#20943;&#21435;&#24403;&#21069;lr&#20540;&#30340;4&#23601;&#26159;&#36820;&#22238;&#20043;&#21518;&#30340;pc&#20540;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.endif
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@ Save r0, lr_&lt;exception&gt; (parent PC) and spsr_&lt;exception&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@ (parent CPSR)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;stmia&#160;&#160;&#160;sp, {r0, lr}&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ save r0, lr&#160; <b>stmia (Increase after)&#23558;ro, lr&#20445;&#23384;&#36215;&#26469;&#20043;&#21518;&#65292;sp&#22686;&#38271;&#20102;8</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mrs lr, spsr
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;str lr, [sp, #8]&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ save spsr
+    </p>
+    <p>
+      &#160;&#160;&#160;<b><font color="#f61515">&#160;&#160;*********** </font></b>
+    </p>
+    <p>
+      <b><font color="#f61515">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;r0 </font></b>
+    </p>
+    <p>
+      <b><font color="#f61515">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;lr </font></b>
+    </p>
+    <p>
+      <b><font color="#f61515">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[]&#160;&#160;&#160;&lt;---------&#160;&#160;sp </font></b>
+    </p>
+    <p>
+      <b><font color="#f61515">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[] </font></b>
+    </p>
+    <p>
+      <b><font color="#f61515">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;spsr </font></b>
+    </p>
+    <p>
+      <b><font color="#f61515">&#160;&#160;&#160;**************</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@ Prepare for SVC32 mode.&#160;&#160;IRQs remain disabled.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mrs r0, cpsr
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;eor r0, r0, #(\mode ^ SVC_MODE | PSR_ISETSTATE)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;msr spsr_cxsf, r0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@ the branch table must immediately follow this code
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;and lr, lr, #0x0f&#160;&#160; <b><font color="#a60f0f">*****lr&#24403;&#21069;&#20445;&#23384;&#20102;&#31243;&#24207;&#36827;&#20837;&#24322;&#24120;&#20043;&#21069;&#30340;&#29366;&#24577;&#23492;&#23384;&#22120;&#30340;&#20540;&#65292;&#36825;&#37324;&#19982;&#19978;0x0f&#23601;&#26159;&#21462;&#26368;&#20302;&#30340;&#22235;&#20301;bit,&#21363;&#36827;&#20837;&#24322;&#24120;&#20043;&#21069;&#30340;&#27169;&#24335;&#30340;&#20540;</font></b>
+    </p>
+    <p>
+      &#160;THUMB( adr r0, 1f&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)
+    </p>
+    <p>
+      &#160;THUMB( ldr lr, [r0, lr, lsl #2]&#160;&#160;&#160;&#160;)&#160;&#160; <b>r0 + lr * 4</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mov r0, sp
+    </p>
+    <p>
+      <b>&#160;ARM(&#160;&#160;&#160;ldr lr, [pc, lr, lsl #2]&#160;&#160;&#160;&#160;)</b>&#160; <b><font color="#280ef0">&#160;lr = &#36827;&#20837;&#24322;&#24120;&#20043;&#21069;&#30340;&#27169;&#24335;&#30340;&#20540; * 4 + &#24403;&#21069;&#30340;pc&#20540;</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<b>movs&#160;&#160;&#160;&#160;pc, lr</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ branch to handler in SVC mode&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      <i><font color="#d42323">&#20030;&#20363;&#23376;&#26469;&#35828;:&#160;&#160;&#22914;&#19979;&#65292;&#22914;&#26524;&#36827;irq&#24322;&#24120;&#20043;&#21069;&#26159;usr&#27169;&#24335;&#65292;&#37027;&#20040; lr = 0 * 4 + pc&#20540;&#65292; &#37027;&#20040;&#23601;&#20250;&#36339;&#36716;&#21040;__irq_usr&#26631;&#31614;&#25191;&#34892;&#31243;&#24207; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;vector_stub irq, IRQ_MODE, 4&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_usr&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;0&#160;&#160;(USR_26 / USR_32)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;1&#160;&#160;(FIQ_26 / FIQ_32)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;2&#160;&#160;(IRQ_26 / IRQ_32)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_svc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;3&#160;&#160;(SVC_26 / SVC_32)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;4&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;5&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;6&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;9&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;a&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;b&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;c&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;d&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;e&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#d42323">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;__irq_invalid&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@&#160;&#160;f&#160;&#160; </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ENDPROC(vector_\name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.align&#160;&#160;2
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@ handler addresses follow this label
+    </p>
+    <p>
+      1:
+    </p>
+    <p>
+      &#160; <b>&#160;&#160;.endm</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1510474222364" FOLDED="true" ID="ID_750027485" MODIFIED="1544867518866">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      __irq_usr:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usr_entry
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;kuser_cmpxchg_check
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;irq_handler
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;get_thread_info tsk
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mov why, #0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;b&#160;&#160;&#160;ret_to_user_from_irq
+    </p>
+    <p>
+      &#160;UNWIND(.fnend&#160;&#160;&#160;&#160;&#160;&#160;)
+    </p>
+    <p>
+      ENDPROC(__irq_usr)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      .macro&#160;&#160;irq_handler
+    </p>
+    <p>
+      #ifdef CONFIG_MULTI_IRQ_HANDLER
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ldr r1, =handle_arch_irq
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mov r0, sp
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;badr&#160;&#160;&#160;&#160;lr, 9997f
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ldr pc, [r1]
+    </p>
+    <p>
+      #else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;arch_irq_handler_default
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      9997:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.endm
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      /*
+    </p>
+    <p>
+      &#160;* Interrupt handling.&#160;&#160;Preserves r7, r8, r9
+    </p>
+    <p>
+      &#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.macro&#160;&#160;arch_irq_handler_default
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<b>get_irqnr_preamble r6, lr</b>&#160; &#35813;&#20989;&#25968;&#22312;s3c2440&#24179;&#21488;&#19979;&#38754;&#26159;&#31354;&#20989;&#25968;
+    </p>
+    <p>
+      1:&#160;&#160;<b>get_irqnr_and_base r0, r2, r6, lr&#160; &#35813;&#20989;&#25968;&#22312;3.0&#20869;&#26680;&#29256;&#26412;&#20043;&#21518;&#38024;&#23545;s3c2440&#30340;&#20195;&#30721;&#22909;&#20687;&#24050;&#32463;&#28040;&#22833;&#65292; </b>
+    </p>
+    <p>
+      &#21482;&#22312;2.6&#20869;&#26680;&#20195;&#30721;&#37324;&#38754;&#25214;&#21040;&#23545;&#24212;&#30340;&#23454;&#29616;&#65292;&#21487;&#20197;&#21442;&#32771;&#19968;&#19979;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;movne&#160;&#160;&#160;r1, sp
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@ routine called with r0 = irq number, r1 = struct pt_regs *
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;@&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;badrne&#160;&#160;lr, 1b
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;bne asm_do_IRQ
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #ifdef CONFIG_SMP
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/*&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* XXX
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* this macro assumes that irqstat (r2) and base (r6) are
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* preserved from get_irqnr_and_base above
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ALT_SMP(test_for_ipi r0, r2, r6, lr)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ALT_UP_B(9997f)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;movne&#160;&#160;&#160;r1, sp
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;badrne&#160;&#160;lr, 1b
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;bne do_IPI
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      9997:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.endm
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1510501465739" ID="ID_544420287" MODIFIED="1510501780182">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mach-s3c2410/include/mach/entry-macro.S
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>.macro&#160;&#160;get_irqnr_and_base, irqnr, irqstat, base, tmp </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mov \base, #S3C24XX_VA_IRQ
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@@ try the interrupt offset register, since it is there
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ldr \irqstat, [ \base, #INTPND ]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;teq \irqstat, #0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;beq 1002f
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ldr \irqnr, [ \base, #INTOFFSET ]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mov \tmp, #1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tst \irqstat, \tmp, lsl \irqnr
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bne 1001f
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@@ the number specified is not a valid irq, so try
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@@ and work it out for ourselves
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mov \irqnr, #0&#160;&#160;&#160;&#160;&#160;&#160;@@ start here
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@@ work out which irq (if any) we got
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;movs&#160;&#160;&#160;&#160;\tmp, \irqstat, lsl#16
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addeq&#160;&#160;&#160;\irqnr, \irqnr, #16
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;moveq&#160;&#160;&#160;\irqstat, \irqstat, lsr#16
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tst \irqstat, #0xff
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addeq&#160;&#160;&#160;\irqnr, \irqnr, #8
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;moveq&#160;&#160;&#160;\irqstat, \irqstat, lsr#8
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tst \irqstat, #0xf
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addeq&#160;&#160;&#160;\irqnr, \irqnr, #4
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;moveq&#160;&#160;&#160;\irqstat, \irqstat, lsr#4
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tst \irqstat, #0x3
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addeq&#160;&#160;&#160;\irqnr, \irqnr, #2
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;moveq&#160;&#160;&#160;\irqstat, \irqstat, lsr#2
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;tst \irqstat, #0x1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addeq&#160;&#160;&#160;\irqnr, \irqnr, #1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@@ we have the value
+    </p>
+    <p>
+      1001:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;adds&#160;&#160;&#160;&#160;\irqnr, \irqnr, #IRQ_EINT0
+    </p>
+    <p>
+      1002:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@@ exit here, Z flag unset if IRQ
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.endm
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* currently don't need an disable_fiq macro */
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.macro&#160;&#160;disable_fiq
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.endm</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1542986996543" ID="ID_884424485" MODIFIED="1542987039889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>vector_swi</b>&#23450;&#20041;&#22312;&#25991;&#20214;<b>entry-common.S</b>&#24403;&#20013;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1510587987982" FOLDED="true" ID="ID_92627058" MODIFIED="1526982547247">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#2418e9">s3c2440&#20013;&#26029;&#25511;&#21046;&#22120;&#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1510588667180" ID="ID_1140848239" MODIFIED="1510589402883">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#d21515">s3c2440&#30340;&#20013;&#26029;&#25511;&#21046;&#22120;&#27604;&#36739;&#31616;&#21333;&#65292;&#36319;&#20013;&#26029;&#25511;&#21046;&#22120;&#30456;&#20851;&#30340;&#20116;&#20010;&#23492;&#23384;&#22120;&#22914;&#19979;:</font></b>
+    </p>
+    <p>
+      <b>source pending register</b>&#160; &#35813;&#23492;&#23384;&#22120;&#20250;&#35760;&#24405;&#20013;&#26029;&#21457;&#29983;&#28304;&#65292;&#24403;mask&#23492;&#23384;&#22120;&#26576;&#20010;&#20301;&#34987;&#32622;1&#30340;&#26102;&#20505;&#65292;&#35813;pending&#23492;&#23384;&#22120;&#23545;&#24212;&#30340;&#20301;&#32622;&#20063;&#20250;&#32622;1
+    </p>
+    <p>
+      <b>interrupt mode register</b>&#160; &#35813;&#23492;&#23384;&#22120;&#23558;pending&#23492;&#23384;&#22120;&#24403;&#20013;&#30340;&#20013;&#26029;&#20998;&#25104;irq&#20013;&#26029;&#21644;fiq&#20013;&#26029;&#65292;&#20174;datasheet&#30340;&#36923;&#36753;&#26694;&#22270;&#30475;firq&#19981;&#21463;mask&#23492;&#23384;&#22120;&#30340;&#24433;&#21709;
+    </p>
+    <p>
+      <b>mask register</b>
+    </p>
+    <p>
+      <b>priority register</b>
+    </p>
+    <p>
+      <b>interrupt pending register</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1526982556400" FOLDED="true" ID="ID_1183321409" MODIFIED="1541943150155">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">tiny4412&#20013;&#26029;&#31995;&#32479;&#20195;&#30721;&#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526982612255" FOLDED="true" ID="ID_1999652857" MODIFIED="1539430759434">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#2411f0">gic&#20013;&#26029;&#25511;&#21046;&#22120;&#30340;&#27880;&#20876; </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20195;&#30721;&#20301;&#32622;:
+    </p>
+    <p>
+      drivers/irqchip/irq-gic.c
+    </p>
+    <p>
+      arch/arm/mach-exynos/exynos.c
+    </p>
+    <p>
+      arch/arm/kernel/entry-armv.S
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526982773237" ID="ID_1236269787" MODIFIED="1526989690587">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#21021;&#22987;&#21270;&#30340;&#20195;&#30721;&#26159;gic_of_init&#65292;&#20301;&#20110;irq-gic.c&#25991;&#20214;&#37324;&#38754;</b>
+    </p>
+    <p>
+      &#25105;&#20204;&#30475;&#21040;&#22312;&#35813;&#25991;&#20214;&#37324;&#38754;&#26377;&#22914;&#19979;&#30340;&#22768;&#26126;:
+    </p>
+    <p>
+      IRQCHIP_DECLARE(cortex_a9_gic, &quot;arm,cortex-a9-gic&quot;, gic_of_init);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define IRQCHIP_DECLARE(name, compat, fn) OF_DECLARE_2(irqchip, name, compat, fn)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define OF_DECLARE_2(table, name, compat, fn) \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;_OF_DECLARE(table, name, compat, fn, of_init_fn_2)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define _OF_DECLARE(table, name, compat, fn, fn_type)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;static const struct of_device_id __of_table_##name&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;__used __section(__##table##_of_table)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= { .compatible = compat,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.data = (fn == (fn_type)NULL) ? fn : fn&#160;&#160;}
+    </p>
+    <p>
+      &#21487;&#35265;&#36825;&#37324;&#22768;&#26126;&#20102;&#19968;&#20010;struct of_device_id&#30340;&#21464;&#37327;&#65292;&#23558;gic_of_init&#36171;&#20540;&#32473;&#20102;&#35813;&#21464;&#37327;&#30340;data&#25104;&#21592;&#65292;
+    </p>
+    <p>
+      &#24182;&#19988;&#35813;&#21464;&#21464;&#37327;&#34987;&#32479;&#19968;&#25918;&#32622;&#21040;&#20102;&#20869;&#26680;&#30340; __irqchip_of_table&#27573;&#65292;&#24403;&#31995;&#32479;&#21551;&#21160;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;mach-exynos/exynos.c
+    </p>
+    <p>
+      &#25991;&#20214;&#37324;&#38754;&#30340;machine&#25551;&#36848;&#31526;&#37324;&#38754;&#30340;.init_irq&#20989;&#25968;&#65292;&#21363;exynos_init_irq&#20989;&#25968;&#12290;
+    </p>
+    <p>
+      exynos_init_irq ------&gt; irqchip_init ------&gt; of_irq_init(__irqchip_of_table) &#36941;&#21382;&#35813;table&#27573;&#65292;&#26368;&#32456;&#35843;&#29992;
+    </p>
+    <p>
+      &#21040;&#20989;&#25968;gic_of_init&#20989;&#25968;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527037455543" FOLDED="true" ID="ID_1330730680" MODIFIED="1539430753867">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30475;&#19968;&#19979;&#20989;&#25968;:
+    </p>
+    <p>
+      &#22522;&#20110;kernel 4.4.40&#20998;&#26512;&#65292;&#21442;&#32771;http://www.wowotech.net/linux_kenrel/gic_driver.html
+    </p>
+    <p>
+      static int&#160;&#160;__init
+    </p>
+    <p>
+      <b><font size="4">gic_of_init</font></b>(struct device_node *node, struct device_node *parent)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527043612782" ID="ID_951107162" MODIFIED="1527043659678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>dist_base = of_iomap(node, 0);</b>
+    </p>
+    <p>
+      &#26144;&#23556;distributor&#30340;&#23492;&#23384;&#22120;&#22320;&#22336;&#31354;&#38388;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527043674478" ID="ID_462600256" MODIFIED="1527043706276">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>cpu_base = of_iomap(node, 1);&#160;</b>
+    </p>
+    <p>
+      &#33719;&#21462;cpu interface&#30340;&#23492;&#23384;&#22120;&#22320;&#22336;&#26144;&#23556;&#31354;&#38388;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527044206696" FOLDED="true" ID="ID_1827729914" MODIFIED="1539430750435">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3" color="#eb2c2c"><i>if (of_property_read_u32(node, &quot;cpu-offset&quot;, &amp;percpu_offset)) </i></font>
+    </p>
+    <p>
+      <font size="3" color="#eb2c2c"><i>&#160;&#160;&#160;&#160;percpu_offset = 0; </i></font>
+    </p>
+    <p>
+      <font size="3" color="#eb2c2c"><i>&#22788;&#29702;cpu-offset&#23646;&#24615;</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527045930365" ID="ID_27329532" MODIFIED="1527045941324">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35201;&#20102;&#35299;cpu-offset&#23646;&#24615;&#65292;&#39318;&#20808;&#35201;&#20102;&#35299;&#20160;&#20040;&#26159;banked register&#12290;
+    </p>
+    <p>
+      &#25152;&#35859;banked register&#23601;&#26159;&#22312;&#19968;&#20010;&#22320;&#22336;&#19978;&#25552;&#20379;&#22810;&#20010;&#23492;&#23384;&#22120;&#21103;&#26412;&#12290;
+    </p>
+    <p>
+      &#27604;&#22914;&#35828;&#31995;&#32479;&#20013;&#26377;&#22235;&#20010;CPU&#65292;&#36825;&#20123;CPU&#35775;&#38382;&#26576;&#20010;&#23492;&#23384;&#22120;&#30340;&#26102;&#20505;&#22320;&#22336;&#26159;&#19968;&#26679;&#30340;&#65292;
+    </p>
+    <p>
+      &#20294;&#26159;&#23545;&#20110;banked register&#65292;&#23454;&#38469;&#19978;&#65292;&#19981;&#21516;&#30340;CPU&#35775;&#38382;&#30340;&#26159;&#19981;&#21516;&#30340;&#23492;&#23384;&#22120;&#65292;
+    </p>
+    <p>
+      &#34429;&#28982;&#23427;&#20204;&#30340;&#22320;&#22336;&#26159;&#19968;&#26679;&#30340;&#12290;&#22914;&#26524;GIC&#27809;&#26377;banked register&#65292;
+    </p>
+    <p>
+      &#37027;&#20040;&#38656;&#35201;&#25552;&#20379;&#26681;&#25454;CPU index&#32473;&#20986;&#19968;&#31995;&#21015;&#22320;&#22336;&#20559;&#31227;&#65292;&#32780;&#22320;&#22336;&#20559;&#31227;=cpu-offset * cpu-nr&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1527044321552" FOLDED="true" ID="ID_1225604136" MODIFIED="1539430748908">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>__gic_init_bases(gic_cnt, -1, dist_base, cpu_base, percpu_offset, </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;node-&gt;fwnode); </i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><i>static void __init __gic_init_bases(unsigned int gic_nr, int irq_start,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;void __iomem *dist_base, void __iomem *cpu_base,&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </i></b>
+    </p>
+    <p>
+      <b><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u32 percpu_offset, struct fwnode_handle *handle)&#160; </i></b>
+    </p>
+    <p>
+      irq_start&#20026;-1&#34920;&#31034;&#19981;&#25351;&#23450;IRQ number, &#26377;&#30340;&#22330;&#26223;&#20250;&#25351;&#23450;irq_start,&#36825;&#20010;&#26102;&#20505;&#38656;&#35201;&#23545;irq_start&#36827;&#34892;&#23545;&#20854;&#30340;&#25805;&#20316;.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527062311864" ID="ID_196995705" MODIFIED="1527062352657">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic = &amp;gic_data[gic_nr];
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      get gic chip data
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527062534623" ID="ID_681772391" MODIFIED="1535294640445">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic-&gt;dist_base.common_base = dist_base;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      gic-&gt;cpu_base.common_base = cpu_base;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      gic_set_base_accessor(gic, gic_get_common_base); //&#35813;&#20989;&#25968;&#26159;&#38024;&#23545;non banked&#23492;&#23384;&#22120;&#27169;&#24335;&#30340;&#65292;
+    </p>
+    <p>
+      &#22312;banked &#23492;&#23384;&#22120;&#27169;&#24335;&#19979;&#38754;&#35813;&#20989;&#25968;&#19981;&#36215;&#20219;&#20309;&#20316;&#29992;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>save the distributor base address and cpu interface base address</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527062932541" ID="ID_968908173" MODIFIED="1527062963389">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic_irqs = readl_relaxed(gic_data_dist_base(gic) + GIC_DIST_CTR) &amp; 0x1f; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gic_irqs = (gic_irqs + 1) * 32;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#33719;&#21462;&#35813;gic&#25152;&#25903;&#25345;&#30340;&#26368;&#22823;&#30340;&#20013;&#26029;&#25968;&#37327;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527062994684" FOLDED="true" ID="ID_1571655776" MODIFIED="1539430745131">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic-&gt;domain = irq_domain_create_linear(handle, gic_irqs,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;gic_irq_domain_hierarchy_ops,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gic);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static inline struct irq_domain *irq_domain_create_linear(struct fwnode_handle *fwnode,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b><font color="#ed1616">unsigned int size</font></b>,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct irq_domain_ops *ops,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;void *host_data)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      {&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160; <b>return __irq_domain_add(fwnode, size, size, 0, ops, host_data);</b>
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27492;&#26102;&#27809;&#26377;&#20998;&#37197;virtual irq, &#20063;&#27809;&#26377;&#35774;&#32622;virtual irq&#24456;hw irq&#20043;&#38388;&#30340;&#26144;&#23556;&#20851;&#31995;&#65292;&#21040;&#21518;&#38754;&#26377;&#20154;&#30003;&#35831;&#30340;&#26102;&#20505;&#20250;&#24314;&#31435;&#35813;&#26144;&#23556;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527063346406" FOLDED="true" ID="ID_1449831963" MODIFIED="1539430743932">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#291aed"><i>__irq_domain_add(fwnode, size, size, 0, ops, host_data)</i></font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      /**
+    </p>
+    <p>
+      &#160;* __irq_domain_add() - Allocate a new irq_domain data structure
+    </p>
+    <p>
+      &#160;* @of_node: optional device-tree node of the interrupt controller&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;* @size: Size of linear map; 0 for radix mapping only
+    </p>
+    <p>
+      &#160;* @hwirq_max: Maximum number of interrupts supported by controller
+    </p>
+    <p>
+      &#160;* @direct_max: Maximum value of direct maps; Use ~0 for no limit; 0 for no&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;direct mapping&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;* @ops: domain callbacks
+    </p>
+    <p>
+      &#160;* @host_data: Controller private data pointer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;*
+    </p>
+    <p>
+      &#160;* Allocates and initialize and irq_domain structure.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;* Returns pointer to IRQ domain, or NULL on failure.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;*/
+    </p>
+    <p>
+      struct irq_domain *__irq_domain_add(struct fwnode_handle *fwnode, int size,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t hwirq_max, int direct_max,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct irq_domain_ops *ops,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;void *host_data)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527256477024" ID="ID_800428195" MODIFIED="1527256541794">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21160;&#24577;&#20998;&#37197;&#19968;&#20010;irq domain
+    </p>
+    <p>
+      struct irq_domain *domain;
+    </p>
+    <p>
+      domain = kzalloc_node(sizeof(*domain) + (sizeof(unsigned int) * size),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GFP_KERNEL, of_node_to_nid(of_node));
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527256547552" ID="ID_1021508160" MODIFIED="1527394232784">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21021;&#22987;&#21270;irq domain &#65288;&#30001;&#20110;&#20256;&#20837;&#30340;&#21442;&#25968;&#24403;&#20013;size&#19981;&#20026;&#38646;&#65292;direct_max&#20026;&#38646;,
+    </p>
+    <p>
+      &#24456;&#26126;&#26174;&#22320;&#37197;&#32622;&#30340;&#26159;&#32447;&#24615;&#26144;&#23556;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      INIT_RADIX_TREE(&amp;domain-&gt;revmap_tree, GFP_KERNEL);
+    </p>
+    <p>
+      domain-&gt;ops = ops;
+    </p>
+    <p>
+      domain-&gt;host_data = host_data;
+    </p>
+    <p>
+      domain-&gt;fwnode = fwnode;
+    </p>
+    <p>
+      domain-&gt;hwirq_max = hwirq_max;
+    </p>
+    <p>
+      domain-&gt;revmap_size = size;
+    </p>
+    <p>
+      domain-&gt;revmap_direct_max_irq = direct_max;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#da1919" DESTINATION="ID_1021508160" ENDARROW="Default" ENDINCLINATION="2457;0;" ID="Arrow_ID_887632958" SOURCE="ID_1580496762" STARTARROW="None" STARTINCLINATION="-303;-86;"/>
+</node>
+<node CREATED="1527257267107" ID="ID_41936618" MODIFIED="1527257312284">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#341ff5">irq_domain_check_hierarchy(domain);</font></b>
+    </p>
+    <p>
+      &#28155;&#21152;IRQ_DOMAIN_FLAG_HIERARCHY&#26631;&#24535;&#20301;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527257336019" ID="ID_1729295102" MODIFIED="1527257372839">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>list_add(&amp;domain-&gt;link, &amp;irq_domain_list);</i></b>
+    </p>
+    <p>
+      &#23558;&#35813;irq domain&#28155;&#21152;&#21040;&#31995;&#32479;irq domain&#30340;&#38142;&#34920;&#24403;&#20013;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1527258138547" ID="ID_817350386" MODIFIED="1527258546306">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#24403;&#21069;&#30340;gic controller&#26159;root controller,&#21017;&#36827;&#34892;&#22914;&#19979;&#30340;&#21160;&#20316;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      set_smp_cross_call(gic_raise_softirq);&#160;&#160;&#35774;&#32622;&#22810;&#20010;cpu&#20043;&#38388;&#36890;&#20449;&#30340;&#22238;&#35843;&#20989;&#25968;
+    </p>
+    <p>
+      &#20026;gic_raise_softirq, &#35813;&#20989;&#25968;&#30340;&#20316;&#29992;&#20854;&#23454;&#26159;&#29992;&#26469;&#20986;&#21457;IPI&#20013;&#26029;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      register_cpu_notifier(&amp;gic_cpu_notifier);&#160;&#160;&#24403;cpu&#30340;&#29366;&#24577;&#21457;&#29983;&#21464;&#21270;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#36890;&#30693;
+    </p>
+    <p>
+      gic,&#36825;&#37324;&#26159;&#21521;&#36890;&#30693;&#38142;&#19978;&#27880;&#20876;&#19968;&#20010;&#22238;&#35843;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527258588569" ID="ID_735150460" MODIFIED="1527258626690">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>set_handle_irq(gic_handle_irq); </b>
+    </p>
+    <p>
+      <font color="#d30b0b">&#35774;&#23450;&#36319;arch&#30456;&#20851;&#30340;irq handler</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527258723098" FOLDED="true" ID="ID_279297015" MODIFIED="1539430741795">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>gic_dist_init(gic); </b>
+    </p>
+    <p>
+      <b>gic_cpu_init(gic); </b>
+    </p>
+    <p>
+      <b>gic_pm_init(gic);</b>
+    </p>
+    <p>
+      &#23545;gic&#30340;distributor, cpu interface, pm&#27169;&#22359;&#36827;&#34892;&#21021;&#22987;&#21270;&#25805;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527263968617" FOLDED="true" ID="ID_1822864386" MODIFIED="1539430740195">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#2408f6">static void __init gic_dist_init(struct gic_chip_data *gic)</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527264027089" ID="ID_1002812060" MODIFIED="1527264049321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      unsigned int gic_irqs = gic-&gt;gic_irqs;
+    </p>
+    <p>
+      &#33719;&#21462;&#25903;&#25345;&#30340;irq&#30340;&#25968;&#37327;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527264066841" ID="ID_41171938" MODIFIED="1527264098838">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;distributor&#30340;&#22522;&#22320;&#22336;
+    </p>
+    <p>
+      void __iomem *base = gic_data_dist_base(gic);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527264587301" ID="ID_1684360765" MODIFIED="1527264624373">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>writel_relaxed(GICD_DISABLE, base + GIC_DIST_CTRL);</b>
+    </p>
+    <p>
+      <b>&#31105;&#27490;&#25152;&#26377;&#30340;&#22806;&#22260;&#35774;&#22791;&#20013;&#26029;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527299085047" ID="ID_1547183112" MODIFIED="1535298675486">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cpumask = gic_get_cpumask(gic);
+    </p>
+    <p>
+      &#25105;&#20204;&#30475;&#19968;&#19979;&#35813;&#20989;&#25968;&#30340;&#23454;&#29616;&#20869;&#23481;:
+    </p>
+    <p>
+      for (i = mask = 0; i &lt; 32; i += 4) {
+    </p>
+    <p>
+      mask = readl_relaxed(base + GIC_DIST_TARGET + i);
+    </p>
+    <p>
+      mask |= mask &gt;&gt; 16;
+    </p>
+    <p>
+      mask |= mask &gt;&gt; 8;
+    </p>
+    <p>
+      if (mask)
+    </p>
+    <p>
+      break;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      gic&#21021;&#22987;&#21270;&#37096;&#20998;&#30340;&#20195;&#30721;&#22312;&#31995;&#32479;&#21551;&#21160;&#30340;&#26102;&#20505;&#26159;&#30001;&#26576;&#20010;&#22266;&#23450;&#30340;cpu&#26680;&#24515;&#26469;&#25191;&#34892;&#30340;&#65292;gic&#30340;&#21069;32&#20010;&#20013;&#26029;
+    </p>
+    <p>
+      &#21363;SGI&#20013;&#26029;&#21644;PPI&#20013;&#26029;&#26159;cpu&#26680;&#24515;&#29420;&#20139;&#30340;&#20013;&#26029;&#65292;Processor targets register&#37324;&#38754;&#35760;&#24405;&#20102;&#21069;32&#20010;&#20013;&#26029;&#21508;&#33258;
+    </p>
+    <p>
+      &#36335;&#30001;&#21040;&#21738;&#20010;cpu&#26680;&#24515;&#20102;&#12290;&#35760;&#24405;SGI&#21644;PPI&#36335;&#30001;&#24773;&#20917;&#19968;&#20849;&#38656;&#35201;&#20843;&#20010;&#36825;&#26679;&#30340;&#23492;&#23384;&#22120;&#12290;&#65288;<font color="#ef0c0c">&#19968;&#20010;&#23492;&#23384;&#22120;&#26159;32bit,&#21487;&#20197;&#25353;8 bit&#19968;&#32452; </font>
+    </p>
+    <p>
+      <font color="#ef0c0c">&#20998;&#25104;4&#32452;&#65292;&#27809;&#19968;&#32452;&#20195;&#34920;&#26576;&#20010;&#20013;&#26029;id&#21495;&#36335;&#30001;&#21040;&#30340;cpu interface&#30340;&#32534;&#21495;</font>&#65289;
+    </p>
+    <p>
+      &#20551;&#35774;&#30446;&#21069;&#26159;&#30001;cpu0&#26469;&#25191;&#34892;&#21021;&#22987;&#21270;&#20195;&#30721;&#65292;&#37027;&#20040;&#21487;&#20197;&#30693;&#36947;&#25152;&#26377;&#30340;cpu0&#25152;&#31169;&#26377;&#30340;SGI&#21644;PPI&#20013;&#26029;&#23601;&#26159;&#30001;cpu0&#26469;&#25191;&#34892;&#30340;&#65292;
+    </p>
+    <p>
+      &#37027;&#20040;Processor targets register&#37324;&#38754;&#35760;&#24405;&#30340;&#25968;&#20540;&#36824;&#26377;&#20160;&#20040;&#24847;&#20041;&#21602;&#65311;&#23454;&#38469;&#19978;&#27492;&#26102;&#35813;&#23492;&#23384;&#22120;&#37324;&#38754;&#35760;&#24405;&#30340;&#25968;&#20540;&#26631;&#27880;&#30340;
+    </p>
+    <p>
+      &#26159;cpu interface&#30340;&#32534;&#21495;&#65292;&#25152;&#20197;32&#20010;&#20013;&#26029;&#23545;&#24212;&#30340;Processor targets register&#37324;&#38754;&#30340;&#32534;&#21495;&#24212;&#35813;&#37117;&#26159;&#19968;&#26679;&#30340;&#65292;
+    </p>
+    <p>
+      &#20551;&#35774;&#35835;&#21462;&#20986;&#26469;&#30340;&#35813;&#32534;&#21495;&#21363;mask&#30340;&#20540;&#26159;0b0001000,&#37027;&#20040;&#21487;&#20197;&#26029;&#23450;cpu0&#36319;cpu interface4&#26159;&#30828;&#20214;&#19978;&#36830;&#25509;&#22312;&#19968;&#36215;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32508;&#19978;&#25152;&#36848;&#65292;gic_get_cpumask&#23454;&#38469;&#19978;&#26159;&#35835;&#21462;&#20986;&#21551;&#21160;cpu&#21644;cpu interface&#30340;&#36830;&#25509;&#24773;&#20917;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527321412209" ID="ID_1430618805" MODIFIED="1527321530610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cpumask |= cpumask &lt;&lt; 8;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      cpumask |= cpumask &lt;&lt; 16;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      for (i = 32; i &lt; gic_irqs; i += 4)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;writel_relaxed(cpumask, base + GIC_DIST_TARGET + i * 4 / 4);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#37324;&#26159;&#23558;&#35835;&#21462;&#20986;&#26469;&#30340;8bit cpu mask&#22797;&#21046;&#21040;32bit&#31354;&#38388;&#37324;&#38754;&#65292;&#21363;&#19968;&#20010;32bit&#30340;&#23492;&#23384;&#22120;&#21487;&#20197;&#23545;4&#20010;&#20013;&#26029;&#35774;&#32622;&#36335;&#30001;&#30340;cpu interface&#32534;&#21495;&#12290;
+    </p>
+    <p>
+      &#25105;&#20204;&#21487;&#20197;&#30475;&#21040;&#36825;&#37324;&#26159;&#23558;&#21097;&#19979;&#30340;&#20013;&#26029;&#21363;SPI&#20013;&#26029;&#37117;&#36335;&#30001;&#21040;&#20102;cpumask&#23545;&#24212;&#30340;cpu interface&#19978;&#20102;&#65292;&#21363;&#32479;&#32479;&#30001;boot cpu&#26469;&#22788;&#29702;&#25152;&#26377;&#30340;
+    </p>
+    <p>
+      spi&#20013;&#26029;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527321611922" ID="ID_510714027" MODIFIED="1527321630722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic_dist_config(base, gic_irqs, NULL);
+    </p>
+    <p>
+      &#35774;&#32622;&#20854;&#20182;&#30340;&#19968;&#20123;&#23492;&#23384;&#22120;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527321643266" ID="ID_670796891" MODIFIED="1527321674515">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      writel_relaxed(GICD_ENABLE, base + GIC_DIST_CTRL);
+    </p>
+    <p>
+      &#20351;&#33021;ppi&#20013;&#26029;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1527321709914" FOLDED="true" ID="ID_800627600" MODIFIED="1539430738739" TEXT="static void gic_cpu_init(struct gic_chip_data *gic)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1527329794455" ID="ID_1310958094" MODIFIED="1527329822271">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cpu = smp_processor_id();
+    </p>
+    <p>
+      &#33719;&#21462;&#36923;&#36753;cpu id&#21495;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527329840486" ID="ID_1119770045" MODIFIED="1527330052652">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cpu_mask = gic_get_cpumask(gic);
+    </p>
+    <p>
+      gic_cpu_map[cpu] = cpu_mask;
+    </p>
+    <p>
+      &#33719;&#21462;cpu mask&#65292; &#24182;&#23558;&#35813;mask&#23384;&#25918;&#21040;&#26597;&#25214;&#34920;&#23545;&#24212;&#20110;&#35813;cpu&#30340;&#34920;&#39033;&#24403;&#20013;&#21435;&#12290;
+    </p>
+    <p>
+      &#36890;&#36807;cpu mask&#26469;&#25511;&#21046;&#20013;&#26029;&#26159;&#21542;&#36865;&#36798;&#26412;cpu
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527330065250" ID="ID_1657643379" MODIFIED="1527330104835">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; NR_GIC_CPU_IF; i++)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (i != cpu)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gic_cpu_map[i] &amp;= ~cpu_mask;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28165;&#29702;&#26597;&#25214;&#34920;&#24403;&#20013;&#20854;&#20182;&#30340;entry&#37324;&#38754;&#20195;&#34920;&#26412;cpu&#30340;&#37027;&#20010;bit
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527330196088" ID="ID_655663746" MODIFIED="1527330199252" TEXT="gic_cpu_config(dist_base, NULL);"/>
+<node CREATED="1527330218176" ID="ID_1914538682" MODIFIED="1527330442910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      writel_relaxed(GICC_INT_PRI_THRESHOLD, base + GIC_CPU_PRIMASK);
+    </p>
+    <p>
+      #define GICC_INT_PRI_THRESHOLD&#160;&#160;&#160;&#160;&#160;&#160;0xf0
+    </p>
+    <p>
+      &#36825;&#37324;&#26159;&#35774;&#32622;cpu interface&#30340;&#20013;&#26029;&#20248;&#20808;&#32423;mask, &#20174;distributor&#36865;&#36798;&#30340;&#20013;&#26029;&#20248;&#20808;&#32423;
+    </p>
+    <p>
+      &#24517;&#39035;&#22823;&#20110;&#35813;mask&#25152;&#34920;&#31034;&#30340;&#20248;&#20808;&#32423;&#20043;&#21518;&#25165;&#21487;&#20197;&#36865;&#36798;cpu.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527330621995" ID="ID_1500562771" MODIFIED="1527330797331">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic_cpu_if_up(gic);
+    </p>
+    <p>
+      &#24212;&#35813;&#26159;&#20351;&#33021;&#24403;&#21069;&#30340;cpu interface
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1527330804826" ID="ID_271099707" MODIFIED="1527330814418" TEXT="gic_pm_init(gic)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1462698069365" ID="ID_587962475" MODIFIED="1462698122230">
+</node>
+</node>
+<node CREATED="1527044477702" ID="ID_1484160488" MODIFIED="1527044576457">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      86 struct irq_domain {<b><font color="#ff3300">/*&#20869;&#26680;&#29256;&#26412;3.10*/</font></b>
+      if (parent) {
     </p>
     <p>
-      &#160;87&#160;&#160;&#160;&#160;&#160;struct list_head link;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq = irq_of_parse_and_map(node, 0);
     </p>
     <p>
-      &#160;89&#160;&#160;&#160;&#160;&#160;/* type of reverse mapping_technique */
+      ---------------&gt;&#160;&#160;&#160;&#35299;&#26512;second GIC&#30340;interrupts&#23646;&#24615;&#65292;&#24182;&#36827;&#34892;mapping&#65292;&#36820;&#22238;IRQ number&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
     </p>
     <p>
-      &#160;90&#160;&#160;&#160;&#160;&#160;unsigned int revmap_type;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gic_cascade_irq(gic_cnt, irq);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
     </p>
     <p>
-      &#160;91&#160;&#160;&#160;&#160;&#160;union {
+      }
     </p>
     <p>
-      &#160;92&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct {
-    </p>
-    <p>
-      &#160;93&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int size;
-    </p>
-    <p>
-      &#160;94&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int first_irq;
-    </p>
-    <p>
-      &#160;95&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t first_hwirq;
-    </p>
-    <p>
-      &#160;96&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} legacy;
-    </p>
-    <p>
-      &#160;97&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct {
-    </p>
-    <p>
-      &#160;98&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int size;
-    </p>
-    <p>
-      &#160;99&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int *revmap;
-    </p>
-    <p>
-      100&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} linear;
-    </p>
-    <p>
-      101&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct {
-    </p>
-    <p>
-      102&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int max_irq;
-    </p>
-    <p>
-      103&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} nomap;
-    </p>
-    <p>
-      104&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct radix_tree_root tree;
-    </p>
-    <p>
-      105&#160;&#160;&#160;&#160;&#160;} revmap_data;
-    </p>
-    <p>
-      106&#160;&#160;&#160;&#160;&#160;const struct irq_domain_ops *ops;
-    </p>
-    <p>
-      107&#160;&#160;&#160;&#160;&#160;void *host_data;
-    </p>
-    <p>
-      108&#160;&#160;&#160;&#160;&#160;irq_hw_number_t inval_irq;
+      &#22788;&#29702;interrupt&#32423;&#32852;&#30340;&#24773;&#20917;&#65292;
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1461078723770" FOLDED="true" ID="ID_1792090420" MODIFIED="1486555599174">
+</node>
+<node CREATED="1527438533422" FOLDED="true" ID="ID_479532865" MODIFIED="1539430732459">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#26681;&#25454;irq_domain&#24403;&#20013;hw interrupt id
+      gpio&#25511;&#21046;&#22120;&#39537;&#21160;&#20998;&#26512;&#65292;&#30001;&#20110;&#25511;&#21046;&#22120;&#37324;&#38754;&#20063;&#26377;&#20851;&#20110;&#20013;&#26029;&#30340;&#37096;&#20998;&#65292;
     </p>
     <p>
-      &#21644;IRQ number&#20043;&#38388;&#30340;&#26144;&#23556;&#20851;&#31995;&#21019;&#24314;
+      &#23398;&#20064;&#19968;&#19979;&#21487;&#20197;&#28145;&#20837;&#20102;&#35299;&#20013;&#26029;&#30340;&#36807;&#31243;&#65292;&#20195;&#30721;&#20301;&#32622;:
     </p>
     <p>
-      irq_domain
+      drivers/pinctrl/samsung/pinctrl-samsung.c
+    </p>
+    <p>
+      drivers/pinctrl/samsung/pinctrl-exynos.c
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#20204;&#20998;&#26512;&#30340;&#26159;&#24179;&#21488;&#35774;&#22791;&#23545;&#24212;&#30340;&#39537;&#21160;&#31243;&#24207;&#65292;&#35813;&#35774;&#22791;&#30340;&#35774;&#22791;&#33410;&#28857;&#25551;&#36848;&#22914;&#19979;:
+    </p>
+    <p>
+      pinctrl@11000000 {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;compatible = &quot;samsung,exynos4x12-pinctrl&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reg = &lt;0x11000000 0x1000&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;interrupts = &lt;0x0 0x2e 0x0&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;........
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527439322940" FOLDED="true" ID="ID_869037579" MODIFIED="1539430731164">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39318;&#20808;&#20998;&#26512;&#19968;&#19979;pinctrl&#23545;&#24212;&#30340;platform device&#25152;&#23545;&#24212;&#30340;
+    </p>
+    <p>
+      &#24179;&#21488;&#39537;&#21160;&#37324;&#38754;&#30340;probe&#20989;&#25968;
+    </p>
+    <p>
+      <b>static int samsung_pinctrl_probe(struct platform_device *pdev)</b>
+    </p>
+    <p>
+      &#27880;&#24847;&#36825;&#37324;&#25105;&#20204;&#21482;&#20998;&#26512;&#36319;&#20013;&#26029;&#26377;&#20851;&#30340;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527439592814" ID="ID_551831422" MODIFIED="1527439622047">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct samsung_pinctrl_drv_data *drvdata;
+    </p>
+    <p>
+      drvdata = devm_kzalloc(dev, sizeof(*drvdata), GFP_KERNEL);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527439646806" ID="ID_576968772" MODIFIED="1527439656095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ctrl = samsung_pinctrl_get_soc_data(drvdata, pdev);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527439704950" ID="ID_909468321" MODIFIED="1527439714903">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = samsung_gpiolib_register(pdev, drvdata);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1527438056185" FOLDED="true" ID="ID_1287158666" MODIFIED="1539430727868" TEXT="exynos4412-tiny4412.dts">
+<node CREATED="1527438077753" FOLDED="true" ID="ID_570890239" MODIFIED="1539430726755" TEXT="exynos4412.dtsi">
+<node CREATED="1527438133984" FOLDED="true" ID="ID_526516202" MODIFIED="1539430725644" TEXT="exynos4x12.dtsi">
+<node CREATED="1527438181616" ID="ID_1955911794" MODIFIED="1527438184657" TEXT="exynos4.dtsi"/>
+<node CREATED="1527438194447" ID="ID_343176907" MODIFIED="1527438197549" TEXT="exynos4x12-pinctrl.dtsi"/>
+<node CREATED="1527438206776" ID="ID_1382222382" MODIFIED="1527438209750" TEXT="exynos4-cpu-thermal.dtsi"/>
+</node>
+</node>
+<node CREATED="1527438095857" ID="ID_1757561546" MODIFIED="1527438098879" TEXT="dt-bindings/gpio/gpio.h"/>
+</node>
+</node>
+<node CREATED="1526311734080" FOLDED="true" ID="ID_1777200731" MODIFIED="1543245939329">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font size="4">ARM GIC PL390 document&#23398;&#20064;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526311797465" ID="ID_1605100955" MODIFIED="1541944330690" TEXT="1.&#x7b80;&#x4ecb;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526311868529" ID="ID_780249209" MODIFIED="1526312058044">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;amba&#21327;&#35758;&#36830;&#25509;&#21040;soc&#30340;&#39640;&#36895;&#22806;&#22260;&#35774;&#22791;&#65292;&#30446;&#21069;&#21487;&#20197;&#36890;&#36807;&#20004;&#31181;&#39640;&#36895;&#24635;&#32447;&#21327;&#35758;
+    </p>
+    <p>
+      &#25346;&#25509;&#21040;&#24635;&#32447;&#19978;&#38754;&#12290;
+    </p>
+    <p>
+      1.&#36890;&#36807;AHB-Lite slave interfaces
+    </p>
+    <p>
+      &#36825;&#31181;&#23454;&#29616;&#26041;&#27861;&#21482;&#33021;&#25317;&#26377;&#19968;&#20010;cpu interface
+    </p>
+    <p>
+      2.&#36890;&#36807;AXI slave interfaces
+    </p>
+    <p>
+      &#36825;&#31181;&#23454;&#29616;&#26041;&#24335;&#25903;&#25345;&#23433;&#20840;&#25193;&#23637;&#65292;&#24182;&#19988;&#21487;&#20197;&#25903;&#25345;&#22810;&#36798;8&#20010;cpu interface
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526312670779" ID="ID_689562653" MODIFIED="1526312876254">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GIC&#30340;&#19968;&#20123;&#29305;&#24615;:
+    </p>
+    <p>
+      1.&#25903;&#25345;&#19977;&#31181;&#20013;&#26029;&#31867;&#22411;
+    </p>
+    <p>
+      SGI&#65292; PPI&#65292; SPI
+    </p>
+    <p>
+      2. &#21487;&#32534;&#31243;&#30340;&#20013;&#26029;&#29305;&#24615;
+    </p>
+    <p>
+      &#20013;&#26029;&#30340;&#23433;&#20840;&#29366;&#24577;
+    </p>
+    <p>
+      &#20013;&#26029;&#30340;&#20248;&#20808;&#32423;
+    </p>
+    <p>
+      &#20351;&#33021;&#25110;&#32773;&#31105;&#27490;&#20351;&#29992;&#20013;&#26029;
+    </p>
+    <p>
+      &#25509;&#25910;&#20013;&#26029;&#30340;&#22788;&#29702;&#22120;
+    </p>
+    <p>
+      3.&#39640;&#32423;&#23433;&#20840;&#29305;&#24615;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1526357252969" ID="ID_1171567380" MODIFIED="1541943178906" TEXT="2.&#x529f;&#x80fd;&#x6982;&#x89c8;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526357276015" ID="ID_1386936933" MODIFIED="1541943189381">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">&#24635;&#20307;&#26694;&#26550;&#22270;</font>
     </p>
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526372272309" ID="ID_1130842943" MODIFIED="1526372370637">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/Gic-function-diagram.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1526372519154" FOLDED="true" ID="ID_1802439443" MODIFIED="1541944310390" TEXT="AMBA Slave Interface">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526372572310" ID="ID_651246390" MODIFIED="1526372732657">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#35775;&#38382;gic&#23492;&#23384;&#22120;&#65292;&#35774;&#32622;&#31995;&#32479;&#37197;&#32622;&#21442;&#25968;&#21644;&#33719;&#21462;&#29366;&#24577;&#20449;&#24687;
+    </p>
+    <p>
+      &#35813;&#25509;&#21475;&#26377;&#20004;&#31181;&#36890;&#20449;&#26041;&#24335;&#65292;&#19968;&#31181;&#26159;axi&#65292;&#19968;&#31181;&#26159;ahb-lite
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1526372902531" ID="ID_23560721" MODIFIED="1541944312060" TEXT="Distributer">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526372983259" ID="ID_1860259410" MODIFIED="1526373025764">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25509;&#25910;&#20013;&#26029;&#65292;&#24182;&#23558;&#20248;&#20808;&#32423;&#26368;&#39640;&#30340;&#20013;&#26029;&#20998;&#21457;&#32473;&#23545;&#24212;&#30340;cpu interface
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526397084886" FOLDED="true" ID="ID_333414137" MODIFIED="1534950418795">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/gic-distributer.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1526397180654" ID="ID_731831615" MODIFIED="1526397310561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;multiprocessor&#27169;&#24335;&#30340;&#37197;&#32622;&#19979;&#38754;&#65292;distributer&#21487;&#20197;&#20026;&#27599;&#20010;cpu interface
+    </p>
+    <p>
+      &#25552;&#20379;&#22810;&#36798;16&#20010;ppi,&#160;&#160;distributer&#21487;&#20197;&#25552;&#20379;&#22810;&#36798;998&#20010;spi,&#24182;&#19988;&#21487;&#20197;&#20026;&#27599;&#20010;spi
+    </p>
+    <p>
+      &#37197;&#32622;&#20854;&#36335;&#30001;&#21040;&#30340;cpu interface
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526615573270" ID="ID_1205892195" MODIFIED="1526615760713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="lddpic/interrupt-manipulation.png" />
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      interrupt manipulation&#30340;&#20316;&#29992;&#23601;&#26159;
+    </p>
+    <p>
+      1.&#25552;&#20379;registering &#25110;&#32773;synchronizing&#20013;&#26029;&#30340;&#36873;&#39033;&#65292; &#24403;&#25105;&#20204;&#35774;&#32622;&#21516;&#27493;&#20013;&#26029;&#30340;&#36873;&#39033;&#30340;&#26102;&#20505;&#65292;&#20013;&#26029;&#26159;&#21487;&#20197;&#34987;&#24310;&#36831;
+    </p>
+    <p>
+      &#20004;&#20010;gclk&#21608;&#26399;&#30340;(&#36825;&#26679;&#30340;&#30446;&#30340;&#26159;&#20026;&#20102;&#31561;&#24453;&#22810;&#20010;&#20013;&#26029;&#30340;&#21040;&#26469;&#65311;)
+    </p>
+    <p>
+      2.Edge-detect&#21487;&#20197;&#26816;&#27979;&#21040;&#35774;&#32622;&#25104;pulse&#35302;&#21457;&#26041;&#24335;&#30340;&#20013;&#26029;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1526627905295" FOLDED="true" ID="ID_1874590970" MODIFIED="1534950416510" TEXT="CPU Interface">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526627943662" ID="ID_1631327292" MODIFIED="1526628312481">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cpu interface&#21253;&#21547;&#19968;&#20010;&#21487;&#32534;&#31243;&#30340;&#20013;&#26029;&#20248;&#20808;&#32423;&#30340;&#25513;&#30721;&#65292;&#24182;&#19988;&#23427;&#21482;&#25509;&#21463;&#20248;&#20808;&#32423;&#39640;&#20110;&#22914;&#19979;&#26465;&#20214;&#30340;
+    </p>
+    <p>
+      pending&#29366;&#24577;&#30340;&#20013;&#26029;&#65307;
+    </p>
+    <p>
+      1.&#27604;&#20013;&#26029;&#20248;&#20808;&#32423;&#25513;&#30721;&#39640;
+    </p>
+    <p>
+      2.&#27604;&#24403;&#21069;&#22788;&#29702;&#22120;&#22788;&#29702;&#30340;&#20013;&#26029;&#30340;&#20248;&#20808;&#32423;&#39640;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1526628395685" FOLDED="true" ID="ID_1930749033" MODIFIED="1534950423938" TEXT="clock and reset">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526628423621" ID="ID_1006220311" MODIFIED="1526628478576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      gic&#21482;&#25552;&#20379;&#20102;&#19968;&#20010;&#21333;&#29420;&#30340;&#26102;&#38047;&#36755;&#20837;gclk,
+    </p>
+    <p>
+      gic&#21482;&#25552;&#20379;&#20102;&#19968;&#20010;&#21333;&#29420;&#30340;reset&#25509;&#21475;gresetn
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1526629089742" FOLDED="true" ID="ID_1361435166" MODIFIED="1535292144652">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">enable and match signals</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526629182525" ID="ID_385909891" MODIFIED="1526629362467">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#22312;gic&#25552;&#20379;&#20004;&#20010;&#25110;&#32773;&#26356;&#22810;&#30340;cpu interface&#30340;&#21069;&#25552;&#20043;&#19979;&#65292;gic </b>
+    </p>
+    <p>
+      <b>&#20250;&#25552;&#20379;&#22914;&#19979;&#30340;&#20449;&#21495;&#32473;&#31995;&#32479;:</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      enable_d&lt;n&gt;[D_ID_WIDTH&#8211;1:0]
+    </p>
+    <p>
+      match_d&lt;n&gt;[D_ID_WIDTH&#8211;1:0]&#160;&#160;D_ID_WIDTH&#34920;&#31034;distributer&#30340;axi id&#30340;&#20449;&#21495;&#23485;&#24230;
+    </p>
+    <p>
+      enable_c&lt;n&gt;[C_ID_WIDTH&#8211;1:0]
+    </p>
+    <p>
+      match_c&lt;n&gt;[C_ID_WIDTH&#8211;1:0]. C_ID_WIDTH&#34920;&#31034;&#35775;&#38382;cpu interface&#30340;axi id&#20449;&#21495;&#30340;&#23485;&#24230;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526629466450" ID="ID_1630401184" MODIFIED="1535292133436">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      enable&#20449;&#21495;&#23601;&#20687;&#25513;&#30721;&#19968;&#26679;&#29992;&#20110;&#31579;&#36873;axi id&#30340;&#20449;&#21495;&#65292;&#21516;&#26102;&#23558;&#31579;&#36873;&#20043;&#21518;&#30340;&#20449;&#21495;&#36319;
+    </p>
+    <p>
+      match&#20449;&#21495;&#36827;&#34892;&#27604;&#23545;&#65292;&#22914;&#26524;&#26159;&#30456;&#21516;&#30340;&#21017;&#21487;&#20197;&#36827;&#34892;&#36827;&#19968;&#27493;&#30340;&#25805;&#20316;&#23492;&#23384;&#22120;&#30340;&#21160;&#20316;&#65292;&#21542;&#21017;&#35813;
+    </p>
+    <p>
+      &#24037;&#20316;&#26159;&#34987;&#31105;&#27490;&#30340;&#12290;<font size="4" color="#e80f0f"><b>&#29992;&#20110;&#25552;&#20379;&#23545;banked registers&#30340;&#25805;&#20316;</b></font>
+    </p>
+    <p>
+      For the Distributor, it provides access to the banked registers for a CPU Interface when:
+    </p>
+    <p>
+      (arid_d &amp; enable_d&lt;n&gt;) == match_d&lt;n&gt;
+    </p>
+    <p>
+      (awid_d &amp; enable_d&lt;n&gt;) == match_d&lt;n&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The GIC provides access to a CPU Interface and its registers when:
+    </p>
+    <p>
+      (arid_c &amp; enable_c&lt;n&gt;) == match_c&lt;n&gt;
+    </p>
+    <p>
+      (awid_c &amp; enable_c&lt;n&gt;) == match_c&lt;n&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1526699287581" FOLDED="true" ID="ID_1524947136" MODIFIED="1534950408534" TEXT="Implementation-defined behavior">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1526699828788" ID="ID_144043599" MODIFIED="1526699894814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#e20d0d">cpu interface&#30340;&#25968;&#37327;</font></b>
+    </p>
+    <p>
+      &#21487;&#20197;&#37197;&#32622;&#30340;&#25968;&#37327;&#26159;&#19968;&#21040;&#20843;&#20010;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526699915891" ID="ID_1697339201" MODIFIED="1526700838582">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#e00202">&#20013;&#26029;&#36755;&#20837;&#30340;&#25968;&#37327;</font></b>
+    </p>
+    <p>
+      SGI: &#27599;&#20010;cpu interface&#30340;sgi&#30340;&#25968;&#37327;&#26159;16&#20010;&#65292;&#27599;&#20010;&#20013;&#26029;&#34987;&#36171;&#20104;&#19968;&#20010;&#20013;&#26029;id&#21495;&#65292;&#22312;NTID[15:0]
+    </p>
+    <p>
+      PPI&#65306; &#27599;&#20010;cpu interface&#21487;&#20197;&#25317;&#26377;0&#21040;16&#20010;ppi&#20013;&#26029;&#65292;distributor&#20445;&#35777;&#20174;ppi_c&lt;n&gt;[15:0]&#25509;&#25910;&#21040;&#30340;&#20013;&#26029;
+    </p>
+    <p>
+      &#21482;&#20250;&#25552;&#20132;&#32473;&#23545;&#24212;&#30340;cpu interface n
+    </p>
+    <p>
+      SPI: &#21487;&#20197;&#37197;&#32622;GIC&#25903;&#25345;&#22810;&#36798;988&#20010;spi, &#20013;&#26029;&#21495;&#23545;&#24212;&#23384;&#25918;&#22312;INTID[1019:32]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526717916244" ID="ID_1728228800" MODIFIED="1526718173175">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#e20909">Legacy Interrupt</font></b>
+    </p>
+    <p>
+      &#27599;&#19968;&#20010;&#22788;&#29702;&#22120;&#30340;&#26680;&#24515;&#21487;&#20197;&#37197;&#32622;&#22810;&#36798;2&#20010;legacy&#30340;&#20013;&#26029;
+    </p>
+    <p>
+      &#24403;GIC&#34987;&#37197;&#32622;&#25104;&#25903;&#25345;secure state&#30340;&#26102;&#20505;&#65292;&#21487;&#20197;&#25903;&#25345;legacy_nirq_c&lt;n&gt;
+    </p>
+    <p>
+      &#24403;GIC&#34987;&#37197;&#32622;&#25104;&#25903;&#25345;&#23433;&#20840;&#25193;&#23637;&#30340;&#26102;&#20505;&#65292;&#21487;&#20197;&#25903;&#25345;legacy_nfiq_c&lt;n&gt; &#21644; legacy_nirq_c&lt;n&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      legacy interrupt&#21487;&#20197;&#34987;&#30475;&#25104;&#26159;&#25903;&#25345;&#32769;&#30340;arm&#26680;&#24515;&#30340;&#19968;&#31181;&#21521;&#21069;&#30340;&#20860;&#23481;&#26041;&#24335;&#65292;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526718194980" ID="ID_1376461523" MODIFIED="1526718331794">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#d40606"><b>&#21487;&#32534;&#31243;&#30340;PPI&#30340;&#35302;&#21457;&#27169;&#24335;</b></font>
+    </p>
+    <p>
+      &#21487;&#20197;&#36890;&#36807;Interrupt Configuration Register&#26469;&#37197;&#32622;&#35302;&#21457;&#30340;&#27169;&#24335;&#65292;&#30446;&#21069;&#25903;&#25345;&#30340;&#20004;&#31181;&#35302;&#21457;&#27169;&#24335;&#22914;&#19979;:
+    </p>
+    <p>
+      1.&#30005;&#24179;&#35302;&#21457;&#26041;&#24335;&#65292;&#39640;&#30005;&#24179;&#26377;&#25928;
+    </p>
+    <p>
+      2.pulse&#35302;&#21457;&#26041;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526719080863" ID="ID_1832984930" MODIFIED="1526719155614">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#c90909"><b>Lockable SPI (LSPI) &#25903;&#25345;</b></font>
+    </p>
+    <p>
+      he LSPI field in the Interrupt Controller Type Register defines which INTIDs are LSPIs.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526719216294" ID="ID_1260715380" MODIFIED="1526719274510">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e71010"><b>&#20013;&#26029;&#20248;&#20808;&#32423;&#20010;&#25968;&#30340;&#37197;&#32622;</b></font>
+    </p>
+    <p>
+      GIC&#25903;&#25345;&#30340;&#20013;&#26029;&#20248;&#20808;&#32423;&#30340;&#20010;&#25968;&#26159;&#21487;&#37197;&#32622;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526719531858" ID="ID_498072125" MODIFIED="1526719669210">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#d40e0e">&#26356;&#26032;Priority Level Register&#23545;&#20110;Active interrupts&#30340;&#24433;&#21709;</font></b>
+    </p>
+    <p>
+      &#24403;&#20320;&#26356;&#26032;Active&#29366;&#24577;&#30340;&#20013;&#26029;&#25110;&#32773;&#26159;Active-and-pending&#29366;&#24577;&#30340;&#20013;&#26029;&#30340;&#20248;&#20808;&#32423;&#27700;&#24179;&#30340;&#26102;&#20505;&#65292;
+    </p>
+    <p>
+      gic&#20250;&#31435;&#21051;&#23545;active&#29366;&#24577;&#30340;&#20013;&#26029;&#20351;&#29992;&#26032;&#30340;&#20248;&#20808;&#32423;&#26631;&#20934;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526720109382" ID="ID_44683789" MODIFIED="1526720275213">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#c60c0c"><b>&#30446;&#26631;&#26159;&#38024;&#23545;&#22810;&#20010;&#22788;&#29702;&#22120;&#26680;&#24515;&#30340;spi&#30340;&#20210;&#35009;&#22788;&#29702;</b></font>
+    </p>
+    <p>
+      &#24403;&#26576;&#20010;spi&#34987;&#35774;&#32622;&#25104;&#21487;&#20197;&#21521;&#22810;&#20010;&#26680;&#24515;&#36890;&#30693;&#20013;&#26029;&#30340;&#26102;&#20505;&#65292;&#22810;&#20010;&#22788;&#29702;&#22120;&#30340;&#26680;&#24515;&#26159;&#21516;&#26102;&#25509;&#25910;&#21040;&#20013;&#26029;&#20449;&#21495;&#30340;&#65292;
+    </p>
+    <p>
+      &#20294;&#26159;&#21482;&#26377;&#31532;&#19968;&#20010;&#35835;&#21462;Interrupt Acknowledge Register&#30340;&#22788;&#29702;&#22120;&#26680;&#24515;&#25165;&#31639;&#22238;&#24212;&#35813;&#20013;&#26029;&#65292;&#20854;&#20182;&#30340;&#26680;&#24515;
+    </p>
+    <p>
+      &#21487;&#20197;&#35748;&#20026;&#26159;&#25509;&#25910;&#21040;&#20102;&#34394;&#20551;&#20013;&#26029;&#21709;&#24212;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526779139156" ID="ID_1441698282" MODIFIED="1526779243332">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e11111"><b>Binary Point Register&#23492;&#23384;&#22120;&#21487;&#20197;&#25903;&#25345;&#30340;&#26368;&#23567;&#30340;&#20540;</b></font>
+    </p>
+    <p>
+      &#25903;&#25345;&#30340;&#26368;&#23567;&#30340;&#20540;&#20381;&#36182;&#20110;GIC&#25903;&#25345;&#30340;&#20013;&#26029;&#20248;&#20808;&#32423;&#30340;&#32423;&#21035;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1526779936296" ID="ID_861937120" MODIFIED="1541943181631">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>3.&#32534;&#31243;&#27169;&#22411;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526782100712" ID="ID_1523046238" MODIFIED="1541943183593" TEXT="&#x5173;&#x4e8e;&#x7f16;&#x7a0b;&#x6a21;&#x578b;&#x7684;&#x7b80;&#x4ecb;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1526782119183" ID="ID_1327192633" MODIFIED="1526782530159">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#c50505">GIC&#20250;&#25552;&#20379;&#22914;&#19979;&#30340;&#23492;&#23384;&#22120;&#30340;&#26144;&#23556;</font></b>
+    </p>
+    <p>
+      Distributor &#23492;&#23384;&#22120;&#26144;&#23556;
+    </p>
+    <p>
+      CPU Interface&#23492;&#23384;&#22120;&#26144;&#23556;
+    </p>
+    <p>
+      GIC&#30340;&#23492;&#23384;&#22120;&#22522;&#22320;&#22336;&#26159;&#19981;&#22266;&#23450;&#30340;&#65292;&#20381;&#36182;&#20110;&#20855;&#20307;&#30340;&#30828;&#20214;&#23454;&#29616;&#65292;&#20294;&#26159;&#27599;&#20010;&#23492;&#23384;&#22120;&#30340;&#20559;&#31227;&#22320;&#22336;&#26159;&#22266;&#23450;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1526871429025" FOLDED="true" ID="ID_936881367" MODIFIED="1544867512442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#ba1010"><i>Linux&#30340;&#20013;&#26029;&#23376;&#31995;&#32479;&#20043;&#19968;</i></font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526871986809" FOLDED="true" ID="ID_367134578" MODIFIED="1544867510658">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/linux&#x4e2d;&#x65ad;&#x5b50;&#x7cfb;&#x7edf;&#x8f6f;&#x4ef6;&#x6846;&#x56fe;.gif" />
+  </body>
+</html></richcontent>
+<node CREATED="1526872042160" ID="ID_1473971379" MODIFIED="1526872119921">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#29992;&#20013;&#26029;&#22788;&#29702;&#27169;&#22359;&#26159;&#30828;&#20214;&#26080;&#20851;&#30340;&#27169;&#22359;&#65292;&#29992;&#20110;&#25277;&#35937;&#20013;&#26029;&#22788;&#29702;&#24403;&#20013;&#30340;&#19968;&#20123;&#30456;&#21516;&#30340;&#21160;&#20316;&#12290;
+    </p>
+    <p>
+      &#26222;&#36890;&#22806;&#35774;&#30340;&#39537;&#21160;&#20063;&#20250;&#35843;&#29992;&#36890;&#29992;&#20013;&#26029;&#22788;&#29702;&#27169;&#22359;&#30340;api&#26469;&#23454;&#29616;&#33258;&#24049;&#30340;&#39537;&#21160;&#36923;&#36753;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1526872438251" FOLDED="true" ID="ID_1923881028" MODIFIED="1544867496235">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#bc0606"><b><i>Linux&#30340;&#20013;&#26029;&#23376;&#31995;&#32479;&#20043;&#20108; IRQ Domain&#20171;&#32461;</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526873852955" ID="ID_957535091" MODIFIED="1526874519125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#1117ed" size="4"><i>interrupt controller&#20351;&#29992;HW interrupt ID &#26469;&#26631;&#35782;&#19968;&#20010;&#30828;&#20214;&#20013;&#26029;&#65292; </i></font>
+    </p>
+    <p>
+      <font color="#1117ed" size="4"><i>&#32780;&#23545;&#20110;cpu&#25110;&#32773;&#39537;&#21160;&#26469;&#35828;&#26159;&#36890;&#36807;IRQ number&#26469;&#34920;&#31034;&#19968;&#20010;&#20013;&#26029;&#30340;&#65292;&#26159;&#19968;&#20010;&#34394;&#25311;&#30340;&#20013;&#26029;&#21495;&#12290; </i></font>
+    </p>
+    <p>
+      <font color="#1117ed" size="4"><i>linux kernel&#30340;&#20013;&#26029;&#23376;&#31995;&#32479;&#38656;&#35201;&#23558;HW interrupt ID&#26144;&#23556;&#25104;IRQ number </i></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#38543;&#30528;linux&#20869;&#26680;&#30340;&#21457;&#23637;&#65292;&#23558;interrupt controller&#25277;&#35937;&#25104;irqchip&#36825;&#20010;&#27010;&#24565;&#36234;&#26469;&#36234;&#27969;&#34892;&#65292;&#35774;&#32622;gpio controller </b>
+    </p>
+    <p>
+      <b>&#20063;&#21487;&#20197;&#34987;&#30475;&#25104;&#26159;&#19968;&#20010;interrupt controller chip.</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526874935181" FOLDED="true" ID="ID_746299273" MODIFIED="1544867493970">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#1c33f3">IRQ Domain&#30340;&#20171;&#32461;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526874993677" FOLDED="true" ID="ID_712069025" MODIFIED="1544867493035">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#df1414">1.&#25509;&#21475;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1526875023603" FOLDED="true" ID="ID_83612066" MODIFIED="1544867489507">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21521;&#31995;&#32479;&#27880;&#20876;irq domain, &#26681;&#25454;hw irq id&#21644;irq number&#20043;&#38388;&#30340;&#26144;&#23556;&#26041;&#24335;&#65292;
+    </p>
+    <p>
+      &#25105;&#20204;&#26377;&#22914;&#19979;&#30340;&#19977;&#31181;&#27880;&#20876;&#30340;&#25509;&#21475;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1461078817177" ID="ID_1215070585" MODIFIED="1461489293154">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10678,119 +13985,321 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1461483798601" FOLDED="true" ID="ID_1389007232" MODIFIED="1486555599174">
+<node CREATED="1526974571434" FOLDED="true" ID="ID_1189599923" MODIFIED="1544867487691">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#006666">&#20026;&#24050;&#32463;&#21019;&#24314;&#22909;&#30340;irq_domain </font></b>
+      <b>&#21019;&#24314;&#26144;&#23556;</b>&#65292;&#21521;&#31995;&#32479;&#28155;&#21152;&#23436;irq domain&#20043;&#21518;&#65292;&#36824;&#38656;&#35201;&#24314;&#31435;database&#65292;
     </p>
     <p>
-      <b><font color="#006666">&#21019;&#24314;&#20855;&#20307;&#30340;&#26144;&#23556;&#20851;&#31995;&#65306;&#22235;&#22823;&#25509;&#21475;</font></b>
+      &#35813;database&#30340;&#20316;&#29992;&#23601;&#26159;&#36127;&#36131;&#20174;hw interrupt id&#21521;irq number&#24314;&#31435;&#26144;&#23556;
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1461484810959" ID="ID_1316936140" MODIFIED="1461485064201">
+<node CREATED="1526974762134" ID="ID_193006535" MODIFIED="1526977256410">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1.<b>&#20026;hw interrupt id&#21160;&#24577;&#20998;&#37197;irq number</b>
+      unsigned int irq_create_mapping(struct irq_domain *domain,
     </p>
     <p>
-      &#35843;&#29992;&#35813;&#20989;&#25968;&#30340;&#21069;&#25552;&#26159;&#24517;&#39035;&#30693;&#36947;&#20013;&#26029;&#20256;&#20837;&#30340;hw interrupt id
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t hwirq)
     </p>
     <p>
-      &#20856;&#22411;&#30340;&#24212;&#29992;&#22330;&#26223;&#26159;&#20351;&#29992;&#22312;gpio&#20013;&#26029;&#20013;&#65292;&#25105;&#20204;&#21487;&#20197;&#30693;&#36947;
+      
     </p>
     <p>
-      gpio&#21495;&#36319;hw interrupt id&#20043;&#38388;&#30340;&#20851;&#31995;&#12290;
+      &#35813;&#20989;&#25968;&#24314;&#31435;&#26144;&#23556;&#30340;&#26102;&#20505;&#24517;&#39035;&#25552;&#20379;hw irq id&#65292;&#36825;&#24847;&#21619;&#30528;&#39537;&#21160;&#30693;&#36947;&#33258;&#24049;&#20351;&#29992;&#30340;hw id,
     </p>
     <p>
-      extern unsigned int irq_create_mapping(struct irq_domain *host
+      &#20294;&#26159;&#19968;&#33324;&#24773;&#20917;&#19979;&#39537;&#21160;&#23545;&#33258;&#24049;&#20351;&#29992;&#30340;hw interrupt id&#26159;&#19968;&#26080;&#25152;&#30693;&#30340;&#65292;&#19981;&#36807;&#26377;&#20123;&#22330;&#26223;&#26159;&#27604;&#36739;&#29305;&#27530;&#30340;&#65292;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t hwirq)
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1461485199595" ID="ID_452731619" MODIFIED="1461485416757">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      2.<b>&#20026;&#19968;&#32452;hw interrupt id&#21019;&#24314;&#26144;&#23556; </b>
+      &#27604;&#22914;gpio&#31867;&#22411;&#30340;&#20013;&#26029;&#65292;&#23427;&#30340;hw interrupt id&#21644;gpio&#26377;&#19968;&#23450;&#30340;&#32852;&#31995;&#65292;&#30693;&#36947;&#20102;gpio&#21495;&#20063;&#23601;&#26159;&#30693;&#36947;&#20102;
     </p>
     <p>
-      extern int irq_create_strict_mappings(struct irq_domain *domain,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int irq_base, irq_hw_number_t hwirq_base,
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int count);
+      hw interrupt id.
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1461485446017" ID="ID_1199869714" MODIFIED="1461486380702">
+<node CREATED="1526977386596" ID="ID_1267015906" MODIFIED="1526977451968">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      3.<b>&#21033;&#29992;devicetree&#24314;&#31435;&#26144;&#23556;&#30340;&#20851;&#31995;</b>
+      int <b>irq_create_strict_mappings(</b>struct irq_domain *domain, unsigned int irq_base,
     </p>
     <p>
-      <b>extern unsigned int irq_create_of_mapping(struct of_phandle_args *irq_data)</b>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t hwirq_base, int count<b>)</b>
     </p>
     <p>
-      &#39537;&#21160;&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;irq_of_parse_and_map(struct device_node *dev, int index)
+      
     </p>
     <p>
-      &#20989;&#25968;&#65292;&#35813;&#20989;&#25968;&#20250;&#23545;device_node&#20013;&#36319;&#20013;&#26029;&#30456;&#20851;&#30340;&#20869;&#23481;&#36827;&#34892;&#20998;&#26512;&#65292;&#28982;&#21518;&#35813;&#20989;&#25968;&#20250;&#35843;&#29992;
-    </p>
-    <p>
-      irq_create_of_mapping&#21019;&#24314;&#26144;&#23556;&#65292;&#36820;&#22238;irq number
+      &#29992;&#26469;&#20026;&#19968;&#32452;hw interrupt id&#24314;&#31435;&#26144;&#23556;
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1461486658657" ID="ID_1947661424" MODIFIED="1461486752059">
+<node CREATED="1526978750289" ID="ID_229272481" MODIFIED="1526979009354">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      4.<b>&#21019;&#24314;&#30452;&#25509;&#30340;&#26144;&#23556;&#24418;&#24335; </b>
+      unsigned int irq_create_of_mapping(struct of_phandle_args *irq_data)
     </p>
     <p>
-      irq_create_direct_mapping&#36825;&#26159;&#32473;no map&#31867;&#22411;&#30340;interrupt controller
+      &#21033;&#29992;device tree&#36827;&#34892;&#26144;&#23556;&#20851;&#31995;&#30340;&#24314;&#31435;
     </p>
     <p>
-      &#20351;&#29992;&#30340;
+      
+    </p>
+    <p>
+      &#36890;&#24120;&#35813;&#20989;&#25968;&#20250;&#22312;unsigned int irq_of_parse_and_map(struct device_node *dev, int index)&#24403;&#20013;
+    </p>
+    <p>
+      &#34987;&#35843;&#29992;&#65292;&#32780;irq_of_parse_and_map&#32463;&#24120;&#20986;&#29616;&#22312;&#39537;&#21160;&#31243;&#24207;&#37324;&#38754;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1526979207872" ID="ID_1859068798" MODIFIED="1526979234424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      unsigned int irq_create_direct_mapping(struct irq_domain *domain)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#29992;&#20110;no map&#31867;&#22411;&#30340;irq domain
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1461511040984" FOLDED="true" ID="ID_1591423950" MODIFIED="1486555599174">
+<node CREATED="1457969498354" FOLDED="true" ID="ID_480363006" MODIFIED="1544867480931">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>Mapping DB&#30340;&#24314;&#31435; </b>
+      <b><font color="#333300" size="4">irq domain&#30340;&#27010;&#24565;&#21644;&#20854;callback&#20989;&#25968;</font></b><font color="#006666" size="4">&#160; </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">struct irq_domain { </font><b><font color="#ff0033" size="3">/*&#20869;&#26680;&#29256;&#26412;4.4.8*/</font></b>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">struct list_head link;&#160;&#160;&#160;&#160;&#160;const char *name;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct irq_domain_ops *ops; </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">void *host_data;&#160;&#160;&#160;&#160;<b>&#31169;&#26377;&#25968;&#25454;&#65292;&#23545;&#20110;gic&#26469;&#35828;&#35813;&#25104;&#21592;&#24448;&#24448;&#25351;&#21521;struct gic_chip_data</b> </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">unsigned int flags;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct fwnode_handle *fwnode; </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">&#160;enum irq_domain_bus_token bus_token;&#160;&#160;&#160;&#160;struct irq_domain_chip_generic *gc; </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">#ifdef&#160;&#160;CONFIG_IRQ_DOMAIN_HIERARCHY </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">struct irq_domain *parent; </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">#endif </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">/* reverse map data. The linear map gets appended to the irq_domain */ </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">irq_hw_number_t hwirq_max; </font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">unsigned int revmap_direct_max_irq; <b>&#30452;&#25509;&#26144;&#23556;&#26041;&#24335;&#20013;&#26368;&#22823;&#30340;hwirq&#20540;</b></font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">unsigned int revmap_size;<b>&#160;&#32447;&#24615;&#26144;&#23556;&#34920;&#30340;&#22823;&#23567;</b></font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">struct radix_tree_root revmap_tree; <b>radix&#26641;</b></font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">&#160;unsigned int linear_revmap[];<b>&#160;hwirq-&gt;virq&#30340;&#26144;&#23556;&#34920;&#26684;</b></font>
+    </p>
+    <p style="font-size: 13px; padding-bottom: 15px; color: rgb(50, 50, 50); font-style: normal; margin-right: 0px; font-weight: normal; margin-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-variant: normal; word-spacing: 0px; padding-top: 0px; text-indent: 0px; line-height: 20px; margin-left: 0px; white-space: normal; text-align: left; letter-spacing: normal; padding-right: 0px; margin-top: 0px; text-transform: none">
+      <font size="3">};</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1461078537489" FOLDED="true" ID="ID_358095483" MODIFIED="1544867479090">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">struct irq_domain_ops</font></b><font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">&#160;{</font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">int (*<b>match</b>)(struct irq_domain *d, struct device_node *node);&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">int (*<b>map</b>)(struct irq_domain *d, unsigned int virq, irq_hw_number_t hw);&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">void (*<b>unmap</b>)(struct irq_domain *d, unsigned int virq);&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">int (*<b>xlate</b>)(struct irq_domain *d, struct device_node *node,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">const u32 *intspec, unsigned int intsize,&#160;&#160;unsigned long *out_hwirq, </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">unsigned int *out_type);&#160; </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">}; </font>
+    </p>
+    <p>
+      <font color="rgb(50, 50, 50)" face="Arial, Helvetica, sans-serif">1.xlate&#20989;&#25968;&#29992;&#20110;&#23558;device tree&#37324;&#38754;&#30340;&#25351;&#23450;&#20010;&#25968;(intsize)&#30340;&#20013;&#26029;&#23646;&#24615; </font>
+    </p>
+    <p>
+      (intspec)&#32763;&#35793;&#25104;hw irq(out_hwirq)&#21644;&#20854;&#23545;&#24212;&#30340;trigger&#23646;&#24615;(out_type)
+    </p>
+    <p>
+      2.match&#20989;&#25968;&#29992;&#20110;&#21028;&#26029;&#20256;&#20837;&#30340;&#20195;&#34920;interrupt controller&#30340;node&#33410;&#28857;&#26159;&#21542;
+    </p>
+    <p>
+      &#36319;&#24403;&#21069;&#30340;irq_domain&#21305;&#37197;
+    </p>
+    <p>
+      3.map&#20989;&#25968;&#26159;&#22312;&#29992;&#20110;&#26356;&#26032;&#25110;&#32773;&#21019;&#24314;hw interrupt id&#21644;irq number&#20851;&#31995;&#30340;
+    </p>
+    <p>
+      &#26102;&#20505;&#34987;&#35843;&#29992;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1526979882030" ID="ID_491327050" MODIFIED="1526979895573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/irq_domain01.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1461509588742" ID="ID_577602559" MODIFIED="1461509613093" TEXT="&#x6240;&#x6709;&#x7684;irq_domain&#x90fd;&#x88ab;&#x6302;&#x5165;&#x5230;&#x4e00;&#x4e2a;&#x5168;&#x5c40;&#x7684;&#x94fe;&#x8868;&#x5f53;&#x4e2d;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1462698069365" ID="ID_587962475" MODIFIED="1462698122230">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      86 struct irq_domain {<b><font color="#ff3300">/*&#20869;&#26680;&#29256;&#26412;3.10*/</font></b>
+    </p>
+    <p>
+      &#160;87&#160;&#160;&#160;&#160;&#160;struct list_head link;
+    </p>
+    <p>
+      &#160;89&#160;&#160;&#160;&#160;&#160;/* type of reverse mapping_technique */
+    </p>
+    <p>
+      &#160;90&#160;&#160;&#160;&#160;&#160;unsigned int revmap_type;
+    </p>
+    <p>
+      &#160;91&#160;&#160;&#160;&#160;&#160;union {
+    </p>
+    <p>
+      &#160;92&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct {
+    </p>
+    <p>
+      &#160;93&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int size;
+    </p>
+    <p>
+      &#160;94&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int first_irq;
+    </p>
+    <p>
+      &#160;95&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t first_hwirq;
+    </p>
+    <p>
+      &#160;96&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} legacy;
+    </p>
+    <p>
+      &#160;97&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct {
+    </p>
+    <p>
+      &#160;98&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int size;
+    </p>
+    <p>
+      &#160;99&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int *revmap;
+    </p>
+    <p>
+      100&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} linear;
+    </p>
+    <p>
+      101&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct {
+    </p>
+    <p>
+      102&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int max_irq;
+    </p>
+    <p>
+      103&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} nomap;
+    </p>
+    <p>
+      104&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct radix_tree_root tree;
+    </p>
+    <p>
+      105&#160;&#160;&#160;&#160;&#160;} revmap_data;
+    </p>
+    <p>
+      106&#160;&#160;&#160;&#160;&#160;const struct irq_domain_ops *ops;
+    </p>
+    <p>
+      107&#160;&#160;&#160;&#160;&#160;void *host_data;
+    </p>
+    <p>
+      108&#160;&#160;&#160;&#160;&#160;irq_hw_number_t inval_irq;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1461511040984" FOLDED="true" ID="ID_1591423950" MODIFIED="1544867470059">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#eb1414">2. Mapping DB&#30340;&#24314;&#31435;</font>&#160;</b>
     </p>
     <p>
       &#31995;&#32479;&#22312;&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#20250;&#24314;&#31435;hw interrupt id
@@ -10800,25 +14309,34 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1461511653565" ID="ID_1188693622" MODIFIED="1462610924206">
+<node CREATED="1461511653565" ID="ID_1188693622" MODIFIED="1527041515804">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      1.&#22312;machine driver&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;of_irq_init,&#22312;&#35813;&#20989;&#25968;&#24403;&#20013;&#20250;&#25195;&#25551;&#25152;&#26377;&#30340;
+      1.dts&#25991;&#20214;&#29992;&#26469;&#25551;&#36848;&#31995;&#32479;&#24403;&#20013;&#30340;interrupt controller&#20197;&#21450;&#22806;&#35774;&#30340;IRQ&#30340;&#25299;&#25169;&#32467;&#26500;&#65292;&#31995;&#32479;&#21551;&#21160;&#30340;&#26102;&#20505;&#30001;bootloader
     </p>
     <p>
-      interrupt controller&#33410;&#28857;&#65292;&#24182;&#35843;&#29992;&#25509;&#21475;&#21019;&#24314;irq_domain
+      &#20256;&#36882;&#32473;kernel
     </p>
     <p>
-      2.&#26377;&#20123;interrupt controller&#20250;&#22312;&#20854;driver&#21021;&#22987;&#21270;&#36807;&#31243;&#24403;&#20013;&#21019;&#24314;&#26144;&#23556;
+      2.device tree&#21021;&#22987;&#21270;&#65292;&#24418;&#25104;&#31995;&#32479;&#20869;&#25152;&#26377;&#30340;device node&#30340;&#26641;&#29366;&#32467;&#26500;
+    </p>
+    <p>
+      3.&#22312;machine driver&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;of_irq_init,&#22312;&#35813;&#20989;&#25968;&#24403;&#20013;&#20250;&#25195;&#25551;&#25152;&#26377;&#30340;
+    </p>
+    <p>
+      interrupt controller&#33410;&#28857;&#65292;&#35843;&#29992;controller&#30340;&#39537;&#21160;&#31243;&#24207;&#65292;&#24182;&#35843;&#29992;&#25509;&#21475;&#21019;&#24314;irq_domain
+    </p>
+    <p>
+      4.&#26377;&#20123;interrupt controller&#20250;&#22312;&#20854;driver&#21021;&#22987;&#21270;&#36807;&#31243;&#24403;&#20013;&#21019;&#24314;&#26144;&#23556;
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1462610954252" FOLDED="true" ID="ID_1070434901" MODIFIED="1468809784101">
+<node CREATED="1462610954252" FOLDED="true" ID="ID_1070434901" MODIFIED="1544867467955">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10832,7 +14350,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1462675000594" FOLDED="true" ID="ID_1354714296" MODIFIED="1468245876921" TEXT="GIC&#x7b80;&#x5355;&#x5b66;&#x4e60;">
+<node CREATED="1462675000594" FOLDED="true" ID="ID_1354714296" MODIFIED="1544867466956" TEXT="GIC&#x7b80;&#x5355;&#x5b66;&#x4e60;">
 <node CREATED="1462675030820" ID="ID_826488054" MODIFIED="1462675273901">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10855,9 +14373,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1462675603647" FOLDED="true" ID="ID_587960211" MODIFIED="1468245878999" TEXT="&#x4ee3;&#x7801;&#x5206;&#x6790;">
+<node CREATED="1462675603647" FOLDED="true" ID="ID_587960211" MODIFIED="1544867465787" TEXT="&#x4ee3;&#x7801;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1462692053004" FOLDED="true" ID="ID_411478953" MODIFIED="1468245873590">
+<node CREATED="1462692053004" FOLDED="true" ID="ID_411478953" MODIFIED="1544867464795">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10920,7 +14438,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1462714065291" FOLDED="true" ID="ID_1870903878" MODIFIED="1468245872629">
+<node CREATED="1462714065291" FOLDED="true" ID="ID_1870903878" MODIFIED="1544867463668">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11008,8 +14526,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0000" CREATED="1461079575435" ID="ID_81324376" MODIFIED="1461079623616" TEXT="2440&#x4e2d;&#x65ad;&#x7cfb;&#x7edf;&#x4ee3;&#x7801;&#x5206;&#x6790;">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 <node CREATED="1475917220585" FOLDED="true" ID="ID_1364440222" MODIFIED="1504664635275" POSITION="left">
@@ -13666,9 +17182,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1510281087127" POSITION="right" TEXT="Device Tree">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1544867501547" POSITION="right" TEXT="Device Tree">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" ID="ID_737257459" MODIFIED="1502869325689">
+<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1544867497859">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13685,7 +17201,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477562530567" ID="ID_1185698741" MODIFIED="1477562878961">
+<node CREATED="1477562530567" FOLDED="true" ID="ID_1185698741" MODIFIED="1544867461444">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13702,9 +17218,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1510281116295" ID="ID_1321144553" MODIFIED="1510281131704" TEXT="arm&#x6c47;&#x7f16;&#x542f;&#x52a8;&#x4ee3;&#x7801;head.S&#x5206;&#x6790;">
+<node CREATED="1510281116295" FOLDED="true" ID="ID_1321144553" MODIFIED="1544867460231" TEXT="arm&#x6c47;&#x7f16;&#x542f;&#x52a8;&#x4ee3;&#x7801;head.S&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1510281137672" ID="ID_792455536" MODIFIED="1510283186995">
+<node CREATED="1510281137672" ID="ID_792455536" MODIFIED="1526950026013">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13726,16 +17242,24 @@
       KERNEL_RAM_VADDR &#20869;&#26680;&#23450;&#20041;&#30340;&#34394;&#25311;&#22320;&#22336;&#30340;&#20837;&#21475;&#65292;&#21363; PAGE_OFFSET + TEXT_OFFSET
     </p>
     <p>
+      <font color="#bc0202">&#30456;&#24212;&#30340;&#29289;&#29702;&#22320;&#22336;&#29992;KERNEL_RAM_PADDR&#21464;&#37327;&#25351;&#23450;,&#23450;&#20041;&#20026; </font>
+    </p>
+    <p>
+      <font color="#bc0202">#define KERNEL_RAM_PADDR (PHYS_OFFSET+TXST_OFFSET) </font>
+    </p>
+    <p>
+      <font color="#bc0202">//&#22914;&#23545;s3c2410&#65292;PHYS_OFFSET=0X30000000,&#29289;&#29702;&#22320;&#22336;&#20026;0X30008000</font>
+    </p>
+    <p>
       swapper_pg_dir &#20869;&#26680;&#21018;&#36816;&#34892;&#30340;&#26102;&#20505;&#30340;&#31616;&#26131;&#30340;&#21021;&#22987;&#39029;&#34920;&#30340;&#20301;&#32622;&#65292;&#23450;&#20041;&#20026; KERNEL_RAM_VADDR - PG_DIR_SIZE
     </p>
     <p>
       PG_DIR_SIZE&#20250;&#26681;&#25454;&#26159;&#21542;&#23450;&#20041;&#20102;&#22823;&#20869;&#23384;&#39029;&#34987;&#23450;&#20041;&#25104;0x5000&#25110;&#32773;0x4000<br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1510283664616" ID="ID_1255147973" MODIFIED="1510292384908">
+<node CREATED="1510283664616" FOLDED="true" ID="ID_1255147973" MODIFIED="1544867455820">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13826,9 +17350,8 @@
       bl&#160;&#160;__create_page_tables
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1510285114648" ID="ID_1835962005" MODIFIED="1510292328105">
+</html></richcontent>
+<node CREATED="1510285114648" FOLDED="true" ID="ID_1835962005" MODIFIED="1544867450532">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13838,7 +17361,7 @@
       __create_page_tables:
     </p>
     <p>
-      &#160;&#160;&#160; <b>pgtbl&#160;&#160;&#160;r4, r8&#160; </b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; @ page table address r4&#36820;&#22238;&#29289;&#29702;&#39029;&#34920;&#30340;&#20301;&#32622;
+      &#160;&#160;&#160; <b>pgtbl&#160;&#160;&#160;r4, r8&#160; </b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; @ page table address r4&#36820;&#22238;&#29289;&#29702;&#39029;&#34920;&#30340;&#20301;&#32622;,&#20301;&#20110;&#20869;&#26680;&#20837;&#21475;&#22320;&#22336;&#20197;&#19979;16k&#22788;
     </p>
     <p>
       
@@ -13859,7 +17382,7 @@
       &#160;&#160;&#160;&#160;mov r3, #0
     </p>
     <p>
-      &#160;&#160;&#160;&#160;add r6, r0, #PG_DIR_SIZE
+      &#160;&#160;&#160;&#160;add r6, r0, #PG_DIR_SIZE&#160;&#160; <b>&#28165;&#31354;16k&#22823;&#23567;&#30340;&#39029;&#34920;</b>
     </p>
     <p>
       1:&#160;&#160;str r3, [r0], #4
@@ -13877,10 +17400,97 @@
       &#160;&#160;&#160;&#160;teq r0, r6
     </p>
     <p>
-      &#160;&#160;&#160;&#160;bne 1b&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#28165;&#31354;&#39029;&#34920;
+      &#160;&#160;&#160;&#160;bne 1b&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>&#28165;&#31354;&#39029;&#34920;</b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ldr r7, [r10, #PROCINFO_MM_MMUFLAGS] @ mm_mmuflags
+      &#160;&#160;&#160;<b>&#160;ldr r7, [r10, #PROCINFO_MM_MMUFLAGS] </b>@ mm_mmuflags
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      _<i><font color="#d10909">_arm920_proc_info: </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;0x41009200 </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;0xff00fff0 </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;PMD_TYPE_SECT | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_SECT_BUFFERABLE | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_SECT_CACHEABLE | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_BIT4 | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_SECT_AP_WRITE | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_SECT_AP_READ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;PMD_TYPE_SECT | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_BIT4 | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_SECT_AP_WRITE | \ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PMD_SECT_AP_READ </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;initfn&#160;&#160;__arm920_setup, __arm920_proc_info </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;cpu_arch_name </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;cpu_elf_name </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;HWCAP_SWP | HWCAP_HALF | HWCAP_THUMB </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;cpu_arm920_name </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;arm920_processor_functions </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;v4wbi_tlb_fns </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;v4wb_user_fns </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">#ifndef CONFIG_CPU_DCACHE_WRITETHROUGH </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;arm920_cache_fns </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">#else </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.long&#160;&#160;&#160;v4wt_cache_fns </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">#endif </font></i>
+    </p>
+    <p>
+      <i><font color="#d10909">&#160;&#160;&#160;&#160;.size&#160;&#160;&#160;__arm920_proc_info, . - __arm920_proc_info </font></i>
+    </p>
+    <p>
+      
     </p>
     <p>
       
@@ -13898,43 +17508,43 @@
       &#160;&#160;&#160;&#160;&#160;*/
     </p>
     <p>
-      &#160;&#160;&#160;&#160;adr r0, __turn_mmu_on_loc
+      &#160;&#160;&#160;&#160;<b>adr r0, __turn_mmu_on_loc </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ldmia&#160;&#160;&#160;r0, {r3, r5, r6}
+      <b>&#160;&#160;&#160;&#160;ldmia&#160;&#160;&#160;r0, {r3, r5, r6} </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;sub r0, r0, r3&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ virt-&gt;phys offset
+      <b>&#160;&#160;&#160;&#160;sub r0, r0, r3&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ virt-&gt;phys offset </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;add r5, r5, r0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ phys __turn_mmu_on
+      <b>&#160;&#160;&#160;&#160;add r5, r5, r0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ phys __turn_mmu_on &#33719;&#24471;__turn_mmu_on&#30340;&#29289;&#29702;&#22320;&#22336; </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;add r6, r6, r0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ phys __turn_mmu_on_end
+      <b>&#160;&#160;&#160;&#160;add r6, r6, r0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ phys __turn_mmu_on_end&#160; </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;mov r5, r5, lsr #SECTION_SHIFT
+      <b>&#160;&#160;&#160;&#160;mov r5, r5, lsr #SECTION_SHIFT </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;mov r6, r6, lsr #SECTION_SHIFT
+      <b>&#160;&#160;&#160;&#160;mov r6, r6, lsr #SECTION_SHIFT </b>
     </p>
     <p>
       
     </p>
     <p>
-      1:&#160;&#160;orr r3, r7, r5, lsl #SECTION_SHIFT&#160;&#160;@ flags + kernel base
+      <b>1:&#160;&#160;orr r3, r7, r5, lsl #SECTION_SHIFT&#160;&#160;@ flags + kernel base </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;str r3, [r4, r5, lsl #PMD_ORDER]&#160;&#160;&#160;&#160;@ identity mapping
+      <b>&#160;&#160;&#160;&#160;str r3, [r4, r5, lsl #PMD_ORDER]&#160;&#160;&#160;&#160;@ identity mapping </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;cmp r5, r6
+      <b>&#160;&#160;&#160;&#160;cmp r5, r6 </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;addlo&#160;&#160;&#160;r5, r5, #1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ next section
+      <b>&#160;&#160;&#160;&#160;addlo&#160;&#160;&#160;r5, r5, #1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@ next section </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;blo 1b
+      <b>&#160;&#160;&#160;&#160;blo 1b&#160; &#20026;mmu_on&#20989;&#25968;&#24314;&#31435;&#34394;&#25311;&#22320;&#22336;&#21040;&#29289;&#29702;&#22320;&#22336;&#30340;&#26144;&#23556;&#65292;&#27880;&#24847;&#36825;&#37324;&#30340;&#34394;&#25311;&#22320;&#22336;&#20854;&#23454;&#36319;&#29289;&#29702;&#22320;&#22336;&#26159;&#19968;&#26679;&#30340;&#65292;&#25152;&#20197;&#24314;&#31435;&#26144;&#23556;&#34920;&#30340;&#26102;&#20505;&#20570;&#20102;&#29305;&#27530;&#30340;&#22788;&#29702;</b>
     </p>
     <p>
       
@@ -13949,40 +17559,51 @@
       &#160;&#160;&#160;&#160;&#160;*/
     </p>
     <p>
-      &#160;&#160;&#160;&#160;add r0, r4, #PAGE_OFFSET &gt;&gt; (SECTION_SHIFT - PMD_ORDER)
+      &#160;&#160;&#160;&#160;<b>add r0, r4, #PAGE_OFFSET &gt;&gt; (SECTION_SHIFT - PMD_ORDER) </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ldr r6, =(_end - 1)
+      <b>&#160;&#160;&#160;&#160;ldr r6, =(_end - 1) </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;orr r3, r8, r7
+      <b>&#160;&#160;&#160;&#160;orr r3, r8, r7 </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;add r6, r4, r6, lsr #(SECTION_SHIFT - PMD_ORDER)
+      <b>&#160;&#160;&#160;&#160;add r6, r4, r6, lsr #(SECTION_SHIFT - PMD_ORDER) </b>
     </p>
     <p>
-      1:&#160;&#160;str r3, [r0], #1 &lt;&lt; PMD_ORDER
+      <b>1:&#160;&#160;str r3, [r0], #1 &lt;&lt; PMD_ORDER </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;add r3, r3, #1 &lt;&lt; SECTION_SHIFT
+      <b>&#160;&#160;&#160;&#160;add r3, r3, #1 &lt;&lt; SECTION_SHIFT </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;cmp r0, r6
+      <b>&#160;&#160;&#160;&#160;cmp r0, r6 </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;bls 1b
+      <b>&#160;&#160;&#160;&#160;bls 1b </b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;ret lr
+      <b>&#160;&#160;&#160;&#160;ret lr&#160;&#160;&#160;&#20026;&#20869;&#26680;&#30340;&#38236;&#20687;&#24314;&#31435;&#34394;&#25311;&#22320;&#22336;&#21040;&#29289;&#29702;&#22320;&#22336;&#30340;&#26144;&#23556;&#34920;&#39033;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1526951993336" ID="ID_1918552697" MODIFIED="1526952013823">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#19968;&#19979;&#32593;&#22336;http://www.eetop.cn/blog/html/92/23692-22737.html
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1477562929718" ID="ID_1744590774" MODIFIED="1502271600067">
+</node>
+<node CREATED="1477562929718" FOLDED="true" ID="ID_1744590774" MODIFIED="1544867439077">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14005,7 +17626,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477566851078" ID="ID_788490843" MODIFIED="1490085743092">
+<node CREATED="1477566851078" FOLDED="true" ID="ID_788490843" MODIFIED="1544867437940">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14022,7 +17643,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477571268884" ID="ID_692268297" MODIFIED="1490085790289">
+<node CREATED="1477571268884" FOLDED="true" ID="ID_692268297" MODIFIED="1544867433733">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14082,7 +17703,7 @@
   </body>
 </html></richcontent>
 <linktarget COLOR="#e30707" DESTINATION="ID_692268297" ENDARROW="Default" ENDINCLINATION="450;0;" ID="Arrow_ID_1021825940" SOURCE="ID_464431570" STARTARROW="None" STARTINCLINATION="450;0;"/>
-<node CREATED="1477633886966" ID="ID_116811326" MODIFIED="1490085792017">
+<node CREATED="1477633886966" FOLDED="true" ID="ID_116811326" MODIFIED="1544867432244">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14093,7 +17714,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477633925331" ID="ID_129454721" MODIFIED="1490085793879">
+<node CREATED="1477633925331" FOLDED="true" ID="ID_129454721" MODIFIED="1544867431173">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14113,7 +17734,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477634043546" ID="ID_916596600" MODIFIED="1490085797729">
+<node CREATED="1477634043546" FOLDED="true" ID="ID_916596600" MODIFIED="1544867428494">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14163,7 +17784,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1478504550499" ID="ID_494599611" MODIFIED="1478505672254">
+<node CREATED="1478504550499" FOLDED="true" ID="ID_494599611" MODIFIED="1544867427269">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14224,13 +17845,720 @@
       rc = of_address_to_resource(np, i, res);
     </p>
     <p>
-      of_irq_to_resource_table(np, res, num_irq)
+      <b><font color="#2014e9">of_irq_to_resource_table(np, res, num_irq)&#160; &#22312;&#20998;&#26512;irq&#30340;&#26102;&#20505;&#23601;&#24050;&#32463;&#23558;hwirq&#21644;virq&#30340;&#20851;&#31995;&#26144;&#23556;&#22909;&#24182;&#23384;&#20648;&#22312;irq domain&#37324;&#38754; </font></b>
+    </p>
+    <p>
+      &#19988;&#24050;&#32463;&#29983;&#25104;&#20102;irq_desc
     </p>
     <p>
       &#29983;&#25104;reg&#21644;irq&#30340;&#36164;&#28304;resource&#65292;&#25918;&#32622;&#21040;dev-&gt;resource&#25351;&#38024;&#24403;&#20013;
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1527390042697" FOLDED="true" ID="ID_562202546" MODIFIED="1544867424044">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>int of_irq_to_resource_table(struct device_node *dev, struct resource *res, </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int nr_irqs)</b>
+    </p>
+    <p>
+      <b>{</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int i;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (i = 0; i &lt; nr_irqs; i++, res++)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (!of_irq_to_resource(dev, i, res))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return i;
+    </p>
+    <p>
+      <b>}</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#23558;&#20855;&#20307;&#30340;&#22788;&#29702;&#36807;&#31243;&#25945;&#32473;of_irq_to_resource&#20989;&#25968;&#36827;&#34892;&#22788;&#29702;&#65292;
+    </p>
+    <p>
+      &#19979;&#38754;&#30475;&#19968;&#19979;&#35813;&#20989;&#25968;&#30340;&#25191;&#34892;&#36923;&#36753;
+    </p>
+    <p>
+      <b><font color="#df0808">int of_irq_to_resource(struct device_node *dev, int index, struct resource *r)</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527390446136" FOLDED="true" ID="ID_722230684" MODIFIED="1544867422916">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      int irq = irq_of_parse_and_map(dev, index);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#38024;&#23545;&#31532;index&#20010;hw&#20013;&#26029;&#65292;&#23558;&#20854;&#36716;&#25442;&#25104;virq&#36820;&#22238;&#65292;&#20063;&#21363;&#23436;&#25104;&#20102;
+    </p>
+    <p>
+      &#19968;&#27425;&#26144;&#23556;&#30340;&#36807;&#31243;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527391607313" ID="ID_1864739719" MODIFIED="1527391776777">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct of_phandle_args oirq;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct of_phandle_args {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct device_node *np;&#160;&#160;&#29992;&#20110;&#23384;&#25918;&#22788;&#29702;&#35813;&#20013;&#26029;&#30340;&#20013;&#26029;&#25511;&#21046;&#22120;&#30340;&#33410;&#28857;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int args_count;&#160;&#160;&#23601;&#26159;#interrupt-cells&#30340;&#20540;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t args[MAX_PHANDLE_ARGS];&#160;&#160;&#29992;&#20110;&#23384;&#25918;&#20855;&#20307;&#25551;&#36848;&#26576;&#19968;&#20010;&#20013;&#26029;&#30340;&#21442;&#25968;&#30340;&#20540;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527391798464" ID="ID_1413321011" MODIFIED="1527391803141" TEXT="of_irq_parse_one(dev, index, &amp;oirq)"/>
+<node CREATED="1527391815264" FOLDED="true" ID="ID_670703921" MODIFIED="1544867421693">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      irq_create_of_mapping(&amp;oirq);
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527391917863" ID="ID_1033440399" MODIFIED="1527391979600">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct irq_fwspec fwspec;
+    </p>
+    <p>
+      of_phandle_args_to_fwspec(irq_data, &amp;fwspec);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;irq_data&#65292;&#21363;of_phandle_args&#37324;&#38754;&#30340;&#21442;&#25968;&#36716;&#23384;&#21040;fwspec&#24403;&#20013;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527392033982" FOLDED="true" ID="ID_1255997388" MODIFIED="1544867418461">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>return irq_create_fwspec_mapping(&amp;fwspec);</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#c30606">struct irq_fwspec { </font>
+    </p>
+    <p>
+      <font color="#c30606">&#160;&#160;&#160;&#160;struct fwnode_handle *fwnode; </font>
+    </p>
+    <p>
+      <font color="#c30606">&#160;&#160;&#160;&#160;int param_count; </font>
+    </p>
+    <p>
+      <font color="#c30606">&#160;&#160;&#160;&#160;u32 param[IRQ_DOMAIN_IRQ_SPEC_PARAMS]; </font>
+    </p>
+    <p>
+      <font color="#c30606">};</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527394085113" ID="ID_1580496762" MODIFIED="1527394244329">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (fwspec-&gt;fwnode)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;domain = irq_find_matching_fwnode(fwspec-&gt;fwnode, DOMAIN_BUS_ANY);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;domain = irq_default_domain;
+    </p>
+    <p>
+      &#23547;&#25214;&#21305;&#37197;&#30340;irq domain, &#25105;&#20204;&#30693;&#36947;&#22312;gic&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#27880;&#20876;&#20102;irq domain
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#da1919" DESTINATION="ID_1021508160" ENDARROW="Default" ENDINCLINATION="2457;0;" ID="Arrow_ID_887632958" STARTARROW="None" STARTINCLINATION="-303;-86;"/>
+</node>
+<node CREATED="1527394539557" FOLDED="true" ID="ID_155513541" MODIFIED="1544867416428">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      irq_domain_translate(domain, fwspec, &amp;hwirq, &amp;type)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527394878758" ID="ID_451792578" MODIFIED="1527410964250">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #ifdef CONFIG_IRQ_DOMAIN_HIERARCHY
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (d-&gt;ops-&gt;translate)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return d-&gt;ops-&gt;translate(d, fwspec, hwirq, type);
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (d-&gt;ops-&gt;xlate)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return d-&gt;ops-&gt;xlate(d, to_of_node(fwspec-&gt;fwnode),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fwspec-&gt;param, fwspec-&gt;param_count,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hwirq, type);
+    </p>
+    <p>
+      &#30475;&#19968;&#19979;gic&#23545;&#24212;&#30340;irq domain&#37324;&#38754;&#30340;ops&#30340;&#23450;&#20041;:
+    </p>
+    <p>
+      static const <b>struct irq_domain_ops gic_irq_domain_hierarchy_ops</b>&#160;=<b>&#160; {</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.translate = gic_irq_domain_translate,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.alloc = gic_irq_domain_alloc,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.free = irq_domain_free_irqs_top,
+    </p>
+    <p>
+      <b>}; </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#e40b0b">translate&#30340;&#30446;&#30340;&#26159;&#26681;&#25454;&#20855;&#20307;&#30340;&#23450;&#20041;&#23558;&#26576;&#20010;device&#23450;&#20041;&#30340;&#20013;&#26029;&#30340;hw irq number&#21644;&#20013;&#26029;&#31867;&#22411;&#32473;&#32763;&#35793;&#20986;&#26469;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1527411125344" FOLDED="true" ID="ID_409779998" MODIFIED="1544867414757">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>if (irq_domain_is_hierarchy(domain)) {</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* If we've already configured this interrupt,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* don't do it again, or hell will break loose.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;virq = irq_find_mapping(domain, hwirq);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (virq)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return virq;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;virq = irq_domain_alloc_irqs(domain, 1, NUMA_NO_NODE, fwspec);&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (virq &lt;= 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 0;
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;} else { </b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Create mapping */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;virq = irq_create_mapping(domain, hwirq);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (!virq)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return virq;
+    </p>
+    <p>
+      &#160;&#160;&#160; <b>}</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527411332728" ID="ID_697599536" MODIFIED="1527411413280">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      virq = irq_find_mapping(domain, hwirq);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (virq)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return virq;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20808;&#26159;&#21033;&#29992;hwirq&#20316;&#20026;&#32034;&#24341;&#21040;domain&#30340;&#32447;&#24615;&#26144;&#23556;&#34920;&#37324;&#38754;&#26597;&#25214;&#23545;&#24212;&#30340;virq,
+    </p>
+    <p>
+      &#22914;&#26524;&#36820;&#22238;&#30340;&#26159;0,&#35828;&#26126;&#35813;hwirq&#27809;&#26377;&#20570;&#36807;&#26144;&#23556;&#65292;&#32487;&#32493;&#36827;&#34892;&#19979;&#19968;&#27493;&#22788;&#29702;&#65292;
+    </p>
+    <p>
+      &#21542;&#21017;&#23601;&#30452;&#25509;&#36820;&#22238;&#35813;virq.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527411431319" FOLDED="true" ID="ID_110680569" MODIFIED="1544867410406">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#dd0606">virq = irq_domain_alloc_irqs(domain, 1, NUMA_NO_NODE, fwspec);</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#2912ed">static inline int irq_domain_alloc_irqs(struct irq_domain *domain, </font></i>
+    </p>
+    <p>
+      <i><font color="#2912ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int nr_irqs, int node, void *arg) </font></i>
+    </p>
+    <p>
+      <i><font color="#2912ed">{&#160;&#160; </font></i>
+    </p>
+    <p>
+      <i><font color="#2912ed">&#160;&#160;&#160;&#160;return __irq_domain_alloc_irqs(domain, -1, nr_irqs, node, arg, false); </font></i>
+    </p>
+    <p>
+      <i><font color="#2912ed">} </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#161b13"><b>int __irq_domain_alloc_irqs(struct irq_domain *domain, int irq_base, </b></font>
+    </p>
+    <p>
+      <font color="#161b13"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int nr_irqs, int node, void *arg, </b></font>
+    </p>
+    <p>
+      <font color="#161b13"><b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool realloc)</b></font>
+    </p>
+    <p>
+      <b>&#37325;&#28857;&#20998;&#26512;&#19968;&#19979;&#20989;&#25968;__irq_domain_alloc_irqs</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527411965790" FOLDED="true" ID="ID_1301998201" MODIFIED="1544867407573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>virq = irq_domain_alloc_descs(irq_base, nr_irqs, 0, node);</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30475;&#19968;&#19979;&#35813;&#20989;&#25968;&#30340;&#23450;&#20041;:
+    </p>
+    <p>
+      static int irq_domain_alloc_descs(int virq, unsigned int cnt,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_hw_number_t hwirq, int node)
+    </p>
+    <p>
+      &#36825;&#37324;&#20256;&#36882;&#36827;&#26469;&#30340;&#21442;&#25968;virq&#26159;-1
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#39318;&#20808;&#35745;&#31639;&#27714;virq&#38656;&#35201;&#30340;hint&#20540;
+    </p>
+    <p>
+      hint = hwirq % nr_irqs;&#160;&#160;&#30001;&#20110;&#20256;&#36882;&#36827;&#26469;&#30340;hwirq&#26159;0,&#25152;&#20197;hint&#20540;&#20063;&#26159;0
+    </p>
+    <p>
+      &#20854;&#27425;&#35745;&#31639;virq&#20540;&#65306; <b>virq = irq_alloc_descs_from(hint, cnt, node);</b>
+    </p>
+    <p>
+      &#26368;&#21518;&#36820;&#22238;virq&#20540;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30475;&#30475;irq_alloc_descs_from&#30340;&#23450;&#20041;&#65306;
+    </p>
+    <p>
+      #define irq_alloc_descs_from(from, cnt, node)&#160;&#160;irq_alloc_descs(-1, from, cnt, node)
+    </p>
+    <p>
+      #define irq_alloc_descs(irq, from, cnt, node)&#160;&#160;&#160;&#160;&#160;__irq_alloc_descs(irq, from, cnt, node, THIS_MODULE)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#19979;&#38754;&#20998;&#26512;&#19968;&#19979;&#20989;&#25968; &#160;__irq_alloc_descs</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527425092605" ID="ID_473845698" MODIFIED="1527425224302">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      start = bitmap_find_next_zero_area(allocated_irqs, IRQ_BITMAP_BITS,&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;from, cnt, 0);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20174;&#20840;&#23616;&#21464;&#37327;allocated_irqs&#37324;&#38754;&#25214;&#36824;&#27809;&#26377;&#20351;&#29992;&#30340;&#37027;&#20010;bit&#26368;&#20026;virq,&#36820;&#22238;&#20540;&#26159;start
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527425227723" FOLDED="true" ID="ID_731074720" MODIFIED="1544867406165">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      alloc_descs(start, cnt, node, owner)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20998;&#37197;&#19968;&#20010;irq_desc, &#20998;&#37197;&#30340;virq&#21363;start&#20540;&#20250;&#25918;&#32622;&#21040;irq_desc&#37324;&#38754;&#30340;irq_data.irq&#20013;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527425370338" ID="ID_644120596" MODIFIED="1527425695202">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#d41717">desc = alloc_desc(start + i, node, owner); </font></b>
+    </p>
+    <p>
+      <b><font color="#d41717">irq_insert_desc(start + i, desc);</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      irq_insert_desc&#20250;&#23558;&#26032;&#20998;&#37197;&#30340;irq_desc&#25554;&#20837;&#21040;radix tree&#37324;&#38754;:
+    </p>
+    <p>
+      static void irq_insert_desc(unsigned int irq, struct irq_desc *desc)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;radix_tree_insert(&amp;irq_desc_tree, irq, desc);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1527425863295" ID="ID_1276924023" MODIFIED="1527435209552">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>irq_domain_alloc_irq_data(domain, virq, nr_irqs) </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#eb1414">&#26681;&#25454;virq&#33719;&#24471;&#23545;&#24212;&#30340;irq_desc&#65292;&#28982;&#21518;&#23558;domain&#36171;&#20540;&#32473;irq_desc-&gt;irq_data-&gt;domain</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527425892815" FOLDED="true" ID="ID_1125790496" MODIFIED="1544867408700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#2910f1">ret = irq_domain_alloc_irqs_recursive(domain, virq, nr_irqs, arg); </font></i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#f31927">&#36825;&#20010;&#20989;&#25968;&#20250;&#35843;&#29992;gic irq domain&#30340;domain-&gt;ops-&gt;alloc&#65292;&#21363;gic_irq_domain_alloc</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527436344554" FOLDED="true" ID="ID_1793058367" MODIFIED="1544867404605">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ea0c0c">&#20998;&#26512;&#19968;&#19979;&#20989;&#25968;:</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>static int gic_irq_domain_alloc(</b>struct irq_domain *domain, unsigned int virq,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int nr_irqs, void *arg<b>)</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527436564363" ID="ID_1340403668" MODIFIED="1527436930108">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      unsigned int type = IRQ_TYPE_NONE;
+    </p>
+    <p>
+      struct irq_fwspec *fwspec = arg;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527436955003" ID="ID_1654939506" MODIFIED="1527437165942">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>gic_irq_domain_translate(domain, fwspec, &amp;hwirq, &amp;type);</b>
+    </p>
+    <p>
+      <font color="#e00e0e"><i>&#35813;&#20989;&#25968;&#23601;&#26159;&#21033;&#29992;fwspec&#21363;&#35774;&#22791;&#26641;&#33410;&#28857;&#30340;&#20449;&#24687;&#65292;&#23558;&#24403;&#21069;&#35774;&#22791;&#30340;hwirq&#21644;&#23545;&#24212; </i></font>
+    </p>
+    <p>
+      <font color="#e00e0e"><i>&#30340;&#20013;&#26029;&#30340;&#20986;&#21457;&#26041;&#24335;&#32473;&#20998;&#26512;&#20986;&#26469;&#12290;</i></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527437196531" ID="ID_1554333839" MODIFIED="1527437455244">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; nr_irqs; i++)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gic_irq_domain_map(domain, virq + i, hwirq + i);&#160;&#160; &#35813;&#20989;&#25968;&#30340;&#20855;&#20307;&#32454;&#33410;&#26377;&#31354;&#20998;&#26512;&#65292;&#20027;&#35201;&#20570;&#22914;&#19979;&#20869;&#23481;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26681;&#25454;virq&#25214;&#21040;&#23545;&#24212;&#30340;irq_desc&#65292;&#23558;hwirq&#23384;&#25918;&#21040;irq_desc&#30340;irq_data.hwirq&#20013;
+    </p>
+    <p>
+      &#23558;irq chip&#23384;&#25918;&#21040;irq_desc&#30340;irq_data.chip&#20013;
+    </p>
+    <p>
+      &#23545;&#20110;PPI&#31867;&#22411;&#30340;&#20013;&#26029;&#65288;hwirq&lt;32&#65289;&#65292;&#23558;irq_desc&#30340;handle_irq&#35774;&#32622;&#20026;handle_percpu_devid_irq
+    </p>
+    <p>
+      &#23545;&#20110;SPI&#31867;&#22411;&#30340;&#20013;&#26029;&#65292;&#23558;irq_desc&#30340;handle_irq&#35774;&#32622;&#20026;handle_fasteoi_irq
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1527425930857" ID="ID_1617007979" MODIFIED="1527435043945">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>for (i = 0; i &lt; nr_irqs; i++) </b>
+    </p>
+    <p>
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;irq_domain_insert_irq(virq + i); </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;hwirq&#21644;virq&#30340;&#26144;&#23556;&#20851;&#31995;&#23384;&#25918;&#21040;irq_domain&#24403;&#20013;&#65292;&#36825;&#26679;&#22312;&#38656;&#35201;&#30340;&#26102;&#20505;&#23601;&#21487;&#20197;
+    </p>
+    <p>
+      &#26681;&#25454;virq&#25214;&#21040;hwirq
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1527390532583" ID="ID_38128940" MODIFIED="1527390569416">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23558;&#33719;&#21462;&#30340;virq&#23553;&#35013;&#21040;resource&#32467;&#26500;&#20307;&#24403;&#20013;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      r-&gt;start = r-&gt;end = irq;
+    </p>
+    <p>
+      r-&gt;flags = IORESOURCE_IRQ | irqd_get_trigger_type(irq_get_irq_data(irq));
+    </p>
+    <p>
+      r-&gt;name = name ? name : of_node_full_name(dev);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1478500026300" ID="ID_952265035" MODIFIED="1478500107403">
@@ -14307,7 +18635,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1477572744234" ID="ID_39425452" MODIFIED="1486555598930">
+<node CREATED="1477572744234" FOLDED="true" ID="ID_39425452" MODIFIED="1544867441548">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14321,7 +18649,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477573129745" ID="ID_1218217887" MODIFIED="1490085806988">
+<node CREATED="1477573129745" FOLDED="true" ID="ID_1218217887" MODIFIED="1544867440508">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14417,7 +18745,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477640364241" ID="ID_706701660" MODIFIED="1502940830874">
+<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1526954160947">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14428,7 +18756,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477640390721" ID="ID_335979122" MODIFIED="1477640664657">
+<node CREATED="1477640390721" FOLDED="true" ID="ID_335979122" MODIFIED="1526952760681">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14507,7 +18835,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1490085626105" ID="ID_136194061" MODIFIED="1502869143497" TEXT="&#x5185;&#x6838;&#x6587;&#x6863;interrupts.txt&#x9605;&#x8bfb;">
+<node CREATED="1490085626105" FOLDED="true" ID="ID_136194061" MODIFIED="1526974310119" TEXT="&#x5185;&#x6838;&#x6587;&#x6863;interrupts.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490086793556" ID="ID_700313303" MODIFIED="1490088085359">
 <richcontent TYPE="NODE"><html>
@@ -14554,7 +18882,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490088088985" ID="ID_1548402338" MODIFIED="1502869149361">
+<node CREATED="1490088088985" FOLDED="true" ID="ID_1548402338" MODIFIED="1526974307475">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14666,7 +18994,7 @@
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1494669711417" FOLDED="true" ID="ID_1554517447" MODIFIED="1499823363332" POSITION="right">
+<node CREATED="1494669711417" FOLDED="true" ID="ID_1554517447" MODIFIED="1524644160784" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15019,9 +19347,9 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1507710894174" ID="ID_1625658650" MODIFIED="1507710907095" POSITION="right" TEXT="Linux&#x5185;&#x6838;&#x540c;&#x6b65;&#x673a;&#x5236;">
+<node CREATED="1507710894174" FOLDED="true" ID="ID_1625658650" MODIFIED="1525416993090" POSITION="right" TEXT="Linux&#x5185;&#x6838;&#x540c;&#x6b65;&#x673a;&#x5236;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1507710929974" ID="ID_1048425563" MODIFIED="1507723493194">
+<node CREATED="1507710929974" FOLDED="true" ID="ID_1048425563" MODIFIED="1525416991245">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15066,7 +19394,35 @@
 </node>
 </node>
 </node>
-<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1510224624187" POSITION="right">
+<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1526948493223" POSITION="right" TEXT="Linux&#x5185;&#x5b58;&#x7ba1;&#x7406;&#x5b50;&#x7cfb;&#x7edf;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1525417048563" FOLDED="true" ID="ID_1100947911" MODIFIED="1526948491727" TEXT="linux vm&#x8fd0;&#x884c;&#x53c2;&#x6570;">
+<node CREATED="1525417063873" FOLDED="true" ID="ID_1881762748" MODIFIED="1526948490455" TEXT="oom">
+<node CREATED="1525417077331" ID="ID_1584542646" MODIFIED="1525417190248">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      panic_on_oom&#21442;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#21442;&#25968;&#29992;&#26469;&#25511;&#21046;&#24403;kernel&#36935;&#21040;oom&#30340;&#26102;&#20505;&#22914;&#20309;&#22788;&#32622;&#65292;
+    </p>
+    <p>
+      &#26159;&#36873;&#25321;&#30452;&#25509;panic&#36824;&#26159;&#21551;&#21160;oom_killer&#26432;&#27515;&#30456;&#20851;&#30340;&#36827;&#31243;&#37322;&#25918;&#20869;&#23384;&#31354;&#38388;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1544867505258" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15078,7 +19434,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1504508011275" FOLDED="true" ID="ID_1976280137" MODIFIED="1510224623075" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x641c;&#x96c6;&#x7684;&#x535a;&#x5ba2;">
+<node CREATED="1504508011275" FOLDED="true" ID="ID_1976280137" MODIFIED="1527837306792" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x641c;&#x96c6;&#x7684;&#x535a;&#x5ba2;">
 <node CREATED="1504508026131" ID="ID_20057698" MODIFIED="1504508033181">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15092,7 +19448,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1505822974956" FOLDED="true" ID="ID_1958034353" MODIFIED="1510224619794" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x5f00;&#x6e90;&#x9879;&#x76ee;">
+<node CREATED="1505822974956" FOLDED="true" ID="ID_1958034353" MODIFIED="1527837303240" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x7684;&#x5f00;&#x6e90;&#x9879;&#x76ee;">
 <node CREATED="1505822992572" ID="ID_165995557" MODIFIED="1505823062565">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15104,6 +19460,331 @@
     </p>
     <p>
       <font color="#e91212">http://www.linuxep.com</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1527837313409" FOLDED="true" ID="ID_1738693135" MODIFIED="1528421620557" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Linux kernel&#30340;&#19968;&#20123;&#21464;&#21270;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527837344361" ID="ID_998841584" MODIFIED="1527929880892">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;linux 4.1&#29256;&#26412;&#20043;&#21518;&#20869;&#26680;&#25991;&#20214;&#31995;&#32479;&#30340;&#25509;&#21475; aio_read&#21644;aio_write&#23601;&#34987;&#21435;&#25481;&#20102;&#65292;
+    </p>
+    <p>
+      &#21462;&#32780;&#20195;&#20043;&#30340;&#26159;iov_iter interface, &#25105;&#20204;&#30475;&#21040;&#22312;struct file_operations&#26377;&#36825;&#26679;&#20004;&#20010;
+    </p>
+    <p>
+      &#20989;&#25968;&#25509;&#21475;
+    </p>
+    <p>
+      ssize_t (*read_iter) (struct kiocb *, struct iov_iter *);
+    </p>
+    <p>
+      ssize_t (*write_iter) (struct kiocb *, struct iov_iter *);
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#1326ee" DESTINATION="ID_998841584" ENDARROW="Default" ENDINCLINATION="-338;-106;" ID="Arrow_ID_1616113988" SOURCE="ID_920713861" STARTARROW="None" STARTINCLINATION="628;0;"/>
+<node CREATED="1527843860675" ID="ID_750229072" MODIFIED="1527844138373">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iov_iter&#24182;&#19981;&#26159;&#20160;&#20040;&#26032;&#40092;&#30340;&#27010;&#24565;&#65292;&#26089;&#22312;linux2.6.24&#20869;&#26680;&#26102;&#26399;&#23601;&#34987;&#21152;&#20837;&#21040;&#20869;&#26680;&#24403;&#20013;&#20102;&#12290;
+    </p>
+    <p>
+      &#22312;3.19&#29256;&#26412;&#24403;&#20013;&#65292;iov_iter&#34987;merge&#21040;&#20102;&#32593;&#32476;&#23376;&#31995;&#32479;&#24403;&#20013;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527856981947" ID="ID_10198765" MODIFIED="1527860899321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iov_iter&#32467;&#26500;&#20307;&#23454;&#38469;&#19978;&#26159;&#19968;&#20010;&#36845;&#20195;&#22120;&#65292;&#29992;&#26469;&#36941;&#21382;iovec&#36825;&#20010;&#32467;&#26500;&#20307;&#30340;
+    </p>
+    <p>
+      struct iovec
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;void __user *iov_base;
+    </p>
+    <p>
+      &#160;&#160;&#160;__kernel_size_t iov_len;
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      &#36825;&#20010;&#32467;&#26500;&#20307;&#23545;&#24212;&#29992;&#25143;&#31354;&#38388;&#30340;iovec&#32467;&#26500;&#20307;&#65292;&#24182;&#19988;&#29992;&#22312;&#22914;readv()&#36825;&#26679;&#30340;&#31995;&#32479;&#35843;&#29992;&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#19968;&#20010;iovec&#32467;&#26500;&#20307;&#25551;&#36848;&#20102;&#20998;&#24067;&#22312;&#34394;&#25311;&#20869;&#23384;&#21644;&#29289;&#29702;&#20869;&#23384;&#24403;&#20013;&#30340;buffer&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct iov_iter {
+    </p>
+    <p>
+      &#160;&#160;&#160;int type;
+    </p>
+    <p>
+      &#160;&#160;&#160;size_t iov_offset;
+    </p>
+    <p>
+      &#160;&#160;&#160;size_t count;
+    </p>
+    <p>
+      &#160;&#160;&#160;const struct iovec *iov; /* SIMPLIFIED - see below */
+    </p>
+    <p>
+      &#160;&#160;&#160;unsigned long nr_segs;
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      type&#23383;&#27573;&#25551;&#36848;&#35813;iterator&#26159;&#23646;&#20110;&#35835;&#36824;&#26159;&#20889;&#31867;&#22411;&#65292;&#35835;&#30340;&#35805;&#23601;&#26159;&#20174;iov_iter&#24448;&#22806;&#21457;&#36865;&#25968;&#25454;&#65292;
+    </p>
+    <p>
+      &#20889;&#23601;&#26159;&#20174;&#22806;&#38754;&#24448;&#35813;iov_iter&#37324;&#38754;&#23384;&#20648;&#25968;&#25454;&#12290;
+    </p>
+    <p>
+      iov_offset&#34920;&#31034;&#31532;&#19968;&#20010;iovec&#25351;&#38024;&#37324;&#38754;&#30340;&#25968;&#25454;&#20559;&#31227;
+    </p>
+    <p>
+      count&#34920;&#31034;&#25152;&#26377;&#30340;&#25968;&#25454;&#24635;&#37327;
+    </p>
+    <p>
+      nr_segs &#34920;&#31034;&#30001;iov&#25351;&#21521;&#30340;&#25968;&#32452;&#37324;&#38754;&#30340;iovec&#30340;&#20803;&#32032;&#20010;&#25968;
+    </p>
+    <p>
+      &#27880;&#24847;&#65292;&#35813;&#32467;&#26500;&#20307;&#37324;&#38754;&#30340;&#22823;&#37096;&#20998;&#21464;&#37327;&#20250;&#38543;&#30528;&#20195;&#30721;&#30340;&#36845;&#20195;&#32780;&#34987;&#20462;&#25913;&#65292;&#22240;&#20026;&#35813;&#32467;&#26500;&#20307;&#21482;&#26159;&#25351;&#21521;buffer&#30340;&#28216;&#26631;&#25351;&#38024;&#32780;&#24050;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527862189267" ID="ID_1287288842" MODIFIED="1527865876753">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#20351;&#29992;&#20043;&#21069;&#24517;&#39035;&#21021;&#22987;&#21270;iov_iter,&#21253;&#21547;iovec
+    </p>
+    <p>
+      void iov_iter_init(struct iov_iter *i, int direction,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct iovec *iov, unsigned long nr_segs,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;size_t count)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25968;&#25454;&#21487;&#20197;&#22312;iterator&#21644;&#29992;&#25143;&#31354;&#38388;&#20043;&#38388;&#31227;&#21160;
+    </p>
+    <p>
+      size_t copy_to_iter(void *addr, size_t bytes, struct iov_iter *i);&#160;&#160;&#160; this is like copy to user
+    </p>
+    <p>
+      size_t copy_from_iter(void *addr, size_t bytes, struct iov_iter *i);&#160;&#160;this is like copy from user
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25968;&#25454;&#22312;&#19968;&#20010;page&#20043;&#38388;&#36716;&#31227;
+    </p>
+    <p>
+      size_t copy_page_to_iter(struct page *page, size_t offset, size_t bytes,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;struct iov_iter *i);
+    </p>
+    <p>
+      size_t copy_page_from_iter(struct page *page, size_t offset, size_t bytes,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;struct iov_iter *i);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36816;&#34892;&#22312;&#21407;&#23376;&#19978;&#19979;&#25991;&#24403;&#20013;&#30340;&#20195;&#30721;&#33719;&#21462;&#29992;&#25143;&#31354;&#38388;&#25968;&#25454;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      size_t iov_iter_copy_from_user_atomic(struct page *page, struct iov_iter *i,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;unsigned long offset, size_t bytes);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;&#29992;&#25143;&#31354;&#38388;&#30340;buffer&#26144;&#23556;&#21040;kernel
+    </p>
+    <p>
+      ssize_t iov_iter_get_pages(struct iov_iter *i, struct page **pages,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;size_t maxsize, unsigned maxpages, size_t *start);
+    </p>
+    <p>
+      ssize_t iov_iter_get_pages_alloc(struct iov_iter *i, struct page ***pages,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;size_t maxsize, size_t *start);
+    </p>
+    <p>
+      &#22312;&#19981;&#31227;&#21160;&#25968;&#25454;&#30340;&#24773;&#20917;&#19979;&#25512;&#36827;&#36845;&#20195;&#22120;
+    </p>
+    <p>
+      void iov_iter_advance(struct iov_iter *i, size_t size);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28165;&#31354;&#34987;iterator&#24341;&#29992;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      size_t iov_iter_zero(size_t bytes, struct iov_iter *i);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24110;&#21161;&#20989;&#25968;
+    </p>
+    <p>
+      size_t iov_iter_single_seg_count(const struct iov_iter *i);
+    </p>
+    <p>
+      int iov_iter_npages(const struct iov_iter *i, int maxpages);
+    </p>
+    <p>
+      size_t iov_length(const struct iovec *iov, unsigned long nr_segs);
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527907768449" ID="ID_772256437" MODIFIED="1527907857192">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iov_iter_count()&#36866;&#29992;&#20110;&#25152;&#26377;&#30340;type&#65292;&#32780;&#19988;&#25191;&#34892;&#30340;&#36895;&#24230;&#38750;&#24120;&#24555;
+    </p>
+    <p>
+      &#32780;iov_lengh&#21482;&#26159;&#36866;&#29992;&#20110;iovec
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1527905102388" ID="ID_1397777595" MODIFIED="1527906522591">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25105;&#20204;&#30475;&#21040;&#20869;&#26680;&#24403;&#20013;&#30495;&#27491;&#30340;&#23545;iov_iter&#30340;&#23450;&#20041;&#26159;&#36825;&#26679;&#30340;:
+    </p>
+    <p>
+      struct iov_iter {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int type;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;size_t iov_offset;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;size_t count;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;union {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct iovec *iov;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct kvec *kvec;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct bio_vec *bvec;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long nr_segs;
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      &#22914;&#26524;type&#37324;&#38754;&#21253;&#21547;&#20102;&#25513;&#30721;ITER_BVEC&#65292;&#23454;&#38469;&#19978;&#35813;iov_iter&#20195;&#34920;&#30340;&#26159;bio vec, &#27492;&#26102;&#35813;&#32467;&#26500;&#20307;&#20173;&#28982;&#21487;&#20197;&#39034;&#21033;&#22320;
+    </p>
+    <p>
+      &#34987;&#19978;&#38754;&#30340;&#20989;&#25968;&#20351;&#29992;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      kvec&#23454;&#38469;&#19978;&#20195;&#34920;&#30340;&#26159;&#20301;&#20110;&#20869;&#26680;&#24403;&#20013;&#30340;buffer, &#36825;&#20010;&#26102;&#20505;iov_iter&#21021;&#22987;&#21270;&#30340;&#26041;&#27861;&#22914;&#19979;&#25152;&#31034;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      void iov_iter_kvec(struct iov_iter *i, int direction,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct kvec *iov, unsigned long nr_segs,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;size_t count);
     </p>
   </body>
 </html></richcontent>
@@ -15134,7 +19815,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1509178884350" FOLDED="true" ID="ID_1507127288" MODIFIED="1510231220139" POSITION="left">
+<node CREATED="1509178884350" FOLDED="true" ID="ID_1507127288" MODIFIED="1512481022084" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     

@@ -985,7 +985,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1507709382931" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1539408019297" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493020020758" FOLDED="true" ID="ID_996974118" MODIFIED="1502333814698">
 <richcontent TYPE="NODE"><html>
@@ -1077,6 +1077,33 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1539408290958" ID="ID_1477785778" MODIFIED="1539408651277" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      linux&#20869;&#26680;&#23398;&#20064;&#32463;&#20856;&#36335;&#32447;:
+    </p>
+    <ol>
+      <li>
+        linux&#25805;&#20316;&#31995;&#32479;&#21407;&#29702;&#19982;&#24212;&#29992; ------&gt; The Linux Kernel Development
+      </li>
+      <li>
+        &#30740;&#31350;&#20869;&#26680;&#21487;&#36827;&#19968;&#27493;&#30740;&#35835; Understand Linux Kernel
+      </li>
+      <li>
+        &#20391;&#37325;&#20110;&#39537;&#21160;&#24320;&#21457; Linux Device Driver
+      </li>
+      <li>
+        The Linux Kernel primer&#26159;&#19968;&#26412;&#27604;&#36739;&#35814;&#32454;&#30340;&#20070;&#31821;&#65292;&#20171;&#32461;&#20102;&#22823;&#37327;&#36319;&#20869;&#26680;&#32534;&#31243;&#26377;&#20851;&#30340;&#32454;&#33410;&#30693;&#35782;
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </map>

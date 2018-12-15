@@ -12,8 +12,8 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#0a08ab" CREATED="1432112956357" FOLDED="true" ID="ID_751123708" MODIFIED="1507709278907" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0;&#xff1a;ARM&#x6307;&#x4ee4;&#x5206;&#x7c7b;&#x53ca;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
-<node CREATED="1432112956357" FOLDED="true" ID="ID_240060230" MODIFIED="1507709277947" TEXT="ARM&#x6307;&#x4ee4;&#x53ef;&#x4ee5;&#x5206;&#x4e3a;6&#x7c7b;">
+<node COLOR="#0a08ab" CREATED="1432112956357" FOLDED="true" ID="ID_751123708" MODIFIED="1544867204562" POSITION="right" TEXT="&#x7b2c;&#x4e8c;&#x7ae0;&#xff1a;ARM&#x6307;&#x4ee4;&#x5206;&#x7c7b;&#x53ca;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
+<node CREATED="1432112956357" FOLDED="true" ID="ID_240060230" MODIFIED="1544867201411" TEXT="ARM&#x6307;&#x4ee4;&#x53ef;&#x4ee5;&#x5206;&#x4e3a;6&#x7c7b;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -49,7 +49,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1441155370416" FOLDED="true" ID="ID_1954674680" MODIFIED="1507709276467" TEXT="">
+<node CREATED="1441155370416" FOLDED="true" ID="ID_1954674680" MODIFIED="1544867200019" TEXT="">
 <node CREATED="1441155377186" ID="ID_1352517936" MODIFIED="1441155514389">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -88,17 +88,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432112956358" FOLDED="true" ID="ID_1670651546" MODIFIED="1507709274939" TEXT="ARM&#x6307;&#x4ee4;&#x7684;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <img src="file:///C:/Users/Administrator/AppData/Local/Mindjet/MindManager/15/Temp/tmp/ARM&#x6307;&#x4ee4;&#x7f16;&#x7801;&#x683c;&#x5f0f;.png" />
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1432112956358" FOLDED="true" ID="ID_1670651546" MODIFIED="1544867203019" TEXT="ARM&#x6307;&#x4ee4;&#x7684;&#x5bfb;&#x5740;&#x65b9;&#x5f0f;">
 <node CREATED="1432112956358" FOLDED="true" ID="ID_1336813292" MODIFIED="1507709272771">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -159,7 +149,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#c32b82" CREATED="1432112956358" FOLDED="true" ID="ID_1044673581" MODIFIED="1507709270395" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;&#xff1a;ARM&#x6982;&#x8ff0;&#x53ca;&#x5176;&#x57fa;&#x672c;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
+<node COLOR="#c32b82" CREATED="1432112956358" FOLDED="true" ID="ID_1044673581" MODIFIED="1544867226502" POSITION="right" TEXT="&#x7b2c;&#x4e00;&#x7ae0;&#xff1a;ARM&#x6982;&#x8ff0;&#x53ca;&#x5176;&#x57fa;&#x672c;&#x7f16;&#x7a0b;&#x6a21;&#x578b;">
 <node CREATED="1432112956358" FOLDED="true" ID="ID_1138917039" MODIFIED="1471445718003" TEXT="ARM&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x7684;&#x7248;&#x672c;">
 <node CREATED="1432112956358" ID="ID_1134676044" MODIFIED="1432112956358" TEXT="&#x7248;&#x672c;1&#x548c;2&#x5df2;&#x7ecf;&#x4e0d;&#x518d;&#x4f7f;&#x7528;"/>
 <node CREATED="1432112956358" ID="ID_332174694" MODIFIED="1432113326063" TEXT="&#x7248;&#x672c;3&#x6709;&#x8f83;&#x5927;&#x7684;&#x6539;&#x8fdb;">
@@ -530,7 +520,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433729248799" FOLDED="true" ID="ID_592568468" MODIFIED="1507709268955" TEXT="ARM&#x5bc4;&#x5b58;&#x5668;&#x4ecb;&#x7ecd;">
+<node CREATED="1433729248799" FOLDED="true" ID="ID_592568468" MODIFIED="1544867223316" TEXT="ARM&#x5bc4;&#x5b58;&#x5668;&#x4ecb;&#x7ecd;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -540,8 +530,9 @@
       31&#20010;&#36890;&#29992;&#23492;&#23384;&#22120;&#65292;6&#20010;&#29366;&#24577;&#23492;&#23384;&#22120;
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1433730004706" FOLDED="true" ID="ID_411174682" MODIFIED="1507709266883" TEXT="1.&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;">
+</html>
+</richcontent>
+<node CREATED="1433730004706" FOLDED="true" ID="ID_411174682" MODIFIED="1544867211802" TEXT="1.&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;">
 <node CREATED="1433730207215" ID="ID_1459896487" MODIFIED="1433730268910">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -560,7 +551,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433730218642" FOLDED="true" ID="ID_110667514" MODIFIED="1507709265811" TEXT="&#x5907;&#x4efd;&#x5bc4;&#x5b58;&#x5668;">
+<node CREATED="1433730218642" FOLDED="true" ID="ID_110667514" MODIFIED="1544867210819" TEXT="&#x5907;&#x4efd;&#x5bc4;&#x5b58;&#x5668;">
 <node CREATED="1433730275378" ID="ID_142015550" MODIFIED="1433730455308">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -576,7 +567,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433730458498" FOLDED="true" ID="ID_663278016" MODIFIED="1507709265067">
+<node CREATED="1433730458498" FOLDED="true" ID="ID_663278016" MODIFIED="1544867209586">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -605,7 +596,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433730611982" FOLDED="true" ID="ID_491109695" MODIFIED="1507709264139">
+<node CREATED="1433730611982" FOLDED="true" ID="ID_491109695" MODIFIED="1544867208683">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -638,7 +629,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#3300ff" CREATED="1433730227265" FOLDED="true" ID="ID_1169635008" MODIFIED="1507709261179">
+<node COLOR="#3300ff" CREATED="1433730227265" FOLDED="true" ID="ID_1169635008" MODIFIED="1544867207573">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -693,8 +684,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1433730014243" FOLDED="true" ID="ID_1694798427" MODIFIED="1507709267755" TEXT="2.&#x72b6;&#x6001;&#x5bc4;&#x5b58;&#x5668;">
-<node CREATED="1438782312327" FOLDED="true" ID="ID_531718010" MODIFIED="1507709259283">
+<node CREATED="1433730014243" FOLDED="true" ID="ID_1694798427" MODIFIED="1544867218387" TEXT="2.&#x72b6;&#x6001;&#x5bc4;&#x5b58;&#x5668;">
+<node CREATED="1438782312327" FOLDED="true" ID="ID_531718010" MODIFIED="1544867216915">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -762,7 +753,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1438864267738" FOLDED="true" ID="ID_868637074" MODIFIED="1468809784098">
+<node CREATED="1438864267738" FOLDED="true" ID="ID_868637074" MODIFIED="1544867215459">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -813,7 +804,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1439210893475" FOLDED="true" ID="ID_1148292988" MODIFIED="1471449662565" TEXT="ARM&#x4f53;&#x7cfb;&#x7684;&#x5f02;&#x5e38;&#x4e2d;&#x65ad;">
+<node CREATED="1439210893475" FOLDED="true" ID="ID_1148292988" MODIFIED="1544867225210" TEXT="ARM&#x4f53;&#x7cfb;&#x7684;&#x5f02;&#x5e38;&#x4e2d;&#x65ad;">
 <node CREATED="1439211020366" FOLDED="true" ID="ID_1004066034" MODIFIED="1471275761217" TEXT="1.&#x7a0b;&#x5e8f;&#x6267;&#x884c;&#x5f53;&#x4e2d;&#x7684;3&#x79cd;&#x6d41;&#x7a0b;">
 <node CREATED="1439211052829" ID="ID_1561240473" MODIFIED="1439211113529">
 <richcontent TYPE="NODE"><html>
@@ -949,7 +940,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1439213205367" FOLDED="true" ID="ID_1783628596" MODIFIED="1471275764385" TEXT="3.ARM&#x5904;&#x7406;&#x5668;&#x5bf9;&#x5f02;&#x5e38;&#x4e2d;&#x65ad;&#x7684;&#x54cd;&#x5e94;&#x8fc7;&#x7a0b;">
+<node CREATED="1439213205367" FOLDED="true" ID="ID_1783628596" MODIFIED="1542900192649" TEXT="3.ARM&#x5904;&#x7406;&#x5668;&#x5bf9;&#x5f02;&#x5e38;&#x4e2d;&#x65ad;&#x7684;&#x54cd;&#x5e94;&#x8fc7;&#x7a0b;">
 <node CREATED="1439213259578" ID="ID_405552970" MODIFIED="1439213293929" TEXT="&#x4fdd;&#x5b58;&#x5904;&#x7406;&#x5668;&#x5f53;&#x524d;&#x72b6;&#x6001;&#xff0c;&#x5373;&#x5c06;CPSR&#x590d;&#x5236;&#x5230;SPSR&#x5f53;&#x4e2d;"/>
 <node CREATED="1439213299421" ID="ID_626558716" MODIFIED="1439213363443">
 <richcontent TYPE="NODE"><html>
@@ -991,7 +982,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1439214001191" FOLDED="true" ID="ID_741832304" MODIFIED="1471275765377">
+<node CREATED="1439214001191" FOLDED="true" ID="ID_741832304" MODIFIED="1542900195455">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1017,7 +1008,7 @@
 <node CREATED="1439214135382" ID="ID_229843881" MODIFIED="1439214148096" TEXT="2.&#x5c06;lr_mode&#x590d;&#x5236;&#x5230;pc&#x5f53;&#x4e2d;&#x53bb;"/>
 </node>
 </node>
-<node COLOR="#93b282" CREATED="1439214251681" FOLDED="true" ID="ID_556635958" MODIFIED="1507709257467">
+<node COLOR="#93b282" CREATED="1439214251681" FOLDED="true" ID="ID_556635958" MODIFIED="1542900183711">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1146,7 +1137,7 @@
 </node>
 <node COLOR="#ff0000" CREATED="1442123195928" ID="ID_857878324" MODIFIED="1510230622518" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node COLOR="#330033" CREATED="1442127652218" FOLDED="true" ID="ID_1746631417" MODIFIED="1471850941033">
+<node COLOR="#330033" CREATED="1442127652218" FOLDED="true" ID="ID_1746631417" MODIFIED="1526954188378">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1197,7 +1188,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1442155802949" FOLDED="true" ID="ID_1668647094" MODIFIED="1501829882767">
+<node CREATED="1442155802949" FOLDED="true" ID="ID_1668647094" MODIFIED="1526954167753">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1364,7 +1355,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1444786209232" FOLDED="true" ID="ID_1714373959" MODIFIED="1492953762935" TEXT="2.Makefile&#x5206;&#x6790;">
+<node CREATED="1444786209232" FOLDED="true" ID="ID_1714373959" MODIFIED="1526885963459" TEXT="2.Makefile&#x5206;&#x6790;">
 <node COLOR="#ff3300" CREATED="1453023306220" ID="ID_1425486651" MODIFIED="1453036040983">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1432,7 +1423,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1468204063043" FOLDED="true" ID="ID_1232073330" MODIFIED="1475842396296" TEXT="&#x4ee3;&#x7801;&#x8fc7;&#x7a0b;">
+<node CREATED="1468204063043" FOLDED="true" ID="ID_1232073330" MODIFIED="1526885966347" TEXT="&#x4ee3;&#x7801;&#x8fc7;&#x7a0b;">
 <node CREATED="1444886314240" FOLDED="true" ID="ID_5490939" MODIFIED="1475842395152" TEXT="3.BL1&#x521d;&#x59cb;&#x5316;&#x5206;&#x6790;">
 <node CREATED="1444886574565" FOLDED="true" ID="ID_1641695394" MODIFIED="1475842393792" TEXT="1.start.S">
 <node CREATED="1444886734078" ID="ID_117625147" MODIFIED="1444886749278" TEXT="&#x8bbe;&#x7f6e;&#x8df3;&#x8f6c;&#x5411;&#x91cf;&#x8868;"/>
@@ -1602,7 +1593,7 @@
 <node CREATED="1445095381344" ID="ID_1233592332" MODIFIED="1445095389435" TEXT="bootam&#x547d;&#x4ee4;&#x7684;&#x79fb;&#x690d;"/>
 </node>
 </node>
-<node CREATED="1473497533753" FOLDED="true" ID="ID_1739221794" MODIFIED="1491145132509">
+<node CREATED="1473497533753" ID="ID_1739221794" MODIFIED="1510759925169">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1614,7 +1605,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1479029470202" FOLDED="true" ID="ID_969818195" MODIFIED="1488207740512">
+<node CREATED="1479029470202" ID="ID_969818195" MODIFIED="1511002127300">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1752,7 +1743,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1474811852761" FOLDED="true" ID="ID_1034796482" MODIFIED="1488207823543">
+<node CREATED="1474811852761" ID="ID_1034796482" MODIFIED="1511002037715">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1784,7 +1775,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474813291530" FOLDED="true" ID="ID_894839843" MODIFIED="1488207743328">
+<node CREATED="1474813291530" ID="ID_894839843" MODIFIED="1511002044469">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1823,7 +1814,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1474813672063" FOLDED="true" ID="ID_245857237" MODIFIED="1488207746536">
+<node CREATED="1474813672063" ID="ID_245857237" MODIFIED="1511002040719">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1902,7 +1893,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473497667298" FOLDED="true" ID="ID_67937435" MODIFIED="1488551458646">
+<node CREATED="1473497667298" FOLDED="true" ID="ID_67937435" MODIFIED="1526886773360">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2496,7 +2487,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479047279336" FOLDED="true" ID="ID_712481540" MODIFIED="1488551452019">
+<node CREATED="1479047279336" FOLDED="true" ID="ID_712481540" MODIFIED="1511002062635">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2697,9 +2688,621 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1510760402253" ID="ID_991980741" MODIFIED="1510760436776">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e01717">initr_nand</font>
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1520416408074" ID="ID_513674599" MODIFIED="1520416411495" TEXT="nand_init()">
+<node CREATED="1520749339349" FOLDED="true" ID="ID_338677985" MODIFIED="1526886777761" TEXT="nand_init_chip(i)">
+<node CREATED="1520749427684" ID="ID_1524169426" MODIFIED="1523454994933">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct nand_chip *nand = &amp;nand_chip[i]
+    </p>
+    <p>
+      struct mtd_info *mtd = nand_to_mtd(nand);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520749451732" ID="ID_892954533" MODIFIED="1523455184192">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nand-&gt;IO_ADDR_R = nand-&gt;IO_ADDR_W = (void&#160;&#160;__iomem *)base_addr
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21021;&#22987;&#21270;io&#22320;&#22336;&#65292;&#36825;&#37324;&#30340;base_addr&#24050;&#32463;&#30001;&#23439;&#30830;&#23450;&#20102;&#65292;&#23454;&#38469;&#19978;&#26159;
+    </p>
+    <p>
+      nand flash&#25511;&#21046;&#22120;&#30340;&#25511;&#21046;&#23492;&#23384;&#22120;&#30340;&#22522;&#22320;&#22336; 0x4E000000
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520749538868" ID="ID_1561903396" MODIFIED="1523455284164">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      board_nand_init(nand)&#160;&#160;
+    </p>
+    <p>
+      &#30452;&#25509;&#35843;&#29992;&#21040;&#25991;&#20214;s3c2410_nand.c&#37324;&#38754;&#30340;&#30456;&#24212;&#30340;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1523455518601" ID="ID_66251775" MODIFIED="1523455679209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct s3c24x0_clock_power *clk_power = s3c24x0_get_base_clock_power();
+    </p>
+    <p>
+      &#33719;&#21462;0x4C000000&#23492;&#23384;&#22120;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct s3c24x0_clock_power {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 locktime;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 mpllcon;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 upllcon;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 clkcon;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 clkslow;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 clkdivn;
+    </p>
+    <p>
+      #if defined(CONFIG_S3C2440)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 camdivn;
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      &#33719;&#21462;&#26102;&#38047;&#21644;&#30005;&#28304;&#31649;&#29702;&#30340;&#23492;&#23384;&#22120;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523455705897" ID="ID_127956056" MODIFIED="1523455810646">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct s3c24x0_nand *nand_reg = s3c24x0_get_base_nand();
+    </p>
+    <p>
+      &#23545;&#24212;&#20110;0x4E000000
+    </p>
+    <p>
+      struct s3c24x0_nand {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfconf;
+    </p>
+    <p>
+      #ifndef CONFIG_S3C2410
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfcont;
+    </p>
+    <p>
+      #endif&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfcmd;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfaddr;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfdata;
+    </p>
+    <p>
+      #ifndef CONFIG_S3C2410
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfeccd0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfeccd1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfeccd;
+    </p>
+    <p>
+      #endif&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfstat;
+    </p>
+    <p>
+      #ifdef CONFIG_S3C2410
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfecc;
+    </p>
+    <p>
+      #else&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfstat0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfstat1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfmecc0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfmecc1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfsecc;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfsblk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u32 nfeblk;
+    </p>
+    <p>
+      #endif&#160;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523455848099" ID="ID_633681464" MODIFIED="1523455946964">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      writel(readl(&amp;clk_power-&gt;clkcon) | (1 &lt;&lt; 4), &amp;clk_power-&gt;clkcon);
+    </p>
+    <p>
+      &#20351;&#33021;nand flash&#25511;&#21046;&#22120;&#30340;&#26102;&#38047;
+    </p>
+    <p>
+      Control HCLK into NAND Flash Controller block.
+    </p>
+    <p>
+      0 = Disable, 1 = Enable
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523785309656" ID="ID_1074872136" MODIFIED="1523785450899">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      writel(cfg, &amp;nand_reg-&gt;nfconf);
+    </p>
+    <p>
+      &#36890;&#36807;cfg&#26469;&#35774;&#32622;nand flash&#25511;&#21046;&#22120;&#30340;tacls&#65292;twrph0&#65292;twrph1
+    </p>
+    <p>
+      &#31561;&#21442;&#25968;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      nand-&gt;IO_ADDR_R = (void *)&amp;nand_reg-&gt;nfdata;
+    </p>
+    <p>
+      nand-&gt;IO_ADDR_W = (void *)&amp;nand_reg-&gt;nfdata;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523785456447" ID="ID_1056665416" MODIFIED="1523785757791">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#d92f2f">nand-&gt;IO_ADDR_R = (void *)&amp;nand_reg-&gt;nfdata; </font></i></b>
+    </p>
+    <p>
+      <b><i><font color="#d92f2f">nand-&gt;IO_ADDR_W = (void *)&amp;nand_reg-&gt;nfdata; </font></i></b>
+    </p>
+    <p>
+      <b><i><font color="#d92f2f">nand-&gt;select_chip = NULL;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1524302724619" ID="ID_1077995254" MODIFIED="1524302760807">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nand-&gt;cmd_ctrl = s3c24x0_hwcontrol;
+    </p>
+    <p>
+      nand-&gt;dev_ready = s3c24x0_dev_ready;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523785714081" ID="ID_920442502" MODIFIED="1523785791827">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>nand-&gt;ecc.mode = NAND_ECC_SOFT</b>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1468204134477" FOLDED="true" ID="ID_449599574" MODIFIED="1492953775295" TEXT="uboot-kbuild">
+<node CREATED="1524153195409" ID="ID_1705574555" MODIFIED="1524153199725" TEXT="nand_scan(mtd, maxchips)">
+<node CREATED="1524238130326" ID="ID_1156407614" MODIFIED="1524238134314" TEXT="nand_scan_ident(mtd, maxchips, NULL)">
+<node CREATED="1524238688517" ID="ID_1580963837" MODIFIED="1524238760722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;chip-&gt;flash_node&#26159;&#38750;0,&#21017;&#35843;&#29992;&#20989;&#25968;
+    </p>
+    <p>
+      nand_dt_init(mtd, chip, chip-&gt;flash_node); &#36825;&#37324;&#27809;&#26377;&#35843;&#29992;&#35813;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1524239349191" ID="ID_1568829339" MODIFIED="1524239352620" TEXT="nand_set_defaults(chip, chip-&gt;options &amp; NAND_BUSWIDTH_16);">
+<node CREATED="1524241083008" ID="ID_1675603462" MODIFIED="1524241485955">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chip-&gt;cmdfunc = nand_command
+    </p>
+    <p>
+      chip-&gt;waitfunc = nand_wait
+    </p>
+    <p>
+      chip-&gt;select_chip = nand_select_chip
+    </p>
+    <p>
+      chip-&gt;onfi_set_features = nand_onfi_set_features
+    </p>
+    <p>
+      chip-&gt;onfi_get_features = nand_onfi_get_features
+    </p>
+    <p>
+      chip-&gt;read_byte = nand_read_byte
+    </p>
+    <p>
+      chip-&gt;read_word = nand_read_word
+    </p>
+    <p>
+      chip-&gt;block_bad = nand_block_bad
+    </p>
+    <p>
+      chip-&gt;block_markbad = nand_default_block_markba
+    </p>
+    <p>
+      chip-&gt;write_buf = nand_write_buf
+    </p>
+    <p>
+      chip-&gt;write_byte = nand_write_byte
+    </p>
+    <p>
+      chip-&gt;read_buf = nand_read_buf
+    </p>
+    <p>
+      chip-&gt;scan_bbt = nand_default_bbt
+    </p>
+    <p>
+      chip-&gt;controller = &amp;chip-&gt;hwcontrol&#160;&#160;&#160;-----&gt; struct nand_hw_control
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1524301603303" ID="ID_378040367" MODIFIED="1524301720471">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static void nand_command(struct mtd_info *mtd, unsigned int command,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int column, int page_addr)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1524301726765" ID="ID_788574974" MODIFIED="1524301809315">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      get nand_chip:
+    </p>
+    <p>
+      register struct nand_chip *chip = mtd_to_nand(mtd);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      set ctrl command:
+    </p>
+    <p>
+      int ctrl = NAND_CTRL_CLE | NAND_CTRL_CHANGE
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1524302421690" ID="ID_1823782979" MODIFIED="1524302451485">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if command is NAND_CMD_SEQIN,
+    </p>
+    <p>
+      we will do something special
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1524302475804" ID="ID_187173329" MODIFIED="1524302497718">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chip-&gt;cmd_ctrl(mtd, command, ctrl);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1524321237685" ID="ID_1625827273" MODIFIED="1524321290598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ctrl = NAND_CTRL_ALE | NAND_CTRL_CHANGE;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#b60707"><i>set to address cycle</i></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1524239590619" ID="ID_331209567" MODIFIED="1524239642784">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      type = <b>nand_get_flash_type(</b>mtd, chip, &amp;nand_maf_id,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;nand_dev_id, table<b>);</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1524238155799" ID="ID_1472806942" MODIFIED="1524238159409" TEXT="nand_scan_tail(mtd)"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1510844414361" FOLDED="true" ID="ID_1806446120" MODIFIED="1526886780464">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#1911ee" size="4"><b><i>initr_flash </i></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#eb1010">&#35813;&#20989;&#25968;&#26159;&#38024;&#23545;nor flash</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1513408570874" ID="ID_1663092502" MODIFIED="1513408577157" TEXT="bd_t *bd = gd-&gt;bd"/>
+<node CREATED="1513408593603" ID="ID_6357073" MODIFIED="1516430086877" TEXT="flash_size = flash_init()">
+<node CREATED="1513410195796" ID="ID_373961167" MODIFIED="1516451219834">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38024;&#23545;&#20174;0&#21040;CONFIG_SYS_MAX_FLASH_BANKS&#30340;&#27599;&#19968;&#20010;flash bank,&#20570;&#22914;&#19979;&#30340;&#22788;&#29702;:
+    </p>
+    <p>
+      1.flash_info[i].flash_id = FLASH_UNKNOWN
+    </p>
+    <p>
+      2.&#22914;&#26524;&#21028;&#26029;flash_detect_legacy(cfi_flash_bank_addr(i), i)&#36820;&#22238;&#30340;&#20540;&#26159;0,&#37027;&#20040;&#23601;&#35843;&#29992;
+    </p>
+    <p>
+      flash_get_size(cfi_flash_bank_addr(i), i)
+    </p>
+    <p>
+      &#20808;&#26469;&#30475;&#30475;cfi_flash_bank_addr(i)&#20989;&#25968;&#30340;&#23450;&#20041;:
+    </p>
+    <p>
+      phys_addr_t cfi_flash_bank_addr(int i)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return cfi_flash_base[i];
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      cfi_flash_base&#26159;&#23450;&#20041;&#30340;&#19968;&#20010;&#38745;&#24577;&#30340;&#25968;&#32452;: static phys_addr_t cfi_flash_base[CFI_MAX_FLASH_BANKS];
+    </p>
+    <p>
+      <font color="#ee0909">&#20877;&#26469;&#30475;&#30475;flash_detect_legacy(cfi_flash_bank_addr(i), i)&#30340;&#23450;&#20041;</font>
+    </p>
+    <p>
+      <b>&#35813;&#20989;&#25968;&#26377;&#20004;&#20010;&#29256;&#26412;</b>
+    </p>
+    <p>
+      <b>&#29256;&#26412;&#19968;&#65306;</b>&#160;&#23450;&#20041;&#20102;&#23439;CONFIG_FLASH_CFI_LEGACY&#26681;&#25454;&#20195;&#30721;&#37324;&#38754;&#30340;&#27880;&#37322;&#30475;&#65292;
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#26159;&#38024;&#23545;non-cfi&#25509;&#21475;&#30340;flash&#30340;(&#25105;&#30340;&#24320;&#21457;&#26495;&#37324;&#38754;&#30340;nandflash&#20351;&#29992;&#30340;&#26159;ONFI&#30340;&#25509;&#21475;)&#23427;&#20250;&#22635;&#20805;flash_info&#37324;&#38754;&#30340;&#30456;&#20851;&#30340;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#39318;&#20808;&#35843;&#29992;board_flash_get_legacy(base, banknum, info)&#65292;&#20250;&#30452;&#25509;&#35843;&#29992;&#21040;embeddedsky/tq2440/smdk2440.c&#37324;&#38754;&#65292;
+    </p>
+    <p>
+      &#29992;&#26469;&#22635;&#20805;flash_info_t&#37324;&#38754;&#30340;&#37096;&#20998;&#30340;&#20449;&#24687;:
+    </p>
+    <p>
+      info-&gt;portwidth = FLASH_CFI_16BIT
+    </p>
+    <p>
+      info-&gt;chipwidth = FLASH_CFI_BY16
+    </p>
+    <p>
+      info-&gt;interface = FLASH_CFI_X16
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      board_flash_get_legacy&#25191;&#34892;&#23436;&#25104;&#20043;&#21518;&#65292;&#22914;&#26524;&#21028;&#26029;&#24403;&#21069;&#30340;info-&gt;vendor&#27809;&#26377;&#34987;&#36171;&#20540;&#65292; &#37027;&#20040;&#31243;&#24207;&#37324;&#38754;&#20250;&#39318;&#20808;&#22768;&#26126;&#20004;&#31181;vendor&#30340;mode
+    </p>
+    <p>
+      CFI_CMDSET_AMD_STANDARD,
+    </p>
+    <p>
+      CFI_CMDSET_INTEL_STANDARD
+    </p>
+    <p>
+      &#23558;&#36825;&#20004;&#31181;mode&#20998;&#21035;&#36171;&#20540;&#32473;vendor&#21464;&#37327;&#65292;&#28982;&#21518;&#36171;&#20540;&#22914;&#19979;
+    </p>
+    <p>
+      info-&gt;addr_unlock1 = 0x5555;
+    </p>
+    <p>
+      info-&gt;addr_unlock2 = 0x2AAA
+    </p>
+    <p>
+      &#28982;&#21518;&#35843;&#29992;flash_read_jedec_ids(info)&#33719;&#21462;info-&gt;manufacturer_id&#65292; info-&gt;device_id,
+    </p>
+    <p>
+      &#28982;&#21518;&#35843;&#29992;jedec_flash_match(info, info-&gt;start[0])&#26469;&#21305;&#37197;&#24403;&#21069;&#33719;&#21462;&#30340;&#20449;&#24687;&#36319;jedec_table&#34920;&#37324;&#38754;&#30340;&#21738;&#20010;&#20449;&#24687;&#21305;&#37197;
+    </p>
+    <p>
+      &#22914;&#26524;&#21305;&#37197;&#23601;&#35843;&#29992;fill_info(info, &amp;jedec_table[i], base)&#23558;jedec_table[i]&#37324;&#38754;&#30340;&#20449;&#24687;&#22635;&#20805;&#21040;info&#37324;&#38754;&#21435;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1515828480493" ID="ID_1185283693" MODIFIED="1515828522948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>#define CONFIG_SYS_TEXT_BASE 0x31000000 </b>
+    </p>
+    <p>
+      <b><font color="#e51616"><i>&#23450;&#20041;&#38142;&#25509;&#22320;&#22336;</i></font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1468204134477" FOLDED="true" ID="ID_449599574" MODIFIED="1524239893134" TEXT="uboot-kbuild">
 <node CREATED="1468204305751" ID="ID_1602710959" MODIFIED="1468204357752">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4051,7 +4654,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1468560942268" FOLDED="true" HGAP="84" ID="ID_1650428074" MODIFIED="1501829875959" VSHIFT="-67">
+<node CREATED="1468560942268" HGAP="84" ID="ID_1650428074" MODIFIED="1526886789808" VSHIFT="-67">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4166,7 +4769,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1474123973928" FOLDED="true" ID="ID_164809639" MODIFIED="1501829871047">
+<node CREATED="1474123973928" ID="ID_164809639" MODIFIED="1526886882269">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4186,7 +4789,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1474879387533" FOLDED="true" ID="ID_526139270" MODIFIED="1501829869975">
+<node CREATED="1474879387533" ID="ID_526139270" MODIFIED="1526886900365">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4218,7 +4821,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491197108638" FOLDED="true" ID="ID_59313829" MODIFIED="1501829866871">
+<node CREATED="1491197108638" ID="ID_59313829" MODIFIED="1526886902084">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4325,7 +4928,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1491200900600" ID="ID_34862812" MODIFIED="1491299223454">
+<node CREATED="1491200900600" ID="ID_34862812" MODIFIED="1526886896120">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4425,7 +5028,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491203556190" FOLDED="true" ID="ID_45250146" MODIFIED="1501829862527">
+<node CREATED="1491203556190" ID="ID_45250146" MODIFIED="1526890154392">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4448,7 +5051,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1491206026956" FOLDED="true" ID="ID_1284916225" MODIFIED="1501829861247">
+<node CREATED="1491206026956" ID="ID_1284916225" MODIFIED="1526890162313">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4526,7 +5129,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1491298855240" FOLDED="true" ID="ID_711080305" LINK="#ID_34862812" MODIFIED="1501829868175">
+<node CREATED="1491298855240" ID="ID_711080305" LINK="#ID_34862812" MODIFIED="1526886896120">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4545,7 +5148,7 @@
 </html></richcontent>
 <arrowlink COLOR="#ed640c" DESTINATION="ID_34862812" ENDARROW="Default" ENDINCLINATION="847;0;" ID="Arrow_ID_1785801322" STARTARROW="None" STARTINCLINATION="847;0;"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1491299282142" FOLDED="true" ID="ID_383307405" MODIFIED="1501829863607">
+<node CREATED="1491299282142" ID="ID_383307405" MODIFIED="1526886894438">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4559,7 +5162,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1491299695530" FOLDED="true" ID="ID_839625115" MODIFIED="1501829858551">
+<node CREATED="1491299695530" ID="ID_839625115" MODIFIED="1526886896626">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4954,7 +5557,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456407828827" FOLDED="true" ID="ID_1592564339" MODIFIED="1510230880798">
+<node CREATED="1456407828827" FOLDED="true" ID="ID_1592564339" MODIFIED="1526885947156">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4965,7 +5568,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1456407927279" FOLDED="true" ID="ID_1113365315" MODIFIED="1510230874873">
+<node CREATED="1456407927279" FOLDED="true" ID="ID_1113365315" MODIFIED="1510759756738">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5802,7 +6405,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1469378244724" FOLDED="true" ID="ID_681463323" MODIFIED="1480239081763" TEXT="LED&#x7535;&#x8def;&#x5206;&#x6790;">
+<node CREATED="1469378244724" ID="ID_681463323" MODIFIED="1511002145363" TEXT="LED&#x7535;&#x8def;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1469378260165" ID="ID_1929311109" MODIFIED="1469379440825">
 <richcontent TYPE="NODE"><html>
@@ -5840,7 +6443,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#e20404" CREATED="1469978688956" FOLDED="true" ID="ID_1030385239" MODIFIED="1480239080629">
+<node COLOR="#e20404" CREATED="1469978688956" ID="ID_1030385239" MODIFIED="1511002148420">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5884,7 +6487,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1469979068730" ID="ID_671978724" MODIFIED="1471275637520">
+<node CREATED="1469979068730" ID="ID_671978724" MODIFIED="1511002759840">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5906,14 +6509,20 @@
       <font color="#cd842d">uboot&#28304;&#20195;&#30721;&#24403;&#20013;&#30340;&#27604;&#20363;&#26159;1:2:4 </font>
     </p>
     <p>
-      <font color="#cd842d">&#20462;&#25913;&#25104;1:4:8&#26102;&#38047;&#21487;&#20197;&#27491;&#24120;&#24037;&#20316;&#65292;led&#28783;&#21487;&#20197;&#25805;&#20316;&#20102;!</font>
+      <font color="#cd842d">&#20462;&#25913;&#25104;1:4:8&#26102;&#38047;&#21487;&#20197;&#27491;&#24120;&#24037;&#20316;&#65292;led&#28783;&#21487;&#20197;&#25805;&#20316;&#20102;! </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#1f19f4">&#30446;&#21069;MPLL/FCLK&#35774;&#32622;&#25104;&#20102;400M, HCLK&#26159;100M&#65292; PCLK&#26159;50M</font></b>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1477147972237" FOLDED="true" ID="ID_1751863875" MODIFIED="1480239075964">
+<node CREATED="1477147972237" ID="ID_1751863875" MODIFIED="1511002012761">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5925,7 +6534,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1477148262172" FOLDED="true" ID="ID_568291392" MODIFIED="1477210722637">
+<node CREATED="1477148262172" ID="ID_568291392" MODIFIED="1511002016273">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5958,7 +6567,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1477190880407" FOLDED="true" ID="ID_539750712" MODIFIED="1477210721259">
+<node CREATED="1477190880407" ID="ID_539750712" MODIFIED="1511002022751">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6045,6 +6654,89 @@
 </node>
 <node CREATED="1477148286612" ID="ID_1652962368" MODIFIED="1477148311781" TEXT="Power Control">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1521984779168" ID="ID_317140766" MODIFIED="1521984885094">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#30005;&#28304;&#31649;&#29702;&#27169;&#22359;&#21487;&#20197;&#28608;&#27963;&#20026;&#22235;&#20010;&#27169;&#22359;:</b>
+    </p>
+    <ol>
+      <li>
+        NORMAL mode
+      </li>
+      <li>
+        SLOW mode
+      </li>
+      <li>
+        IDLE mode
+      </li>
+      <li>
+        SLEEP mode
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+<node CREATED="1521984986902" ID="ID_171087077" MODIFIED="1521985119793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Non-PLL &#27169;&#24335;&#65292;
+    </p>
+    <p>
+      &#35813;&#27169;&#24335;&#30452;&#25509;&#20351;&#29992;&#22806;&#37096;&#30340;&#26102;&#38047;&#30452;&#25509;&#20316;&#20026;FCLK, &#22312;&#36825;&#31181;&#27169;&#24335;&#19979;
+    </p>
+    <p>
+      &#30005;&#28304;&#30340;&#28040;&#32791;&#30452;&#25509;&#21462;&#20915;&#19982;&#22806;&#37096;&#26102;&#38047;&#30340;&#39057;&#29575;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1521985152016" ID="ID_853804586" MODIFIED="1521985215948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IDLE &#27169;&#24335;&#65292; &#35813;&#27169;&#24335;&#23601;&#26159;&#23558;cpu&#30340;&#26102;&#38047;&#26029;&#24320;&#32780;&#20445;&#30041;&#22806;&#22260;&#35774;&#22791;&#30340;&#26102;&#38047;&#36755;&#20837;&#65292;
+    </p>
+    <p>
+      &#24403;&#26377;&#20013;&#26029;&#21457;&#36865;&#21040;cpu&#30340;&#26102;&#20505;&#23601;&#20250;&#20174;&#35813;&#27169;&#24335;&#19979;&#38754;&#36864;&#20986;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1521986256900" ID="ID_317059329" MODIFIED="1521986442228">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#d70c0c">SLEEP &#27169;&#24335;</font></b>
+    </p>
+    <p>
+      &#35813;&#27169;&#24335;&#19979;&#65292;&#30005;&#28304;&#31649;&#29702;&#27169;&#22359;&#20250;&#20999;&#26029;&#20869;&#37096;&#30340;&#30005;&#28304;&#12290;&#28608;&#27963;sleep&#27169;&#24335;&#38656;&#35201;&#20004;&#36335;&#19981;&#21516;&#30340;&#30005;&#28304;
+    </p>
+    <p>
+      &#19968;&#36335;&#30005;&#28304;&#20026;wake-up&#36923;&#36753;&#27169;&#22359;&#20379;&#30005;&#65292;&#21478;&#19968;&#36335;&#20026;&#20869;&#37096;&#27169;&#22359;&#21253;&#25324;cpu&#20379;&#30005;
+    </p>
+    <p>
+      The wakeup from SLEEP mode can be issued by the
+    </p>
+    <p>
+      EINT[15:0] or by RTC alarm interrupt.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1477210729926" FOLDED="true" ID="ID_721644726" MODIFIED="1479562892875">
@@ -6110,7 +6802,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1479567503447" FOLDED="true" ID="ID_347252617" MODIFIED="1510230858734">
+<node CREATED="1479567503447" ID="ID_347252617" MODIFIED="1523540114240">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6130,7 +6822,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1479567547992" FOLDED="true" ID="ID_1011669690" MODIFIED="1510230857603">
+<node CREATED="1479567547992" ID="ID_1011669690" MODIFIED="1524307119579">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6162,7 +6854,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1479571207422" ID="ID_186921143" MODIFIED="1479571220987">
+<node CREATED="1479571207422" ID="ID_186921143" MODIFIED="1524307164159">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6171,6 +6863,57 @@
     <img src="armpic/nand_flash&#x5185;&#x5b58;&#x914d;&#x7f6e;.png" />
   </body>
 </html></richcontent>
+<node CREATED="1510977021196" ID="ID_1649311186" MODIFIED="1510977063623">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#db1010">The configuration pin &#8211; NCON, GPG[15:13] &#8211; will be fetched during reset.<br color="#db1010" />&#36825;&#20123;&#24341;&#33050;&#30340;&#29366;&#24577;&#22312;&#35774;&#22791;reset&#30340;&#36807;&#31243;&#24403;&#20013;&#20250;&#34987;&#35774;&#22791;&#37319;&#38598;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1510994684973" ID="ID_1000990816" MODIFIED="1510994739238">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#d81212">SOFTWARE MODE</font></i></b>
+    </p>
+    <p>
+      S3C2440A supports only software mode access. Using this mode, you can completely access the NAND flash
+    </p>
+    <p>
+      memory. The NAND Flash Controller supports direct access interface with the NAND flash memory.
+    </p>
+    <p>
+      1. Writing to the command register = the NAND Flash Memory command cycle
+    </p>
+    <p>
+      2. Writing to the address register = the NAND Flash Memory address cycle
+    </p>
+    <p>
+      3. Writing to the data register = write data to the NAND Flash Memory (write cycle)
+    </p>
+    <p>
+      4. Reading from the data register = read data from the NAND Flash Memory (read cycle)
+    </p>
+    <p>
+      5. Reading main ECC registers and Spare ECC registers = read data from the NAND Flash Memory
+    </p>
+    <p>
+      <b><font color="#3020f7">NOTE </font></b>
+    </p>
+    <p>
+      <b><font color="#3020f7">In the software mode, you have to check the RnB status input pin by using polling or interrupt.</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1506440458615" ID="ID_1081794815" MODIFIED="1506440666463">
 <richcontent TYPE="NODE"><html>
@@ -6190,8 +6933,30 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1524319899259" ID="ID_50848267" MODIFIED="1524320013319">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="armpic/NCON.png" />
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20174;&#21407;&#29702;&#22270;&#19978;&#38754;&#21487;&#20197;&#30475;&#21040;&#65292;&#24403;nand flash&#26159;K9&#31995;&#21015;&#30340;&#26102;&#20505;NR5&#26159;&#19981;&#28938;&#25509;&#30340;&#65292;&#20294;&#26159;&#24403;&#21069;&#30340;&#24320;&#21457;&#26495;&#20351;&#29992;&#30340;&#19981;&#26159;K9&#31995;&#21015;&#65292;
+    </p>
+    <p>
+      &#25152;&#20197;&#24403;&#21069;NR5&#26159;&#28938;&#25509;&#19978;&#30340;&#65292;&#36825;&#20010;&#26102;&#20505;&#25105;&#20204;&#30475;&#21040;NCON&#21644;GPG13&#24212;&#35813;&#26159;&#39640;&#30005;&#24179;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1479572163064" FOLDED="true" ID="ID_1308911755" MODIFIED="1510230856285">
+</node>
+<node CREATED="1479572163064" ID="ID_1308911755" MODIFIED="1523784779079">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6229,7 +6994,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1503824182797" FOLDED="true" ID="ID_1023527406" MODIFIED="1510230761840">
+<node CREATED="1503824182797" ID="ID_1023527406" MODIFIED="1523691548342">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6294,7 +7059,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1503210304469" FOLDED="true" ID="ID_310320755" MODIFIED="1510230783698">
+<node CREATED="1503210304469" ID="ID_310320755" MODIFIED="1524320376279">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6308,6 +7073,12 @@
     </p>
     <p>
       Block Size: 64&#20010;&#39029;&#22823;&#23567;
+    </p>
+    <p>
+      &#19968;&#20010;plane&#26159;1024blocks
+    </p>
+    <p>
+      &#35813;&#33455;&#29255;&#26377;2&#20010;plane
     </p>
     <p>
       
@@ -6365,7 +7136,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1503840976726" ID="ID_1400867365" MODIFIED="1503846602064">
+<node CREATED="1503840976726" ID="ID_1400867365" MODIFIED="1523632193865">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6401,9 +7172,34 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1520743290131" ID="ID_765139939" MODIFIED="1523632198868" TEXT="&#x5bfb;&#x5740;&#x7684;bus&#x5468;&#x671f;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1520743310806" ID="ID_629121753" MODIFIED="1520743322521">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="armpic/address-cycle.png" />
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1505650759018" ID="ID_95003080" MODIFIED="1505652734174">
+</node>
+<node CREATED="1513415175510" ID="ID_335009795" MODIFIED="1513415202801">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#e41212">ONFI&#25509;&#21475;</font></i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1505650759018" FOLDED="true" ID="ID_95003080" MODIFIED="1521984534628">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6417,9 +7213,519 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1511015002624" ID="ID_1741157951" MODIFIED="1511361749687">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#31243;&#24207;&#21457;&#20986;cfi query command code&#20043;&#21518;&#65292;flash&#35774;&#22791;&#23601;&#36827;&#20837;&#20102;query&#27169;&#24335;&#65292;
+    </p>
+    <p>
+      &#20801;&#35768;&#31243;&#24207;&#35835;&#20986;<b><font color="#e30c0c">cfi query struct</font></b>&#65292; &#35813;cfi query struct&#21253;&#21547;&#19968;&#20010;16bit&#30340;&#21629;&#20196;&#38598;&#21512;&#65292;
+    </p>
+    <p>
+      &#20197;&#21450;&#19968;&#20010;&#25511;&#21046;&#25509;&#21475;ID code&#21495;&#65292;&#36825;&#20010;id&#21495;&#21487;&#20197;&#20026;&#19968;&#31867;flash&#35774;&#22791;&#25351;&#23450;&#19968;&#20010;&#36319;&#31639;&#27861;&#30456;&#20851;&#30340;&#25511;&#21046;&#25509;&#21475;
+    </p>
+    <p>
+      CFI query struct&#37324;&#38754;&#26377;&#19968;&#20010;&#23383;&#27573;&#26159;&#25351;&#21521;algorithm-specific extended Query Table&#36825;&#20010;&#23646;&#24615;&#30340;&#65292;
+    </p>
+    <p>
+      &#21363;&#25193;&#23637;&#30340;&#19968;&#20010;&#23383;&#27573;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1511362540078" FOLDED="true" ID="ID_587622056" MODIFIED="1521984533124">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#1744f0">CFI&#25509;&#21475;&#35268;&#33539;&#35268;&#23450;: </font></b>
+    </p>
+    <p>
+      <b><font size="4" color="#1744f0">&#21521;&#22320;&#22336; 0x55&#20889;&#20837;&#25968;&#25454;0x98&#23601;&#21487;&#20197;&#33719;&#24471;cfi query &#32467;&#26500;&#20307;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1511363014740" FOLDED="true" ID="ID_853487927" MODIFIED="1521984530052">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/cfi-query-struct&#x7684;&#x603b;&#x4f53;&#x6784;&#x6210;.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1511363034801" ID="ID_1129272078" MODIFIED="1511363042880">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/cfi-query-identification-string.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1511363459119" ID="ID_838567054" MODIFIED="1511363468006">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/cfi-query-system-interface.png" />
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1505654295675" FOLDED="true" ID="ID_1237490696" MODIFIED="1510230700595">
+</node>
+</node>
+<node CREATED="1520644621111" ID="ID_1946356435" MODIFIED="1523784793620">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#e00e0e">s3c2440a&#30340;nand flash&#25511;&#21046;&#22120;&#20135;&#29983;ECC&#26657;&#39564;&#30721;&#30340;&#27969;&#31243;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1520644700109" ID="ID_715450079" MODIFIED="1520645146383">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#21521;&#25511;&#21046;&#22120;&#30340;InitECC(NFCONT[4])&#20301;&#20889;1&#26469;&#20445;&#35777;ECC&#26657;&#39564;&#30721;&#30340;&#23492;&#23384;&#22120;&#34987;&#28165;&#38646;
+    </p>
+    <p>
+      &#36824;&#38656;&#35201;&#21521;MainECCLock(NFCONT[5])&#20301;&#20889;0&#26469;&#20445;&#35777;&#35299;&#38145;&#65292;&#36825;&#26679;&#21487;&#20197;&#20445;&#35777;&#29983;&#25104;ECC&#26657;&#39564;&#30721;
+    </p>
+    <p>
+      <b><font color="#d70707">&#27880;&#24847;MainECCLock(NFCONT[5]) and SpareECCLock(NFCONT[6])&#25511;&#21046;&#30528;ECC&#26657;&#39564;&#30721;&#30340;&#29983;&#25104;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520645176136" ID="ID_715821008" MODIFIED="1520645227974">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#25968;&#25454;&#35835;&#25110;&#32773;&#20889;&#30340;&#26102;&#20505;&#65292;ECC&#27169;&#22359;&#20250;&#20135;&#29983;ECC&#26657;&#39564;&#30721;&#21040;&#23492;&#23384;&#22120;
+    </p>
+    <p>
+      <b><i>NFMECC0/1</i></b>&#37324;&#38754;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520645275325" ID="ID_311361893" MODIFIED="1520645364678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#23436;&#25104;&#21521;&#19968;&#20010;page&#30340;&#20889;&#20837;&#25110;&#32773;&#35835;&#20986;(&#19981;&#21253;&#25324;spare&#21306;&#22495;)&#65292;
+    </p>
+    <p>
+      &#24212;&#24403;&#21521;MainECCLock&#20301;&#20889;1&#26469;&#20445;&#35777;ecc&#26657;&#39564;&#30721;&#34987;&#38145;&#23450;&#24182;&#19988;ecc&#29366;&#24577;&#23492;&#23384;&#22120;&#30340;&#20869;&#23481;
+    </p>
+    <p>
+      &#19981;&#34987;&#20462;&#25913;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520647472774" ID="ID_119712689" MODIFIED="1520647525858">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20026;&#20102;&#20135;&#29983;spare area&#30340;ECC&#26657;&#39564;&#30721;&#65292;&#24212;&#35813;&#23558;SpareECCLock(NFCONT[6]) &#20301;
+    </p>
+    <p>
+      &#28165;&#38646;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520648630084" ID="ID_149842791" MODIFIED="1520648694165">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#25968;&#25454;&#30340;&#35835;&#25110;&#32773;&#20889;&#23436;&#25104;&#20043;&#21518;&#65292;&#23492;&#23384;&#22120;NFSECC&#37324;&#38754;&#20250;&#20445;&#23384;spare area&#20135;&#29983;&#30340;
+    </p>
+    <p>
+      ECC&#26657;&#39564;&#30721;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1520648741332" ID="ID_295630462" MODIFIED="1520648786940">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;SpareECCLock bit to &#8216;1&#8217;&#65292;&#23601;&#20250;&#23558;ECC&#30340;&#26657;&#39564;&#30721;&#38145;&#23450;&#22312;&#23492;&#23384;&#22120;&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#24182;&#19988;ECC&#30340;&#29366;&#24577;&#23492;&#23384;&#22120;&#20063;&#19981;&#20250;&#34987;&#20462;&#25913;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1523689178102" ID="ID_298867211" MODIFIED="1523786329147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#1e36e5" size="4"><b><i>nand flash&#30340;&#19968;&#20123;&#25805;&#20316;&#27969;&#31243;</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1523689265647" ID="ID_442400977" MODIFIED="1523690237605">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1.<b>Multiplane Program</b>&#160;&#160;&#24182;&#34892;&#22320;&#21521;&#20004;&#20010;page&#24403;&#20013;programm,&#27599;&#19968;&#20010;plane&#19968;&#20010;page
+    </p>
+    <p>
+      &#35813;&#21608;&#26399;&#21253;&#25324;&#19968;&#20010;double serial data loading &#26102;&#27573;&#65292;&#29992;&#26469;&#23558;&#25968;&#25454;&#21152;&#36733;&#21040;&#20020;&#26102;&#30340;&#23492;&#23384;&#22120;&#24403;&#20013;&#65292;&#26368;&#22810;&#21487;&#20197;&#21152;&#36733;
+    </p>
+    <p>
+      4224&#20010;&#23383;&#33410;&#65292;&#32039;&#25509;&#30528;&#35813;&#26102;&#27573;&#30340;&#26159;&#19968;&#20010;non-volatile &#32534;&#31243;&#26102;&#27573;&#65292;&#29992;&#20110;&#23558;&#23492;&#23384;&#22120;&#24403;&#20013;&#30340;&#25968;&#25454;&#21152;&#36733;&#21040;cell&#24403;&#20013;
+    </p>
+    <p>
+      (1) &#36755;&#20837;serial data input&#21629;&#20196;0x80h
+    </p>
+    <p>
+      (2) &#20116;&#20010;&#21608;&#26399;&#30340;&#22320;&#22336;&#25968;&#25454;&#21644;&#31532;&#19968;&#20010;page&#24403;&#20013;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      &#35813;&#35774;&#22791;&#25903;&#25345;&#38543;&#26426;&#30340;&#25968;&#25454;&#36755;&#20837;&#21644;&#38543;&#26426;&#22320;&#22336;&#30340;&#39029;&#32534;&#31243;&#25805;&#20316;
+    </p>
+    <p>
+      (3)&#24403;&#25105;&#20204;&#36755;&#20837;&#21629;&#20196;Dummy Page Program Confirm command (11h)&#30340;&#26102;&#20505;&#65292;
+    </p>
+    <p>
+      &#20572;&#27490;&#21521;&#31532;&#19968;&#20010;page&#21457;&#36865;&#25968;&#25454;&#65292;&#24182;&#19988;&#35774;&#22791;&#36827;&#20837;&#30701;&#26242;&#30340;busy&#29366;&#24577;&#65292;&#20174;tDBSY&#24341;&#33050;&#21487;&#20197;&#33719;&#21462;&#24403;&#21069;&#30340;&#29366;&#24577;
+    </p>
+    <p>
+      (4)&#24403;&#35774;&#22791;&#20877;&#27425;&#36827;&#20837;ready&#30340;&#29366;&#24577;&#65292;&#25105;&#20204;&#38656;&#35201;&#31435;&#21363;&#36755;&#20837;&#21629;&#20196;'81h',&#24182;&#19988;&#31435;&#21363;&#35201;&#36319;&#38543;&#31532;&#20108;&#20010;page&#30340;&#22320;&#22336;&#21644;&#30456;&#24212;&#30340;&#20018;&#34892;&#25968;&#25454;
+    </p>
+    <p>
+      (5)&#36755;&#20837;&#24182;&#34892;&#32534;&#31243;&#25351;&#20196;Program Confirm command (10h)&#65292;&#24320;&#22987;&#23545;&#20004;&#20010;page&#36827;&#34892;&#24182;&#34892;&#30340;&#32534;&#31243;&#24037;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523690242993" ID="ID_223047198" MODIFIED="1523698173776">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>2.Copy Back Program </b>
+    </p>
+    <p>
+      &#35813;&#27169;&#24335;&#26159;&#34987;&#37197;&#32622;&#29992;&#26469;&#36827;&#34892;&#24555;&#36895;&#24182;&#19988;&#26377;&#25928;&#22320;&#37325;&#20889;&#23384;&#20648;&#22312;&#19968;&#20010;page&#24403;&#20013;&#30340;&#25968;&#25454;&#65292;&#24182;&#19988;&#19981;&#20351;&#29992;&#22806;&#37096;&#30340;&#20869;&#23384;&#12290;
+    </p>
+    <p>
+      &#30001;&#20110;&#32791;&#36153;&#26102;&#38388;&#30340;serial access&#21608;&#26399;&#21644;re-loading&#21608;&#26399;&#34987;&#21435;&#38500;&#20102;&#65292;copy back program&#21487;&#20197;&#33410;&#30465;&#22823;&#37327;&#30340;&#26102;&#38388;&#12290;
+    </p>
+    <p>
+      &#20063;&#23601;&#26159;&#35828;&#35813;&#25805;&#20316;&#22312;flash&#20869;&#37096;&#25335;&#36125;&#39029;&#30340;&#26102;&#20505;&#65292;&#30001;&#20110;&#19981;&#38656;&#35201;&#29301;&#25199;&#21040;&#25968;&#25454;&#25335;&#36125;&#21040;&#20869;&#23384;&#20877;&#20174;&#20869;&#23384;&#25335;&#36125;&#30340;flash&#30340;&#36807;&#31243;&#65292;
+    </p>
+    <p>
+      &#21487;&#20197;&#22823;&#22823;&#25552;&#39640;&#25335;&#36125;&#30340;&#24615;&#33021;&#12290;
+    </p>
+    <p>
+      &#25191;&#34892;&#30340;&#36807;&#31243;
+    </p>
+    <p>
+      1.&#36755;&#20837;&#21629;&#20196;35h&#65292;&#20877;&#36319;&#19978;source page&#30340;&#22320;&#22336;
+    </p>
+    <p>
+      2.source page&#37324;&#38754;&#30340;2112&#23383;&#33410;&#34987;&#25335;&#36125;&#21040;&#19968;&#20010;&#20869;&#37096;&#30340;&#25968;&#25454;buffer&#24403;&#20013;
+    </p>
+    <p>
+      3.&#36890;&#36807;&#32763;&#36716;RE#&#30340;&#20449;&#21495;&#65292;&#21487;&#20197;&#21457;&#20986;read-out&#21629;&#20196;&#23558;&#25968;&#25454;&#35835;&#20986;&#26469;&#12290;&#25110;&#32773;&#21457;&#20986;85h&#21629;&#20196;&#24182;&#19988;&#36319;&#38543;&#19968;&#20010;&#30446;&#26631;
+    </p>
+    <p>
+      page&#30340;&#22320;&#22336;&#65292;&#20174;&#32780;&#23558;&#25968;&#25454;&#25335;&#36125;&#21040;&#30446;&#30340;&#22320;
+    </p>
+    <p>
+      4.&#21457;&#20986;Program Confirm command (10h)&#26469;&#21551;&#21160;&#30495;&#27491;&#30340;&#25968;&#25454;programm&#25805;&#20316;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#25335;&#36125;&#30340;&#36807;&#31243;&#24403;&#20013;&#21487;&#33021;&#20250;&#36827;&#34892;&#33258;&#21160;&#30340;EDC&#25805;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1523690927002" ID="ID_696757979" MODIFIED="1523698892583">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>3.EDC Operation &#8212; S34ML02G1 and S34ML04G1 </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      error detect check&#21487;&#20197;&#34987;&#20351;&#29992;&#22312;copy back program&#36807;&#31243;&#24403;&#20013;&#65292;&#29992;&#20110;&#26816;&#27979;&#26469;&#33258;source page
+    </p>
+    <p>
+      &#24403;&#20013;&#30340;&#38169;&#35823;&#12290; EDC&#26816;&#27979;&#20801;&#35768;&#27599;528&#20010;&#23383;&#33410;&#23601;&#21487;&#20197;&#26816;&#27979;&#20986;&#19968;&#20010;bit&#30340;&#38169;&#35823;&#65292;&#36825;528&#20010;&#23383;&#33410;&#21253;&#25324;main area
+    </p>
+    <p>
+      &#30340;512&#20010;&#23383;&#33410;&#19982;spare area&#24403;&#20013;&#30340;16&#20010;&#23383;&#33410;
+    </p>
+    <p>
+      EDC&#23492;&#23384;&#22120;&#21487;&#20197;&#22312;copy back program busy time (t PROG )&#30340;&#26102;&#38388;&#27573;&#20869;&#36890;&#36807;Read EDC register&#21629;&#20196;
+    </p>
+    <p>
+      &#26469;&#35835;&#21462;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#24819;&#35201;EDC&#26816;&#26597;&#21487;&#20197;&#27491;&#24120;&#22320;&#24037;&#20316;&#65292;&#19968;&#20123;&#20855;&#20307;&#30340;&#25968;&#25454;&#36755;&#20837;&#22788;&#29702;&#30340;&#26465;&#20214;&#38656;&#35201;&#34987;&#24212;&#29992;&#21040;page program&#21644;
+    </p>
+    <p>
+      copy back programm(single, cached, mutiplane)
+    </p>
+    <p>
+      .......&#21518;&#38754;&#34917;&#20805;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#d90909">&#22914;&#26524;EDC&#26816;&#27979;&#22833;&#36133;&#65292;&#21487;&#20197;&#20351;&#29992;&#35774;&#22791;&#22806;&#37096;&#30340;ECC&#26816;&#27979;&#24037;&#20855; </font>
+    </p>
+    <p>
+      <font color="#d90909">f this also fails, the host can execute a Page Read operation in order to </font>
+    </p>
+    <p>
+      <font color="#d90909">correct a single bit error with external ECC software or hardware</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1523698435185" ID="ID_1037350846" MODIFIED="1523698449229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="armpic/copy-back-program.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1523699521065" ID="ID_1420900155" MODIFIED="1523699902364">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#1634eb" size="4">&#26102;&#24207;&#22270; </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p class="MsoNormal">
+      <font face="Calibri" size="10.5000pt">TACLS</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#65306;&#34920;&#31034;</font><font face="Calibri" size="10.5000pt">CLT/ALE</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#30340;&#24314;&#31435;&#26102;&#38388;</font><font face="Calibri" size="10.5000pt">(setup&#160;time)</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#12290;</font><font face="Calibri" size="10.5000pt"><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="Calibri" size="10.5000pt">TWRPH0</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#65306;&#34920;&#31034;</font><font face="Calibri" size="10.5000pt">nWE/nRE</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#25345;&#32493;&#30340;&#26102;&#38388;&#12290;</font><font face="Calibri" size="10.5000pt"><o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font face="Calibri" size="10.5000pt">TWRPH1</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#65306;&#34920;&#31034;&#20889;&#36827;&#21435;&#30340;&#25968;&#25454;&#36215;&#20316;&#29992;&#30340;&#26102;&#38388;</font><font face="Calibri" size="10.5000pt">(hold&#160;time)</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt">&#12290;</font><font face="Calibri" size="10.5000pt"><o p="#DEFAULT"></o></font>
+    </p>
+    <p>
+      
+    </p>
+    <p class="MsoNormal">
+      <font face="Calibri" size="10.5000pt" color="#c91d1d"><i>TACLS</i></font><i><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#23601;&#30456;&#24403;&#20110;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">tCLS</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#21644;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">tALS</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#21442;&#25968;&#65292;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">TWRPH0</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#23601;&#30456;&#24403;&#20110;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">tWP</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#65292;&#32780;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">TWRPH1</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#23601;&#30456;&#24403;&#20110;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">tCLH</font><font face="&#x5b8b;&#x4f53;" size="10.5000pt" color="#c91d1d">&#21644;</font><font face="Calibri" size="10.5000pt" color="#c91d1d">TALH<o p="#DEFAULT" color="#c91d1d"></o></font></i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1523700124424" ID="ID_1145555650" MODIFIED="1524333033231">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img src="armpic/command_latch.png" />
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26597;&#35810;datasheet&#65292;&#24471;&#21040;&#22914;&#19979;&#20540;:
+    </p>
+    <p>
+      tCLS = 12 ns(Min)
+    </p>
+    <p>
+      tCLH = 5 ns(Min)
+    </p>
+    <p>
+      tCS = 20 ns(Min)
+    </p>
+    <p>
+      tCH = 5 ns(Min)
+    </p>
+    <p>
+      tWp = 12 ns(min)
+    </p>
+    <p>
+      tALS = 12 ns(Min)
+    </p>
+    <p>
+      tALH = 5 ns(Min)
+    </p>
+    <p>
+      tDS = 12 ns(Min)
+    </p>
+    <p>
+      tDH = 5 ns(Min)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1514103799374" FOLDED="true" ID="ID_544352964" MODIFIED="1521984517318" TEXT="nor flash">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1514104629085" ID="ID_1018373617" MODIFIED="1514105651803" TEXT="EN29LV160A"/>
+<node CREATED="1514106190404" ID="ID_777405981" MODIFIED="1514106223140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>JEDEC PROBE: ID 1c 2249 0 </b>
+    </p>
+    <p>
+      <b>JEDEC PROBE: ID 16 ea00 0</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1516540963722" ID="ID_610926566" MODIFIED="1516541210618">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23481;&#37327;&#26159;2MB
+    </p>
+    <p>
+      sector&#30340;&#27169;&#24335;&#26159;&#21487;&#36873;&#30340;:
+    </p>
+    <p>
+      byte&#27169;&#24335;&#65292;&#36825;&#31181;&#27169;&#24335;&#19979;&#38754;&#30340;&#20869;&#23384;&#20998;&#37197;&#26159;&#36825;&#26679;&#30340;
+    </p>
+    <p>
+      1&#20010;16k&#25159;&#21306;&#65292;2&#20010;8k&#25159;&#21306;&#65292;1&#20010;32k&#25159;&#21306;&#65292;31&#20010;64k&#25159;&#21306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      word&#27169;&#24335;&#65292;&#35813;&#27169;&#24335;&#19979;&#38754;&#30340;&#20869;&#23384;&#20998;&#37197;&#26159;&#36825;&#26679;&#30340;
+    </p>
+    <p>
+      1&#20010;8k word, 2 &#20010;4k word, 1&#20010;16k word, 31&#20010;32k word
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1516541391254" ID="ID_430075546" MODIFIED="1516541476677">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      JEDEC&#26631;&#20934;&#30340;&#32534;&#31243;&#21644;&#25830;&#20889;&#21629;&#20196;
+    </p>
+    <p>
+      JEDEC&#26631;&#20934;&#30340;DATA#&#36718;&#35810;&#26426;&#21046;&#21644;&#27604;&#29305;&#21453;&#36716;&#29305;&#24615;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518750903734" FOLDED="true" ID="ID_190612425" MODIFIED="1521984515460" TEXT="&#x5f15;&#x811a;&#x63a5;&#x53e3;">
+<node CREATED="1518750918826" FOLDED="true" ID="ID_1536343227" MODIFIED="1521984511428">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/nv29lv-01.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1519095088772" ID="ID_446888501" MODIFIED="1519095368906">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      byte&#24341;&#33050;&#29992;&#26469;&#25511;&#21046;&#35774;&#22791;&#26159;&#22788;&#20110;byte&#27169;&#24335;&#36824;&#26159;&#22788;&#20110;word&#27169;&#24335;&#65292;&#24403;byte&#26159;&#39640;&#30005;&#24179;&#30340;&#26102;&#20505;&#65292;
+    </p>
+    <p>
+      &#31995;&#32479;&#23601;&#35774;&#32622;&#25104;&#20102;word&#27169;&#24335;&#65292;&#36825;&#20010;&#26102;&#20505;DQ0-DQ15&#37117;&#26159;&#25968;&#25454;&#24341;&#33050;&#65292;&#24182;&#19988;&#30001;CE#&#21644;OE#&#26469;&#36827;&#34892;&#25511;&#21046;&#12290;
+    </p>
+    <p>
+      &#24403;byte&#26159;&#20302;&#30005;&#24179;&#30340;&#26102;&#20505;&#65292;&#35774;&#22791;&#23601;&#36827;&#20837;&#20102;byte&#27169;&#24335;&#65292;&#36825;&#20010;&#26102;&#20505;DQ0-DQ7&#26159;&#25968;&#25454;&#24341;&#33050;&#65292;
+    </p>
+    <p>
+      DQ15&#21017;&#20316;&#20026;&#22320;&#22336;&#24341;&#33050;&#30340;&#26368;&#20302;&#20301;&#20102;&#65292;&#20854;&#20182;&#30340;&#24341;&#33050;&#22788;&#20110;&#39640;&#38459;&#24577;&#30340;&#27169;&#24335;&#65292;&#36755;&#20837;&#21644;&#36755;&#20986;&#20063;&#26159;&#30001;CE#&#21644;OE#&#26469;&#36827;&#34892;&#25511;&#21046;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1505654295675" FOLDED="true" ID="ID_1237490696" MODIFIED="1521984507020">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6474,7 +7780,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1488207723936">
+<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1537187915938">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7157,8 +8463,20 @@
 <node COLOR="#cc0000" CREATED="1461079575435" ID="ID_81324376" MODIFIED="1461079623616" TEXT="2440&#x4e2d;&#x65ad;&#x7cfb;&#x7edf;&#x4ee3;&#x7801;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1522250080704" ID="ID_1677971091" MODIFIED="1522250118768">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>2440&#30828;&#20214;&#20013;&#26029;&#20307;&#31995;</b>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1487407609196" FOLDED="true" ID="ID_863323506" MODIFIED="1492228211800">
+</node>
+<node CREATED="1487407609196" FOLDED="true" ID="ID_863323506" MODIFIED="1526871355059">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7172,7 +8490,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1487407990088" FOLDED="true" ID="ID_720726212" MODIFIED="1492228209688">
+<node CREATED="1487407990088" ID="ID_720726212" MODIFIED="1524240015909">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7198,7 +8516,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1488004472092" ID="ID_254397013" MODIFIED="1488004695220">
+<node CREATED="1488004472092" ID="ID_254397013" MODIFIED="1524240032891">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7211,7 +8529,7 @@
       -device &#36830;&#25509;&#30340;&#30446;&#26631;&#35774;&#22791;
     </p>
     <p>
-      <font color="#eb0808">&#23545;&#20110;&#25903;&#25345;&#30340;&#35774;&#22791;&#36873;&#39033;&#65292;&#21487;&#20197;&#21442;&#32771;&#32593;&#31449;http://www.seg-ger.com/jlink_supported_devices.html</font>
+      <font color="#eb0808">&#23545;&#20110;&#25903;&#25345;&#30340;&#35774;&#22791;&#36873;&#39033;&#65292;&#21487;&#20197;&#21442;&#32771;&#32593;&#31449;https://www.segger.com/downloads/supported-devices.php</font>
     </p>
     <p>
       -endian &#36873;&#25321;&#35774;&#22791;&#30340;&#22823;&#23567;&#31471;
@@ -7224,6 +8542,7 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1514112021092" ID="ID_369027220" MODIFIED="1514112024664" TEXT="./JLinkGDBServer -device s3c2440a   -if jtag"/>
 </node>
 <node CREATED="1488005535488" ID="ID_148470940" MODIFIED="1488005547952">
 <richcontent TYPE="NODE"><html>
@@ -7250,7 +8569,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1488005845567" FOLDED="true" ID="ID_1017227841" MODIFIED="1492228205248">
+<node CREATED="1488005845567" ID="ID_1017227841" MODIFIED="1524240328303">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7339,7 +8658,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1488008792947" FOLDED="true" ID="ID_1740652419" MODIFIED="1492228203008">
+<node CREATED="1488008792947" FOLDED="true" ID="ID_1740652419" MODIFIED="1524240386996">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7429,6 +8748,42 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1514112537936" ID="ID_1616919027" MODIFIED="1514209388038">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      target remote localhost:2331
+    </p>
+    <p>
+      monitor speed 1000
+    </p>
+    <p>
+      monitor flash device = STM32F103VB
+    </p>
+    <p>
+      monitor flash breakpoints = 1
+    </p>
+    <p>
+      monitor flash download = 1
+    </p>
+    <p>
+      load ST_MB525_FLASH.elf
+    </p>
+    <p>
+      # Initializing PC and stack pointer
+    </p>
+    <p>
+      monitor reg r13 = (0x00000000)
+    </p>
+    <p>
+      monitor reg pc = (0x00000004)
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1488014465262" ID="ID_1872089217" MODIFIED="1488015245055">
 <richcontent TYPE="NODE"><html>
@@ -7464,7 +8819,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1510230634047">
+<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1544867270097">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7510,7 +8865,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#009933" CREATED="1445351839072" FOLDED="true" ID="ID_1683018728" MODIFIED="1488206363242" POSITION="right">
+<node COLOR="#009933" CREATED="1445351839072" FOLDED="true" ID="ID_1683018728" MODIFIED="1515829205203" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7571,7 +8926,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1457835982281" FOLDED="true" ID="ID_1941317106" MODIFIED="1480259681946">
+<node CREATED="1457835982281" FOLDED="true" ID="ID_1941317106" MODIFIED="1510444594727">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7721,7 +9076,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1510230565882" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
+<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1515829201604" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471275813283" FOLDED="true" ID="ID_545263273" MODIFIED="1474811443087" TEXT="1.&#x6307;&#x4ee4;cache&#x548c;&#x6570;&#x636e;cache">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -8052,7 +9407,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1473579425727" FOLDED="true" ID="ID_183642504" MODIFIED="1510230564770">
+<node CREATED="1473579425727" ID="ID_183642504" MODIFIED="1510398076626">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8492,7 +9847,7 @@
 <node CREATED="1501557735889" ID="ID_975404402" MODIFIED="1501557741993" TEXT="Cortex-A57"/>
 </node>
 </node>
-<node CREATED="1501557851023" FOLDED="true" ID="ID_777178217" MODIFIED="1510230427993" POSITION="right">
+<node CREATED="1501557851023" FOLDED="true" ID="ID_777178217" MODIFIED="1542899852581" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8536,7 +9891,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1502105108418" FOLDED="true" ID="ID_1087043511" MODIFIED="1510230889097" POSITION="right" TEXT="&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x76f8;&#x5173;&#x7684;&#x4e66;&#x7c4d;">
+<node CREATED="1502105108418" FOLDED="true" ID="ID_1087043511" MODIFIED="1539409478978" POSITION="right" TEXT="&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x76f8;&#x5173;&#x7684;&#x4e66;&#x7c4d;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502105123113" ID="ID_915899844" MODIFIED="1502105415848">
 <richcontent TYPE="NODE"><html>
@@ -8646,7 +10001,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1509288952491" FOLDED="true" ID="ID_1086060493" MODIFIED="1510230581444" POSITION="left" TEXT="BeagleBone Balck&#x5f00;&#x53d1;&#x677f;&#x5b66;&#x4e60;">
+<node CREATED="1509288952491" FOLDED="true" ID="ID_1086060493" MODIFIED="1544867274208" POSITION="left" TEXT="BeagleBone Balck&#x5f00;&#x53d1;&#x677f;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1509289374385" ID="ID_1436234014" MODIFIED="1509290260177">
 <richcontent TYPE="NODE"><html>
@@ -8696,6 +10051,18 @@
 <node CREATED="1509460544995" ID="ID_266596539" MODIFIED="1509460547763" TEXT="am33xx.dtsi"/>
 </node>
 </node>
+</node>
+<node CREATED="1539409496460" ID="ID_1616571622" MODIFIED="1539409538812" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e30c0c"><b><i>tiny4412&#24320;&#21457;&#26495;&#23398;&#20064;</i></b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </map>

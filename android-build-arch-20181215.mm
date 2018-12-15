@@ -11,7 +11,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1434419078201" FOLDED="true" ID="ID_338187251" MODIFIED="1502243382849" POSITION="right">
+<node CREATED="1434419078201" FOLDED="true" ID="ID_338187251" MODIFIED="1526220235420" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1776,8 +1776,7 @@
       <font color="#930606"><b>&#24037;&#31243;&#23454;&#36341;&#38382;&#39064;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1502243421966" ID="ID_130678279" MODIFIED="1502246669418">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1836,8 +1835,7 @@
       0%&#25351;&#31532;&#19968;&#20010;&#25805;&#20316;&#25968;&#65292; 1%&#25351;&#31532;&#20108;&#20010;&#25805;&#20316;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1502246675414" ID="ID_434940880" MODIFIED="1502248789546">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1890,8 +1888,7 @@
       );
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1502248797702" ID="ID_391514910" MODIFIED="1502262142196">
 <richcontent TYPE="NODE"><html>
@@ -1999,10 +1996,38 @@
       <font color="#eb1010">);</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1526220243285" ID="ID_1915142607" MODIFIED="1526220282727" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>Android Ninja</i></b>
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
+<node CREATED="1526220557528" ID="ID_370424182" MODIFIED="1526272945682">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32593;&#31449;:
+    </p>
+    <p>
+      http://note.qidong.name/2017/08/android-ninja/
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

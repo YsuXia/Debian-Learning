@@ -4,7 +4,7 @@
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456222858229" ID="ID_1988131115" MODIFIED="1469155383395" POSITION="right" TEXT="&#x8bbe;&#x5907;&#x5b9e;&#x4f8b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456223078399" FOLDED="true" ID="ID_148465083" MODIFIED="1502794395754">
+<node CREATED="1456223078399" ID="ID_148465083" MODIFIED="1527605852214">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -128,7 +128,7 @@
 <arrowlink COLOR="#c10909" DESTINATION="ID_906361615" ENDARROW="Default" ENDINCLINATION="448;0;" ID="Arrow_ID_251006360" STARTARROW="None" STARTINCLINATION="77;-9;"/>
 </node>
 </node>
-<node CREATED="1456280853502" ID="ID_280100042" MODIFIED="1456281063593">
+<node CREATED="1456280853502" ID="ID_280100042" MODIFIED="1527647272016">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -198,7 +198,7 @@
       <i><b>&#160;167&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* iterate over all ivtv device instances */ </b></i>
     </p>
     <p>
-      <i><b>&#160;168&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;err = driver_for_each_device(drv, NULL, p, callback); </b></i>
+      <i><b>&#160;168&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;err = driver_for_each_device(drv, NULL, p, callback);&#160;&#160; </b></i><b><font color="#eb1010">iterate all devices bound to this driver</font></b>
     </p>
     <p>
       <i><b>&#160;169&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;put_driver(drv); </b></i>
@@ -254,7 +254,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456222860959" FOLDED="true" ID="ID_1547948907" MODIFIED="1502794400926" POSITION="left">
+<node CREATED="1456222860959" ID="ID_1547948907" MODIFIED="1527605829815" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -372,6 +372,57 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1527663093444" ID="ID_549285698" MODIFIED="1527663544550">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#24819;&#20351;&#29992;v4l2_ioctl_ops&#21017;&#24517;&#39035;&#35774;&#32622;
+    </p>
+    <p>
+      v4l2_file_operations&#37324;&#38754;&#30340;<b>.unlock_ioctl&#20026;video_ioctl2</b>
+    </p>
+    <p>
+      &#19981;&#24314;&#35758;&#20351;&#29992;.ioctl, &#36825;&#20010;&#36873;&#39033;&#21518;&#38754;&#35201;&#34987;&#24223;&#24323;&#25481;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527663711700" ID="ID_1424751391" MODIFIED="1527663795429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      v4l2_file_operation&#26159;file_operations&#30340;&#23376;&#38598;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1527663870483" ID="ID_832242071" MODIFIED="1527663882509">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      void v4l2_fh_init(struct v4l2_fh *fh, struct video_device *vdev)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;Initialise the file handle. This *MUST* be performed in the driver's
+    </p>
+    <p>
+      &#160;&#160;v4l2_file_operations-&gt;open() handler.
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1456382926968" ID="ID_1581922574" MODIFIED="1456383183880">
 <richcontent TYPE="NODE"><html>
@@ -593,7 +644,7 @@
 </node>
 <node CREATED="1456222863406" ID="ID_1740167756" MODIFIED="1456283030532" POSITION="right" TEXT="&#x5b50;&#x8bbe;&#x5907;&#x5b9e;&#x4f8b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456223113677" FOLDED="true" ID="ID_985161457" MODIFIED="1502794391175" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;v4l2_subdev">
+<node CREATED="1456223113677" ID="ID_985161457" MODIFIED="1527605849735" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;v4l2_subdev">
 <node CREATED="1456224724087" ID="ID_456067746" MODIFIED="1456224807137">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -729,7 +780,34 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1456299046549" FOLDED="true" ID="ID_287870645" MODIFIED="1502794389623">
+<node CREATED="1527745417748" ID="ID_1373655283" MODIFIED="1527745592868">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      internal_ops&#25351;&#38024;&#25351;&#21521;struct v4l2_subdev_internal_ops&#65292;&#36825;&#20010;&#32467;&#26500;&#20307;&#26159;&#32473;
+    </p>
+    <p>
+      v4l2 &#26694;&#26550;&#26469;&#20351;&#29992;&#30340;&#65292;&#20854;&#20182;&#30340;&#39537;&#21160;&#31243;&#24207;&#19981;&#33021;&#20351;&#29992;&#12290;&#35813;&#32467;&#26500;&#20307;&#37324;&#38754;&#23450;&#20041;&#20102;&#22235;&#20010;&#20989;&#25968;
+    </p>
+    <p>
+      registered&#65306; &#24403;&#23376;&#35774;&#22791;&#27880;&#20876;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;&#35813;&#20989;&#25968;&#65292;&#36825;&#26679;&#23376;&#35774;&#22791;&#21487;&#20197;&#25351;&#21521;v4l2_device&#35774;&#22791;&#20102;
+    </p>
+    <p>
+      unregistered&#65306; &#23376;&#35774;&#22791;&#27880;&#38144;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;&#35813;&#20989;&#25968;
+    </p>
+    <p>
+      open: &#24403;&#23376;&#35774;&#22791;&#30340;&#33410;&#28857;&#34987;&#24212;&#29992;&#31243;&#24207;&#25171;&#24320;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;&#35813;&#20989;&#25968;
+    </p>
+    <p>
+      close:&#24403;&#23376;&#35774;&#22791;&#20851;&#38381;&#30340;&#26102;&#20505;&#20250;&#35843;&#29992;&#35813;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1456299046549" ID="ID_287870645" MODIFIED="1527675437244">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -761,7 +839,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1456305748196" ID="ID_489623840" MODIFIED="1469155402895">
+<node CREATED="1456305748196" ID="ID_489623840" MODIFIED="1527689378078">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -777,7 +855,7 @@
       &#160;&#160;struct media_pad *pads = &amp;my_sd-&gt;pads
     </p>
     <p>
-      &#160;&#160;err = media_entity_init(&amp;sd-&gt;entity, npads, pads, 0)
+      &#160;&#160;err = media_entity_init(&amp;sd-&gt;entity, npads, pads, 0) pads&#25968;&#32452;&#24517;&#39035;&#26159;&#20808;&#21069;&#23601;&#21021;&#22987;&#21270;&#22909;&#30340;
     </p>
     <p>
       <i>&#24403;<font color="#e41212">&#23376;&#35774;&#22791;&#33410;&#28857;&#34987;&#25171;&#24320;&#25110;&#32773;&#20851;&#38381;&#65292;&#23545;entity&#30340;&#24341;&#29992;&#23558;&#34987;&#33258;&#21160;&#33719;&#21462;&#25110;&#32773;&#37322;&#25918; </font></i>
@@ -789,7 +867,13 @@
       <i><font color="#e41212">&#160;media_entity_cleanup(&amp;sd-&gt;entity) </font></i>
     </p>
     <p>
-      <i><font color="#130707">&#21516;&#26102;&#24517;&#39035;&#20351;&#29992;pad_ops&#26469;&#22788;&#29702;&#36319;&#35270;&#39057;&#30456;&#20851;&#30340;&#24037;&#20316;</font></i>
+      
+    </p>
+    <p>
+      &#22914;&#26524;subdev&#30340;&#39537;&#21160;&#31243;&#24207;&#24819;&#35201;&#22788;&#29702;video,&#24182;&#19988;&#36824;&#24819;&#34701;&#21512;&#21040;media&#26694;&#26550;&#24403;&#20013;&#21435;&#65292;&#37027;&#20040;&#23427;&#24517;&#39035;&#20351;&#29992;
+    </p>
+    <p>
+      v4l2_subdev_pad_ops&#25805;&#20316;&#38598;&#21512;&#22788;&#29702;&#36319;format&#26377;&#20851;&#30340;&#19996;&#35199;&#32780;&#19981;&#26159;&#20351;&#29992;v4l2_subdev_video_ops.
     </p>
   </body>
 </html></richcontent>
@@ -999,7 +1083,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1456371842626" ID="ID_1785839015" MODIFIED="1456372722584">
+<node CREATED="1456371842626" ID="ID_1785839015" MODIFIED="1527745276993">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1007,6 +1091,12 @@
   <body>
     <p>
       1.&#21019;&#24314;&#35774;&#22791;&#33410;&#28857;
+    </p>
+    <p>
+      &#22914;&#26524;&#23376;&#35774;&#22791;&#24819;&#35201;&#33021;&#22815;&#20174;&#29992;&#25143;&#31354;&#38388;&#36827;&#34892;&#37197;&#32622;&#65292;&#37027;&#20040;&#22312;&#27880;&#20876;&#23376;&#35774;&#22791;&#20043;&#21069;&#65292;&#24517;&#39035;&#35201;&#35774;&#32622;V4L2_SUBDEV_FL_HAS_DEVNODE
+    </p>
+    <p>
+      &#36825;&#20010;&#26631;&#24535;&#12290;
     </p>
     <p>
       &#12288;v4l2_device&#39537;&#21160;&#31243;&#24207;&#21487;&#20197;&#36890;&#36807;&#35843;&#29992;&#20989;&#25968;
@@ -1020,7 +1110,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1456372730610" ID="ID_1880270606" MODIFIED="1456375681375">
+<node CREATED="1456372730610" ID="ID_1880270606" MODIFIED="1527750603329">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1069,13 +1159,13 @@
       &#20013;&#35774;&#32622;<b>V4L2_SUBDEV_USES_EVENTS&#26631;&#24535;</b>
     </p>
     <p>
-      &#35774;&#32622;<b>v4l2_subdev::nevents</b>&#160;&#21040;&#30456;&#24212;&#30340;&#20107;&#20214;&#28145;&#24230;&#20540;&#65292;&#36825;&#20010;&#26102;&#20505;&#19968;&#26086;&#26377;&#20107;&#20214;&#26469;&#20020;&#23601;&#21487;&#20197;&#23558;
+      &#35774;&#32622;<b>v4l2_subdev::nevents</b>&#160;&#21040;&#30456;&#24212;&#30340;&#20107;&#20214;&#28145;&#24230;, &#27880;&#20876;&#20043;&#21518;&#26469;&#20020;&#30340;&#20107;&#20214;&#20250;&#34987;&#25918;&#32622;&#21040;v4l2_subdev::devnode
     </p>
     <p>
-      &#20107;&#20214;&#25490;&#20837;&#38431;&#21015;&#37324;&#38754;&#20102;
+      &#23545;&#24212;&#30340;&#33410;&#28857;&#37324;&#38754;&#12290;&#20026;&#20102;&#25903;&#25345;&#20107;&#20214;&#26426;&#21046;&#65292;poll&#25991;&#20214;&#31995;&#32479;&#35843;&#29992;&#20250;&#34987;&#23454;&#29616;&#12290;
     </p>
     <p>
-      Private ioctls&#12288;&#19978;&#38754;&#27809;&#26377;&#25552;&#21040;&#30340;ioctl&#20250;&#34987;&#30452;&#25509;&#36865;&#21040;subdev&#30340;ioctl&#37324;&#38754;&#36827;&#34892;&#22788;&#29702;
+      Private ioctls&#12288;&#19978;&#38754;&#27809;&#26377;&#25552;&#21040;&#30340;ioctl&#20250;&#34987;&#30452;&#25509;&#36865;&#21040;subdev&#30340;core::ioctl&#37324;&#38754;&#36827;&#34892;&#22788;&#29702;
     </p>
   </body>
 </html></richcontent>
@@ -1223,7 +1313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456222865879" FOLDED="true" ID="ID_1512787561" MODIFIED="1502794399554" POSITION="left" TEXT="&#x6587;&#x4ef6;&#x53e5;&#x67c4;">
+<node CREATED="1456222865879" ID="ID_1512787561" MODIFIED="1527605857879" POSITION="left" TEXT="&#x6587;&#x4ef6;&#x53e5;&#x67c4;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456223190786" ID="ID_988059920" MODIFIED="1456391010449">
 <richcontent TYPE="NODE"><html>
@@ -1332,7 +1422,7 @@
 <node CREATED="1456222964383" ID="ID_52040675" MODIFIED="1456222989047" POSITION="right" TEXT="&#x89c6;&#x9891;&#x7f13;&#x51b2;&#x6846;&#x67b6;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1456393574909" FOLDED="true" ID="ID_1341033271" MODIFIED="1502794402486" POSITION="left">
+<node CREATED="1456393574909" ID="ID_1341033271" MODIFIED="1527605862362" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1473,9 +1563,42 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1527651211698" ID="ID_1835299552" MODIFIED="1527651220971" POSITION="left" TEXT="media framework">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1527651317873" ID="ID_911304303" MODIFIED="1527652174098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21457;&#29616;&#35774;&#22791;&#30340;&#20869;&#37096;&#25299;&#25169;&#32467;&#26500;&#24182;&#19988;&#22312;&#36816;&#34892;&#26102;&#21051;&#37197;&#32622;&#23427;&#65292;&#36825;&#26159;media framewrok&#30340;&#19968;&#20010;&#30446;&#26631;&#20043;&#19968;&#12290;
+    </p>
+    <p>
+      &#20026;&#20102;&#23454;&#29616;&#36825;&#20010;&#30446;&#26631;&#65292;&#30828;&#20214;&#35774;&#22791;&#34987;&#24314;&#27169;&#25104;&#20102;&#19968;&#20010;&#26377;&#21521;&#22270;&#65292;&#25104;&#20026;entities,&#36890;&#36807;pads&#26469;&#36827;&#34892;&#36830;&#25509;&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;entity&#23601;&#26159;&#19968;&#20010;&#22522;&#26412;&#30340;&#23186;&#20307;&#30828;&#20214;&#26500;&#24314;&#22359;&#65292;&#23427;&#21487;&#20197;&#23545;&#24212;&#21040;&#22810;&#31181;&#22810;&#26679;&#30340;&#36923;&#36753;&#22359;&#19978;&#65292;&#27604;&#22914;&#29289;&#29702;&#30340;&#30828;&#20214;&#35774;&#22791;&#65292;
+    </p>
+    <p>
+      &#36923;&#36753;&#30828;&#20214;&#35774;&#22791;(&#27604;&#22914;&#19968;&#20010;&#29255;&#19978;&#30340;&#22270;&#20687;&#22788;&#29702;pipeline), DMA&#36890;&#36947;&#25110;&#32773;&#19968;&#20010;&#29289;&#29702;&#30340;&#36830;&#25509;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#20010;pad&#23601;&#26159;&#19968;&#20010;&#36830;&#25509;&#30340;&#31471;&#28857;&#65292;&#36890;&#36807;&#35813;&#31471;&#28857;&#65292;&#19968;&#20010;entity&#21487;&#20197;&#36319;&#20854;&#20182;&#30340;entity&#36827;&#34892;&#20132;&#27969;&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;link&#23601;&#26159;&#22312;&#20004;&#20010;pad&#20043;&#38388;&#30340;&#36830;&#25509;&#65292;&#25968;&#25454;&#20174;source pad&#27969;&#21521;sink pad
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1502794414287" ID="ID_491536815" MODIFIED="1502794425919" POSITION="right" TEXT="MIPI&#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1502794468790" ID="ID_1882812769" MODIFIED="1502794511567">
+<node CREATED="1502794468790" ID="ID_1882812769" MODIFIED="1535934973462">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1665,6 +1788,25 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1543487037584" ID="ID_1342658554" MODIFIED="1543487264211">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A CSI-2 receiver shall be configured as a master and a CSI-2 transmitter shall be configured as a slave on
+    </p>
+    <p>
+      the CCI bus.
+    </p>
+    <p>
+      &#23545;&#24212;&#20110;csi&#30340;&#25509;&#21475;&#65292;&#25509;&#25910;&#31471;&#24212;&#35813;&#34987;&#37197;&#32622;&#25104;cci&#30340;master, &#32780;csi&#30340;&#21457;&#36865;&#31471;&#21017;&#24212;&#35813;&#34987;&#35774;&#32622;&#25104;&#20026;cci&#30340;slave&#31471;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1502864670166" ID="ID_525114129" MODIFIED="1502864692888">
 <richcontent TYPE="NODE"><html>
@@ -1794,7 +1936,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1510217346674" FOLDED="true" ID="ID_407029654" MODIFIED="1510224111607">
+<node CREATED="1510217346674" ID="ID_407029654" MODIFIED="1535935696711">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1818,8 +1960,7 @@
       &#19968;&#20010;EoT&#24207;&#21015;&#65292;&#21516;&#26102;&#35813;&#25968;&#25454;&#21253;&#36827;&#20837;&#20102;low power state&#29366;&#24577;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1510217886926" ID="ID_746972144" MODIFIED="1510218312678">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1836,8 +1977,7 @@
       &#23383;&#33410;&#20256;&#36755;&#30340;&#24207;&#21015;&#21482;&#25910;&#21040;&#35813;&#37096;&#20998;&#30340;&#25968;&#25454;&#26684;&#24335;&#30340;&#24433;&#21709;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1510218194157" ID="ID_387054374" MODIFIED="1510218199659">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1846,8 +1986,7 @@
   <body>
     <img src="mipi/mipi-llp-LongPacketFormat01.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1510218335036" ID="ID_206463631" MODIFIED="1510218568764">
@@ -1860,8 +1999,7 @@
       Short Packet&#30340;&#26684;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1510218572202" ID="ID_1235951739" MODIFIED="1510218639396">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1879,8 +2017,7 @@
       &#21482;&#19981;&#36807;&#23558;WC&#37096;&#20998;&#26367;&#25442;&#25104;&#20102;&#30701;&#25968;&#25454;&#21253;&#30340;&#25968;&#25454;&#36127;&#36733;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1900,9 +2037,175 @@
       data type&#21017;&#26159;6&#20010;bit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1535936045604" ID="ID_1885186647" MODIFIED="1535936974331">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3. Virtual Channel Identifier
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535936085584" ID="ID_1481313714" MODIFIED="1535936982379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4. Data Type
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1535936166547" ID="ID_1714506362" MODIFIED="1535936224330">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      data type&#25351;&#23450;&#36127;&#36733;&#25968;&#25454;&#30340;&#20869;&#23481;&#36319;&#26684;&#24335;&#65292;&#30446;&#21069;&#19968;&#20849;&#26377;64&#31181;
+    </p>
+    <p>
+      &#25968;&#25454;&#26684;&#24335;&#65292;&#20998;&#25104;&#20102;8&#20010;&#31867;&#21035;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535936886105" ID="ID_886917977" MODIFIED="1535936908165">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="mipi/datatype.JPG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1535936985208" ID="ID_1061680033" MODIFIED="1535937003928" TEXT="5. Packet Header Error Correction Code"/>
+<node CREATED="1535937027009" ID="ID_1435522503" MODIFIED="1535937039014" TEXT="6. Checksum Generation"/>
+<node CREATED="1535937042338" ID="ID_1120083451" MODIFIED="1535937051803" TEXT="7. Packet Spacing"/>
+<node CREATED="1535937069335" ID="ID_1003544556" MODIFIED="1535937105188">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      8. Synchronization Short Packet Data Type Codes
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1535937108432" ID="ID_1098540905" MODIFIED="1535937135909">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Frame Synchronization Packet
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1535937138393" ID="ID_1220797065" MODIFIED="1535937159730">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Line Synchronization Packets
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1527585443389" FOLDED="true" ID="ID_1269988627" MODIFIED="1535934969802" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#380fef"><i>8916 camera driver&#26694;&#26550;&#23398;&#20064;</i></font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1527585511772" ID="ID_192520650" MODIFIED="1527585520793" TEXT="1. device tree&#x7ed3;&#x6784;">
+<node CREATED="1527585962352" ID="ID_1014306860" MODIFIED="1527585965121" TEXT="msm8916-mtp.dts">
+<node CREATED="1527585975752" ID="ID_782603776" MODIFIED="1527585978886" TEXT="msm8916-mtp.dtsi">
+<node CREATED="1527586016888" ID="ID_170662633" MODIFIED="1527586019921" TEXT="msm8916.dtsi">
+<node CREATED="1527586216534" ID="ID_689792673" MODIFIED="1527586220065" TEXT="skeleton64.dtsi"/>
+<node CREATED="1527586232110" ID="ID_928328023" MODIFIED="1527586234907" TEXT="dt-bindings/clock/msm-clocks-8916.h"/>
+<node CREATED="1527586246815" ID="ID_1081591591" MODIFIED="1527586249494" TEXT="dt-bindings/clock/msm-clocks-a7.h"/>
+<node CREATED="1527586263504" ID="ID_1988189146" MODIFIED="1527586266218" TEXT="msm8916-coresight.dtsi"/>
+<node CREATED="1527586275483" ID="ID_1544788923" MODIFIED="1527586278030" TEXT="msm8916-smp2p.dtsi"/>
+<node CREATED="1527596669142" ID="ID_231067818" MODIFIED="1527596674377" TEXT="msm8916-pinctrl.dtsi"/>
+<node CREATED="1527596685358" ID="ID_857847209" MODIFIED="1527596688709" TEXT="msm8916-camera.dtsi"/>
+<node CREATED="1527596701181" ID="ID_1495201595" MODIFIED="1527596704668" TEXT="msm8916-ipcrouter.dtsi"/>
+<node CREATED="1527596717022" ID="ID_1389744374" MODIFIED="1527596720339" TEXT="msm-gdsc-8916.dtsi"/>
+<node CREATED="1527596731773" ID="ID_1219143995" MODIFIED="1527596735417" TEXT="msm8916-iommu.dtsi"/>
+<node CREATED="1527596744836" ID="ID_114687933" MODIFIED="1527596748147" TEXT="msm8916-gpu.dtsi"/>
+<node CREATED="1527596758468" ID="ID_1538740399" MODIFIED="1527596761364" TEXT="msm8916-mdss.dtsi"/>
+<node CREATED="1527596770260" ID="ID_1896690725" MODIFIED="1527596772932" TEXT="msm8916-mdss-pll.dtsi"/>
+<node CREATED="1527596783332" ID="ID_1171108274" MODIFIED="1527596786544" TEXT="msm8916-iommu-domains.dtsi"/>
+<node CREATED="1527596796308" ID="ID_1963423109" MODIFIED="1527596799698" TEXT="msm8916-bus.dtsi"/>
+<node CREATED="1527597185749" ID="ID_329593203" MODIFIED="1527597189109" TEXT="msm-pm8916-rpm-regulator.dtsi"/>
+<node CREATED="1527597200597" ID="ID_221126910" MODIFIED="1527597203899" TEXT="msm-pm8916.dtsi"/>
+<node CREATED="1527597215468" ID="ID_1632627334" MODIFIED="1527597218443" TEXT="msm8916-regulator.dtsi"/>
+<node CREATED="1527597232724" ID="ID_230823237" MODIFIED="1527597235832" TEXT="msm8916-pm.dtsi"/>
+</node>
+<node CREATED="1527586030672" ID="ID_934668742" MODIFIED="1527586033452" TEXT="msm8916-pinctrl.dtsi"/>
+<node CREATED="1527586043136" ID="ID_1221835112" MODIFIED="1527586046000" TEXT="msm8916-camera-sensor-mtp.dtsi"/>
+</node>
+<node CREATED="1527585988288" ID="ID_920027480" MODIFIED="1527585991421" TEXT="msm8916-memory.dtsi">
+<node CREATED="1527586065903" ID="ID_38878983" MODIFIED="1527586068783" TEXT="msm8916-ion.dtsi"/>
+</node>
+</node>
+</node>
+<node CREATED="1527607297703" ID="ID_1209502919" MODIFIED="1527607307618" TEXT="2.&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x5206;&#x6790;">
+<node CREATED="1527607348207" ID="ID_495796491" MODIFIED="1527607565031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24635;&#20837;&#21475;&#28857;&#65292; &#20195;&#30721;&#20301;&#32622;<b>kernel/drivers/media/platform/msm/camera_v2/msm.c</b>
+    </p>
+    <p>
+      &#35813;&#25991;&#20214;&#30340;&#24179;&#21488;&#39537;&#21160;&#31243;&#24207;&#23545;&#24212;&#30340;&#26159;&#35774;&#22791;
+    </p>
+    <p>
+      qcom,msm-cam@1800000{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;compatible = &quot;qcom,msm-cam&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};&#160;
+    </p>
+    <p>
+      &#35774;&#22791;&#26641;&#37324;&#38754;&#21482;&#23450;&#20041;&#20102;&#19968;&#20010;compatible&#23646;&#24615;&#65292;&#20854;&#20182;&#30340;&#27809;&#26377;&#23450;&#20041;&#65292;&#21487;&#30693;&#36825;&#37324;&#30340;&#24179;&#21488;&#35774;&#22791;&#24212;&#35813;
+    </p>
+    <p>
+      &#26159;&#19968;&#20010;&#24635;&#30340;&#20837;&#21475;&#35774;&#22791;&#12290;&#25105;&#20204;&#30475;&#30475;&#35813;&#24179;&#21488;&#39537;&#21160;&#30340;probe&#20989;&#25968;
+    </p>
+    <p>
+      <b>int msm_probe(struct platform_device *pdev)</b>&#160;&#20570;&#20102;&#20160;&#20040;&#25805;&#20316;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
