@@ -1185,8 +1185,18 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1547128175359" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1557018997490" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5">&#31532;&#22235;&#31456;debugging&#25216;&#26415;</font>
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="10"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1326,7 +1336,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1507710798301" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1557018854996" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1545,6 +1555,21 @@
 </html></richcontent>
 <icon BUILTIN="help"/>
 </node>
+</node>
+<node CREATED="1556418473773" ID="ID_744113471" MODIFIED="1556418549565">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300cc">printk&#23454;&#29616;&#21407;&#29702;&#65306;&#22522;&#20110;tiny4412&#24320;&#21457;&#26495;&#20998;&#26512;</font>
+    </p>
+    <p>
+      &#21442;&#32771;&#32593;&#22336;: https://www.cnblogs.com/pengdonglin137/p/4320965.html
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1507710799862">
@@ -10497,7 +10522,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1524644211986" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+<node CREATED="1475896151069" ID="ID_1362020755" MODIFIED="1557475779637" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1499823186488">
 <richcontent TYPE="NODE"><html>
@@ -11433,6 +11458,33 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1556269771221" ID="ID_1717929756" MODIFIED="1556615921951">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">&#39640;&#36890;&#24179;&#21488;&#30005;&#28304;&#31649;&#29702;&#26426;&#21046; Resource Power Manager (RPM) &#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1557475798806" ID="ID_548551169" MODIFIED="1557475827067">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">&#39640;&#36890;&#24179;&#21488;PMIC&#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1557475833899" ID="ID_1777086641" MODIFIED="1557475838679" TEXT="PMI8996"/>
+<node CREATED="1557475842558" ID="ID_1338687156" MODIFIED="1557475848208" TEXT="PM8996"/>
 </node>
 </node>
 <node CREATED="1456929335533" ID="ID_1088410273" MODIFIED="1556279094541" POSITION="right">
@@ -20208,7 +20260,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1556025563645" POSITION="right">
+<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1557470557573" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20577,7 +20629,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1510045832657" FOLDED="true" ID="ID_1482848038" MODIFIED="1510224664947" POSITION="left">
+<node CREATED="1510045832657" FOLDED="true" ID="ID_1482848038" MODIFIED="1557470601709" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22009,6 +22061,65 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1557470622128" ID="ID_894117428" MODIFIED="1557470660753" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">Android Boot&#27969;&#31243;&#20998;&#26512;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1557470667044" ID="ID_1944955025" MODIFIED="1557470677845" TEXT="Qualcomm&#x67b6;&#x6784;">
+<node CREATED="1557470733790" ID="ID_121653938" MODIFIED="1557470741569" TEXT="8998">
+<node CREATED="1557471105667" ID="ID_1180715066" MODIFIED="1557471738111">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22522;&#26412;&#27010;&#24565;&#65306;
+    </p>
+    <p>
+      &#39640;&#36890;&#20174;8996&#24179;&#21488;&#24320;&#22987;&#24341;&#20837;&#20102;UEFI&#30340;&#27010;&#24565;&#65292;&#26041;&#20415;&#22312;android&#21644;windows&#20043;&#38388;&#36827;&#34892;&#20999;&#25442;&#12290;
+    </p>
+    <p>
+      &#20026;&#20102;&#20351;&#29992;UEFI&#65292;&#24341;&#20837;&#20102;eXtensible Boot Loader(XBL)&#30340;&#27010;&#24565;&#65292;XBL&#26159;&#23545;UEFI&#29702;&#24565;&#30340;&#23454;&#29616;&#12290;
+    </p>
+    <p>
+      XBL&#20998;&#20026;&#20004;&#20010;&#37096;&#20998;&#65306;1. SEC&#31243;&#24207;&#65292;&#35813;&#31243;&#24207;&#29702;&#35299;&#25104;&#35299;&#21387;&#32553;&#30340;&#31243;&#24207;&#65292;&#29992;&#20110;&#21152;&#36733;xbl core
+    </p>
+    <p>
+      2. xbl core&#23454;&#29616;&#20102;UEFI&#30340;&#21151;&#33021;&#65292;&#37324;&#38754;&#26377;&#38750;&#24120;&#22810;&#30340;&#23376;&#27169;&#22359;&#65292;&#29992;&#26469;&#31649;&#29702;&#31995;&#32479;&#21508;&#20010;&#23376;&#27169;&#22359;&#21644;&#36827;&#34892;
+    </p>
+    <p>
+      debug&#20351;&#29992;&#65292; xbl core&#20250;&#21152;&#36733;abl<b><i>(</i></b>&#21363;&#30495;&#27491;&#30340;android bootloader,abl&#37324;&#38754;&#23454;&#29616;&#20102;Fastboot&#21151;&#33021;&#65292;&#23454;&#29616;&#20102;&#21152;&#36733;linux&#38236;&#20687;
+    </p>
+    <p>
+      &#30340;&#21151;&#33021;&#65292;&#39640;&#36890;&#30340;abl&#23545;&#24212;&#30340;&#26159;edk2&#24320;&#28304;&#39033;&#30446;<b><i>) </i></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21442;&#32771;&#32593;&#22336;&#65306; https://worthdoingbadly.com/qcomxbl/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1557470745499" ID="ID_440698534" MODIFIED="1557470747939" TEXT="8996"/>
+<node CREATED="1557470751064" ID="ID_1380476289" MODIFIED="1557470753364" TEXT="845"/>
+</node>
+<node CREATED="1557470682455" ID="ID_475138963" MODIFIED="1557470686466" TEXT="MTK&#x67b6;&#x6784;"/>
+<node CREATED="1557470690505" ID="ID_921250273" MODIFIED="1557470705965" TEXT="RockChip&#x67b6;&#x6784;"/>
+<node CREATED="1557470715483" ID="ID_19352377" MODIFIED="1557470724978" TEXT="&#x6d77;&#x601d;&#x67b6;&#x6784;"/>
 </node>
 </node>
 </map>
