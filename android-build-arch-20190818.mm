@@ -2038,8 +2038,7 @@
       <b>&#31532;&#19977;&#31456; &#24212;&#29992;&#31243;&#24207;&#38169;&#35823;&#23450;&#20301;&#24037;&#20855;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1547128276111" ID="ID_1913348638" MODIFIED="1547128301985" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -2051,8 +2050,31 @@
       <b>&#31532;&#22235;&#31456; Linkers and Loaders</b>
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1563963210400" ID="ID_108364528" MODIFIED="1563963241340" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#31532;&#20116;&#31456;&#160;&#160;Android&#32534;&#35793;&#38382;&#39064;</b>
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1563963256741" ID="ID_1856008717" MODIFIED="1563963271582">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/android-vendor&#x5c42;&#x6821;&#x9a8c;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>

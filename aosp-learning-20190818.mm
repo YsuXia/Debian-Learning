@@ -2384,7 +2384,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482300801861" FOLDED="true" ID="ID_196697670" MODIFIED="1491039622049" POSITION="right" TEXT="7.SELinux SEAndroid">
+<node CREATED="1482300801861" FOLDED="true" ID="ID_196697670" MODIFIED="1566110182492" POSITION="right" TEXT="7.SELinux SEAndroid">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1482300819318" FOLDED="true" ID="ID_1607491495" MODIFIED="1491039620658">
 <richcontent TYPE="NODE"><html>
@@ -2762,7 +2762,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1543386435144" POSITION="left">
+<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1566110151617" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2776,7 +2776,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1535360629340">
+<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1562650401739">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2824,7 +2824,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1536301562302">
+<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1566110150087">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2886,7 +2886,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492654584536" FOLDED="true" ID="ID_494604736" MODIFIED="1536301553814">
+<node CREATED="1492654584536" ID="ID_494604736" MODIFIED="1563350920213">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3178,7 +3178,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1535015297963" ID="ID_208278175" MODIFIED="1535015336223">
+<node CREATED="1535015297963" FOLDED="true" ID="ID_208278175" MODIFIED="1566110139869">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3189,8 +3189,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1536197599490" ID="ID_525145164" MODIFIED="1536197606841" TEXT="1.&#x4ee3;&#x7801;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
-<node CREATED="1536198069764" ID="ID_1926744974" MODIFIED="1536198134207">
+<node CREATED="1536197599490" FOLDED="true" ID="ID_525145164" MODIFIED="1566110134097" TEXT="1.&#x4ee3;&#x7801;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1536198069764" FOLDED="true" ID="ID_1926744974" MODIFIED="1566110121508">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3234,7 +3234,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1536198333048" ID="ID_609221105" MODIFIED="1538272516576">
+<node CREATED="1536198333048" FOLDED="true" ID="ID_609221105" MODIFIED="1566110120151">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3369,7 +3369,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1538276553937" ID="ID_1921305147" MODIFIED="1538276708121">
+<node CREATED="1538276553937" FOLDED="true" ID="ID_1921305147" MODIFIED="1566110126640">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3416,7 +3416,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1538276741157" ID="ID_1210746798" MODIFIED="1538276779202">
+<node CREATED="1538276741157" FOLDED="true" ID="ID_1210746798" MODIFIED="1566110116608">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3439,10 +3439,435 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1562662168756" ID="ID_1343478090" MODIFIED="1562748938598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      template&lt;class KEY, class VALUE, class LISTENER=DefaultEventListener&lt;KEY, VALUE&gt;&gt;
+    </p>
+    <p>
+      class ClientManager {
+    </p>
+    <p>
+      }&#65307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      class ClientManager &#35813;&#31867;&#23553;&#35013;&#20102;&#22522;&#20110;LRU&#31639;&#27861;&#30340;&#27963;&#36291;client&#21015;&#34920;&#65292;&#23545;&#20110;&#22788;&#29702;&#20849;&#20139;&#36164;&#28304;&#35775;&#38382;&#65292;
+    </p>
+    <p>
+      &#23454;&#29616;&#20102;&#19968;&#31181;&#39537;&#36880;&#31639;&#27861;&#12290;
+    </p>
+    <p>
+      &#24403;&#25105;&#20204;&#28155;&#21152;&#19968;&#20010;&#26032;&#30340;descriptor&#20043;&#21518;&#65292;&#39537;&#36880;&#34892;&#20026;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      &#28155;&#21152;&#19968;&#20010;descriptor, &#35813;descriptor&#36319;&#24050;&#26377;&#30340;&#25551;&#36848;&#31526;&#20855;&#26377;&#30456;&#21516;&#30340;key&#20540;&#65292;&#37027;&#20040;&#20302;&#20248;&#20808;&#32423;&#30340;&#25551;&#36848;&#31526;&#20250;&#34987;
+    </p>
+    <p>
+      &#31227;&#38500;&#25481;&#12290;
+    </p>
+    <p>
+      &#26032;&#28155;&#21152;&#30340;&#25551;&#36848;&#31526;&#24102;&#26377; conflicting keys&#21015;&#34920;&#65292;&#22914;&#26524;&#31995;&#32479;&#24403;&#20013;&#26377;&#25551;&#36848;&#31526;&#30340;key&#20540;&#20301;&#20110;&#36825;&#20010;&#21015;&#34920;&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#24182;&#19988;&#35813;&#25551;&#36848;&#31526;&#30340;&#20248;&#20808;&#32423;&#31561;&#20110;&#25110;&#32773;&#23567;&#20110;&#28155;&#21152;&#30340;&#25551;&#36848;&#31526;&#20248;&#20808;&#32423;&#65292;&#37027;&#20040;&#35813;&#25551;&#36848;&#31526;&#23601;&#20250;&#34987;&#31227;&#38500;&#25481;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#25152;&#26377;&#30340;&#25551;&#36848;&#31526;&#30340;cost&#21152;&#36215;&#26469;&#36229;&#36807;&#20102;&#35813;ClientManager&#20801;&#35768;&#30340;&#20540;&#65292;&#37027;&#20040;&#30456;&#24212;&#30340;&#39537;&#36880;&#31574;&#30053;&#20250;&#34987;&#20351;&#29992;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1538276801766" ID="ID_544033918" MODIFIED="1538276804935" TEXT="*device = client"/>
+<node CREATED="1562811195770" ID="ID_983275974" MODIFIED="1562842627677">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>sp&lt;CLIENT&gt; client = nullptr;</b>
+    </p>
+    <p>
+      &#21363;sp&lt;CameraDeviceClient&gt;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1536203209819" ID="ID_1631683599" MODIFIED="1536203241481">
+<node CREATED="1562811312280" ID="ID_404188946" MODIFIED="1562811690073">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sp&lt;BasicClient&gt; clientTmp = nullptr;
+    </p>
+    <p>
+      std::shared_ptr&lt;resource_policy::ClientDescriptor&lt;String8, sp&lt;BasicClient&gt;&gt;&gt; partial;
+    </p>
+    <p>
+      &#36164;&#28304;&#25551;&#36848;&#31526;&#24212;&#35813;&#26159;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562811867569" FOLDED="true" ID="ID_984380264" MODIFIED="1562841760346">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>handleEvictionsLocked(</b>cameraId, originalClientPid, effectiveApiLevel,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;IInterface::asBinder(cameraCb), clientName8, <i><b><font color="#ff0033">/*out*/&amp;clientTmp</font></b></i><font color="#ff0033">,</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <i><b><font color="#ff0033">/*out*/&amp;partial</font></b></i><b>)</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562812051666" ID="ID_1896354624" MODIFIED="1562838119827">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      typedef std::shared_ptr&lt;resource_policy::ClientDescriptor&lt;String8,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sp&lt;CameraService::BasicClient&gt;&gt;&gt; DescriptorPtr;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562812112002" ID="ID_1320000873" MODIFIED="1562837277472">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      std::vector&lt;DescriptorPtr&gt; evictedClients;
+    </p>
+    <p>
+      <b>DescriptorPtr clientDescriptor;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562824725210" ID="ID_230265383" MODIFIED="1562824795707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      std::vector&lt;int&gt; ownerPids(mActiveClientManager.getAllOwners());
+    </p>
+    <p>
+      ownerPids.push_back(clientPid);
+    </p>
+    <p>
+      std::vector&lt;int&gt; priorityScores(ownerPids.size());
+    </p>
+    <p>
+      std::vector&lt;int&gt; states(ownerPids.size());
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22810;&#20010;vector&#29992;&#20110;&#20445;&#23384;&#24403;&#21069;&#30340;&#25152;&#26377;&#30340;client&#30340;pid&#20540;&#65292;&#23545;&#24212;&#30340;priority&#20540;&#65292;
+    </p>
+    <p>
+      &#29366;&#24577;&#20540;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562825310338" ID="ID_1255675716" MODIFIED="1562825334596">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      status_t err = ProcessInfoService::getProcessStatesScoresFromPids(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ownerPids.size(), &amp;ownerPids[0], /*out*/&amp;states[0],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/&amp;priorityScores[0]);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562828241691" ID="ID_1402569365" MODIFIED="1562828304295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      std::map&lt;int,resource_policy::ClientPriority&gt; pidToPriorityMap;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for (size_t i = 0; i &lt; ownerPids.size() - 1; i++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pidToPriorityMap.emplace(ownerPids[i],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;resource_policy::ClientPriority(priorityScores[i], states[i]));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mActiveClientManager.updatePriorities(pidToPriorityMap);
+    </p>
+    <p>
+      &#26500;&#24314;&#19968;&#20010;client pid &#21644; client priority &#30340;map&#34920;&#65292;&#20351;&#29992;&#35813;map&#26356;&#26032;mActiveClientManager
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562837344377" ID="ID_1279341908" MODIFIED="1562837369132">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      auto state = getCameraState(cameraId);
+    </p>
+    <p>
+      &#33719;&#21462;&#35201;&#25171;&#24320;&#30340;camera id&#30340;&#29366;&#24577;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562837386729" ID="ID_758691915" MODIFIED="1562837434401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      clientDescriptor = CameraClientManager::makeClientDescriptor(cameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sp&lt;BasicClient&gt;{nullptr}, static_cast&lt;int32_t&gt;(state-&gt;getCost()),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;state-&gt;getConflicting(),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;priorityScores[priorityScores.size() - 1],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clientPid,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;states[states.size() - 1]);
+    </p>
+    <p>
+      &#26500;&#24314;&#30003;&#35831;client&#30340;&#25551;&#36848;&#31526;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562841185999" ID="ID_1812612549" MODIFIED="1562841215884">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25214;&#21040;&#26377;&#20914;&#31361;&#30340;&#25551;&#36848;&#31526;
+    </p>
+    <p>
+      auto evicted = mActiveClientManager.wouldEvict(clientDescriptor);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562841562052" ID="ID_700199612" MODIFIED="1562841600199">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#38754;&#22823;&#37327;&#30340;&#20195;&#30721;&#26159;&#26681;&#25454;&#20914;&#31361;&#30340;&#25551;&#36848;&#31526;&#23545;
+    </p>
+    <p>
+      &#36830;&#25509;&#30340;camera clients&#20570;&#28165;&#29702;&#24037;&#20316;&#65292;&#36825;&#37324;&#30053;&#36807;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562841630480" ID="ID_258264180" MODIFIED="1562841636674" TEXT="*partial = clientDescriptor;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1562841707150" ID="ID_902456851" MODIFIED="1562841731287">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (clientTmp.get() != nullptr) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// Handle special case for API1 MediaRecorder where the existing client is returned
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;device = static_cast&lt;CLIENT*&gt;(clientTmp.get());
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return ret;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#29992;&#20110;&#22788;&#29702;api1&#30340;&#65292;&#19981;&#29992;&#29702;&#20250;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562841811892" ID="ID_1027697412" MODIFIED="1562841815605" TEXT="sp&lt;BasicClient&gt; tmp = nullptr;"/>
+<node CREATED="1562841862736" ID="ID_1922079714" MODIFIED="1562842304717">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>makeClient(</b>this, cameraCb, clientPackageName, cameraId, facing, clientPid,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clientUid, getpid(), legacyMode, halVersion, deviceVersion, effectiveApiLevel,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/&amp;tmp<b>) </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i>Status CameraService::makeClient(const sp&lt;CameraService&gt;&amp; cameraService, </i>
+    </p>
+    <p>
+      <i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const sp&lt;IInterface&gt;&amp; cameraCb, const String16&amp; packageName, const String8&amp; cameraId, </i>
+    </p>
+    <p>
+      <i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int facing, int clientPid, uid_t clientUid, int servicePid, bool legacyMode, </i>
+    </p>
+    <p>
+      <i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int halVersion, int deviceVersion, apiLevel effectiveApiLevel, </i>
+    </p>
+    <p>
+      <i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*out*/sp&lt;BasicClient&gt;* client)</i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562842320045" ID="ID_963988829" MODIFIED="1562842360266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      api2 hal3
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sp&lt;hardware::camera2::ICameraDeviceCallbacks&gt; tmp =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; static_cast&lt;hardware::camera2::ICameraDeviceCallbacks*&gt;(cameraCb.get());
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      *client = new CameraDeviceClient(cameraService, tmp, packageName, cameraId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;facing, clientPid, clientUid, servicePid);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562842427997" ID="ID_582775852" MODIFIED="1562842463893">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      client = static_cast&lt;CLIENT*&gt;(tmp.get());
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26144;&#23556;&#22238;CameraDeviceClient
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562842650563" ID="ID_1584848608" MODIFIED="1562842653792" TEXT="client-&gt;initialize(mCameraProviderManager)"/>
+</node>
+<node CREATED="1538276801766" FOLDED="true" ID="ID_544033918" MODIFIED="1566110125470">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#6600ff" size="4"><b>*device = client</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#30475;&#21040;CameraDeviceClient&#26159;&#30452;&#25509;&#32487;&#25215;&#33258;BnCameraDeviceUser&#30340;&#65292;
+    </p>
+    <p>
+      &#25152;&#20197;&#21487;&#20197;&#30452;&#25509;&#36820;&#22238;&#32473;device
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562652335221" ID="ID_587831906" MODIFIED="1562652349242">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="camera/CameraDeviceClient.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1536203209819" FOLDED="true" ID="ID_1631683599" MODIFIED="1566110127888">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3456,7 +3881,7 @@
 <node CREATED="1536213070379" ID="ID_1209650645" MODIFIED="1536213072920" TEXT="std::vector&lt;std::string&gt; deviceIds;"/>
 <node CREATED="1536213083875" ID="ID_1324336524" MODIFIED="1536213086255" TEXT="deviceIds = mCameraProviderManager-&gt;getCameraDeviceIds();"/>
 </node>
-<node CREATED="1536213343587" ID="ID_1316616040" MODIFIED="1536213869672">
+<node CREATED="1536213343587" FOLDED="true" ID="ID_1316616040" MODIFIED="1566110131944">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3494,7 +3919,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1536214055123" ID="ID_1584834967" MODIFIED="1536214069126">
+<node CREATED="1536214055123" FOLDED="true" ID="ID_1584834967" MODIFIED="1566110130712">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3634,8 +4059,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1536283010301" ID="ID_664150876" MODIFIED="1536283025373" TEXT="2.&#x591a;camera&#x7684;&#x7ba1;&#x7406;">
-<node CREATED="1536283099862" ID="ID_60478480" MODIFIED="1536307737221">
+<node CREATED="1536283010301" FOLDED="true" ID="ID_664150876" MODIFIED="1566110137716" TEXT="2.&#x591a;camera&#x7684;&#x7ba1;&#x7406;">
+<node CREATED="1536283099862" FOLDED="true" ID="ID_60478480" MODIFIED="1566110136188">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3906,7 +4331,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1536289530909" ID="ID_806623483" MODIFIED="1536289543872" TEXT="3.&#x591a;camera&#x652f;&#x6301;&#x7684;&#x8981;&#x6c42;">
+<node CREATED="1536289530909" FOLDED="true" ID="ID_806623483" MODIFIED="1566110138855" TEXT="3.&#x591a;camera&#x652f;&#x6301;&#x7684;&#x8981;&#x6c42;">
 <node CREATED="1536289547573" ID="ID_1997152171" MODIFIED="1536307268714">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3948,7 +4373,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535360655759" ID="ID_1383373227" MODIFIED="1535360732659">
+<node CREATED="1535360655759" FOLDED="true" ID="ID_1383373227" MODIFIED="1566110144580">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3962,7 +4387,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1535360791084" ID="ID_623549504" MODIFIED="1535360962789">
+<node CREATED="1535360791084" FOLDED="true" ID="ID_623549504" MODIFIED="1566110143270">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4053,8 +4478,29 @@
 </node>
 </node>
 </node>
+<node CREATED="1563436341648" ID="ID_1064593109" MODIFIED="1563436403193">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Framework&#23618;&#27979;&#35797;&#24037;&#20855;:
+    </p>
+    <p>
+      CameraBinderTests.cpp
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      TestCameraDeviceCallbacks
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1535360613330" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
+</node>
+<node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1562650418230" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1496325970164" FOLDED="true" ID="ID_173538414" MODIFIED="1535360569211" TEXT="mediaserver&#x8be6;&#x89e3;">
 <node CREATED="1496325982101" ID="ID_687050765" MODIFIED="1496327154695">
@@ -4732,7 +5178,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1528247495355" FOLDED="true" ID="ID_1749217998" MODIFIED="1543386430370" POSITION="left">
+<node CREATED="1528247495355" FOLDED="true" ID="ID_1749217998" MODIFIED="1566110169778" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4884,7 +5330,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1534410536867" ID="ID_616726503" MODIFIED="1534410562655">
+<node CREATED="1534410536867" FOLDED="true" ID="ID_616726503" MODIFIED="1566110154238">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4974,7 +5420,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1534411537263" ID="ID_1942815485" MODIFIED="1534411563686">
+<node CREATED="1534411537263" FOLDED="true" ID="ID_1942815485" MODIFIED="1566110157750">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5069,7 +5515,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1534820430514" ID="ID_673128991" MODIFIED="1534821262530">
+<node CREATED="1534820430514" FOLDED="true" ID="ID_673128991" MODIFIED="1566110156501">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5115,7 +5561,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1534819583030" ID="ID_609910735" MODIFIED="1534819619280">
+<node CREATED="1534819583030" FOLDED="true" ID="ID_609910735" MODIFIED="1566110159809">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5221,7 +5667,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1534873555509" ID="ID_1341724371" MODIFIED="1534873587369">
+<node CREATED="1534873555509" FOLDED="true" ID="ID_1341724371" MODIFIED="1566110162914">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5232,7 +5678,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1534873628085" ID="ID_928796871" MODIFIED="1534873635068" TEXT="interface hashing">
+<node CREATED="1534873628085" FOLDED="true" ID="ID_928796871" MODIFIED="1566110161728" TEXT="interface hashing">
 <node CREATED="1534873752319" ID="ID_1923058597" MODIFIED="1534874152296">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5321,7 +5767,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
 </node>
 </node>
 </node>
-<node CREATED="1534879706330" FOLDED="true" ID="ID_855756407" MODIFIED="1537406622619">
+<node CREATED="1534879706330" FOLDED="true" ID="ID_855756407" MODIFIED="1562641361883">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5599,7 +6045,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1534900939506" FOLDED="true" ID="ID_1325269962" MODIFIED="1537406624729">
+<node CREATED="1534900939506" FOLDED="true" ID="ID_1325269962" MODIFIED="1566110164006">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5633,7 +6079,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
 </node>
 </node>
 </node>
-<node CREATED="1534901572598" ID="ID_1109009668" MODIFIED="1539284128343">
+<node CREATED="1534901572598" FOLDED="true" ID="ID_1109009668" MODIFIED="1566110166455">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5967,6 +6413,24 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
     <img src="camera/treble_cpp_compiler_generated_files.png" />
   </body>
 </html></richcontent>
+<node CREATED="1562650185340" ID="ID_410825469" MODIFIED="1562650351681">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FooAll.cpp &#21253;&#21547; HwBinder &#20195;&#29702;&#21644; HwBinder&#23384;&#26681;&#30340;&#23454;&#29616;&#30340;&#31867;&#12290;&#24403;&#23458;&#25143;&#31471;&#35843;&#29992;&#25509;&#21475;&#26041;&#27861;&#26102;&#65292;
+    </p>
+    <p>
+      &#20195;&#29702;&#20250;&#33258;&#21160;&#20174;&#23458;&#25143;&#31471;&#23553;&#36865;&#21442;&#25968;&#65292;&#24182;&#23558;&#20107;&#21153;&#21457;&#36865;&#21040;&#32465;&#23450;&#20869;&#26680;&#39537;&#21160;&#31243;&#24207;&#65292;&#35813;&#20869;&#26680;&#39537;&#21160;&#31243;&#24207;
+    </p>
+    <p>
+      &#20250;&#23558;&#20107;&#21153;&#20256;&#36865;&#21040;&#21478;&#19968;&#31471;&#30340;&#23384;&#26681;&#65288;&#35813;&#23384;&#26681;&#38543;&#21518;&#35843;&#29992;&#23454;&#38469;&#30340;&#26381;&#21153;&#22120;&#23454;&#29616;&#65289;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1535337111390" ID="ID_1947008732" MODIFIED="1535337137958">
@@ -6006,6 +6470,34 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
 </html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1562641412415" FOLDED="true" ID="ID_1168268494" MODIFIED="1566110168062">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">HIDL &#25991;&#20214;&#30340;&#32534;&#35793;</font>
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1562641581282" ID="ID_506375662" MODIFIED="1562641870382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#23545;&#24212;&#30340;hidl&#25991;&#20214;&#30340;&#30446;&#24405;&#19979;&#38754;&#25191;&#34892;mm&#21629;&#20196;&#65292;&#25110;&#32773;&#22312;&#26681;&#30446;&#24405;&#19979;&#38754;&#25191;&#34892;
+    </p>
+    <p>
+      make PQName, &#22312;<b>out/soong/.interfaces/hardware/interfaces</b>&#19979;&#29983;&#25104;&#23545;&#24212;&#30340;&#27169;&#22359;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6120,8 +6612,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
       framework manifest(&#30001;google&#25552;&#20379;)&#34987;&#25918;&#32622;&#22312;&#28304;&#20195;&#30721;&#30340;&#30446;&#24405;/system/libhidl/manifest.xml&#24403;&#20013;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1534891294009" ID="ID_289006845" MODIFIED="1534891511293">
 <richcontent TYPE="NODE"><html>
@@ -6177,7 +6668,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1543386542819" ID="ID_1329610924" MODIFIED="1543386566064" POSITION="right" TEXT="16. android &#x989c;&#x8272;&#x7a7a;&#x95f4;">
+<node CREATED="1543386542819" FOLDED="true" ID="ID_1329610924" MODIFIED="1566110177671" POSITION="right" TEXT="16. android &#x989c;&#x8272;&#x7a7a;&#x95f4;">
 <node CREATED="1543386709074" ID="ID_1088319198" MODIFIED="1543386918478">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -6188,8 +6679,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
       &#20174;android8.1 &#24320;&#22987;&#25903;&#25345;&#39068;&#33394;&#31649;&#29702;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1543386921099" ID="ID_1466144956" MODIFIED="1543388291321">
 <richcontent TYPE="NODE"><html>
@@ -6212,8 +6702,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1543387340880" ID="ID_672198295" MODIFIED="1543388678715">
 <richcontent TYPE="NODE"><html>
@@ -6240,8 +6729,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
       &#19979;&#19968;&#27493;&#26159;&#20351;&#33021;OpenGL&#30340;&#30456;&#20851;&#25193;&#23637;&#36319;&#24211;&#65292;&#23558;OpenGL color space&#32763;&#35793;&#25104;<b>hal data spaces</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
