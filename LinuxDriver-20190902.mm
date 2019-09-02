@@ -450,8 +450,7 @@
       &#35813;&#20989;&#25968;&#20250;&#35302;&#21457;user&#23618;&#30340;uevent&#26426;&#21046;&#21435;&#21160;&#24577;&#22320;&#22312;/dev&#30446;&#24405;&#19979;&#38754;&#24314;&#31435;&#35774;&#22791;&#33410;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1566388833031" ID="ID_374368843" MODIFIED="1566388909938">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5200,7 +5199,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1565876743138" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
+<node COLOR="#cc0033" CREATED="1458395797887" ID="ID_897771791" MODIFIED="1567403302341" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1560959515790">
 <richcontent TYPE="NODE"><html>
@@ -5275,9 +5274,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1565876742050" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
+<node CREATED="1458444006543" ID="ID_117120831" MODIFIED="1567403305195" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1458444050579" FOLDED="true" ID="ID_345597075" MODIFIED="1560959554809">
+<node CREATED="1458444050579" ID="ID_345597075" MODIFIED="1567403309459">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5292,7 +5291,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1458446261967" FOLDED="true" ID="ID_1518217915" MODIFIED="1526952808215" TEXT="pin control&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x67b6;&#x6784;">
+<node CREATED="1458446261967" ID="ID_1518217915" MODIFIED="1567403312801" TEXT="pin control&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x67b6;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458446288669" ID="ID_1963969073" MODIFIED="1458446695190">
 <richcontent TYPE="NODE"><html>
@@ -5428,7 +5427,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459761171090" FOLDED="true" ID="ID_353188260" MODIFIED="1540394846203">
+<node CREATED="1459761171090" ID="ID_353188260" MODIFIED="1567403318976">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5439,7 +5438,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1459761914877" FOLDED="true" ID="ID_1073168285" MODIFIED="1540394844608">
+<node CREATED="1459761914877" ID="ID_1073168285" MODIFIED="1567403322013">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5468,9 +5467,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1459775491727" FOLDED="true" ID="ID_48223857" MODIFIED="1540394840045" TEXT="1.pinctrl&#x5411;&#x5176;&#x4ed6;driver&#x63d0;&#x4f9b;&#x7684;&#x63a5;&#x53e3;">
+<node CREATED="1459775491727" ID="ID_48223857" MODIFIED="1567403763045" TEXT="1.pinctrl&#x5411;&#x5176;&#x4ed6;driver&#x63d0;&#x4f9b;&#x7684;&#x63a5;&#x53e3;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459775543674" FOLDED="true" ID="ID_706896912" MODIFIED="1540394837412">
+<node CREATED="1459775543674" ID="ID_706896912" MODIFIED="1567403771801">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5507,7 +5506,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459775573746" FOLDED="true" ID="ID_1003800495" MODIFIED="1540394838740">
+<node CREATED="1459775573746" ID="ID_1003800495" MODIFIED="1567403781656">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5533,7 +5532,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459777867480" FOLDED="true" ID="ID_1307995723" MODIFIED="1540394835174" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1459777867480" ID="ID_1307995723" MODIFIED="1567403797006" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459776584339" ID="ID_1346475980" MODIFIED="1459778181371">
 <richcontent TYPE="NODE"><html>
@@ -5732,7 +5731,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459778041480" FOLDED="true" ID="ID_512155678" MODIFIED="1540394819211" TEXT="&#x51fd;&#x6570;&#x63a5;&#x53e3;">
+<node CREATED="1459778041480" ID="ID_512155678" MODIFIED="1567403806056" TEXT="&#x51fd;&#x6570;&#x63a5;&#x53e3;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459778065448" ID="ID_758197521" MODIFIED="1459778352807">
 <richcontent TYPE="NODE"><html>
@@ -5958,7 +5957,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459762131859" FOLDED="true" ID="ID_304684176" MODIFIED="1540394801628" TEXT="pin control subsystem&#x5185;&#x90e8;&#x6a21;&#x5757;&#x56fe;">
+<node CREATED="1459762131859" ID="ID_304684176" MODIFIED="1567403327527" TEXT="pin control subsystem&#x5185;&#x90e8;&#x6a21;&#x5757;&#x56fe;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1459762153899" ID="ID_1054135346" MODIFIED="1459762340458">
 <richcontent TYPE="NODE"><html>
@@ -6607,6 +6606,169 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1567406552401" ID="ID_669223274" MODIFIED="1567406579935">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">tiny4412 pinctrl&#23376;&#31995;&#32479;&#39537;&#21160;&#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1567406613498" ID="ID_1847682778" MODIFIED="1567406646010">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pinctrl-samsung.c&#160;&#160;&#25991;&#20214;&#26159;&#24179;&#21488;&#39537;&#21160;&#27880;&#20876;&#30340;&#22320;&#26041;
+    </p>
+    <p>
+      &#25105;&#20204;&#20998;&#26512;&#19968;&#19979;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1567406649581" ID="ID_412627489" MODIFIED="1567407043625">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39537;&#21160;&#30340;&#20837;&#21475;&#20989;&#25968;&#26159;&#22914;&#20309;&#27880;&#20876;&#21040;&#31995;&#32479;&#30340;&#65306;
+    </p>
+    <p>
+      static int __init samsung_pinctrl_drv_register(void)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* Register syscore ops for save/restore of registers across suspend.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* It's important to ensure that this driver is running at an earlier
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* initcall level than any arch-specific init calls that install syscore
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* ops that turn off pad retention (like exynos_pm_resume).
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;register_syscore_ops(&amp;samsung_pinctrl_syscore_ops);&#160;&#160;-----&gt;&#160; <b>syscore&#31995;&#32479;&#65292;&#20445;&#35777;suspend&#21644;resume&#36807;&#31243;pinctrl&#29366;&#24577;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return platform_driver_register(&amp;samsung_pinctrl_driver);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      postcore_initcall(samsung_pinctrl_drv_register);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><i>&#37319;&#29992;postcore_initcall &#23558;&#20837;&#21475;&#20989;&#25968;&#27880;&#20876;&#21040;&#31995;&#32479;&#65292;postcore_initcall &#20445;&#35777;pinctrl&#27604;&#20854;&#20182;&#39537;&#21160;&#26356;&#26089;&#22320;&#25191;&#34892; </i></b>
+    </p>
+    <p>
+      <b><i>#define postcore_initcall(fn)&#160;&#160;&#160;&#160;&#160;&#160;&#160;__define_initcall(fn, 2)</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1567407110833" ID="ID_609937862" MODIFIED="1567409593917">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30475;&#19968;&#19979;&#24179;&#21488;&#39537;&#21160;&#26159;&#22914;&#20309;&#23450;&#20041;&#30340;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static struct platform_driver samsung_pinctrl_driver = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.probe&#160;&#160;&#160;&#160;&#160;&#160;= samsung_pinctrl_probe,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.driver = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.name&#160;&#160;&#160;= &quot;samsung-pinctrl&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.of_match_table = samsung_pinctrl_dt_match,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.suppress_bind_attrs = true,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21305;&#37197;&#34920; of_match_table&#26159;&#19968;&#20010;&#38750;&#24120;&#22823;&#30340;&#25968;&#32452;&#65292;&#29992;&#26469;&#36866;&#37197;&#19977;&#26143;&#30340;exynos, s3c64xx, s3c24xx &#31995;&#21015;&#30340;&#33455;&#29255;
+    </p>
+    <p>
+      &#25105;&#20204;&#21482;&#20851;&#24515;exynos4412&#33455;&#29255;
+    </p>
+    <p>
+      <b><i>static const struct of_device_id samsung_pinctrl_dt_match[] = {</i></b>
+    </p>
+    <p>
+      #ifdef CONFIG_PINCTRL_EXYNOS
+    </p>
+    <p>
+      { .compatible = &quot;samsung,exynos4x12-pinctrl&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;.data = (void *)exynos4x12_pin_ctrl },
+    </p>
+    <p>
+      {}
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }&#65307;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -18722,7 +18884,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1567327310515" POSITION="right">
+<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1567396210334" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20597,7 +20759,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1526954160947">
+<node CREATED="1477640364241" ID="ID_706701660" MODIFIED="1567396218044">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20608,7 +20770,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477640390721" FOLDED="true" ID="ID_335979122" MODIFIED="1526952760681">
+<node CREATED="1477640390721" ID="ID_335979122" MODIFIED="1567396221643">
 <richcontent TYPE="NODE"><html>
   <head>
     
