@@ -530,8 +530,7 @@
       31&#20010;&#36890;&#29992;&#23492;&#23384;&#22120;&#65292;6&#20010;&#29366;&#24577;&#23492;&#23384;&#22120;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1433730004706" FOLDED="true" ID="ID_411174682" MODIFIED="1544867211802" TEXT="1.&#x901a;&#x7528;&#x5bc4;&#x5b58;&#x5668;">
 <node CREATED="1433730207215" ID="ID_1459896487" MODIFIED="1433730268910">
 <richcontent TYPE="NODE"><html>
@@ -8819,7 +8818,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1544867270097">
+<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1572503555364">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8865,7 +8864,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#009933" CREATED="1445351839072" FOLDED="true" ID="ID_1683018728" MODIFIED="1515829205203" POSITION="right">
+<node COLOR="#009933" CREATED="1445351839072" FOLDED="true" ID="ID_1683018728" MODIFIED="1572510114788" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9076,7 +9075,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1515829201604" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
+<node CREATED="1471275785797" FOLDED="true" ID="ID_906985609" MODIFIED="1572510112990" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:ARM920T&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471275813283" FOLDED="true" ID="ID_545263273" MODIFIED="1474811443087" TEXT="1.&#x6307;&#x4ee4;cache&#x548c;&#x6570;&#x636e;cache">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -9794,7 +9793,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1501557640100" FOLDED="true" ID="ID_951202516" MODIFIED="1510230569786" POSITION="right" TEXT="ARMV8&#x67b6;&#x6784;">
+<node CREATED="1501557640100" FOLDED="true" ID="ID_951202516" MODIFIED="1572510111121" POSITION="right" TEXT="ARMV8&#x67b6;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1488165252952" FOLDED="true" ID="ID_1669548965" MODIFIED="1510230568650">
 <richcontent TYPE="NODE"><html>
@@ -9847,7 +9846,7 @@
 <node CREATED="1501557735889" ID="ID_975404402" MODIFIED="1501557741993" TEXT="Cortex-A57"/>
 </node>
 </node>
-<node CREATED="1501557851023" FOLDED="true" ID="ID_777178217" MODIFIED="1542899852581" POSITION="right">
+<node CREATED="1501557851023" FOLDED="true" ID="ID_777178217" MODIFIED="1572510108693" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9891,7 +9890,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1502105108418" FOLDED="true" ID="ID_1087043511" MODIFIED="1539409478978" POSITION="right" TEXT="&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x76f8;&#x5173;&#x7684;&#x4e66;&#x7c4d;">
+<node CREATED="1502105108418" FOLDED="true" ID="ID_1087043511" MODIFIED="1572510105196" POSITION="right" TEXT="&#x4f53;&#x7cfb;&#x7ed3;&#x6784;&#x76f8;&#x5173;&#x7684;&#x4e66;&#x7c4d;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1502105123113" ID="ID_915899844" MODIFIED="1502105415848">
 <richcontent TYPE="NODE"><html>
@@ -10063,6 +10062,206 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1572503579503" ID="ID_857363367" MODIFIED="1572503598259" POSITION="left" TEXT="ARM ABI">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1572503603679" ID="ID_313235729" MODIFIED="1572503826531">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3300ff">1. AArch64 &#26550;&#26500;&#25152;&#20351;&#29992;&#30340;data model </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <table style="text-transform: none; letter-spacing: normal; word-spacing: 0px; text-indent: 0px; font-family: Times New Roman">
+      <tr>
+        <td colstart="1">
+          <b>Datatype</b>
+        </td>
+        <td colstart="2">
+          <b>LP64</b>
+        </td>
+        <td colstart="3">
+          <b>ILP64</b>
+        </td>
+        <td colstart="4">
+          <b>LLP64</b>
+        </td>
+        <td colstart="5">
+          <b>ILP32</b>
+        </td>
+        <td colstart="6">
+          <b>LP32</b>
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          char
+        </td>
+        <td colstart="2">
+          8
+        </td>
+        <td colstart="3">
+          8
+        </td>
+        <td colstart="4">
+          8
+        </td>
+        <td colstart="5">
+          8
+        </td>
+        <td colstart="6">
+          8
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          short
+        </td>
+        <td colstart="2">
+          16
+        </td>
+        <td colstart="3">
+          16
+        </td>
+        <td colstart="4">
+          16
+        </td>
+        <td colstart="5">
+          16
+        </td>
+        <td colstart="6">
+          16
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          _int32
+        </td>
+        <td colstart="2">
+          
+        </td>
+        <td colstart="3">
+          32
+        </td>
+        <td colstart="4">
+          
+        </td>
+        <td colstart="5">
+          
+        </td>
+        <td colstart="6">
+          
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          int
+        </td>
+        <td colstart="2">
+          32
+        </td>
+        <td colstart="3">
+          64
+        </td>
+        <td colstart="4">
+          32
+        </td>
+        <td colstart="5">
+          32
+        </td>
+        <td colstart="6">
+          16
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          long
+        </td>
+        <td colstart="2">
+          64
+        </td>
+        <td colstart="3">
+          64
+        </td>
+        <td colstart="4">
+          32
+        </td>
+        <td colstart="5">
+          32
+        </td>
+        <td colstart="6">
+          32
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          long long
+        </td>
+        <td colstart="2">
+          
+        </td>
+        <td colstart="3">
+          
+        </td>
+        <td colstart="4">
+          64
+        </td>
+        <td colstart="5">
+          
+        </td>
+        <td colstart="6">
+          
+        </td>
+      </tr>
+      <tr>
+        <td colstart="1">
+          pointer
+        </td>
+        <td colstart="2">
+          64
+        </td>
+        <td colstart="3">
+          64
+        </td>
+        <td colstart="4">
+          64
+        </td>
+        <td colstart="5">
+          32
+        </td>
+        <td colstart="6">
+          32
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1572503659887" ID="ID_448310643" MODIFIED="1572503717255">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;
+    </p>
+    <p>
+      <a href="http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dai0490a/ar01s01.html">http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dai0490a/ar01s01.html </a>
+    </p>
+    <p>
+      &#23545;&#24212;&#30340;pdf&#24050;&#32463;&#19979;&#36733;&#22312;book&#30446;&#24405;&#19979;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -1353,7 +1353,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1565876736874" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1572247222900" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -1846,7 +1846,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433853570573" FOLDED="true" ID="ID_434256939" MODIFIED="1503495694781">
+<node CREATED="1433853570573" ID="ID_434256939" MODIFIED="1572247234335">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4173,7 +4173,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1457940670562" FOLDED="true" ID="ID_32425074" MODIFIED="1567327284009" POSITION="left">
+<node CREATED="1457940670562" ID="ID_32425074" MODIFIED="1572247250542" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4185,7 +4185,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1457941273619" FOLDED="true" ID="ID_1019923209" MODIFIED="1567327282464">
+<node CREATED="1457941273619" ID="ID_1019923209" MODIFIED="1572247290145">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4229,7 +4229,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1457942855829" FOLDED="true" ID="ID_1580697406" MODIFIED="1567327280514">
+<node CREATED="1457942855829" ID="ID_1580697406" MODIFIED="1572247727970">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4344,6 +4344,70 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1572248158021" ID="ID_86887759" MODIFIED="1572248264559">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3300"><b>device_create_file&#26159;&#23545;sys_create_file&#20989;&#25968;&#30340;&#23553;&#35013;&#65292;&#37324;&#38754;&#22686;&#21152;&#20102;&#26435;&#38480;&#26816;&#26597;&#30340;&#35686;&#21578;&#20449;&#24687;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">int device_create_file(struct device *dev, </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct device_attribute *attr) </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">{ </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;int error = 0; </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;if (dev) { </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WARN(((attr-&gt;attr.mode &amp; S_IWUGO) &amp;&amp; !attr-&gt;store), </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Attribute %s: write permission without 'store'\n&quot;, </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attr-&gt;attr.name); </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WARN(((attr-&gt;attr.mode &amp; S_IRUGO) &amp;&amp; !attr-&gt;show), </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Attribute %s: read permission without 'show'\n&quot;, </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attr-&gt;attr.name); </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;error = sysfs_create_file(&amp;dev-&gt;kobj, &amp;attr-&gt;attr); </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;} </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">&#160;&#160;&#160;&#160;return error; </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">} </font></i>
+    </p>
+    <p>
+      <i><font size="3" face="Segoe UI" color="#0000ff">EXPORT_SYMBOL_GPL(device_create_file);</font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1458196495841" ID="ID_1100194257" MODIFIED="1458196700648">
 <richcontent TYPE="NODE"><html>
@@ -4686,7 +4750,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1457950439871" FOLDED="true" ID="ID_1645872669" MODIFIED="1567327276677">
+<node CREATED="1457950439871" ID="ID_1645872669" MODIFIED="1572247276569">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4724,7 +4788,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1457950954704" FOLDED="true" ID="ID_1779660090" MODIFIED="1567327275117">
+<node CREATED="1457950954704" FOLDED="true" ID="ID_1779660090" MODIFIED="1572247282054">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5029,7 +5093,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1458184304797" FOLDED="true" ID="ID_1323385442" MODIFIED="1567327267426">
+<node CREATED="1458184304797" FOLDED="true" ID="ID_1323385442" MODIFIED="1572247274464">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5199,7 +5263,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" ID="ID_897771791" MODIFIED="1567403302341" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
+<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1572247201260" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1560959515790">
 <richcontent TYPE="NODE"><html>
@@ -10560,8 +10624,7 @@
       <b><font size="4" color="#ff0000">USB&#31995;&#32479;&#23398;&#20064;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1571017500920" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471313935648" ID="ID_52548290" MODIFIED="1571017425132">
@@ -18893,7 +18956,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1567396210334" POSITION="right">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1572247211049" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -23606,7 +23669,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563765494937" ID="ID_943634925" MODIFIED="1566114791344" POSITION="left" TEXT="SPI&#x9a71;&#x52a8;&#x6846;&#x67b6;&#x5206;&#x6790;">
+<node CREATED="1563765494937" FOLDED="true" ID="ID_943634925" MODIFIED="1572247217612" POSITION="left" TEXT="SPI&#x9a71;&#x52a8;&#x6846;&#x67b6;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1563767343737" ID="ID_1288655755" MODIFIED="1563767366204">
 <richcontent TYPE="NODE"><html>
@@ -23685,7 +23748,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1557470622128" FOLDED="true" ID="ID_894117428" MODIFIED="1566110655899" POSITION="left">
+<node CREATED="1557470622128" ID="ID_894117428" MODIFIED="1571828635562" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -23696,8 +23759,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1557470667044" FOLDED="true" ID="ID_1944955025" MODIFIED="1566110654931" TEXT="Qualcomm&#x67b6;&#x6784;">
-<node CREATED="1557470733790" FOLDED="true" ID="ID_121653938" MODIFIED="1566110653902" TEXT="8998">
+<node CREATED="1557470667044" ID="ID_1944955025" MODIFIED="1571828637656" TEXT="Qualcomm&#x67b6;&#x6784;">
+<node CREATED="1557470733790" ID="ID_121653938" MODIFIED="1571828640934" TEXT="8998">
 <node CREATED="1557471105667" ID="ID_1180715066" MODIFIED="1557471738111">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -23741,6 +23804,30 @@
 <node CREATED="1557470682455" ID="ID_475138963" MODIFIED="1557470686466" TEXT="MTK&#x67b6;&#x6784;"/>
 <node CREATED="1557470690505" ID="ID_921250273" MODIFIED="1557470705965" TEXT="RockChip&#x67b6;&#x6784;"/>
 <node CREATED="1557470715483" ID="ID_19352377" MODIFIED="1557470724978" TEXT="&#x6d77;&#x601d;&#x67b6;&#x6784;"/>
+</node>
+<node CREATED="1571798251358" ID="ID_1900135638" MODIFIED="1571798297055" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font size="5" face="Simplified Arabic" color="#009933"><b>&#25991;&#20214;&#31995;&#32479;&#30740;&#31350;</b></font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1571798325013" ID="ID_59403276" MODIFIED="1571798783951">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/&#x9ad8;&#x901a;filesystem&#x5927;&#x5c0f;&#x4fee;&#x6539;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
