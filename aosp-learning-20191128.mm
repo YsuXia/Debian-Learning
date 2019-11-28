@@ -2527,6 +2527,31 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1574041728771" ID="ID_447325489" MODIFIED="1574041848304">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-family: Liberation Serif,serif; color: #CC0000; font-size: 12.0pt" lang="EN-US"><font size="12.0pt" color="#CC0000" face="Liberation Serif,serif"><b>/dev/rt5670_volume_device</b></font></span><font size="12.0pt" color="#CC0000" face="Liberation Serif,serif"><b><span>&#160;&#160; </span><span style="font-family: Liberation Serif,serif; color: #CC0000; font-size: 12.0pt" lang="EN-US">u:object_r:hdmiinvolume_device:s0</span></b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="font-family: Liberation Serif,serif; color: #CC0000; font-size: 12.0pt" lang="EN-US"><font size="12.0pt" color="#CC0000" face="Liberation Serif,serif"><b>type hdmiinvolume_device, dev_type; </b></font></span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="font-family: Liberation Serif,serif; color: red; font-size: 12.0pt" lang="EN-US"><font size="12.0pt" color="red" face="Liberation Serif,serif"><b>allow mediaserver hdmiinvolume_device:chr_file { read write ioctl open };</b></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1482304537199" ID="ID_569679899" MODIFIED="1482304617373">
 <richcontent TYPE="NODE"><html>
@@ -2674,8 +2699,7 @@
       &#26465;&#20214;&#65292;RBAC&#36890;&#36807;constrain&#22312;user&#21644;role&#19978;&#28155;&#21152;&#38480;&#21046;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1572848804606" ID="ID_643188914" MODIFIED="1572849342497">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2713,8 +2737,7 @@
       user u roles { r } level s0 range s0 - mls_systemhigh
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1572849353992" ID="ID_1926459482" MODIFIED="1572850098095">
 <richcontent TYPE="NODE"><html>
@@ -2750,8 +2773,7 @@
       super_r&#23558;&#20250;&#33258;&#21160;&#32487;&#25215;sysadm_r&#36319;secadm_r&#25152;&#20851;&#32852;&#30340;type
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1572850139653" ID="ID_1440665285" MODIFIED="1572852044837">
 <richcontent TYPE="NODE"><html>
@@ -2794,6 +2816,54 @@
     </p>
     <p>
       dom,domby,incomp,eq&#20851;&#38190;&#23383;&#20165;&#20165;&#38024;&#23545;role, &#34920;&#31034;&#32479;&#27835;&#65292;&#34987;&#32479;&#27835;&#65292;&#27809;&#20851;&#31995;&#21644;&#30456;&#21516;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574042014964" ID="ID_443501368" MODIFIED="1574042157950" TEXT="Labeling&#x4ecb;&#x7ecd;">
+<node CREATED="1574042163504" ID="ID_1439050251" MODIFIED="1574042401413">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;SELinux&#24403;&#20013;&#65292;&#21021;&#22987;&#21270;&#21644;&#20998;&#37197;SContext&#32473;&#36827;&#31243;&#25110;&#32773;&#25991;&#20214;&#30340;&#24037;&#20316;&#21483;&#20570;security labeling
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1) sid&#21644;sid_context
+    </p>
+    <p>
+      init&#36827;&#31243;&#23558;&#32534;&#35793;&#22909;&#30340;&#23433;&#20840;&#31574;&#30053;&#25991;&#20214;&#20256;&#36882;&#32473;&#20869;&#26680;&#30340;LSM&#27169;&#22359;(Linux Security Model)
+    </p>
+    <p>
+      LSM&#21021;&#22987;&#21270;&#38656;&#35201;&#20004;&#20010;&#25991;&#20214;&#65292;initial_sids&#21644;initial_sid_context
+    </p>
+    <p>
+      initial_sids&#31867;&#20284;&#20110;key&#20540;&#65292;&#36890;&#36807;key&#20540;&#24555;&#36895;&#21305;&#37197;SContext
+    </p>
+    <p>
+      inital_sid_context&#26159;sid&#26368;&#21021;&#30340;&#20540;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574066586067" ID="ID_1840646603" MODIFIED="1574066649359">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3300"><b>Domain/Type Transition &#21644; &#23439;</b></font>
+    </p>
+    <p>
+      &#36825;&#37096;&#20998;&#27604;&#36739;&#22797;&#26434;&#65292;&#21442;&#32771;&#38142;&#25509; <a href="https://blog.csdn.net/innost/article/details/19299937">https://blog.csdn.net/innost/article/details/19299937</a>
     </p>
   </body>
 </html>
@@ -6711,7 +6781,7 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1534990279560" ID="ID_1834170861" MODIFIED="1535332693128">
+<node CREATED="1534990279560" ID="ID_1834170861" MODIFIED="1574056870885">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6760,6 +6830,12 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
       
     </p>
     <p>
+      <i><font size="4">hidl-gen -o $LOC -Ljava&#160;-randroid.hardware:hardware/interfaces&#160; -randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
       <i><font size="4">b.&#23558;&#26381;&#21153;&#31471;&#27880;&#20876; </font></i>
     </p>
     <p>
@@ -6775,7 +6851,8 @@ import&#160;android.hardware.nfc@1.0;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&
       <i><font size="4">}</font></i>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1535332772473" ID="ID_964896449" MODIFIED="1535332796947">
 <richcontent TYPE="NODE"><html>
