@@ -792,8 +792,10 @@ subgraph cluster_struct_irqaction{
 	
 subgraph cluster_struct_gic_chip_data{
 	label="struct gic_chip_data";
+	bgcolor="yellow";
 	"struct gic_chip_data"[label="{
-	 union gic_base dist_base
+*****这是gic初始化的时候的一个全局性的结构体*****
+	|union gic_base dist_base
     |union gic_base cpu_base
 	|u32 saved_spi_enable\[DIV_ROUND_UP\(1020, 32\)\]
     |u32 saved_spi_active\[DIV_ROUND_UP\(1020, 32\)\]
@@ -808,7 +810,97 @@ subgraph cluster_struct_gic_chip_data{
 }
 "struct gic_chip_data":domain->"struct irq_domain"[color=red label="domain"];
 	
-	
+subgraph cluster_struct_samsung_pin_ctrl{
+	label="struct samsung_pin_ctrl";
+	bgcolor="brown";
+	"struct samsung_pin_ctrl"[label="{
+	 <bank>const struct samsung_pin_bank_data *pin_banks;
+	|u32     nr_banks
+	|<gpio_init>int     \(*eint_gpio_init\)\(struct samsung_pinctrl_drv_data *\)
+	|int     \(*eint_wkup_init\)\(struct samsung_pinctrl_drv_data *\)
+	|void    \(*suspend\)\(struct samsung_pinctrl_drv_data *\)
+	|void    \(*resume\)\(struct samsung_pinctrl_drv_data *\)
+}"];
+}
+
+"struct samsung_pin_ctrl":bank->"struct samsung_pin_bank_data"[color="green" arrowhead=open];
+"struct samsung_pin_ctrl":gpio_init->"struct samsung_pinctrl_drv_data"[color="blue" arrowhead=open];
+
+subgraph cluster_struct_samsung_pin_bank_data{
+    label="struct samsung_pin_bank_data";
+    "struct samsung_pin_bank_data"[label="{
+    <type>const struct samsung_pin_bank_type *type;
+    |u32     pctl_offset;
+    |u8      nr_pins;
+    |u8      eint_func;
+    |enum eint_type  eint_type;
+    |u32     eint_mask;
+    |u32     eint_offset;
+    |const char  *name;
+}"];
+}
+
+"struct samsung_pin_bank_data":type->"struct samsung_pin_bank_type"[arrowhead=open color=blue label="type"];
+
+subgraph cluster_struct_samsung_pin_bank_type{
+    label="struct samsung_pin_bank_type";
+    "struct samsung_pin_bank_type"[label="{
+     u8 fld_width\[PINCFG_TYPE_NUM\]
+    |u8 reg_offset\[PINCFG_TYPE_NUM\]
+}"];
+}
+
+subgraph cluster_struct_samsung_pinctrl_drv_data{
+	label="struct samsung_pinctrl_drv_data";
+	"struct samsung_pinctrl_drv_data"[label="{
+     struct list_head        node
+    |void __iomem            *virt_base
+    |struct device           *dev
+    |int             irq
+    |<desc>struct pinctrl_desc     pctl
+    |<dev>struct pinctrl_dev      *pctl_dev
+    |const struct samsung_pin_group  *pin_groups
+    |unsigned int            nr_groups
+    |const struct samsung_pmx_func   *pmx_functions
+    |unsigned int            nr_functions
+    |<pin_bank>struct samsung_pin_bank     *pin_banks
+    |u32             nr_banks
+    |unsigned int            pin_base
+    |unsigned int            nr_pins
+    |void (*suspend)(struct samsung_pinctrl_drv_data *);
+    |void (*resume)(struct samsung_pinctrl_drv_data *);
+}"];
+};
+"struct samsung_pinctrl_drv_data":desc->"struct pinctrl_desc"[arrowhead=open color=blue label="pctl"];
+"struct samsung_pinctrl_drv_data":dev->"struct pinctrl_dev"[arrowhead=open color=blue label="pctl_dev"];
+"struct samsung_pinctrl_drv_data":pin_bank->"struct samsung_pin_bank"[arrowhead=open color=red label="pin_banks"];
+
+subgraph cluster_struct_samsung_pin_bank{
+	label="struct samsung_pin_bank";
+    bgcolor="purple";
+	"struct samsung_pin_bank"[label="{
+     const struct samsung_pin_bank_type *type
+    |u32     pctl_offset
+    |u8      nr_pins
+    |u8      eint_func
+    |enum eint_type  eint_type
+    |u32     eint_mask
+    |u32     eint_offset
+    |const char  *name
+    |u32     pin_base
+    |void        *soc_priv
+    |struct device_node *of_node
+    |struct samsung_pinctrl_drv_data *drvdata
+    |struct irq_domain *irq_domain
+    |struct gpio_chip gpio_chip
+    |struct pinctrl_gpio_range grange
+    |struct exynos_irq_chip *irq_chip
+    |spinlock_t slock
+    |u32 pm_save\[PINCFG_TYPE_NUM + 1\]
+	}"];
+}
+
+}
 	
 	
 	
@@ -817,4 +909,3 @@ subgraph cluster_struct_gic_chip_data{
 	
 	
 
-}

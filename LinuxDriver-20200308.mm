@@ -1,4 +1,4 @@
-<map version="1.1.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1432001536510" ID="ID_24966842" LINK="file" MODIFIED="1455007293417">
 <richcontent TYPE="NODE"><html>
@@ -4111,7 +4111,7 @@
   </head>
   <body>
     <p>
-      <font size="3" color="#1b43e6">&#20851;&#20110;&#39537;&#21160;&#32534;&#35793;&#30340;Makefile&#20998;&#26512;</font>
+      <font size="3" color="#1b43e6">&#x5173;&#x4e8e;&#x9a71;&#x52a8;&#x7f16;&#x8bd1;&#x7684;Makefile&#x5206;&#x6790;</font>
     </p>
   </body>
 </html></richcontent>
@@ -4189,13 +4189,13 @@
   </head>
   <body>
     <p>
-      <b>&#22914;&#20309;&#22312;&#26368;&#26032;&#30340;&#20869;&#26680;&#20195;&#30721;&#19978;&#32534;&#35793;LDD3&#30340;&#20195;&#30721;&#20363;&#23376;&#65306;</b>
+      <b>&#x5982;&#x4f55;&#x5728;&#x6700;&#x65b0;&#x7684;&#x5185;&#x6838;&#x4ee3;&#x7801;&#x4e0a;&#x7f16;&#x8bd1;LDD3&#x7684;&#x4ee3;&#x7801;&#x4f8b;&#x5b50;&#xff1a;</b>
     </p>
     <p>
       
     </p>
     <p>
-      1.&#39318;&#20808;&#20174;github&#19978;&#25214;&#21040;&#21035;&#20154;&#20462;&#25913;&#36807;&#30340;&#21305;&#37197;&#30340;&#20195;&#30721;
+      1.&#x9996;&#x5148;&#x4ece;github&#x4e0a;&#x627e;&#x5230;&#x522b;&#x4eba;&#x4fee;&#x6539;&#x8fc7;&#x7684;&#x5339;&#x914d;&#x7684;&#x4ee3;&#x7801;
     </p>
     <p>
       git clone git://github.com/martinezjavier/ldd3.git
@@ -4204,10 +4204,10 @@
       
     </p>
     <p>
-      2. &#25353;&#29031;&#20195;&#30721;&#30340;&#35828;&#26126;&#65292;&#22312;&#32534;&#35793;&#20043;&#21069;&#35774;&#32622;&#21464;&#37327;export KERNELDIR=/path/to/linux
+      2. &#x6309;&#x7167;&#x4ee3;&#x7801;&#x7684;&#x8bf4;&#x660e;&#xff0c;&#x5728;&#x7f16;&#x8bd1;&#x4e4b;&#x524d;&#x8bbe;&#x7f6e;&#x53d8;&#x91cf;export KERNELDIR=/path/to/linux
     </p>
     <p>
-      &#21040;&#20320;&#19979;&#36733;&#30340;&#23545;&#24212;&#30340;kernel&#20195;&#30721;&#37324;&#38754;&#65292;&#27604;&#22914;&#25105;&#20250;&#35774;&#32622;&#25104;
+      &#x5230;&#x4f60;&#x4e0b;&#x8f7d;&#x7684;&#x5bf9;&#x5e94;&#x7684;kernel&#x4ee3;&#x7801;&#x91cc;&#x9762;&#xff0c;&#x6bd4;&#x5982;&#x6211;&#x4f1a;&#x8bbe;&#x7f6e;&#x6210;
     </p>
     <p>
       export KERNELDIR=/home/usrname/usr/linux-4.4.40
@@ -4216,7 +4216,7 @@
       
     </p>
     <p>
-      3.&#21040;ldd3&#20195;&#30721;&#30340;&#26576;&#20010;&#23376;&#30446;&#24405;&#19979;&#38754;&#25191;&#34892;make&#21629;&#20196;&#21363;&#21487;
+      3.&#x5230;ldd3&#x4ee3;&#x7801;&#x7684;&#x67d0;&#x4e2a;&#x5b50;&#x76ee;&#x5f55;&#x4e0b;&#x9762;&#x6267;&#x884c;make&#x547d;&#x4ee4;&#x5373;&#x53ef;
     </p>
   </body>
 </html></richcontent>
@@ -4227,20 +4227,20 @@
   </head>
   <body>
     <p>
-      <b><font color="#ee1111">&#22914;&#20309;&#38405;&#35835;&#21644;&#24320;&#21457;LDD3&#30340;&#20195;&#30721;&#65311;</font></b>
+      <b><font color="#ee1111">&#x5982;&#x4f55;&#x9605;&#x8bfb;&#x548c;&#x5f00;&#x53d1;LDD3&#x7684;&#x4ee3;&#x7801;&#xff1f;</font></b>
     </p>
     <p>
       
     </p>
     <ol>
       <li>
-        &#39318;&#20808;&#25171;&#24320;ldd3&#30340;&#26576;&#20010;&#25991;&#20214;
+        &#x9996;&#x5148;&#x6253;&#x5f00;ldd3&#x7684;&#x67d0;&#x4e2a;&#x6587;&#x4ef6;
       </li>
       <li>
-        &#22312;vim&#37324;&#38754;&#25353;&#19979;&#24555;&#25463;&#38190; &quot;,dp&quot;, &#36755;&#20837;&#30446;&#26631;linux&#28304;&#20195;&#30721;&#30340;&#20301;&#32622;&#65292;&#31243;&#24207;&#20250;&#33258;&#21160;&#22312;&#24403;&#21069;&#30446;&#24405;&#19979;&#29983;&#25104;&#32034;&#24341;
+        &#x5728;vim&#x91cc;&#x9762;&#x6309;&#x4e0b;&#x5feb;&#x6377;&#x952e; ",dp", &#x8f93;&#x5165;&#x76ee;&#x6807;linux&#x6e90;&#x4ee3;&#x7801;&#x7684;&#x4f4d;&#x7f6e;&#xff0c;&#x7a0b;&#x5e8f;&#x4f1a;&#x81ea;&#x52a8;&#x5728;&#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x751f;&#x6210;&#x7d22;&#x5f15;
       </li>
       <li>
-        F3&#38190;&#21152;&#36733;&#32034;&#24341;&#65292;&#28982;&#21518;&#21487;&#20197;&#20351;&#29992;cscope&#27983;&#35272;linux&#20869;&#26680;&#65292;&#20351;&#29992;omni&#26469;&#23436;&#25104;&#31243;&#24207;&#34917;&#20840;
+        F3&#x952e;&#x52a0;&#x8f7d;&#x7d22;&#x5f15;&#xff0c;&#x7136;&#x540e;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;cscope&#x6d4f;&#x89c8;linux&#x5185;&#x6838;&#xff0c;&#x4f7f;&#x7528;omni&#x6765;&#x5b8c;&#x6210;&#x7a0b;&#x5e8f;&#x8865;&#x5168;
       </li>
     </ol>
   </body>
@@ -5337,7 +5337,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1574938725245" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
+<node COLOR="#cc0033" CREATED="1458395797887" ID="ID_897771791" MODIFIED="1577884792210" POSITION="right" TEXT="&#x7279;&#x522b;&#x7ae0;&#x8282;:GPIO&#x5b50;&#x7cfb;&#x7edf;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1560959515790">
 <richcontent TYPE="NODE"><html>
@@ -5412,9 +5412,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1574938724325" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
+<node CREATED="1458444006543" ID="ID_117120831" MODIFIED="1577884799850" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1458444050579" FOLDED="true" ID="ID_345597075" MODIFIED="1574938722281">
+<node CREATED="1458444050579" ID="ID_345597075" MODIFIED="1577884805709">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5429,7 +5429,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1458446261967" FOLDED="true" ID="ID_1518217915" MODIFIED="1574938698364" TEXT="pin control&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x67b6;&#x6784;">
+<node CREATED="1458446261967" ID="ID_1518217915" MODIFIED="1577884812921" TEXT="pin control&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x67b6;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458446288669" ID="ID_1963969073" MODIFIED="1458446695190">
 <richcontent TYPE="NODE"><html>
@@ -5565,7 +5565,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459761171090" FOLDED="true" ID="ID_353188260" MODIFIED="1574938694743">
+<node CREATED="1459761171090" ID="ID_353188260" MODIFIED="1577885173982">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5576,7 +5576,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1459761914877" FOLDED="true" ID="ID_1073168285" MODIFIED="1574938693230">
+<node CREATED="1459761914877" ID="ID_1073168285" MODIFIED="1577885187458">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5605,9 +5605,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1459775491727" FOLDED="true" ID="ID_48223857" MODIFIED="1574938691888" TEXT="1.pinctrl&#x5411;&#x5176;&#x4ed6;driver&#x63d0;&#x4f9b;&#x7684;&#x63a5;&#x53e3;">
+<node CREATED="1459775491727" ID="ID_48223857" MODIFIED="1577885195139" TEXT="1.pinctrl&#x5411;&#x5176;&#x4ed6;driver&#x63d0;&#x4f9b;&#x7684;&#x63a5;&#x53e3;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459775543674" FOLDED="true" ID="ID_706896912" MODIFIED="1574938686973">
+<node CREATED="1459775543674" ID="ID_706896912" MODIFIED="1577885720138">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5644,7 +5644,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459775573746" FOLDED="true" ID="ID_1003800495" MODIFIED="1574938690781">
+<node CREATED="1459775573746" ID="ID_1003800495" MODIFIED="1577885731466">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5670,7 +5670,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459777867480" FOLDED="true" ID="ID_1307995723" MODIFIED="1574938685554" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1459777867480" ID="ID_1307995723" MODIFIED="1577885780757" TEXT="&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459776584339" ID="ID_1346475980" MODIFIED="1459778181371">
 <richcontent TYPE="NODE"><html>
@@ -5713,7 +5713,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1459776992359" FOLDED="true" ID="ID_482818732" MODIFIED="1540394827035">
+<node CREATED="1459776992359" ID="ID_482818732" MODIFIED="1577886463816">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5761,7 +5761,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459777149118" FOLDED="true" ID="ID_452436352" MODIFIED="1540394825632">
+<node CREATED="1459777149118" ID="ID_452436352" MODIFIED="1577886584355">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5815,7 +5815,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1459777239645" FOLDED="true" ID="ID_1440417104" MODIFIED="1540394824314">
+<node CREATED="1459777239645" ID="ID_1440417104" MODIFIED="1577886557057">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5869,7 +5869,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459778041480" FOLDED="true" ID="ID_512155678" MODIFIED="1574938683791" TEXT="&#x51fd;&#x6570;&#x63a5;&#x53e3;">
+<node CREATED="1459778041480" ID="ID_512155678" MODIFIED="1577886676942" TEXT="&#x51fd;&#x6570;&#x63a5;&#x53e3;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1459778065448" ID="ID_758197521" MODIFIED="1459778352807">
 <richcontent TYPE="NODE"><html>
@@ -5925,11 +5925,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1459779838155" FOLDED="true" ID="ID_1860691904" MODIFIED="1540394813802" TEXT="2.pinctrl subsystem&#x548c;gpio subsystem&#x7684;&#x4ea4;&#x4e92;">
+<node CREATED="1459779838155" ID="ID_1860691904" MODIFIED="1577886707547" TEXT="2.pinctrl subsystem&#x548c;gpio subsystem&#x7684;&#x4ea4;&#x4e92;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459779886162" FOLDED="true" ID="ID_1296719661" MODIFIED="1540394811476" TEXT="1.&#x5177;&#x4f53;&#x7684;&#x63a5;&#x53e3;&#x5f62;&#x6001;">
+<node CREATED="1459779886162" ID="ID_1296719661" MODIFIED="1577886711526" TEXT="1.&#x5177;&#x4f53;&#x7684;&#x63a5;&#x53e3;&#x5f62;&#x6001;">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1459780026289" FOLDED="true" ID="ID_443208363" MODIFIED="1540394809784">
+<node CREATED="1459780026289" ID="ID_443208363" MODIFIED="1577886718062">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6095,7 +6095,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1459762131859" FOLDED="true" ID="ID_304684176" MODIFIED="1574938678611" TEXT="pin control subsystem&#x5185;&#x90e8;&#x6a21;&#x5757;&#x56fe;">
+<node CREATED="1459762131859" ID="ID_304684176" MODIFIED="1577887221317" TEXT="pin control subsystem&#x5185;&#x90e8;&#x6a21;&#x5757;&#x56fe;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1459762153899" ID="ID_1054135346" MODIFIED="1459762340458">
 <richcontent TYPE="NODE"><html>
@@ -6146,7 +6146,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490175170640" FOLDED="true" ID="ID_200428281" MODIFIED="1540394787524" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
+<node CREATED="1490175170640" FOLDED="true" ID="ID_200428281" MODIFIED="1577887249883" TEXT="&#x6587;&#x6863;msm-pinctrl.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490175442996" ID="ID_1694769749" MODIFIED="1490176448827">
 <richcontent TYPE="NODE"><html>
@@ -6509,7 +6509,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490233528087" FOLDED="true" ID="ID_357125436" MODIFIED="1540394795520" TEXT="&#x6587;&#x6863;gpio.txt&#x9605;&#x8bfb;">
+<node CREATED="1490233528087" FOLDED="true" ID="ID_357125436" MODIFIED="1577887242524" TEXT="&#x6587;&#x6863;gpio.txt&#x9605;&#x8bfb;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490233551814" FOLDED="true" ID="ID_54356047" MODIFIED="1540394789688">
 <richcontent TYPE="NODE"><html>
@@ -6747,7 +6747,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1567406552401" FOLDED="true" ID="ID_669223274" MODIFIED="1574938673837">
+<node CREATED="1567406552401" ID="ID_669223274" MODIFIED="1577887346878">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6758,7 +6758,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1567406613498" FOLDED="true" ID="ID_1847682778" MODIFIED="1574938672542">
+<node CREATED="1567406613498" ID="ID_1847682778" MODIFIED="1577887350101">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6832,7 +6832,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1567407110833" ID="ID_609937862" MODIFIED="1567409593917">
+<node CREATED="1567407110833" ID="ID_609937862" MODIFIED="1578149957327">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6901,13 +6901,432 @@
     <p>
       }&#xff1b;
     </p>
+    <p>
+      <b><font color="#b726d4"><i>exynos4x12_pin_ctrl&#x662f;&#x4e00;&#x4e2a;struct samsung_pin_ctrl&#x7c7b;&#x578b;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x5185;&#x6db5;4&#x4e2a;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#xff0c; </i></font></b>
+    </p>
+    <p>
+      <b><font color="#b726d4"><i>&#x8fd9;&#x5bf9;&#x5e94;&#x4e8e;dts&#x5f53;&#x4e2d;&#x58f0;&#x660e;&#x7684;4&#x4e2a;pinctrl &#x8bbe;&#x5907;</i></font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1578126223845" ID="ID_1327964592" MODIFIED="1578126261049">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#f40f0f">static int samsung_pinctrl_probe(struct platform_device *pdev)</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x5f00;&#x59cb;&#x5206;&#x6790;probe&#x51fd;&#x6570;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1578148628138" ID="ID_54934902" MODIFIED="1578150277947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x6838;&#x5fc3;&#x6570;&#x636e;&#x58f0;&#x660e;
+    </p>
+    <p>
+      struct samsung_pinctrl_drv_data *drvdata;
+    </p>
+    <p>
+      const struct samsung_pin_ctrl *ctrl;
+    </p>
+    <p>
+      &#x4e0b;&#x9762;&#x7684;&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x91cc;&#x9762;&#x4f1a;&#x6839;&#x636e;dts&#x91cc;&#x9762;&#x7684;pinctrl&#x8282;&#x70b9;&#x7684;&#x5e8f;&#x53f7;&#x627e;&#x5230;&#x5176;&#x5bf9;&#x5e94;&#x7684;
+    </p>
+    <p>
+      struct samsung_pin_ctrl&#x7ed3;&#x6784;&#x4f53;&#xff0c;&#x7136;&#x540e;drvdata&#x91cc;&#x9762;&#x7684;&#x5f88;&#x591a;&#x6210;&#x5458;&#x4f1a;&#x6839;&#x636e;
+    </p>
+    <p>
+      ctrl&#x6765;&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x52a8;&#x6001;&#x5206;&#x914d;&#x51fa;drvdata&#x7684;&#x5185;&#x5b58;
+    </p>
+    <p>
+      drvdata = devm_kzalloc(dev, sizeof(*drvdata), GFP_KERNEL);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578149677845" ID="ID_1239774545" MODIFIED="1578149803509">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x5f00;&#x59cb;&#x5206;&#x6790;dts&#x6570;&#x636e;
+    </p>
+    <p>
+      ctrl = samsung_pinctrl_get_soc_data(drvdata, pdev)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x51fd;&#x6570;&#x539f;&#x578b;&#x5982;&#x4e0b;:
+    </p>
+    <p>
+      struct samsung_pin_ctrl *
+    </p>
+    <p>
+      samsung_pinctrl_get_soc_data(struct samsung_pinctrl_drv_data *d,
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;struct platform_device *pdev)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1578150283171" ID="ID_1943301600" MODIFIED="1578189992232">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x53d8;&#x91cf;&#x58f0;&#x660e;
+    </p>
+    <p>
+      const struct of_device_id *match;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;struct device_node *node = pdev-&gt;dev.of_node;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;struct device_node *np;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;const struct samsung_pin_bank_data *bdata;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;const struct samsung_pin_ctrl *ctrl;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;struct samsung_pin_bank *bank;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578190012794" ID="ID_346699697" MODIFIED="1578190272824">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      id = of_alias_get_id(node, "pinctrl");
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;if (id &lt; 0) {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;dev_err(&amp;pdev-&gt;dev, "failed to get alias id\n");
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;return ERR_PTR(-ENOENT);
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;match = of_match_node(samsung_pinctrl_dt_match, node);
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;ctrl = (struct samsung_pin_ctrl *)match-&gt;data + id;
+    </p>
+    <p>
+      &#x6839;&#x636e;dts&#x91cc;&#x9762;&#x58f0;&#x660e;&#x7684;pinctrl&#x8bbe;&#x5907;&#x7684;&#x5e8f;&#x53f7;&#xff0c;&#x5bfb;&#x627e;&#x5230;&#x5bf9;&#x5e94;&#x7684;struct samsung_pin_ctrl
+    </p>
+    <p>
+      samsung_pinctrl_drv_data&#x4f1a;&#x6839;&#x636e;samsung_pin_ctrl&#x7ed3;&#x6784;&#x4f53;&#x6765;&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578191823188" ID="ID_172855459" MODIFIED="1578191946428">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      d-&gt;suspend = ctrl-&gt;suspend;
+    </p>
+    <p>
+      d-&gt;resume&#xa0;&#xa0;&#xa0;= ctrl-&gt;resume;
+    </p>
+    <p>
+      d-&gt;nr_banks = ctrl-&gt;nr_banks;
+    </p>
+    <p>
+      d-&gt;pin_banks = devm_kcalloc(&amp;pdev-&gt;dev, d-&gt;nr_banks,
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;sizeof(*d-&gt;pin_banks), GFP_KERNEL);
+    </p>
+    <p>
+      &#x5c06;samsung_pin_ctrl&#x5185;&#x90e8;&#x7684;suspend,resumt&#x51fd;&#x6570;&#x590d;&#x5236;&#x7ed9;drv_data,
+    </p>
+    <p>
+      &#x5e76;&#x4e14;&#x6839;&#x636e;pin_banks&#x7684;&#x6570;&#x91cf;&#xff0c;&#x52a8;&#x6001;&#x7533;&#x8bf7;pin_banks&#x6570;&#x7ec4;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578192003452" ID="ID_591102338" MODIFIED="1578192063626">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i><font color="#d40e0e">&#x5c06;&#x4e24;&#x79cd;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x5185;&#x90e8;&#x7684;banks&#x6570;&#x7ec4;&#x7684;&#x6307;&#x9488;&#x53d6;&#x51fa;&#x6765;</font></i></b>
+    </p>
+    <p>
+      bank&#xa0;&#xa0;=&#xa0;&#xa0;d-&gt;pin_banks;
+    </p>
+    <p>
+      bdata =&#xa0;&#xa0;ctrl-&gt;pin_banks;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578192718302" ID="ID_1355312397" MODIFIED="1578192807404">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; ctrl-&gt;nr_banks; ++i, ++bdata, ++bank) {&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;type = bdata-&gt;type;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;pctl_offset = bdata-&gt;pctl_offset;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;nr_pins = bdata-&gt;nr_pins;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;eint_func = bdata-&gt;eint_func;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;eint_type = bdata-&gt;eint_type;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;eint_mask = bdata-&gt;eint_mask;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;eint_offset = bdata-&gt;eint_offset;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;name = bdata-&gt;name;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;spin_lock_init(&amp;bank-&gt;slock);
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;drvdata = d;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;bank-&gt;pin_base = d-&gt;nr_pins;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;d-&gt;nr_pins += bank-&gt;nr_pins;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#x8fdb;&#x5165;for&#x5faa;&#x73af;&#xff0c;&#x521d;&#x59cb;&#x5316;&#x5f53;&#x524d;drv data&#x91cc;&#x9762;&#x7684;pin bank&#x6570;&#x7ec4;
+    </p>
+    <p>
+      &#x6ce8;&#x610f;bank&#x91cc;&#x9762;&#x7684;pin_base&#x662f;&#x524d;&#x9762;&#x7684;bank&#x5f53;&#x4e2d;&#x6240;&#x6709;pin&#x7684;&#x7d2f;&#x8ba1;&#x503c;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578197945888" ID="ID_410724649" MODIFIED="1578198066514">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x4e0b;&#x9762;&#x8fdb;&#x5165;&#x4e00;&#x4e2a;&#x5faa;&#x73af;&#xff0c;&#x641c;&#x7d22;&#x5f53;&#x524d;pinctrl&#x8bbe;&#x5907;&#x5bf9;&#x5e94;&#x7684;&#x8282;&#x70b9;&#x7684;&#x5b50;&#x8282;&#x70b9;&#xff0c;
+    </p>
+    <p>
+      &#x7528;&#x6765;&#x5904;&#x7406;&#x5b50;&#x8282;&#x70b9;&#x662f;gpio controller&#x7684;&#x60c5;&#x51b5;
+    </p>
+    <p>
+      <b>for_each_child_of_node(node, np)</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x901a;&#x8fc7;&#x53cd;&#x7f16;&#x8bd1;dtbo&#x6211;&#x4eec;&#x53ef;&#x4ee5;&#x770b;&#x5230;gpio controller&#x662f;&#x5982;&#x4f55;&#x8fdb;&#x884c;&#x58f0;&#x660e;&#x7684;
+    </p>
+    <p>
+      pinctrl@11400000 {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;compatible = "samsung,exynos4x12-pinctrl";
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;reg = &lt;0x11400000 0x1000&gt;;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;interrupts = &lt;0x0 0x2f 0x0&gt;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gpa0 {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;gpio-controller;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#gpio-cells = &lt;0x2&gt;;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;interrupt-controller;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;#interrupt-cells = &lt;0x2&gt;;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;};
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1578198096120" ID="ID_1919865024" MODIFIED="1578198122915">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      of_find_property(np, "gpio-controller", NULL)
+    </p>
+    <p>
+      &#x9996;&#x5148;&#x5bfb;&#x627e;&#x5177;&#x6709;gpio-controller&#x5c5e;&#x6027;&#x7684;&#x5b50;node
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578198156746" ID="ID_1037914386" MODIFIED="1578198256430">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bank = d-&gt;pin_banks;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;for (i = 0; i &lt; d-&gt;nr_banks; ++i, ++bank) {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;if (!strcmp(bank-&gt;name, np-&gt;name)) {
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; <b><i><font color="#d11212">bank-&gt;of_node = np;</font></i></b>
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;break;
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;}
+    </p>
+    <p>
+      &#x5728;&#x5f53;&#x524d;pin ctroller&#x91cc;&#x9762;&#x7684;&#x6240;&#x6709;bank&#x5f53;&#x4e2d;&#x5bfb;&#x627e;&#x8ddf;gpio controller&#x5b50;node&#x540d;&#x79f0;
+    </p>
+    <p>
+      &#x4e00;&#x6837;&#x7684;bank,&#x7136;&#x540e;&#x5c06;gpio controller&#x7684;&#x8bbe;&#x5907;&#x6811;&#x8282;&#x70b9;&#x8d4b;&#x503c;&#x7ed9;&#x914d;&#x5bf9;&#x7684;bank
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1578198884746" ID="ID_417059371" MODIFIED="1578198984512">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#x6700;&#x540e;&#x5904;&#x7406;drv data&#x91cc;&#x9762;&#x7684;pin base
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      d-&gt;pin_base = pin_base;&#xa0;&#xa0;&#x7b2c;&#x4e00;&#x4e2a;drv data&#x7684;pin&#x5e8f;&#x53f7;&#x5f53;&#x7136;&#x662f;0&#x4e86;
+    </p>
+    <p>
+      pin_base += d-&gt;nr_pins;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      drv data&#x91cc;&#x9762;&#x7684;pin base&#x4ee3;&#x8868;&#x8fd9;&#x8be5;drv data&#x91cc;&#x9762;&#x7684;pin&#x8d77;&#x59cb;&#x5e8f;&#x53f7;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1578149334255" ID="ID_1083609677" MODIFIED="1578149364983">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/tiny4412-pinctrl-data.png"/>
+  </body>
+</html></richcontent>
+<node CREATED="1578149375346" ID="ID_1798379573" MODIFIED="1578149392002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/tiny4412-pinctrl-dts.png"/>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1458444473730" FOLDED="true" ID="ID_1382263222" MODIFIED="1574938717461">
+</node>
+</node>
+<node CREATED="1458444473730" FOLDED="true" ID="ID_1382263222" MODIFIED="1577887344740">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21623,7 +22042,17 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1566110688348" POSITION="right" TEXT="Linux&#x5185;&#x5b58;&#x7ba1;&#x7406;&#x5b50;&#x7cfb;&#x7edf;">
+<node CREATED="1525417026735" ID="ID_1643189755" MODIFIED="1583663926644" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Linux&#20869;&#23384;&#31649;&#29702;&#23376;&#31995;&#32479;
+    </p>
+  </body>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1525417048563" FOLDED="true" ID="ID_1100947911" MODIFIED="1560958855211" TEXT="linux vm&#x8fd0;&#x884c;&#x53c2;&#x6570;">
 <node CREATED="1525417063873" FOLDED="true" ID="ID_1881762748" MODIFIED="1560958854404" TEXT="oom">
@@ -21649,6 +22078,21 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1583663541919" ID="ID_975419175" MODIFIED="1583663720217">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20869;&#23384;&#31649;&#29702;&#23398;&#20064;&#35745;&#21010;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1583663906968" ID="ID_99046292" MODIFIED="1583663919144" TEXT="&#x9875;&#x8868;&#x6620;&#x5c04;&#x5b66;&#x4e60;"/>
+<node CREATED="1583664009824" ID="ID_1122136540" MODIFIED="1583664022116" TEXT="slab&#x5185;&#x5b58;&#x5206;&#x914d;&#x5668;&#x5b66;&#x4e60;"/>
+<node CREATED="1583664027550" ID="ID_1642566383" MODIFIED="1583664033704" TEXT="&#x5185;&#x5b58;&#x6620;&#x5c04;&#x5b66;&#x4e60;"/>
 </node>
 </node>
 <node CREATED="1563198810215" FOLDED="true" ID="ID_123490465" MODIFIED="1566110684947" POSITION="right">
