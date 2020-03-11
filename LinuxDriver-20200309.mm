@@ -11107,7 +11107,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1574904168888" POSITION="right">
+<node CREATED="1571017459253" ID="ID_1798204731" MODIFIED="1583732798105" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11118,7 +11118,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1574904166095" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1583732804517" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1471313935648" FOLDED="true" ID="ID_52548290" MODIFIED="1574904163818">
 <richcontent TYPE="NODE"><html>
@@ -11392,8 +11392,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1574250103965" FOLDED="true" ID="ID_27661495" MODIFIED="1574904167874" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1574250103965" ID="ID_27661495" MODIFIED="1583733188706" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574250173205" ID="ID_1335167454" MODIFIED="1574767377667">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11444,6 +11444,225 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1583898131646" ID="ID_1604355950" MODIFIED="1583898146993" TEXT="usb 2.0&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<node CREATED="1583898150784" ID="ID_558301305" MODIFIED="1583898165481" TEXT="1. Architectural overview">
+<node CREATED="1583903465408" ID="ID_1702717644" MODIFIED="1583903515271">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;USB&#31995;&#32479;&#30001;&#19977;&#31181;&#23450;&#20041;&#21306;&#22495;&#25551;&#36848;
+    </p>
+    <p>
+      USB interconnect
+    </p>
+    <p>
+      USB devices
+    </p>
+    <p>
+      USB host
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1583903551104" ID="ID_909692596" MODIFIED="1583903684146">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      USB&#20114;&#36830;&#26159;&#19968;&#31181;&#35774;&#22791;&#20043;&#38388;&#30456;&#20114;&#36830;&#25509;&#20197;&#21450;&#35774;&#22791;&#36319;host&#20043;&#38388;&#36890;&#20449;&#30340;&#26041;&#24335;&#65292;&#23427;&#21253;&#25324;&#22914;&#19979;&#30340;&#23450;&#20041;:
+    </p>
+    <ol>
+      <li>
+        Bus Topology
+      </li>
+      <li>
+        Inter-layer Relationshipsa
+      </li>
+      <li>
+        Data Flow Model
+      </li>
+      <li>
+        USB Schedule
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1582681542935" ID="ID_1319645320" MODIFIED="1582681590178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#ff0033">UVC&#21327;&#35758;&#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1582681649472" ID="ID_1282617983" MODIFIED="1582681658971" TEXT="&#x4e00;&#x3001;&#x7f51;&#x7edc;&#x8d44;&#x6599;&#x5b66;&#x4e60;">
+<node CREATED="1582681713795" ID="ID_166431576" MODIFIED="1582681758418">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20197;&#19979;&#23398;&#20064;&#24635;&#32467;&#26469;&#33258;&#20110;&#32593;&#32476;&#38142;&#25509;
+    </p>
+    <p>
+      <a href="https://blog.csdn.net/go_str/article/details/80844175">https://blog.csdn.net/go_str/article/details/80844175</a>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1582681778697" ID="ID_271383624" MODIFIED="1582681857594">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20855;&#26377;uvc&#21151;&#33021;&#30340;&#35270;&#39057;&#35774;&#22791;&#38656;&#35201;&#20004;&#31181;&#25509;&#21475;&#65292;&#19968;&#31181;&#26159;&#35270;&#39057;&#25511;&#21046;&#25509;&#21475;VC Interface&#65292;
+    </p>
+    <p>
+      &#21478;&#19968;&#31181;&#26159;&#35270;&#39057;&#27969;&#25509;&#21475;VS Interface
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1582681871427" ID="ID_1051944900" MODIFIED="1582681962218">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UVC&#30340;&#20027;&#35201;&#30340;&#35774;&#22791;&#32452;&#25104;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Input Terminal
+    </p>
+    <p>
+      Output Terminal
+    </p>
+    <p>
+      Camera Terminal
+    </p>
+    <p>
+      Selector Unit
+    </p>
+    <p>
+      Processing Unit
+    </p>
+    <p>
+      Extension Unit
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1582682092564" ID="ID_1152274431" MODIFIED="1582682135390">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/uvc-camera-topology.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1582700849140" ID="ID_1015738720" MODIFIED="1582701153099">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Unit&#35268;&#23450;&#26377;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;&#20837;&#21475;&#65292;&#32780;&#20986;&#21475;&#21482;&#33021;&#26377;&#19968;&#20010;
+    </p>
+    <p>
+      &#35268;&#33539;1.5&#24403;&#20013;&#23450;&#20041;&#20102;&#22235;&#31181;unit
+    </p>
+    <p>
+      Selector Unit &#25511;&#21046;&#22270;&#20687;&#25968;&#25454;&#37319;&#38598;&#28304;&#30340;&#20999;&#25442;&#21644;&#36873;&#25321;
+    </p>
+    <p>
+      Processing Unit &#23545;&#37319;&#38598;&#22270;&#20687;&#25968;&#25454;&#36827;&#34892;&#21152;&#24037;
+    </p>
+    <p>
+      Encode Unit
+    </p>
+    <p>
+      Extension Unit &#20026;&#29305;&#23450;&#20379;&#24212;&#21830;&#25552;&#20379;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1582681663964" ID="ID_1779716478" MODIFIED="1582681676718" TEXT="&#x4e8c;&#x3001;&#x534f;&#x8bae;&#x6587;&#x6863;&#x5b66;&#x4e60;"/>
+<node CREATED="1582681680739" ID="ID_1406732789" MODIFIED="1582681689365" TEXT="&#x4e09;&#x3001;&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x5b66;&#x4e60;"/>
+<node CREATED="1582681693454" ID="ID_1682288860" MODIFIED="1582681703079" TEXT="&#x56db;&#x3001;android hal&#x5c42;&#x4ee3;&#x7801;&#x5b66;&#x4e60;"/>
+</node>
+<node CREATED="1583807347078" ID="ID_1782104180" MODIFIED="1583807392376">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5"><b>type-c&#25509;&#21475;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1583811492711" ID="ID_1770181570" MODIFIED="1583811502136" TEXT="&#x63a5;&#x53e3;&#x7269;&#x7406;Pin&#x5b9a;&#x4e49;">
+<node CREATED="1583811504680" ID="ID_417028225" MODIFIED="1583811525415">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/type-c_receptable_pin_definition.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1583811529378" ID="ID_636783228" MODIFIED="1583811538189">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/440px-USB_Type-C_Receptacle_Pinout.svg.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1583812309352" ID="ID_1624487073" MODIFIED="1583812317044">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/440px-USB_Type-C_plug_pinout.svg.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -22229,7 +22448,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1527837313409" FOLDED="true" ID="ID_1738693135" MODIFIED="1566110674790" POSITION="right">
+<node CREATED="1527837313409" FOLDED="true" ID="ID_1738693135" MODIFIED="1583732877418" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
