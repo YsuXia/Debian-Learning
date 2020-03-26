@@ -1353,7 +1353,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1574938633164" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1584683216567" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -1494,7 +1494,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1507710798301" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1584683248941" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1534,7 +1534,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1432188997835" FOLDED="true" ID="ID_1392310371" MODIFIED="1507710797173">
+<node CREATED="1432188997835" ID="ID_1392310371" MODIFIED="1584683256534">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1715,7 +1715,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1507710799862">
+<node CREATED="1433836099543" ID="ID_582463794" MODIFIED="1584683222629">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1781,7 +1781,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433838675723" FOLDED="true" ID="ID_1496785705" MODIFIED="1495608099118" TEXT="4.&#x5982;&#x4f55;&#x5728;&#x5c40;&#x90e8;&#x6216;&#x5168;&#x5c40;&#x73af;&#x5883;&#x4e0b;&#x6253;&#x5f00;&#x548c;&#x5173;&#x95ed;printk">
+<node CREATED="1433838675723" ID="ID_1496785705" MODIFIED="1584683234290" TEXT="4.&#x5982;&#x4f55;&#x5728;&#x5c40;&#x90e8;&#x6216;&#x5168;&#x5c40;&#x73af;&#x5883;&#x4e0b;&#x6253;&#x5f00;&#x548c;&#x5173;&#x95ed;printk">
 <node CREATED="1433841585192" ID="ID_1070638651" MODIFIED="1433841669322">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1794,7 +1794,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1433843395537" FOLDED="true" ID="ID_27726491" MODIFIED="1486555599159">
+<node CREATED="1433843395537" ID="ID_27726491" MODIFIED="1584683237531">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11506,8 +11506,7 @@
       Power distribution&#35299;&#20915;&#30340;&#26159;usb&#35774;&#22791;&#22914;&#20309;&#28040;&#32791;usb host&#25552;&#20379;&#30340;&#30005;&#21147;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584349835892" ID="ID_32150454" MODIFIED="1584349899436">
 <richcontent TYPE="NODE"><html>
@@ -11522,8 +11521,7 @@
       &#22522;&#20110;usb host&#30340;&#30005;&#21147;&#31649;&#29702;&#31995;&#32479;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1584349664978" ID="ID_212315004" MODIFIED="1584349670583" TEXT="Bus Protocol"/>
@@ -11669,6 +11667,31 @@
     <img src="lddpic/type-c_receptable_pin_definition.PNG" />
   </body>
 </html></richcontent>
+<node CREATED="1584582689899" ID="ID_1861607838" MODIFIED="1584582970450">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SBU&#22312;DP&#21327;&#35758;&#24403;&#20013;&#20250;&#34987;&#29992;&#20316;AUX channel&#65292;&#35813;&#21322;&#21452;&#24037;&#30340;channel&#26159;&#29992;&#20110;&#25658;&#24102;&#38500;video&#20449;&#21495;&#20043;&#22806;&#30340;
+    </p>
+    <p>
+      &#20854;&#20182;&#20449;&#21495;&#30340;&#65292;&#21253;&#25324;audio, EDID, HDCP, touchscreen data&#31561;&#31561;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584583755869" ID="ID_48784288" MODIFIED="1584583793253">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/typec-to-dp.png" />
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1583811529378" ID="ID_636783228" MODIFIED="1583811538189">
 <richcontent TYPE="NODE"><html>
@@ -12666,9 +12689,18 @@
       <b><font color="#0033cc">&#39640;&#36890;&#24179;&#21488;PD&#20805;&#30005;&#27969;&#31243;&#23398;&#20064;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1584435295414" ID="ID_165827177" MODIFIED="1584435307305" TEXT="1.&#x57fa;&#x7840;&#x6982;&#x5ff5;">
+</html></richcontent>
+<node CREATED="1584435295414" ID="ID_165827177" MODIFIED="1584594605698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"><b>1.&#22522;&#30784;&#27010;&#24565;</b></font>
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1584435311535" ID="ID_1261407435" MODIFIED="1584435441024">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12688,8 +12720,7 @@
       DFP&#36890;&#24120;&#26159;&#20379;&#30005;&#30340;source&#31471;&#65292;UFP&#36890;&#24120;&#26159;&#20379;&#30005;&#30340;sink&#31471;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584435477879" ID="ID_1541131537" MODIFIED="1584435494779">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12698,8 +12729,43 @@
   <body>
     <img src="lddpic/DFP-AND-UFP.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1584610847378" ID="ID_1276263764" MODIFIED="1584611343058">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In addition, the PHY Layer Shall control the Rp resistor value to avoid collisions between Source and Sink
+    </p>
+    <p>
+      transmissions. The Source Shall set an Rp value corresponding to a current of 3A to indicate to the Sink that it May
+    </p>
+    <p>
+      initiate an AMS. The Source Shall set an Rp value corresponding to a current of 1.5A this Shall indicate to the Sink
+    </p>
+    <p>
+      USB Power Delivery Specification Revision 3.0, Version 1.2 Page 79
+    </p>
+    <p>
+      at it Shall Not initiate an AMS and Shall only respond to Messages as part of an AMS . See [USB Type-C 1.3] for details of
+    </p>
+    <p>
+      the corresponding Rp values.
+    </p>
+    <p>
+      Table 5-13 details the Rp values that Shall be used by the Source to control Sink initiation of an AMS.
+    </p>
+    <p>
+      Table 5-13 Rp values used for Collision Avoidance
+    </p>
+    <p>
+      Source Rp Parameter Description Sink operation Source operation
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1584435500505" ID="ID_100486113" MODIFIED="1584435605150">
@@ -12718,8 +12784,7 @@
       &#22240;&#27492;&#36825;&#31181;&#32452;&#21512;&#21152;&#36215;&#26469;&#26377;&#22235;&#31181;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584435636406" ID="ID_1367088381" MODIFIED="1584435658859">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12839,8 +12904,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584435663697" ID="ID_1290877816" MODIFIED="1584435670828">
 <richcontent TYPE="NODE"><html>
@@ -12850,8 +12914,7 @@
   <body>
     <img src="lddpic/DRP.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1584437432709" ID="ID_1808511054" MODIFIED="1584437456463" TEXT="USB Power Delivery Protocol View">
@@ -12865,8 +12928,7 @@
       DFP&#21644;UFP&#22312;CC&#33050;&#19978;&#36890;&#36807;BMC&#21327;&#35758;&#26469;&#21452;&#21521;&#21327;&#21830;&#20805;&#30005;&#30005;&#27969;&#21644;&#20805;&#30005;&#30005;&#21387;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584437746702" ID="ID_1291721358" MODIFIED="1584437760421">
 <richcontent TYPE="NODE"><html>
@@ -12876,8 +12938,7 @@
   <body>
     <img src="lddpic/PD-over-typec.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584439443526" ID="ID_1190387612" MODIFIED="1584439502065">
 <richcontent TYPE="NODE"><html>
@@ -12889,8 +12950,7 @@
       type-c&#25509;&#21475;&#36890;&#36807;EMCA&#35013;&#32622;&#26469;&#26816;&#27979;&#20986;&#25554;&#20837;&#30340;&#35774;&#22791;&#26159;&#21542;&#25903;&#25345;pd&#21327;&#35758;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584439553553" ID="ID_1722754385" MODIFIED="1584439561964">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12899,8 +12959,7 @@
   <body>
     <img src="lddpic/EMCA-TYPEC.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584439564913" ID="ID_427457554" MODIFIED="1584439583104">
 <richcontent TYPE="NODE"><html>
@@ -12910,13 +12969,42 @@
   <body>
     <img src="lddpic/PD&#x534f;&#x5546;&#x8fc7;&#x7a0b;.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
+<node CREATED="1584513875086" ID="ID_583367687" MODIFIED="1584513894732">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/usb&#x5145;&#x7535;&#x534f;&#x8bae;&#x4e00;&#x89c8;.jpg" />
+  </body>
+</html></richcontent>
+<node CREATED="1584513899803" ID="ID_837966337" MODIFIED="1584513909197">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/usb&#x5404;&#x79cd;&#x63a5;&#x53e3;&#x4e00;&#x89c8;.jpg" />
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1584436105512" ID="ID_1412793510" MODIFIED="1584436111147" TEXT="2.&#x7f51;&#x7edc;&#x8d44;&#x6599;">
+</node>
+</node>
+<node CREATED="1584436105512" ID="ID_1412793510" MODIFIED="1584594620022">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"><b>2.&#32593;&#32476;&#36164;&#26009;</b></font>
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1584436115687" ID="ID_613981889" MODIFIED="1584436137014">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12925,6 +13013,293 @@
   <body>
     <p>
       <font color="#3333ff">https://www.embedded.com/usb-type-c-and-power-delivery-101-ports-and-connections/</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1584594562994" ID="ID_1486098016" MODIFIED="1584594632068">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"><b>3. PD&#20805;&#30005;&#27969;&#31243;&#39537;&#21160;&#26085;&#24535;&#20998;&#26512;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1584594650565" ID="ID_541549427" MODIFIED="1584594711827">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(10) num_objs(0)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The PR_Swap Message May be sent by either Port Partner to request an exchange of power roles.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584594716122" ID="ID_1682202694" MODIFIED="1584595014983">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(6) num_objs(0)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The PS_RDY Message Shall be sent by the Source (or by both the new Sink and new Source during the Power Role
+    </p>
+    <p>
+      Swap sequence or Fast Role Swap sequence) to indicate its power supply has reached the desired operating condition
+    </p>
+    <p>
+      (see Section 8.3.2.2).
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584595043095" ID="ID_1518236552" MODIFIED="1584609417961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(1) num_objs(5)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Source_Capabilities Message (see Figure 6-12). Power Data Objects are used to convey a Source Port&#8217;s capabilities
+    </p>
+    <p>
+      <font color="#ff0000">[&#160;&#160;101.314547] usbpd usbpd0: handle state SNK_Discovery&#160; </font><font color="#0000ff"><b>soc&#36827;&#20837;&#21040;sink&#21457;&#29616;&#38454;&#27573;</b></font>
+    </p>
+    <p>
+      <font color="#ff0000">[&#160;&#160;101.320309] usbpd usbpd0: SNK_Discovery -&gt; SNK_Evaluate_Capability</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584611599855" ID="ID_1000478008" MODIFIED="1584611748424">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(3) num_objs(0)
+    </p>
+    <p>
+      <b>&#36825;&#37324;&#26159;&#21542;&#26159;source&#23545;sink&#31471;&#20805;&#30005;selection&#30340;&#22238;&#22797;&#65311;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The Accept Message is a Valid response in the following cases:
+    </p>
+    <p>
+      &#8226; Source to signal the Sink that the Source is willing to meet the Request Message.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      usbpd usbpd0: SNK_Select_Capability -&gt; SNK_Transition_Sink
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584611774939" ID="ID_703729036" MODIFIED="1584611992721">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(6) num_objs(0)
+    </p>
+    <p>
+      source&#20934;&#22791;&#22909;&#36827;&#20837;&#20805;&#30005;&#29366;&#24577;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The PS_RDY Message Shall be sent by the Source (or by both the new Sink and new Source during the Power Role
+    </p>
+    <p>
+      Swap sequence or Fast Role Swap sequence) to indicate its power supply has reached the desired operating condition
+    </p>
+    <p>
+      (see Section 8.3.2.2).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      usbpd usbpd0: SNK_Transition_Sink -&gt; SNK_Ready
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584612068124" ID="ID_838894695" MODIFIED="1584612150576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(11) num_objs(0)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Vconn_swap message
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584612267470" ID="ID_542895400" MODIFIED="1584612333429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>[&#160;&#160;103.056780] usbpd usbpd0: received message: type(9) num_objs(0)&#160; &#160;<font color="#ff0000">DR_Swap message&#21442;&#30475;&#21327;&#35758;&#25163;&#20876;112&#39029;</font></b>
+    </p>
+    <p>
+      [&#160;&#160;103.063082] usbpd usbpd0: handle state SNK_Ready
+    </p>
+    <p>
+      [&#160;&#160;103.070298] usbpd usbpd0: dr_swap: current_dr(0)
+    </p>
+    <p>
+      [&#160;&#160;103.075005] msm-dwc3 a600000.ssusb: vbus:0 event received
+    </p>
+    <p>
+      [&#160;&#160;103.082293] msm-dwc3 a600000.ssusb: host:1 (id:0) event received
+    </p>
+    <p>
+      [&#160;&#160;103.083399] msm-dwc3 a600000.ssusb: dwc3_resume_work: dwc3 resume work
+    </p>
+    <p>
+      [&#160;&#160;103.083416] msm-dwc3 a600000.ssusb: XCVR: ID set
+    </p>
+    <p>
+      [&#160;&#160;103.083424] msm-dwc3 a600000.ssusb: XCVR: BSV clear
+    </p>
+    <p>
+      [&#160;&#160;103.083432] msm-dwc3 a600000.ssusb: XCVR: SUSP clear
+    </p>
+    <p>
+      [&#160;&#160;103.083492] msm-dwc3 a600000.ssusb: b_peripheral state
+    </p>
+    <p>
+      [&#160;&#160;103.083513] msm-dwc3 a600000.ssusb: !id || !bsv
+    </p>
+    <p>
+      [&#160;&#160;103.083538] msm-dwc3 a600000.ssusb: dwc3_otg_start_peripheral: turn off gadget dwc3-gadget
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584684619773" ID="ID_1392387884" MODIFIED="1584684674209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: received message: type(15) num_objs(5)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff3333"><b>Vendor_Defined message</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1584684805368" ID="ID_755260240" MODIFIED="1584684965576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbpd usbpd0: VDM rx: svid:ff00 cmd:1 cmd_type:1 vdm_hdr:ff008041
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Discover Identity
+    </p>
+    <p>
+      usbpd usbpd0: VDM rx: svid:ff00 cmd:2 cmd_type:1 vdm_hdr:ff008042
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Discover SVIDs
+    </p>
+    <p>
+      usbpd usbpd0: VDM rx: svid:ff01 cmd:3 cmd_type:1 vdm_hdr:ff018043
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Discover Modes
+    </p>
+    <p>
+      usbpd usbpd0: VDM rx: svid:ff01 cmd:4 cmd_type:1 vdm_hdr:ff018144
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Enter Modes
+    </p>
+    <p>
+      usbpd usbpd0: VDM rx: svid:ff01 cmd:10 cmd_type:1 vdm_hdr:ff018150
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reserved
+    </p>
+    <p>
+      usbpd usbpd0: VDM rx: svid:ff01 cmd:11 cmd_type:1 vdm_hdr:ff018151
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reserved
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1584699186877" ID="ID_1306205353" MODIFIED="1584699224991">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3333"><i><b>power/supply/qcom/qpnp-fg-gen3.c</b></i></font>:3097:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b>pr_err(&quot;battery profile is not loaded\n&quot;);</b>
     </p>
   </body>
 </html>
