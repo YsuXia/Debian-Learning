@@ -12677,6 +12677,31 @@
   </body>
 </html></richcontent>
 <node CREATED="1557475833899" ID="ID_1777086641" MODIFIED="1557475838679" TEXT="PMI8996"/>
+<node CREATED="1585638420852" ID="ID_1906000665" MODIFIED="1585638425033" TEXT="PMI8998">
+<node CREATED="1585638901695" ID="ID_71942166" MODIFIED="1585638921414">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25171;&#21360;pmic &#23492;&#23384;&#22120;
+    </p>
+    <p>
+      echo 0x6ff &gt; /sys/kernel/debug/regmap/spmi0-02/count;
+    </p>
+    <p>
+      echo 0x1000 &gt; /sys/kernel/debug/regmap/spmi0-02/address;
+    </p>
+    <p>
+      cat /sys/kernel/debug/regmap/spmi0-02/data &gt;&gt; /data/record.txt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1585638958334" ID="ID_313864824" MODIFIED="1585638976930" TEXT="&#x5bc4;&#x5b58;&#x5668;&#x7684;&#x503c;&#x7684;&#x610f;&#x601d;&#x9700;&#x8981;&#x53c2;&#x8003;8998 hardware register description&#x6587;&#x6863;"/>
+</node>
 <node CREATED="1557475842558" ID="ID_1338687156" MODIFIED="1557475848208" TEXT="PM8996"/>
 <node CREATED="1585374121049" ID="ID_1278228773" MODIFIED="1585374141057" TEXT="qpnp-smb2.txt&#x5185;&#x6838;&#x6587;&#x6863;&#x7ffb;&#x8bd1;&#x5b66;&#x4e60;">
 <node CREATED="1585374154041" ID="ID_722962858" MODIFIED="1585374265391">
@@ -12692,8 +12717,7 @@
       USB Type-c&#19979;&#30340;QC2.0&#21644;QC3.0&#20805;&#30005;&#25216;&#26415;&#65292;&#25903;&#25345;PD&#20805;&#30005;&#25216;&#26415;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1585374281287" ID="ID_692894022" MODIFIED="1585374321092">
 <richcontent TYPE="NODE"><html>
@@ -12705,9 +12729,8 @@
       SMB2 Charger&#20351;&#29992;2&#20010;&#23618;&#27425;&#30340;&#35774;&#22791;&#33410;&#28857;&#36827;&#34892;&#25551;&#36848;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1585374343516" ID="ID_654421833" MODIFIED="1585376006168">
+</html></richcontent>
+<node CREATED="1585374343516" ID="ID_654421833" MODIFIED="1585555978948">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12774,6 +12797,69 @@
       
     </p>
     <p>
+      io-channels &#25351;&#23450;iio&#36890;&#36947;&#29992;&#30340;&#21477;&#26564;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      qcom,float-option &#29992;&#20110;&#23450;&#20041;&#24403;float charger&#25554;&#20837;&#30340;&#26102;&#20505;&#65292; charger&#30340;&#34892;&#20026;,
+    </p>
+    <p>
+      float charge&#26159;&#19968;&#31181;&#24658;&#23450;&#30005;&#21387;&#12289;&#23567;&#30005;&#27969;&#30340;&#20805;&#30005;&#26041;&#24335;
+    </p>
+    <p>
+      Treat as a DCP
+    </p>
+    <p>
+      Treat as a SDP
+    </p>
+    <p>
+      Disable charging
+    </p>
+    <p>
+      Suspend USB input
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      qcom,chg-inhibit-threshold-mv&#160;&#160;&#24403;&#30005;&#27744;&#30005;&#21387;&#22312;&#36825;&#20010;&#33539;&#22260;&#20869;&#30340;&#26102;&#20505;&#65292;&#20805;&#30005;&#34987;&#31105;&#27490;&#65292;
+    </p>
+    <p>
+      &#40664;&#35748;&#26159;&#31105;&#27490;&#30340;&#65292;&#20801;&#35768;&#35774;&#32622;&#30340;&#20540;&#26159;50, 100, 200, 300
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
       
     </p>
     <p>
@@ -12786,7 +12872,41 @@
 </node>
 </node>
 <node CREATED="1585376685328" ID="ID_734187619" MODIFIED="1585376690024" TEXT="&#x7f51;&#x7edc;&#x8d44;&#x6599;">
-<node CREATED="1585376692664" ID="ID_73152561" MODIFIED="1585376701325" TEXT="https://evsio0n.com/archives/305/"/>
+<node CREATED="1585376692664" ID="ID_73152561" MODIFIED="1585650890288">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://evsio0n.com/archives/305/
+    </p>
+    <p>
+      &#20171;&#32461;&#39640;&#36890;835&#20805;&#30005;&#26550;&#26500;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1585639140247" ID="ID_1775432289" MODIFIED="1585639179375">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: 400; color: rgb(103, 114, 131); font-family: QualcommNext, Arial, sans-serif; text-transform: none; display: inline !important; text-align: start; word-spacing: 0px; letter-spacing: normal; font-style: normal; text-indent: 0px; background-color: rgb(255, 255, 255); font-size: 18px; white-space: normal; float: none"><font color="rgb(103, 114, 131)" face="QualcommNext, Arial, sans-serif" size="18px">Quick Charge 4 features the third release of INOV (Intelligent Negotiation for Optimum Voltage), a unique power-management algorithm designed by Qualcomm Technologies. INOV now includes real-time thermal management, a technology industry first, which is designed to advance charging optimization by automatically determining and selecting the optimal power transfer level for a given thermal condition. </font></span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="font-weight: 400; color: rgb(103, 114, 131); font-family: QualcommNext, Arial, sans-serif; text-transform: none; display: inline !important; word-spacing: 0px; text-align: start; letter-spacing: normal; font-style: normal; text-indent: 0px; background-color: rgb(255, 255, 255); font-size: 18px; white-space: normal; float: none"><font color="rgb(103, 114, 131)" face="QualcommNext, Arial, sans-serif" size="18px">INOV&#36319;thermal&#26694;&#26550;&#32467;&#21512;&#36215;&#26469;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1584432587307" ID="ID_253610130" MODIFIED="1584432621218">
