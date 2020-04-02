@@ -7511,8 +7511,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <b><font size="4">https://source.android.com/security/verifiedboot/dm-verity</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1583487211681" ID="ID_630848227" MODIFIED="1583487554751">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7817,8 +7816,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7842,8 +7840,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       &#21069;&#21521;&#38169;&#35823;&#26816;&#27979;<b><font color="#ff0033">FEC</font></b>&#29992;&#20110;&#26816;&#27979;&#25968;&#25454;&#19978;&#30340;&#25439;&#22351;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1583485999802" ID="ID_1599978580" MODIFIED="1584087825744">
 <richcontent TYPE="NODE"><html>
@@ -7861,8 +7858,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       &#22238;&#28378;&#20445;&#25252;&#29305;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584151853770" ID="ID_1416811293" MODIFIED="1584151885833">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7879,8 +7875,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <b><font color="#3300ff">https://source.android.com/security/verifiedboot/avb</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584153448982" ID="ID_1774759335" MODIFIED="1584153494825">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7891,8 +7886,23 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <b>Build System Integration</b>
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1585813994209" ID="ID_84364771" MODIFIED="1585814018904">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://android.googlesource.com/platform/external/avb/+/master/README.md#Build-System-Integration">https://android.googlesource.com/platform/external/avb/+/master/README.md#Build-System-Integration </a>
+    </p>
+    <p>
+      &#35814;&#32454;&#20171;&#32461;&#20102;AVB2.0&#30340;&#31995;&#32479;&#22266;&#20214;&#30340;&#32452;&#25104;&#20197;&#21450;&#32534;&#35793;&#24037;&#20855;&#30340;&#32534;&#35793;&#27969;&#31243;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 <node CREATED="1584177004209" ID="ID_1825272025" MODIFIED="1584177596740">
 <richcontent TYPE="NODE"><html>
@@ -7910,8 +7920,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <font size="4" color="#ff0000">&#36825;&#37324;&#35828;&#30340;&#24456;&#37325;&#35201;&#65292;&#36319;dm-verity&#27169;&#22359;&#30340;&#29366;&#24577;&#36716;&#25442;&#26377;&#20851;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584177873361" ID="ID_1909615166" MODIFIED="1584178063871">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7928,8 +7937,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       hashtree&#26657;&#39564;&#38169;&#35823;&#30340;&#38382;&#39064;&#65292;&#35813;&#21442;&#25968;&#30340;&#20540;&#21487;&#20197;&#36890;&#36807;bootloader&#21551;&#21160;&#20869;&#26680;&#26102;&#36890;&#36807;&#21551;&#21160;cmd&#26469;&#20256;&#36882;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584178177593" ID="ID_27104092" MODIFIED="1584178201323">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7938,10 +7946,90 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
   <body>
     <img src="lddpic/android-avb-hashtree&#x9519;&#x8bef;&#x68c0;&#x6d4b;&#x7b56;&#x7565;&#x914d;&#x7f6e;.PNG" />
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1585813780818" ID="ID_1938942748" MODIFIED="1585825281130">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#20309;&#31105;&#29992;avbmeta&#30340;verity&#21151;&#33021;&#65311;
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        &#20351;&#29992;adb&#21629;&#20196;&#65292;&#21069;&#25552;&#26159;&#31995;&#32479;&#25104;&#21151;&#21551;&#21160;
+      </li>
+      <li>
+        ota&#30340;&#26102;&#20505;&#38656;&#35201;&#22312;avb meta image&#37324;&#38754;&#23558;disable-verity flag&#35774;&#32622;&#36215;&#26469;&#65292;&#36890;&#36807;&#26597;&#38405;&#36164;&#26009;&#30693;&#36947;&#31995;&#32479;&#26159;&#20351;&#29992; avb_tool make_vbmeta_image&#26469;&#32534;&#35793;&#30340;&#65292;&#21487;&#20197;&#23558;&#36873;&#39033; --set_hashtree_disabled_flag&#20256;&#36882;&#32473;&#35813;&#21629;&#20196;&#65292;&#22312;makefile&#37324;&#38754;&#32473;&#21464;&#37327;<font size="14px" color="rgb(0, 0, 0)" face="Source Code Pro, monospace">BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS</font>&#160;&#36171;&#20540;&#35813;&#36873;&#39033;&#21363;&#21487;&#20570;&#21040;
+      </li>
+      <li>
+        &#32534;&#35793;OTA&#21253;&#30340;&#26102;&#20505;&#38656;&#35201;&#23558;<b><font color="#ff0000">vbmeta</font></b>&#36825;&#20010;&#22266;&#20214;&#38236;&#20687;&#20063;&#21253;&#21547;&#36827;&#21435;
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1585816376909" ID="ID_698481035" MODIFIED="1585816389685">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="u-pre u-monospace MetadataMessage" style="text-align: start; white-space: pre-wrap; margin-top: 0px; padding-top: 12px; margin-right: 0px; letter-spacing: normal; margin-left: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(250, 250, 250); text-indent: 0px; padding-left: 12px; font-size: 10pt; font-style: normal; padding-right: 12px; margin-bottom: 0px; font-weight: 500; padding-bottom: 12px; font-family: Source Code Pro, monospace; color: rgb(0, 0, 0)">avbtool: add --set_hashtree_disabled_flag option to make_vbmeta_image command.
+
+This enables people to set
+
+ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS=&quot;--set_hashtree_disabled_flag&quot;
+
+in their environment and then the images they build are baked with the
+HASHTREE_DISABLED bit set and as a result they don't need to manually
+disable dm-verity via e.g. 'adb disable-verity'. Note that this is
+already possible through the existing --flags option, e.g.
+
+ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS=&quot;--flags 1&quot;
+
+but it's much nicer to be explicit about it.</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1585816492869" ID="ID_946595007" MODIFIED="1585816503904">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/&#x7981;&#x7528;vbmeta&#x7684;&#x9a8c;&#x8bc1;&#x529f;&#x80fd;.PNG" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1585813330107" ID="ID_1583012704" MODIFIED="1585814055586">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      avbtool info_image --image vbmeta.img &gt; vbmeta.img.info
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26597;&#30475;&#32534;&#35793;&#29983;&#25104;&#30340;vbmeta.img&#37324;&#38754;&#30340;&#37197;&#32622;&#20449;&#24687;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
