@@ -1,0 +1,373 @@
+digraph v4l2{
+	node[shape="record"];
+	subgraph cluster_struct_v4l2_device{
+		label="struct v4l2_device";
+		"struct v4l2_device"[ color="blue" label="{
+		struct device *dev|
+		<mdev>struct media_device *mdev|
+		spinlock_t lock|
+		<notify>void \(*notify\)\(struct v4l2_subdev *sd,\n
+				            unsigned int notification, void *arg\)|
+		<subdevs>struct list_head subdevs| char name\[V4L2_DEVICE_NAME_SIZE\]
+	|struct kref ref
+	struct v4l2_ctrl_handler *ctrl_handler|
+	struct v4l2_prio_state prio|
+	struct mutex ioctl_lock |
+	void \(*release\)\(struct v4l2_device *v4l2_dev\)
+	}"
+	];
+	}
+	"struct v4l2_device"->msm_v4l2_dev[arrowhead=none color=red];
+	msm_v4l2_dev[
+		label="{
+			msm_v4l2_dev|
+			该设备是qcom camera的v4l2框架的入口设备\n
+			该设备对应的device是平台设备qcom,msm-cam\n
+		}"
+	];
+	"struct v4l2_device":notify->"msm_sd_notify"[arrowhead=none label="入口设备设置的notify函数" color=red];
+	"struct v4l2_device":mdev->media_device[label="通过v4l2寻找media_device"];
+	"struct v4l2_device":subdevs->"struct v4l2_subdev":list[arrowhead="none" color="blue"];
+	subgraph cluster_struct_v4l2_subdev{
+		label="struct v4l2_subdev";
+		"struct v4l2_subdev"[label="{
+	 <entity>struct media_entity entity\n
+	该entity的如下属性会被修改\:\n
+	entity.info.v4l.major 和 entity.info.v4l.minor会被赋值成对应的video_device的major跟minor\n
+	entity.name 会被赋值成video_device对应的设备节点的路径\n
+	这样subdev对应的video device的信息可以在media框架里面被查找到，而这里的entity是在调用\n
+	v4l2_device_register_subdev的时候被注册到media框架里面的
+	|<list>struct list_head list
+	|struct module *owner
+	|u32 flags
+	|<parent>struct v4l2_device *v4l2_dev
+	|<ops>const struct v4l2_subdev_ops *ops
+	|<Iops>const struct v4l2_subdev_internal_ops *internal_ops
+	|struct v4l2_ctrl_handler *ctrl_handler
+	|char name[V4L2_SUBDEV_NAME_SIZE]
+	|u32 grp_id
+	|<priv>void *dev_priv
+	|void *host_priv
+	|<devnode>struct video_device *devnode \n每个subdev都会分配一个额外的video_device\n
+	这个video_device的fops被设置成为v4l2_subdev_fops\n
+	release函数被设置成为了msm_sd_unregister_subdev\n
+	然后使用__video_register_device来注册该video device,生成\/dev\/v4l-subdev设备
+	}"
+	];
+	}
+	"struct v4l2_subdev":devnode->"struct video_device"[color=blue];
+	"struct v4l2_subdev":priv->"struct msm_sd_subdev"[color=blue];
+	"struct v4l2_subdev":parent->"struct v4l2_device"[color=red];
+	 "struct v4l2_subdev":entity->"struct media_entity"[color=blue];
+	
+	subgraph cluster_v4l2_subdev_ops{
+		label="struct v4l2_subdev_ops";
+		"struct v4l2_subdev_ops"[label="{
+		const struct v4l2_subdev_core_ops *core
+	|const struct v4l2_subdev_tuner_ops *tuner
+	|const struct v4l2_subdev_audio_ops *audio
+	|const struct v4l2_subdev_video_ops *video
+	|const struct v4l2_subdev_vbi_ops    *vbi
+    |const struct v4l2_subdev_ir_ops     *ir
+    |const struct v4l2_subdev_sensor_ops *sensor
+    |const struct v4l2_subdev_pad_ops    *pad
+	}"
+	];
+	}
+
+	subgraph cluster_struct_v4l2_subdev_internal_ops{
+		label="struct v4l2_subdev_internal_ops";
+		"struct v4l2_subdev_internal_ops"[label="{
+		int(*registered)(struct v4l2_subdev *sd)
+	|void(*unregistered)(struct v4l2_subdev *sd)
+	|int(*open)(struct v4l2_subdev *sd, struct v4l2_subdev_fh *fh)
+	|int(*close)(struct v4l2_subdev *sd, struct v4l2_subdev_fh *fh)
+	
+		}"];
+	}
+	"struct v4l2_subdev":ops->"struct v4l2_subdev_ops"[color=red];
+	"struct v4l2_subdev":Iops->"struct v4l2_subdev_internal_ops"[color=red];
+	subgraph cluster_struct_video_device{
+		label="struct video_device";
+		"struct video_device"[label="{
+			<entity>struct media_entity entity\n
+			******入口设备设置的entity的type和group id分别是********\n
+					MEDIA_ENT_T_DEVNODE_V4L\n
+					QCAMERA_VNODE_GROUP_ID |
+	<fops>const struct v4l2_file_operations *fops ***入口设备设置msm_fops****
+	|<dev>struct device dev
+	|struct cdev *cdev|struct device *parent|<v4l2>struct v4l2_device *v4l2_dev
+	|struct v4l2_ctrl_handler *ctrl_handler
+	|struct vb2_queue *queue
+	|struct v4l2_prio_state *prio
+	|char name\[32\] *****入口设备设置为msm-config*******
+	|int vfl_type ****VFL_TYPE_GRABBER****
+	|int vfl_dir
+	|int minor
+	|u16 num
+	|unsigned long flags
+	|int index
+	|spinlock_t  fh_lock
+	|struct list_head fh_list
+	|int debug
+	|v4l2_std_id tvnorms
+	|v4l2_std_id current_norm
+	|void \(*release\)\(struct video_device *vdev\)\n
+		****入口设备设置video_device_release****
+	|<ioctl>const struct v4l2_ioctl_ops *ioctl_ops \n***入口设备设置g_msm_ioctl_ops****
+	}"];
+	}
+	"struct video_device":dev->msm_video_device[label="ddevice的driver_data成员指向msm_video_device" color="blue"];
+	"struct video_device":fops->"struct v4l2_file_operations";
+	"struct video_device":ioctl->"struct v4l2_ioctl_ops";
+	"struct video_device":entity->"struct media_entity"[color=red];
+	"struct video_device":v4l2->"struct v4l2_device"[label="由video_device来寻找v4l2_device"];
+
+	subgraph cluster_struct_v4l2_file_operations{
+		label="struct v4l2_file_operations";
+		"struct v4l2_file_operations"[label="{
+	 struct module *owner;
+    |ssize_t \(*read\) \(struct file *, char __user *, size_t, loff_t *\); 
+    |ssize_t \(*write\) \(struct file *, const char __user *, size_t, loff_t *\); 
+    |unsigned int \(*poll\) \(struct file *, struct poll_table_struct *\); 
+    |long \(*ioctl\) \(struct file *, unsigned int, unsigned long\);
+    |long \(*unlocked_ioctl\) \(struct file *, unsigned int, unsigned long\);
+    |long \(*compat_ioctl32\) \(struct file *, unsigned int, unsigned long\);
+    |unsigned long \(*get_unmapped_area\) \(struct file *, unsigned long,\n
+                unsigned long, unsigned long, unsigned long\);
+    |int \(*mmap\) \(struct file *, struct vm_area_struct *\); 
+    |int \(*open\) \(struct file *\); 
+    |int \(*release\) \(struct file *\);
+		}"]
+	}
+
+	subgraph cluster_struct_v4l2_ioctl_ops{
+		label="struct v4l2_ioctl_ops";
+		"struct v4l2_ioctl_ops"[label="{
+			******VIDIOC_QUERYCAP handler******|
+			int \(*vidioc_querycap\)\(struct file *file, void *fh, struct v4l2_capability *cap\)|
+			********Priority handling******\n
+			int \(*vidioc_g_priority\)\(struct file *file, void *fh,enum v4l2_priority *p\)\n
+			int \(*vidioc_s_priority\)\(struct file *file, void *fh,enum v4l2_priority p\)|
+			******VIDIOC_ENUM_FMT handlers*******|
+			******VIDIOC_G_FMT handlers**********|
+			******VIDIOC_S_FMT handlers**********|
+			******VIDIOC_TRY_FMT handlers********|
+			******Buffer handlers****************|
+			***********Stream on\/off************|
+			***********Standard handling*********|
+			**********Input handling*************|
+			*********Output handling*************|
+			**********Control handling***********|
+			
+		}"
+		]
+	}
+
+	subgraph cluster_struct_media_entity{
+        label = "struct media_entity";
+        "struct media_entity"[label=<
+        <table>
+        <tr>
+            <td>struct list_head list</td>
+        </tr>
+        <tr>
+            <td>struct media_device *parent</td>
+        </tr>
+        <tr>
+            <td>u32 id</td>
+        </tr>
+        <tr><td color="blue">const char *name *****存放对应的设备的节点名称*****</td></tr>
+        <tr><td color="red">u32 type ****入口设备MEDIA_ENT_T_DEVNODE_V4L****</td></tr>
+         <tr><td>u32 revision</td></tr>
+        <tr><td>unsigned long flags</td></tr>
+        <tr><td color="red">u32 group_id ****入口设备QCAMERA_VNODE_GROUP_ID****</td></tr>
+        <tr><td>u16 num_pads</td></tr>
+        <tr><td>u16 num_links</td></tr>
+        <tr><td>u16 num_backlinks</td></tr>
+        <tr><td>u16 max_links</td></tr>
+        <tr><td>struct media_pad *pads</td></tr>
+        <tr><td>struct media_link *links</td></tr>
+        <tr><td>const struct media_entity_operations *ops</td></tr>
+        <tr><td>int stream_count</td></tr>
+        <tr><td>int use_count</td></tr>
+        <tr><td>struct media_pipeline *pipe</td></tr>
+        <tr>
+            <td>
+            <table bgcolor="#a1a1a1">
+			<tr><td>struct v4l</td></tr>
+            <tr><td>u32 major</td></tr>
+            <tr><td>u32 minor</td></tr>
+            </table>
+            </td>
+            <td>
+            <table bgcolor="#7FFF00">
+			<tr><td>struct fb</td></tr>
+            <tr><td>u32 major</td></tr>
+            <tr><td>u32 minor</td></tr>
+            </table>
+            </td>
+            <td>
+            <table bgcolor="#f5fffa">
+			<tr><td>struct alsa</td></tr>
+            <tr><td>u32 card</td></tr>
+            <tr><td>u32 device</td></tr>
+            <tr><td>u32 subdevice</td></tr>
+            </table>
+            </td>
+            <td>int dvb</td>
+		</tr>
+        </table>
+        >];
+    }
+
+	subgraph cluster_struct_msm_queue_head{
+		label="struct msm_queue_head";
+		"struct msm_queue_head"[label="{
+	 struct list_head list;
+    |spinlock_t lock;
+    |int len;
+    |int max;
+		}"];
+	}
+
+	subgraph cluster_msm_video_device{
+		label="msm_video_device";
+		bgcolor=red;
+		"msm_video_device"[label="{
+			struct msm_video_device|
+			<vdev>struct video_device *vdev|
+			atomic_t opened|struct mutex video_drvdata_mutex
+		}"];
+	}
+	msm_video_device:vdev->"struct video_device"[color=blue];
+
+	media_device[
+		label="{
+			struct media_device||
+			struct device *dev
+			|<devnode>struct media_devnode devnode
+			|char model\[32\] \n****v4l2_device对应的mdevice的model设置为msm-config****
+			|char serial\[40\]
+			|char bus_info\[32\]
+			|u32 hw_revision
+			|u32 driver_version
+			|u32 entity_id
+			|struct list_head entities \n****所有的subdev里面的entity都会挂载到v4l2_device的media_deivce里面****\n
+			*****注意subdev对应的video虽然也有entity，但是该entity是不会被挂载到media框架里面的****\n
+			****只有video的类型不是subdev类型才会被挂在到media框架当中********\n
+			*****每个subdev都对应一个video, video对应的设备节点名称会被放置到subdev的entity里面*****
+			|spinlock_t lock
+			|struct mutex graph_mutex
+			|int \(*link_notify\)\(struct media_pad *source,\n
+					               struct media_pad *sink, u32 flags\)
+		}"
+	]
+	media_device:devnode->"struct media_devnode"[color=red];
+	subgraph cluster_struct_media_devnode{
+		label="struct media_devnode";
+		bgcolor="green";
+		"struct media_devnode"[label="{
+			const struct media_file_operations *fops |
+    		struct device dev |
+    		struct cdev cdev |
+    		struct device *parent |
+    		int minor |
+    		unsigned long flags |
+    		void \(*release\)\(struct media_devnode *mdev\)
+		}"];
+	}
+
+	subgraph cluster_struct_msm_sensor_init_t{
+		label="struct msm_sensor_init_t";
+		bgcolor="pink";
+		"struct msm_sensor_init_t"[label="{
+			struct mutex imutex;
+    |<msm_sd>struct msm_sd_subdev msm_sd
+    |int module_init_status
+    |wait_queue_head_t state_wait
+		}"];
+	}
+
+	info1[
+		label="{
+			设置msm_sd对应的v4l2_subdev里面的flags为V4L2_SUBDEV_FL_HAS_DEVNODE\n
+			这样就可以实现从用户空间对子设备进行控制\n
+			初始化该子设备的entity,设置entity的type和group_id分别是\n
+			MEDIA_ENT_T_V4L2_SUBDEV\n
+			MSM_CAMERA_SUBDEV_SENSOR_INIT\n
+			设置entity的name为msm_sensor_init\n
+			设置该msm_sd_subdev的close_seq为MSM_SD_CLOSE_2ND_CATEGORY \| 0x6
+		}"
+	]
+	"struct msm_sensor_init_t"->info1[arrowhead=none color=blue];
+	"struct msm_sensor_init_t":msm_sd->"struct msm_sd_subdev";
+
+	subgraph cluster_struct_msm_sd_subdev{
+		label="struct msm_sd_subdev";
+		"struct msm_sd_subdev"[label="{
+	|************|
+	 <sd>struct v4l2_subdev sd\n ****用msm_sensor_init_subdev_ops初始化msm_sensor_init_t对应的subdev****\n
+		******用msm_sensor_init_internal_ops初始化subdev的internal ops********\n
+		
+    |int close_seq;
+    |struct list_head list;\n按照close_seq进行排序挂载到链表ordered_sd_list当中
+	}"];
+	}
+
+	"struct msm_sd_subdev":sd->"struct v4l2_subdev";
+
+	subgraph cluster_struct_v4l2_subdev_fh{
+		label="struct v4l2_subdev_fh";
+		color="red";
+		"struct v4l2_subdev_fh"[label="{
+			<vfh>struct v4l2_fh vfh|
+			<pad>void *pad
+	}"];
+	}
+
+	
+	"struct v4l2_subdev_fh":vfh->subdev_pad;
+	"struct v4l2_subdev_fh":pad->"struct v4l2_fh";
+
+	subgraph cluster_struct_v4l2_fh{
+		label="struct v4l2_fh";
+		"struct v4l2_fh"[label="{
+			struct list_head    list;
+    |struct video_device *vdev;
+    |struct v4l2_ctrl_handler *ctrl_handler;
+    |enum v4l2_priority  prio;
+    |wait_queue_head_t   wait;
+    |struct list_head    subscribed *****Subscribed events*****
+    |struct list_head    available  ******Dequeueable event******
+    |unsigned int        navailable;
+    |u32         sequence;
+	}"];
+	}
+
+	subdev_pad[
+		label="{
+			struct v4l2_mbus_framefmt try_fmt;
+        |struct v4l2_rect try_crop;            
+        |struct v4l2_rect try_compose;
+		}"
+	];
+
+	subgraph cluster_struct_media_device_info{
+			bgcolor="pink";
+			label="struct media_device_info";
+			"struct media_device_info"[label="{
+				char driver[16]
+				|char model[32]
+				|char serial[40]
+				|char bus_info[32]
+				|__u32 media_version
+				|__u32 hw_revision
+				|__u32 driver_version
+				|__u32 reserved[31]
+		}"];
+	}
+
+	
+
+}
