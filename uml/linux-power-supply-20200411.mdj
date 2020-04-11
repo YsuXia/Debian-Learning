@@ -75,8 +75,8 @@
 											"font": "Arial;13;0",
 											"left": 5,
 											"top": 5,
-											"width": 1236,
-											"height": 956,
+											"width": 1964,
+											"height": 2284,
 											"nameLabel": {
 												"$ref": "AAAAAAFxOPjs21jvrW0="
 											},
@@ -182,14 +182,14 @@
 													"left": 252,
 													"top": 80,
 													"width": 1,
-													"height": 745
+													"height": 791
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 216,
 											"top": 40,
 											"width": 72.736328125,
-											"height": 785,
+											"height": 831,
 											"nameCompartment": {
 												"$ref": "AAAAAAFxOPnkZFkF5ZQ="
 											},
@@ -297,7 +297,7 @@
 													"left": 245,
 													"top": 292,
 													"width": 14,
-													"height": 373
+													"height": 565
 												}
 											],
 											"font": "Arial;13;0",
@@ -320,6 +320,397 @@
 											"activation": {
 												"$ref": "AAAAAAFxOPtBBlkzl7M="
 											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "AAAAAAFxYvULma69Gd8=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"model": {
+												"$ref": "AAAAAAFxYvULma68hys="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYvULma6+kV8=",
+													"_parent": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYvULma68hys="
+													},
+													"font": "Arial;13;0",
+													"left": 258,
+													"top": 339,
+													"width": 78.04443359375,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"edgePosition": 1,
+													"text": "2 : 变量声明"
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYvULma6/JPI=",
+													"_parent": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYvULma68hys="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 312,
+													"top": 339,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 25,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYvULma7AQcc=",
+													"_parent": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYvULma68hys="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 278,
+													"top": 340,
+													"height": 13,
+													"alpha": -1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "UMLActivationView",
+													"_id": "AAAAAAFxYvULma7BvbM=",
+													"_parent": {
+														"$ref": "AAAAAAFxYvULma69Gd8="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYvULma68hys="
+													},
+													"font": "Arial;13;0",
+													"left": 252,
+													"top": 356,
+													"width": 14,
+													"height": 29
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFxOPnkZFkK2bM="
+											},
+											"tail": {
+												"$ref": "AAAAAAFxOPnkZFkK2bM="
+											},
+											"points": "258:336;288:336;288:356;265:356",
+											"nameLabel": {
+												"$ref": "AAAAAAFxYvULma6+kV8="
+											},
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFxYvULma6/JPI="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFxYvULma7AQcc="
+											},
+											"activation": {
+												"$ref": "AAAAAAFxYvULma7BvbM="
+											}
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "AAAAAAFxYvYGaK7SeZI=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"font": "Arial;13;0",
+											"left": 504,
+											"top": 224,
+											"width": 329,
+											"height": 98,
+											"text": "变量声明：\nstruct smb2 *chip\nstruct smb_charger *chg\nint usb_present, batt_present, batt_health, batt_charge_type\nunion power_supply_propval val;"
+										},
+										{
+											"_type": "UMLNoteLinkView",
+											"_id": "AAAAAAFxYvYGzq7Vq2s=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFxYvYGaK7SeZI="
+											},
+											"tail": {
+												"$ref": "AAAAAAFxYvULma69Gd8="
+											},
+											"lineStyle": 1,
+											"points": "288:346;503:304"
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "AAAAAAFxYwpgCa/klbw=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"model": {
+												"$ref": "AAAAAAFxYwpgCa/jxbs="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYwpgCa/l3+o=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwpgCa/jxbs="
+													},
+													"font": "Arial;13;0",
+													"left": 103,
+													"top": 419,
+													"width": 388.4765625,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"edgePosition": 1,
+													"text": "3 : chip = devm_kzalloc(&pdev->dev, sizeof(*chip), GFP_KERNEL);"
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYwpgCa/mCMI=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwpgCa/jxbs="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 312,
+													"top": 419,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 25,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYwpgCa/nonQ=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwpgCa/jxbs="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 278,
+													"top": 420,
+													"height": 13,
+													"alpha": -1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "UMLActivationView",
+													"_id": "AAAAAAFxYwpgCa/oA8o=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwpgCa/klbw="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwpgCa/jxbs="
+													},
+													"font": "Arial;13;0",
+													"left": 252,
+													"top": 436,
+													"width": 14,
+													"height": 29
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFxOPnkZFkK2bM="
+											},
+											"tail": {
+												"$ref": "AAAAAAFxOPnkZFkK2bM="
+											},
+											"points": "258:416;288:416;288:436;265:436",
+											"nameLabel": {
+												"$ref": "AAAAAAFxYwpgCa/l3+o="
+											},
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFxYwpgCa/mCMI="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFxYwpgCa/nonQ="
+											},
+											"activation": {
+												"$ref": "AAAAAAFxYwpgCa/oA8o="
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "AAAAAAFxYwq6xq/6z6s=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"model": {
+												"$ref": "AAAAAAFxYwq6xq/5THk="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYwq6xq/7AAw=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwq6xq/5THk="
+													},
+													"font": "Arial;13;0",
+													"left": 144,
+													"top": 499,
+													"width": 306.99169921875,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"edgePosition": 1,
+													"text": "4 : 获取chip当中的charger结构体指针，并进行初始化"
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYwq6xq/8vyw=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwq6xq/5THk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 312,
+													"top": 499,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 25,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFxYwq6xq/99rg=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwq6xq/5THk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 278,
+													"top": 500,
+													"height": 13,
+													"alpha": -1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "UMLActivationView",
+													"_id": "AAAAAAFxYwq6xq/+L14=",
+													"_parent": {
+														"$ref": "AAAAAAFxYwq6xq/6z6s="
+													},
+													"model": {
+														"$ref": "AAAAAAFxYwq6xq/5THk="
+													},
+													"font": "Arial;13;0",
+													"left": 252,
+													"top": 516,
+													"width": 14,
+													"height": 29
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFxOPnkZFkK2bM="
+											},
+											"tail": {
+												"$ref": "AAAAAAFxOPnkZFkK2bM="
+											},
+											"points": "258:496;288:496;288:516;265:516",
+											"nameLabel": {
+												"$ref": "AAAAAAFxYwq6xq/7AAw="
+											},
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFxYwq6xq/8vyw="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFxYwq6xq/99rg="
+											},
+											"activation": {
+												"$ref": "AAAAAAFxYwq6xq/+L14="
+											}
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "AAAAAAFxYwssRrAPyyk=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"font": "Arial;13;0",
+											"left": 520,
+											"top": 440,
+											"width": 441,
+											"height": 193,
+											"text": "    chg = &chip->chg;\n    chg->dev = &pdev->dev;\n    chg->param = v1_params;\n    chg->debug_mask = &__debug_mask;\n    chg->try_sink_enabled = &__try_sink_enabled;\n    chg->weak_chg_icl_ua = &__weak_chg_icl_ua;\n    chg->mode = PARALLEL_MASTER;\n    chg->irq_info = smb2_irqs;\n    chg->die_health = -EINVAL;\n    chg->name = \"PMI\";\n    chg->audio_headset_drp_wait_ms = &__audio_headset_drp_wait_ms;"
+										},
+										{
+											"_type": "UMLNoteLinkView",
+											"_id": "AAAAAAFxYwssibASnI4=",
+											"_parent": {
+												"$ref": "AAAAAAFxOPjs21jt13k="
+											},
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFxYwssRrAPyyk="
+											},
+											"tail": {
+												"$ref": "AAAAAAFxYwq6xq/6z6s="
+											},
+											"lineStyle": 1,
+											"points": "288:506;416:456;519:481"
 										}
 									]
 								}
@@ -332,6 +723,48 @@
 										"$ref": "AAAAAAFxOPjs21js9xk="
 									},
 									"name": "static int smb2_probe(struct platform_device *pdev)",
+									"source": {
+										"$ref": "AAAAAAFxOPnkZFkDw24="
+									},
+									"target": {
+										"$ref": "AAAAAAFxOPnkZFkDw24="
+									}
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "AAAAAAFxYvULma68hys=",
+									"_parent": {
+										"$ref": "AAAAAAFxOPjs21js9xk="
+									},
+									"name": "变量声明",
+									"source": {
+										"$ref": "AAAAAAFxOPnkZFkDw24="
+									},
+									"target": {
+										"$ref": "AAAAAAFxOPnkZFkDw24="
+									}
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "AAAAAAFxYwpgCa/jxbs=",
+									"_parent": {
+										"$ref": "AAAAAAFxOPjs21js9xk="
+									},
+									"name": "chip = devm_kzalloc(&pdev->dev, sizeof(*chip), GFP_KERNEL);",
+									"source": {
+										"$ref": "AAAAAAFxOPnkZFkDw24="
+									},
+									"target": {
+										"$ref": "AAAAAAFxOPnkZFkDw24="
+									}
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "AAAAAAFxYwq6xq/5THk=",
+									"_parent": {
+										"$ref": "AAAAAAFxOPjs21js9xk="
+									},
+									"name": "获取chip当中的charger结构体指针，并进行初始化",
 									"source": {
 										"$ref": "AAAAAAFxOPnkZFkDw24="
 									},
