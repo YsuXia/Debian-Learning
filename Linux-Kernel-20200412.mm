@@ -279,7 +279,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1490507874776" FOLDED="true" ID="ID_1734272830" MODIFIED="1491812928412" POSITION="left">
+<node CREATED="1490507874776" FOLDED="true" ID="ID_1734272830" MODIFIED="1586443508474" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -627,7 +627,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1491812937292" FOLDED="true" ID="ID_1979671906" MODIFIED="1502333775411" POSITION="left">
+<node CREATED="1491812937292" FOLDED="true" ID="ID_1979671906" MODIFIED="1586443513462" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -898,7 +898,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1492618335035" FOLDED="true" ID="ID_1716444536" MODIFIED="1507709384435" POSITION="right">
+<node CREATED="1492618335035" FOLDED="true" ID="ID_1716444536" MODIFIED="1586664671215" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -985,7 +985,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1539408019297" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1493019868391" FOLDED="true" ID="ID_1508398331" MODIFIED="1586664389008" POSITION="right" TEXT="linux&#x542f;&#x52a8;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1493020020758" FOLDED="true" ID="ID_996974118" MODIFIED="1502333814698">
 <richcontent TYPE="NODE"><html>
@@ -1033,7 +1033,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1495864161465" FOLDED="true" ID="ID_380967431" MODIFIED="1507709380484" POSITION="right" TEXT="&#x5e76;&#x884c;&#x7f16;&#x7a0b;&#x548c;GPU">
+<node CREATED="1495864161465" FOLDED="true" ID="ID_380967431" MODIFIED="1586664386517" POSITION="right" TEXT="&#x5e76;&#x884c;&#x7f16;&#x7a0b;&#x548c;GPU">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1495864180953" ID="ID_1071100540" MODIFIED="1495864364058">
 <richcontent TYPE="NODE"><html>
@@ -1102,8 +1102,90 @@
       </li>
     </ol>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1586443540546" ID="ID_1974280833" MODIFIED="1586443572108" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#2129c1"><b>&#22868;&#36305;&#21543;Linux&#31038;&#21306;</b></font>
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1586443614192" ID="ID_1576392252" MODIFIED="1586443922980">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ef0c0c" size="4"><b>&#20195;&#30721;&#19979;&#36733;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23454;&#39564;&#20195;&#30721;
+    </p>
+    <p>
+      git clone https://github.com/figozhang/runninglinuxkernel_4.0.git&#160; &#35813;&#20195;&#30721;&#23454;&#29616;&#20102;-O0&#30340;&#32534;&#35793;
+    </p>
+    <p>
+      cd runninglinuxkernel_4.0
+    </p>
+    <p>
+      git checkout rlk_basic
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20195;&#30721;&#22570;&#35823;
+    </p>
+    <p>
+      https://github.com/figozhang/Running-LinuxKernel
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586444858418" ID="ID_442776934" MODIFIED="1586444985818">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20351;&#29992;gdb&#36830;&#25509;qemu&#35843;&#35797;&#20869;&#26680;</b>
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        &#36827;&#20837;&#21040;&#32534;&#35793;&#30340;&#20869;&#26680;&#28304;&#20195;&#30721;&#26641;&#39030;&#23618;
+      </li>
+      <li>
+        arm-non-eabi-gdb --tui vmlinux &#36830;&#25509;&#21040;qemu
+      </li>
+      <li>
+        target remote localhost:1234
+      </li>
+      <li>
+        b start_kernel &#35774;&#32622;&#26029;&#28857;
+      </li>
+      <li>
+        c &#25191;&#34892;&#21040;&#26029;&#28857;&#22788;
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
