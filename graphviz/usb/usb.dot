@@ -1,0 +1,103 @@
+digraph usb{
+
+	node[shape=record];
+	subgraph cluster_struct_usb_driver{
+		label="struct usb_driver";
+		"struct usb_driver"[label="{
+    const char *name;|
+    int (*probe) (struct usb_interface *intf, const struct usb_device_id *id)|
+    void (*disconnect) (struct usb_interface *intf)|
+    int (*unlocked_ioctl) (struct usb_interface *intf, unsigned int code,\n
+            void *buf);|
+    int (*suspend) (struct usb_interface *intf, pm_message_t message);|
+    int (*resume) (struct usb_interface *intf);|
+    int (*reset_resume)(struct usb_interface *intf);|
+
+    int (*pre_reset)(struct usb_interface *intf);|
+    int (*post_reset)(struct usb_interface *intf);|
+
+    <table>const struct usb_device_id *id_table;|
+
+    struct usb_dynids dynids;|
+    struct usbdrv_wrap drvwrap;|
+    unsigned int no_dynamic_id:1;|
+    unsigned int supports_autosuspend:1;|
+    unsigned int disable_hub_initiated_lpm:1;|
+    unsigned int soft_unbind:1;
+	}"];
+	};
+
+	subgraph cluster_struct_usb_device_id{
+		label="struct usb_device_id";
+		"struct usb_device_id"[label="{
+	__u16       match_flags;|
+    __u16       idVendor;|
+    __u16       idProduct;|
+    __u16       bcdDevice_lo;|
+    __u16       bcdDevice_hi;|
+    __u8        bDeviceClass;|
+    __u8        bDeviceSubClass;|
+    __u8        bDeviceProtocol;|
+    __u8        bInterfaceClass;|
+    __u8        bInterfaceSubClass;|
+    __u8        bInterfaceProtocol;|
+    __u8        bInterfaceNumber;|
+    kernel_ulong_t  driver_info __attribute__((aligned(sizeof(kernel_ulong_t))));
+	}"];
+	}
+	"struct usb_driver":table->"struct usb_device_id"[arrowhead=open color=red label="id_table"];
+
+	subgraph cluster_struct_usb_skel{
+		label="struct usb_skel";
+		"struct usb_skel"[label="{
+		struct usb_device   *udev|
+    	struct usb_interface    *interface|
+    	struct semaphore    limit_sem\n
+    	****limiting the number of writes in progress****|
+    	struct usb_anchor   submitted\n
+		****in case we need to retract our submissions****|
+    	struct urb      *bulk_in_urb|
+    	unsigned char           *bulk_in_buffer\n
+		****the buffer to receive data****|
+    	size_t          bulk_in_size|
+    	size_t          bulk_in_filled|
+    	size_t          bulk_in_copied|
+    	__u8            bulk_in_endpointAddr\n *****the address of the bulk in endpoint*****|
+    	__u8            bulk_out_endpointAddr\n*****the address of the bulk out endpoint*****|
+    	int         errors\n****the last request tanked****|
+    	bool            ongoing_read\n****a read is going on****|
+    	spinlock_t      err_lock|
+    	struct kref     kref|
+    	struct mutex        io_mutex\n***synchronize I/O with disconnect***|
+    	wait_queue_head_t   bulk_in_wait\n***to wait for an ongoing read***
+	}"];
+    }
+
+   subgraph cluster_struct_usb_interface{
+		label="struct usb_interface";
+		"struct usb_interface"[label="{
+	struct usb_host_interface *altsetting;|
+    struct usb_host_interface *cur_altsetting\n ***the currently active alternate setting***|
+    unsigned num_altsetting\n***number of alternate settings***|
+    ***If there is an interface association descriptor\n
+    then it will list the associated interfaces***\n
+    struct usb_interface_assoc_descriptor *intf_assoc;|
+    int minor;\n***minor number this interface is bound to***|
+    enum usb_interface_condition condition;|
+    unsigned sysfs_files_created:1;\n***the sysfs attributes exist***|
+    unsigned ep_devs_created:1;\n***endpoint \"devices\" exist***|
+    unsigned unregistering:1;|
+    unsigned needs_remote_wakeup:1;\n***driver requires remote wakeup***|
+    unsigned needs_altsetting0:1;\n***switch to altsetting 0 is pending***|
+    unsigned needs_binding:1;\n***needs delayed unbind rebind***|
+    unsigned resetting_device:1;\n***true: bandwidth alloc after reset***|
+    unsigned authorized:1;\n***used for interface authorization***|
+    struct device dev;|
+    struct device *usb_dev;|
+    atomic_t pm_usage_cnt;\n***usage counter for autosuspend***|
+    struct work_struct reset_ws;\n***for resets in atomic context***
+	}"];
+   }
+
+}
+
