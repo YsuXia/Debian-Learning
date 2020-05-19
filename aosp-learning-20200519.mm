@@ -3247,7 +3247,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1566110151617" POSITION="left">
+<node CREATED="1492429390150" ID="ID_1126491415" MODIFIED="1589859661685" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3663,7 +3663,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1535015297963" FOLDED="true" ID="ID_208278175" MODIFIED="1566110139869">
+<node CREATED="1535015297963" ID="ID_208278175" MODIFIED="1589424415760">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3674,8 +3674,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1536197599490" FOLDED="true" ID="ID_525145164" MODIFIED="1566110134097" TEXT="1.&#x4ee3;&#x7801;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
-<node CREATED="1536198069764" FOLDED="true" ID="ID_1926744974" MODIFIED="1566110121508">
+<node CREATED="1536197599490" ID="ID_525145164" MODIFIED="1589424415825" TEXT="1.&#x4ee3;&#x7801;&#x6d41;&#x7a0b;&#x5206;&#x6790;">
+<node CREATED="1536198069764" ID="ID_1926744974" MODIFIED="1589424415857">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7235,7 +7235,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1578317864266" ID="ID_1247173122" MODIFIED="1578317880885" POSITION="right" TEXT="18. android OTA&#x5347;&#x7ea7;">
+<node CREATED="1578317864266" FOLDED="true" ID="ID_1247173122" MODIFIED="1589424438081" POSITION="right" TEXT="18. android OTA&#x5347;&#x7ea7;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1578319300945" ID="ID_828055449" MODIFIED="1583997181805">
 <richcontent TYPE="NODE"><html>
@@ -7900,8 +7900,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       &#35814;&#32454;&#20171;&#32461;&#20102;AVB2.0&#30340;&#31995;&#32479;&#22266;&#20214;&#30340;&#32452;&#25104;&#20197;&#21450;&#32534;&#35793;&#24037;&#20855;&#30340;&#32534;&#35793;&#27969;&#31243;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1584177004209" ID="ID_1825272025" MODIFIED="1584177596740">
@@ -7972,8 +7971,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1585816376909" ID="ID_698481035" MODIFIED="1585816389685">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7995,8 +7993,7 @@ already possible through the existing --flags option, e.g.
 
 but it's much nicer to be explicit about it.</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1585816492869" ID="ID_946595007" MODIFIED="1585816503904">
 <richcontent TYPE="NODE"><html>
@@ -8006,8 +8003,7 @@ but it's much nicer to be explicit about it.</pre>
   <body>
     <img src="android-app/&#x7981;&#x7528;vbmeta&#x7684;&#x9a8c;&#x8bc1;&#x529f;&#x80fd;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8028,8 +8024,7 @@ but it's much nicer to be explicit about it.</pre>
       &#26597;&#30475;&#32534;&#35793;&#29983;&#25104;&#30340;vbmeta.img&#37324;&#38754;&#30340;&#37197;&#32622;&#20449;&#24687;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8072,9 +8067,9 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1578307232859" FOLDED="true" ID="ID_1460251219" MODIFIED="1583733159184" POSITION="left" TEXT="17. android input system">
+<node CREATED="1578307232859" FOLDED="true" ID="ID_1460251219" MODIFIED="1589424467880" POSITION="left" TEXT="17. android input system">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1578307251051" ID="ID_853138179" MODIFIED="1578307306685">
+<node CREATED="1578307251051" FOLDED="true" ID="ID_853138179" MODIFIED="1589424466365">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8737,6 +8732,330 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1589424488998" ID="ID_1863609399" MODIFIED="1589424531008" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="&#x96b6;&#x4e66;" size="4">19. SurfaceFlinger&#23398;&#20064;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1589867000156" ID="ID_33565339" MODIFIED="1589867015442" TEXT="Graphic&#x67b6;&#x6784;&#x4ecb;&#x7ecd;">
+<node CREATED="1589867023949" ID="ID_751597182" MODIFIED="1589867038300">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20302;&#23618;&#27425;&#32452;&#20214;&#20171;&#32461;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589867190900" ID="ID_829320825" MODIFIED="1589867193420" TEXT="BufferQueue and gralloc">
+<node CREATED="1589867278131" ID="ID_1007285125" MODIFIED="1589867357945">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      BufferQueue&#29992;&#20110;&#36830;&#25509;&#26174;&#31034;&#25968;&#25454;&#30340;producer&#21644;consumer&#65292;
+    </p>
+    <p>
+      buffer&#30340;&#20998;&#37197;&#26159;&#36890;&#36807;gralloc&#20869;&#23384;&#20998;&#37197;&#22120;&#26469;&#36827;&#34892;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589867691389" ID="ID_17522568" MODIFIED="1589867703785">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SurfaceFlinger, Hardware Composer,
+    </p>
+    <p>
+      and virtual displays
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1589867768045" ID="ID_950685792" MODIFIED="1589867934339">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      surfaceflinger&#29992;&#20110;&#25509;&#25910;&#20174;&#22810;&#20010;&#28304;&#22836;&#26469;&#30340;&#25968;&#25454;&#65292;&#23558;&#23427;&#20204;&#21512;&#24182;&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#23558;&#23427;&#20204;&#21457;&#36865;&#32473;display&#36827;&#34892;&#26174;&#31034;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hardware composite hal (hwc) &#21017;&#20915;&#23450;&#30528;&#20351;&#29992;&#30828;&#20214;&#20197;&#26368;&#26377;&#25928;&#29575;&#30340;&#26041;&#24335;&#23545;
+    </p>
+    <p>
+      &#25968;&#25454;&#36827;&#34892;&#22797;&#21512;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      virtual display&#20351;&#24471;&#22312;&#25972;&#20010;&#31995;&#32479;&#24403;&#20013;&#37117;&#21487;&#20197;&#33719;&#21462;&#22797;&#21512;&#20043;&#21518;&#30340;&#25968;&#25454;&#36755;&#20986;&#65292;&#21487;&#20197;&#29992;&#26469;
+    </p>
+    <p>
+      &#36827;&#34892;&#24405;&#23631;&#25805;&#20316;&#25110;&#32773;&#26159;&#23558;&#23631;&#24149;&#25968;&#25454;&#36890;&#36807;&#32593;&#32476;&#36827;&#34892;&#21457;&#36865;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589882048122" ID="ID_1794393529" MODIFIED="1589882175422">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman">SurfaceFlinger&#30340;&#20316;&#29992;&#23601;&#26159;&#25509;&#25910;buffer&#65292;&#21512;&#25104;buffer&#65292;&#23558;buffer&#36865;&#21040;&#26174;&#31034;&#27169;&#22359;&#36827;&#34892;&#26174;&#31034;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">WindowManager&#21521;SurfaceFlinger&#25552;&#20379;buffer&#21644;window metadata&#12290;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589888434672" ID="ID_1584433429" MODIFIED="1589889420399">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SurfaceFlinger&#21487;&#20197;&#36890;&#36807;&#20004;&#31181;&#26041;&#24335;&#25509;&#25910;buffers:
+    </p>
+    <p>
+      &#19968;&#31181;&#26159;&#36890;&#36807;BufferQueue&#21644;SurfaceControl
+    </p>
+    <p>
+      &#21478;&#19968;&#31181;&#26159;&#36890;&#36807;ASurfaceControl
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24403;app&#34987;&#25918;&#32622;&#21040;&#21069;&#21488;&#20043;&#21518;&#65292;&#23427;&#20174;WindowManager&#35831;&#27714;buffer&#65292;
+    </p>
+    <p>
+      WindowManager&#28982;&#21518;&#20174;SurfaceFlinger&#35831;&#27714;&#19968;&#20010;layer&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;layer&#23601;&#26159;&#19968;&#20010;surface&#30340;&#32452;&#21512;&#65292;&#21253;&#21547;&#30528;BufferQueue&#21644;SurfaceControl&#12290;
+    </p>
+    <p>
+      SurfaceControl &#21253;&#21547;&#30528;layer metadata&#12290;
+    </p>
+    <p>
+      SurfaceFlinger&#21019;&#24314;&#20102;layer,&#23558;layer&#21457;&#36865;&#32473;WindowManager&#12290; WindowManager &#28982;&#21518;&#23558;surface&#21457;&#36865;&#32473;app,
+    </p>
+    <p>
+      WindowManger&#20250;&#20445;&#30041;SurfaceControl&#26469;&#25805;&#32437;app&#22312;&#23631;&#24149;&#19978;&#30340;&#26174;&#31034;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1589871188490" ID="ID_1852887379" MODIFIED="1589871197697">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Surface, canvas, and SurfaceHolder.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589871494133" ID="ID_1395328135" MODIFIED="1589871680124">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Surface&#29992;&#20110;&#20135;&#29983;buffer&#32473;surfaceflinger&#36827;&#34892;&#28040;&#36153;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Canvas APIs &#25552;&#20379;&#20102;&#19968;&#31181;&#36719;&#20214;&#26041;&#27861;&#65288;&#30828;&#20214;&#21152;&#36895;&#25903;&#25345;&#65289;&#65292;&#29992;&#20110;&#30452;&#25509;&#22312;surface&#19978;&#36827;&#34892;&#32472;&#21046;&#65288;OpenGL ES&#30340;&#20302;&#32423;&#26367;&#20195;&#21697;&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20219;&#20309;&#36319;&#35270;&#22270;&#26377;&#20851;&#30340;&#19996;&#35199;&#37117;&#23569;&#19981;&#20102;SurfaceHolder&#65292;&#35813;&#32452;&#20214;&#30340;&#30446;&#30340;&#26159;&#35774;&#32622;&#21644;&#33719;&#21462;surface&#30340;&#21442;&#25968;&#65288;&#27604;&#22914;&#22823;&#23567;&#36319;&#26684;&#24335;&#65289;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589871958854" ID="ID_1233105700" MODIFIED="1589871961518" TEXT="EGLSurface and OpenGL ES">
+<node CREATED="1589872049694" ID="ID_1859297318" MODIFIED="1589872398368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      android&#20351;&#29992;OpenGL ES&#26469;&#28210;&#26579;&#26174;&#21345;&#65292;&#20351;&#29992;EGL&#24211;&#26469;&#21019;&#24314;GLES&#19978;&#19979;&#25991;&#24182;&#19988;&#25552;&#20379;
+    </p>
+    <p>
+      windowing system&#29992;&#26469;&#35753;GLES&#25191;&#34892;&#28210;&#26579;&#21160;&#20316;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ANativeWindow&#26159;&#19968;&#31181;C/C++&#31561;&#25928;&#20110;Java Surface &#31867;&#30340;&#23454;&#29616;&#65292;&#21487;&#20197;&#20174;native&#23618;&#21019;&#24314;&#19968;&#20010;EGL windows
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589872485383" ID="ID_648362724" MODIFIED="1589872501502">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vulkan
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589872503893" ID="ID_165221228" MODIFIED="1589872704057">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vulkan&#26159;&#19968;&#31181;&#20302;&#24320;&#38144;&#12289;&#36328;&#24179;&#21488;&#30340;&#39640;&#24615;&#33021;3D&#22270;&#24418;API&#65292;
+    </p>
+    <p>
+      vulkan&#32473;app&#25552;&#20379;&#19968;&#31181;&#21019;&#24314;&#39640;&#36136;&#37327;&#12289;&#23454;&#26102;&#24615;&#30340;&#22270;&#24418;API&#65292;
+    </p>
+    <p>
+      vulkan&#30340;&#20248;&#28857;&#21253;&#25324;&#20943;&#23567;CPU&#24320;&#38144;&#20197;&#21450;&#25903;&#25345;SPIR-V Binary Intermediate&#35821;&#35328;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1589867041759" ID="ID_86563497" MODIFIED="1589867055573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39640;&#23618;&#27425;&#32452;&#20214;&#20171;&#32461;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589872849988" ID="ID_1816220453" MODIFIED="1589872852990" TEXT="SurfaceView and GLSurfaceView. ">
+<node CREATED="1589872875544" ID="ID_973037572" MODIFIED="1589873063093">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SurfaceView&#23558;surface&#21644;view&#32452;&#21512;&#36215;&#26469;&#20102;&#65292;SurfaceView&#30340;view&#32452;&#20214;&#30001;SurfaceFlinger&#36827;&#34892;&#21512;&#25104;&#65292;
+    </p>
+    <p>
+      &#20351;&#24471;&#28210;&#26579;&#21487;&#20197;&#22312;&#36319;app UI &#28210;&#26579;&#38548;&#31163;&#30340;&#32447;&#31243;&#37324;&#38754;&#36827;&#34892;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      GLSurfaceView&#21017;&#25552;&#20379;&#20102;&#24110;&#21161;&#20989;&#25968;&#26469;&#31649;&#29702;EGL&#19978;&#19979;&#25991;&#65292;&#32447;&#31243;&#38388;&#20132;&#20114;&#20197;&#21450;&#36319;activity&#29983;&#21629;&#21608;&#26399;&#36827;&#34892;&#20132;&#20114;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589873129630" ID="ID_1869400053" MODIFIED="1589873134492" TEXT="SurfaceTexture">
+<node CREATED="1589873137642" ID="ID_360517241" MODIFIED="1589873287416">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SurfaceTexture&#23558;surface&#21644;GLES&#36827;&#34892;&#20102;&#32452;&#21512;&#65292;&#29992;&#26469;&#21019;&#24314;BufferQueue
+    </p>
+    <p>
+      &#32473;APP&#36827;&#34892;&#28040;&#36153;&#65292;APP&#35843;&#29992;EGL api&#35753;buffer&#20316;&#20026;&#22806;&#37096;&#30340;&#32441;&#29702;&#32473;GLES&#20351;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589874441481" ID="ID_1248502840" MODIFIED="1589874448335" TEXT="TextureView">
+<node CREATED="1589874505070" ID="ID_1654793807" MODIFIED="1589874809741">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TextureView&#23558;view&#36319;SurfaceTexture&#36827;&#34892;&#32452;&#21512;&#65292;
+    </p>
+    <p>
+      TextureView&#23558;SurfaceTexture&#36827;&#34892;&#21253;&#35065;&#65292;&#24182;&#19988;&#36127;&#36131;&#23545;&#22238;&#35843;&#36827;&#34892;&#30456;&#24212;&#21644;&#36127;&#36131;&#33719;&#21462;buffer&#65292;
+    </p>
+    <p>
+      &#24403;&#36827;&#34892;&#32472;&#21046;&#30340;&#26102;&#20505;&#65292;TextureView&#26681;&#25454;view state&#30340;&#25351;&#31034;&#22312;&#26368;&#36817;&#25509;&#25910;&#30340;buffer&#25968;&#25454;&#19978;&#36827;&#34892;
+    </p>
+    <p>
+      &#25805;&#20316;&#65292;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589869002626" ID="ID_1530763175" MODIFIED="1589869011456" TEXT="adb shell dumpsys window displays"/>
 </node>
 </node>
 </map>
