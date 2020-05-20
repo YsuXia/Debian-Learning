@@ -11527,7 +11527,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1589890121536" POSITION="right">
+<node CREATED="1571017459253" ID="ID_1798204731" MODIFIED="1589899291169" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11538,7 +11538,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1589890120506" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1471313923568" ID="ID_984050240" MODIFIED="1589899300584" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1586741500654" FOLDED="true" ID="ID_4126578" MODIFIED="1589890119496">
 <richcontent TYPE="NODE"><html>
@@ -11823,7 +11823,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586741548092" FOLDED="true" ID="ID_1849032320" MODIFIED="1589270157221">
+<node CREATED="1586741548092" ID="ID_1849032320" MODIFIED="1589899303215">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11955,6 +11955,7 @@
     <img src="usb/android4.4-usb-host&#x6a21;&#x5f0f;&#x6846;&#x67b6;.PNG" />
   </body>
 </html></richcontent>
+<node CREATED="1589900567769" ID="ID_621333953" MODIFIED="1589900583245" TEXT="http://www.programmersought.com/article/9227178606/"/>
 </node>
 </node>
 <node CREATED="1587526528654" ID="ID_1651791632" MODIFIED="1587526707748">

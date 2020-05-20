@@ -8755,8 +8755,7 @@ but it's much nicer to be explicit about it.</pre>
       &#20302;&#23618;&#27425;&#32452;&#20214;&#20171;&#32461;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589867190900" ID="ID_829320825" MODIFIED="1589867193420" TEXT="BufferQueue and gralloc">
 <node CREATED="1589867278131" ID="ID_1007285125" MODIFIED="1589867357945">
 <richcontent TYPE="NODE"><html>
@@ -8769,6 +8768,59 @@ but it's much nicer to be explicit about it.</pre>
     </p>
     <p>
       buffer&#30340;&#20998;&#37197;&#26159;&#36890;&#36807;gralloc&#20869;&#23384;&#20998;&#37197;&#22120;&#26469;&#36827;&#34892;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1589902831215" ID="ID_1855957717" MODIFIED="1589903140914">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#29983;&#20135;&#32773;&#38656;&#35201;buffer&#30340;&#26102;&#20505;&#65292;&#23427;&#20351;&#29992;dequeueBuffer()&#35843;&#29992;&#30003;&#35831;buffer&#65292;
+    </p>
+    <p>
+      &#29983;&#20135;&#32773;&#22635;&#20805;&#32531;&#20914;&#21306;&#65292;&#24182;&#36890;&#36807;&#35843;&#29992;queueBuffer()&#23558;&#32531;&#20914;&#21306;&#37325;&#26032;&#25918;&#22238;&#21040;&#38431;&#21015;&#20013;&#12290;
+    </p>
+    <p>
+      &#28040;&#36153;&#32773;&#21017;&#36890;&#36807;accquireBuffer()&#26469;&#33719;&#21462;BufferQueue&#37324;&#38754;&#30340;&#32531;&#20914;&#21306;&#65292;&#28982;&#21518;&#20351;&#29992;
+    </p>
+    <p>
+      &#35813;&#25968;&#25454;&#65292;&#26368;&#21518;&#36890;&#36807;&#35843;&#29992;releaseBuffer()&#37322;&#25918;&#32531;&#20914;&#21306;&#12290;
+    </p>
+    <p>
+      <b><font color="#ec0e0e">sync framework</font></b>&#25511;&#21046;&#32531;&#20914;&#21306;&#22312;graphic pipeline&#37324;&#38754;&#30340;&#31227;&#21160;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589903352226" ID="ID_1305604457" MODIFIED="1589903399014">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#1721f5">&#20351;&#29992;systrace&#26469;&#36319;&#36394;BufferQueue</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1589902460424" ID="ID_221965602" MODIFIED="1589902555185">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#eb0404"><i>gralloc&#36127;&#36131;buffer&#30340;&#20998;&#37197;&#65292;&#24182;&#19988;&#23454;&#29616;&#20102;&#20004;&#31181;HIDL&#30340;&#25509;&#21475;</i></font>
+    </p>
+    <p>
+      <code http-equiv="content-type" content="text/html; charset=utf-8" translate="no" dir="ltr">hardware/interfaces/graphics/allocator/</code>&#160;and <code translate="no" dir="ltr">hardware/interfaces/graphics/mapper/</code>
     </p>
   </body>
 </html>
@@ -8820,8 +8872,7 @@ but it's much nicer to be explicit about it.</pre>
       &#36827;&#34892;&#24405;&#23631;&#25805;&#20316;&#25110;&#32773;&#26159;&#23558;&#23631;&#24149;&#25968;&#25454;&#36890;&#36807;&#32593;&#32476;&#36827;&#34892;&#21457;&#36865;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589882048122" ID="ID_1794393529" MODIFIED="1589882175422">
 <richcontent TYPE="NODE"><html>
@@ -8836,8 +8887,7 @@ but it's much nicer to be explicit about it.</pre>
       <font face="Times New Roman">WindowManager&#21521;SurfaceFlinger&#25552;&#20379;buffer&#21644;window metadata&#12290;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589888434672" ID="ID_1584433429" MODIFIED="1589889420399">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8875,8 +8925,7 @@ but it's much nicer to be explicit about it.</pre>
       WindowManger&#20250;&#20445;&#30041;SurfaceControl&#26469;&#25805;&#32437;app&#22312;&#23631;&#24149;&#19978;&#30340;&#26174;&#31034;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8890,8 +8939,7 @@ but it's much nicer to be explicit about it.</pre>
       Surface, canvas, and SurfaceHolder.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589871494133" ID="ID_1395328135" MODIFIED="1589871680124">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8914,8 +8962,7 @@ but it's much nicer to be explicit about it.</pre>
       &#20219;&#20309;&#36319;&#35270;&#22270;&#26377;&#20851;&#30340;&#19996;&#35199;&#37117;&#23569;&#19981;&#20102;SurfaceHolder&#65292;&#35813;&#32452;&#20214;&#30340;&#30446;&#30340;&#26159;&#35774;&#32622;&#21644;&#33719;&#21462;surface&#30340;&#21442;&#25968;&#65288;&#27604;&#22914;&#22823;&#23567;&#36319;&#26684;&#24335;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589871958854" ID="ID_1233105700" MODIFIED="1589871961518" TEXT="EGLSurface and OpenGL ES">
@@ -8938,8 +8985,7 @@ but it's much nicer to be explicit about it.</pre>
       ANativeWindow&#26159;&#19968;&#31181;C/C++&#31561;&#25928;&#20110;Java Surface &#31867;&#30340;&#23454;&#29616;&#65292;&#21487;&#20197;&#20174;native&#23618;&#21019;&#24314;&#19968;&#20010;EGL windows
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589872485383" ID="ID_648362724" MODIFIED="1589872501502">
@@ -8952,8 +8998,7 @@ but it's much nicer to be explicit about it.</pre>
       Vulkan
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589872503893" ID="ID_165221228" MODIFIED="1589872704057">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8970,8 +9015,7 @@ but it's much nicer to be explicit about it.</pre>
       vulkan&#30340;&#20248;&#28857;&#21253;&#25324;&#20943;&#23567;CPU&#24320;&#38144;&#20197;&#21450;&#25903;&#25345;SPIR-V Binary Intermediate&#35821;&#35328;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -8985,8 +9029,7 @@ but it's much nicer to be explicit about it.</pre>
       &#39640;&#23618;&#27425;&#32452;&#20214;&#20171;&#32461;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589872849988" ID="ID_1816220453" MODIFIED="1589872852990" TEXT="SurfaceView and GLSurfaceView. ">
 <node CREATED="1589872875544" ID="ID_973037572" MODIFIED="1589873063093">
 <richcontent TYPE="NODE"><html>
@@ -9007,8 +9050,7 @@ but it's much nicer to be explicit about it.</pre>
       GLSurfaceView&#21017;&#25552;&#20379;&#20102;&#24110;&#21161;&#20989;&#25968;&#26469;&#31649;&#29702;EGL&#19978;&#19979;&#25991;&#65292;&#32447;&#31243;&#38388;&#20132;&#20114;&#20197;&#21450;&#36319;activity&#29983;&#21629;&#21608;&#26399;&#36827;&#34892;&#20132;&#20114;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589873129630" ID="ID_1869400053" MODIFIED="1589873134492" TEXT="SurfaceTexture">
@@ -9025,8 +9067,7 @@ but it's much nicer to be explicit about it.</pre>
       &#32473;APP&#36827;&#34892;&#28040;&#36153;&#65292;APP&#35843;&#29992;EGL api&#35753;buffer&#20316;&#20026;&#22806;&#37096;&#30340;&#32441;&#29702;&#32473;GLES&#20351;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589874441481" ID="ID_1248502840" MODIFIED="1589874448335" TEXT="TextureView">
@@ -9049,8 +9090,7 @@ but it's much nicer to be explicit about it.</pre>
       &#25805;&#20316;&#65292;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
