@@ -11956,6 +11956,258 @@
   </body>
 </html></richcontent>
 <node CREATED="1589900567769" ID="ID_621333953" MODIFIED="1589900583245" TEXT="http://www.programmersought.com/article/9227178606/"/>
+<node CREATED="1590411957146" ID="ID_124695838" MODIFIED="1590447188736">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      frameworks/base/services/usb/java/com/android/server/usb/UsbService.java
+    </p>
+    <p>
+      &#35813;&#25991;&#20214;&#26159;&#21551;&#21160;usb&#26381;&#21153;&#29992;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590447339789" ID="ID_1152882171" MODIFIED="1590447781195">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#25991;&#20214;&#23450;&#20041;&#20102;&#19968;&#20010;server&#31867;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public class UsbService extends IUsbManager.Stub
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#31867;&#22312;&#20869;&#37096;&#23450;&#20041;&#20102;&#19968;&#20010;Lifecycle&#31867;&#65292;&#25105;&#20204;&#30475;&#19968;&#19979;&#35813;&#31867;&#30340;&#23450;&#20041;
+    </p>
+    <p>
+      public static class Lifecycle extends SystemService
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20869;&#37096;&#31867;&#30340;&#20960;&#20010;&#27604;&#36739;&#37325;&#35201;&#30340;&#20989;&#25968;&#22914;&#19979;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public void onStart()
+    </p>
+    <p>
+      public void onBootPhase(int phase)
+    </p>
+    <p>
+      public void onSwitchUser(int newUserId)
+    </p>
+    <p>
+      public void onStopUser(int userHandle)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590448415914" ID="ID_1171186956" MODIFIED="1590448461393">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30475;&#19968;&#19979;onStart&#20989;&#25968;&#65292;&#35813;&#20989;&#25968;&#29983;&#25104;&#20102;&#19968;&#20010;usb&#26381;&#21153;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mUsbService = new UsbService(getContext());
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590448649664" ID="ID_207073050" MODIFIED="1590448659536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mUserManager = context.getSystemService(UserManager.class);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590448677919" ID="ID_1807184311" MODIFIED="1590448691341">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mSettingsManager = new UsbSettingsManager(context)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590448707567" ID="ID_1926577073" MODIFIED="1590448716372">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mAlsaManager = new UsbAlsaManager(context)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590448861429" ID="ID_1422724161" MODIFIED="1590448870518">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mHostManager = new UsbHostManager(context, mAlsaManager, mSettingsManager)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590448885882" ID="ID_890522101" MODIFIED="1590448914944">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;/sys/class/android_usb&#25991;&#20214;&#23384;&#22312;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mDeviceManager = new UsbDeviceManager(context, mAlsaManager, mSettingsManager)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590448941287" ID="ID_1673520586" MODIFIED="1590448950857">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mPortManager = new UsbPortManager(context)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590448966454" ID="ID_141327628" MODIFIED="1590448974858">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      onSwitchUser(UserHandle.USER_SYSTEM)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590449226905" ID="ID_1660837365" MODIFIED="1590449280739">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30475;&#19968;&#19979;onBootPhase&#20989;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UsbService.systemReady() &#35843;&#29992;&#20102;ready&#20989;&#25968;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590449512076" ID="ID_1573839285" MODIFIED="1590449522224">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mAlsaManager.systemReady()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590449535509" ID="ID_1460522169" MODIFIED="1590449544838">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mDeviceManager.systemReady()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590449557670" ID="ID_1258193865" MODIFIED="1590449568087">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mHostManager.systemReady()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590449580783" ID="ID_541413861" MODIFIED="1590449590820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mPortManager.systemReady()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1587526528654" ID="ID_1651791632" MODIFIED="1587526707748">
