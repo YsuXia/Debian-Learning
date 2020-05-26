@@ -8793,8 +8793,7 @@ but it's much nicer to be explicit about it.</pre>
       <b><font color="#ec0e0e">sync framework</font></b>&#25511;&#21046;&#32531;&#20914;&#21306;&#22312;graphic pipeline&#37324;&#38754;&#30340;&#31227;&#21160;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589903352226" ID="ID_1305604457" MODIFIED="1589903399014">
 <richcontent TYPE="NODE"><html>
@@ -8806,8 +8805,7 @@ but it's much nicer to be explicit about it.</pre>
       <font face="Times New Roman" size="4" color="#1721f5">&#20351;&#29992;systrace&#26469;&#36319;&#36394;BufferQueue</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589902460424" ID="ID_221965602" MODIFIED="1589902555185">
@@ -8823,8 +8821,7 @@ but it's much nicer to be explicit about it.</pre>
       <code http-equiv="content-type" content="text/html; charset=utf-8" translate="no" dir="ltr">hardware/interfaces/graphics/allocator/</code>&#160;and <code translate="no" dir="ltr">hardware/interfaces/graphics/mapper/</code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1589867691389" ID="ID_17522568" MODIFIED="1589867703785">
@@ -8874,7 +8871,7 @@ but it's much nicer to be explicit about it.</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1589882048122" ID="ID_1794393529" MODIFIED="1589882175422">
+<node CREATED="1589882048122" ID="ID_1794393529" MODIFIED="1589954350583">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9096,6 +9093,306 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 <node CREATED="1589869002626" ID="ID_1530763175" MODIFIED="1589869011456" TEXT="adb shell dumpsys window displays"/>
+<node CREATED="1590048029537" ID="ID_993132978" MODIFIED="1590048074260">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div charset="utf-8">
+      <div>
+        <p>
+          <font face="&#x96b6;&#x4e66;" size="4">screencap&#21629;&#20196;&#21442;&#25968;&#22914;&#19979; </font>
+        </p>
+        <blockquote>
+          <p>
+            <font face="&#x96b6;&#x4e66;" size="4">screencap [-hp] [-d display-id] [FILENAME]<br face="&#x96b6;&#x4e66;" size="4" />-h: this message<br face="&#x96b6;&#x4e66;" size="4" />-p: save the file as a png<br face="&#x96b6;&#x4e66;" size="4" />-d: specify the display id to capture, default 0 </font>
+          </p>
+        </blockquote>
+        <p>
+          <font face="&#x96b6;&#x4e66;" size="4">T2:/ $ screencap -d 1 -p /sdcard/ff.png<br face="&#x96b6;&#x4e66;" size="4" />&#20351;&#29992;&#36825;&#20010;&#21629;&#20196;&#21363;&#21487;&#25130;&#21462;&#21103;&#23631;&#65292;-d&#21518;&#38754;&#23545;&#24212;&#30340;&#26159;&#23631;&#24149;id&#65292;0&#20026;&#20027;&#23631;&#65292;1&#20026;&#21103;&#23631;&#65292;<br face="&#x96b6;&#x4e66;" size="4" />&#20351;&#29992;Runtime.getRuntime().exec&#21629;&#20196;&#21363;&#21487;<br face="&#x96b6;&#x4e66;" size="4" />&#27880;&#65306;&#26041;&#27861;&#20108;&#27809;&#26377;&#36827;&#34892;&#23581;&#35797;&#65292;&#24212;&#35813;&#38656;&#35201;&#31995;&#32479;&#31614;&#21517;&#25165;&#21487;&#20197; </font>
+        </p>
+      </div>
+      <font face="&#x96b6;&#x4e66;" size="4"><br face="&#x96b6;&#x4e66;" size="4" />
+      </font>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1589954520492" ID="ID_1202540977" MODIFIED="1589954532141" TEXT="DRM/KMS &#x7814;&#x7a76;">
+<node CREATED="1589954572422" ID="ID_179384859" MODIFIED="1589961775934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="&#x6977;&#x4f53;"><b>&#24635;&#20307;&#20171;&#32461;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">DRM&#65288;direct rendering manager&#65289;</font>&#26159;&#24341;&#29992;&#36827;&#26469;&#35299;&#20915;&#23884;&#20837;&#24335;GPU&#22270;&#24418;&#21345;&#38382;&#39064;&#30340;
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">KMS&#65288;kernel mode setting&#65289;</font>&#26159;DRM API&#30340;&#23376;&#38598;&#65292;&#29992;&#20110;&#35774;&#32622;&#32473;&#23450;display&#19978;&#30340;&#27169;&#24335;&#65292;kms&#25552;&#20379;&#20102;&#19968;&#31181;
+    </p>
+    <p>
+      &#37197;&#32622;&#26174;&#21345;&#30340;&#26174;&#31034;pipeline&#30340;&#26041;&#24335;
+    </p>
+    <p>
+      &#28210;&#26579;&#21644;&#27169;&#24335;&#35774;&#32622;&#26159;&#34987;&#20998;&#25104;2&#31181;&#19981;&#21516;&#30340;API&#30340;&#65292;&#36890;&#36807;&#35774;&#22791;&#33410;&#28857;<font color="#ff0000"><b>&#160; /dev/dri/renderX</b></font>&#21644;<font color="#ff0000"><b>/dev/dri/controlDX</b></font>&#36827;&#34892;&#35775;&#38382;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1589961712570" ID="ID_504162052" MODIFIED="1589961725010">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/kmv-pipeline-overview.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1589961778234" ID="ID_905913243" MODIFIED="1589961839209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39640;&#36890;&#22312;Encoder&#21644;Connector&#20043;&#38388;&#21152;&#20102;&#19968;&#20010;Bridge,
+    </p>
+    <p>
+      Bridge&#30340;&#20316;&#29992;&#26159;&#21442;&#19982;mode&#35774;&#32622;&#12289;&#30005;&#28304;&#31649;&#29702;&#12289;connection&#26816;&#27979;&#31561;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590040434961" ID="ID_593481873" MODIFIED="1590041896154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="&#x96b6;&#x4e66;" size="5">&#39537;&#21160;&#20195;&#30721;&#20171;&#32461; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20174;&#32593;&#19978;&#25628;&#32034;&#21040;&#30340;&#36164;&#26009;&#26469;&#30475;&#65292;DPU&#30340;&#39537;&#21160;&#24050;&#32463;&#21512;&#24182;&#21040;&#20102;&#20869;&#26680;&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#20294;&#26159;&#22312;&#30446;&#21069;&#20351;&#29992;&#30340;&#20195;&#30721;&#37324;&#38754;&#20173;&#28982;&#26159;MDP&#30340;&#39537;&#21160;&#20195;&#30721;&#24418;&#24335;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590040486480" ID="ID_1523710083" MODIFIED="1590040494804" TEXT="MDP5 &#x4ecb;&#x7ecd;">
+<node CREATED="1590040497944" ID="ID_772876487" MODIFIED="1590040741948">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">For MDP5, the mapping is: </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">plane&#160;&#160;&#160;-&gt; PIPE{RGBn,VIGn}&#160;&#160;&#160;&#160;\ </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">crtc&#160;&#160;&#160;&#160;-&gt; LM (layer mixer)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; MDP &quot;device&quot; </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">encoder -&gt; INTF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/ </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">connector -&gt; HDMI/DSI/eDP/etc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;--&gt; other device(s) </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590043597538" ID="ID_198730199" MODIFIED="1590043616151" TEXT="SDE msm8996/msm8998"/>
+<node CREATED="1590041125460" ID="ID_477644486" MODIFIED="1590041157254">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>DPU795 Overviews</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590041344464" ID="ID_1360579062" MODIFIED="1590041398163">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DPU
+    </p>
+    <p>
+      &#25552;&#20379;&#30828;&#20214;&#21152;&#36895;&#30340;&#22270;&#20687;&#22788;&#29702;&#65292;&#24555;&#36895;&#20256;&#36755;&#22270;&#20687;&#25968;&#25454;&#21040;&#26174;&#31034;&#25509;&#21475;&#65292;
+    </p>
+    <p>
+      &#22686;&#24378;&#30340;&#23631;&#19978;&#22270;&#20687;&#36136;&#37327;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590041402337" ID="ID_589390516" MODIFIED="1590041492941">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Source Surface processor(source surface processor pipes)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20026;&#28304;source&#25552;&#20379;&#26684;&#24335;&#36716;&#25442;&#21644;&#36136;&#37327;&#25552;&#21319;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590041496072" ID="ID_892443915" MODIFIED="1590041557979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LM(Layer Mixer)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;source surface&#36827;&#34892;blends &#21644; mixes&#22788;&#29702;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590041585829" ID="ID_1402594044" MODIFIED="1590041649887">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DSPP&#65288;Destination Surface Processor&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22522;&#20110;panel&#30340;&#29305;&#24615;&#23545;&#22270;&#20687;&#36827;&#34892;&#36716;&#25442;&#12289;&#30699;&#27491;&#21644;&#35843;&#25972;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590041736495" ID="ID_1603574252" MODIFIED="1590041749128">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DSC &#26174;&#31034;&#27969;&#21387;&#32553;&#25216;&#26415;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590041795362" ID="ID_1765900803" MODIFIED="1590041837471">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Write Back&#25216;&#26415;</b></font>
+    </p>
+    <p>
+      &#23558;&#21457;&#36865;&#32473;display&#25509;&#21475;&#30340;&#22270;&#20687;&#30452;&#25509;&#20889;&#22238;&#21040;&#20869;&#23384;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590049694297" ID="ID_532477291" MODIFIED="1590049744587">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc0033" face="&#x6977;&#x4f53;" size="4"><b>Android&#21452;&#23631;&#24322;&#26174;&#30340;&#23454;&#29616;&#26041;&#24335;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590049761370" ID="ID_627120558" MODIFIED="1590049771828" TEXT="Presentation&#x65b9;&#x5f0f;">
+<node CREATED="1590049801736" ID="ID_601846220" MODIFIED="1590049831302">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;&#65306;
+    </p>
+    <p>
+      https://developer.android.com/reference/android/app/Presentation
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590049866614" ID="ID_102014919" MODIFIED="1590139201322">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35895;&#27468;&#23448;&#26041;&#31034;&#20363;APK&#20195;&#30721;
+    </p>
+    <p>
+      evelopment/samples/ApiDemos/src/com/example/android/apis/app/PresentationActivity.java
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590049775520" ID="ID_839716293" MODIFIED="1590049796654" TEXT="RK DualScreen&#x65b9;&#x5f0f;&#xff08;RK&#x5e73;&#x53f0;&#xff1f;&#xff09;"/>
+</node>
 </node>
 </node>
 </map>
