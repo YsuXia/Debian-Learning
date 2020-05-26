@@ -11969,8 +11969,7 @@
       &#35813;&#25991;&#20214;&#26159;&#21551;&#21160;usb&#26381;&#21153;&#29992;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590447339789" ID="ID_1152882171" MODIFIED="1590447781195">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12017,8 +12016,7 @@
       public void onStopUser(int userHandle)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590448415914" ID="ID_1171186956" MODIFIED="1590448461393">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12035,8 +12033,7 @@
       mUsbService = new UsbService(getContext());
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590448649664" ID="ID_207073050" MODIFIED="1590448659536">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12047,8 +12044,7 @@
       mUserManager = context.getSystemService(UserManager.class);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590448677919" ID="ID_1807184311" MODIFIED="1590448691341">
 <richcontent TYPE="NODE"><html>
@@ -12060,8 +12056,7 @@
       mSettingsManager = new UsbSettingsManager(context)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590448707567" ID="ID_1926577073" MODIFIED="1590448716372">
 <richcontent TYPE="NODE"><html>
@@ -12073,8 +12068,7 @@
       mAlsaManager = new UsbAlsaManager(context)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590448861429" ID="ID_1422724161" MODIFIED="1590448870518">
 <richcontent TYPE="NODE"><html>
@@ -12086,8 +12080,42 @@
       mHostManager = new UsbHostManager(context, mAlsaManager, mSettingsManager)
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1590464460687" ID="ID_60336978" MODIFIED="1590464462937" TEXT="mContext = context;"/>
+<node CREATED="1590464473111" ID="ID_1345279296" MODIFIED="1590464481319">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mHostBlacklist = context.getResources().getStringArray(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;com.android.internal.R.array.config_usbHostBlacklist);
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1590464572021" ID="ID_1052375053" MODIFIED="1590464574836" TEXT="mUsbAlsaManager = alsaManager"/>
+<node CREATED="1590464583548" ID="ID_1550503334" MODIFIED="1590464586290" TEXT="mSettingsManager = settingsManager"/>
+<node CREATED="1590464634301" ID="ID_619365717" MODIFIED="1590464646936">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setUsbDeviceConnectionHandler(ComponentName.unflattenFromString(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; deviceConnectionHandler));
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1590448885882" ID="ID_890522101" MODIFIED="1590448914944">
 <richcontent TYPE="NODE"><html>
@@ -12105,8 +12133,7 @@
       mDeviceManager = new UsbDeviceManager(context, mAlsaManager, mSettingsManager)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590448941287" ID="ID_1673520586" MODIFIED="1590448950857">
 <richcontent TYPE="NODE"><html>
@@ -12118,8 +12145,31 @@
       mPortManager = new UsbPortManager(context)
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1590463346810" ID="ID_1092502163" MODIFIED="1590463349612" TEXT="mContext = context;"/>
+<node CREATED="1590463360673" ID="ID_521614212" MODIFIED="1590463363944" TEXT="ServiceNotification serviceNotification = new ServiceNotification()"/>
+<node CREATED="1590463377206" ID="ID_1381606195" MODIFIED="1590463585710">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      boolean ret = IServiceManager.getService().
+    </p>
+    <p>
+      .registerForNotifications(&quot;<b><font color="#ff0033" face="&#x96b6;&#x4e66;" size="4"><i>android.hardware.usb@1.0::IUsb</i></font></b>&quot;,&quot;&quot;, serviceNotification);
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1590463539710" ID="ID_74352772" MODIFIED="1590463542363" TEXT="connectToProxy(null);">
+<node CREATED="1590463811192" ID="ID_1219351592" MODIFIED="1590463813596" TEXT="mProxy = IUsb.getService();"/>
+<node CREATED="1590463823764" ID="ID_1627086164" MODIFIED="1590463825644" TEXT="mProxy.linkToDeath(new DeathRecipient(pw), USB_HAL_DEATH_COOKIE)"/>
+<node CREATED="1590463840114" ID="ID_1344979701" MODIFIED="1590463842006" TEXT="mProxy.setCallback(mHALCallback)"/>
+<node CREATED="1590463926705" ID="ID_300917465" MODIFIED="1590463928985" TEXT="mProxy.queryPortStatus()"/>
+</node>
 </node>
 <node CREATED="1590448966454" ID="ID_141327628" MODIFIED="1590448974858">
 <richcontent TYPE="NODE"><html>
@@ -12131,8 +12181,7 @@
       onSwitchUser(UserHandle.USER_SYSTEM)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590449226905" ID="ID_1660837365" MODIFIED="1590449280739">
@@ -12151,8 +12200,7 @@
       UsbService.systemReady() &#35843;&#29992;&#20102;ready&#20989;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590449512076" ID="ID_1573839285" MODIFIED="1590449522224">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12163,8 +12211,7 @@
       mAlsaManager.systemReady()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590449535509" ID="ID_1460522169" MODIFIED="1590449544838">
 <richcontent TYPE="NODE"><html>
@@ -12176,8 +12223,66 @@
       mDeviceManager.systemReady()
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1590462596687" ID="ID_46821916" MODIFIED="1590462728313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mNotificationManager = (NotificationManager)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mContext.getSystemService(Context.NOTIFICATION_SERVICE)
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1590462805275" ID="ID_1310204353" MODIFIED="1590462814896">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      final StorageManager storageManager = StorageManager.from(mContext)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590462826510" ID="ID_695596045" MODIFIED="1590462829520" TEXT="final StorageVolume primary = storageManager.getPrimaryVolume();"/>
+<node CREATED="1590462840262" ID="ID_1156498373" MODIFIED="1590462848283">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      massStorageSupported = primary != null &amp;&amp; primary.allowMassStorage();
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590462912393" ID="ID_343390749" MODIFIED="1590462926137">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mUseUsbNotification = !massStorageSupported &amp;&amp; mContext.getResources().getBoolean(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;com.android.internal.R.bool.config_usbChargingMessage);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1590449557670" ID="ID_1258193865" MODIFIED="1590449568087">
 <richcontent TYPE="NODE"><html>
@@ -12189,8 +12294,28 @@
       mHostManager.systemReady()
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1590462979018" ID="ID_98161081" MODIFIED="1590463049723">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20027;&#35201;&#30340;&#24037;&#20316;&#23601;&#26159;&#21019;&#24314;&#19968;&#20010;&#32447;&#31243;&#35843;&#29992;native&#20195;&#30721;&#65292;&#24182;&#31561;&#24453;
+    </p>
+    <p>
+      host&#20107;&#20214;&#65292;
+    </p>
+    <p>
+      &#22312;usb device add&#21644;usb device remove&#20107;&#20214;&#21457;&#29983;&#30340;&#26102;&#20505;&#65292;&#35813;&#32447;&#31243;&#20250;&#36827;&#34892;&#22238;&#35843;
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1590463055675" ID="ID_1260668502" MODIFIED="1590463065249" TEXT="Runnable runnable = this::monitorUsbHostBus;"/>
+<node CREATED="1590463074294" ID="ID_59999841" MODIFIED="1590463077150" TEXT="new Thread(null, runnable, &quot;UsbService host thread&quot;).start();"/>
+</node>
 </node>
 <node CREATED="1590449580783" ID="ID_541413861" MODIFIED="1590449590820">
 <richcontent TYPE="NODE"><html>
@@ -12202,11 +12327,90 @@
       mPortManager.systemReady()
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1590463940802" ID="ID_1781263440" MODIFIED="1590463942993" TEXT="mProxy.queryPortStatus();"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590470503943" ID="ID_251366722" MODIFIED="1590470611902">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#cc0033" face="Times New Roman" size="4">frameworks/base/core/java/android/hardware/usb</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#30446;&#24405;&#19979;&#38754;&#30340;&#25991;&#20214;&#24212;&#35813;&#26159;APK&#21487;&#20197;&#30452;&#25509;&#35775;&#38382;&#30340;&#25509;&#21475;&#20102;
+    </p>
+    <p>
+      .
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; IUsbManager.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; package.html
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbAccessory.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbAccessory.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbConfiguration.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbConstants.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbDevice.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbDeviceConnection.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbDevice.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbEndpoint.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbEndpoint.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbInterface.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbInterface.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbManager.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbPort.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbPort.java
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbPortStatus.aidl
+    </p>
+    <p>
+      &#9500;&#9472;&#9472; UsbPortStatus.java
+    </p>
+    <p>
+      &#9492;&#9472;&#9472; UsbRequest.java
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
-</node>
 </node>
 </node>
 </node>
@@ -12286,7 +12490,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574250103965" FOLDED="true" ID="ID_27661495" MODIFIED="1589890116495" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<node CREATED="1574250103965" ID="ID_27661495" MODIFIED="1590471167030" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574250173205" ID="ID_1335167454" MODIFIED="1574767377667">
 <richcontent TYPE="NODE"><html>
@@ -13544,7 +13748,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589270232078" FOLDED="true" ID="ID_1037565906" MODIFIED="1589890077093">
+<node CREATED="1589270232078" ID="ID_1037565906" MODIFIED="1590471169279">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13555,8 +13759,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1589270306538" FOLDED="true" ID="ID_1555301254" MODIFIED="1589890075613" TEXT="&#x7b2c;&#x4e94;&#x7ae0; &#x64cd;&#x4f5c;&#x6a21;&#x578b;">
-<node CREATED="1589270325023" FOLDED="true" ID="ID_943364280" MODIFIED="1589890074493" TEXT="&#x8bbe;&#x5907;&#x63cf;&#x8ff0;&#x7b26;&#x7ed3;&#x6784;">
+<node CREATED="1589270306538" ID="ID_1555301254" MODIFIED="1590471172008" TEXT="&#x7b2c;&#x4e94;&#x7ae0; &#x64cd;&#x4f5c;&#x6a21;&#x578b;">
+<node CREATED="1589270325023" ID="ID_943364280" MODIFIED="1590471222258" TEXT="&#x8bbe;&#x5907;&#x63cf;&#x8ff0;&#x7b26;&#x7ed3;&#x6784;">
 <node CREATED="1589270516564" FOLDED="true" ID="ID_1510827710" MODIFIED="1589890072193">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13583,8 +13787,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1589333905415" FOLDED="true" ID="ID_669531579" MODIFIED="1589890070131" TEXT="Report &#x63cf;&#x8ff0;&#x7b26;">
-<node CREATED="1589333927795" FOLDED="true" ID="ID_1957526304" MODIFIED="1589890067951">
+<node CREATED="1589333905415" ID="ID_669531579" MODIFIED="1590471174318" TEXT="Report &#x63cf;&#x8ff0;&#x7b26;">
+<node CREATED="1589333927795" ID="ID_1957526304" MODIFIED="1590471181920">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13640,7 +13844,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1589336169588" FOLDED="true" ID="ID_1335201557" MODIFIED="1589890069142">
+<node CREATED="1589336169588" ID="ID_1335201557" MODIFIED="1590471215863">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13665,6 +13869,297 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590471448440" ID="ID_1701941777" MODIFIED="1590471565159">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#20845;&#31456; &#25551;&#36848;&#31526;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      HID class&#35774;&#22791;&#31867;&#20351;&#29992;&#22914;&#19979;&#26631;&#20934;&#30340;USB&#25551;&#36848;&#31526;
+    </p>
+    <p>
+      Device
+    </p>
+    <p>
+      Configuration
+    </p>
+    <p>
+      Interface
+    </p>
+    <p>
+      Endpoint
+    </p>
+    <p>
+      String
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590471574631" ID="ID_538834036" MODIFIED="1590471664432">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HID class&#20855;&#20307;&#30340;&#25551;&#36848;&#31526;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      HID
+    </p>
+    <p>
+      Report
+    </p>
+    <p>
+      Physical
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590471835650" ID="ID_1074857536" MODIFIED="1590471842751" TEXT="HID &#x63cf;&#x8ff0;&#x7b26;">
+<node CREATED="1590471851002" ID="ID_164691712" MODIFIED="1590471895590">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#23450;&#20041;&#19979;&#23646;&#30340;&#25551;&#36848;&#31526;&#30340;&#31867;&#22411;&#21644;&#38271;&#24230;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590472584882" ID="ID_1635338766" MODIFIED="1590472680428">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-description.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590472945009" ID="ID_1577172728" MODIFIED="1590482245580">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Report &#25551;&#36848;&#31526;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20027;&#26426;&#36890;&#36807;&#35299;&#26512;&#20174;&#26426;&#19978;&#20256;&#30340;&#25253;&#21578;&#25551;&#36848;&#31526;&#65292;&#25165;&#33021;&#30693;&#36947;&#20174;&#26426;&#19978;&#20256;&#30340;&#25253;&#21578;&#26159;&#20160;&#20040;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590473030481" ID="ID_1402388428" MODIFIED="1590483620327">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      report&#25551;&#36848;&#31526;&#30340;&#38271;&#24230;&#21644;&#20869;&#23481;&#26159;&#20381;&#36182;&#20110;&#35813;report&#30340;data&#37096;&#20998;&#30340;&#12290;
+    </p>
+    <p>
+      Report&#25551;&#36848;&#31526;&#26159;&#30001;Item&#32452;&#20214;&#26500;&#25104;&#30340;&#12290;
+    </p>
+    <p>
+      Item type&#26377;&#19977;&#31181;&#65306;
+    </p>
+    <p>
+      Main&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0
+    </p>
+    <p>
+      Global&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1
+    </p>
+    <p>
+      Local&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2
+    </p>
+    <p>
+      Reserved&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Main type&#26377;&#20116;&#31181;tag&#65306;
+    </p>
+    <p>
+      Input&#160;&#160;&#20195;&#34920;&#26469;&#33258;&#35774;&#22791;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      Output&#160;&#160;&#20195;&#34920;&#21457;&#24448;&#35774;&#22791;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      Feature &#25551;&#36848;&#31526;&#35774;&#22791;&#30340;&#36755;&#20837;&#21644;&#36755;&#20986;
+    </p>
+    <p>
+      Collection &#20195;&#34920;Input&#12289;Output&#12289;Feature&#30340;&#32452;&#21512;
+    </p>
+    <p>
+      End &#20195;&#34920;collection tag&#30340;&#32456;&#32467;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Local type&#65306;
+    </p>
+    <p>
+      &#25551;&#36848;&#36319;&#22312;&#35813;item&#20043;&#21518;&#30340;main type&#30340;item&#37324;&#38754;&#30340;data&#22495;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Global type:
+    </p>
+    <p>
+      &#23545;&#20110;&#24403;&#21069;&#30340;&#25551;&#36848;&#31526;&#37324;&#38754;&#30340;&#25152;&#26377;data&#22495;&#30340;&#40664;&#35748;&#23646;&#24615;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590484610915" ID="ID_1859585255" MODIFIED="1590484948291">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;HID Descriptor Tool &#21487;&#20197;&#24555;&#36895;&#21046;&#20316;HID&#25253;&#21578;&#25551;&#36848;&#31526;&#65292;
+    </p>
+    <p>
+      HID&#25253;&#21578;&#25551;&#36848;&#31526;&#30340;&#27599;&#19968;&#39033;&#26159;&#19968;&#20010;item&#65292;&#20030;&#20010;&#20363;&#23376;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      0x05, 0x01 (USAGE_PAGE Generic Desktop)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      0x05 = 0b00000101 &#21363;&#34920;&#31034;item tag&#26159;0000&#65292; item type&#26159;Global, item size&#26159;1
+    </p>
+    <p>
+      0x01&#30340;&#24847;&#20041;&#21487;&#20197;&#21442;&#32771;Universal Serial Bus HID Usage Table.pdf
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590491311683" ID="ID_1754188773" MODIFIED="1590491561728">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#25253;&#21578;&#25551;&#36848;&#31526;&#21487;&#33021;&#20250;&#21253;&#21547;&#20960;&#20010;Main items, &#19968;&#20010;&#25253;&#21578;&#25551;&#36848;&#31526;&#24517;&#39035;&#21253;&#21547;&#19979;&#38754;&#30340;
+    </p>
+    <p>
+      items&#26469;&#25551;&#36848;&#35774;&#22791;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Input (Output or Feature) </i></font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Usage </i></font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Usage Page </i></font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Logical Minimum </i></font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Logical Maximum </i></font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Report Size </i></font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4"><i>Report Count</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590492008763" ID="ID_272920320" MODIFIED="1590492136851">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#37324;&#25552;&#20379;&#19968;&#20010;&#25551;&#36848;&#31526;&#30340;&#20195;&#30721;&#20363;&#23376;&#65292;
+    </p>
+    <p>
+      &#36825;&#37324;&#25552;&#20379;&#30340;&#26159;Global item, &#29992;&#26469;&#25551;&#36848;&#19968;&#20010;3&#25353;&#38190;&#30340;&#40736;&#26631;&#65292;
+    </p>
+    <p>
+      Global item&#26159;&#32039;&#36319;&#22312;Main item&#21518;&#38754;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590492180566" ID="ID_1593170899" MODIFIED="1590492188846">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-report-description.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1590492336341" ID="ID_1217064548" MODIFIED="1590492539564">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Usage&#26159;&#29992;&#20110;&#35782;&#21035;hid&#25253;&#21578;&#24403;&#20013;data&#37096;&#20998;&#30340;&#24847;&#20041;&#30340;&#65292;
+    </p>
+    <p>
+      Usage&#20063;&#21487;&#20197;&#34987;&#29992;&#20110;&#19968;&#32452;data items&#30340;&#24847;&#20041;&#65292;&#36825;&#26159;&#36890;&#36807;&#19968;&#31181;&#23618;&#27425;&#24615;&#30340;&#23558;usage&#20449;&#24687;&#36171;&#20540;
+    </p>
+    <p>
+      &#32473;collections&#26469;&#23436;&#25104;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
