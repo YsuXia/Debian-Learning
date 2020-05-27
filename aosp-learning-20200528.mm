@@ -7235,7 +7235,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1578317864266" FOLDED="true" ID="ID_1247173122" MODIFIED="1589424438081" POSITION="right" TEXT="18. android OTA&#x5347;&#x7ea7;">
+<node CREATED="1578317864266" ID="ID_1247173122" MODIFIED="1590547070691" POSITION="right" TEXT="18. android OTA&#x5347;&#x7ea7;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1578319300945" ID="ID_828055449" MODIFIED="1583997181805">
 <richcontent TYPE="NODE"><html>
@@ -7443,6 +7443,28 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1590547094894" ID="ID_1263605535" MODIFIED="1590547255701">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      update_engine&#21482;&#20250;&#21319;&#32423;&#26356;&#26032;&#32534;&#35793;&#20986;&#26469;&#30340;&#23433;&#35013;&#21253;&#65292;&#22914;&#26524;&#38656;&#35201;&#22238;&#36864;&#23433;&#35013;&#21253;&#65292;
+    </p>
+    <p>
+      &#21482;&#33021;&#20462;&#25913;update_engine&#30340;&#28304;&#20195;&#30721;&#20102;
+    </p>
+    <p>
+      &#36890;&#36807;&#20462;&#25913;delta_performer.cc &#25991;&#20214;&#20989;&#25968; ValidateManifest&#65292;&#23558;&#21028;&#26029;GetBuildTimestamp&#37096;&#20998;&#30340;
+    </p>
+    <p>
+      &#20195;&#30721;&#27880;&#37322;&#25481;&#65292;&#23601;&#21487;&#20197;&#38450;&#27490;update_engine&#26816;&#27979;&#23433;&#35013;&#21253;&#30340;&#32534;&#35793;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1578385044632" ID="ID_1627453950" MODIFIED="1578385053728">
@@ -9117,8 +9139,7 @@ but it's much nicer to be explicit about it.</pre>
       </font>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589954520492" ID="ID_1202540977" MODIFIED="1589954532141" TEXT="DRM/KMS &#x7814;&#x7a76;">
 <node CREATED="1589954572422" ID="ID_179384859" MODIFIED="1589961775934">
@@ -9192,8 +9213,7 @@ but it's much nicer to be explicit about it.</pre>
       &#20294;&#26159;&#22312;&#30446;&#21069;&#20351;&#29992;&#30340;&#20195;&#30721;&#37324;&#38754;&#20173;&#28982;&#26159;MDP&#30340;&#39537;&#21160;&#20195;&#30721;&#24418;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590040486480" ID="ID_1523710083" MODIFIED="1590040494804" TEXT="MDP5 &#x4ecb;&#x7ecd;">
 <node CREATED="1590040497944" ID="ID_772876487" MODIFIED="1590040741948">
 <richcontent TYPE="NODE"><html>
@@ -9220,8 +9240,7 @@ but it's much nicer to be explicit about it.</pre>
       <font face="Times New Roman" size="4">connector -&gt; HDMI/DSI/eDP/etc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;--&gt; other device(s) </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590043597538" ID="ID_198730199" MODIFIED="1590043616151" TEXT="SDE msm8996/msm8998"/>
@@ -9235,8 +9254,7 @@ but it's much nicer to be explicit about it.</pre>
       <font size="4"><b>DPU795 Overviews</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590041344464" ID="ID_1360579062" MODIFIED="1590041398163">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9253,8 +9271,7 @@ but it's much nicer to be explicit about it.</pre>
       &#22686;&#24378;&#30340;&#23631;&#19978;&#22270;&#20687;&#36136;&#37327;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590041402337" ID="ID_589390516" MODIFIED="1590041492941">
 <richcontent TYPE="NODE"><html>
@@ -9272,8 +9289,7 @@ but it's much nicer to be explicit about it.</pre>
       &#20026;&#28304;source&#25552;&#20379;&#26684;&#24335;&#36716;&#25442;&#21644;&#36136;&#37327;&#25552;&#21319;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590041496072" ID="ID_892443915" MODIFIED="1590041557979">
 <richcontent TYPE="NODE"><html>
@@ -9291,8 +9307,7 @@ but it's much nicer to be explicit about it.</pre>
       &#23558;source surface&#36827;&#34892;blends &#21644; mixes&#22788;&#29702;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590041585829" ID="ID_1402594044" MODIFIED="1590041649887">
 <richcontent TYPE="NODE"><html>
@@ -9310,8 +9325,7 @@ but it's much nicer to be explicit about it.</pre>
       &#22522;&#20110;panel&#30340;&#29305;&#24615;&#23545;&#22270;&#20687;&#36827;&#34892;&#36716;&#25442;&#12289;&#30699;&#27491;&#21644;&#35843;&#25972;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590041736495" ID="ID_1603574252" MODIFIED="1590041749128">
 <richcontent TYPE="NODE"><html>
@@ -9323,8 +9337,7 @@ but it's much nicer to be explicit about it.</pre>
       DSC &#26174;&#31034;&#27969;&#21387;&#32553;&#25216;&#26415;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590041795362" ID="ID_1765900803" MODIFIED="1590041837471">
 <richcontent TYPE="NODE"><html>
@@ -9339,8 +9352,7 @@ but it's much nicer to be explicit about it.</pre>
       &#23558;&#21457;&#36865;&#32473;display&#25509;&#21475;&#30340;&#22270;&#20687;&#30452;&#25509;&#20889;&#22238;&#21040;&#20869;&#23384;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -9355,8 +9367,7 @@ but it's much nicer to be explicit about it.</pre>
       <font color="#cc0033" face="&#x6977;&#x4f53;" size="4"><b>Android&#21452;&#23631;&#24322;&#26174;&#30340;&#23454;&#29616;&#26041;&#24335;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590049761370" ID="ID_627120558" MODIFIED="1590049771828" TEXT="Presentation&#x65b9;&#x5f0f;">
 <node CREATED="1590049801736" ID="ID_601846220" MODIFIED="1590049831302">
 <richcontent TYPE="NODE"><html>
@@ -9371,8 +9382,7 @@ but it's much nicer to be explicit about it.</pre>
       https://developer.android.com/reference/android/app/Presentation
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590049866614" ID="ID_102014919" MODIFIED="1590139201322">
 <richcontent TYPE="NODE"><html>
@@ -9387,8 +9397,7 @@ but it's much nicer to be explicit about it.</pre>
       evelopment/samples/ApiDemos/src/com/example/android/apis/app/PresentationActivity.java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590049775520" ID="ID_839716293" MODIFIED="1590049796654" TEXT="RK DualScreen&#x65b9;&#x5f0f;&#xff08;RK&#x5e73;&#x53f0;&#xff1f;&#xff09;"/>

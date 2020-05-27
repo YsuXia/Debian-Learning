@@ -12095,8 +12095,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;com.android.internal.R.array.config_usbHostBlacklist);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590464572021" ID="ID_1052375053" MODIFIED="1590464574836" TEXT="mUsbAlsaManager = alsaManager"/>
 <node CREATED="1590464583548" ID="ID_1550503334" MODIFIED="1590464586290" TEXT="mSettingsManager = settingsManager"/>
@@ -12113,8 +12112,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; deviceConnectionHandler));
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590448885882" ID="ID_890522101" MODIFIED="1590448914944">
@@ -12161,8 +12159,7 @@
       .registerForNotifications(&quot;<b><font color="#ff0033" face="&#x96b6;&#x4e66;" size="4"><i>android.hardware.usb@1.0::IUsb</i></font></b>&quot;,&quot;&quot;, serviceNotification);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590463539710" ID="ID_74352772" MODIFIED="1590463542363" TEXT="connectToProxy(null);">
 <node CREATED="1590463811192" ID="ID_1219351592" MODIFIED="1590463813596" TEXT="mProxy = IUsb.getService();"/>
@@ -12237,8 +12234,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mContext.getSystemService(Context.NOTIFICATION_SERVICE)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590462805275" ID="ID_1310204353" MODIFIED="1590462814896">
 <richcontent TYPE="NODE"><html>
@@ -12250,8 +12246,7 @@
       final StorageManager storageManager = StorageManager.from(mContext)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590462826510" ID="ID_695596045" MODIFIED="1590462829520" TEXT="final StorageVolume primary = storageManager.getPrimaryVolume();"/>
 <node CREATED="1590462840262" ID="ID_1156498373" MODIFIED="1590462848283">
@@ -12264,8 +12259,7 @@
       massStorageSupported = primary != null &amp;&amp; primary.allowMassStorage();
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590462912393" ID="ID_343390749" MODIFIED="1590462926137">
 <richcontent TYPE="NODE"><html>
@@ -12280,8 +12274,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;com.android.internal.R.bool.config_usbChargingMessage);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590449557670" ID="ID_1258193865" MODIFIED="1590449568087">
@@ -12311,8 +12304,7 @@
       &#22312;usb device add&#21644;usb device remove&#20107;&#20214;&#21457;&#29983;&#30340;&#26102;&#20505;&#65292;&#35813;&#32447;&#31243;&#20250;&#36827;&#34892;&#22238;&#35843;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590463055675" ID="ID_1260668502" MODIFIED="1590463065249" TEXT="Runnable runnable = this::monitorUsbHostBus;"/>
 <node CREATED="1590463074294" ID="ID_59999841" MODIFIED="1590463077150" TEXT="new Thread(null, runnable, &quot;UsbService host thread&quot;).start();"/>
 </node>
@@ -12409,8 +12401,7 @@
       &#9492;&#9472;&#9472; UsbRequest.java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12543,7 +12534,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583898131646" FOLDED="true" ID="ID_1604355950" MODIFIED="1589890115215">
+<node CREATED="1583898131646" ID="ID_1604355950" MODIFIED="1590563486361">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13004,7 +12995,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587094074196" FOLDED="true" ID="ID_598985936" MODIFIED="1589270263080">
+<node CREATED="1587094074196" ID="ID_598985936" MODIFIED="1590570422167">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13310,7 +13301,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586831124918" FOLDED="true" ID="ID_1413673833" MODIFIED="1589890111004">
+<node CREATED="1586831124918" ID="ID_1413673833" MODIFIED="1590563496130">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13384,7 +13375,84 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1586835240741" FOLDED="true" ID="ID_460016905" MODIFIED="1589890109684" TEXT="&#x6807;&#x51c6;USB&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x5b9a;&#x4e49;">
+<node CREATED="1590568668525" ID="ID_1380168016" MODIFIED="1590577555540">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" face="&#x6977;&#x4f53;">&#26631;&#20934;&#30340;&#35774;&#22791;&#35831;&#27714;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#ff0000" DESTINATION="ID_1380168016" ENDARROW="None" ENDINCLINATION="229;368;" ID="Arrow_ID_1769105816" SOURCE="ID_905192057" STARTARROW="None" STARTINCLINATION="8099;0;"/>
+<node CREATED="1590570486903" ID="ID_290790155" MODIFIED="1590570724616">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25152;&#26377;&#30340;USB&#35774;&#22791;&#37117;&#20250;&#21709;&#24212;&#26469;&#33258;&#20110;host&#30340;&#35831;&#27714;&#65288;&#20301;&#20110;&#35774;&#22791;&#40664;&#35748;&#30340;&#25511;&#21046;pipe&#65289;,
+    </p>
+    <p>
+      &#36825;&#20123;&#35831;&#27714;&#26159;&#20351;&#29992;&#25511;&#21046;&#20256;&#36755;&#26469;&#21457;&#20986;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35831;&#27714;&#21644;&#35831;&#27714;&#30340;&#21442;&#25968;&#26159;&#36890;&#36807;<b><font color="#0033ff">SETUP</font></b>&#25968;&#25454;&#21253;&#26469;&#21457;&#20986;&#32473;&#35774;&#22791;&#30340;&#65292;host&#38656;&#35201;&#22635;&#20805;&#34920;&#26684;
+    </p>
+    <p>
+      9-2&#25152;&#26631;&#35782;&#20986;&#26469;&#30340;&#25968;&#25454;&#22495;&#65292;&#27599;&#20010;SETUP&#25968;&#25454;&#21253;&#37117;&#25317;&#26377;8&#20010;&#23383;&#33410;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590570762437" ID="ID_38163087" MODIFIED="1590570769395">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/usb-setup-packet.PNG" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590570885402" ID="ID_815365475" MODIFIED="1590570891795">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/usb-&#x6807;&#x51c6;&#x8bbe;&#x5907;&#x8bf7;&#x6c42;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590572355850" ID="ID_52172350" MODIFIED="1590572470061">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bmRequestType&#21487;&#20197;&#25351;&#23450;&#35831;&#27714;&#30340;&#23545;&#35937;&#26159;device&#12289;interface&#25110;&#32773;&#26159;endpoint,
+    </p>
+    <p>
+      &#24403;&#25509;&#21475;&#25110;&#32773;&#26159;&#31471;&#21475;&#34987;&#25351;&#23450;&#20043;&#21518;&#65292;wIndex&#22495;&#29992;&#20110;&#26631;&#35782;&#20986;&#25509;&#21475;&#25110;&#32773;&#31471;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1586835240741" ID="ID_460016905" MODIFIED="1590563501799" TEXT="&#x6807;&#x51c6;USB&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x5b9a;&#x4e49;">
 <node CREATED="1586835254441" FOLDED="true" ID="ID_884773065" MODIFIED="1589890108434" TEXT="Device">
 <node CREATED="1586842124002" ID="ID_913103023" MODIFIED="1586842350040">
 <richcontent TYPE="NODE"><html>
@@ -13481,8 +13549,8 @@
 </node>
 </node>
 <node CREATED="1586835260884" ID="ID_1456415372" MODIFIED="1586835271686" TEXT="Device_Qualifier"/>
-<node CREATED="1586835275781" FOLDED="true" ID="ID_1018149002" MODIFIED="1589890105342" TEXT="Configuration">
-<node CREATED="1586850156121" FOLDED="true" ID="ID_1863865221" MODIFIED="1589890101749">
+<node CREATED="1586835275781" ID="ID_1018149002" MODIFIED="1590564900321" TEXT="Configuration">
+<node CREATED="1586850156121" ID="ID_1863865221" MODIFIED="1590564904066">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13571,7 +13639,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586835328644" FOLDED="true" ID="ID_130985147" MODIFIED="1589890095358" TEXT="Interface">
+<node CREATED="1586835328644" ID="ID_130985147" MODIFIED="1590563513686" TEXT="Interface">
 <node CREATED="1586920277758" ID="ID_883214754" MODIFIED="1587030019877">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13650,7 +13718,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1587086459828" FOLDED="true" ID="ID_425228010" MODIFIED="1589890093148" TEXT="&#x63a5;&#x53e3;&#x63cf;&#x8ff0;&#x7b26;">
+<node CREATED="1587086459828" ID="ID_425228010" MODIFIED="1590563672585" TEXT="&#x63a5;&#x53e3;&#x63cf;&#x8ff0;&#x7b26;">
 <node CREATED="1587086471636" ID="ID_330554015" MODIFIED="1587086486720">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13673,8 +13741,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1586835335150" FOLDED="true" ID="ID_225054674" MODIFIED="1589890090948" TEXT="Endpoint">
-<node CREATED="1587087575124" FOLDED="true" ID="ID_1361751977" MODIFIED="1589890087385">
+<node CREATED="1586835335150" ID="ID_225054674" MODIFIED="1590565265404" TEXT="Endpoint">
+<node CREATED="1587087575124" ID="ID_1361751977" MODIFIED="1590565269197">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13842,6 +13910,22 @@
     <img src="usb/hid-long-item.PNG" />
   </body>
 </html></richcontent>
+<node CREATED="1590542841155" ID="ID_891989961" MODIFIED="1590542956839">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff" face="&#x96b6;&#x4e66;" size="4"><i>bLongItemTag &#26159;&#34987;&#20445;&#30041;&#22312;&#26410;&#26469;&#20351;&#29992;&#30340;&#65292; </i></font>
+    </p>
+    <p>
+      <font color="#0033ff" face="&#x96b6;&#x4e66;" size="4"><i>Tag &#20540; 0xF0~0xFF &#26159;vendor&#33258;&#23450;&#20041;&#20351;&#29992;&#30340;&#12290;</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1589336169588" ID="ID_1335201557" MODIFIED="1590471215863">
@@ -13904,8 +13988,7 @@
       String
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590471574631" ID="ID_538834036" MODIFIED="1590471664432">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13928,8 +14011,7 @@
       Physical
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590471835650" ID="ID_1074857536" MODIFIED="1590471842751" TEXT="HID &#x63cf;&#x8ff0;&#x7b26;">
 <node CREATED="1590471851002" ID="ID_164691712" MODIFIED="1590471895590">
 <richcontent TYPE="NODE"><html>
@@ -13941,8 +14023,7 @@
       &#29992;&#20110;&#23450;&#20041;&#19979;&#23646;&#30340;&#25551;&#36848;&#31526;&#30340;&#31867;&#22411;&#21644;&#38271;&#24230;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590472584882" ID="ID_1635338766" MODIFIED="1590472680428">
 <richcontent TYPE="NODE"><html>
@@ -13952,8 +14033,7 @@
   <body>
     <img src="usb/hid-description.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590472945009" ID="ID_1577172728" MODIFIED="1590482245580">
@@ -13972,9 +14052,8 @@
       &#20027;&#26426;&#36890;&#36807;&#35299;&#26512;&#20174;&#26426;&#19978;&#20256;&#30340;&#25253;&#21578;&#25551;&#36848;&#31526;&#65292;&#25165;&#33021;&#30693;&#36947;&#20174;&#26426;&#19978;&#20256;&#30340;&#25253;&#21578;&#26159;&#20160;&#20040;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1590473030481" ID="ID_1402388428" MODIFIED="1590483620327">
+</html></richcontent>
+<node CREATED="1590473030481" ID="ID_1402388428" MODIFIED="1590557348660">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14032,6 +14111,15 @@
       &#25551;&#36848;&#36319;&#22312;&#35813;item&#20043;&#21518;&#30340;main type&#30340;item&#37324;&#38754;&#30340;data&#22495;
     </p>
     <p>
+      &#20030;&#20363;&#26469;&#35828;&#65306;&#22914;&#26524;&#19968;&#20010;Input item&#23450;&#20041;&#20102;5&#20010;controls&#65292; &#35813;input item&#21069;&#38754;&#21448;&#23450;&#20041;&#20102;
+    </p>
+    <p>
+      3&#20010;usage, &#37027;&#20040;&#36825;3&#20010;usage&#20250;&#34987;&#39034;&#24207;&#23545;&#24212;&#21040;&#21069;&#38754;3&#20010;control, &#31532;&#19977;&#20010;usage&#20250;&#23545;&#24212;
+    </p>
+    <p>
+      &#21097;&#19979;&#30340;2&#20010;control
+    </p>
+    <p>
       
     </p>
     <p>
@@ -14040,9 +14128,283 @@
     <p>
       &#23545;&#20110;&#24403;&#21069;&#30340;&#25551;&#36848;&#31526;&#37324;&#38754;&#30340;&#25152;&#26377;data&#22495;&#30340;&#40664;&#35748;&#23646;&#24615;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">Global Items:(6.2.2.7 Global Items) </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#35813;&#37197;&#32622;&#23545;&#21518;&#38754;&#25152;&#26377;&#25968;&#25454;&#26377;&#25928;&#65292;&#38500;&#38750;&#34987;&#26032;&#30340;Global Items&#30340;&#37197;&#32622;&#25152;&#35206;&#30422;&#12290; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">bTag: </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">0b0000 ---- Usage Page </font>
+    </p>
+    <p>
+      <b><font color="#0033ff" face="Times New Roman" size="4">usage&#26159;&#19968;&#20010;32bit&#30340;&#25968;&#20540;&#65292;&#32780;usage page&#32452;&#25104;&#39640;&#20301;&#30340;16bit</font></b>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0001 ---- Logical Minimum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0010 ---- Logical Maximum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0011 ---- Physical Minimum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0100 ---- Physical Maximum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0101 ---- Unit Exponent </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0110 ---- Unit (Unit values) </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">&#160;0b0111 ---- Report Size </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1000 ---- Report ID </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1001 ---- Report Count </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1010 ---- Push </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1011 ---- Pop </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;---- other reserved </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">Local Items (6.2.28 Local Items) </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">bTag: </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0000 ---- Usage </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0001 ---- Usage Minimum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0010 ---- Usage Maximum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0011 ---- Designator Index </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0100 ---- Designator Minimum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0101 ---- Designator Maximum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b0111 ---- String Index </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1000 ---- String Minimum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1001 ---- String Maximum </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">0b1010 ---- Delimiter</font>
+    </p>
   </body>
 </html>
 </richcontent>
+<node CREATED="1590544041258" ID="ID_46705844" MODIFIED="1590544267580">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="&#x96b6;&#x4e66;">Main items&#26159;&#29992;&#20110;&#22312;&#25253;&#21578;&#25551;&#36848;&#31526;&#37324;&#38754;&#23450;&#20041;&#25110;&#32773;&#32452;&#21512;&#29305;&#23450;&#31867;&#22411;&#30340;&#25968;&#25454;&#22495; </font>
+    </p>
+    <p>
+      &#26377;&#20004;&#31181;&#31867;&#22411;&#30340;Main items: data&#21644;non-data
+    </p>
+    <p>
+      data&#31867;&#22411;&#30340;Main items&#29992;&#20110;&#22312;&#25253;&#21578;&#20869;&#37096;&#21019;&#24314;&#19968;&#20010;&#22495;&#65292;&#24182;&#19988;&#21253;&#21547;Input&#12289;Output&#21644;Feature
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590544898607" ID="ID_217469651" MODIFIED="1590545148841">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-main-item.PNG" />
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#ff0033" DESTINATION="ID_217469651" ENDARROW="Default" ENDINCLINATION="75;161;" ID="Arrow_ID_788383113" SOURCE="ID_1015479552" STARTARROW="None" STARTINCLINATION="-396;-426;"/>
+</node>
+</node>
+<node CREATED="1590545046109" ID="ID_1015479552" MODIFIED="1590545155451">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#30475;&#21040;Input&#12289;Output&#12289;Feature&#12289;Collection&#30340;data&#22495;&#30340;&#31532;&#19968;&#20010;&#23383;&#33410;
+    </p>
+    <p>
+      &#30340;&#21508;&#20010;bit&#26159;&#26377;&#24847;&#20041;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink COLOR="#ff0033" DESTINATION="ID_217469651" ENDARROW="Default" ENDINCLINATION="75;161;" ID="Arrow_ID_788383113" STARTARROW="None" STARTINCLINATION="-396;-426;"/>
+</node>
+<node CREATED="1590549915077" ID="ID_332000745" MODIFIED="1590550121255">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Input item&#21644;Output item&#37117;&#21487;&#20197;&#36890;&#36807;control pipe
+    </p>
+    <p>
+      &#30340;Get_Report&#21644;Set_Report&#25509;&#21475;&#33719;&#21462;&#65292;
+    </p>
+    <p>
+      &#20063;&#21487;&#20197;&#36890;&#36807;Interrupt In pipe&#21644;Interrupt Out pipe&#26469;&#33719;&#21462;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590550588909" ID="ID_1706993744" MODIFIED="1590550597412" TEXT="Collection Item&#x7684;&#x7c7b;&#x578b;">
+<node CREATED="1590556311529" ID="ID_1187335033" MODIFIED="1590556452432">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman">Physical&#160;&#160;&#160;&#160;0x00 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Application 0x01 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Logical&#160;&#160;&#160;&#160;&#160;0x02 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Report&#160;&#160;&#160;&#160;&#160;&#160;0x03 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Named Array 0x04 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Usage Switch 0x05 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Usage Modifier 0x06 </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Reserved 0x07~0x7F </font>
+    </p>
+    <p>
+      <font face="Times New Roman">Vendor-defined 0x80~0xFF</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590556637743" ID="ID_1974821000" MODIFIED="1590556961333">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25152;&#26377;&#20301;&#20110;Collection Item&#21644;End Collection Item&#20043;&#38388;&#30340;Main items&#37117;&#21253;&#21547;&#20110;collection,
+    </p>
+    <p>
+      collection&#21487;&#20197;&#21253;&#21547;&#20854;&#20182;nested collection
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Collection Item&#19981;&#20135;&#29983;&#25968;&#25454;&#65292;Usage Item&#24517;&#39035;&#36319;&#19968;&#20010;Collection Item&#30456;&#20851;&#32852;&#36215;&#26469;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#36935;&#21040;&#26410;&#30693;&#31867;&#22411;&#30340;collection, &#37027;&#20040;&#35813;collection&#37324;&#38754;&#25152;&#26377;&#30340;main item&#37117;&#20250;&#34987;&#24573;&#30053;&#65292;&#20294;&#26159;&#37324;&#38754;&#30340;
+    </p>
+    <p>
+      global item&#20250;&#24433;&#21709;&#29366;&#24577;&#34920;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590558786170" ID="ID_303338633" MODIFIED="1590558965654">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">Usage page + Usage ID &#32452;&#21512;&#36215;&#26469;&#24418;&#25104;&#20102;32bit&#30340;usage </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">Usage page &#26159;16bit </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">Usage ID&#160;&#160;&#160;&#160;&#160;&#160;&#26159;16bit</font>
+    </p>
+    <p>
+      &#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590559037794" ID="ID_481523776" MODIFIED="1590559047683">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-usage-page-01.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590559050890" ID="ID_291325574" MODIFIED="1590559057165">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-usagepage-02.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1590484610915" ID="ID_1859585255" MODIFIED="1590484948291">
 <richcontent TYPE="NODE"><html>
@@ -14072,8 +14434,7 @@
       0x01&#30340;&#24847;&#20041;&#21487;&#20197;&#21442;&#32771;Universal Serial Bus HID Usage Table.pdf
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590491311683" ID="ID_1754188773" MODIFIED="1590491561728">
 <richcontent TYPE="NODE"><html>
@@ -14109,8 +14470,7 @@
       <font color="#ff0033" face="Times New Roman" size="4"><i>Report Count</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590492008763" ID="ID_272920320" MODIFIED="1590492136851">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14127,8 +14487,7 @@
       Global item&#26159;&#32039;&#36319;&#22312;Main item&#21518;&#38754;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590492180566" ID="ID_1593170899" MODIFIED="1590492188846">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14137,8 +14496,7 @@
   <body>
     <img src="usb/hid-report-description.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590492336341" ID="ID_1217064548" MODIFIED="1590492539564">
@@ -14157,10 +14515,68 @@
       &#32473;collections&#26469;&#23436;&#25104;&#30340;&#12290;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590566219191" ID="ID_1176555969" MODIFIED="1590566320795">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31532;&#19971;&#31456; Request
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
+<node CREATED="1590567366906" ID="ID_905192057" MODIFIED="1590577561987" TEXT="Standard Requests">
+<arrowlink COLOR="#ff0000" DESTINATION="ID_1380168016" ENDARROW="None" ENDINCLINATION="229;368;" ID="Arrow_ID_1769105816" STARTARROW="None" STARTINCLINATION="8099;0;"/>
+<node CREATED="1590567385801" ID="ID_1861863409" MODIFIED="1590568054961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HID class&#20351;&#29992;&#26631;&#20934;&#35831;&#27714;Get_Description
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24403; Get_Description(Configuration)&#34987;&#35843;&#29992;&#20043;&#21518;&#65292;&#23427;&#20250;&#36820;&#22238;&#37197;&#32622;&#25551;&#36848;&#31526;&#12289;&#25152;&#26377;&#30340;&#25509;&#21475;&#25551;&#36848;&#31526;&#12289;&#25152;&#26377;&#30340;&#31471;&#28857;&#25551;&#36848;&#31526;&#20197;&#21450;
+    </p>
+    <p>
+      &#23545;&#24212;&#20110;&#27599;&#20010;&#25509;&#21475;&#30340;HID&#25551;&#36848;&#31526;&#65292;&#20005;&#31105;&#36820;&#22238;string&#25551;&#36848;&#31526;&#12289;hid&#25253;&#21578;&#25551;&#36848;&#31526;&#25110;&#32773;&#20219;&#20309;&#21487;&#36873;&#30340;hid class&#25551;&#36848;&#31526;&#12290;
+    </p>
+    <p>
+      HID&#25551;&#36848;&#31526;&#26159;&#25554;&#20837;&#21040;&#25509;&#21475;&#25551;&#36848;&#31526;&#20043;&#21518;&#30340;&#65292;&#22914;&#19979;&#38754;&#25152;&#31034;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman"><i>Configuration descriptor </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman"><i>&#160;&#160;&#160;&#160;Interface descriptor (specifying HID Class) </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HID descriptor (associated with above Interface) </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Endpoint descriptor (for HID Interrupt In Endpoint) </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Optional Endpoint descriptor (for HID Interrupt Out Endpoint)</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
