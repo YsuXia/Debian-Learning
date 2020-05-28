@@ -13385,8 +13385,7 @@
       <b><font size="4" face="&#x6977;&#x4f53;">&#26631;&#20934;&#30340;&#35774;&#22791;&#35831;&#27714;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#ff0000" DESTINATION="ID_1380168016" ENDARROW="None" ENDINCLINATION="229;368;" ID="Arrow_ID_1769105816" SOURCE="ID_905192057" STARTARROW="None" STARTINCLINATION="8099;0;"/>
 <node CREATED="1590570486903" ID="ID_290790155" MODIFIED="1590570724616">
 <richcontent TYPE="NODE"><html>
@@ -13410,8 +13409,7 @@
       9-2&#25152;&#26631;&#35782;&#20986;&#26469;&#30340;&#25968;&#25454;&#22495;&#65292;&#27599;&#20010;SETUP&#25968;&#25454;&#21253;&#37117;&#25317;&#26377;8&#20010;&#23383;&#33410;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590570762437" ID="ID_38163087" MODIFIED="1590570769395">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13420,8 +13418,7 @@
   <body>
     <img src="usb/usb-setup-packet.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590570885402" ID="ID_815365475" MODIFIED="1590570891795">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13430,8 +13427,7 @@
   <body>
     <img src="usb/usb-&#x6807;&#x51c6;&#x8bbe;&#x5907;&#x8bf7;&#x6c42;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590572355850" ID="ID_52172350" MODIFIED="1590572470061">
 <richcontent TYPE="NODE"><html>
@@ -13446,8 +13442,7 @@
       &#24403;&#25509;&#21475;&#25110;&#32773;&#26159;&#31471;&#21475;&#34987;&#25351;&#23450;&#20043;&#21518;&#65292;wIndex&#22495;&#29992;&#20110;&#26631;&#35782;&#20986;&#25509;&#21475;&#25110;&#32773;&#31471;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -13923,8 +13918,7 @@
       <font color="#0033ff" face="&#x96b6;&#x4e66;" size="4"><i>Tag &#20540; 0xF0~0xFF &#26159;vendor&#33258;&#23450;&#20041;&#20351;&#29992;&#30340;&#12290;</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14219,8 +14213,7 @@
       <font face="Times New Roman" size="4">0b1010 ---- Delimiter</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590544041258" ID="ID_46705844" MODIFIED="1590544267580">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14237,8 +14230,7 @@
       data&#31867;&#22411;&#30340;Main items&#29992;&#20110;&#22312;&#25253;&#21578;&#20869;&#37096;&#21019;&#24314;&#19968;&#20010;&#22495;&#65292;&#24182;&#19988;&#21253;&#21547;Input&#12289;Output&#21644;Feature
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590544898607" ID="ID_217469651" MODIFIED="1590545148841">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14247,9 +14239,48 @@
   <body>
     <img src="usb/hid-main-item.PNG" />
   </body>
+</html></richcontent>
+<linktarget COLOR="#ff0033" DESTINATION="ID_217469651" ENDARROW="Default" ENDINCLINATION="75;161;" ID="Arrow_ID_788383113" SOURCE="ID_1015479552" STARTARROW="None" STARTINCLINATION="-396;-426;"/>
+<node CREATED="1590653709613" ID="ID_2880689" MODIFIED="1590654643573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Array&#25552;&#20379;&#20102;&#19968;&#31181;&#21487;&#36873;&#30340;&#26041;&#24335;&#65292;&#29992;&#20110;&#25551;&#36848;&#26469;&#33258;&#20110;&#19968;&#32452;buttons&#30340;&#36820;&#22238;&#25968;&#25454;&#12290;
+    </p>
+    <p>
+      &#19981;&#21516;&#20110;&#20026;&#32452;&#20869;&#30340;&#27599;&#19968;&#20010;button&#36820;&#22238;&#19968;&#20010;bit, array&#22312;&#27599;&#19968;&#20010;&#22495;&#37324;&#38754;&#36820;&#22238;&#23545;&#24212;&#20110;&#25353;&#19979;&#30340;
+    </p>
+    <p>
+      button&#30340;&#32034;&#24341;&#21495;&#12290;&#22914;&#26524;&#22312;array &#22495;&#37324;&#38754;&#30340;&#20540;&#36229;&#20986;&#20102;&#35774;&#23450;&#30340;&#33539;&#22260;&#65292;&#35813;&#20540;&#26159;&#34987;&#35748;&#20026;&#27809;&#26377;&#25511;&#21046;&#21151;&#33021;&#30340;&#12290;
+    </p>
+    <p>
+      &#22312;array&#24403;&#20013;&#30340;buttons&#25110;&#32773;keys&#65292;&#22914;&#26524;&#34987;&#21516;&#26102;&#25353;&#19979;&#65292;&#37027;&#20040;&#23601;&#38656;&#35201;&#20351;&#29992;&#22810;&#20010;fileds&#26469;&#36827;&#34892;&#25253;&#21578;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25152;&#20197;Report Count&#34920;&#26126;&#26368;&#22823;&#30340;&#21516;&#27493;&#25511;&#21046;&#25968;&#37327;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#20010;keyboard&#21487;&#20197;&#25903;&#25345;&#21516;&#27493;&#25253;&#21578;3&#20010;&#25353;&#38190;&#65292;&#22240;&#27492;&#20351;&#29992;&#19968;&#20010;&#25317;&#26377;3&#20010;8-bti fields&#30340;array(Report Size=8, Report Count=3)
+    </p>
+    <p>
+      &#22312;array&#37324;&#38754;&#30340;&#20803;&#32032;&#30340;&#25968;&#37327;&#35745;&#31639;&#26041;&#24335;&#65306;<b><font color="#0033ff" face="Times New Roman" size="4"><i>&#160; Logical Maximum - Logical Minimum + 1</i></font></b>
+    </p>
+  </body>
 </html>
 </richcontent>
-<linktarget COLOR="#ff0033" DESTINATION="ID_217469651" ENDARROW="Default" ENDINCLINATION="75;161;" ID="Arrow_ID_788383113" SOURCE="ID_1015479552" STARTARROW="None" STARTINCLINATION="-396;-426;"/>
+</node>
 </node>
 </node>
 <node CREATED="1590545046109" ID="ID_1015479552" MODIFIED="1590545155451">
@@ -14265,8 +14296,7 @@
       &#30340;&#21508;&#20010;bit&#26159;&#26377;&#24847;&#20041;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#ff0033" DESTINATION="ID_217469651" ENDARROW="Default" ENDINCLINATION="75;161;" ID="Arrow_ID_788383113" STARTARROW="None" STARTINCLINATION="-396;-426;"/>
 </node>
 <node CREATED="1590549915077" ID="ID_332000745" MODIFIED="1590550121255">
@@ -14285,8 +14315,7 @@
       &#20063;&#21487;&#20197;&#36890;&#36807;Interrupt In pipe&#21644;Interrupt Out pipe&#26469;&#33719;&#21462;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590550588909" ID="ID_1706993744" MODIFIED="1590550597412" TEXT="Collection Item&#x7684;&#x7c7b;&#x578b;">
 <node CREATED="1590556311529" ID="ID_1187335033" MODIFIED="1590556452432">
@@ -14323,8 +14352,7 @@
       <font face="Times New Roman">Vendor-defined 0x80~0xFF</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590556637743" ID="ID_1974821000" MODIFIED="1590556961333">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14356,8 +14384,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14380,8 +14407,7 @@
       &#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590559037794" ID="ID_481523776" MODIFIED="1590559047683">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14390,8 +14416,7 @@
   <body>
     <img src="usb/hid-usage-page-01.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590559050890" ID="ID_291325574" MODIFIED="1590559057165">
 <richcontent TYPE="NODE"><html>
@@ -14401,8 +14426,7 @@
   <body>
     <img src="usb/hid-usagepage-02.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14531,8 +14555,7 @@
       &#31532;&#19971;&#31456; Request
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590567366906" ID="ID_905192057" MODIFIED="1590577561987" TEXT="Standard Requests">
 <arrowlink COLOR="#ff0000" DESTINATION="ID_1380168016" ENDARROW="None" ENDINCLINATION="229;368;" ID="Arrow_ID_1769105816" STARTARROW="None" STARTINCLINATION="8099;0;"/>
 <node CREATED="1590567385801" ID="ID_1861863409" MODIFIED="1590568054961">
@@ -14574,6 +14597,65 @@
     <p>
       <font face="Times New Roman"><i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Optional Endpoint descriptor (for HID Interrupt Out Endpoint)</i></font>
     </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1590635521075" ID="ID_1991850945" MODIFIED="1590635532437" TEXT="&#x8ddf;class&#x76f8;&#x5173;&#x7684;&#x5177;&#x4f53;&#x8bf7;&#x6c42;">
+<node CREATED="1590635598198" ID="ID_1982343548" MODIFIED="1590658224135">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-class&#x5c42;&#x9762;&#x7684;get_report&#x8c03;&#x7528;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590636459554" ID="ID_544280071" MODIFIED="1590636469173" TEXT="&#x7b2c;&#x516b;&#x7ae0; Report Protocol">
+<node CREATED="1590636529606" ID="ID_1199150114" MODIFIED="1590652105053">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32508;&#36848;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Reports&#21253;&#21547;&#26469;&#33258;&#20110;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;items&#30340;&#25968;&#25454;&#12290;&#25968;&#25454;&#20256;&#36755;&#20197;reports&#30340;&#24418;&#24335;&#36890;&#36807;&#20013;&#26029;In&#31471;&#21475;&#65292;
+    </p>
+    <p>
+      &#20174;&#35774;&#22791;&#21457;&#36865;&#21040;host&#12290;Reports&#21487;&#33021;&#20250;&#36890;&#36807;control pipe&#34987;&#35831;&#27714;&#21644;&#21457;&#36865;&#65292;&#20063;&#21487;&#20197;&#21487;&#36873;&#22320;&#36890;&#36807;&#20013;&#26029;out&#31471;&#21475;
+    </p>
+    <p>
+      &#36827;&#34892;&#21457;&#36865;&#12290;
+    </p>
+    <p>
+      &#24212;&#29992;&#36719;&#20214;&#36127;&#36131;&#22522;&#20110;report&#25551;&#36848;&#31526;&#26469;&#35299;&#20986;&#27599;&#20010;&#29420;&#31435;&#30340;item
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Item data&#20250;&#34987;&#39034;&#24207;&#25490;&#21015;&#36215;&#26469;&#65292;&#23601;&#20687;items&#22312;report&#25551;&#36848;&#31526;&#37324;&#38754;&#25490;&#21015;&#30340;&#37027;&#26679;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590658087675" ID="ID_390783073" MODIFIED="1590658104126">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="usb/hid-report-example.PNG" />
   </body>
 </html>
 </richcontent>
