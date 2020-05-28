@@ -14278,8 +14278,7 @@
       &#22312;array&#37324;&#38754;&#30340;&#20803;&#32032;&#30340;&#25968;&#37327;&#35745;&#31639;&#26041;&#24335;&#65306;<b><font color="#0033ff" face="Times New Roman" size="4"><i>&#160; Logical Maximum - Logical Minimum + 1</i></font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14610,8 +14609,7 @@
   <body>
     <img src="usb/hid-class&#x5c42;&#x9762;&#x7684;get_report&#x8c03;&#x7528;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14647,8 +14645,7 @@
       Item data&#20250;&#34987;&#39034;&#24207;&#25490;&#21015;&#36215;&#26469;&#65292;&#23601;&#20687;items&#22312;report&#25551;&#36848;&#31526;&#37324;&#38754;&#25490;&#21015;&#30340;&#37027;&#26679;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590658087675" ID="ID_390783073" MODIFIED="1590658104126">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14657,10 +14654,25 @@
   <body>
     <img src="usb/hid-report-example.PNG" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590708897277" ID="ID_309514240" MODIFIED="1590708917152">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#36164;&#26009;&#65306;
+    </p>
+    <p>
+      <a http-equiv="content-type" content="text/html; charset=utf-8" href="http://www.suoniao.com/article/41038">http://www.suoniao.com/article/41038</a>
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
 </node>
 </node>
 </node>
