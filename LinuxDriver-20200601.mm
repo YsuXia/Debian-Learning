@@ -12324,6 +12324,73 @@
 </node>
 </node>
 </node>
+<node CREATED="1590927567767" ID="ID_1574925776" MODIFIED="1590929016231">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public ParcelFileDescriptor openDevice(String deviceName)
+    </p>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" SOURCE="ID_1027131434" STARTARROW="None" STARTINCLINATION="-83;50;"/>
+<node CREATED="1590928089823" ID="ID_1155631639" MODIFIED="1590928098469">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ParcelFileDescriptor fd = null;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590928846731" ID="ID_398993194" MODIFIED="1590928850645" TEXT="int userIdInt = UserHandle.getCallingUserId();"/>
+<node CREATED="1590928864952" ID="ID_1056661616" MODIFIED="1590928875474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      boolean isCurrentUser = isCallerInCurrentUserProfileGroupLocked()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590928893985" ID="ID_1797272238" MODIFIED="1590928903713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fd = mHostManager.openDevice(deviceName, getSettingsForUser(userIdInt))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1590929204692" ID="ID_438006144" MODIFIED="1590929225074">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">UsbHostManager.java &#20998;&#26512;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1590470503943" ID="ID_251366722" MODIFIED="1590470611902">
 <richcontent TYPE="NODE"><html>
@@ -12402,6 +12469,62 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1590924771628" ID="ID_816208898" MODIFIED="1590924787570">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#26512;&#19968;&#19979; UsbManager.java &#25991;&#20214;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590926879648" ID="ID_1003050487" MODIFIED="1590926934425">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#102aec">public UsbDeviceConnection openDevice(UsbDevice device) </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#102aec">&#20989;&#25968;&#20998;&#26512;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1590927346353" ID="ID_54428716" MODIFIED="1590927357178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      String deviceName = device.getDeviceName()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1590927372531" ID="ID_1027131434" MODIFIED="1590929022237">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ParcelFileDescriptor pfd = mService.openDevice(deviceName)
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" STARTARROW="None" STARTINCLINATION="-83;50;"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -12481,7 +12604,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574250103965" ID="ID_27661495" MODIFIED="1590471167030" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<node CREATED="1574250103965" FOLDED="true" ID="ID_27661495" MODIFIED="1590887679862" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574250173205" ID="ID_1335167454" MODIFIED="1574767377667">
 <richcontent TYPE="NODE"><html>
@@ -12534,7 +12657,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583898131646" ID="ID_1604355950" MODIFIED="1590563486361">
+<node CREATED="1583898131646" FOLDED="true" ID="ID_1604355950" MODIFIED="1590887637514">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12995,7 +13118,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587094074196" ID="ID_598985936" MODIFIED="1590570422167">
+<node CREATED="1587094074196" FOLDED="true" ID="ID_598985936" MODIFIED="1590887636378">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13301,7 +13424,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586831124918" ID="ID_1413673833" MODIFIED="1590563496130">
+<node CREATED="1586831124918" FOLDED="true" ID="ID_1413673833" MODIFIED="1590887632737">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13983,7 +14106,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590471574631" ID="ID_538834036" MODIFIED="1590471664432">
+<node CREATED="1590471574631" FOLDED="true" ID="ID_538834036" MODIFIED="1590887616846">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14544,7 +14667,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590566219191" ID="ID_1176555969" MODIFIED="1590566320795">
+<node CREATED="1590566219191" FOLDED="true" ID="ID_1176555969" MODIFIED="1590887644205">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14613,7 +14736,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590636459554" ID="ID_544280071" MODIFIED="1590636469173" TEXT="&#x7b2c;&#x516b;&#x7ae0; Report Protocol">
+<node CREATED="1590636459554" FOLDED="true" ID="ID_544280071" MODIFIED="1590887646684" TEXT="&#x7b2c;&#x516b;&#x7ae0; Report Protocol">
 <node CREATED="1590636529606" ID="ID_1199150114" MODIFIED="1590652105053">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14671,8 +14794,7 @@
       <a http-equiv="content-type" content="text/html; charset=utf-8" href="http://www.suoniao.com/article/41038">http://www.suoniao.com/article/41038</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
