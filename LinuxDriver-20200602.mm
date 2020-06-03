@@ -12334,8 +12334,7 @@
       public ParcelFileDescriptor openDevice(String deviceName)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" SOURCE="ID_1027131434" STARTARROW="None" STARTINCLINATION="-83;50;"/>
 <node CREATED="1590928089823" ID="ID_1155631639" MODIFIED="1590928098469">
 <richcontent TYPE="NODE"><html>
@@ -12347,8 +12346,7 @@
       ParcelFileDescriptor fd = null;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590928846731" ID="ID_398993194" MODIFIED="1590928850645" TEXT="int userIdInt = UserHandle.getCallingUserId();"/>
 <node CREATED="1590928864952" ID="ID_1056661616" MODIFIED="1590928875474">
@@ -12361,10 +12359,9 @@
       boolean isCurrentUser = isCallerInCurrentUserProfileGroupLocked()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1590928893985" ID="ID_1797272238" MODIFIED="1590928903713">
+<node CREATED="1590928893985" ID="ID_1797272238" MODIFIED="1591222316691">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12374,19 +12371,193 @@
       fd = mHostManager.openDevice(deviceName, getSettingsForUser(userIdInt))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<arrowlink COLOR="#232be6" DESTINATION="ID_1213928534" ENDARROW="Default" ENDINCLINATION="-51;132;" ID="Arrow_ID_136270759" STARTARROW="None" STARTINCLINATION="-86;35;"/>
 </node>
 </node>
 </node>
-<node CREATED="1590929204692" ID="ID_438006144" MODIFIED="1590929225074">
+<node CREATED="1590929204692" ID="ID_438006144" MODIFIED="1591222284309">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4">UsbHostManager.java &#20998;&#26512;</font>
+      <font size="4" face="Times New Roman"><i>frameworks/base/services/usb/java/com/android/server/usb/UsbHostManager.java </i></font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman"><i>&#20998;&#26512;</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591222135014" ID="ID_1213928534" MODIFIED="1591222302835">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4"><i>public ParcelFileDescriptor openDevice(String deviceName, UsbUserSettingsManager settings) </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4"><i>&#20989;&#25968;&#20998;&#26512;</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#232be6" DESTINATION="ID_1213928534" ENDARROW="Default" ENDINCLINATION="-51;132;" ID="Arrow_ID_136270759" SOURCE="ID_1797272238" STARTARROW="None" STARTINCLINATION="-86;35;"/>
+<node CREATED="1591222199285" ID="ID_1487950822" MODIFIED="1591222203249" TEXT="UsbDevice device = mDevices.get(deviceName)"/>
+<node CREATED="1591222218410" ID="ID_161983031" MODIFIED="1591222221316" TEXT="settings.checkPermission(device);"/>
+<node CREATED="1591222234571" ID="ID_1175788925" MODIFIED="1591222800252">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      return nativeOpenDevice(deviceName)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#37324;&#26159;JNI&#35843;&#29992;&#20102;&#65292;&#38656;&#35201;&#30475;JNI&#20195;&#30721;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1591222486533" ID="ID_872559397" MODIFIED="1591222518457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>frameworks/base/services/core/jni/com_android_server_UsbHostManager.cpp</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591222523735" ID="ID_385258752" MODIFIED="1591222947237">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30475;&#19968;&#19979;&#36825;&#37324;&#38754;&#30340;JNI&#26041;&#27861;&#30340;&#35843;&#29992;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static const JNINativeMethod method_table[] = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ &quot;monitorUsbHostBus&quot;, &quot;()V&quot;, (void*)android_server_UsbHostManager_monitorUsbHostBus },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ &quot;<b>nativeOpenDevice</b>&quot;,&#160; &quot;(Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(void*)<b>android_server_UsbHostManager_openDevice</b>&#160; },
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591223215224" ID="ID_330863373" MODIFIED="1591223227711">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static jobject android_server_UsbHostManager_openDevice(JNIEnv *env, jobject /* thiz */,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;jstring deviceName)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591224654196" ID="ID_1598282678" MODIFIED="1591224679180">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;&#35774;&#22791;&#21517;&#31216;&#23383;&#31526;&#20018;
+    </p>
+    <p>
+      const char *deviceNameStr = env-&gt;GetStringUTFChars(deviceName, NULL)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591224752047" ID="ID_1884075564" MODIFIED="1591224767028">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_device* device = usb_device_open(deviceNameStr);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591225080342" ID="ID_394634235" MODIFIED="1591225084073" TEXT="int fd = usb_device_get_fd(device);"/>
+<node CREATED="1591225096461" ID="ID_1054183459" MODIFIED="1591225099005" TEXT="int newFD = dup(fd);"/>
+<node CREATED="1591225133502" ID="ID_808409407" MODIFIED="1591225143759">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jobject fileDescriptor = jniCreateFileDescriptor(env, newFD);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591225157137" ID="ID_429207726" MODIFIED="1591225166166">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      return env-&gt;NewObject(gParcelFileDescriptorOffsets.mClass,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gParcelFileDescriptorOffsets.mConstructor, fileDescriptor);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591224819607" ID="ID_438303258" MODIFIED="1591224845236">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      system/core/libusbhost/usbhost.c &#25991;&#20214;&#20998;&#26512;
     </p>
   </body>
 </html>
@@ -12479,8 +12650,7 @@
       &#20998;&#26512;&#19968;&#19979; UsbManager.java &#25991;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590926879648" ID="ID_1003050487" MODIFIED="1590926934425">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12494,8 +12664,7 @@
       <font face="Times New Roman" size="4" color="#102aec">&#20989;&#25968;&#20998;&#26512;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1590927346353" ID="ID_54428716" MODIFIED="1590927357178">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12506,8 +12675,7 @@
       String deviceName = device.getDeviceName()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590927372531" ID="ID_1027131434" MODIFIED="1590929022237">
 <richcontent TYPE="NODE"><html>
@@ -12519,8 +12687,7 @@
       ParcelFileDescriptor pfd = mService.openDevice(deviceName)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" STARTARROW="None" STARTINCLINATION="-83;50;"/>
 </node>
 </node>
