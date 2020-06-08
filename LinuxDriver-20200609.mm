@@ -12389,8 +12389,7 @@
       <font size="4" face="Times New Roman"><i>&#20998;&#26512;</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591222135014" ID="ID_1213928534" MODIFIED="1591222302835">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12404,8 +12403,7 @@
       <font face="Times New Roman" size="4"><i>&#20989;&#25968;&#20998;&#26512;</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#232be6" DESTINATION="ID_1213928534" ENDARROW="Default" ENDINCLINATION="-51;132;" ID="Arrow_ID_136270759" SOURCE="ID_1797272238" STARTARROW="None" STARTINCLINATION="-86;35;"/>
 <node CREATED="1591222199285" ID="ID_1487950822" MODIFIED="1591222203249" TEXT="UsbDevice device = mDevices.get(deviceName)"/>
 <node CREATED="1591222218410" ID="ID_161983031" MODIFIED="1591222221316" TEXT="settings.checkPermission(device);"/>
@@ -12425,8 +12423,7 @@
       &#36825;&#37324;&#26159;JNI&#35843;&#29992;&#20102;&#65292;&#38656;&#35201;&#30475;JNI&#20195;&#30721;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12440,8 +12437,7 @@
       <b>frameworks/base/services/core/jni/com_android_server_UsbHostManager.cpp</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591222523735" ID="ID_385258752" MODIFIED="1591222947237">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12470,8 +12466,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591223215224" ID="ID_330863373" MODIFIED="1591223227711">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12485,8 +12480,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;jstring deviceName)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591224654196" ID="ID_1598282678" MODIFIED="1591224679180">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12500,8 +12494,7 @@
       const char *deviceNameStr = env-&gt;GetStringUTFChars(deviceName, NULL)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591224752047" ID="ID_1884075564" MODIFIED="1591224767028">
 <richcontent TYPE="NODE"><html>
@@ -12513,8 +12506,7 @@
       struct usb_device* device = usb_device_open(deviceNameStr);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591225080342" ID="ID_394634235" MODIFIED="1591225084073" TEXT="int fd = usb_device_get_fd(device);"/>
 <node CREATED="1591225096461" ID="ID_1054183459" MODIFIED="1591225099005" TEXT="int newFD = dup(fd);"/>
@@ -12528,8 +12520,7 @@
       jobject fileDescriptor = jniCreateFileDescriptor(env, newFD);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591225157137" ID="ID_429207726" MODIFIED="1591225166166">
 <richcontent TYPE="NODE"><html>
@@ -12544,8 +12535,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gParcelFileDescriptorOffsets.mConstructor, fileDescriptor);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12560,8 +12550,155 @@
       system/core/libusbhost/usbhost.c &#25991;&#20214;&#20998;&#26512;
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1591519501606" ID="ID_773602220" MODIFIED="1591519505032" TEXT="struct usb_device *usb_device_open(const char *dev_name)">
+<node CREATED="1591519675668" ID="ID_1758388424" MODIFIED="1591519686438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fd = open(dev_name, O_RDWR)
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1591519701696" ID="ID_434684274" MODIFIED="1591657735384">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_device* result = usb_device_new(dev_name, fd)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct usb_device {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;char dev_name[64];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char desc[4096];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int desc_length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int fd;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int writeable;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591658930650" ID="ID_1006364404" MODIFIED="1591658960076">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_device *usb_device_new(const char *dev_name, int fd)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591659021216" ID="ID_434262675" MODIFIED="1591659038025">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_device *device = calloc(1, sizeof(struct usb_device))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591659090754" ID="ID_1234333459" MODIFIED="1591659122903">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      length = read(fd, device-&gt;desc, sizeof(device-&gt;desc))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35835;&#21462;&#35774;&#22791;&#25551;&#36848;&#31526;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591659234460" ID="ID_1197365385" MODIFIED="1591659271442">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      strncpy(device-&gt;dev_name, dev_name, sizeof(device-&gt;dev_name) - 1);&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      device-&gt;fd = fd;
+    </p>
+    <p>
+      device-&gt;desc_length = length;
+    </p>
+    <p>
+      // assume we are writeable, since usb_device_get_fd will only return writeable fds&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      device-&gt;writeable = 1;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1591658040096" ID="ID_773084979" MODIFIED="1591658053876">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      result-&gt;writeable = writeable
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591658063152" ID="ID_191002664" MODIFIED="1591658075325">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      return result
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1590470503943" ID="ID_251366722" MODIFIED="1590470611902">
 <richcontent TYPE="NODE"><html>
