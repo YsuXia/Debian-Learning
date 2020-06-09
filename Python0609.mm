@@ -273,8 +273,45 @@
       https://docs.python.org/2/tutorial/
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1591171364156" ID="ID_401090847" MODIFIED="1591171389802" POSITION="right" TEXT="python&#x5b89;&#x88c5;&#x64cd;&#x4f5c;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1591171393637" ID="ID_22098825" MODIFIED="1591232815652">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      windows&#29615;&#22659;&#19979;&#23433;&#35013;python&#20381;&#36182;&#21253;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20197;&#23433;&#35013;pyaudio&#20026;&#20363;
+    </p>
+    <ol>
+      <li>
+        &#25630;&#28165;&#26970;windows&#30005;&#33041;&#19978;&#23433;&#35013;&#30340;python&#30340;&#29256;&#26412;&#21644;&#20301;&#25968;
+      </li>
+      <li>
+        &#35775;&#38382;&#32593;&#22336; https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio &#19979;&#36733; PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+      </li>
+      <li>
+        &#23433;&#35013;&#20381;&#36182;&#21253;
+
+        <pre class="lang-py prettyprint prettyprinted"><code>pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl</code></pre>
+      </li>
+      <li>
+        python -m pip install pyaudio
+      </li>
+    </ol>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 </node>
 </map>
