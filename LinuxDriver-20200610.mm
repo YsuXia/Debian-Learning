@@ -12324,7 +12324,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590927567767" ID="ID_1574925776" MODIFIED="1590929016231">
+<node CREATED="1590927567767" ID="ID_1574925776" MODIFIED="1591745431543">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12335,7 +12335,7 @@
     </p>
   </body>
 </html></richcontent>
-<linktarget COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" SOURCE="ID_1027131434" STARTARROW="None" STARTINCLINATION="-83;50;"/>
+<linktarget COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" SOURCE="ID_1027131434" STARTARROW="None" STARTINCLINATION="242;-20;"/>
 <node CREATED="1590928089823" ID="ID_1155631639" MODIFIED="1590928098469">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12407,7 +12407,7 @@
 <linktarget COLOR="#232be6" DESTINATION="ID_1213928534" ENDARROW="Default" ENDINCLINATION="-51;132;" ID="Arrow_ID_136270759" SOURCE="ID_1797272238" STARTARROW="None" STARTINCLINATION="-86;35;"/>
 <node CREATED="1591222199285" ID="ID_1487950822" MODIFIED="1591222203249" TEXT="UsbDevice device = mDevices.get(deviceName)"/>
 <node CREATED="1591222218410" ID="ID_161983031" MODIFIED="1591222221316" TEXT="settings.checkPermission(device);"/>
-<node CREATED="1591222234571" ID="ID_1175788925" MODIFIED="1591222800252">
+<node CREATED="1591222234571" ID="ID_1175788925" MODIFIED="1591744139885">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12424,6 +12424,7 @@
     </p>
   </body>
 </html></richcontent>
+<arrowlink COLOR="#f30404" DESTINATION="ID_385258752" ENDARROW="Default" ENDINCLINATION="178;0;" ID="Arrow_ID_899289542" STARTARROW="None" STARTINCLINATION="178;0;"/>
 </node>
 </node>
 </node>
@@ -12438,7 +12439,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591222523735" ID="ID_385258752" MODIFIED="1591222947237">
+<node CREATED="1591222523735" ID="ID_385258752" MODIFIED="1591744133589">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12467,6 +12468,7 @@
     </p>
   </body>
 </html></richcontent>
+<linktarget COLOR="#f30404" DESTINATION="ID_385258752" ENDARROW="Default" ENDINCLINATION="178;0;" ID="Arrow_ID_899289542" SOURCE="ID_1175788925" STARTARROW="None" STARTINCLINATION="178;0;"/>
 <node CREATED="1591223215224" ID="ID_330863373" MODIFIED="1591223227711">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12496,7 +12498,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591224752047" ID="ID_1884075564" MODIFIED="1591224767028">
+<node CREATED="1591224752047" ID="ID_1884075564" MODIFIED="1591744170500">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12507,6 +12509,7 @@
     </p>
   </body>
 </html></richcontent>
+<arrowlink COLOR="#451df2" DESTINATION="ID_773602220" ENDARROW="Default" ENDINCLINATION="541;192;" ID="Arrow_ID_1840744410" STARTARROW="None" STARTINCLINATION="-640;-585;"/>
 </node>
 <node CREATED="1591225080342" ID="ID_394634235" MODIFIED="1591225084073" TEXT="int fd = usb_device_get_fd(device);"/>
 <node CREATED="1591225096461" ID="ID_1054183459" MODIFIED="1591225099005" TEXT="int newFD = dup(fd);"/>
@@ -12551,7 +12554,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591519501606" ID="ID_773602220" MODIFIED="1591519505032" TEXT="struct usb_device *usb_device_open(const char *dev_name)">
+<node CREATED="1591519501606" ID="ID_773602220" MODIFIED="1591744162497" TEXT="struct usb_device *usb_device_open(const char *dev_name)">
+<linktarget COLOR="#451df2" DESTINATION="ID_773602220" ENDARROW="Default" ENDINCLINATION="541;192;" ID="Arrow_ID_1840744410" SOURCE="ID_1884075564" STARTARROW="None" STARTINCLINATION="-640;-585;"/>
 <node CREATED="1591519675668" ID="ID_1758388424" MODIFIED="1591519686438">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12562,8 +12566,7 @@
       fd = open(dev_name, O_RDWR)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591519701696" ID="ID_434684274" MODIFIED="1591657735384">
 <richcontent TYPE="NODE"><html>
@@ -12599,8 +12602,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591658930650" ID="ID_1006364404" MODIFIED="1591658960076">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12611,8 +12613,7 @@
       struct usb_device *usb_device_new(const char *dev_name, int fd)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591659021216" ID="ID_434262675" MODIFIED="1591659038025">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12623,8 +12624,7 @@
       struct usb_device *device = calloc(1, sizeof(struct usb_device))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591659090754" ID="ID_1234333459" MODIFIED="1591659122903">
 <richcontent TYPE="NODE"><html>
@@ -12642,8 +12642,7 @@
       &#35835;&#21462;&#35774;&#22791;&#25551;&#36848;&#31526;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591659234460" ID="ID_1197365385" MODIFIED="1591659271442">
 <richcontent TYPE="NODE"><html>
@@ -12667,8 +12666,7 @@
       device-&gt;writeable = 1;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12682,8 +12680,7 @@
       result-&gt;writeable = writeable
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591658063152" ID="ID_191002664" MODIFIED="1591658075325">
 <richcontent TYPE="NODE"><html>
@@ -12695,8 +12692,7 @@
       return result
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12814,7 +12810,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1590927372531" ID="ID_1027131434" MODIFIED="1590929022237">
+<node CREATED="1590927372531" ID="ID_1027131434" MODIFIED="1591745431543">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12825,7 +12821,95 @@
     </p>
   </body>
 </html></richcontent>
-<arrowlink COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" STARTARROW="None" STARTINCLINATION="-83;50;"/>
+<arrowlink COLOR="#e80f0f" DESTINATION="ID_1574925776" ENDARROW="Default" ENDINCLINATION="157;-230;" ID="Arrow_ID_1056625645" STARTARROW="None" STARTINCLINATION="242;-20;"/>
+</node>
+<node CREATED="1591744191524" ID="ID_1610680558" MODIFIED="1591744194758" TEXT="UsbDeviceConnection connection = new UsbDeviceConnection(device);"/>
+<node CREATED="1591744218087" ID="ID_525488220" MODIFIED="1591744220450" TEXT="boolean result = connection.open(deviceName, pfd, mContext);"/>
+<node CREATED="1591744230183" ID="ID_1383185006" MODIFIED="1591744231966" TEXT="pfd.close()"/>
+<node CREATED="1591744242270" ID="ID_1099429201" MODIFIED="1591744244175" TEXT="return connection"/>
+</node>
+</node>
+<node CREATED="1591745493283" ID="ID_422337655" MODIFIED="1591745876741">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#1412ef"><b>&#20998;&#26512;&#19968;&#19979;&#25991;&#20214; UsbDeviceConnection.java</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591745646652" ID="ID_1135823725" MODIFIED="1591745667180">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public UsbDeviceConnection(UsbDevice device) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mDevice = device;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591745725213" ID="ID_1771860120" MODIFIED="1591745738763">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      boolean open(String name, ParcelFileDescriptor pfd, @NonNull Context context)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1591745770770" ID="ID_1556417788" MODIFIED="1591745787468">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mContext = context.getApplicationContext();
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591745802271" ID="ID_385998011" MODIFIED="1591745814145">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      boolean wasOpened = native_open(name, pfd.getFileDescriptor())
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591745830271" ID="ID_843277170" MODIFIED="1591745838356">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      return wasOpened
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
