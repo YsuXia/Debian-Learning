@@ -1497,7 +1497,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1584683216567" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1593310345948" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -2632,7 +2632,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1589530888999" ID="ID_555750728" MODIFIED="1589530902816" TEXT="&#x9ad8;&#x901a;&#x5e73;&#x53f0;ramdump&#x673a;&#x5236;&#x548c;&#x5206;&#x6790;">
+<node CREATED="1589530888999" FOLDED="true" ID="ID_555750728" MODIFIED="1593310342748" TEXT="&#x9ad8;&#x901a;&#x5e73;&#x53f0;ramdump&#x673a;&#x5236;&#x548c;&#x5206;&#x6790;">
 <node CREATED="1589530941463" ID="ID_497745324" MODIFIED="1589531412680">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4437,7 +4437,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1457940670562" ID="ID_32425074" MODIFIED="1588039930331" POSITION="left">
+<node CREATED="1457940670562" FOLDED="true" ID="ID_32425074" MODIFIED="1593310328171" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11527,7 +11527,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571017459253" ID="ID_1798204731" MODIFIED="1589899291169" POSITION="right">
+<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1594781628073" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11538,9 +11538,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471313923568" ID="ID_984050240" MODIFIED="1589899300584" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1594781624591" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1586741500654" FOLDED="true" ID="ID_4126578" MODIFIED="1589890119496">
+<node CREATED="1586741500654" FOLDED="true" ID="ID_4126578" MODIFIED="1594781536798">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11551,7 +11551,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471313935648" FOLDED="true" ID="ID_52548290" MODIFIED="1574904163818">
+<node CREATED="1471313935648" FOLDED="true" ID="ID_52548290" MODIFIED="1594781534776">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11707,7 +11707,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1471340686216" FOLDED="true" ID="ID_1438474488" MODIFIED="1571017420124">
+<node CREATED="1471340686216" FOLDED="true" ID="ID_1438474488" MODIFIED="1594781529062">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11788,7 +11788,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471749180863" FOLDED="true" ID="ID_1298452644" MODIFIED="1589890118115">
+<node CREATED="1471749180863" FOLDED="true" ID="ID_1298452644" MODIFIED="1594781530375">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11822,8 +11822,62 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1593568933358" FOLDED="true" ID="ID_1409541483" MODIFIED="1594781533374">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff3333" size="4">usb hid linux&#27979;&#35797;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1593569384667" FOLDED="true" ID="ID_489444161" MODIFIED="1594781532379" TEXT="1. &#x6d4b;&#x8bd5;&#x5de5;&#x5177;&#x603b;&#x7ed3;">
+<node CREATED="1593569403984" ID="ID_1915419709" MODIFIED="1593569451336">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbhid-dump
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1586741548092" ID="ID_1849032320" MODIFIED="1589899303215">
+</node>
+<node CREATED="1593570213504" FOLDED="true" ID="ID_1395745334" MODIFIED="1594781531513" TEXT="1. &#x7f51;&#x7edc;&#x8d44;&#x6599;&#x94fe;&#x63a5;">
+<node CREATED="1593570229652" ID="ID_1504158918" MODIFIED="1593570256192">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#ff3333">https://01.org/linuxgraphics/gfx-docs/drm/hid/hiddev.html</font></i>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1593583792486" ID="ID_863728706" MODIFIED="1593583803470">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.zephyrproject.org/2.1.0/samples/subsys/usb/testusb/README.html
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1593583820966" ID="ID_1163791754" MODIFIED="1593583823169" TEXT="http://www.linux-usb.org/usbtest/"/>
+<node CREATED="1593583844509" ID="ID_457683775" MODIFIED="1593583846629" TEXT="http://www.linux-usb.org/tools.html"/>
+</node>
+</node>
+</node>
+<node CREATED="1586741548092" FOLDED="true" ID="ID_1849032320" MODIFIED="1594781623156">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11857,7 +11911,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1587518583383" ID="ID_1606938324" MODIFIED="1587518595068" TEXT="Android4.4 usb&#x6846;&#x67b6;&#x56fe;">
+<node CREATED="1587518583383" FOLDED="true" ID="ID_1606938324" MODIFIED="1594781620568" TEXT="Android4.4 usb&#x6846;&#x67b6;&#x56fe;">
 <node CREATED="1587518657075" ID="ID_21090498" MODIFIED="1587518709942">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11946,7 +12000,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587521003133" ID="ID_856817180" MODIFIED="1587521089887">
+<node CREATED="1587521003133" FOLDED="true" ID="ID_856817180" MODIFIED="1594781599687">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11956,7 +12010,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1589900567769" ID="ID_621333953" MODIFIED="1589900583245" TEXT="http://www.programmersought.com/article/9227178606/"/>
-<node CREATED="1590411957146" ID="ID_124695838" MODIFIED="1590447188736">
+<node CREATED="1590411957146" FOLDED="true" ID="ID_124695838" MODIFIED="1594781597289">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11970,7 +12024,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590447339789" ID="ID_1152882171" MODIFIED="1590447781195">
+<node CREATED="1590447339789" FOLDED="true" ID="ID_1152882171" MODIFIED="1594781593903">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12017,7 +12071,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590448415914" ID="ID_1171186956" MODIFIED="1590448461393">
+<node CREATED="1590448415914" FOLDED="true" ID="ID_1171186956" MODIFIED="1594781590256">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12070,7 +12124,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1590448861429" ID="ID_1422724161" MODIFIED="1590448870518">
+<node CREATED="1590448861429" FOLDED="true" ID="ID_1422724161" MODIFIED="1594781589111">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12133,7 +12187,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1590448941287" ID="ID_1673520586" MODIFIED="1590448950857">
+<node CREATED="1590448941287" FOLDED="true" ID="ID_1673520586" MODIFIED="1594781587991">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12144,6 +12198,7 @@
     </p>
   </body>
 </html></richcontent>
+<arrowlink COLOR="#0000ff" DESTINATION="ID_1880951371" ENDARROW="None" ENDINCLINATION="-268;-180;" ID="Arrow_ID_1748010757" STARTARROW="None" STARTINCLINATION="-236;-130;"/>
 <node CREATED="1590463346810" ID="ID_1092502163" MODIFIED="1590463349612" TEXT="mContext = context;"/>
 <node CREATED="1590463360673" ID="ID_521614212" MODIFIED="1590463363944" TEXT="ServiceNotification serviceNotification = new ServiceNotification()"/>
 <node CREATED="1590463377206" ID="ID_1381606195" MODIFIED="1590463585710">
@@ -12161,7 +12216,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1590463539710" ID="ID_74352772" MODIFIED="1590463542363" TEXT="connectToProxy(null);">
+<node CREATED="1590463539710" FOLDED="true" ID="ID_74352772" MODIFIED="1594781586623" TEXT="connectToProxy(null);">
 <node CREATED="1590463811192" ID="ID_1219351592" MODIFIED="1590463813596" TEXT="mProxy = IUsb.getService();"/>
 <node CREATED="1590463823764" ID="ID_1627086164" MODIFIED="1590463825644" TEXT="mProxy.linkToDeath(new DeathRecipient(pw), USB_HAL_DEATH_COOKIE)"/>
 <node CREATED="1590463840114" ID="ID_1344979701" MODIFIED="1590463842006" TEXT="mProxy.setCallback(mHALCallback)"/>
@@ -12181,7 +12236,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1590449226905" ID="ID_1660837365" MODIFIED="1590449280739">
+<node CREATED="1590449226905" FOLDED="true" ID="ID_1660837365" MODIFIED="1594781591544">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12210,7 +12265,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1590449535509" ID="ID_1460522169" MODIFIED="1590449544838">
+<node CREATED="1590449535509" FOLDED="true" ID="ID_1460522169" MODIFIED="1594781578782">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12277,7 +12332,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1590449557670" ID="ID_1258193865" MODIFIED="1590449568087">
+<node CREATED="1590449557670" FOLDED="true" ID="ID_1258193865" MODIFIED="1594781576680">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12288,7 +12343,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590462979018" ID="ID_98161081" MODIFIED="1590463049723">
+<node CREATED="1590462979018" FOLDED="true" ID="ID_98161081" MODIFIED="1594781575140">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12305,11 +12360,40 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590463055675" ID="ID_1260668502" MODIFIED="1590463065249" TEXT="Runnable runnable = this::monitorUsbHostBus;"/>
+<node CREATED="1590463055675" FOLDED="true" ID="ID_1260668502" MODIFIED="1594781574066">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Runnable runnable = this::monitorUsbHostBus;
+    </p>
+    <p>
+      &#36825;&#26159;JNI&#30340;&#35843;&#29992;
+    </p>
+    <p>
+      static void android_server_UsbHostManager_monitorUsbHostBus(JNIEnv* /* env */, jobject thiz)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1592376893000" ID="ID_384096451" MODIFIED="1592376901092">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_host_context* context = usb_host_init()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1590463074294" ID="ID_59999841" MODIFIED="1590463077150" TEXT="new Thread(null, runnable, &quot;UsbService host thread&quot;).start();"/>
 </node>
 </node>
-<node CREATED="1590449580783" ID="ID_541413861" MODIFIED="1590449590820">
+<node CREATED="1590449580783" FOLDED="true" ID="ID_541413861" MODIFIED="1594781577666">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12324,7 +12408,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590927567767" ID="ID_1574925776" MODIFIED="1591745431543">
+<node CREATED="1590927567767" FOLDED="true" ID="ID_1574925776" MODIFIED="1594781592670">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12376,7 +12460,124 @@
 </node>
 </node>
 </node>
-<node CREATED="1590929204692" ID="ID_438006144" MODIFIED="1591222284309">
+<node CREATED="1592374948705" FOLDED="true" ID="ID_1143456721" MODIFIED="1593310293315">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="&#x6977;&#x4f53;">usb&#35774;&#22791;&#30340;&#26816;&#27979;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">frameworks/base/services/usb/java/com/android/server/usb/UsbPortManager.java</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1592375112160" FOLDED="true" ID="ID_1880951371" MODIFIED="1593310292375">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public UsbPortManager(Context context)
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#0000ff" DESTINATION="ID_1880951371" ENDARROW="None" ENDINCLINATION="-268;-180;" ID="Arrow_ID_1748010757" SOURCE="ID_1673520586" STARTARROW="None" STARTINCLINATION="-236;-130;"/>
+<node CREATED="1592375143514" ID="ID_67631559" MODIFIED="1592375153094">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mContext = context
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1592375171617" ID="ID_1067322377" MODIFIED="1592375184253">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ServiceNotification serviceNotification = new ServiceNotification()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1592375246655" ID="ID_1517504943" MODIFIED="1592375291533">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      boolean ret = IServiceManager.getService()
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; .registerForNotifications(&quot;android.hardware.usb@1.0::IUsb&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;&quot;, serviceNotification)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1592375318567" FOLDED="true" ID="ID_1078712262" MODIFIED="1593310291414" TEXT="connectToProxy(null)">
+<node CREATED="1592375407187" ID="ID_383663963" MODIFIED="1592375431881">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mProxy = IUsb.getService()
+    </p>
+    <p>
+      &#33719;&#21462;HIDL&#26381;&#21153;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1592375444031" ID="ID_386970786" MODIFIED="1592375453148">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mProxy.linkToDeath(new DeathRecipient(pw), USB_HAL_DEATH_COOKIE)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1592375465674" ID="ID_698988801" MODIFIED="1592375616056">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mProxy.setCallback(mHALCallback)
+    </p>
+    <p>
+      &#35774;&#32622;&#22238;&#35843;&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1590929204692" FOLDED="true" ID="ID_438006144" MODIFIED="1593310290294">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12390,7 +12591,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591222135014" ID="ID_1213928534" MODIFIED="1591222302835">
+<node CREATED="1591222135014" FOLDED="true" ID="ID_1213928534" MODIFIED="1593310289114">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12428,7 +12629,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1591222486533" ID="ID_872559397" MODIFIED="1591222518457">
+<node CREATED="1591222486533" FOLDED="true" ID="ID_872559397" MODIFIED="1593310287623">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12439,7 +12640,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591222523735" ID="ID_385258752" MODIFIED="1591744133589">
+<node CREATED="1591222523735" FOLDED="true" ID="ID_385258752" MODIFIED="1593310284679">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12469,7 +12670,7 @@
   </body>
 </html></richcontent>
 <linktarget COLOR="#f30404" DESTINATION="ID_385258752" ENDARROW="Default" ENDINCLINATION="178;0;" ID="Arrow_ID_899289542" SOURCE="ID_1175788925" STARTARROW="None" STARTINCLINATION="178;0;"/>
-<node CREATED="1591223215224" ID="ID_330863373" MODIFIED="1591223227711">
+<node CREATED="1591223215224" FOLDED="true" ID="ID_330863373" MODIFIED="1593310280804">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12543,18 +12744,106 @@
 </node>
 </node>
 </node>
-<node CREATED="1591224819607" ID="ID_438303258" MODIFIED="1591224845236">
+<node CREATED="1591853106799" FOLDED="true" ID="ID_1194776941" MODIFIED="1594781568791">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      system/core/libusbhost/usbhost.c &#25991;&#20214;&#20998;&#26512;
+      <font face="Times New Roman" size="4">frameworks/base/core/jni/android_hardware_UsbDeviceConnection.cpp</font>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591519501606" ID="ID_773602220" MODIFIED="1591744162497" TEXT="struct usb_device *usb_device_open(const char *dev_name)">
+<node CREATED="1591853191689" ID="ID_1415918844" MODIFIED="1592185085078">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font color="#ff0000">static jboolean </font></i>
+    </p>
+    <p>
+      <i><font color="#ff0000">android_hardware_UsbDeviceConnection_open(JNIEnv *env, jobject thiz, jstring deviceName, </font></i>
+    </p>
+    <p>
+      <i><font color="#ff0000">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;jobject fileDescriptor)</font></i>
+    </p>
+    <p>
+      <b><font color="#cc00cc">{</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int fd = jniGetFDFromFileDescriptor(env, fileDescriptor);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// duplicate the file descriptor, since ParcelFileDescriptor will eventually close its copy
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fd = dup(fd);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (fd &lt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return JNI_FALSE;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;const char *deviceNameStr = env-&gt;GetStringUTFChars(deviceName, NULL);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usb_device* device = usb_device_new(deviceNameStr, fd); //New <font color="#0000cc">&#25171;&#24320;usb&#35774;&#22791;&#65292;&#33719;&#21462;&#35774;&#22791;&#25551;&#36848;&#31526;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (device) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;env-&gt;SetLongField(thiz, field_context, (jlong)device); <font color="#0000cc">//SetLongField&#20445;&#23384;usb_device&#35774;&#22791;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ALOGE(&quot;usb_device_open failed for %s&quot;, deviceNameStr);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;close(fd);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;env-&gt;ReleaseStringUTFChars(deviceName, deviceNameStr);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return (device != NULL) ? JNI_TRUE : JNI_FALSE;
+    </p>
+    <p>
+      <b><font color="#cc00cc">}</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#cc00cc" DESTINATION="ID_1415918844" ENDARROW="Default" ENDINCLINATION="745;0;" ID="Arrow_ID_1923540076" SOURCE="ID_385998011" STARTARROW="None" STARTINCLINATION="-664;0;"/>
+</node>
+</node>
+<node CREATED="1591224819607" FOLDED="true" ID="ID_438303258" MODIFIED="1594781566395">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="&#x96b6;&#x4e66;"><b>system/core/libusbhost/usbhost.c &#25991;&#20214;&#20998;&#26512;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1591519501606" FOLDED="true" ID="ID_773602220" MODIFIED="1594781562756" TEXT="struct usb_device *usb_device_open(const char *dev_name)">
 <linktarget COLOR="#451df2" DESTINATION="ID_773602220" ENDARROW="Default" ENDINCLINATION="541;192;" ID="Arrow_ID_1840744410" SOURCE="ID_1884075564" STARTARROW="None" STARTINCLINATION="-640;-585;"/>
 <node CREATED="1591519675668" ID="ID_1758388424" MODIFIED="1591519686438">
 <richcontent TYPE="NODE"><html>
@@ -12568,7 +12857,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1591519701696" ID="ID_434684274" MODIFIED="1591657735384">
+<node CREATED="1591519701696" FOLDED="true" ID="ID_434684274" MODIFIED="1594781561564">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12603,7 +12892,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1591658930650" ID="ID_1006364404" MODIFIED="1591658960076">
+<node CREATED="1591658930650" FOLDED="true" ID="ID_1006364404" MODIFIED="1594781560537">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12695,8 +12984,20 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1592377005244" ID="ID_1915654690" MODIFIED="1592377015594">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_host_context *usb_host_init()
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1590470503943" ID="ID_251366722" MODIFIED="1590470611902">
+</node>
+<node CREATED="1590470503943" FOLDED="true" ID="ID_251366722" MODIFIED="1594781556023">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12773,7 +13074,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590924771628" ID="ID_816208898" MODIFIED="1590924787570">
+<node CREATED="1590924771628" FOLDED="true" ID="ID_816208898" MODIFIED="1593310254385">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12784,7 +13085,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590926879648" ID="ID_1003050487" MODIFIED="1590926934425">
+<node CREATED="1590926879648" FOLDED="true" ID="ID_1003050487" MODIFIED="1593310253325">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12829,7 +13130,7 @@
 <node CREATED="1591744242270" ID="ID_1099429201" MODIFIED="1591744244175" TEXT="return connection"/>
 </node>
 </node>
-<node CREATED="1591745493283" ID="ID_422337655" MODIFIED="1591745876741">
+<node CREATED="1591745493283" FOLDED="true" ID="ID_422337655" MODIFIED="1594781554490">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12839,8 +13140,7 @@
       <font color="#1412ef"><b>&#20998;&#26512;&#19968;&#19979;&#25991;&#20214; UsbDeviceConnection.java</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591745646652" ID="ID_1135823725" MODIFIED="1591745667180">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12857,10 +13157,9 @@
       &#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1591745725213" ID="ID_1771860120" MODIFIED="1591745738763">
+<node CREATED="1591745725213" FOLDED="true" ID="ID_1771860120" MODIFIED="1594781553344">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12870,8 +13169,7 @@
       boolean open(String name, ParcelFileDescriptor pfd, @NonNull Context context)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1591745770770" ID="ID_1556417788" MODIFIED="1591745787468">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12882,10 +13180,9 @@
       mContext = context.getApplicationContext();
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1591745802271" ID="ID_385998011" MODIFIED="1591745814145">
+<node CREATED="1591745802271" ID="ID_385998011" MODIFIED="1592185172860">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12895,8 +13192,8 @@
       boolean wasOpened = native_open(name, pfd.getFileDescriptor())
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<arrowlink COLOR="#cc00cc" DESTINATION="ID_1415918844" ENDARROW="Default" ENDINCLINATION="745;0;" ID="Arrow_ID_1923540076" STARTARROW="None" STARTINCLINATION="-664;0;"/>
 </node>
 <node CREATED="1591745830271" ID="ID_843277170" MODIFIED="1591745838356">
 <richcontent TYPE="NODE"><html>
@@ -12908,15 +13205,125 @@
       return wasOpened
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
+<node CREATED="1593580999455" FOLDED="true" ID="ID_679443488" MODIFIED="1594781515882">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#0000cc" face="&#x96b6;&#x4e66;">&#26085;&#24535;&#20998;&#26512;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1593581048952" ID="ID_1013692780" MODIFIED="1593581092436">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">sdm845:/ # logcat *:v|grep usbhost </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.424&#160;&#160;1262&#160;&#160;1486 I usbhost : new device /dev/bus/usb/001/001 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.425&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_open /dev/bus/usb/001/001 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.425&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new /dev/bus/usb/001/001 fd: 173 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.425&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new read returned 43 errno 0 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.429&#160;&#160;1262&#160;&#160;1486 I usbhost : new device /dev/bus/usb/002/001 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.429&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_open /dev/bus/usb/002/001 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.429&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new /dev/bus/usb/002/001 fd: 173 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.429&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new read returned 49 errno 0 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.898&#160;&#160;1262&#160;&#160;1486 I usbhost : new device /dev/bus/usb/001/002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:20.898&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_open /dev/bus/usb/001/002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.007&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new /dev/bus/usb/001/002 fd: 173 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.007&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new read returned 818 errno 0 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.052&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_open /dev/bus/usb/001/002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.052&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new /dev/bus/usb/001/002 fd: 255 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.052&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new read returned 818 errno 0 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.321&#160;&#160;1262&#160;&#160;1486 I usbhost : new device /dev/bus/usb/002/002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.321&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_open /dev/bus/usb/002/002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.414&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new /dev/bus/usb/002/002 fd: 255 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.414&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new read returned 284 errno 88 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.421&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_open /dev/bus/usb/002/002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.421&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new /dev/bus/usb/002/002 fd: 266 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">07-01 05:22:21.421&#160;&#160;1262&#160;&#160;1486 I usbhost : usb_device_new read returned 284 errno 0 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">sdm845:/ # lsusb </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">Bus 002 Device 002: ID 05a9:0680 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">Bus 001 Device 001: ID 1d6b:0002 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">Bus 001 Device 002: ID 6366:3370 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">Bus 002 Device 001: ID 1d6b:0003 </font>
+    </p>
+    <p>
+      <font face="&#x5b8b;&#x4f53;">sdm845:/ #</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1587526528654" ID="ID_1651791632" MODIFIED="1587526707748">
+</node>
+</node>
+<node CREATED="1587526528654" FOLDED="true" ID="ID_1651791632" MODIFIED="1594781547449">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12942,7 +13349,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1587536925809" ID="ID_938388029" MODIFIED="1587537869957">
+<node CREATED="1587536925809" FOLDED="true" ID="ID_938388029" MODIFIED="1594781543918">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12991,8 +13398,20 @@
 </node>
 </node>
 </node>
+<node CREATED="1593574160842" ID="ID_1820715428" MODIFIED="1593574172368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.cnblogs.com/haoxing990/p/8799133.html
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1574250103965" FOLDED="true" ID="ID_27661495" MODIFIED="1590887679862" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+</node>
+<node CREATED="1574250103965" FOLDED="true" ID="ID_27661495" MODIFIED="1594781605567" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574250173205" ID="ID_1335167454" MODIFIED="1574767377667">
 <richcontent TYPE="NODE"><html>
@@ -13045,7 +13464,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583898131646" FOLDED="true" ID="ID_1604355950" MODIFIED="1590887637514">
+<node CREATED="1583898131646" FOLDED="true" ID="ID_1604355950" MODIFIED="1593483830834">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13056,7 +13475,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1583898150784" FOLDED="true" ID="ID_558301305" MODIFIED="1589270131744">
+<node CREATED="1583898150784" ID="ID_558301305" MODIFIED="1592201691500">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13506,7 +13925,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1587094074196" FOLDED="true" ID="ID_598985936" MODIFIED="1590887636378">
+<node CREATED="1587094074196" ID="ID_598985936" MODIFIED="1591932743988">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13812,7 +14231,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586831124918" FOLDED="true" ID="ID_1413673833" MODIFIED="1590887632737">
+<node CREATED="1586831124918" ID="ID_1413673833" MODIFIED="1591927242441">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13959,7 +14378,7 @@
 </node>
 </node>
 <node CREATED="1586835240741" ID="ID_460016905" MODIFIED="1590563501799" TEXT="&#x6807;&#x51c6;USB&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x5b9a;&#x4e49;">
-<node CREATED="1586835254441" FOLDED="true" ID="ID_884773065" MODIFIED="1589890108434" TEXT="Device">
+<node CREATED="1586835254441" ID="ID_884773065" MODIFIED="1591927300509" TEXT="Device">
 <node CREATED="1586842124002" ID="ID_913103023" MODIFIED="1586842350040">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13977,6 +14396,27 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1591927757737" ID="ID_92658134" MODIFIED="1591927817954">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Finished? No! I have not told you the whole history: many devices actually
+    </p>
+    <p>
+      put their class information in the Interface <a href="http://www.beyondlogic.org/usbnutshell/usb5.htm" rel="nofollow">Descriptor</a>&#160;instead of the Device <a href="http://www.beyondlogic.org/usbnutshell/usb5.htm" rel="nofollow">Descriptor</a>.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35774;&#22791;&#30340;class&#20449;&#24687;&#24448;&#24448;&#19981;&#26159;&#25918;&#32622;&#22312;&#35774;&#22791;&#25551;&#36848;&#31526;&#37324;&#38754;&#65292;&#32780;&#26159;&#25918;&#32622;&#22312;&#25509;&#21475;&#25551;&#36848;&#31526;&#37324;&#38754;&#30340;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1586842459412" ID="ID_132755764" MODIFIED="1586842548062">
 <richcontent TYPE="NODE"><html>
@@ -14056,7 +14496,7 @@
 </node>
 <node CREATED="1586835260884" ID="ID_1456415372" MODIFIED="1586835271686" TEXT="Device_Qualifier"/>
 <node CREATED="1586835275781" ID="ID_1018149002" MODIFIED="1590564900321" TEXT="Configuration">
-<node CREATED="1586850156121" ID="ID_1863865221" MODIFIED="1590564904066">
+<node CREATED="1586850156121" ID="ID_1863865221" MODIFIED="1591941223194">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14096,7 +14536,16 @@
       &#31471;&#28857;&#12290;<font size="4">&#160;</font><font color="#ff0000" face="&#x96b6;&#x4e66;" size="4">&#22312;&#19968;&#20010;&#21333;&#19968;&#30340;&#37197;&#32622;&#37324;&#38754;&#65292;&#31471;&#28857;&#22312;&#21508;&#20010;&#25509;&#21475;&#20043;&#38388;&#26159;&#19981;&#33021;&#20849;&#20139;&#30340;&#65292;&#20294;&#26159;&#22312;&#19981;&#21516;&#24403;2&#20010;&#25509;&#21475;&#22788;&#20110;&#19981;&#21516;&#30340;&#37197;&#32622;&#37324;&#38754;&#65292; </font>
     </p>
     <p>
-      <font face="&#x96b6;&#x4e66;" color="#ff0000" size="4">&#31471;&#28857;&#26159;&#21487;&#20197;&#23454;&#29616;&#20849;&#20139;&#30340;&#12290;</font>
+      <font color="#ff0000" face="&#x96b6;&#x4e66;" size="4">&#31471;&#28857;&#26159;&#21487;&#20197;&#23454;&#29616;&#20849;&#20139;&#30340;&#12290; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#0000cc" size="3">&#22914;&#26524;&#19968;&#20010;&#37197;&#32622;&#19979;&#38754;&#26377;&#22810;&#20010;interface&#65292;&#21017;&#21487;&#35270;&#20026;&#26159;&#22797;&#21512;&#35774;&#22791; </font></i>
+    </p>
+    <p>
+      <i><font color="#0000cc" size="3">A device with more than one interface is called a composite device. When you connect your multifunction printer to your computer, the Operating System would load two different drivers: one for each &quot;logical&quot; peripheral you have</font></i>
     </p>
   </body>
 </html></richcontent>
@@ -14272,7 +14721,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1587088445034" FOLDED="true" ID="ID_1390943319" MODIFIED="1589890085755">
+<node CREATED="1587088445034" ID="ID_1390943319" MODIFIED="1591932596689">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14322,7 +14771,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1589270232078" ID="ID_1037565906" MODIFIED="1590471169279">
+<node CREATED="1589270232078" FOLDED="true" ID="ID_1037565906" MODIFIED="1593483792960">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14494,7 +14943,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590471574631" FOLDED="true" ID="ID_538834036" MODIFIED="1590887616846">
+<node CREATED="1590471574631" ID="ID_538834036" MODIFIED="1592450705879">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15055,7 +15504,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590566219191" FOLDED="true" ID="ID_1176555969" MODIFIED="1590887644205">
+<node CREATED="1590566219191" ID="ID_1176555969" MODIFIED="1592450737098">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15124,7 +15573,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1590636459554" FOLDED="true" ID="ID_544280071" MODIFIED="1590887646684" TEXT="&#x7b2c;&#x516b;&#x7ae0; Report Protocol">
+<node CREATED="1590636459554" ID="ID_544280071" MODIFIED="1592450724155" TEXT="&#x7b2c;&#x516b;&#x7ae0; Report Protocol">
 <node CREATED="1590636529606" ID="ID_1199150114" MODIFIED="1590652105053">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15186,7 +15635,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582681542935" FOLDED="true" ID="ID_1319645320" MODIFIED="1589890065949">
+<node CREATED="1582681542935" FOLDED="true" ID="ID_1319645320" MODIFIED="1594781611306">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15197,8 +15646,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1582681649472" FOLDED="true" ID="ID_1282617983" MODIFIED="1589890064959" TEXT="&#x4e00;&#x3001;&#x7f51;&#x7edc;&#x8d44;&#x6599;&#x5b66;&#x4e60;">
-<node CREATED="1582681713795" FOLDED="true" ID="ID_166431576" MODIFIED="1589890063669">
+<node CREATED="1582681649472" FOLDED="true" ID="ID_1282617983" MODIFIED="1594781610399" TEXT="&#x4e00;&#x3001;&#x7f51;&#x7edc;&#x8d44;&#x6599;&#x5b66;&#x4e60;">
+<node CREATED="1582681713795" FOLDED="true" ID="ID_166431576" MODIFIED="1594781608920">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -15227,7 +15676,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1582681871427" FOLDED="true" ID="ID_1051944900" MODIFIED="1589890062419">
+<node CREATED="1582681871427" FOLDED="true" ID="ID_1051944900" MODIFIED="1594781607548">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -24066,7 +24515,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1493693179182" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1593400417848" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1476668469784" ID="ID_960888638" MODIFIED="1476858086791">
 <richcontent TYPE="NODE"><html>
@@ -24436,6 +24885,30 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1593323605679" FOLDED="true" ID="ID_891977020" MODIFIED="1594781615215" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" face="&#x534e;&#x6587;&#x6977;&#x4f53;">DVI &#25509;&#21475;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1593325431678" FOLDED="true" ID="ID_604949934" MODIFIED="1594781614126" TEXT="&#x63a5;&#x53e3;&#x5206;&#x7c7b;">
+<node CREATED="1593325492175" ID="ID_782112214" MODIFIED="1593325518013">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/dvi&#x7684;&#x5404;&#x79cd;&#x63a5;&#x53e3;&#x5206;&#x7c7b;.PNG" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -27565,7 +28038,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1589521738275" POSITION="right">
+<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1594781638997" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -27612,7 +28085,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1583663541919" FOLDED="true" ID="ID_975419175" MODIFIED="1589521737179">
+<node CREATED="1583663541919" FOLDED="true" ID="ID_975419175" MODIFIED="1594781637897">
 <richcontent TYPE="NODE"><html>
   <head>
     

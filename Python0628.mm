@@ -309,6 +309,29 @@
       </li>
     </ol>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1591863904984" ID="ID_1249740724" MODIFIED="1591863933898">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      windows&#19979;&#23433;&#35013;libusb&#21253;
+    </p>
+    <p>
+      
+    </p>
+    <div itemprop="text" class="post-text">
+      <p>
+        I had the same problem with Windows 10, both Python 2.7.16 and Python 3.7.2. I installed libusb (through <code>python -m pip install libusb</code>&#160;) but the error message remained. Also, the advice above about installing libusb-win32 did not work for me; neither of the 2 links (original post and @beebek's answer) existed.
+      </p>
+      <p>
+        What <strong>did</strong>&#160;work, however, is the comment by @user1495323 : I copied <code>libusb-1.0.dll</code>&#160; from <code>C:\Users\username\AppData\Roaming\Python\Python27\site-packages\libusb\_platform\_windows\x64\</code>&#160; to <code>C:\Windows\System32\</code>
+      </p>
+    </div>
+  </body>
 </html>
 </richcontent>
 </node>
