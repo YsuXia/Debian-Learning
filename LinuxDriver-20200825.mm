@@ -2026,7 +2026,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433853739522" FOLDED="true" ID="ID_861178982" MODIFIED="1495608102350">
+<node CREATED="1433853739522" ID="ID_861178982" MODIFIED="1598249921459">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2217,7 +2217,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1437656532055" FOLDED="true" ID="ID_76553634" MODIFIED="1486555599160">
+<node CREATED="1437656532055" ID="ID_76553634" MODIFIED="1598249928169">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2237,17 +2237,18 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1437817384454" ID="ID_113460327" MODIFIED="1437817390804">
+<node CREATED="1437817384454" ID="ID_113460327" MODIFIED="1598254308821">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="../&#x601d;&#x7ef4;&#x5bfc;&#x56fe;&#x56fe;&#x7247;&#x5e93;/seq_file.jpg"/>
+    <img src="lddpic/seq_file.jpg" />
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1437817448765" FOLDED="true" ID="ID_1352229131" MODIFIED="1475896811512">
+<node CREATED="1437817448765" ID="ID_1352229131" MODIFIED="1598250022308">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2340,7 +2341,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1439028958941" FOLDED="true" ID="ID_588127660" MODIFIED="1475896811512">
+<node CREATED="1439028958941" ID="ID_588127660" MODIFIED="1598250016213">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2656,8 +2657,7 @@
       <font size="4" face="Times New Roman">&#37027;&#20040;dev_dbg&#23601;&#20250;&#34987;&#36716;&#25442;&#25104;dev_printf&#20102;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1495608114296" FOLDED="true" ID="ID_141978653" MODIFIED="1499823283939">
@@ -11915,6 +11915,54 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1598347174606" ID="ID_253761748" MODIFIED="1598347197788">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/xhci&#x901a;&#x7528;&#x67b6;&#x6784;&#x6846;&#x56fe;.PNG" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1598347351434" ID="ID_1198655944" MODIFIED="1598347824353">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3300"><b>Doorbell Array</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;array&#26159;&#19968;&#20010;&#26368;&#22810;&#21487;&#20197;&#36798;&#21040;256&#20010;&#23492;&#23384;&#22120;&#30340;array, &#25903;&#25345;&#22810;&#36798;255&#20010;usb&#35774;&#22791;&#25110;&#32773;&#26159;usb hub&#12290;
+    </p>
+    <p>
+      &#27599;&#20010;doorbell&#23492;&#23384;&#22120;&#32473;&#31995;&#32479;&#25552;&#20379;&#20102;&#19968;&#20010;&#36890;&#30693;xhci&#26159;&#21542;&#26377;slot&#25110;&#32773;endpoint&#30456;&#20851;&#30340;&#24037;&#20316;&#38656;&#35201;&#23637;&#24320;&#30340;&#26426;&#21046;&#12290;
+    </p>
+    <p>
+      &#20301;&#20110;doorbell&#23492;&#23384;&#22120;&#24403;&#20013;&#30340;DB&#30446;&#26631;&#22495;&#21487;&#20197;&#34987;&#35774;&#32622;&#25104;ringing&#30340;&#21407;&#22240;&#12290;
+    </p>
+    <p>
+      register 0&#34987;&#20998;&#37197;&#32473;host controller&#29992;&#20110;&#21629;&#20196;ring&#30340;&#31649;&#29702;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman"><b>Device Slot</b></font>&#26159;&#19968;&#20010;&#26415;&#35821;&#65292;&#29992;&#20110;&#25351;&#20195;&#36319;&#19968;&#20010;&#29420;&#31435;&#30340;usb&#35774;&#22791;&#30456;&#20851;&#30340;&#19968;&#31995;&#21015;&#30340;xHCI&#25968;&#25454;&#32467;&#26500;&#65292;
+    </p>
+    <p>
+      slot id&#34987;&#29992;&#20110;&#32034;&#24341;&#19968;&#20010;&#20855;&#20307;&#30340;device slot
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1597712695029" ID="ID_58887035" MODIFIED="1597712721249">
 <richcontent TYPE="NODE"><html>
@@ -11926,8 +11974,7 @@
       <b><font color="#ff0033">xHCI ring&#30340;&#20998;&#26512;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597712775938" ID="ID_160673966" MODIFIED="1597712802000">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11936,8 +11983,7 @@
   <body>
     <img src="lddpic/xhci-ring-01.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597712860231" ID="ID_1242572414" MODIFIED="1597713082688">
 <richcontent TYPE="NODE"><html>
@@ -11961,8 +12007,7 @@
       &#26368;&#21518;&#19968;&#20010;LINK TRB&#25351;&#21521;&#31532;&#19968;&#20010;SEGMENT&#65292;&#24418;&#25104;&#19968;&#20010;&#29615;&#65292;RING
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597712871155" ID="ID_1378403688" MODIFIED="1597712875911" TEXT="COMMAND"/>
 <node CREATED="1597712880433" ID="ID_1725925496" MODIFIED="1597712882823" TEXT="EVENT"/>
 <node CREATED="1597712886396" ID="ID_1617411837" MODIFIED="1597712889456" TEXT="TRANSFER">
@@ -11979,8 +12024,7 @@
       SETUP DATA STATUS&#160;&#160;&#160;TRBs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597713256893" ID="ID_1280567077" MODIFIED="1597713297026">
 <richcontent TYPE="NODE"><html>
@@ -11992,8 +12036,7 @@
       &#38024;&#23545;BULK, INTERRUPT&#65292;ISO TRANSFER&#30340;NORMAL TRB
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597713300577" ID="ID_416024450" MODIFIED="1597713396563">
 <richcontent TYPE="NODE"><html>
@@ -12008,8 +12051,7 @@
       (ISO TD&#30001;&#19968;&#20010;ISOCH TRB&#21644;0&#20010;&#25110;&#32773;&#22810;&#20010;NORMAL TRB&#25152;&#26500;&#25104;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12029,8 +12071,7 @@
       &#25152;&#26377;&#30340;CH BIT&#32622;&#20301;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597714534189" ID="ID_300456583" MODIFIED="1597714629695">
 <richcontent TYPE="NODE"><html>
@@ -12042,8 +12083,7 @@
       <b><font color="#cc00cc" size="4">&#39537;&#21160;&#20195;&#30721;&#25968;&#25454;&#32467;&#26500;&#20998;&#26512;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597714685690" ID="ID_776999732" MODIFIED="1597714737309">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12084,8 +12124,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597714768039" ID="ID_736676769" MODIFIED="1597714859034">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12114,8 +12153,7 @@
       &#19968;&#20010;segment&#26159;&#30001;&#22810;&#20010;trbs&#26500;&#25104;&#30340;&#65292;&#25152;&#20197;&#20351;&#29992;union&#26469;&#34920;&#31034;trb
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597714912636" ID="ID_1043106788" MODIFIED="1597714964215">
 <richcontent TYPE="NODE"><html>
@@ -12130,8 +12168,7 @@
       &#35813;&#27573;trbs&#30340;&#39318;&#24635;&#32447;&#22320;&#22336;&#65292;&#30828;&#20214;&#36890;&#36807;&#35813;&#22320;&#22336;&#26469;&#21462;trbs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597715021762" ID="ID_1815441140" MODIFIED="1597715067160">
 <richcontent TYPE="NODE"><html>
@@ -12146,8 +12183,7 @@
       linux&#39537;&#21160;&#38024;&#23545;XHCI SPEC 4.11.7.1 TD Fragments&#21152;&#20837;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597715390734" ID="ID_1485792855" MODIFIED="1597715924492">
@@ -12199,8 +12235,7 @@
       &#36719;&#20214;&#19978;&#21017;&#26159;&#36890;&#36807;list_head&#30340;&#24418;&#24335;&#26469;&#31649;&#29702;TD
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597715990965" ID="ID_526859346" MODIFIED="1597716555062">
 <richcontent TYPE="NODE"><html>
@@ -12287,8 +12322,7 @@
       <font face="Times New Roman">}; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597802462159" ID="ID_698243343" MODIFIED="1597814256924">
@@ -12388,9 +12422,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1597814680241" ID="ID_1853295193" MODIFIED="1597901309376">
+</html></richcontent>
+<node CREATED="1597814680241" ID="ID_1853295193" MODIFIED="1598265850916">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12415,10 +12448,10 @@
       &#160;&#160;&#160;&#160;xhci = platform_device_alloc(&quot;xhci-hcd&quot;, PLATFORM_DEVID_AUTO);&#160; &#21019;&#24314;&#24182;&#27880;&#20876;&#19968;&#20010;&#21517;&#21483;xhci-hcd&#30340;&#24179;&#21488;&#35774;&#22791;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;<i><font size="4" face="Times New Roman" color="#0000ff">phy_create_lookup(dwc-&gt;usb2_generic_phy, &quot;usb2-phy&quot;,dev_name(dwc-&gt;dev)); </font></i>
+      &#160;&#160;&#160;&#160;&#160;<font size="4" color="#0000ff" face="Times New Roman"><i>phy_create_lookup(dwc-&gt;usb2_generic_phy, &quot;usb2-phy&quot;,dev_name(dwc-&gt;dev)); </i></font>
     </p>
     <p>
-      <i><font size="4" face="Times New Roman" color="#0000ff">&#160;&#160;&#160;&#160;&#160;phy_create_lookup(dwc-&gt;usb3_generic_phy, &quot;usb3-phy&quot;,dev_name(dwc-&gt;dev));</font></i>
+      <font size="4" color="#0000ff" face="Times New Roman"><i>&#160;&#160;&#160;&#160;&#160;phy_create_lookup(dwc-&gt;usb3_generic_phy, &quot;usb3-phy&quot;,dev_name(dwc-&gt;dev));</i></font>
     </p>
     <p>
       &#160;&#160;&#160;&#160;xhci-&gt;dev.parent&#160;&#160;&#160;&#160;= dwc-&gt;dev;
@@ -12433,7 +12466,7 @@
       &#31995;&#32479;&#19968;&#26086;&#20390;&#27979;&#21040;&#26377;xhci-hcd&#30340;&#24179;&#21488;&#35774;&#22791;&#34987;&#27880;&#20876;&#21040;&#31995;&#32479;&#24403;&#20013;&#65292;&#23601;&#20250;&#35843;&#29992;usb_xhci_driver&#20989;&#25968;&#24403;&#20013;&#30340;probe&#20989;&#25968;
     </p>
     <p>
-      <b><font color="#006666">static int xhci_plat_probe(struct platform_device *pdev)</font></b>
+      <font color="#006666"><b>static int xhci_plat_probe(struct platform_device *pdev)</b></font>
     </p>
     <p>
       &#27880;&#24847;linux&#31995;&#32479;&#22312;&#21551;&#21160;&#30340;&#26102;&#20505;&#20250;&#27880;&#20876;usb_xhci_driver&#39537;&#21160;&#65292;&#22914;&#19979;&#25152;&#31034;
@@ -12445,19 +12478,28 @@
       {
     </p>
     <p>
-      &#160;&#160;&#160; <font color="#ff0000">xhci_init_driver(&amp;xhci_plat_hc_driver, &amp;xhci_plat_overrides);</font>
+      &#160;&#160;&#160; <font color="#ff0000">xhci_init_driver(&amp;xhci_plat_hc_driver, &amp;xhci_plat_overrides); </font>
+    </p>
+    <p>
+      <font color="#3300cc">&#20989;&#25968;&#21407;&#22411;&#65306; void xhci_init_driver(struct hc_driver *drv, const struct xhci_driver_overrides *over)</font>
     </p>
     <p>
       &#160;&#160;&#160;&#160;return platform_driver_register(&amp;usb_xhci_driver);
     </p>
     <p>
-      } &#27880;&#24847;xhci_init_driver&#65292;&#23454;&#38469;&#19978;&#26159;&#23558;xhci&#30340;&#25805;&#20316;&#38598; struct hc_driver xhci_hc_driver&#36171;&#20540;&#32473;&#20102;<b><i><font color="#0000ff">xhci_plat_hc_driver</font></i></b>&#65292;
+      } &#27880;&#24847;xhci_init_driver&#65292;&#23454;&#38469;&#19978;&#26159;&#23558;xhci&#30340;&#25805;&#20316;&#38598; struct hc_driver xhci_hc_driver&#36171;&#20540;&#32473;&#20102;<font color="#0000ff"><b><i>xhci_plat_hc_driver</i></b></font>&#65292;
     </p>
     <p>
       &#21516;&#26102;&#36824;&#23558;xhci_plat_overrides&#37324;&#38754;&#21253;&#21547;&#30340;&#19968;&#20010;reset&#21644;&#19968;&#20010;start&#20989;&#25968;&#65306; xhci_plat_setup&#65292; xhci_plat_start
     </p>
     <p>
-      &#36171;&#20540;&#32473;&#20102;xhci&#30340;&#25805;&#20316;&#38598;&#37324;&#38754;&#30340;reset&#21644;start&#25104;&#21592;
+      &#36171;&#20540;&#32473;&#20102;xhci&#30340;&#25805;&#20316;&#38598;&#37324;&#38754;&#30340;reset&#21644;start&#25104;&#21592;; &#21516;&#26102;xhci_init_driver&#20989;&#25968;&#36824;&#20250;&#23558;&#25805;&#20316;&#38598;&#37324;&#38754;&#30340;&#21464;&#37327;
+    </p>
+    <p>
+      hcd_priv_size&#36827;&#34892;&#20462;&#25913;&#65292;hcd_priv_size&#21021;&#22987;&#35805;&#30340;&#26102;&#20505;&#35774;&#32622;&#25104;&#20102;.hcd_priv_size =&#160;&#160;&#160;&#160;sizeof(struct xhci_hcd),
+    </p>
+    <p>
+      &#22312;xhci_init_driver&#20989;&#25968;&#37324;&#38754;&#20570;&#20102;&#22914;&#19979;&#20462;&#25913; drv-&gt;hcd_priv_size += over-&gt;extra_priv_size;
     </p>
   </body>
 </html>
@@ -12475,8 +12517,7 @@
       <font size="4" face="Times New Roman">&#37325;&#28857;&#20998;&#26512;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597816310247" ID="ID_192953487" MODIFIED="1597816403830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12493,8 +12534,7 @@
       struct usb_hcd&#160;&#160;&#160;&#160;&#160;&#160;*hcd;&#160;&#160;&#21464;&#37327;&#22768;&#26126;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597816424354" ID="ID_956067049" MODIFIED="1597816427815" TEXT="driver = &amp;xhci_plat_hc_driver;"/>
 <node CREATED="1597816465245" ID="ID_1334883500" MODIFIED="1597816496603">
@@ -12510,8 +12550,7 @@
       <i><font size="4" face="Times New Roman">phydev = &amp;pdev-&gt;dev;</font></i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597816517161" ID="ID_1124171331" MODIFIED="1597817146735">
 <richcontent TYPE="NODE"><html>
@@ -12541,8 +12580,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b><font color="#ff0000">struct usb_hcd *primary_hcd</font></b>)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597816670144" ID="ID_1825642399" MODIFIED="1597818130502">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12559,8 +12597,7 @@
       &#22810;&#20998;&#37197;&#30340;hcd_priv_size&#31354;&#38388;&#21487;&#20197;&#29992;&#26469;&#36716;&#25442;&#25104;&#21035;&#30340;&#32467;&#26500;&#20307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597816862401" ID="ID_1807077421" MODIFIED="1597817076999">
 <richcontent TYPE="NODE"><html>
@@ -12584,8 +12621,7 @@
       &#26032;&#20998;&#37197;&#20986;&#26469;&#30340;hcd&#26159;&#20511;&#29992;&#20102;primary_hcd&#37324;&#38754;&#30340;&#38145;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597817194141" ID="ID_1232040689" MODIFIED="1597819574399">
 <richcontent TYPE="NODE"><html>
@@ -12609,8 +12645,7 @@
       hcd-&gt;self.uses_dma = (sysdev-&gt;dma_mask != NULL);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597817211301" ID="ID_1551598436" MODIFIED="1597817213326" TEXT="hcd-&gt;rh_timer.function = rh_timer_func;"/>
 <node CREATED="1597817371533" ID="ID_1372158765" MODIFIED="1597817373614" TEXT="hcd-&gt;driver = driver;"/>
@@ -12630,8 +12665,7 @@
       <b><font color="#0000ff">xHCI Host Controller</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597818153694" ID="ID_391072548" MODIFIED="1597818296225">
@@ -12656,8 +12690,65 @@
       &#20351;&#29992;primary_hcd&#37324;&#38754;&#30340;xhci_hcd&#65292;&#27425;&#20043;&#25165;&#20351;&#29992;&#20256;&#36882;&#36827;&#21435;&#30340;hcd&#30340;xhci_hcd&#25104;&#21592;
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1598317847857" ID="ID_1850215112" MODIFIED="1598318017924">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>struct xhci_hcd {</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usb_hcd *main_hcd;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usb_hcd *shared_hcd;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct xhci_cap_regs __iomem *cap_regs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct xhci_op_regs __iomem *op_regs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct xhci_run_regs __iomem *run_regs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct xhci_doorbell_array __iomem *dba;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* Our HCD's current interrupter register set */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct&#160;&#160;xhci_intr_reg __iomem *ir_set;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* secondary interrupter */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct&#160;&#160;xhci_intr_reg __iomem **sec_ir_set;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;core_id;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;........
+    </p>
+    <p>
+      <b>}</b>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 <node CREATED="1597818554223" ID="ID_661016377" MODIFIED="1597818577108">
 <richcontent TYPE="NODE"><html>
@@ -12672,8 +12763,7 @@
       xhci-&gt;main_hcd = hcd;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597818580549" ID="ID_48874691" MODIFIED="1597818638492">
 <richcontent TYPE="NODE"><html>
@@ -12688,8 +12778,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dev_name(&amp;pdev-&gt;dev), hcd);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597826115909" ID="ID_1334797884" MODIFIED="1597826179363">
 <richcontent TYPE="NODE"><html>
@@ -12704,8 +12793,7 @@
       &#30001;&#20110;phydev&#19981;&#26159;&#36890;&#36807;dts&#29983;&#25104;&#30340;&#65292;&#26159;dwc3&#21160;&#24577;&#29983;&#25104;&#30340;&#65292;&#25152;&#20197;&#36825;&#37324;&#24212;&#35813;&#26159;&#33719;&#21462;&#19981;&#21040;usb_phy&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597820458296" ID="ID_1225151255" MODIFIED="1597820461446" TEXT="ret = usb_add_hcd(hcd, irq, IRQF_SHARED);">
 <node CREATED="1597826194925" ID="ID_333645239" MODIFIED="1597826243961">
@@ -12727,8 +12815,7 @@
       &#36825;2&#31181;&#26041;&#24335;&#24212;&#35813;&#37117;&#26159;&#22833;&#36133;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597826343976" ID="ID_864294204" MODIFIED="1597826346733" TEXT="dev_info(hcd-&gt;self.controller, &quot;%s\n&quot;, hcd-&gt;product_desc);"/>
 <node CREATED="1597826356652" ID="ID_1657611350" MODIFIED="1597826359307" TEXT="retval = hcd_buffer_create(hcd);"/>
@@ -12748,8 +12835,7 @@
       new USB bus registered, assigned bus
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597826468192" ID="ID_1123406726" MODIFIED="1597826513897">
 <richcontent TYPE="NODE"><html>
@@ -12764,8 +12850,7 @@
       hcd-&gt;self.root_hub = rhdev;&#160;&#160;&#21019;&#24314;&#19968;&#20010;usb_device&#65292;&#24182;&#36171;&#20540;&#32473;root_hub
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597826614845" ID="ID_21287783" MODIFIED="1597826679252">
 <richcontent TYPE="NODE"><html>
@@ -12786,8 +12871,7 @@
       rhdev-&gt;speed = USB_SPEED_SUPER;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597826738673" ID="ID_453648724" MODIFIED="1597826759547">
 <richcontent TYPE="NODE"><html>
@@ -12802,8 +12886,7 @@
       &#21363;&#35843;&#29992;xhci_plat_setup&#20989;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597826902398" ID="ID_409411419" MODIFIED="1597826904762" TEXT="static int xhci_plat_setup(struct usb_hcd *hcd)">
 <node CREATED="1597826914522" ID="ID_1903496406" MODIFIED="1597826917253" TEXT="xhci_priv_init_quirk(hcd)"/>
 <node CREATED="1597826925973" ID="ID_846850032" MODIFIED="1597827057274">
@@ -12822,8 +12905,223 @@
       <b><font size="4" face="Times New Roman" color="#009933">int xhci_gen_setup(struct usb_hcd *hcd, xhci_get_quirks_t get_quirks)</font></b>
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1598265457883" ID="ID_1281324217" MODIFIED="1598265494586">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static void xhci_plat_quirks(struct device *dev, struct xhci_hcd *xhci)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* As of now platform drivers don't provide MSI support so we ensure
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* here that the generic code does not try to make a pci_dev from our
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* dev struct in order to setup MSI
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;quirks |= XHCI_PLAT;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1598318161707" ID="ID_1297507884" MODIFIED="1598318477675">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#30340;&#19968;&#20123;&#22768;&#26126;
+    </p>
+    <p>
+      struct xhci_hcd&#160;&#160;&#160;&#160;&#160;*xhci;
+    </p>
+    <p>
+      struct device&#160;&#160;&#160;&#160;&#160;&#160;&#160;*dev = hcd-&gt;self.sysdev;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hcd-&gt;self.sg_tablesize = ~0;
+    </p>
+    <p>
+      hcd-&gt;self.no_sg_constraint = 1;
+    </p>
+    <p>
+      hcd-&gt;self.no_stop_on_short = 1;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598318546715" ID="ID_962250187" MODIFIED="1598318580833">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      xhci = hcd_to_xhci(hcd);
+    </p>
+    <p>
+      &#25214;&#21040;xhci_hcd
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598318588226" ID="ID_1078801714" MODIFIED="1598318846313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#21028;&#26029;&#24403;&#21069;&#30340;hcd&#26159;primary hcd&#65292;&#21017;&#20570;&#22914;&#19979;&#30340;&#19968;&#20123;&#24037;&#20316;&#65292;<b>&#21542;&#21017;&#35813;&#20989;&#25968;&#30452;&#25509;&#36820;&#22238;&#20102;</b>
+    </p>
+    <p>
+      xhci-&gt;main_hcd = hcd;
+    </p>
+    <p>
+      hcd-&gt;speed = HCD_USB2;
+    </p>
+    <p>
+      hcd-&gt;self.root_hub-&gt;speed = USB_SPEED_HIGH;
+    </p>
+    <p>
+      &#21487;&#20197;&#30475;&#21040;roothub&#26159;&#20197;2.0&#30340;&#24418;&#24335;&#23384;&#22312;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598319609835" ID="ID_1656099715" MODIFIED="1598319658530">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300cc"><b>xhci&#24403;&#20013;&#30340;&#19968;&#20123;&#23492;&#23384;&#22120;&#30340;&#37197;&#32622;</b></font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;cap_regs = hcd-&gt;regs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;op_regs = hcd-&gt;regs +
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HC_LENGTH(readl(&amp;xhci-&gt;cap_regs-&gt;hc_capbase));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;run_regs = hcd-&gt;regs +
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(readl(&amp;xhci-&gt;cap_regs-&gt;run_regs_off) &amp; RTSOFF_MASK);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* Cache read-only capability registers */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;hcs_params1 = readl(&amp;xhci-&gt;cap_regs-&gt;hcs_params1);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;hcs_params2 = readl(&amp;xhci-&gt;cap_regs-&gt;hcs_params2);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;hcs_params3 = readl(&amp;xhci-&gt;cap_regs-&gt;hcs_params3);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;hcc_params = readl(&amp;xhci-&gt;cap_regs-&gt;hc_capbase);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;hci_version = HC_VERSION(xhci-&gt;hcc_params);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;xhci-&gt;hcc_params = readl(&amp;xhci-&gt;cap_regs-&gt;hcc_params);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598319718802" ID="ID_1248932578" MODIFIED="1598319722190" TEXT="get_quirks(dev, xhci)"/>
+<node CREATED="1598319827675" ID="ID_1356759234" MODIFIED="1598319853262">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      retval = xhci_halt(xhci);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      halt&#25481;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598319866194" ID="ID_762524" MODIFIED="1598319907712">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      xhci_dbg(xhci, &quot;Resetting HCD\n&quot;);&#160;&#160;&#36755;&#20986;&#26085;&#24535;&#65292;&#23545;xhci&#36827;&#34892;reset&#25805;&#20316;
+    </p>
+    <p>
+      retval = xhci_reset(xhci);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598320174200" ID="ID_1077168337" MODIFIED="1598320233282">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300cc"><b>&#21021;&#22987;&#21270;xhci</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      xhci_dbg(xhci, &quot;Calling HCD init\n&quot;);
+    </p>
+    <p>
+      retval = xhci_init(hcd);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -12840,10 +13138,9 @@
       usb_hcd_request_irqs(hcd, irqnum, irqflags);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1597827627302" ID="ID_1142371003" MODIFIED="1597827643707">
+<node CREATED="1597827627302" ID="ID_1142371003" MODIFIED="1598320445554">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12853,11 +13150,121 @@
       hcd-&gt;state = HC_STATE_RUNNING;
     </p>
     <p>
-      retval = hcd-&gt;driver-&gt;start(hcd);
+      <font color="#ff3300"><b><i>retval = hcd-&gt;driver-&gt;start(hcd);</i></b></font>
+    </p>
+    <p>
+      &#21363;&#35843;&#29992;&#20989;&#25968;
+    </p>
+    <p>
+      <font color="#3300cc"><b>int xhci_run(struct usb_hcd *hcd)</b></font>
     </p>
   </body>
 </html>
 </richcontent>
+<node CREATED="1598320521362" ID="ID_1066186171" MODIFIED="1598320542933">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct xhci_hcd *xhci = hcd_to_xhci(hcd);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598320635409" ID="ID_1410955948" MODIFIED="1598320650573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hcd-&gt;uses_new_polling = 1;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598320660554" ID="ID_1339545157" MODIFIED="1598320721688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (!usb_hcd_is_primary_hcd(hcd))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return xhci_run_finished(xhci);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#24403;&#21069;&#20256;&#20837;&#30340;hcd&#19981;&#26159;primary hcd&#65292;&#23601;&#35843;&#29992;xhci_run_finished&#24182;&#30452;&#25509;&#36820;&#22238;&#65292;
+    </p>
+    <p>
+      &#21542;&#21017;&#36824;&#38656;&#36827;&#34892;&#19979;&#38754;&#30340;&#22788;&#29702;&#21160;&#20316;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598320760706" ID="ID_30002668" MODIFIED="1598339778405">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25171;&#21360;&#20986;cmd ring memory map
+    </p>
+    <p>
+      xhci_dbg(xhci, &quot;Command ring memory map follows:\n&quot;);
+    </p>
+    <p>
+      xhci_debug_ring(xhci, xhci-&gt;cmd_ring);&#160;&#160;&#20174;&#20869;&#26680;&#26085;&#24535;&#30475;&#35813;&#27573;&#30340;memory&#30340;&#31354;&#38388;&#26159;4K
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25171;&#21360;ERST memory map
+    </p>
+    <p>
+      &#35813;map&#31354;&#38388;&#30340;&#22823;&#23567;&#26159;16&#20010;&#23383;&#33410;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25171;&#21360;Event ring&#20869;&#23384;&#31354;&#38388;&#65306; 4K
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598339782946" ID="ID_1633623900" MODIFIED="1598340320178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      temp = readl(&amp;xhci-&gt;ir_set-&gt;irq_control);
+    </p>
+    <p>
+      temp &amp;= ~ER_IRQ_INTERVAL_MASK;
+    </p>
+    <p>
+      writel(temp, &amp;xhci-&gt;ir_set-&gt;irq_control);&#160;&#160;&#35813;&#25513;&#30721;&#26159;&#29992;&#26469;&#35774;&#32622;&#20013;&#26029;&#20043;&#38388;&#30340;&#26368;&#23567;&#26102;&#38388;&#38388;&#38548;&#30340;&#65288;(in 250ns intervals)&#65289;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1597827182148" ID="ID_1171844584" MODIFIED="1597827184509" TEXT="device_wakeup_enable(&amp;hcd-&gt;self.root_hub-&gt;dev);"/>
@@ -12892,8 +13299,7 @@
       &#160;&#160;&#160;&#160;xhci: Register second xHCI roothub.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597716618643" ID="ID_1291328375" MODIFIED="1597716913253">
@@ -12915,8 +13321,7 @@
       static int handle_tx_event(struct xhci_hcd *xhci,struct xhci_transfer_event *event)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597716991590" ID="ID_691173208" MODIFIED="1597717618069">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13110,8 +13515,7 @@
       <font face="Times New Roman">#define COMP_STOP&#160;&#160;&#160;26</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597736312021" ID="ID_1943010635" MODIFIED="1597736593357">
 <richcontent TYPE="NODE"><html>
@@ -13123,8 +13527,7 @@
       eb380df Manu Gautam:mgautam@codeaurora.org 1 year, 2 months ago usb: dwc3-msm: Use dummy buffer as doorbell until GSI is ready
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597741062785" ID="ID_1423192723" MODIFIED="1597741071130">
 <richcontent TYPE="NODE"><html>
@@ -13136,8 +13539,7 @@
       git log --pretty='%h %an:%ae %cr %s'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -13327,8 +13729,7 @@
       int usb_submit_urb(struct urb *urb, gfp_t mem_flags) &#20989;&#25968;&#20998;&#26512;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597646881836" ID="ID_1123864827" MODIFIED="1597651511862">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13480,8 +13881,7 @@
       &#23545;&#20110;&#20013;&#26029;&#20256;&#36755; &#35843;&#29992;<b><font color="#3300cc">&#160; ret = usb_submit_urb(as-&gt;urb, GFP_KERNEL);</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1597655106849" ID="ID_1445254186" MODIFIED="1597655414123">
 <richcontent TYPE="NODE"><html>
@@ -13526,8 +13926,7 @@
       <font color="#ff0000">xhci_queue_isoc_tx_prepare</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14660,8 +15059,7 @@
       <b><font color="#0000ff">int usb_request_queue(struct usb_request *req)</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597644154419" ID="ID_694225515" MODIFIED="1597644177944">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14717,8 +15115,7 @@
       <font face="Times New Roman">&#160;&#160;&#160;&#160;return res;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
