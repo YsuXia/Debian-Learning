@@ -3420,8 +3420,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct libusb_transfer *transfer, unsigned int packet)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598512868256" ID="ID_1133923356" MODIFIED="1598513001772">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3432,8 +3431,7 @@
       transfer-&gt;buffer + ((int) transfer-&gt;iso_packet_desc[0].length * _packet);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1598515278407" ID="ID_308935306" MODIFIED="1598515307018">
@@ -3446,8 +3444,7 @@
       <font size="4" color="#0000cc" face="Times New Roman"><b>_uvc_swap_buffers</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598513036131" ID="ID_1169732075" MODIFIED="1598513083056">
 <richcontent TYPE="NODE"><html>
@@ -3462,8 +3459,7 @@
       <font size="5" color="#ff0033" face="Times New Roman"><i>static int submit_iso_transfer(struct usbi_transfer *itransfer) &#20989;&#25968;</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598513120976" ID="ID_1788182347" MODIFIED="1598513135170">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3474,8 +3470,7 @@
       struct libusb_transfer *transfer = USBI_TRANSFER_TO_LIBUSB_TRANSFER(itransfer);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598513149720" ID="ID_90020188" MODIFIED="1598513160370">
 <richcontent TYPE="NODE"><html>
@@ -3487,8 +3482,7 @@
       struct android_transfer_priv *tpriv = usbi_transfer_get_os_priv(itransfer);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598524330961" ID="ID_261465932" MODIFIED="1598524365816">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3538,8 +3532,7 @@
       <b><i>};</i></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1598513170728" ID="ID_1836757285" MODIFIED="1598513182258">
@@ -3552,8 +3545,7 @@
       struct android_device_handle_priv *dpriv = _device_handle_priv(transfer-&gt;dev_handle);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598513333710" ID="ID_1787772150" MODIFIED="1598524201651">
 <richcontent TYPE="NODE"><html>
@@ -3607,8 +3599,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598514304791" ID="ID_1991962461" MODIFIED="1598514365680">
 <richcontent TYPE="NODE"><html>
@@ -3668,8 +3659,7 @@
       urbs = calloc(1, alloc_size);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598524431952" ID="ID_635272870" MODIFIED="1598524490355">
 <richcontent TYPE="NODE"><html>
@@ -3699,8 +3689,7 @@
       &#21021;&#22987;&#21270; struct android_transfer_priv *tpriv
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598524643945" ID="ID_965202257" MODIFIED="1598524739661">
 <richcontent TYPE="NODE"><html>
@@ -3721,8 +3710,7 @@
       &#25918;&#21040;urb&#37324;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1598524912969" ID="ID_1753008824" MODIFIED="1598525061464">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3739,8 +3727,7 @@
       unsigned char *urb_buffer_orig = urb_buffer;&#160;&#160;&#29992;&#25143;&#31354;&#38388;&#30340;buffer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598525387800" ID="ID_664815556" MODIFIED="1598525427872">
 <richcontent TYPE="NODE"><html>
@@ -3791,8 +3778,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598525473873" ID="ID_1350317232" MODIFIED="1598525641194">
 <richcontent TYPE="NODE"><html>
@@ -3876,8 +3862,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;buffer = urb_buffer_orig;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1598525826144" ID="ID_609432313" MODIFIED="1598525830777" TEXT="for (i = 0; i &lt; num_urbs; i++)">
@@ -3891,16 +3876,15 @@
       <font color="#ff0033"><b>int r = ioctl(dpriv-&gt;fd, IOCTL_USBFS_SUBMITURB, urbs[i]);&#160;&#160;&#25552;&#20132;urb&#21040;&#20869;&#26680;&#31354;&#38388;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1598526740185" ID="ID_1362046012" MODIFIED="1598526841456">
+</html></richcontent>
+<node CREATED="1598526740185" ID="ID_1362046012" MODIFIED="1598577058384">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#ff0000" face="Times New Roman">&#25105;&#20204;&#26469;&#30475;&#19968;&#19979;linux4.4&#20869;&#26680;&#37324;&#38754;&#23545;&#20110;&#35813;&#35843;&#29992;&#30340;&#22788;&#29702;&#26041;&#27861;&#65306;</font>
+      <font color="#ff0000" face="Times New Roman">&#25105;&#20204;&#26469;&#30475;&#19968;&#19979;linux4.9&#20869;&#26680;&#37324;&#38754;&#23545;&#20110;&#35813;&#35843;&#29992;&#30340;&#22788;&#29702;&#26041;&#27861;&#65306;</font>
     </p>
     <p>
       <font color="#3300ff"><b>static int proc_do_submiturb(</b></font>struct usb_dev_state *ps, struct usbdevfs_urb *uurb,
@@ -3927,8 +3911,7 @@
       <font size="4" color="#009966" face="Times New Roman">ep = ep_to_host_endpoint(ps-&gt;dev, uurb-&gt;endpoint);</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598527119496" ID="ID_1237103492" MODIFIED="1598527132239" TEXT="&#x5bf9;&#x4e8e;ISO&#x7c7b;&#x578b;&#x7684;&#x62a5;&#x6587;&#x8bf7;&#x6c42;&#xff0c;&#x505a;&#x5982;&#x4e0b;&#x7684;&#x5904;&#x7406;">
 <node CREATED="1598527147579" ID="ID_517173733" MODIFIED="1598527164965">
@@ -3944,8 +3927,7 @@
       number_of_packets = uurb-&gt;number_of_packets;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598527176367" ID="ID_26566028" MODIFIED="1598527240714">
 <richcontent TYPE="NODE"><html>
@@ -3966,8 +3948,7 @@
       isopkt = memdup_user(iso_frame_desc, isofrmlen);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598527418172" ID="ID_1100928953" MODIFIED="1598527450434">
 <richcontent TYPE="NODE"><html>
@@ -4024,8 +4005,7 @@
       &#35745;&#31639;&#24635;&#20849;&#30340;&#20256;&#36755;&#22823;&#23567;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598527573703" ID="ID_1239344392" MODIFIED="1598527968415">
 <richcontent TYPE="NODE"><html>
@@ -4055,8 +4035,7 @@
       &#23545;&#20110;ISO&#20256;&#36755;&#65292;&#20869;&#26680;&#37324;&#38754;&#30340;num_sgs&#22987;&#32456;&#26159;0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598527972250" ID="ID_1054694899" MODIFIED="1598528111967">
 <richcontent TYPE="NODE"><html>
@@ -4080,8 +4059,7 @@
       as-&gt;mem_usage = u;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1598528537866" ID="ID_1494334334" MODIFIED="1598528562548">
 <richcontent TYPE="NODE"><html>
@@ -4100,6 +4078,219 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uurb-&gt;buffer_length);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577140141" ID="ID_694167504" MODIFIED="1598577244474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      as-&gt;urb-&gt;dev = ps-&gt;dev;
+    </p>
+    <p>
+      as-&gt;urb-&gt;pipe = (uurb-&gt;type &lt;&lt; 30) | &#160; __create_pipe(ps-&gt;dev, uurb-&gt;endpoint &amp; 0xf) | (uurb-&gt;endpoint &amp; USB_DIR_IN);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598577248430" ID="ID_522553845" MODIFIED="1598577431640">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"><b>&#37197;&#32622;urb&#30340;flag</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u = (is_in ? URB_DIR_IN : URB_DIR_OUT);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (uurb-&gt;flags &amp; USBDEVFS_URB_ISO_ASAP)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_ISO_ASAP;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (allow_short &amp;&amp; uurb-&gt;flags &amp; USBDEVFS_URB_SHORT_NOT_OK)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_SHORT_NOT_OK;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (uurb-&gt;flags &amp; USBDEVFS_URB_NO_FSBR)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_NO_FSBR;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (allow_zero &amp;&amp; uurb-&gt;flags &amp; USBDEVFS_URB_ZERO_PACKET)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_ZERO_PACKET;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (uurb-&gt;flags &amp; USBDEVFS_URB_NO_INTERRUPT)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_NO_INTERRUPT;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;urb-&gt;transfer_flags = u;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598577473615" ID="ID_518289049" MODIFIED="1598577557871">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_ctrlrequest *dr = NULL;
+    </p>
+    <p>
+      as-&gt;urb-&gt;transfer_buffer_length = uurb-&gt;buffer_length;
+    </p>
+    <p>
+      as-&gt;urb-&gt;setup_packet = (unsigned char *)dr;
+    </p>
+    <p>
+      dr = NULL;
+    </p>
+    <p>
+      as-&gt;urb-&gt;start_frame = uurb-&gt;start_frame;
+    </p>
+    <p>
+      as-&gt;urb-&gt;number_of_packets = number_of_packets;
+    </p>
+    <p>
+      as-&gt;urb-&gt;stream_id = stream_id;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      buffer&#21644;packets&#30340;&#19968;&#20123;&#37197;&#32622;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598577618957" ID="ID_28400683" MODIFIED="1598578102871">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      as-&gt;urb-&gt;context = as;
+    </p>
+    <p>
+      as-&gt;urb-&gt;complete = <b>async_completed</b>; &#29992;&#20110;&#24322;&#27493;&#20449;&#21495;&#30340;&#36890;&#30693;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598577659766" ID="ID_987893997" MODIFIED="1598577697722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (totlen = u = 0; u &lt; number_of_packets; u++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as-&gt;urb-&gt;iso_frame_desc[u].offset = totlen;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as-&gt;urb-&gt;iso_frame_desc[u].length = isopkt[u].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;totlen += isopkt[u].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#37197;&#32622;packet&#25551;&#36848;&#31526;&#37324;&#38754;&#30340;buffer&#20559;&#31227;&#21644;buffer&#30340;&#38271;&#24230;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598577759304" ID="ID_553151362" MODIFIED="1598577837536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;userbuffer = uurb-&gt;buffer;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;signr = uurb-&gt;signr;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;ifnum = ifnum;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;pid = get_pid(task_pid(current));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;cred = get_current_cred();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;security_task_getsecid(current, &amp;as-&gt;secid);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;snoop_urb(ps-&gt;dev, as-&gt;userurb, as-&gt;urb-&gt;pipe,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as-&gt;urb-&gt;transfer_buffer_length, 0, SUBMIT,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NULL, 0);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!is_in)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snoop_urb_data(as-&gt;urb, as-&gt;urb-&gt;transfer_buffer_length);
+    </p>
+    <p>
+      async_newpending(as);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000"><b>&#36825;&#37324;&#24212;&#35813;&#26159;&#20445;&#23384;&#29992;&#25143;&#23618;&#30340;buffer&#30340;&#20449;&#24687;&#65292;&#24182;&#23558;&#24322;&#27493;&#36890;&#30693;&#32467;&#26500;&#20307;&#25346;&#36215;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1598577858885" ID="ID_1113569642" MODIFIED="1598577887412">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff" face="Times New Roman">usb_submit_urb(as-&gt;urb, GFP_KERNEL)</font>
     </p>
   </body>
 </html>
