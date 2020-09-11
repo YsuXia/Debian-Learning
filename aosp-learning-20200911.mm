@@ -2384,7 +2384,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1482300801861" FOLDED="true" ID="ID_196697670" MODIFIED="1578317855655" POSITION="right" TEXT="7.SELinux SEAndroid">
+<node CREATED="1482300801861" ID="ID_196697670" MODIFIED="1599555769623" POSITION="right" TEXT="7.SELinux SEAndroid">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1482300819318" ID="ID_1607491495" MODIFIED="1571884077421">
 <richcontent TYPE="NODE"><html>
@@ -3042,6 +3042,19 @@
 </node>
 </node>
 </node>
+<node CREATED="1599555776779" ID="ID_1753220505" MODIFIED="1599555792268">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [&#160;&#160;589.912069] type=1400 audit(8231862.498:1004): avc: denied { write } for pid=7121 comm=&quot;C3Dev-1-ReqQueu&quot; name=&quot;manual_af_set_lenspos&quot; dev=&quot;sysfs&quot; ino=26561 scontext=u:r:cameraserver:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1484377644917" FOLDED="true" ID="ID_1430971308" MODIFIED="1535360604961" POSITION="left" TEXT="8.Android Studio&#x4f7f;&#x7528;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -3261,7 +3274,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1562650401739">
+<node CREATED="1492429588556" FOLDED="true" ID="ID_1170241637" MODIFIED="1598851409822">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3309,7 +3322,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492653017734" FOLDED="true" ID="ID_500027607" MODIFIED="1566110150087">
+<node CREATED="1492653017734" ID="ID_500027607" MODIFIED="1598851413604">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4994,8 +5007,7 @@
       <b><font face="Times New Roman" color="#009999">Metadata&#25509;&#21475;&#20998;&#26512;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1597282478785" ID="ID_1431824491" MODIFIED="1597282509792">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5015,9 +5027,21 @@
       &#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1598852430554" ID="ID_262514136" MODIFIED="1598852465256">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Tahoma, Arial, STXihei, Microsoft YaHei, &#x5bf0;&#xe1bf;&#x848b;&#x95c6;&#x5474;&#x7ca6;, sans-serif" size="16px"><span style="letter-spacing: normal; display: inline !important; float: none; background-color: rgb(254, 254, 254); text-align: start; text-indent: 16px; text-transform: none; font-weight: 400; font-style: normal; font-family: Helvetica Neue, Helvetica, Tahoma, Arial, STXihei, Microsoft YaHei, &#x5bf0;&#xe1bf;&#x848b;&#x95c6;&#x5474;&#x7ca6;, sans-serif; color: rgb(51, 51, 51); word-spacing: 0px; font-size: 16px; white-space: normal"><b>system/media/camera/src/Camera_metadata_tag_info.c</b></span></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598852524918" ID="ID_1545284728" MODIFIED="1598852527810" TEXT="https://blog.csdn.net/armwind/article/details/52027010"/>
 </node>
 </node>
 <node CREATED="1496325792494" FOLDED="true" ID="ID_1061517957" MODIFIED="1562650418230" POSITION="left" TEXT="11. android binder&#x5b66;&#x4e60;">
@@ -8123,9 +8147,9 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1578307232859" FOLDED="true" ID="ID_1460251219" MODIFIED="1589424467880" POSITION="left" TEXT="17. android input system">
+<node CREATED="1578307232859" ID="ID_1460251219" MODIFIED="1599637801010" POSITION="left" TEXT="17. android input system">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1578307251051" FOLDED="true" ID="ID_853138179" MODIFIED="1589424466365">
+<node CREATED="1578307251051" ID="ID_853138179" MODIFIED="1599637805325">
 <richcontent TYPE="NODE"><html>
   <head>
     
