@@ -14482,8 +14482,7 @@
       <b>int usb_choose_configuration(struct usb_device *udev)</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599808423749" ID="ID_903721286" MODIFIED="1599808491545">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14506,8 +14505,7 @@
       <b>&#19968;&#20123;&#21464;&#37327;&#30340;&#22768;&#26126;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599808518486" ID="ID_1188386649" MODIFIED="1599808559120">
 <richcontent TYPE="NODE"><html>
@@ -14525,8 +14523,7 @@
       &#33719;&#21462;usb&#35774;&#22791;&#37197;&#32622;&#30340;&#20010;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599808623822" ID="ID_868158271" MODIFIED="1599809228876">
 <richcontent TYPE="NODE"><html>
@@ -14541,8 +14538,7 @@
       &#24490;&#29615;&#22788;&#29702;&#25152;&#26377;&#30340;&#37197;&#32622;&#65292;&#27880;&#24847;&#36825;&#37324;&#30340;c++&#25805;&#20316;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599809395475" ID="ID_1193044611" MODIFIED="1599809428128">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14556,8 +14552,7 @@
       &#21464;&#37327;&#22768;&#26126;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599809479323" ID="ID_967576938" MODIFIED="1599809511426">
 <richcontent TYPE="NODE"><html>
@@ -14575,8 +14570,7 @@
       &#33719;&#21462;&#25509;&#21475;&#25551;&#36848;&#31526;desc
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599809919986" ID="ID_510520005" MODIFIED="1599809976894">
 <richcontent TYPE="NODE"><html>
@@ -14600,8 +14594,7 @@
       &#22914;&#26524;&#24403;&#21069;&#30340;&#37197;&#32622;&#38656;&#35201;&#30340;&#20379;&#30005;&#22823;&#20110;&#35774;&#22791;&#33021;&#22815;&#25552;&#20379;&#30340;&#20379;&#30005;&#37327;&#65292;&#21017;&#25918;&#24323;&#20351;&#29992;&#24403;&#21069;&#30340;&#37197;&#32622;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599810218384" ID="ID_750168757" MODIFIED="1599810256419">
 <richcontent TYPE="NODE"><html>
@@ -14613,8 +14606,7 @@
       <b><font color="#0000ff">&#21097;&#19979;&#30340;&#20195;&#30721;&#20197;&#21518;&#20877;&#30475;&#65292;&#36825;&#37324;&#20808;&#30053;&#36807;&#20102;&#12290;&#12290;&#12290;&#12290;&#12290;&#12290;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -14666,8 +14658,7 @@
       <b>&#21464;&#37327;&#30340;&#22768;&#26126;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599810400513" ID="ID_1091430437" MODIFIED="1599810450698">
 <richcontent TYPE="NODE"><html>
@@ -14700,8 +14691,7 @@
       &#33719;&#21462;&#30001;configuration&#25351;&#23450;&#30340;&#37197;&#32622;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599810576265" ID="ID_1312296248" MODIFIED="1599810686266">
 <richcontent TYPE="NODE"><html>
@@ -14734,8 +14724,7 @@
       &#33719;&#21462;&#25509;&#21475;&#25968;&#65292;&#24182;&#20998;&#37197;&#23545;&#24212;&#30340;usb_interface&#32467;&#26500;&#20307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599810767009" ID="ID_369355996" MODIFIED="1599810803647">
 <richcontent TYPE="NODE"><html>
@@ -14750,8 +14739,7 @@
       &#21796;&#37266;&#24403;&#21069;&#30340;usb&#35774;&#22791;&#65292;&#36825;&#37324;&#30340;usb&#35774;&#22791;&#26159;root hub&#35774;&#22791;&#20102;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599810866601" ID="ID_1653632074" MODIFIED="1599810914017">
 <richcontent TYPE="NODE"><html>
@@ -14769,8 +14757,7 @@
       &#22914;&#26524;&#21457;&#29616;&#35813;&#35774;&#22791;&#24050;&#32463;&#34987;&#37197;&#32622;&#36807;&#20102;&#65292;&#37027;&#20040;&#23601;&#20002;&#24323;&#25481;&#21407;&#20808;&#30340;&#37197;&#32622;&#65292;&#20934;&#22791;&#37325;&#26032;&#36827;&#34892;&#37197;&#32622;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599810961505" ID="ID_1063300292" MODIFIED="1599811007989">
 <richcontent TYPE="NODE"><html>
@@ -14788,8 +14775,7 @@
       &#26087;&#26377;&#30340;&#34987;&#25346;&#36215;&#30340;config&#35831;&#27714;&#20063;&#20250;&#34987;&#20002;&#24323;&#25481;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599811764592" ID="ID_1792768188" MODIFIED="1599811814498">
 <richcontent TYPE="NODE"><html>
@@ -14804,8 +14790,7 @@
       &#26816;&#26597;&#26032;&#37197;&#32622;&#30340;&#24102;&#23485;&#26159;&#21542;&#36229;&#36807;&#20102;bus&#30340;&#24635;&#24102;&#23485;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599812306945" ID="ID_52079658" MODIFIED="1599812349856">
 <richcontent TYPE="NODE"><html>
@@ -14820,8 +14805,7 @@
       &#36827;&#20837;for&#24490;&#29615;&#65292;&#22788;&#29702;&#24403;&#21069;&#37197;&#32622;&#19979;&#38754;&#30340;&#25152;&#26377;&#30340;interface
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599812367154" ID="ID_147737339" MODIFIED="1599812398411">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14841,8 +14825,7 @@
       &#20869;&#37096;&#21464;&#37327;&#22768;&#26126;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599812413283" ID="ID_492391983" MODIFIED="1599812494077">
 <richcontent TYPE="NODE"><html>
@@ -14863,8 +14846,7 @@
       &#26356;&#26032;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599812787502" ID="ID_1067343018" MODIFIED="1599813333963">
 <richcontent TYPE="NODE"><html>
@@ -14882,8 +14864,7 @@
       &#20026;&#30340;&#26159;&#26041;&#20415;&#29992;&#25143;&#23618;&#22312;sys&#30446;&#24405;&#19979;&#38754;&#26597;&#30475;&#35774;&#22791;&#30340;&#25509;&#21475;&#20449;&#24687;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#0033ff" DESTINATION="ID_1067343018" ENDARROW="None" ENDINCLINATION="-566;-78;" ID="Arrow_ID_150817927" SOURCE="ID_824422241" STARTARROW="None" STARTINCLINATION="2289;0;"/>
 </node>
 <node CREATED="1599813894167" ID="ID_533455026" MODIFIED="1599813934735">
@@ -14905,8 +14886,7 @@
       &#23558;interface cache&#37324;&#38754;&#30340;setting&#25968;&#32452;&#36171;&#20540;&#32473;&#24403;&#21069;&#30340;&#25509;&#21475;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599814002700" ID="ID_859669694" MODIFIED="1599814034717">
 <richcontent TYPE="NODE"><html>
@@ -14945,8 +14925,7 @@
       <b>&#33719;&#21462;setting 0</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599816266602" ID="ID_1464766333" MODIFIED="1599816290851">
 <richcontent TYPE="NODE"><html>
@@ -14964,8 +14943,7 @@
       &#33719;&#21462;&#25509;&#21475;&#25551;&#36848;&#31526;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599816314143" ID="ID_367107506" MODIFIED="1599816317608" TEXT="intf-&gt;cur_altsetting = alt;"/>
 <node CREATED="1599816356345" ID="ID_1339927757" MODIFIED="1599816384811">
@@ -14981,8 +14959,7 @@
       &#20351;&#33021;&#25509;&#21475;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599816437560" ID="ID_471650229" MODIFIED="1599816484852">
 <richcontent TYPE="NODE"><html>
@@ -15027,8 +15004,972 @@
       &#21021;&#22987;&#21270;usb interface&#35774;&#22791;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1600046696934" ID="ID_202233357" MODIFIED="1600046722639">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      INIT_WORK(&amp;intf-&gt;reset_ws, <b><font color="#3300ff">__usb_queue_reset_device</font></b>);
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1600046773783" ID="ID_1453966748" MODIFIED="1600046790114">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      device_initialize(&amp;intf-&gt;dev);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600046807364" ID="ID_830657750" MODIFIED="1600046838514">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font face="Times New Roman" size="4" color="#ff0033">usb_get_dev(dev)</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1600046875422" ID="ID_69416332" MODIFIED="1600046937936">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = usb_control_msg(dev, usb_sndctrlpipe(dev, 0),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;USB_REQ_SET_CONFIGURATION, 0, configuration, 0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NULL, 0, USB_CTRL_SET_TIMEOUT)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600047072964" ID="ID_1699404820" MODIFIED="1600047106378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dev-&gt;actconfig = cp
+    </p>
+    <p>
+      &#35760;&#24405;&#19979;&#24403;&#21069;&#27963;&#36291;&#30340;&#37197;&#32622;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600047126111" ID="ID_1607523738" MODIFIED="1600047158777">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usb_set_device_state(dev, USB_STATE_CONFIGURED)
+    </p>
+    <p>
+      &#20462;&#25913;&#24403;&#21069;&#35774;&#22791;&#30340;&#29366;&#24577;&#20026;&#24050;&#37197;&#32622;&#29366;&#24577;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600047528783" ID="ID_531658368" MODIFIED="1600047566689">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; nintf; ++i)
+    </p>
+    <p>
+      &#36827;&#20837;&#21040;for&#24490;&#29615;&#65292;&#27880;&#20876;&#25509;&#21475;&#35774;&#22791;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600047632277" ID="ID_176396847" MODIFIED="1600047676029">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_interface *intf = cp-&gt;interface[i]
+    </p>
+    <p>
+      &#33719;&#21462;&#21040;&#25509;&#21475;&#25551;&#36848;&#31526;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600047689287" ID="ID_1645339013" MODIFIED="1600047807519">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">dev_dbg(</font></b>&amp;dev-&gt;dev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;adding %s (config #%d, interface %d)\n&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dev_name(&amp;intf-&gt;dev), configuration,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;intf-&gt;cur_altsetting-&gt;desc.bInterfaceNumber<b><font color="#0000cc">)</font></b>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#36825;&#26159;&#25171;&#21360;&#20986;&#26469;&#30340;&#26085;&#24535;</font></i>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600047821245" ID="ID_1845239625" MODIFIED="1600047834425">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      device_enable_async_suspend(&amp;intf-&gt;dev);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600047851349" ID="ID_748496781" MODIFIED="1600047869382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      device_add(&amp;intf-&gt;dev)
+    </p>
+    <p>
+      &#27880;&#20876;&#25509;&#21475;&#35774;&#22791;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600048393354" ID="ID_652962456" MODIFIED="1600048441254">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font face="Times New Roman" size="4" color="#009933">&#23545;&#20110;hub&#30340;&#25509;&#21475;&#26469;&#35828;&#65292;&#21305;&#37197;&#21040;&#22914;&#19979;&#30340;&#20989;&#25968; </font></b>
+    </p>
+    <p>
+      <b><font face="Times New Roman" size="4" color="#009933">int hub_probe(struct usb_interface *intf, const struct usb_device_id *id)</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600053629501" ID="ID_974483330" MODIFIED="1600054136907">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+    <p>
+      struct usb_host_interface *desc;&#160;&#160;&#23545;&#20110;&#24403;&#21069;&#25509;&#21475;&#30340;&#25551;&#36848;&#32467;&#26500;&#20307;
+    </p>
+    <p>
+      struct usb_endpoint_descriptor *endpoint;
+    </p>
+    <p>
+      struct usb_device *hdev;
+    </p>
+    <p>
+      struct usb_hub *hub;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600061928095" ID="ID_682492379" MODIFIED="1600063978043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>struct usb_hub {</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct device&#160;&#160;&#160;&#160;&#160;&#160;&#160;*intfdev;&#160;&#160;&#160;/* the &quot;interface&quot; device */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usb_device&#160;&#160;&#160;*hdev;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct kref&#160;&#160;&#160;&#160;&#160;kref;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct urb&#160;&#160;&#160;&#160;&#160;&#160;*urb;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* for interrupt polling pipe */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* buffer for urb ... with extra space in case of babble */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(*buffer)[8];
+    </p>
+    <p>
+      &#160;&#160;&#160; <i><font face="Times New Roman" size="4" color="#0000ff">union { </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usb_hub_status&#160;&#160;&#160;hub; </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usb_port_status&#160;&#160;port; </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">&#160;&#160;&#160;&#160;} *status;&#160;&#160;&#160;&#160;/* buffer for status reports */</font></i>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct mutex&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;status_mutex;&#160;&#160;&#160;/* for the status buffer */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#12290;&#12290;&#12290;&#12290;&#12290;&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;has_indicators:1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;indicator[USB_MAXCHILDREN];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct delayed_work leds;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct delayed_work init_work;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct work_struct&#160;&#160;&#160;&#160;&#160;&#160;events;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usb_port&#160;&#160;&#160;&#160;&#160;**ports;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160; <font face="Times New Roman" size="4" color="#ff0033">struct usb_hub_descriptor *descriptor;&#160;&#160;/* class descriptor */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#ff0033">&#160;&#160;&#160;&#160;struct usb_tt&#160;&#160;&#160;&#160;&#160;&#160;&#160;tt;&#160;&#160;&#160;&#160;&#160;/* Transaction Translator */</font>
+    </p>
+    <p>
+      <b>}</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600134656167" ID="ID_1231751798" MODIFIED="1600135025610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TT &#21363; Transaction Translator
+    </p>
+    <p>
+      &#35813;&#21151;&#33021;&#26159;hub&#30340;&#21151;&#33021;&#65292;&#24403;hub&#19968;&#36793;&#25509;&#20837;&#30340;&#26159;full/low speed&#35774;&#22791;&#65292;
+    </p>
+    <p>
+      &#21478;&#19968;&#36793;&#25509;&#20837;&#30340;&#26159;high speed&#35774;&#22791;&#30340;&#26102;&#20505;&#65292;hub&#21033;&#29992;TT&#30340;&#21151;&#33021;&#26469;&#27807;&#36890;&#20004;&#36793;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600135129248" ID="ID_1242396040" MODIFIED="1600135215466">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0033">struct usb_tt {</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usb_device&#160;&#160;&#160;*hub;&#160;&#160;&#160;/* upstream highspeed hub */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;multi;&#160;&#160;/* true means one TT per port */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;think_time; /* think time in ns */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;void&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*hcpriv;&#160;&#160;&#160;&#160;/* HCD private data */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* for control/bulk error recovery (CLEAR_TT_BUFFER) */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;spinlock_t&#160;&#160;&#160;&#160;&#160;&#160;lock;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head&#160;&#160;&#160;&#160;clear_list; /* of usb_tt_clear */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct work_struct&#160;&#160;clear_work;
+    </p>
+    <p>
+      <b><font color="#ff0000">};</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1600054277353" ID="ID_193374215" MODIFIED="1600054332966">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      desc = intf-&gt;cur_altsetting; &#33719;&#21462;&#21040;&#25509;&#21475;&#25551;&#36848;&#31526;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hdev = interface_to_usbdev(intf); &#26681;&#25454;&#25509;&#21475;&#33719;&#21462;usb&#35774;&#22791;&#32467;&#26500;&#20307;&#25351;&#38024;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600054972584" ID="ID_1400807537" MODIFIED="1600060173497">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (hdev-&gt;parent) {&#160;&#160;&#160;&#160;&#160;/* normal device */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;usb_enable_autosuspend(hdev);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} else {&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* root hub */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct hc_driver *drv = bus_to_hcd(hdev-&gt;bus)-&gt;driver;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (drv-&gt;bus_suspend &amp;&amp; drv-&gt;bus_resume)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;usb_enable_autosuspend(hdev);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#23545;&#20110;&#26222;&#36890;&#30340;hub&#21644;root hub&#65292; &#20351;&#33021;autosuspend&#30340;&#26041;&#27861;&#26159;&#19981;&#19968;&#26679;&#30340;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600060490291" ID="ID_1865817395" MODIFIED="1600060544409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (desc-&gt;desc.bNumEndpoints != 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;goto descriptor_error;
+    </p>
+    <p>
+      endpoint = &amp;desc-&gt;endpoint[0].desc;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#33719;&#21462;&#31471;&#28857;&#25551;&#36848;&#31526;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600060593039" ID="ID_1261596172" MODIFIED="1600060627060">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#37324;&#38656;&#35201;&#21028;&#26029;&#26159;&#21542;&#26159;&#20013;&#26029;IN&#31471;&#28857;
+    </p>
+    <p>
+      /* If it's not an interrupt in endpoint, we'd better punt! */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!usb_endpoint_is_int_in(endpoint))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;goto descriptor_error;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600060649864" ID="ID_1725403281" MODIFIED="1600060672686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dev_info(&amp;intf-&gt;dev, &quot;USB hub found\n&quot;);
+    </p>
+    <p>
+      &#25171;&#21360;&#20449;&#24687;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600061237846" ID="ID_670039648" MODIFIED="1600061260888">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20869;&#26680;&#20998;&#37197;hub&#32467;&#26500;&#20307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hub = kzalloc(sizeof(*hub), GFP_KERNEL);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600062260394" ID="ID_1413974688" MODIFIED="1600062471583">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21021;&#22987;&#21270;&#21160;&#24577;&#20998;&#37197;&#20986;&#26469;&#30340;hub&#32467;&#26500;&#20307;
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;kref_init(&amp;hub-&gt;kref); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;hub-&gt;intfdev = &amp;intf-&gt;dev; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;hub-&gt;hdev = hdev; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;INIT_DELAYED_WORK(&amp;hub-&gt;leds, led_work); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;INIT_DELAYED_WORK(&amp;hub-&gt;init_work, NULL); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;INIT_WORK(&amp;hub-&gt;events, hub_event); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;usb_get_intf(intf); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;usb_get_dev(hdev);</font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600062526164" ID="ID_871270725" MODIFIED="1600062560656">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usb_set_intfdata(intf, hub) &#23558;hub&#35774;&#32622;&#20026;intf&#35774;&#22791;&#30340;drv data
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600062578225" ID="ID_685996065" MODIFIED="1600062592849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;intf-&gt;needs_remote_wakeup = 1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pm_suspend_ignore_children(&amp;intf-&gt;dev, true);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600062843988" ID="ID_1775747160" MODIFIED="1600062918627">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (hdev-&gt;speed == USB_SPEED_HIGH)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;highspeed_hubs++;&#160;&#160;&#35760;&#24405;&#39640;&#36895;hub&#30340;&#25968;&#37327;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600063025389" ID="ID_964322007" MODIFIED="1600063199877">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (id-&gt;driver_info &amp; HUB_QUIRK_CHECK_PORT_AUTOSUSPEND)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hub-&gt;quirk_check_port_auto_suspend = 1;&#160;&#160;&#20351;&#33021;&#31471;&#28857;&#30340;&#33258;&#21160;&#25346;&#36215;&#21151;&#33021;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600063489206" ID="ID_224713237" MODIFIED="1600063565309">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hub_configure(hub, endpoint)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21407;&#22411;&#20989;&#25968;
+    </p>
+    <p>
+      static int hub_configure(struct usb_hub *hub,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usb_endpoint_descriptor *endpoint)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600063619931" ID="ID_629160385" MODIFIED="1600063799826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_hcd *hcd;
+    </p>
+    <p>
+      struct usb_device *hdev = hub-&gt;hdev;
+    </p>
+    <p>
+      struct device *hub_dev = hub-&gt;intfdev;
+    </p>
+    <p>
+      &#36319;usb&#35774;&#22791;&#30456;&#20851;&#30340;&#21464;&#37327;&#22768;&#26126;&#21644;&#36171;&#20540;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600063830524" ID="ID_81579464" MODIFIED="1600063882845">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      u16 hubstatus, hubchange;
+    </p>
+    <p>
+      u16 wHubCharacteristics;
+    </p>
+    <p>
+      unsigned int pipe;
+    </p>
+    <p>
+      int maxp, ret, i;
+    </p>
+    <p>
+      char *message = &quot;out of memory&quot;;
+    </p>
+    <p>
+      unsigned unit_load;
+    </p>
+    <p>
+      unsigned full_load;
+    </p>
+    <p>
+      unsigned maxchild;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600064096556" ID="ID_1797206340" MODIFIED="1600064176500">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font face="Times New Roman" size="4" color="#3300ff">hub&#35774;&#22791;&#20869;&#37096;&#21464;&#37327;&#30340;&#21160;&#24577;&#20998;&#37197;</font></b>
+    </p>
+    <p>
+      hub-&gt;buffer = kmalloc(sizeof(*hub-&gt;buffer), GFP_KERNEL)
+    </p>
+    <p>
+      hub-&gt;status = kmalloc(sizeof(*hub-&gt;status), GFP_KERNEL)
+    </p>
+    <p>
+      mutex_init(&amp;hub-&gt;status_mutex)
+    </p>
+    <p>
+      hub-&gt;descriptor = kzalloc(sizeof(*hub-&gt;descriptor), GFP_KERNEL)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600064481070" ID="ID_329703061" MODIFIED="1600064524965">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = get_hub_descriptor(hdev, hub-&gt;descriptor)
+    </p>
+    <p>
+      &#33719;&#21462;hub&#25551;&#36848;&#31526;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600064641455" ID="ID_1696118412" MODIFIED="1600064818708">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      maxchild = USB_MAXCHILDREN;
+    </p>
+    <p>
+      if (hub_is_superspeed(hdev))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;maxchild = min_t(unsigned, maxchild, USB_SS_MAXPORTS);
+    </p>
+    <p>
+      &#36825;&#37324;&#26159;&#35774;&#32622;hub&#21487;&#20197;&#25903;&#25345;&#30340;&#26368;&#22823;&#30340;port&#25968;&#37327;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      maxchild = hub-&gt;descriptor-&gt;bNbrPorts;
+    </p>
+    <p>
+      &#20174;&#25551;&#36848;&#31526;&#37324;&#38754;&#33719;&#21462;port&#30340;&#25968;&#37327;&#65292;&#24182;&#25171;&#21360;&#20986;&#30456;&#20851;&#30340;&#26085;&#24535;
+    </p>
+    <p>
+      dev_info(hub_dev, &quot;%d port%s detected\n&quot;, maxchild, (maxchild == 1) ? &quot;&quot; : &quot;s&quot;);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600064916110" ID="ID_553098478" MODIFIED="1600064938794">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#37197;&#20986;&#23545;&#24212;&#25968;&#37327;&#30340;port&#31471;&#21475;
+    </p>
+    <p>
+      hub-&gt;ports = kzalloc(maxchild * sizeof(struct usb_port *), GFP_KERNEL);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600065183414" ID="ID_1375408694" MODIFIED="1600065220823">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wHubCharacteristics = le16_to_cpu(hub-&gt;descriptor-&gt;wHubCharacteristics)
+    </p>
+    <p>
+      &#33719;&#21462;&#29305;&#24615;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600065232368" ID="ID_381238031" MODIFIED="1600065342464">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (hub_is_superspeed(hdev)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unit_load = 150;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;full_load = 900;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unit_load = 100;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;full_load = 500;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#36825;&#37324;&#30340;unit_load&#36319;full_load&#20195;&#34920;&#30340;&#24847;&#24605;&#26159;&#20160;&#20040;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600135256020" ID="ID_1117416619" MODIFIED="1600135294419">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;spin_lock_init(&amp;hub-&gt;tt.lock);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;INIT_LIST_HEAD(&amp;hub-&gt;tt.clear_list);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;INIT_WORK(&amp;hub-&gt;tt.clear_work, hub_tt_work);
+    </p>
+    <p>
+      <b><i><font color="#0000ff">&#21021;&#22987;&#21270;hub&#20869;&#37096;&#30340;tt&#32467;&#26500;&#20307;</font></i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600135853938" ID="ID_950176543" MODIFIED="1600135951759">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">A hub operating at high-speed can have one of two TT organizations: single TT or multiple TT. All hubs </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">must support the single TT organization. A multiple TT hub has an additional interface descriptor (with a </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">corresponding endpoint descriptor). The first set of descriptors shown below must be provided by all hubs. </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">A hub that has a single TT must set the bDeviceProtocol field of the device descriptor to one(1) and the </font></i>
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="4" color="#0000ff">interface descriptor bInterfaceProtocol field set to 0. </font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      switch (hdev-&gt;descriptor.bDeviceProtocol) &#21028;&#26029;TT&#30340;&#32452;&#32455;&#26041;&#24335;&#65292;&#30446;&#21069;845&#24179;&#21488;&#20351;&#29992;&#30340;&#26159;single tt
+    </p>
+    <p>
+      case USB_HUB_PR_HS_SINGLE_TT:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dev_dbg(hub_dev, &quot;Single TT\n&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hub-&gt;tt.hub = hdev;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600160663733" ID="ID_210071501" MODIFIED="1600160689557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = usb_get_status(hdev, USB_RECIP_DEVICE, 0, &amp;hubstatus);
+    </p>
+    <p>
+      &#33719;&#21462;hub&#30340;&#29366;&#24577;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1600160918217" ID="ID_1396435974" MODIFIED="1600161034123">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;root_hub&#23601;&#31561;&#20110;&#24403;&#21069;&#30340;usb&#35774;&#22791;&#65292;&#20570;&#22914;&#19979;&#30340;&#22788;&#29702;
+    </p>
+    <p>
+      if (hdev == hdev-&gt;bus-&gt;root_hub)
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1600161974779" ID="ID_241769970" MODIFIED="1600162016214">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;&#30005;&#21147;&#39044;&#31639;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      if (hcd-&gt;power_budget &gt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hdev-&gt;bus_mA = hcd-&gt;power_budget;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hdev-&gt;bus_mA = full_load * maxchild;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (hdev-&gt;bus_mA &gt;= full_load)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hub-&gt;mA_per_port = full_load;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hub-&gt;mA_per_port = hdev-&gt;bus_mA;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hub-&gt;limited_power = 1;
+    </p>
+    <p>
+      &#160;}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -15071,8 +16012,7 @@
       <i>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usb_device *udev)</i>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1599805305869" ID="ID_436501446" MODIFIED="1599805357961">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15089,8 +16029,7 @@
       &#21160;&#24577;&#20998;&#37197;&#31471;&#28857;&#35774;&#22791;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599805452584" ID="ID_1704424840" MODIFIED="1599805515078">
 <richcontent TYPE="NODE"><html>
@@ -15120,8 +16059,7 @@
       &#21021;&#22987;&#21270;end point device
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599805732253" ID="ID_593874349" MODIFIED="1599805777660">
 <richcontent TYPE="NODE"><html>
@@ -15136,8 +16074,7 @@
       &#27880;&#20876;&#31471;&#28857;&#35774;&#22791;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1599805792093" ID="ID_1251869046" MODIFIED="1599805795202" TEXT="endpoint-&gt;ep_dev = ep_dev;"/>
 </node>
@@ -32143,7 +33080,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1525417063873" FOLDED="true" ID="ID_1881762748" MODIFIED="1587007479943" TEXT="oom">
+<node CREATED="1525417063873" FOLDED="true" ID="ID_1881762748" MODIFIED="1600061129513" TEXT="oom">
 <node CREATED="1525417077331" ID="ID_1584542646" MODIFIED="1525417190248">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -32592,7 +33529,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583663541919" FOLDED="true" ID="ID_809884029" MODIFIED="1598767452857">
+<node CREATED="1583663541919" FOLDED="true" ID="ID_809884029" MODIFIED="1600061120444">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32841,6 +33778,9 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1600061132753" ID="ID_1401851961" MODIFIED="1600061140794" TEXT="&#x53c2;&#x8003;&#x7f51;&#x7ad9;">
+<node CREATED="1600061145204" ID="ID_1696865135" MODIFIED="1600061148144" TEXT="https://www.cnblogs.com/LoyenWang/"/>
 </node>
 </node>
 <node CREATED="1563198810215" FOLDED="true" ID="ID_123490465" MODIFIED="1566110684947" POSITION="right">
