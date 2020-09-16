@@ -99,5 +99,42 @@ digraph usb{
 	}"];
    }
 
+   subgraph cluster_struct_urb{
+		label="struct urb";
+		bgcolor="purple";
+		"struct urb"[label="{
+	struct kref kref;
+    |void *hcpriv;
+    |atomic_t use_count;
+    |atomic_t reject;
+    |int unlinked;
+    |struct list_head urb_list;
+    |struct list_head anchor_list;
+    |struct usb_anchor *anchor;
+    |struct usb_device *dev;
+    |struct usb_host_endpoint *ep;
+    |unsigned int pipe;
+    |unsigned int stream_id;
+    |int status;
+    |unsigned int transfer_flags;
+    |void *transfer_buffer;
+    |dma_addr_t transfer_dma;\n***(in) dma addr for transfer_buffer***
+    |struct scatterlist *sg
+    |int num_mapped_sgs;\n ***(internal) mapped sg entries***
+    |int num_sgs;
+    |u32 transfer_buffer_length;
+    |u32 actual_length;
+    |unsigned char *setup_packet;\n***(in) setup packet (control only)***
+    |dma_addr_t setup_dma;\n ***dma addr for setup_packet***
+    |int start_frame\n ***(modify) start frame (ISO)***
+    |int number_of_packets\n ***(in) number of ISO packets***
+    |int interval;
+    |int error_count;\n ***number of ISO errors***
+    |void *context\n***(in) context for completion***
+    |usb_complete_t complete;\n ***(in) completion routine***
+    |struct usb_iso_packet_descriptor iso_frame_desc\[0\];
+	}"];
+   }
+
 }
 
