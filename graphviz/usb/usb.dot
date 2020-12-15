@@ -136,5 +136,113 @@ digraph usb{
 	}"];
    }
 
+   subgraph cluster_struct_fusb30x_chip{
+	   label="struct fusb30x_chip";
+	   "struct fusb30x_chip"[label="{
+	struct i2c_client *client;
+    |struct device *dev;
+    |struct regmap *regmap;
+    |struct work_struct work;
+    |struct workqueue_struct *fusb30x_wq;
+    |struct hrtimer timer_state_machine;
+    |struct hrtimer timer_mux_machine;
+    |<pd_info>struct PD_CAP_INFO pd_cap_info;
+    |struct notify_info notify;
+    |struct notify_info notify_cmp;
+    |struct extcon_dev *extcon;
+    |enum connection_state conn_state;
+    |struct gpio_desc *gpio_vbus_5v;
+    |struct gpio_desc *gpio_vbus_other;
+    |struct gpio_desc *gpio_int;
+    |struct gpio_desc *gpio_discharge;
+    |int timer_state;
+    |int timer_mux;
+    |int port_num;
+    |u32 work_continue;
+    |spinlock_t irq_lock;
+    |int gpio_int_irq;
+    |int enable_irq;
+	|u8 cc_state;
+    |int cc1;
+    |int cc2;
+    |enum typec_cc_polarity cc_polarity;
+    |u8 val_tmp;
+    |u8 debounce_cnt;
+    |int sub_state;
+    |int caps_counter;
+    |u32 send_load\[7\];
+    |u32 rec_load\[7\];
+    |u16 send_head;
+    |u16 rec_head;
+    |int msg_id;
+    |enum tx_state tx_state;
+    |int hardrst_count;
+    |u32 source_power_supply\[7\]
+	|u32 source_max_current\[7\]
+	|int pos_power
+	|u32 partner_cap\[7\];
+    |int n_caps_used;
+    |int vdm_state;
+    |int vdm_substate;
+    |int vdm_send_state;
+    |u16 vdm_svid\[12\];
+    |int vdm_svid_num;
+    |u32 vdm_id;
+    |u8 chip_id;
+    |bool vconn_enabled;
+    |bool is_pd_support;
+    |int pd_output_vol;
+    |int pd_output_cur;
+    |int cc_meas_high;
+    |int cc_meas_low;
+    |bool vbus_begin;
+    |enum role_mode role;
+    |bool vconn_supported;
+    |bool try_role_complete;
+    |enum role_mode try_role;
+    |struct input_dev *input;
+    |bool suspended;
+   }"];
+   }
+
+subgraph cluster_struct_PD_CAP_INFO{
+	label="struct PD_CAP_INFO";
+	"struct PD_CAP_INFO"[label="{
+	|u32 peak_current;
+    |u32 specification_revision;
+    |u32 externally_powered;
+    |u32 usb_suspend_support;
+    |u32 usb_communications_cap;
+    |u32 dual_role_power;
+    |u32 data_role_swap;
+    |u32 supply_type;
+}"];
+}
+"struct fusb30x_chip":pd_info->"struct PD_CAP_INFO"[label="PD的一些信息" arrowhead="open" color="blue"];
+
+subgraph cluster_struct_dwc3_rockchip{
+	label="struct dwc3_rockchip";
+	"struct dwc3_rockchip"[label="{
+	int         num_clocks;
+    |bool            connected;
+    |bool            skip_suspend;
+    |bool            suspended;
+    |bool            force_mode;
+    |bool            reset_on_resume;
+    |enum usb_dr_mode    original_dr_mode;
+    |struct device       *dev;
+    |struct clk      **clks;
+    |struct dwc3     *dwc;
+    |struct reset_control    *otg_rst;
+    |struct extcon_dev   *edev;
+    |struct usb_hcd      *hcd;
+    |struct notifier_block   device_nb;
+    |struct notifier_block   host_nb;
+    |struct work_struct  otg_work;
+    |struct mutex        lock;
+}"];
+}
+
+
 }
 

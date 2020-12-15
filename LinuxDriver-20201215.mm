@@ -93,7 +93,7 @@
 <node CREATED="1432001536511" ID="ID_24562969" MODIFIED="1432001536511" TEXT="&#x7cfb;&#x7edf;&#x4e2d;&#x7684;&#x5b89;&#x5168;&#x95ee;&#x9898;&#x662f;&#x7531;&#x5185;&#x6838;&#x5f3a;&#x5236;&#x52a0;&#x4e0a;&#x53bb;&#x7684;"/>
 </node>
 </node>
-<node COLOR="#cc0000" CREATED="1432001536511" FOLDED="true" ID="ID_89389509" MODIFIED="1588642227520" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#x5b57;&#x7b26;&#x9a71;&#x52a8;">
+<node COLOR="#cc0000" CREATED="1432001536511" FOLDED="true" ID="ID_89389509" MODIFIED="1607994974601" POSITION="right" TEXT="&#x7b2c;&#x4e09;&#x7ae0;&#x5b57;&#x7b26;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432001536511" FOLDED="true" ID="ID_1504972745" MODIFIED="1576372896973" TEXT="SCULL&#x7684;&#x4ecb;&#x7ecd;">
 <edge COLOR="#ff0066"/>
@@ -128,7 +128,7 @@
 <node CREATED="1432001536511" ID="ID_17928343" MODIFIED="1432001536511" TEXT="&#x53ef;&#x4ee5;&#x591a;&#x7528;&#x6237;&#x6b21;&#x6253;&#x5f00;&#x4f46;&#x662f;&#x4e00;&#x6b21;&#x53ea;&#x80fd;&#x4e00;&#x4e2a;&#x7528;&#x6237;"/>
 </node>
 </node>
-<node COLOR="#ff3333" CREATED="1432001536511" ID="ID_991336956" MODIFIED="1587605862505">
+<node COLOR="#ff3333" CREATED="1432001536511" FOLDED="true" ID="ID_991336956" MODIFIED="1607994971409">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -142,20 +142,20 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1432001536511" ID="ID_1096034248" MODIFIED="1587605869075" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;">
-<node CREATED="1432001536512" ID="ID_353294307" MODIFIED="1587605873303" TEXT="&#x4e3b;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x4f7f;&#x7528;&#x54ea;&#x4e2a;&#x9a71;&#x52a8;">
+<node CREATED="1432001536511" FOLDED="true" ID="ID_1096034248" MODIFIED="1606959350923" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_353294307" MODIFIED="1606959349837" TEXT="&#x4e3b;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x4e00;&#x4e2a;&#x8bbe;&#x5907;&#x4f7f;&#x7528;&#x54ea;&#x4e2a;&#x9a71;&#x52a8;">
 <node BACKGROUND_COLOR="#33ff33" CREATED="1432105653336" ID="ID_1035150399" MODIFIED="1432105710224" TEXT="&#x4e5f;&#x6709;&#x591a;&#x4e2a;&#x9a71;&#x52a8;&#x5171;&#x4eab;&#x4e00;&#x4e2a;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x60c5;&#x51b5;">
 <edge COLOR="#3333ff"/>
 </node>
 </node>
 <node CREATED="1432001536512" ID="ID_183491251" MODIFIED="1432001536512" TEXT="&#x6b21;&#x7f16;&#x53f7;&#xff1a;&#x6807;&#x8bc6;&#x5177;&#x4f53;&#x7684;&#x8bbe;&#x5907;"/>
 </node>
-<node CREATED="1432001536512" ID="ID_1042749064" MODIFIED="1587605875924" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x7684;&#x5185;&#x90e8;&#x6807;&#x8bc6;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_1042749064" MODIFIED="1606959354730" TEXT="&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x7684;&#x5185;&#x90e8;&#x6807;&#x8bc6;">
 <node COLOR="#ff6666" CREATED="1432001536512" ID="ID_1408585560" MODIFIED="1432105797516" TEXT="dev_t&#x83b7;&#x5f97;&#x4e3b;&#x6b21;&#x7f16;&#x53f7;"/>
 <node CREATED="1432001536512" ID="ID_841449011" MODIFIED="1432001536512" TEXT="&#x7531;&#x4e3b;&#x6b21;&#x7f16;&#x53f7;&#x83b7;&#x5f97;dev_t"/>
 </node>
-<node CREATED="1432001536512" ID="ID_1653444239" MODIFIED="1587605878950" TEXT="&#x5206;&#x914d;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
-<node COLOR="#cc0000" CREATED="1432001536512" ID="ID_837056629" MODIFIED="1587605888998">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_1653444239" MODIFIED="1606959357610" TEXT="&#x5206;&#x914d;&#x8bbe;&#x5907;&#x7f16;&#x53f7;">
+<node COLOR="#cc0000" CREATED="1432001536512" FOLDED="true" ID="ID_837056629" MODIFIED="1606959346299">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -221,7 +221,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1527760207724" ID="ID_579635941" MODIFIED="1527760366719">
+<node CREATED="1527760207724" FOLDED="true" ID="ID_579635941" MODIFIED="1606959344607">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -301,7 +301,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1587607957093" ID="ID_296378359" MODIFIED="1587608195880">
+<node CREATED="1587607957093" FOLDED="true" ID="ID_296378359" MODIFIED="1606959342525">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -528,9 +528,9 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536512" ID="ID_1289513604" MODIFIED="1587605895600" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_1289513604" MODIFIED="1607994970400" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;">
 <node COLOR="#990099" CREATED="1432001536512" ID="ID_852379625" MODIFIED="1454924875758" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x4f18;&#x70b9;"/>
-<node COLOR="#990099" CREATED="1432001536512" ID="ID_92675797" MODIFIED="1587606002030" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x7f3a;&#x70b9;">
+<node COLOR="#990099" CREATED="1432001536512" FOLDED="true" ID="ID_92675797" MODIFIED="1607994969304" TEXT="&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x7f3a;&#x70b9;">
 <node COLOR="#ff3333" CREATED="1432001536512" ID="ID_1680690855" MODIFIED="1454924935531">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -552,7 +552,7 @@
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node COLOR="#006666" CREATED="1432001536512" ID="ID_1467083384" MODIFIED="1587607425620" TEXT="&#x52a0;&#x8f7d;&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x6a21;&#x5757;&#x7684;&#x65b9;&#x6cd5;">
+<node COLOR="#006666" CREATED="1432001536512" FOLDED="true" ID="ID_1467083384" MODIFIED="1607994967984" TEXT="&#x52a0;&#x8f7d;&#x52a8;&#x6001;&#x5206;&#x914d;&#x4e3b;&#x7f16;&#x53f7;&#x7684;&#x6a21;&#x5757;&#x7684;&#x65b9;&#x6cd5;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1432001536512" ID="ID_366208074" MODIFIED="1432001536512" TEXT="1.&#x8c03;&#x7528;insmod"/>
 <node CREATED="1432001536512" ID="ID_797593665" MODIFIED="1438829765122">
@@ -581,7 +581,7 @@
 <arrowlink DESTINATION="ID_1680690855" ENDARROW="Default" ENDINCLINATION="118;0;" ID="Arrow_ID_1139600246" STARTARROW="None" STARTINCLINATION="118;0;"/>
 </node>
 <node CREATED="1432001536512" ID="ID_1199466996" MODIFIED="1438829776314" TEXT="3.mknod &#x5efa;&#x7acb;&#x7279;&#x6b8a;&#x6587;&#x4ef6;"/>
-<node CREATED="1566387592093" ID="ID_568266065" MODIFIED="1587607433110">
+<node CREATED="1566387592093" FOLDED="true" ID="ID_568266065" MODIFIED="1607994966904">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -750,7 +750,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#006666" CREATED="1432001536512" ID="ID_657866416" MODIFIED="1587607422843">
+<node COLOR="#006666" CREATED="1432001536512" FOLDED="true" ID="ID_657866416" MODIFIED="1606959316235">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -799,7 +799,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536512" ID="ID_1336978487" MODIFIED="1587607408583" TEXT="&#x91cd;&#x8981;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1432001536512" FOLDED="true" ID="ID_1336978487" MODIFIED="1607994961410" TEXT="&#x91cd;&#x8981;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <node CREATED="1432001536512" ID="ID_479153915" MODIFIED="1477971432180">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -821,8 +821,8 @@
 <arrowlink COLOR="#0066ff" DESTINATION="ID_1658142979" ENDARROW="Default" ENDINCLINATION="472;0;" ID="Arrow_ID_825262927" STARTARROW="None" STARTINCLINATION="410;-75;"/>
 <linktarget COLOR="#ff0099" DESTINATION="ID_479153915" ENDARROW="Default" ENDINCLINATION="-160;15;" ID="Arrow_ID_911860929" SOURCE="ID_1008626152" STARTARROW="None" STARTINCLINATION="-153;15;"/>
 </node>
-<node CREATED="1432001536513" ID="ID_1196680412" MODIFIED="1587607413091" TEXT="file:f_op&#x5b57;&#x6bb5;">
-<node CREATED="1432116064073" ID="ID_936260860" MODIFIED="1587607415495" TEXT="1.void *private_data,&#x8c03;&#x7528;open&#x65f6;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_1196680412" MODIFIED="1607994959763" TEXT="file:f_op&#x5b57;&#x6bb5;">
+<node CREATED="1432116064073" FOLDED="true" ID="ID_936260860" MODIFIED="1607994958720" TEXT="1.void *private_data,&#x8c03;&#x7528;open&#x65f6;&#x8fdb;&#x884c;&#x8bbe;&#x7f6e;">
 <node COLOR="#ff0099" CREATED="1433831827079" ID="ID_740947904" MODIFIED="1433832217801" TEXT="1.scull_open(struct inode *inode, struct file *filp)"/>
 <node CREATED="1433831838824" ID="ID_1767823674" MODIFIED="1433831866854">
 <richcontent TYPE="NODE"><html>
@@ -854,11 +854,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536513" ID="ID_776943990" MODIFIED="1587607418646" TEXT="inode">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_776943990" MODIFIED="1607994960600" TEXT="inode">
 <node CREATED="1432001536513" ID="ID_1875008772" MODIFIED="1432001536513" TEXT="2&#x4e2a;&#x91cd;&#x8981;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x548c;2&#x4e2a;&#x91cd;&#x8981;&#x7684;&#x5b8f;&#x5b9a;&#x4e49;"/>
 </node>
 </node>
-<node CREATED="1432001536513" ID="ID_99749949" MODIFIED="1587605823880" TEXT="&#x5b57;&#x7b26;&#x8bbe;&#x5907;&#x7684;&#x6ce8;&#x518c;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_99749949" MODIFIED="1607994962225" TEXT="&#x5b57;&#x7b26;&#x8bbe;&#x5907;&#x7684;&#x6ce8;&#x518c;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -914,7 +914,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1432001536513" ID="ID_1008626152" MODIFIED="1587605828530">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_1008626152" MODIFIED="1607994957563">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -986,7 +986,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536513" ID="ID_236152283" MODIFIED="1587605847709">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_236152283" MODIFIED="1607994955977">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1068,7 +1068,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#009900" CREATED="1437292697018" ID="ID_562626581" MODIFIED="1587605851582">
+<node COLOR="#009900" CREATED="1437292697018" FOLDED="true" ID="ID_562626581" MODIFIED="1607994954824">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1162,7 +1162,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1374754760" MODIFIED="1574904078904" TEXT="file_operations&#x7ed3;&#x6784;&#x4f53;&#x4e2d;&#x5404;&#x4e2a;&#x51fd;&#x6570;&#x5177;&#x4f53;&#x89e3;&#x6790;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_1374754760" MODIFIED="1607994953473" TEXT="file_operations&#x7ed3;&#x6784;&#x4f53;&#x4e2d;&#x5404;&#x4e2a;&#x51fd;&#x6570;&#x5177;&#x4f53;&#x89e3;&#x6790;">
 <node CREATED="1432001536513" ID="ID_1655145673" MODIFIED="1432001536513" TEXT="int (*open)(struct inode *inode, struct file *filp);"/>
 <node CREATED="1432001536513" ID="ID_1487078488" MODIFIED="1438760864749" TEXT="ssize_t read(struct file *filp, char __user *buff, size_t count, loff_t &#xa;*offp); &#x5728;&#x9a71;&#x52a8;&#x5f53;&#x4e2d;&#x4e0d;&#x8981;&#x76f4;&#x63a5;&#x4f7f;&#x7528;buff,&#x800c;&#x662f;&#x5e94;&#x8be5;&#x4f7f;&#x7528;copy_to_buffer&#x548c;copy_from_buffer&#xa;&#x5728;&#x672c;&#x4f8b;&#x5b50;&#x5f53;&#x4e2d;&#xff0c;&#x6700;&#x591a;&#x8bfb;&#x53d6;quantum&#x5b57;&#x8282;&#x4e2a;&#x6570;&#x636e;"/>
 <node CREATED="1432001536513" ID="ID_1682353476" MODIFIED="1438761219013" TEXT="ssize_t write(struct file *filp, const char __user *buff, size_t count, &#xa;loff_t *offp); &#xa;if (dev-&gt;size &lt; *offp)&#xa;dev-&gt;size = *offp;&#xa;"/>
@@ -1206,7 +1206,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_1369221128" MODIFIED="1574904081291" TEXT="scull&#x7684;&#x5185;&#x5b58;&#x4f7f;&#x7528;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_1369221128" MODIFIED="1607994951560" TEXT="scull&#x7684;&#x5185;&#x5b58;&#x4f7f;&#x7528;">
 <node CREATED="1432001536513" FOLDED="true" ID="ID_1192511723" MODIFIED="1574904080121" TEXT="&#x51e0;&#x79cd;&#x52a8;&#x6001;&#x6539;&#x53d8;scull&#x5206;&#x914d;&#x7684;&#x5185;&#x5b58;&#x7684;&#x65b9;&#x6cd5;">
 <node CREATED="1432001536513" ID="ID_20164375" MODIFIED="1432001536513" TEXT="1&#x7f16;&#x8bd1;&#x65f6;&#x901a;&#x8fc7;&#x6539;&#x53d8;SCULL_QUANTUM&#x548c;SCULL_QSET&#x5728;&#x5934;&#x6587;&#x4ef6;&#x4e2d;&#x7684;&#x503c;"/>
 <node CREATED="1432001536513" ID="ID_849331691" MODIFIED="1432001536513" TEXT="2&#x5728;&#x6a21;&#x5757;&#x52a0;&#x8f7d;&#x65f6;&#x8bbe;&#x7f6e;scull_quantum&#x548c;scull_qset&#x7684;&#x503c;"/>
@@ -1214,7 +1214,7 @@
 </node>
 <node CREATED="1432001536513" ID="ID_1055152758" MODIFIED="1432001536513" TEXT="&#x4ece;&#x7528;&#x6237;&#x7a7a;&#x95f4;&#x83b7;&#x5f97;&#x6570;&#x636e;&#x65f6;&#x5185;&#x6838;&#x63d0;&#x4f9b;&#x4e86;2&#x79cd;&#x51fd;&#x6570;"/>
 </node>
-<node CREATED="1432001536513" FOLDED="true" ID="ID_903106643" MODIFIED="1574904082820" TEXT="&#x4f7f;&#x7528;read/write&#x51fd;&#x6570;">
+<node CREATED="1432001536513" FOLDED="true" ID="ID_903106643" MODIFIED="1607994950784" TEXT="&#x4f7f;&#x7528;read/write&#x51fd;&#x6570;">
 <node CREATED="1432001536513" ID="ID_1229006274" MODIFIED="1432001536513" TEXT="&#x9700;&#x8981;&#x5b9e;&#x65f6;&#x66f4;&#x65b0;&#x6587;&#x4ef6;&#x6307;&#x9488;&#x7684;&#x4f4d;&#x7f6e;&#x4e00;&#x904d;&#x5185;&#x6838;&#x540c;&#x6b65;&#x5230;file&#x4e2d;"/>
 <node CREATED="1432001536513" ID="ID_1555760555" MODIFIED="1432001536513" TEXT="&#x5982;&#x679c;read/write&#x5728;&#x5b8c;&#x6210;&#x4f20;&#x8f93;&#x4e4b;&#x540e;&#x7cfb;&#x7edf;&#x51fa;&#x73b0;&#x4e86;&#x9519;&#x8bef;&#xff0c;&#x5219;&#x8be5;&#x9519;&#x8bef;&#x4ee3;&#x7801;&#x5728;&#x4e0b;&#x4e00;&#x6b21;&#x8fd4;&#x56de;&#x65f6;&#x8fd4;&#x56de;"/>
 <node CREATED="1432001536513" ID="ID_1443812468" MODIFIED="1432001536513" TEXT="pread&#x51fd;&#x6570;"/>
@@ -1497,7 +1497,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1597047694130" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1607994858671" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -1638,7 +1638,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1584683248941" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1607994856232" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1678,7 +1678,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1432188997835" ID="ID_1392310371" MODIFIED="1587113529433">
+<node CREATED="1432188997835" FOLDED="true" ID="ID_1392310371" MODIFIED="1607994855176">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1859,7 +1859,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1433836099543" ID="ID_582463794" MODIFIED="1584683222629">
+<node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1607994853510">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1925,7 +1925,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433838675723" ID="ID_1496785705" MODIFIED="1584683234290" TEXT="4.&#x5982;&#x4f55;&#x5728;&#x5c40;&#x90e8;&#x6216;&#x5168;&#x5c40;&#x73af;&#x5883;&#x4e0b;&#x6253;&#x5f00;&#x548c;&#x5173;&#x95ed;printk">
+<node CREATED="1433838675723" FOLDED="true" ID="ID_1496785705" MODIFIED="1607994852080" TEXT="4.&#x5982;&#x4f55;&#x5728;&#x5c40;&#x90e8;&#x6216;&#x5168;&#x5c40;&#x73af;&#x5883;&#x4e0b;&#x6253;&#x5f00;&#x548c;&#x5173;&#x95ed;printk">
 <node CREATED="1433841585192" ID="ID_1070638651" MODIFIED="1433841669322">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2026,7 +2026,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1433853739522" ID="ID_861178982" MODIFIED="1598249921459">
+<node CREATED="1433853739522" FOLDED="true" ID="ID_861178982" MODIFIED="1607994850569">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2217,7 +2217,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1437656532055" ID="ID_76553634" MODIFIED="1598249928169">
+<node CREATED="1437656532055" FOLDED="true" ID="ID_76553634" MODIFIED="1606958199882">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2247,7 +2247,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1437817448765" ID="ID_1352229131" MODIFIED="1598250022308">
+<node CREATED="1437817448765" FOLDED="true" ID="ID_1352229131" MODIFIED="1606958198642">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2340,7 +2340,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1439028958941" ID="ID_588127660" MODIFIED="1598250016213">
+<node CREATED="1439028958941" FOLDED="true" ID="ID_588127660" MODIFIED="1606958197298">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2493,7 +2493,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1487914213021" ID="ID_1288142286" MODIFIED="1597047708290">
+<node CREATED="1487914213021" FOLDED="true" ID="ID_1288142286" MODIFIED="1607493643216">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2698,7 +2698,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1589530888999" ID="ID_555750728" MODIFIED="1597051138928">
+<node CREATED="1589530888999" FOLDED="true" ID="ID_555750728" MODIFIED="1606958195529">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2740,7 +2740,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1589795115099" ID="ID_415675941" MODIFIED="1589795118394" TEXT="http://tinylab.org/find-out-the-code-line-of-kernel-panic-address/"/>
-<node CREATED="1597050807466" ID="ID_507402342" MODIFIED="1597050875775">
+<node CREATED="1597050807466" FOLDED="true" ID="ID_507402342" MODIFIED="1606958189729">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2808,7 +2808,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1597050926258" ID="ID_965852543" MODIFIED="1597050973322">
+<node CREATED="1597050926258" FOLDED="true" ID="ID_965852543" MODIFIED="1606958188414">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3133,7 +3133,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1454674211713" FOLDED="true" ID="ID_501267520" MODIFIED="1574904086735" POSITION="right">
+<node COLOR="#cc0033" CREATED="1454674211713" FOLDED="true" ID="ID_501267520" MODIFIED="1606959387219" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4626,7 +4626,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1457940670562" ID="ID_32425074" MODIFIED="1598863515518" POSITION="left">
+<node CREATED="1457940670562" FOLDED="true" ID="ID_32425074" MODIFIED="1606815166548" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11716,7 +11716,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571017459253" ID="ID_1798204731" MODIFIED="1594973656744" POSITION="right">
+<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1608029101773" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11727,9 +11727,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471313923568" ID="ID_984050240" MODIFIED="1594973656747" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1607994947136" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1586741500654" ID="ID_4126578" MODIFIED="1597301984701">
+<node CREATED="1586741500654" FOLDED="true" ID="ID_4126578" MODIFIED="1607994945864">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11878,7 +11878,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471324351066" ID="ID_1540543093" MODIFIED="1471324554772">
+<node CREATED="1471324351066" FOLDED="true" ID="ID_1540543093" MODIFIED="1606725930483">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11896,7 +11896,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1597302027503" ID="ID_943910022" MODIFIED="1597302040103" TEXT="DWC3 &#x63a7;&#x5236;&#x5668;"/>
-<node CREATED="1597304368917" ID="ID_316380794" MODIFIED="1597304384950" TEXT="host controller interface(HCI)">
+<node CREATED="1597304368917" FOLDED="true" ID="ID_316380794" MODIFIED="1606725897286" TEXT="host controller interface(HCI)">
 <node CREATED="1597304501991" ID="ID_284270740" MODIFIED="1600762704008">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11961,7 +11961,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597712695029" ID="ID_58887035" MODIFIED="1597712721249">
+<node CREATED="1597712695029" FOLDED="true" ID="ID_58887035" MODIFIED="1606725894074">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12908,8 +12908,7 @@
       &#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1597817194141" ID="ID_1232040689" MODIFIED="1598790763874">
@@ -16888,8 +16887,7 @@
       &#25171;&#21360;&#26085;&#24535;&#65306; <font color="#ff0000"><b>hub 1-0:1.0: state 7 ports 1 chg 0002 evt 0000</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1600327420286" ID="ID_1431454863" MODIFIED="1600327720413">
 <richcontent TYPE="NODE"><html>
@@ -17360,8 +17358,7 @@
       <font color="#ff3333">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int retry_counter) &#20989;&#25968;&#21407;&#22411;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1600394225803" ID="ID_1673266331" MODIFIED="1600394252888">
 <richcontent TYPE="NODE"><html>
@@ -18143,7 +18140,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1471340686216" ID="ID_1438474488" MODIFIED="1606031104123">
+<node CREATED="1471340686216" FOLDED="true" ID="ID_1438474488" MODIFIED="1606725900757">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -18312,7 +18309,7 @@
 <node CREATED="1593583844509" ID="ID_457683775" MODIFIED="1593583846629" TEXT="http://www.linux-usb.org/tools.html"/>
 </node>
 </node>
-<node CREATED="1597645047982" ID="ID_1973188002" MODIFIED="1597645248074">
+<node CREATED="1597645047982" FOLDED="true" ID="ID_1973188002" MODIFIED="1606725903559">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20132,7 +20129,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574250103965" ID="ID_27661495" MODIFIED="1597653344146" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<node CREATED="1574250103965" FOLDED="true" ID="ID_27661495" MODIFIED="1607994943521" TEXT="USB&#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574250173205" ID="ID_1335167454" MODIFIED="1574767377667">
 <richcontent TYPE="NODE"><html>
@@ -20185,7 +20182,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583898131646" ID="ID_1604355950" MODIFIED="1597653348896">
+<node CREATED="1583898131646" FOLDED="true" ID="ID_1604355950" MODIFIED="1607994939028">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20196,7 +20193,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1583898150784" FOLDED="true" ID="ID_558301305" MODIFIED="1602569720467">
+<node CREATED="1583898150784" FOLDED="true" ID="ID_558301305" MODIFIED="1607994937745">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20207,7 +20204,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1583903465408" ID="ID_1702717644" MODIFIED="1600849746757">
+<node CREATED="1583903465408" FOLDED="true" ID="ID_1702717644" MODIFIED="1606888970222">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20227,7 +20224,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1583903551104" ID="ID_909692596" MODIFIED="1600849749116">
+<node CREATED="1583903551104" FOLDED="true" ID="ID_909692596" MODIFIED="1606888968843">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20324,7 +20321,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1584349664978" FOLDED="true" ID="ID_212315004" MODIFIED="1597641283367">
+<node CREATED="1584349664978" FOLDED="true" ID="ID_212315004" MODIFIED="1606889019989">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20426,7 +20423,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1586328039397" FOLDED="true" ID="ID_1926415233" MODIFIED="1597653693547">
+<node CREATED="1586328039397" FOLDED="true" ID="ID_1926415233" MODIFIED="1606889022775">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20504,7 +20501,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586339762440" ID="ID_116372361" MODIFIED="1597653388267">
+<node CREATED="1586339762440" FOLDED="true" ID="ID_116372361" MODIFIED="1607994936881">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20552,7 +20549,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586826236294" FOLDED="true" ID="ID_1135984869" MODIFIED="1597641279638">
+<node CREATED="1586826236294" FOLDED="true" ID="ID_1135984869" MODIFIED="1607994934728">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20646,7 +20643,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1602580408977" ID="ID_507788725" MODIFIED="1602580467793">
+<node CREATED="1602580408977" FOLDED="true" ID="ID_507788725" MODIFIED="1607994928671">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20700,7 +20697,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587094074196" FOLDED="true" ID="ID_598985936" MODIFIED="1602569725925">
+<node CREATED="1587094074196" FOLDED="true" ID="ID_598985936" MODIFIED="1607994927145">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20754,7 +20751,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1587100563146" ID="ID_1514438101" MODIFIED="1589189993108">
+<node CREATED="1587100563146" FOLDED="true" ID="ID_1514438101" MODIFIED="1606888988368">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20932,7 +20929,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587347248518" ID="ID_1640901797" MODIFIED="1589190091487">
+<node CREATED="1587347248518" FOLDED="true" ID="ID_1640901797" MODIFIED="1607994925552">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -20944,7 +20941,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1587353863582" ID="ID_1082840299" MODIFIED="1587353869777" TEXT="Token Packets"/>
-<node CREATED="1587353975033" ID="ID_232272443" MODIFIED="1589190095047">
+<node CREATED="1587353975033" FOLDED="true" ID="ID_232272443" MODIFIED="1606888981257">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21006,7 +21003,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586831124918" FOLDED="true" ID="ID_1413673833" MODIFIED="1602569727909">
+<node CREATED="1586831124918" FOLDED="true" ID="ID_1413673833" MODIFIED="1607994923673">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21080,7 +21077,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1590568668525" FOLDED="true" ID="ID_1380168016" MODIFIED="1597653376004">
+<node CREATED="1590568668525" FOLDED="true" ID="ID_1380168016" MODIFIED="1606876426104">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21092,7 +21089,7 @@
   </body>
 </html></richcontent>
 <linktarget COLOR="#ff0000" DESTINATION="ID_1380168016" ENDARROW="None" ENDINCLINATION="229;368;" ID="Arrow_ID_1769105816" SOURCE="ID_905192057" STARTARROW="None" STARTINCLINATION="8099;0;"/>
-<node CREATED="1590570486903" FOLDED="true" ID="ID_290790155" MODIFIED="1597641274724">
+<node CREATED="1590570486903" FOLDED="true" ID="ID_290790155" MODIFIED="1606875522920">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21115,7 +21112,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1590570762437" FOLDED="true" ID="ID_38163087" MODIFIED="1597641269591">
+<node CREATED="1590570762437" FOLDED="true" ID="ID_38163087" MODIFIED="1606875521259">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -21152,7 +21149,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586835240741" FOLDED="true" ID="ID_460016905" MODIFIED="1597653378865" TEXT="&#x6807;&#x51c6;USB&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x5b9a;&#x4e49;">
+<node CREATED="1586835240741" FOLDED="true" ID="ID_460016905" MODIFIED="1607994922287" TEXT="&#x6807;&#x51c6;USB&#x63cf;&#x8ff0;&#x7b26;&#x7684;&#x5b9a;&#x4e49;">
 <node CREATED="1586835254441" FOLDED="true" ID="ID_884773065" MODIFIED="1597641264334" TEXT="Device">
 <node CREATED="1586842124002" FOLDED="true" ID="ID_913103023" MODIFIED="1597641263271">
 <richcontent TYPE="NODE"><html>
@@ -22410,7 +22407,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1582681542935" FOLDED="true" ID="ID_1319645320" MODIFIED="1594781611306">
+<node CREATED="1582681542935" FOLDED="true" ID="ID_1319645320" MODIFIED="1607994942295">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22421,8 +22418,8 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1582681649472" FOLDED="true" ID="ID_1282617983" MODIFIED="1594781610399" TEXT="&#x4e00;&#x3001;&#x7f51;&#x7edc;&#x8d44;&#x6599;&#x5b66;&#x4e60;">
-<node CREATED="1582681713795" FOLDED="true" ID="ID_166431576" MODIFIED="1594781608920">
+<node CREATED="1582681649472" FOLDED="true" ID="ID_1282617983" MODIFIED="1607994921135" TEXT="&#x4e00;&#x3001;&#x7f51;&#x7edc;&#x8d44;&#x6599;&#x5b66;&#x4e60;">
+<node CREATED="1582681713795" FOLDED="true" ID="ID_166431576" MODIFIED="1607994920264">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22451,7 +22448,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1582681871427" FOLDED="true" ID="ID_1051944900" MODIFIED="1594781607548">
+<node CREATED="1582681871427" FOLDED="true" ID="ID_1051944900" MODIFIED="1607994919239">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22523,11 +22520,3733 @@
 </node>
 </node>
 </node>
-<node CREATED="1582681663964" ID="ID_1779716478" MODIFIED="1582681676718" TEXT="&#x4e8c;&#x3001;&#x534f;&#x8bae;&#x6587;&#x6863;&#x5b66;&#x4e60;"/>
+<node CREATED="1582681663964" FOLDED="true" ID="ID_1779716478" MODIFIED="1607994915862" TEXT="&#x4e8c;&#x3001;&#x534f;&#x8bae;&#x6587;&#x6863;&#x5b66;&#x4e60;">
+<node CREATED="1606733231682" FOLDED="true" ID="ID_1136554123" MODIFIED="1607994914253">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">UVC 1.5 Class specification </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#31867;&#35831;&#27714;&#24448;&#24448;&#29992;&#26469;set&#25110;&#32773;get video&#30456;&#20851;&#30340;&#25511;&#21046;&#65292;&#36825;&#20123;&#25511;&#21046;&#20250;&#34987;&#21010;&#20998;&#25104;2&#20010;&#20027;&#35201;&#30340;&#32452;&#65306;
+    </p>
+    <p>
+      &#36319;video&#21151;&#33021;&#30456;&#20851;&#65292;&#27604;&#22914;&#35774;&#32622;&#26333;&#20809;
+    </p>
+    <p>
+      &#36319;video&#25968;&#25454;&#20256;&#36755;&#30456;&#20851;&#65292;&#27604;&#22914;&#35774;&#32622;&#24103;&#29575;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1606733668415" ID="ID_99048781" MODIFIED="1606734110756">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">VideoControl Request</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;&#20110;video&#21151;&#33021;&#30340;&#25511;&#21046;&#26159;&#36890;&#36807;&#25805;&#32437;&#23884;&#20837;&#21040;Units&#25110;&#32773;&#26159;Terminals&#24403;&#20013;&#30340;&#29420;&#31435;&#30340;&#25511;&#21046;&#23646;&#24615;&#26469;&#23454;&#29616;&#30340;&#12290;
+    </p>
+    <p>
+      VideoControl&#25509;&#21475;&#25551;&#36848;&#31526;&#21253;&#21547;&#20102;Unit&#36319;Terminal&#25551;&#36848;&#31526;&#65292;&#27599;&#20010;&#25551;&#36848;&#31526;&#37117;&#26631;&#26126;&#24403;&#21069;&#23454;&#20307;&#25903;&#25345;&#21738;&#20123;&#25511;&#21046;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25511;&#21046;&#35831;&#27714;&#19968;&#33324;&#21253;&#21547;&#20102;&#36275;&#22815;&#30340;&#20449;&#24687;(&#27604;&#22914;unit id&#12289;control selector)&#35753;video function&#36827;&#34892;&#27491;&#30830;&#30340;&#36335;&#30001;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1606734121937" ID="ID_407559879" MODIFIED="1606734148586">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0033ff">VideoStreaming Request</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1606788581083" FOLDED="true" ID="ID_132128138" MODIFIED="1607994909804">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" face="Times New Roman" size="4">4.2.2 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff" face="Times New Roman" size="4">Unit and Terminal Control Request</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1606788720409" FOLDED="true" ID="ID_117036526" MODIFIED="1607994907819">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/uvc-unit-and-terminal-controlrequest.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1606789071462" ID="ID_1205280345" MODIFIED="1606789686068">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#009933">CS&#30340;&#39640;&#23383;&#33410;&#25351;&#23450;Control Selector, &#20302;&#23383;&#33410;&#34987;&#35774;&#32622;&#25104;0 </font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#009933">CT_AE_MODE_CONTROL 0x02</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1606789285829" ID="ID_1448892963" MODIFIED="1606789349633">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wLength&#22914;&#20309;&#30830;&#23450;&#65311;
+    </p>
+    <p>
+      &#26681;&#25454;wValue&#25214;&#21040;&#23545;&#24212;&#30340;Unit&#25110;&#32773;&#26159;Terminal&#65292;&#28982;&#21518;&#25214;&#21040;&#23545;&#24212;&#30340;&#25551;&#36848;&#31526;&#65292;
+    </p>
+    <p>
+      &#22312;&#25551;&#36848;&#31526;&#37324;&#38754;&#25214;&#21040;&#23545;&#24212;&#30340;bmControls&#23383;&#27573;&#65292;wLenght&#23601;&#26159;&#35813;&#23383;&#27573;&#30340;&#38271;&#24230;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1606977207230" ID="ID_1810945798" MODIFIED="1607063184989">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2.4.3.3 Video and Still Image Payload Headers
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#31532;1&#23383;&#33410;&#160;&#160;bHeaderLength&#160;&#160;&#34920;&#31034;header&#22836;&#37096;&#30340;&#38271;&#24230;
+    </p>
+    <p>
+      &#31532;2&#23383;&#33410;&#160;&#160;bmHeaderInfo &#25552;&#20379;&#36319;&#22312;&#22836;&#37096;&#21518;&#38754;&#30340;sample data&#30340;&#20449;&#24687;&#20197;&#21450;&#26159;&#21542;&#26377;&#39069;&#22806;&#21487;&#36873;&#30340;&#22836;&#37096;&#23384;&#22312;
+    </p>
+    <p>
+      D0&#65306; &#23545;&#20110;&#22522;&#20110;&#24103;&#30340;&#26684;&#24335;&#65292;&#35813;bit&#20301;&#22312;0&#21644;1&#20043;&#38388;&#32763;&#36716;&#65292;&#34920;&#26126;&#26032;&#30340;&#19968;&#24103;&#21040;&#36798;
+    </p>
+    <p>
+      D1&#65306; &#22914;&#26524;payload data&#26631;&#24535;&#30528;&#19968;&#24103;&#30340;&#32467;&#26463;&#65292;&#37027;&#20040;&#35813;bit&#34987;&#32622;&#20301;&#65292;&#36825;&#26159;&#21487;&#36873;&#30340;&#25805;&#20316;&#65307;
+    </p>
+    <p>
+      D2&#65306; &#22914;&#26524;dwPresentationTime&#34987;&#25918;&#21040;&#20102;&#21253;&#22836;&#21457;&#36865;&#36807;&#26469;&#65292;&#37027;&#20040;&#35813;bit&#34987;&#32622;&#20301;
+    </p>
+    <p>
+      D3&#65306; &#22914;&#26524;dwSourceClock&#34987;&#25918;&#21040;&#20102;&#21253;&#22836;&#21457;&#36865;&#36807;&#26469;&#65292;&#37027;&#20040;&#35813;bit&#34987;&#32622;&#20301;
+    </p>
+    <p>
+      D4:&#160;&#160;&#160;&#36319;payload&#30456;&#20851;&#30340;bit&#20301;
+    </p>
+    <p>
+      D5:&#160;&#160;&#34920;&#26126;payload&#26159;still image
+    </p>
+    <p>
+      D6:&#160;&#160;Error,&#24403;&#25968;&#25454;&#20256;&#36755;&#26377;&#38169;&#35823;&#30340;&#26102;&#20505;&#65292;&#35813;&#20301;&#34987;&#32622;&#20301;&#65292;Stream Error Code&#20250;&#21453;&#39304;&#20986;&#38169;&#35823;&#30340;&#21407;&#22240;
+    </p>
+    <p>
+      D7&#65306; End of header
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1582681680739" ID="ID_1406732789" MODIFIED="1582681689365" TEXT="&#x4e09;&#x3001;&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x5b66;&#x4e60;"/>
 <node CREATED="1582681693454" ID="ID_1682288860" MODIFIED="1582681703079" TEXT="&#x56db;&#x3001;android hal&#x5c42;&#x4ee3;&#x7801;&#x5b66;&#x4e60;"/>
+<node CREATED="1594798136925" FOLDED="true" ID="ID_1166427991" MODIFIED="1607994897145">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">&#20116;&#12289;libuvc&#24211;&#23398;&#20064;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594798245647" ID="ID_1443633664" MODIFIED="1594798304022">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>typedef struct uvc_frame</b>&#160;{
+    </p>
+    <p>
+      &#160;&#160;/** Image data for this frame */
+    </p>
+    <p>
+      &#160;&#160;void *data;
+    </p>
+    <p>
+      &#160;&#160;/** Size of image data buffer */
+    </p>
+    <p>
+      &#160;&#160;size_t data_bytes;
+    </p>
+    <p>
+      &#160;&#160;/** Width of image in pixels */
+    </p>
+    <p>
+      &#160;&#160;uint32_t width;
+    </p>
+    <p>
+      &#160;&#160;/** Height of image in pixels */
+    </p>
+    <p>
+      &#160;&#160;uint32_t height;
+    </p>
+    <p>
+      &#160;&#160;/** Pixel data format */
+    </p>
+    <p>
+      &#160;&#160;enum uvc_frame_format frame_format;
+    </p>
+    <p>
+      &#160;&#160;/** Number of bytes per horizontal line (undefined for compressed format) */
+    </p>
+    <p>
+      &#160;&#160;size_t step;
+    </p>
+    <p>
+      &#160;&#160;/** Frame number (may skip, but is strictly monotonically increasing) */
+    </p>
+    <p>
+      &#160;&#160;uint32_t sequence;
+    </p>
+    <p>
+      &#160;&#160;/** Estimate of system time when the device started capturing the image */
+    </p>
+    <p>
+      &#160;&#160;struct timeval capture_time;
+    </p>
+    <p>
+      &#160;&#160;/** Estimate of system time when the device finished receiving the image */
+    </p>
+    <p>
+      &#160;&#160;struct timespec capture_time_finished;
+    </p>
+    <p>
+      &#160;&#160;/** Handle on the device that produced the image.
+    </p>
+    <p>
+      &#160;&#160;&#160;* @warning You must not call any uvc_* functions during a callback. */
+    </p>
+    <p>
+      &#160;&#160;uvc_device_handle_t *source;
+    </p>
+    <p>
+      &#160;&#160;/** Is the data buffer owned by the library?
+    </p>
+    <p>
+      &#160;&#160;&#160;* If 1, the data buffer can be arbitrarily reallocated by frame conversion
+    </p>
+    <p>
+      &#160;&#160;&#160;* functions.
+    </p>
+    <p>
+      &#160;&#160;&#160;* If 0, the data buffer will not be reallocated or freed by the library.
+    </p>
+    <p>
+      &#160;&#160;&#160;* Set this field to zero if you are supplying the buffer.
+    </p>
+    <p>
+      &#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;uint8_t library_owns_data;
+    </p>
+    <p>
+      &#160;&#160;/** Metadata for this frame if available */
+    </p>
+    <p>
+      &#160;&#160;void *metadata;
+    </p>
+    <p>
+      &#160;&#160;/** Size of metadata buffer */
+    </p>
+    <p>
+      &#160;&#160;size_t metadata_bytes;
+    </p>
+    <p>
+      } uvc_frame_t;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1583807347078" FOLDED="true" ID="ID_1782104180" MODIFIED="1602667554980">
+<node CREATED="1595395930518" FOLDED="true" ID="ID_194792538" MODIFIED="1606875292641">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct uvc_device_handle {
+    </p>
+    <p>
+      &#160;&#160;struct uvc_device *dev;
+    </p>
+    <p>
+      &#160;&#160;struct uvc_device_handle *prev, *next;
+    </p>
+    <p>
+      &#160;&#160;/** Underlying USB device handle */
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#0000ff">libusb_device_handle *usb_devh</font></b>;
+    </p>
+    <p>
+      &#160; <b><font color="#ff0033">struct uvc_device_info *info;</font></b>
+    </p>
+    <p>
+      &#160;&#160;struct libusb_transfer *status_xfer;
+    </p>
+    <p>
+      &#160;&#160;pthread_mutex_t status_mutex; // XXX saki
+    </p>
+    <p>
+      &#160;&#160;uint8_t status_buf[32];
+    </p>
+    <p>
+      &#160;&#160;/** Function to call when we receive status updates from the camera */
+    </p>
+    <p>
+      &#160;&#160;uvc_status_callback_t *status_cb;
+    </p>
+    <p>
+      &#160;&#160;void *status_user_ptr;
+    </p>
+    <p>
+      &#160;&#160;/** Function to call when we receive button events from the camera */
+    </p>
+    <p>
+      &#160;&#160;uvc_button_callback_t *button_cb;
+    </p>
+    <p>
+      &#160;&#160;void *button_user_ptr;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;uvc_stream_handle_t *streams;
+    </p>
+    <p>
+      &#160;&#160;/** Whether the camera is an iSight that sends one header per frame */
+    </p>
+    <p>
+      &#160;&#160;uint8_t is_isight;
+    </p>
+    <p>
+      &#160;&#160;uint8_t reset_on_release_if;&#160;&#160;// XXX whether interface alt setting needs to reset to 0.
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#990099" DESTINATION="ID_194792538" ENDARROW="Default" ENDINCLINATION="1168;0;" ID="Arrow_ID_1136851846" SOURCE="ID_396040320" STARTARROW="None" STARTINCLINATION="1320;0;"/>
+<node CREATED="1595396029348" FOLDED="true" ID="ID_851240128" MODIFIED="1606875246552">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      typedef struct uvc_device_info {
+    </p>
+    <p>
+      &#160;&#160;/** Configuration descriptor for USB device */
+    </p>
+    <p>
+      &#160;&#160;struct libusb_config_descriptor *config;
+    </p>
+    <p>
+      &#160;&#160;/** VideoControl interface provided by device */
+    </p>
+    <p>
+      &#160;&#160;uvc_control_interface_t ctrl_if;
+    </p>
+    <p>
+      &#160;&#160;/** VideoStreaming interfaces on the device */
+    </p>
+    <p>
+      &#160; <font color="#ff0033"><b>uvc_streaming_interface_t *stream_ifs;</b></font>
+    </p>
+    <p>
+      } uvc_device_info_t;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595396130028" FOLDED="true" ID="ID_1023337244" MODIFIED="1606875245452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      typedef struct uvc_streaming_interface {
+    </p>
+    <p>
+      &#160;&#160;struct uvc_device_info *parent;
+    </p>
+    <p>
+      &#160;&#160;struct uvc_streaming_interface *prev, *next;
+    </p>
+    <p>
+      &#160;&#160;/** Interface number */
+    </p>
+    <p>
+      &#160;&#160;uint8_t bInterfaceNumber;
+    </p>
+    <p>
+      &#160;&#160;/** Video formats that this interface provides */
+    </p>
+    <p>
+      &#160; <font color="#ff0000"><b>struct uvc_format_desc *format_descs;</b></font>
+    </p>
+    <p>
+      &#160;&#160;/** USB endpoint to use when communicating with this interface */
+    </p>
+    <p>
+      &#160;&#160;uint8_t bEndpointAddress;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bTerminalLink;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bmInfo;&#160;&#160;&#160;// XXX
+    </p>
+    <p>
+      &#160;&#160;uint8_t bStillCaptureMethod;&#160;&#160;// XXX
+    </p>
+    <p>
+      &#160;&#160;uint8_t bTriggerSupport;&#160;&#160;// XXX
+    </p>
+    <p>
+      &#160;&#160;uint8_t bTriggerUsage;&#160;&#160;&#160;&#160;// XXX
+    </p>
+    <p>
+      &#160;&#160;uint64_t *bmaControls;&#160;&#160;&#160;&#160;// XXX
+    </p>
+    <p>
+      } uvc_streaming_interface_t;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595396527556" ID="ID_1445894690" MODIFIED="1595396560211">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DEVICE CONFIGURATION (05a9:0680/OV0001) ---
+    </p>
+    <p>
+      Status: idle
+    </p>
+    <p>
+      VideoControl:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bcdUVC: 0x0110
+    </p>
+    <p>
+      VideoControl:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bcdUVC: 0x0110
+    </p>
+    <p>
+      VideoStreaming(1):
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bEndpointAddress: 129
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Formats:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#3300ff"><b>-UnknownFormat:0x16</b></font>&#160; &#160;&#160;&#160;END DEVICE CONFIGURATION
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1595396193718" FOLDED="true" ID="ID_1261082057" MODIFIED="1606875243330">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      typedef <font color="#ff0033"><i><b>struct uvc_format_desc {</b></i></font>
+    </p>
+    <p>
+      &#160;&#160;struct uvc_streaming_interface *parent;
+    </p>
+    <p>
+      &#160;&#160;struct uvc_format_desc *prev, *next;
+    </p>
+    <p>
+      &#160;&#160;<font color="#3300ff"><b>enum uvc_vs_desc_subtype bDescriptorSubtype</b></font>;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bFormatIndex;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bNumFrameDescriptors;
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &#160;&#160;<font color="#9900cc"><b>union { </b></font>
+    </p>
+    <p>
+      <font color="#9900cc"><b>&#160;&#160;&#160;&#160;uint8_t guidFormat[16]; </b></font>
+    </p>
+    <p>
+      <font color="#9900cc"><b>&#160;&#160;&#160;&#160;uint8_t fourccFormat[4]; </b></font>
+    </p>
+    <p>
+      <font color="#9900cc"><b>&#160;&#160;};</b></font>
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &#160;&#160;union {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** BPP for uncompressed stream */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bBitsPerPixel;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bmFlags;
+    </p>
+    <p>
+      &#160;&#160;};
+    </p>
+    <p>
+      &#160;&#160;/** Default {uvc_frame_desc} to choose given this format */
+    </p>
+    <p>
+      &#160;&#160;uint8_t bDefaultFrameIndex;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bAspectRatioX;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bAspectRatioY;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bmInterlaceFlags;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bCopyProtect;
+    </p>
+    <p>
+      &#160;&#160;uint8_t bVariableSize;
+    </p>
+    <p>
+      &#160;&#160;/** Available frame specifications for this format */
+    </p>
+    <p>
+      &#160;&#160;struct uvc_frame_desc *frame_descs;
+    </p>
+    <p>
+      } uvc_format_desc_t;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595396893473" ID="ID_563127555" MODIFIED="1595396916550">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff00cc"><b>enum uvc_vs_desc_subtype</b></font>&#160;{
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_UNDEFINED = 0x00,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_INPUT_HEADER = 0x01,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_OUTPUT_HEADER = 0x02,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_STILL_IMAGE_FRAME = 0x03,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FORMAT_UNCOMPRESSED = 0x04,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FRAME_UNCOMPRESSED = 0x05,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FORMAT_MJPEG = 0x06,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FRAME_MJPEG = 0x07,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FORMAT_MPEG2TS = 0x0a,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FORMAT_DV = 0x0c,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_COLORFORMAT = 0x0d,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FORMAT_FRAME_BASED = 0x10,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FRAME_FRAME_BASED = 0x11,
+    </p>
+    <p>
+      &#160;&#160;UVC_VS_FORMAT_STREAM_BASED = 0x12
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595397294600" ID="ID_1432256943" MODIFIED="1595397342824">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300cc"><b>enum uvc_frame_format</b></font>&#160;<font color="#ff0033"><b>{</b></font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_UNKNOWN = 0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Any supported format */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_ANY = 0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_UNCOMPRESSED,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_COMPRESSED,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** YUYV/YUV2/YUV422: YUV encoding with one luminance value per pixel and
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* one UV (chrominance) pair for every two pixels.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_YUYV,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_UYVY,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** 16-bits RGB */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_RGB565,&#160;&#160;&#160;&#160;// RGB565
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** 24-bit RGB */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_RGB,&#160;&#160;&#160;&#160;&#160;&#160;&#160;// RGB888
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_BGR,&#160;&#160;&#160;&#160;&#160;&#160;&#160;// BGR888
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* 32-bits RGB */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_RGBX,&#160;&#160;&#160;&#160;&#160;&#160;// RGBX8888
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Motion-JPEG (or JPEG) encoded images */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_MJPEG,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_GRAY8,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_BY8,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Number of formats understood */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;UVC_FRAME_FORMAT_COUNT,
+    </p>
+    <p>
+      <font color="#ff0033"><b>};</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1595817783520" ID="ID_1638772524" MODIFIED="1595817967610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">struct libusb_device_handle</font></b>&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* lock protects claimed_interfaces */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t lock;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long claimed_interfaces;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head list;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct libusb_device *dev;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int auto_detach_kernel_driver;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char os_priv
+    </p>
+    <p>
+      #if defined(__STDC_VERSION__) &amp;&amp; (__STDC_VERSION__ &gt;= 199901L)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[] /* valid C99 code */
+    </p>
+    <p>
+      #else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;[0] /* non-standard, but usually working code */
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595818059507" FOLDED="true" ID="ID_1991730024" MODIFIED="1606875286943">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b><font color="#0000ff">struct libusb_transfer {</font></b></i>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;libusb_device_handle *dev_handle;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;/** A bitwise OR combination of \ref libusb_transfer_flags. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t flags;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Address of the endpoint where this transfer will be sent. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char endpoint;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Type of the endpoint from \ref libusb_transfer_type */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char type;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Timeout for this transfer in millseconds. A value of 0 indicates no
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* timeout. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int timeout;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** The status of the transfer. Read-only, and only for use within
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* transfer callback function.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* If this is an isochronous transfer, this field may read COMPLETED even
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* if there were errors in the frames. Use the
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* \ref libusb_iso_packet_descriptor::status &quot;status&quot; field in each packet
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* to determine if errors occurred. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum libusb_transfer_status status;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Length of the data buffer */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Actual length of data that was transferred. Read-only, and only for
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* use within transfer callback function. Not valid for isochronous
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* endpoint transfers. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int actual_length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;/** Length of the data buffer */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Actual length of data that was transferred. Read-only, and only for
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* use within transfer callback function. Not valid for isochronous
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* endpoint transfers. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int actual_length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Callback function. This will be invoked when the transfer completes,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* fails, or is cancelled. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;libusb_transfer_cb_fn callback;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** User context data to pass to the callback function. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;void *user_data;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Data buffer */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char *buffer;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Number of isochronous packets. Only used for I/O with isochronous
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* endpoints. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_iso_packets;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** Isochronous packet descriptors, for isochronous transfers only. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct libusb_iso_packet_descriptor iso_packet_desc
+    </p>
+    <p>
+      <i><b><font color="#0000ff">}</font></b></i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595818621356" ID="ID_1169009400" MODIFIED="1595818659684">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">struct usbi_transfer {</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_iso_packets;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head list;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct timeval timeout;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int transferred;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t stream_id;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t flags;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* this lock is held during libusb_submit_transfer() and
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* libusb_cancel_transfer() (allowing the OS backend to prevent duplicate
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* cancellation, submission-during-cancellation, etc). the OS backend
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* should also take this lock in the handle_events path, to prevent the user
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* cancelling the transfer from another thread while you are processing
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* its completion (presumably there would be races within your OS backend
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* if this were possible). */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t lock;
+    </p>
+    <p>
+      <b><font color="#0000ff">};</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1595397509876" FOLDED="true" ID="ID_1173775752" MODIFIED="1606875299276">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300cc" size="4"><i>uint8_t _uvc_frame_format_matches_guid(enum uvc_frame_format fmt,uint8_t guid[16]) </i></font>
+    </p>
+    <p>
+      <font color="#3300cc" size="4"><i>&#20989;&#25968;&#35299;&#26512;</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595397592303" FOLDED="true" ID="ID_1689896430" MODIFIED="1606875297203" TEXT="struct format_table_entry *format; ">
+<node CREATED="1595397676948" ID="ID_370983167" MODIFIED="1595397700598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct <b>format_table_entry</b>&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum uvc_frame_format format;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t abstract_fmt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t guid[16];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int children_count;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum uvc_frame_format *children;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1595397609125" ID="ID_943346729" MODIFIED="1595397617856">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      int child_idx;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595397629754" FOLDED="true" ID="ID_1424560924" MODIFIED="1606875284154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      format = _get_format_entry(fmt);
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#65306;
+    </p>
+    <p>
+      struct format_table_entry *<b>_get_format_entry</b>(enum uvc_frame_format format)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595397890421" FOLDED="true" ID="ID_596178637" MODIFIED="1606875281934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      switch(format) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_ANY: {
+    </p>
+    <p>
+      static enum uvc_frame_format UVC_FRAME_FORMAT_ANY_children[] = {UVC_FRAME_FORMAT_UNCOMPRESSED,UVC_FRAME_FORMAT_COMPRESSED };
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_ANY_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_ANY,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {},
+    </p>
+    <p>
+      2,
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_ANY_children
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_ANY_entry
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_UNCOMPRESSED: {
+    </p>
+    <p>
+      static enum uvc_frame_format UVC_FRAME_FORMAT_UNCOMPRESSED_children[] =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{UVC_FRAME_FORMAT_YUYV,UVC_FRAME_FORMAT_UYVY, UVC_FRAME_FORMAT_GRAY8};
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_UNCOMPRESSED_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_UNCOMPRESSED,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {},
+    </p>
+    <p>
+      3,
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_UNCOMPRESSED_children
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_UNCOMPRESSED_entry
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_COMPRESSED: {
+    </p>
+    <p>
+      static enum uvc_frame_format UVC_FRAME_FORMAT_COMPRESSED_children[] =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{UVC_FRAME_FORMAT_MJPEG}};
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_COMPRESSED_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_COMPRESSED,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {},
+    </p>
+    <p>
+      3,
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_COMPRESSED_children
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_COMPRESSED_entry
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_YUYV: {
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_YUYV_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_YUYV,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {'Y', 'U', 'Y', '2', 0x00, 0x00, 0x10, 0x00, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71},
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      NULL
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_YUYV_entry;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_UYVY: {
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_UYVY_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_UYVY,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {'U', 'Y', 'V', 'Y', 0x00, 0x00, 0x10, 0x00, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71},
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      NULL
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_UYVY_entry;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_GRAY8: {
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_GRAY8_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_GRAY8,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {'Y', '8', '0', '0', 0x00, 0x00, 0x10, 0x00, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71},
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      NULL
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_GRAY8_entry;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_BY8: {
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_BY8_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_BY8,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {'B', 'Y', '8', ' ', 0x00, 0x00, 0x10, 0x00, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71},
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      NULL
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_BY8_entry;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      case UVC_FRAME_FORMAT_MJPEG: {
+    </p>
+    <p>
+      static struct format_table_entry UVC_FRAME_FORMAT_MJPEG_entry = {
+    </p>
+    <p>
+      UVC_FRAME_FORMAT_MJPEG,
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      {'M', 'J', 'P', 'G'},
+    </p>
+    <p>
+      0,
+    </p>
+    <p>
+      NULL
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      return &amp;UVC_FRAME_FORMAT_MJPEG_entry;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595402594837" ID="ID_1952838272" MODIFIED="1595402765954">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 0: 59 &#160;&#160;Y
+    </p>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 1: 38 &#160;&#160;8
+    </p>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 2: 30 &#160;&#160;0
+    </p>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 3: 30 &#160;&#160;0
+    </p>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 4: 00
+    </p>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 5: 00
+    </p>
+    <p>
+      07-22 07:22:19.479&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 6: 10
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 7: 00
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 8: 80
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 9: 00
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 10: 00
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 11: aa
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 12: 00
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 13: 38
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 14: 9b
+    </p>
+    <p>
+      07-22 07:22:19.480&#160;&#160;3554&#160;&#160;3554 I libuvc/stream: [3554*stream.c:555:uvc_get_stream_ctrl_format_size_fps]:guidFormat 15: 71
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1595399472185" ID="ID_1178580101" MODIFIED="1595399878086">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033"><b>&#33719;&#21462;&#21040;format&#20043;&#21518;&#65292;&#20250;&#36827;&#34892;&#19968;&#27425;&#36882;&#24402;&#35843;&#29992;&#65292;&#30830;&#23450;format&#36319;guid&#26159;&#21542;&#21305;&#37197;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static uint8_t <b>_uvc_frame_format_matches_guid</b>(enum uvc_frame_format fmt,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uint8_t guid[16]) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct format_table_entry *format;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int child_idx;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;format = _get_format_entry(fmt);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (UNLIKELY(!format))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!format-&gt;abstract_fmt &amp;&amp; !memcmp(guid, format-&gt;guid, 16))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 1;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (child_idx = 0; child_idx &lt; format-&gt;children_count; child_idx++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (<b>_uvc_frame_format_matches_guid</b>(format-&gt;children[child_idx], guid))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return 0;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1595397152296" ID="ID_779641230" MODIFIED="1595397180133">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>typedef struct uvc_stream_ctrl {</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t bmHint;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bFormatIndex;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bFrameIndex;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t dwFrameInterval;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t wKeyFrameRate;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t wPFrameRate;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t wCompQuality;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t wCompWindowSize;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t wDelay;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t dwMaxVideoFrameSize;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t dwMaxPayloadTransferSize;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** XXX add UVC 1.1 parameters */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t dwClockFrequency;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bmFramingInfo;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bPreferedVersion;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bMinVersion;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bMaxVersion;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/** XXX add UVC 1.5 parameters */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bUsage;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bBitDepthLuma;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bmSettings;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bMaxNumberOfRefFramesPlus1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint16_t bmRateControlModes;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint64_t bmLayoutPerStream;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;//
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint8_t bInterfaceNumber;
+    </p>
+    <p>
+      } uvc_stream_ctrl_t;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595574570181" FOLDED="true" ID="ID_1071775817" MODIFIED="1607994891681">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uvc_error_t uvc_start_streaming_bandwidth(uvc_device_handle_t *devh,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uvc_stream_ctrl_t *ctrl, uvc_frame_callback_t *cb, void *user_ptr,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;float bandwidth_factor, uint8_t flags)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595579816562" ID="ID_396040320" MODIFIED="1595817593930">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">uvc_stream_handle_t *strmh;&#160;&#160;&#22768;&#26126;&#19968;&#20010;stream handle</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>struct uvc_stream_handle {</b>
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#0000ff">struct uvc_device_handle *devh</font></b>;
+    </p>
+    <p>
+      &#160;&#160;struct uvc_stream_handle *prev, *next;
+    </p>
+    <p>
+      &#160;&#160;struct uvc_streaming_interface *stream_if;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;/** if true, stream is running (streaming video to host) */
+    </p>
+    <p>
+      &#160;&#160;uint8_t running;
+    </p>
+    <p>
+      &#160;&#160;/** Current control block */
+    </p>
+    <p>
+      &#160;&#160;struct uvc_stream_ctrl cur_ctrl;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;/* listeners may only access hold*, and only when holding a
+    </p>
+    <p>
+      &#160;&#160;&#160;* lock on cb_mutex (probably signaled with cb_cond) */
+    </p>
+    <p>
+      &#160;&#160;uint8_t bfh_err, hold_bfh_err;&#160;&#160;&#160;&#160;// XXX added to keep UVC_STREAM_ERR
+    </p>
+    <p>
+      &#160;&#160;uint8_t fid;
+    </p>
+    <p>
+      &#160;&#160;uint32_t seq, hold_seq;
+    </p>
+    <p>
+      &#160;&#160;uint32_t pts, hold_pts;
+    </p>
+    <p>
+      &#160;&#160;uint32_t last_scr, hold_last_scr;
+    </p>
+    <p>
+      &#160;&#160;size_t got_bytes, hold_bytes;
+    </p>
+    <p>
+      &#160;&#160;size_t size_buf;&#160;&#160;// XXX add for boundary check
+    </p>
+    <p>
+      &#160;&#160;uint8_t *outbuf, *holdbuf;
+    </p>
+    <p>
+      &#160;&#160;pthread_mutex_t cb_mutex;
+    </p>
+    <p>
+      &#160;&#160;pthread_cond_t cb_cond;
+    </p>
+    <p>
+      &#160;&#160;pthread_t cb_thread;
+    </p>
+    <p>
+      &#160;&#160;uint32_t last_polled_seq;
+    </p>
+    <p>
+      &#160;&#160;uvc_frame_callback_t *user_cb;
+    </p>
+    <p>
+      &#160;&#160;void *user_ptr;
+    </p>
+    <p>
+      &#160;&#160;struct libusb_transfer *transfers[LIBUVC_NUM_TRANSFER_BUFS];
+    </p>
+    <p>
+      &#160;&#160;uint8_t *transfer_bufs[LIBUVC_NUM_TRANSFER_BUFS];
+    </p>
+    <p>
+      &#160;&#160;struct uvc_frame frame;
+    </p>
+    <p>
+      &#160;&#160;enum uvc_frame_format frame_format;
+    </p>
+    <p>
+      <b>};</b>
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#990099" DESTINATION="ID_194792538" ENDARROW="Default" ENDINCLINATION="1168;0;" ID="Arrow_ID_1136851846" STARTARROW="None" STARTINCLINATION="1320;0;"/>
+</node>
+<node CREATED="1595581058862" FOLDED="true" ID="ID_184860276" MODIFIED="1607994889769">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uvc_stream_open_ctrl(devh, &amp;strmh, ctrl)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>uvc_error_t uvc_stream_open_ctrl(</b>uvc_device_handle_t *devh,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uvc_stream_handle_t **strmhp, uvc_stream_ctrl_t *ctrl<b>)</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595581239891" ID="ID_1836653973" MODIFIED="1595581283002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uvc_stream_handle_t *strmh = NULL;
+    </p>
+    <p>
+      uvc_streaming_interface_t *stream_if;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595581315174" ID="ID_1946066465" MODIFIED="1595581343316">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      stream_if = _<b>uvc_get_stream_if(</b>devh, ctrl-&gt;bInterfaceNumber<b>)</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595581355712" ID="ID_442690075" MODIFIED="1595581398762">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      strmh = calloc(1, sizeof(*strmh))
+    </p>
+    <p>
+      strmh-&gt;devh = devh;
+    </p>
+    <p>
+      strmh-&gt;stream_if = stream_if;
+    </p>
+    <p>
+      strmh-&gt;frame.library_owns_data = 1;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595581436747" ID="ID_242598106" MODIFIED="1595581461491">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uvc_claim_if(strmh-&gt;devh, strmh-&gt;stream_if-&gt;bInterfaceNumber)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      claim&#35813;&#25509;&#21475;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595581476701" ID="ID_924760541" MODIFIED="1595581523919">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = uvc_stream_ctrl(strmh, ctrl)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595581544330" ID="ID_1631768878" MODIFIED="1595581612986">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      strmh-&gt;running = 0;
+    </p>
+    <p>
+      /** @todo take only what we need */
+    </p>
+    <p>
+      strmh-&gt;outbuf = malloc(LIBUVC_XFER_BUF_SIZE);
+    </p>
+    <p>
+      strmh-&gt;holdbuf = malloc(LIBUVC_XFER_BUF_SIZE);
+    </p>
+    <p>
+      strmh-&gt;size_buf = LIBUVC_XFER_BUF_SIZE; // xxx for boundary check
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><b>*strmhp = strmh</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595581650815" FOLDED="true" ID="ID_131844323" MODIFIED="1607994884697">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uvc_stream_start_bandwidth(strmh, cb, user_ptr, bandwidth_factor, flags)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#65306;
+    </p>
+    <p>
+      uvc_error_t <b>uvc_stream_start_bandwidth(</b>uvc_stream_handle_t *strmh,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; uvc_frame_callback_t *cb, void *user_ptr, float bandwidth_factor, uint8_t flags<b>)</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595813042347" FOLDED="true" ID="ID_698801132" MODIFIED="1607994881929">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static void <i><b><font size="5" color="#0000ff">_uvc_process_payload(</font></b></i>uvc_stream_handle_t *strmh, const uint8_t *payload,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;size_t const payload_len<i><b><font size="5" color="#0000ff">)</font></b></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font face="Times New Roman" size="5" color="#ff0033">bulk transfer&#26041;&#24335;&#19979;&#65292;&#22788;&#29702;uvc&#25968;&#25454;&#30340;&#22238;&#35843;&#20989;&#25968;&#35299;&#26512;</font></i>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595813168029" ID="ID_970699592" MODIFIED="1595813190024">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;header len
+    </p>
+    <p>
+      header_len = payload[0]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595813257940" ID="ID_429103328" MODIFIED="1595813268796">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      data_len = payload_len - header_len
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595813298469" FOLDED="true" ID="ID_924305698" MODIFIED="1607994880784">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      header_info = payload[1]
+    </p>
+    <p>
+      &#33719;&#21462;header info&#24182;&#36827;&#34892;&#20998;&#26512;&#65292;&#19979;&#38754;&#24320;&#22987;&#20855;&#20307;&#20998;&#26512;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1606976448070" ID="ID_1141495318" MODIFIED="1606976581305">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      header_info &amp; UVC_STREAM_ERR &#22914;&#26524;&#19982;&#30340;&#32467;&#26524;&#26159;TRUE&#65292;&#37027;&#20040;
+    </p>
+    <p>
+      &#23601;&#25253;&#38169;&#36820;&#22238;&#65292;&#21457;&#36865;halt&#32473;&#24213;&#23618;
+    </p>
+    <p>
+      libusb_clear_halt(strmh-&gt;devh-&gt;usb_devh, strmh-&gt;stream_if-&gt;bEndpointAddress);
+    </p>
+    <p>
+      return;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1596617273171" FOLDED="true" ID="ID_646192903" MODIFIED="1607994875080">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      uvc_stream_start_bandwidth(strmh, cb, user_ptr, bandwidth_factor, flags)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1596622901259" ID="ID_1500420370" MODIFIED="1596622946099">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (LIKELY(endpoint_bytes_per_packet)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if ( (endpoint_bytes_per_packet &gt;= config_bytes_per_packet)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|| (alt_idx == num_alt) ) { // XXX always match to last altsetting for buggy device
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Transfers will be at most one frame long: Divide the maximum frame size
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* by the size of the endpoint and round up */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packets_per_transfer = (dwMaxVideoFrameSize
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ endpoint_bytes_per_packet - 1)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/ endpoint_bytes_per_packet;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// XXX cashed by zero divided exception occured
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;LOGI(&quot;xiayang packets_per_transfer=%d&quot;, packets_per_transfer);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* But keep a reasonable limit: Otherwise we start dropping data */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (packets_per_transfer &gt; 32)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packets_per_transfer = 32;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (packets_per_transfer == 0)&#160;&#160;&#20462;&#22797;&#36825;&#20010;bug
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packets_per_transfer = 1;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;total_transfer_size = packets_per_transfer * endpoint_bytes_per_packet;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1598512834924" FOLDED="true" ID="ID_1137306220" MODIFIED="1606973192959">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4"><b>pktbuf = libusb_get_iso_packet_buffer_simple(transfer, packet_id) </b></font>
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#65306;
+    </p>
+    <p>
+      static inline unsigned char *libusb_get_iso_packet_buffer_simple(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct libusb_transfer *transfer, unsigned int packet)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598512868256" ID="ID_1133923356" MODIFIED="1598513001772">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      transfer-&gt;buffer + ((int) transfer-&gt;iso_packet_desc[0].length * _packet);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598515278407" ID="ID_308935306" MODIFIED="1598515307018">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000cc" face="Times New Roman"><b>_uvc_swap_buffers</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598513036131" FOLDED="true" ID="ID_1169732075" MODIFIED="1606875340965">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5" color="#ff0033" face="Times New Roman"><i>&#20998;&#26512;&#19968;&#19979; </i></font>
+    </p>
+    <p>
+      <font size="5" color="#ff0033" face="Times New Roman"><i>static int submit_iso_transfer(struct usbi_transfer *itransfer) &#20989;&#25968;</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598513120976" ID="ID_1788182347" MODIFIED="1598513135170">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct libusb_transfer *transfer = USBI_TRANSFER_TO_LIBUSB_TRANSFER(itransfer);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598513149720" FOLDED="true" ID="ID_90020188" MODIFIED="1606875320691">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct android_transfer_priv *tpriv = usbi_transfer_get_os_priv(itransfer);
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598524330961" ID="ID_261465932" MODIFIED="1598524365816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>struct android_transfer_priv {</i></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;union {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usbfs_urb *urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usbfs_urb **iso_urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum reap_action reap_action;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_retired;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum libusb_transfer_status reap_status;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* next iso packet in user-supplied transfer to be populated */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int iso_packet_offset;
+    </p>
+    <p>
+      <b><i>};</i></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598513170728" ID="ID_1836757285" MODIFIED="1598513182258">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct android_device_handle_priv *dpriv = _device_handle_priv(transfer-&gt;dev_handle);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598513333710" ID="ID_1787772150" MODIFIED="1598524201651">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20123;&#21464;&#37327;&#30340;&#22768;&#26126;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>struct usbfs_urb **urbs;&#160;<font color="#ff0033">&#23384;&#25918;&#25351;&#38024;&#29992;</font></b>
+    </p>
+    <p>
+      size_t alloc_size;
+    </p>
+    <p>
+      const int num_packets = transfer-&gt;num_iso_packets;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      int i;
+    </p>
+    <p>
+      <font color="#ff0033"><b>int this_urb_len = 0;</b></font>
+    </p>
+    <p>
+      int num_urbs = 1;
+    </p>
+    <p>
+      int packet_offset = 0;
+    </p>
+    <p>
+      unsigned int packet_len;
+    </p>
+    <p>
+      unsigned char *urb_buffer = transfer-&gt;buffer;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598514304791" ID="ID_1991962461" MODIFIED="1598514365680">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35745;&#31639;&#38656;&#35201;&#22810;&#23569;&#20010;urb&#26469;&#36827;&#34892;&#20256;&#36755;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      for (i = 0; i &lt; num_packets; i++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int space_remaining = MAX_ISO_BUFFER_LENGTH - this_urb_len;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packet_len = transfer-&gt;iso_packet_desc[i].length;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (packet_len &gt; space_remaining) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;num_urbs++;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this_urb_len = packet_len;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this_urb_len += packet_len;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20998;&#37197;urb&#30340;&#31354;&#38388;
+    </p>
+    <p>
+      alloc_size = num_urbs * sizeof(*urbs);
+    </p>
+    <p>
+      urbs = calloc(1, alloc_size);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598524431952" ID="ID_635272870" MODIFIED="1598524490355">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      tpriv-&gt;iso_urbs = urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tpriv-&gt;num_urbs = num_urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tpriv-&gt;num_retired = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tpriv-&gt;reap_action = NORMAL;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;tpriv-&gt;iso_packet_offset = 0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21021;&#22987;&#21270; struct android_transfer_priv *tpriv
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598524643945" FOLDED="true" ID="ID_965202257" MODIFIED="1606875324531">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; num_urbs; i++)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24490;&#29615;&#65292;&#25384;&#20010;&#20998;&#37197;struct usbfs_urb&#32467;&#26500;&#20307;&#65292;&#23558;&#25152;&#26377;&#30340;transfer&#37117;
+    </p>
+    <p>
+      &#25918;&#21040;urb&#37324;&#38754;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598524912969" ID="ID_1753008824" MODIFIED="1598525061464">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usbfs_urb *urb;
+    </p>
+    <p>
+      unsigned int space_remaining_in_urb = MAX_ISO_BUFFER_LENGTH; &#19968;&#20010;urb&#20256;&#36755;&#30340;&#26368;&#22823;&#30340;&#25968;&#25454;&#37327;
+    </p>
+    <p>
+      unsigned char *urb_buffer_orig = urb_buffer;&#160;&#160;&#29992;&#25143;&#31354;&#38388;&#30340;buffer
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598525387800" ID="ID_664815556" MODIFIED="1598525427872">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35745;&#31639;&#24403;&#21069;&#30340;urb&#21487;&#20197;&#25918;&#32622;&#22810;&#23569;&#20010;iso packet&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      while (packet_offset &lt; num_packets) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packet_len = transfer-&gt;iso_packet_desc[packet_offset].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (packet_len &lt;= space_remaining_in_urb) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* throw it in */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb_packet_offset++;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packet_offset++;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;space_remaining_in_urb -= packet_len;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb_buffer += packet_len;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* it can't fit, save it for the next URB */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598525473873" ID="ID_1350317232" MODIFIED="1598525641194">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#37197;urb, &#21021;&#22987;&#21270;urb
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      alloc_size = sizeof(*urb)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ (urb_packet_offset * sizeof(struct usbfs_iso_packet_desc));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb = calloc(1, alloc_size);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (UNLIKELY(!urb)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;free_iso_urbs(tpriv);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return LIBUSB_ERROR_NO_MEM;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urbs[i] = urb;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* populate packet lengths */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for (j = 0, k = packet_offset - urb_packet_offset;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;k &lt; packet_offset; k++, j++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;packet_len = transfer-&gt;iso_packet_desc[k].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;iso_frame_desc[j].length = packet_len;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;usercontext = itransfer;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;type = USBFS_URB_TYPE_ISO;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* FIXME: interface for non-ASAP data? */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//urb-&gt;flags = USBFS_URB_ISO_ASAP;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;endpoint = transfer-&gt;endpoint;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;number_of_packets = urb_packet_offset;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;urb-&gt;buffer = urb_buffer_orig;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1598525826144" ID="ID_609432313" MODIFIED="1598525830777" TEXT="for (i = 0; i &lt; num_urbs; i++)">
+<node CREATED="1598525842424" FOLDED="true" ID="ID_1190762419" MODIFIED="1606875337675">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033"><b>int r = ioctl(dpriv-&gt;fd, IOCTL_USBFS_SUBMITURB, urbs[i]);&#160;&#160;&#25552;&#20132;urb&#21040;&#20869;&#26680;&#31354;&#38388;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598526740185" FOLDED="true" ID="ID_1362046012" MODIFIED="1606875334364">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" face="Times New Roman">&#25105;&#20204;&#26469;&#30475;&#19968;&#19979;linux4.9&#20869;&#26680;&#37324;&#38754;&#23545;&#20110;&#35813;&#35843;&#29992;&#30340;&#22788;&#29702;&#26041;&#27861;&#65306;</font>
+    </p>
+    <p>
+      <font color="#3300ff"><b>static int proc_do_submiturb(</b></font>struct usb_dev_state *ps, struct usbdevfs_urb *uurb,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usbdevfs_iso_packet_desc __user *iso_frame_desc,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;void __user *arg<font color="#3300ff"><b>)</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1598526988624" ID="ID_1422739861" MODIFIED="1598527041386">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#009966" face="Times New Roman">struct usb_host_endpoint *ep; </font>
+    </p>
+    <p>
+      <font size="4" color="#009966" face="Times New Roman">ep = ep_to_host_endpoint(ps-&gt;dev, uurb-&gt;endpoint);</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598527119496" FOLDED="true" ID="ID_1237103492" MODIFIED="1606875333114" TEXT="&#x5bf9;&#x4e8e;ISO&#x7c7b;&#x578b;&#x7684;&#x62a5;&#x6587;&#x8bf7;&#x6c42;&#xff0c;&#x505a;&#x5982;&#x4e0b;&#x7684;&#x5904;&#x7406;">
+<node CREATED="1598527147579" ID="ID_517173733" MODIFIED="1598527164965">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;&#20998;&#21253;&#20010;&#25968;
+    </p>
+    <p>
+      number_of_packets = uurb-&gt;number_of_packets;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598527176367" ID="ID_26566028" MODIFIED="1598527240714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000" face="Times New Roman">&#23558;&#21508;&#20010;&#21253;&#30340;&#25551;&#36848;&#31526;&#25335;&#36125;&#21040;&#20869;&#26680;&#31354;&#38388;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      isofrmlen = sizeof(struct usbdevfs_iso_packet_desc) * number_of_packets;
+    </p>
+    <p>
+      isopkt = memdup_user(iso_frame_desc, isofrmlen);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598527418172" ID="ID_1100928953" MODIFIED="1598527450434">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (totlen = u = 0; u &lt; number_of_packets; u++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* arbitrary limit need for USB 3.0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* bMaxBurst (0~15 allowed, 1~16 packets)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* bmAttributes (bit 1:0, mult 0~2, 1~3 packets)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* sizemax: 1024 * 16 * 3 = 49152
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (isopkt[u].length &gt; 49152) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ret = -EINVAL;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;goto error;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;totlen += isopkt[u].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u *= sizeof(struct usb_iso_packet_descriptor);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uurb-&gt;buffer_length = totlen;
+    </p>
+    <p>
+      &#35745;&#31639;&#24635;&#20849;&#30340;&#20256;&#36755;&#22823;&#23567;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598527573703" ID="ID_1239344392" MODIFIED="1598527968415">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19979;&#38754;&#30340;&#24212;&#35813;&#26159;&#19968;&#31181;&#24322;&#27493;&#25805;&#20316;&#20102;&#65306;
+    </p>
+    <p>
+      struct async *as = NULL;
+    </p>
+    <p>
+      as = alloc_async(number_of_packets);
+    </p>
+    <p>
+      as-&gt;usbm = find_memory_area(ps, uurb);&#160;&#160;&#20351;&#29992;&#30340;&#19968;&#31181;&#20869;&#23384;&#26144;&#23556;&#26041;&#24335;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24403;as-&gt;usbm&#19981;&#20026;&#31354;&#25351;&#38024;&#30340;&#26102;&#20505;&#65292;num_sgs &#35774;&#32622;&#25104;0&#65307;
+    </p>
+    <p>
+      &#23545;&#20110;ISO&#20256;&#36755;&#65292;&#20869;&#26680;&#37324;&#38754;&#30340;num_sgs&#22987;&#32456;&#26159;0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598527972250" ID="ID_1054694899" MODIFIED="1598528111967">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      u += sizeof(struct async) + sizeof(struct urb) + uurb-&gt;buffer_length +
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;num_sgs * sizeof(struct scatterlist);
+    </p>
+    <p>
+      &#35745;&#31639;usbfs&#24635;&#20849;&#38656;&#35201;&#32791;&#36153;&#30340;&#20869;&#23384;&#31354;&#38388;
+    </p>
+    <p>
+      ret = usbfs_increase_memory_usage(u);
+    </p>
+    <p>
+      as-&gt;mem_usage = u;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598528537866" ID="ID_1494334334" MODIFIED="1598528562548">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      as-&gt;urb-&gt;transfer_buffer = kmalloc(uurb-&gt;buffer_length,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GFP_KERNEL);
+    </p>
+    <p>
+      memset(as-&gt;urb-&gt;transfer_buffer, 0,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;uurb-&gt;buffer_length);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577140141" ID="ID_694167504" MODIFIED="1598577244474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      as-&gt;urb-&gt;dev = ps-&gt;dev;
+    </p>
+    <p>
+      as-&gt;urb-&gt;pipe = (uurb-&gt;type &lt;&lt; 30) | &#160; __create_pipe(ps-&gt;dev, uurb-&gt;endpoint &amp; 0xf) | (uurb-&gt;endpoint &amp; USB_DIR_IN);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577248430" ID="ID_522553845" MODIFIED="1598577431640">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"><b>&#37197;&#32622;urb&#30340;flag</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u = (is_in ? URB_DIR_IN : URB_DIR_OUT);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (uurb-&gt;flags &amp; USBDEVFS_URB_ISO_ASAP)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_ISO_ASAP;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (allow_short &amp;&amp; uurb-&gt;flags &amp; USBDEVFS_URB_SHORT_NOT_OK)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_SHORT_NOT_OK;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (uurb-&gt;flags &amp; USBDEVFS_URB_NO_FSBR)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_NO_FSBR;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (allow_zero &amp;&amp; uurb-&gt;flags &amp; USBDEVFS_URB_ZERO_PACKET)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_ZERO_PACKET;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (uurb-&gt;flags &amp; USBDEVFS_URB_NO_INTERRUPT)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;u |= URB_NO_INTERRUPT;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;urb-&gt;transfer_flags = u;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577473615" ID="ID_518289049" MODIFIED="1598577557871">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usb_ctrlrequest *dr = NULL;
+    </p>
+    <p>
+      as-&gt;urb-&gt;transfer_buffer_length = uurb-&gt;buffer_length;
+    </p>
+    <p>
+      as-&gt;urb-&gt;setup_packet = (unsigned char *)dr;
+    </p>
+    <p>
+      dr = NULL;
+    </p>
+    <p>
+      as-&gt;urb-&gt;start_frame = uurb-&gt;start_frame;
+    </p>
+    <p>
+      as-&gt;urb-&gt;number_of_packets = number_of_packets;
+    </p>
+    <p>
+      as-&gt;urb-&gt;stream_id = stream_id;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      buffer&#21644;packets&#30340;&#19968;&#20123;&#37197;&#32622;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577618957" ID="ID_28400683" MODIFIED="1598578102871">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      as-&gt;urb-&gt;context = as;
+    </p>
+    <p>
+      as-&gt;urb-&gt;complete = <b>async_completed</b>; &#29992;&#20110;&#24322;&#27493;&#20449;&#21495;&#30340;&#36890;&#30693;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577659766" ID="ID_987893997" MODIFIED="1598577697722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (totlen = u = 0; u &lt; number_of_packets; u++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as-&gt;urb-&gt;iso_frame_desc[u].offset = totlen;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as-&gt;urb-&gt;iso_frame_desc[u].length = isopkt[u].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;totlen += isopkt[u].length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#37197;&#32622;packet&#25551;&#36848;&#31526;&#37324;&#38754;&#30340;buffer&#20559;&#31227;&#21644;buffer&#30340;&#38271;&#24230;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577759304" ID="ID_553151362" MODIFIED="1598577837536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;userbuffer = uurb-&gt;buffer;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;signr = uurb-&gt;signr;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;ifnum = ifnum;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;pid = get_pid(task_pid(current));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;as-&gt;cred = get_current_cred();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;security_task_getsecid(current, &amp;as-&gt;secid);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;snoop_urb(ps-&gt;dev, as-&gt;userurb, as-&gt;urb-&gt;pipe,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as-&gt;urb-&gt;transfer_buffer_length, 0, SUBMIT,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NULL, 0);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!is_in)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snoop_urb_data(as-&gt;urb, as-&gt;urb-&gt;transfer_buffer_length);
+    </p>
+    <p>
+      async_newpending(as);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000"><b>&#36825;&#37324;&#24212;&#35813;&#26159;&#20445;&#23384;&#29992;&#25143;&#23618;&#30340;buffer&#30340;&#20449;&#24687;&#65292;&#24182;&#23558;&#24322;&#27493;&#36890;&#30693;&#32467;&#26500;&#20307;&#25346;&#36215;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1598577858885" ID="ID_1113569642" MODIFIED="1598577887412">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff" face="Times New Roman">usb_submit_urb(as-&gt;urb, GFP_KERNEL)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1594862022642" FOLDED="true" ID="ID_1434387140" MODIFIED="1606875634605">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">&#20845;&#12289;libusb&#21021;&#22987;&#21270;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594862039406" FOLDED="true" ID="ID_933829204" MODIFIED="1606875371820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      libusb_context * ctx = NULL;
+    </p>
+    <p>
+      libusb_init(&amp;ctx)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594948136778" ID="ID_963042729" MODIFIED="1594949382216">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct libusb_context {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int debug;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int debug_fixed;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* internal control pipe, used for interrupting event handling when
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* something needs to modify poll fds. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int ctrl_pipe[2];
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head usb_devs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t usb_devs_lock;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* A list of open handles. Backends are free to traverse this if required.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head open_devs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t open_devs_lock;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* A list of registered hotplug callbacks */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head hotplug_cbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t hotplug_cbs_lock;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int hotplug_pipe[2];
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* this is a list of in-flight transfer handles, sorted by timeout
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* expiration. URBs to timeout the soonest are placed at the beginning of
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* the list, URBs that will time out later are placed after, and urbs with
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* infinite timeout are always placed at the very end. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head flying_transfers;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t flying_transfers_lock;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* list of poll fds */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head pollfds;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t pollfds_lock;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* a counter that is set when we want to interrupt event handling, in order
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* to modify the poll fd set. and a lock to protect it. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int pollfd_modify;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t pollfd_modify_lock;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* user callbacks for pollfd changes */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;libusb_pollfd_added_cb fd_added_cb;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;libusb_pollfd_removed_cb fd_removed_cb;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;void *fd_cb_user_data;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* ensures that only one thread is handling events at any one time */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t events_lock;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* used to see if there is an active thread doing event handling */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int event_handler_active;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* used to wait for event completion in threads other than the one that is
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* event handling */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_mutex_t event_waiters_lock;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;usbi_cond_t event_waiters_cond;
+    </p>
+    <p>
+      #ifdef USBI_TIMERFD_AVAILABLE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* used for timeout handling, if supported by OS.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;* this timerfd is maintained to trigger on the next pending timeout */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int timerfd;
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct list_head list;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594948494251" FOLDED="true" ID="ID_779919288" MODIFIED="1606875361738">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000"><b>int API_EXPORTED libusb_init(libusb_context **context)</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#30452;&#25509;&#35843;&#29992;init2
+    </p>
+    <p>
+      return libusb_init2(context, NULL)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594949980168" FOLDED="true" ID="ID_1871468800" MODIFIED="1606875357436">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35843;&#29992;&#21040;&#20989;&#25968;
+    </p>
+    <p>
+      usbi_backend-&gt;init(ctx)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594950010057" FOLDED="true" ID="ID_1351159385" MODIFIED="1606875355936">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26368;&#32456;&#35843;&#29992;&#21040;&#20989;&#25968;
+    </p>
+    <p>
+      int op_init2(struct libusb_context *ctx, const char *usbfs)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594950080426" ID="ID_1991678042" MODIFIED="1594950142178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usbfs_path = find_usbfs_path()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#23547;&#25214; /dev/bus/usb &#25110;&#32773; /proc/bus/usb&#36335;&#24452;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594950154067" ID="ID_846745312" MODIFIED="1594950196526">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#27809;&#26377;&#25214;&#21040; usbfs_path&#21017;
+    </p>
+    <p>
+      &#25171;&#21360;&#38169;&#35823;&#26085;&#24535;
+    </p>
+    <p>
+      LOGE(&quot;could not find usbfs&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594950617122" ID="ID_1852969648" MODIFIED="1594950737183">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462; stat(SYSFS_DEVICE_PATH, &amp;statbuf) &#30446;&#24405;&#19979;&#30340;&#20449;&#24687;&#65292;
+    </p>
+    <p>
+      #define SYSFS_DEVICE_PATH &quot;/sys/bus/usb/devices&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#21028;&#26029;/sys/bus/usb/devices&#19981;&#26159;&#30446;&#24405;&#65292;&#37027;&#20040;&#23601;&#30452;&#25509;&#36820;&#22238;&#38169;&#35823;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594950758018" ID="ID_1909997333" MODIFIED="1594951052992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      android_start_event_monitor()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594951081054" ID="ID_1589335295" MODIFIED="1594951096655">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;android_scan_devices(ctx)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1594973783081" FOLDED="true" ID="ID_195706654" MODIFIED="1606875358727">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>usbi_io_init(ctx)</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#65306; int usbi_io_init(struct libusb_context *ctx)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594973977090" ID="ID_1020822909" MODIFIED="1594973986865" TEXT="&#x521d;&#x59cb;&#x5316;&#x6210;&#x5458;&#x53d8;&#x91cf;&#x7684;&#x8fc7;&#x7a0b;"/>
+<node CREATED="1594974012981" FOLDED="true" ID="ID_773565792" MODIFIED="1606875354566">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>usbi_add_pollfd(ctx, ctx-&gt;ctrl_pipe[0], POLLIN)</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#65306;
+    </p>
+    <p>
+      int usbi_add_pollfd(struct libusb_context *ctx, int fd, short events)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594974125832" ID="ID_1469093963" MODIFIED="1594974128791" TEXT="struct usbi_pollfd *ipollfd = malloc(sizeof(*ipollfd))"/>
+<node CREATED="1594974140087" ID="ID_1608983265" MODIFIED="1594974160058">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ipollfd-&gt;pollfd.fd = fd
+    </p>
+    <p>
+      ipollfd-&gt;pollfd.events = events
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594974169881" ID="ID_33479973" MODIFIED="1594974171576" TEXT="list_add_tail(&amp;ipollfd-&gt;list, &amp;ctx-&gt;pollfds)"/>
+<node CREATED="1594974182047" ID="ID_485402994" MODIFIED="1594974190115">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (ctx-&gt;fd_added_cb)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ctx-&gt;fd_added_cb(fd, events, ctx-&gt;fd_cb_user_data)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1594974266480" ID="ID_1709028999" MODIFIED="1594974269614" TEXT="usbi_add_pollfd(ctx, ctx-&gt;hotplug_pipe[0], POLLIN);"/>
+<node CREATED="1594974667934" ID="ID_1836917524" MODIFIED="1594974679992">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #ifdef USBI_TIMERFD_AVAILABLE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ctx-&gt;timerfd = timerfd_create(usbi_backend-&gt;get_timerfd_clockid(),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;TFD_NONBLOCK);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (UNLIKELY(ctx-&gt;timerfd &gt;= 0)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;usbi_dbg(&quot;using timerfd for timeouts&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;r = usbi_add_pollfd(ctx, ctx-&gt;timerfd, POLLIN);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (UNLIKELY(r &lt; 0)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;usbi_remove_pollfd(ctx, ctx-&gt;ctrl_pipe[0]);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;close(ctx-&gt;timerfd);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;goto err_close_hp_pipe;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;usbi_dbg(&quot;timerfd not available (code %d error %d)&quot;, ctx-&gt;timerfd, errno);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ctx-&gt;timerfd = -1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      #endif
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1594951805387" FOLDED="true" ID="ID_1317092908" MODIFIED="1606875364229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ssize_t list_size = libusb_get_device_list(ctx, &amp;device_list)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#65306;
+    </p>
+    <p>
+      ssize_t API_EXPORTED libusb_get_device_list(libusb_context *ctx,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;libusb_device ***list)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      android_usbfs_backend
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1594952089493" ID="ID_631290739" MODIFIED="1594952105574">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct discovered_devs *discdevs = discovered_devs_alloc()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1594952108628" ID="ID_1665579777" MODIFIED="1594952132122">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct libusb_device **ret
+    </p>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1595819321448" FOLDED="true" ID="ID_1585755281" MODIFIED="1606875369120">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">static int submit_bulk_transfer(struct usbi_transfer *itransfer)</font></b>
+    </p>
+    <p>
+      &#20989;&#25968;&#20998;&#26512;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595819473403" ID="ID_10772700" MODIFIED="1595819497696">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct libusb_transfer *transfer
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= USBI_TRANSFER_TO_LIBUSB_TRANSFER(itransfer)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595819511291" ID="ID_1262947123" MODIFIED="1595819632899">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct android_transfer_priv *tpriv = usbi_transfer_get_os_priv(itransfer);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      struct android_transfer_priv {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;union {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usbfs_urb *urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct usbfs_urb **iso_urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum reap_action reap_action;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_urbs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_retired;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;enum libusb_transfer_status reap_status;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;/* next iso packet in user-supplied transfer to be populated */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int iso_packet_offset;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595819923572" ID="ID_485875071" MODIFIED="1595820000375">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><b>struct android_device_handle_priv {</b></i>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int fd;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;uint32_t caps;
+    </p>
+    <p>
+      <i><b>}; </b></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <i><font color="#ff0000">struct android_device_handle_priv *dpriv </font></i>
+    </p>
+    <p>
+      <i><font color="#ff0000">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= _device_handle_priv(transfer-&gt;dev_handle)</font></i>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1595821470862" FOLDED="true" ID="ID_572303588" MODIFIED="1606875367400">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct usbfs_urb {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      unsigned char type;
+    </p>
+    <p>
+      unsigned char endpoint;
+    </p>
+    <p>
+      int status;
+    </p>
+    <p>
+      unsigned int flags;
+    </p>
+    <p>
+      void *buffer;
+    </p>
+    <p>
+      int buffer_length;
+    </p>
+    <p>
+      int actual_length;
+    </p>
+    <p>
+      int start_frame;
+    </p>
+    <p>
+      union {
+    </p>
+    <p>
+      int number_of_packets;&#160;&#160;/* Only used for isoc urbs */
+    </p>
+    <p>
+      unsigned int stream_id; /* Only used with bulk streams */
+    </p>
+    <p>
+      }&#65307;
+    </p>
+    <p>
+      int error_count;
+    </p>
+    <p>
+      unsigned int signr;
+    </p>
+    <p>
+      &#160;void *usercontext;
+    </p>
+    <p>
+      struct usbfs_iso_packet_desc iso_frame_desc[0];
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1595830548971" ID="ID_1969340991" MODIFIED="1595830586434">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">struct usbdevfs_urb {</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char type;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned char endpoint;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int status;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int flags;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;void __user *buffer;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int buffer_length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int actual_length;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int start_frame;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;union {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int number_of_packets;&#160;&#160;/* Only used for isoc urbs */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int stream_id; /* Only used with bulk streams */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int error_count;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int signr; /* signal to be sent on completion,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;or 0 if none should be sent. */
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;void __user *usercontext;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct usbdevfs_iso_packet_desc iso_frame_desc[0];
+    </p>
+    <p>
+      <font color="#0000ff">};</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1583807347078" FOLDED="true" ID="ID_1782104180" MODIFIED="1608029100878">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22539,7 +26258,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1583811492711" FOLDED="true" ID="ID_1770181570" MODIFIED="1602667553714" TEXT="&#x63a5;&#x53e3;&#x7269;&#x7406;Pin&#x5b9a;&#x4e49;">
+<node CREATED="1583811492711" FOLDED="true" ID="ID_1770181570" MODIFIED="1607995019207" TEXT="&#x63a5;&#x53e3;&#x7269;&#x7406;Pin&#x5b9a;&#x4e49;">
 <node CREATED="1583811504680" FOLDED="true" ID="ID_417028225" MODIFIED="1597301956353">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -22611,9 +26330,645 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1607995027720" FOLDED="true" ID="ID_787301087" MODIFIED="1608029097430">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" color="#0033ff" size="4"><b>RK3399Pro usb type-c&#20195;&#30721;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1607995093698" FOLDED="true" ID="ID_283966444" MODIFIED="1608029095681">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fusb&#39537;&#21160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fusb&#26159;&#19968;&#20010;&#20855;&#26377;PD&#21327;&#35758;&#25903;&#25345;&#21644;usb3.0&#25509;&#21475;switch&#30340;&#25511;&#21046;&#33455;&#29255;&#65292;
+    </p>
+    <p>
+      fusb&#36890;&#36807;I2C&#25509;&#21475;&#23454;&#29616;&#36319;soc&#30340;&#36890;&#35759;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1607995232497" ID="ID_1654101786" MODIFIED="1607995452350">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i><font size="4" face="Times New Roman">static struct i2c_driver fusb30x_driver = { </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;.driver = { </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.name = FUSB30X_I2C_DRIVER_NAME, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.of_match_table = of_match_ptr(fusb30x_dt_match), </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.pm = &amp;fusb30x_pm_ops, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;}, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;.probe = fusb30x_probe, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;.remove = fusb30x_remove, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;.shutdown = fusb30x_shutdown, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;.id_table = fusb30x_i2c_device_id, </font></i>
+    </p>
+    <p>
+      <i><font size="4" face="Times New Roman">};</font></i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static const struct i2c_device_id fusb30x_i2c_device_id[] = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ FUSB30X_I2C_DRIVER_NAME, 0 },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{}
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      #define FUSB30X_I2C_DRIVER_NAME&#160;&#160;&#160;&#160;&#160;&quot;fusb302&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1607995663627" FOLDED="true" ID="ID_557318073" MODIFIED="1608029091849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static int fusb30x_probe(struct i2c_client *client, const struct i2c_device_id *id)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1607996874012" ID="ID_578629411" MODIFIED="1607997833746">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+    <p>
+      struct fusb30x_chip *chip; chip&#37324;&#38754;&#20445;&#23384;&#20102;fusb&#30340;&#29366;&#24577;&#20449;&#24687;&#12289;&#25511;&#21046;&#20449;&#24687;&#31561;&#31561;
+    </p>
+    <p>
+      struct PD_CAP_INFO *pd_cap_info; PD&#33021;&#21147;&#30340;&#32467;&#26500;&#20307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21160;&#24577;&#20998;&#37197;&#23545;&#24212;&#30340;&#21464;&#37327;
+    </p>
+    <p>
+      chip = devm_kzalloc(&amp;client-&gt;dev, sizeof(*chip), GFP_KERNEL);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;port_num = fusb30x_port_used++ &#32473;&#24403;&#21069;&#30340;fusb&#33455;&#29255;&#35774;&#32622;&#19968;&#20010;&#32534;&#21495;
+    </p>
+    <p>
+      fusb30x_port_info[chip-&gt;port_num] = chip; &#23558;fusb chip&#20445;&#23384;&#21040;&#19968;&#20010;&#20840;&#23616;&#25968;&#25454;&#37324;&#38754;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;dev = &amp;client-&gt;dev;
+    </p>
+    <p>
+      chip-&gt;regmap = devm_regmap_init_i2c(client, &amp;fusb302_regmap_config);&#160; i2c&#25805;&#20316;&#26144;&#23556;&#21040;regmap ?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1607997902218" ID="ID_1191861387" MODIFIED="1607998227113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = fusb_initialize_gpio(chip);&#160;&#160;gpio&#30340;&#21021;&#22987;&#21270;
+    </p>
+    <p>
+      fusb_initialize_timer(chip); &#20869;&#37096;&#23450;&#26102;&#22120;&#21021;&#22987;&#21270;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;fusb30x_wq = create_workqueue(&quot;fusb302_wq&quot;);
+    </p>
+    <p>
+      INIT_WORK(&amp;chip-&gt;work, fusb302_work_func);&#35813;work&#20989;&#25968;&#30340;&#20027;&#35201;&#20316;&#29992;&#23601;&#26159;&#22788;&#29702;type-c&#30340;&#29366;&#24577;&#36716;&#25442;&#65292;
+    </p>
+    <p>
+      &#35813;work&#26368;&#32456;&#20250;&#35843;&#29992;&#21040;&#20989;&#25968;void state_machine_typec(struct fusb30x_chip *chip)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1607998285857" ID="ID_74000004" MODIFIED="1607998490641">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;fusb&#30340;role&#23646;&#24615;&#65292;&#35813;&#23646;&#24615;&#21487;&#20197;&#22312;dts&#30340; fusb302,role&#23646;&#24615;&#37324;&#38754;&#36827;&#34892;&#25351;&#23450;&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#27809;&#26377;&#25351;&#23450;&#65292;&#37027;&#20040;&#20250;&#35774;&#32622;role&#23646;&#24615;&#20026;ROLE_MODE_DRP
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35774;&#32622;fusb&#30340;try_role&#23646;&#24615;&#65292;&#22312;dts&#30340;fusb302,try_role&#23646;&#24615;&#37324;&#38754;&#21487;&#20197;&#25351;&#23450;&#65292;
+    </p>
+    <p>
+      &#22914;&#26524;&#27809;&#26377;&#25351;&#23450;&#65292;&#37027;&#20040;&#40664;&#35748;&#35774;&#32622;&#30340;role&#23646;&#24615;&#26159;ROLE_MODE_NONE
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1607999033378" ID="ID_1526803579" MODIFIED="1607999215758">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;fusb32&#30340;&#21021;&#22987;&#21270;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;vconn_supported = true;&#160;&#160;&#26159;&#21542;&#25903;&#25345;vconn
+    </p>
+    <p>
+      tcpm_init(chip); &#23492;&#23384;&#22120;&#37197;&#32622;&#21021;&#22987;&#21270;
+    </p>
+    <p>
+      tcpm_set_rx_enable(chip, 0);
+    </p>
+    <p>
+      chip-&gt;conn_state = unattached; &#35774;&#32622;conn&#29366;&#24577;
+    </p>
+    <p>
+      tcpm_set_cc(chip, chip-&gt;role); &#35774;&#32622;CC&#33050;&#30340;role
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;n_caps_used = 1;
+    </p>
+    <p>
+      chip-&gt;source_power_supply[0] = 0x64;
+    </p>
+    <p>
+      chip-&gt;source_max_current[0] = 0x96;&#160;&#160;&#35774;&#32622;&#26368;&#22823;&#30340;&#30005;&#27969;&#21644;&#26368;&#22823;&#30340;&#30005;&#21387;&#65311;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#33719;&#21462;PD CAP&#32467;&#26500;&#20307;&#25351;&#38024;&#65292;&#28982;&#21518;&#36827;&#34892;&#37197;&#32622;
+    </p>
+    <p>
+      &#160;&#160;&#160;pd_cap_info = &amp;chip-&gt;pd_cap_info;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;dual_role_power = 1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;data_role_swap = 1;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;externally_powered = 1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;usb_suspend_support = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;usb_communications_cap = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;supply_type = 0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pd_cap_info-&gt;peak_current = 0;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608001411515" ID="ID_100167107" MODIFIED="1608002743136">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000"><b>chip-&gt;extcon = devm_extcon_dev_allocate(&amp;client-&gt;dev, fusb302_cable); </b></font>
+    </p>
+    <p>
+      <font color="#ff0000"><b>ret = devm_extcon_dev_register(&amp;client-&gt;dev, chip-&gt;extcon);</b></font>
+    </p>
+    <p>
+      &#20998;&#37197;extcon&#24182;&#36827;&#34892;&#27880;&#20876;&#65292;&#20854;&#20182;&#30340;usb&#32452;&#20214;&#27604;&#22914;dwc3/usbphy&#31561;&#20250;&#24341;&#29992;&#21040;&#36825;&#37324;&#20998;&#37197;&#30340;
+    </p>
+    <p>
+      extcon
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608003351530" ID="ID_202901780" MODIFIED="1608003619478">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fusb&#39537;&#21160;&#24320;&#22987;&#23545;extcon&#35774;&#22791;&#35774;&#32622;&#25903;&#25345;&#30340;&#23646;&#24615;
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_USB,EXTCON_PROP_USB_TYPEC_POLARITY)
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_USB_HOST,EXTCON_PROP_USB_TYPEC_POLARITY)
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_DISP_DP,EXTCON_PROP_USB_TYPEC_POLARITY)
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_USB,EXTCON_PROP_USB_SS)
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_USB_HOST,EXTCON_PROP_USB_SS)
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_DISP_DP,EXTCON_PROP_USB_SS)
+    </p>
+    <p>
+      extcon_set_property_capability(chip-&gt;extcon, EXTCON_CHG_USB_FAST,EXTCON_PROP_USB_TYPEC_POLARITY)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#30475;&#21040;&#24403;&#21069;fusb&#25903;&#25345;host, dp, charge&#31561;&#23646;&#24615;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608003678132" ID="ID_73977717" MODIFIED="1608003750843">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;CC&#33050;&#30340;&#20013;&#26029;&#22788;&#29702;&#20989;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;enable_irq = 1;
+    </p>
+    <p>
+      chip-&gt;gpio_int_irq = gpiod_to_irq(chip-&gt;gpio_int);
+    </p>
+    <p>
+      ret = devm_request_threaded_irq(&amp;client-&gt;dev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;chip-&gt;gpio_int_irq,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NULL,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cc_interrupt_handler,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;IRQF_ONESHOT | IRQF_TRIGGER_LOW,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;client-&gt;name,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;chip);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608009289524" ID="ID_1514072092" MODIFIED="1608009341720">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#37197;&#21644;&#27880;&#20876;&#19968;&#20010;input&#35774;&#22791;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      chip-&gt;input = devm_input_allocate_device(&amp;client-&gt;dev)
+    </p>
+    <p>
+      input_set_capability(chip-&gt;input, EV_SW, SW_HEADPHONE_INSERT);
+    </p>
+    <p>
+      ret = input_register_device(chip-&gt;input);
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1475896151069" ID="ID_1362020755" MODIFIED="1605836369275" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+</node>
+<node CREATED="1608009925099" FOLDED="true" ID="ID_1135800303" MODIFIED="1608029088377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;DTS&#37197;&#32622;&#25991;&#20214;&#37324;&#38754;&#65292;&#21487;&#20197;&#30475;&#21040;usb0&#65292;dp, usb2-phy@e450,&#160; phy@ff7c0000(rockchip,rk3399-typec-phy)
+    </p>
+    <p>
+      &#31561;node&#23450;&#20041;&#37324;&#38754;&#37117;&#20351;&#29992;extcon&#23646;&#24615;&#24341;&#29992;&#21040;fusb&#35774;&#22791;&#37324;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1608012741098" FOLDED="true" ID="ID_882355794" MODIFIED="1608029085273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#26512;&#19968;&#19979;DWC3&#39537;&#21160;&#31243;&#24207;
+    </p>
+    <p>
+      DTS&#22914;&#19979;
+    </p>
+    <p>
+      usb0 {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;compatible = &quot;rockchip,rk3399-dwc3&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clocks = &lt;0x8 0x81 0x8 0x83 0x8 0xf6 0x8 0xf9&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clock-names = &quot;ref_clk&quot;, &quot;suspend_clk&quot;, &quot;bus_clk&quot;, &quot;grf_clk&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;power-domains = &lt;0x15 0x18&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;resets = &lt;0x8 0x125&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reset-names = &quot;usb3-otg&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#address-cells = &lt;0x2&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;#size-cells = &lt;0x2&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ranges;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;status = &quot;okay&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;extcon = &lt;0x27&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phandle = &lt;0xf2&gt;;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dwc3@fe800000 {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;compatible = &quot;snps,dwc3&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reg = &lt;0x0 0xfe800000 0x0 0x100000&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;interrupts = &lt;0x0 0x69 0x4 0x0&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dr_mode = &quot;otg&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phys = &lt;0x28 0x29&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phy-names = &quot;usb2-phy&quot;, &quot;usb3-phy&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phy_type = &quot;utmi_wide&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,dis_enblslpm_quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,dis-u2-freeclk-exists-quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,dis_u2_susphy_quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,dis-del-phy-power-chg-quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,tx-ipgap-linecheck-dis-quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,xhci-slow-suspend-quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,xhci-trb-ent-quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;snps,usb3-warm-reset-on-resume-quirk;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;status = &quot;okay&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phandle = &lt;0xf3&gt;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;};
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1608012892477" FOLDED="true" ID="ID_1549732485" MODIFIED="1608029083848">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39537;&#21160;&#25991;&#20214;
+    </p>
+    <p>
+      dwc3-rockchip.c
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>int dwc3_rockchip_probe(struct platform_device *pdev)</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1608014969847" ID="ID_805876216" MODIFIED="1608015013524">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+    <p>
+      struct dwc3_rockchip&#160;&#160;&#160;&#160;*rockchip;
+    </p>
+    <p>
+      struct device&#160;&#160;&#160;&#160;&#160;&#160;&#160;*dev = &amp;pdev-&gt;dev;
+    </p>
+    <p>
+      struct device_node&#160;&#160;*np = dev-&gt;of_node, *child;
+    </p>
+    <p>
+      struct platform_device&#160;&#160;*child_pdev;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608015637920" ID="ID_1980295780" MODIFIED="1608015672670">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      rockchip = devm_kzalloc(dev, sizeof(*rockchip), GFP_KERNEL)
+    </p>
+    <p>
+      &#21160;&#24577;&#20998;&#37197;&#19968;&#20010;dwc3_rockchip&#32467;&#26500;&#20307;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608015762456" ID="ID_71802179" MODIFIED="1608015857033">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      count = of_clk_get_parent_count(np);
+    </p>
+    <p>
+      rockchip-&gt;num_clocks = count;
+    </p>
+    <p>
+      rockchip-&gt;clks = devm_kcalloc(dev, rockchip-&gt;num_clocks,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sizeof(struct clk *), GFP_KERNEL);
+    </p>
+    <p>
+      &#33719;&#21462;clock&#32467;&#26500;&#20307;&#30340;&#20010;&#25968;&#65292;&#24182;&#36827;&#34892;&#20998;&#37197;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1606815168770" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1499823186488">
 <richcontent TYPE="NODE"><html>
@@ -25037,7 +29392,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1574904170276" POSITION="right">
+<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1606815176750" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -25863,7 +30218,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1526982556400" FOLDED="true" ID="ID_1183321409" MODIFIED="1565876754793">
+<node CREATED="1526982556400" FOLDED="true" ID="ID_1183321409" MODIFIED="1606726709909">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -25874,7 +30229,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1526982612255" FOLDED="true" ID="ID_1999652857" MODIFIED="1560958817523">
+<node CREATED="1526982612255" FOLDED="true" ID="ID_1999652857" MODIFIED="1606726702414">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -25966,7 +30321,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1527037455543" FOLDED="true" ID="ID_1330730680" MODIFIED="1560958813740">
+<node CREATED="1527037455543" FOLDED="true" ID="ID_1330730680" MODIFIED="1606726700574">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26827,7 +31182,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1527438533422" FOLDED="true" ID="ID_479532865" MODIFIED="1565876751058">
+<node CREATED="1527438533422" FOLDED="true" ID="ID_479532865" MODIFIED="1606726705792">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26871,7 +31226,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1527439322940" FOLDED="true" ID="ID_869037579" MODIFIED="1565876748970">
+<node CREATED="1527439322940" FOLDED="true" ID="ID_869037579" MODIFIED="1606726679446">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26932,9 +31287,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1527438056185" FOLDED="true" ID="ID_1287158666" MODIFIED="1560959129799" TEXT="exynos4412-tiny4412.dts">
-<node CREATED="1527438077753" FOLDED="true" ID="ID_570890239" MODIFIED="1560958784125" TEXT="exynos4412.dtsi">
-<node CREATED="1527438133984" FOLDED="true" ID="ID_526516202" MODIFIED="1560958783173" TEXT="exynos4x12.dtsi">
+<node CREATED="1527438056185" FOLDED="true" ID="ID_1287158666" MODIFIED="1606726661243" TEXT="exynos4412-tiny4412.dts">
+<node CREATED="1527438077753" FOLDED="true" ID="ID_570890239" MODIFIED="1606726660299" TEXT="exynos4412.dtsi">
+<node CREATED="1527438133984" FOLDED="true" ID="ID_526516202" MODIFIED="1606726659467" TEXT="exynos4x12.dtsi">
 <node CREATED="1527438181616" ID="ID_1955911794" MODIFIED="1527438184657" TEXT="exynos4.dtsi"/>
 <node CREATED="1527438194447" ID="ID_343176907" MODIFIED="1527438197549" TEXT="exynos4x12-pinctrl.dtsi"/>
 <node CREATED="1527438206776" ID="ID_1382222382" MODIFIED="1527438209750" TEXT="exynos4-cpu-thermal.dtsi"/>
@@ -28207,7 +32562,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1549436130563" FOLDED="true" ID="ID_1537632362" MODIFIED="1565876756945">
+<node CREATED="1549436130563" FOLDED="true" ID="ID_1537632362" MODIFIED="1606726635904">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -28340,7 +32695,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1558858641903" FOLDED="true" ID="ID_371132443" MODIFIED="1565876669963" TEXT="&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x6570;&#x636e;&#x7ed3;&#x6784;">
+<node CREATED="1558858641903" FOLDED="true" ID="ID_371132443" MODIFIED="1606726632393" TEXT="&#x4e2d;&#x65ad;&#x63cf;&#x8ff0;&#x7b26;&#x6570;&#x636e;&#x7ed3;&#x6784;">
 <node CREATED="1558859417555" ID="ID_607233017" MODIFIED="1558859582312">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31290,9 +35645,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1476668428013" ID="ID_791715704" MODIFIED="1605836394875" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1606725958022" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1476668469784" ID="ID_960888638" MODIFIED="1476858086791">
+<node CREATED="1476668469784" FOLDED="true" ID="ID_960888638" MODIFIED="1606725950341">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31425,7 +35780,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1476675499214" ID="ID_1767615288" MODIFIED="1476944116031">
+<node CREATED="1476675499214" FOLDED="true" ID="ID_1767615288" MODIFIED="1606725956310">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31654,7 +36009,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1593323605679" ID="ID_891977020" MODIFIED="1605836380010" POSITION="right">
+<node CREATED="1593323605679" FOLDED="true" ID="ID_891977020" MODIFIED="1606726577531" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31665,7 +36020,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1593325431678" ID="ID_604949934" MODIFIED="1605836383653" TEXT="&#x63a5;&#x53e3;&#x5206;&#x7c7b;">
+<node CREATED="1593325431678" FOLDED="true" ID="ID_604949934" MODIFIED="1606726576586" TEXT="&#x63a5;&#x53e3;&#x5206;&#x7c7b;">
 <node CREATED="1593325492175" ID="ID_782112214" MODIFIED="1593325518013">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31678,7 +36033,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477535464680" FOLDED="true" ID="ID_1619933124" MODIFIED="1494857712531" POSITION="left">
+<node CREATED="1477535464680" FOLDED="true" ID="ID_1619933124" MODIFIED="1607994848554" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31690,7 +36045,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1477535558438" FOLDED="true" ID="ID_756977671" MODIFIED="1494857711219">
+<node CREATED="1477535558438" FOLDED="true" ID="ID_756977671" MODIFIED="1607994847543">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31699,7 +36054,7 @@
     <img src="i2c/i2c&#x603b;&#x7ebf;&#x9a71;&#x52a8;&#x6846;&#x67b6;.jpg"/>
   </body>
 </html></richcontent>
-<node CREATED="1477539857560" FOLDED="true" ID="ID_1947968621" MODIFIED="1494857709611">
+<node CREATED="1477539857560" FOLDED="true" ID="ID_1947968621" MODIFIED="1607994846611">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31719,7 +36074,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477540091348" FOLDED="true" ID="ID_336523858" MODIFIED="1494857708667">
+<node CREATED="1477540091348" FOLDED="true" ID="ID_336523858" MODIFIED="1607994845487">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31809,7 +36164,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1477535857422" FOLDED="true" ID="ID_412001047" MODIFIED="1494857706819">
+<node CREATED="1477535857422" FOLDED="true" ID="ID_412001047" MODIFIED="1607994843497">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31853,7 +36208,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478507869697" FOLDED="true" ID="ID_1052998927" MODIFIED="1494857705315">
+<node CREATED="1478507869697" FOLDED="true" ID="ID_1052998927" MODIFIED="1607994842000">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31948,7 +36303,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477536290853" FOLDED="true" ID="ID_813056693" MODIFIED="1494857701580">
+<node CREATED="1477536290853" FOLDED="true" ID="ID_813056693" MODIFIED="1607994840200">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32097,7 +36452,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1478510896716" FOLDED="true" ID="ID_1531819648" MODIFIED="1494857700380">
+<node CREATED="1478510896716" FOLDED="true" ID="ID_1531819648" MODIFIED="1607994837958">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32143,8 +36498,23 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1606963665984" ID="ID_948974005" MODIFIED="1606963692602">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27604;&#36739;&#22909;&#30340;&#31034;&#20363;&#20195;&#30721;
+    </p>
+    <p>
+      drivers/nfc/nq-nci.c/
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1589521723196" POSITION="right">
+</node>
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1608029177531" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32156,7 +36526,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1589521719784">
+<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1608029176369">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32173,7 +36543,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477562530567" FOLDED="true" ID="ID_1185698741" MODIFIED="1589521656502">
+<node CREATED="1477562530567" FOLDED="true" ID="ID_1185698741" MODIFIED="1608029118433">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32190,7 +36560,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1510281116295" FOLDED="true" ID="ID_1321144553" MODIFIED="1589521655503" TEXT="arm&#x6c47;&#x7f16;&#x542f;&#x52a8;&#x4ee3;&#x7801;head.S&#x5206;&#x6790;">
+<node CREATED="1510281116295" FOLDED="true" ID="ID_1321144553" MODIFIED="1608029117364" TEXT="arm&#x6c47;&#x7f16;&#x542f;&#x52a8;&#x4ee3;&#x7801;head.S&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1510281137672" ID="ID_792455536" MODIFIED="1526950026013">
 <richcontent TYPE="NODE"><html>
@@ -32231,7 +36601,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1510283664616" FOLDED="true" ID="ID_1255147973" MODIFIED="1589521652103">
+<node CREATED="1510283664616" FOLDED="true" ID="ID_1255147973" MODIFIED="1608029115793">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32323,7 +36693,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1510285114648" FOLDED="true" ID="ID_1835962005" MODIFIED="1589521649072">
+<node CREATED="1510285114648" FOLDED="true" ID="ID_1835962005" MODIFIED="1608029112074">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32696,7 +37066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477562929718" FOLDED="true" ID="ID_1744590774" MODIFIED="1589521711867">
+<node CREATED="1477562929718" FOLDED="true" ID="ID_1744590774" MODIFIED="1608029170673">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32719,7 +37089,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477566851078" FOLDED="true" ID="ID_788490843" MODIFIED="1589521708900">
+<node CREATED="1477566851078" FOLDED="true" ID="ID_788490843" MODIFIED="1608029169345">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32736,7 +37106,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477571268884" FOLDED="true" ID="ID_692268297" MODIFIED="1589521707631">
+<node CREATED="1477571268884" FOLDED="true" ID="ID_692268297" MODIFIED="1608029168146">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32796,7 +37166,7 @@
   </body>
 </html></richcontent>
 <linktarget COLOR="#e30707" DESTINATION="ID_692268297" ENDARROW="Default" ENDINCLINATION="450;0;" ID="Arrow_ID_1021825940" SOURCE="ID_464431570" STARTARROW="None" STARTINCLINATION="450;0;"/>
-<node CREATED="1477633886966" FOLDED="true" ID="ID_116811326" MODIFIED="1589521704574">
+<node CREATED="1477633886966" FOLDED="true" ID="ID_116811326" MODIFIED="1608029163729">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32807,7 +37177,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477633925331" FOLDED="true" ID="ID_129454721" MODIFIED="1589521703391">
+<node CREATED="1477633925331" FOLDED="true" ID="ID_129454721" MODIFIED="1608029162737">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32827,7 +37197,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477634043546" FOLDED="true" ID="ID_916596600" MODIFIED="1589521700280">
+<node CREATED="1477634043546" FOLDED="true" ID="ID_916596600" MODIFIED="1608029159201">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32877,7 +37247,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1478504550499" FOLDED="true" ID="ID_494599611" MODIFIED="1589521699001">
+<node CREATED="1478504550499" FOLDED="true" ID="ID_494599611" MODIFIED="1608029157650">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32966,7 +37336,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1527390042697" FOLDED="true" ID="ID_562202546" MODIFIED="1589521695871">
+<node CREATED="1527390042697" FOLDED="true" ID="ID_562202546" MODIFIED="1608029154801">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33019,7 +37389,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1527390446136" FOLDED="true" ID="ID_722230684" MODIFIED="1589521694718">
+<node CREATED="1527390446136" FOLDED="true" ID="ID_722230684" MODIFIED="1608029153185">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33070,7 +37440,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1527391798464" ID="ID_1413321011" MODIFIED="1527391803141" TEXT="of_irq_parse_one(dev, index, &amp;oirq)"/>
-<node CREATED="1527391815264" FOLDED="true" ID="ID_670703921" MODIFIED="1589521689414">
+<node CREATED="1527391815264" FOLDED="true" ID="ID_670703921" MODIFIED="1608029151882">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33102,7 +37472,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1527392033982" FOLDED="true" ID="ID_1255997388" MODIFIED="1589521688199">
+<node CREATED="1527392033982" FOLDED="true" ID="ID_1255997388" MODIFIED="1608029148753">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33156,7 +37526,7 @@
 </html></richcontent>
 <arrowlink COLOR="#da1919" DESTINATION="ID_1021508160" ENDARROW="Default" ENDINCLINATION="2457;0;" ID="Arrow_ID_887632958" STARTARROW="None" STARTINCLINATION="-303;-86;"/>
 </node>
-<node CREATED="1527394539557" FOLDED="true" ID="ID_155513541" MODIFIED="1589521686999">
+<node CREATED="1527394539557" FOLDED="true" ID="ID_155513541" MODIFIED="1608029147377">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33226,7 +37596,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1527411125344" FOLDED="true" ID="ID_409779998" MODIFIED="1589521684785">
+<node CREATED="1527411125344" FOLDED="true" ID="ID_409779998" MODIFIED="1608029145489">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33318,7 +37688,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1527411431319" FOLDED="true" ID="ID_110680569" MODIFIED="1589521681345">
+<node CREATED="1527411431319" FOLDED="true" ID="ID_110680569" MODIFIED="1608029141816">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33362,7 +37732,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1527411965790" FOLDED="true" ID="ID_1301998201" MODIFIED="1589521680175">
+<node CREATED="1527411965790" FOLDED="true" ID="ID_1301998201" MODIFIED="1608029140320">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33445,7 +37815,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1527425227723" FOLDED="true" ID="ID_731074720" MODIFIED="1589521678963">
+<node CREATED="1527425227723" FOLDED="true" ID="ID_731074720" MODIFIED="1608029138514">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33516,7 +37886,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1527425892815" FOLDED="true" ID="ID_1125790496" MODIFIED="1589521676998">
+<node CREATED="1527425892815" FOLDED="true" ID="ID_1125790496" MODIFIED="1608029136738">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33533,7 +37903,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1527436344554" FOLDED="true" ID="ID_1793058367" MODIFIED="1589521675967">
+<node CREATED="1527436344554" FOLDED="true" ID="ID_1793058367" MODIFIED="1608029135465">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33587,7 +37957,7 @@
 </html></richcontent>
 <linktarget COLOR="#2d0de3" DESTINATION="ID_1654939506" ENDARROW="None" ENDINCLINATION="-1557;-56;" ID="Arrow_ID_976223014" SOURCE="ID_155513541" STARTARROW="None" STARTINCLINATION="-236;265;"/>
 </node>
-<node CREATED="1527437196531" FOLDED="true" ID="ID_1554333839" MODIFIED="1589521673039">
+<node CREATED="1527437196531" FOLDED="true" ID="ID_1554333839" MODIFIED="1608029131889">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33727,7 +38097,7 @@
 </html></richcontent>
 <arrowlink COLOR="#3a1cf1" DESTINATION="ID_596485602" ENDARROW="None" ENDINCLINATION="5684;0;" ID="Arrow_ID_1382277748" STARTARROW="None" STARTINCLINATION="3111;0;"/>
 </node>
-<node CREATED="1550935961929" FOLDED="true" ID="ID_966206397" MODIFIED="1589521670589" TEXT="&#x5982;&#x679c;hw&#x5c0f;&#x4e8e;32,&#x505a;&#x5982;&#x4e0b;&#x7684;&#x5904;&#x7406;">
+<node CREATED="1550935961929" FOLDED="true" ID="ID_966206397" MODIFIED="1608029129121" TEXT="&#x5982;&#x679c;hw&#x5c0f;&#x4e8e;32,&#x505a;&#x5982;&#x4e0b;&#x7684;&#x5904;&#x7406;">
 <node CREATED="1550936361415" ID="ID_1067300400" MODIFIED="1551002325191">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -33758,7 +38128,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1551013116139" FOLDED="true" ID="ID_238080196" MODIFIED="1589521669408">
+<node CREATED="1551013116139" FOLDED="true" ID="ID_238080196" MODIFIED="1608029128139">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33864,7 +38234,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1550935994064" FOLDED="true" ID="ID_1863493860" MODIFIED="1589521671941" TEXT="&#x5982;&#x679c;hw&#x5927;&#x4e8e;&#x6216;&#x8005;&#x7b49;&#x4e8e;32,&#x505a;&#x5982;&#x4e0b;&#x7684;&#x5904;&#x7406;">
+<node CREATED="1550935994064" FOLDED="true" ID="ID_1863493860" MODIFIED="1608029130460" TEXT="&#x5982;&#x679c;hw&#x5927;&#x4e8e;&#x6216;&#x8005;&#x7b49;&#x4e8e;32,&#x505a;&#x5982;&#x4e0b;&#x7684;&#x5904;&#x7406;">
 <node CREATED="1558766680832" ID="ID_1693166322" MODIFIED="1558786869064">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -34030,7 +38400,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1477572744234" FOLDED="true" ID="ID_39425452" MODIFIED="1589521717189">
+<node CREATED="1477572744234" FOLDED="true" ID="ID_39425452" MODIFIED="1608029173018">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34044,7 +38414,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477573129745" FOLDED="true" ID="ID_1218217887" MODIFIED="1589521716223">
+<node CREATED="1477573129745" FOLDED="true" ID="ID_1218217887" MODIFIED="1608029171785">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34742,7 +39112,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1507710894174" ID="ID_1625658650" MODIFIED="1597390453600" POSITION="right" TEXT="Linux&#x5185;&#x6838;&#x540c;&#x6b65;&#x673a;&#x5236;">
+<node CREATED="1507710894174" FOLDED="true" ID="ID_1625658650" MODIFIED="1606726585589" POSITION="right" TEXT="Linux&#x5185;&#x6838;&#x540c;&#x6b65;&#x673a;&#x5236;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1507710929974" FOLDED="true" ID="ID_1048425563" MODIFIED="1560958881140">
 <richcontent TYPE="NODE"><html>
@@ -34803,7 +39173,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1597390461317" ID="ID_1928854544" MODIFIED="1597390487009">
+<node CREATED="1597390461317" FOLDED="true" ID="ID_1928854544" MODIFIED="1606726584007">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34814,7 +39184,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1597390493532" ID="ID_1278696353" MODIFIED="1597390525810">
+<node CREATED="1597390493532" FOLDED="true" ID="ID_1278696353" MODIFIED="1606726582275">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34825,7 +39195,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1597394704318" ID="ID_1803389763" MODIFIED="1597394711299" TEXT="RCU Tunning">
+<node CREATED="1597394704318" FOLDED="true" ID="ID_1803389763" MODIFIED="1606726581235" TEXT="RCU Tunning">
 <node CREATED="1597395022648" ID="ID_47845189" MODIFIED="1597396557623">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -34850,7 +39220,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597391262326" ID="ID_1417197229" MODIFIED="1597391267356" TEXT="&#x57fa;&#x7840;&#x6982;&#x5ff5;&#x4ecb;&#x7ecd;">
+<node CREATED="1597391262326" FOLDED="true" ID="ID_1417197229" MODIFIED="1606726583116" TEXT="&#x57fa;&#x7840;&#x6982;&#x5ff5;&#x4ecb;&#x7ecd;">
 <node CREATED="1597391271226" ID="ID_1403713094" MODIFIED="1597391293598">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -34869,7 +39239,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525417026735" ID="ID_1643189755" MODIFIED="1598767327128" POSITION="right">
+<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1606726594646" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34881,7 +39251,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1525417048563" ID="ID_1100947911" MODIFIED="1587007675242">
+<node CREATED="1525417048563" FOLDED="true" ID="ID_1100947911" MODIFIED="1606726593701">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34892,7 +39262,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1525417063873" FOLDED="true" ID="ID_1881762748" MODIFIED="1600061129513" TEXT="oom">
+<node CREATED="1525417063873" FOLDED="true" ID="ID_1881762748" MODIFIED="1606726592982" TEXT="oom">
 <node CREATED="1525417077331" ID="ID_1584542646" MODIFIED="1525417190248">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -35632,7 +40002,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1600061132753" ID="ID_1401851961" MODIFIED="1600061140794" TEXT="&#x53c2;&#x8003;&#x7f51;&#x7ad9;">
+<node CREATED="1600061132753" FOLDED="true" ID="ID_1401851961" MODIFIED="1606726589629" TEXT="&#x53c2;&#x8003;&#x7f51;&#x7ad9;">
 <node CREATED="1600061145204" ID="ID_1696865135" MODIFIED="1600061148144" TEXT="https://www.cnblogs.com/LoyenWang/"/>
 </node>
 </node>
