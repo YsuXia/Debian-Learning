@@ -1497,7 +1497,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1607994858671" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1608099320738" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -1638,7 +1638,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1607994856232" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1608099338728" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1678,7 +1678,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1432188997835" FOLDED="true" ID="ID_1392310371" MODIFIED="1607994855176">
+<node CREATED="1432188997835" ID="ID_1392310371" MODIFIED="1608099341917">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1859,7 +1859,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1607994853510">
+<node CREATED="1433836099543" ID="ID_582463794" MODIFIED="1608099332047">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11716,7 +11716,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1608029101773" POSITION="right">
+<node CREATED="1571017459253" ID="ID_1798204731" MODIFIED="1608101281813" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26246,7 +26246,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1583807347078" FOLDED="true" ID="ID_1782104180" MODIFIED="1608029100878">
+<node CREATED="1583807347078" ID="ID_1782104180" MODIFIED="1608101283844">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26330,7 +26330,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1607995027720" FOLDED="true" ID="ID_787301087" MODIFIED="1608029097430">
+<node CREATED="1607995027720" ID="ID_787301087" MODIFIED="1608101285652">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26340,8 +26340,7 @@
       <font face="Times New Roman" color="#0033ff" size="4"><b>RK3399Pro usb type-c&#20195;&#30721;&#23398;&#20064;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1607995093698" FOLDED="true" ID="ID_283966444" MODIFIED="1608029095681">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -26361,8 +26360,7 @@
       fusb&#36890;&#36807;I2C&#25509;&#21475;&#23454;&#29616;&#36319;soc&#30340;&#36890;&#35759;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1607995232497" ID="ID_1654101786" MODIFIED="1607995452350">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -26421,8 +26419,7 @@
       #define FUSB30X_I2C_DRIVER_NAME&#160;&#160;&#160;&#160;&#160;&quot;fusb302&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1607995663627" FOLDED="true" ID="ID_557318073" MODIFIED="1608029091849">
 <richcontent TYPE="NODE"><html>
@@ -26434,8 +26431,7 @@
       static int fusb30x_probe(struct i2c_client *client, const struct i2c_device_id *id)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1607996874012" ID="ID_578629411" MODIFIED="1607997833746">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -26479,8 +26475,7 @@
       chip-&gt;regmap = devm_regmap_init_i2c(client, &amp;fusb302_regmap_config);&#160; i2c&#25805;&#20316;&#26144;&#23556;&#21040;regmap ?
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1607997902218" ID="ID_1191861387" MODIFIED="1607998227113">
 <richcontent TYPE="NODE"><html>
@@ -26507,8 +26502,7 @@
       &#35813;work&#26368;&#32456;&#20250;&#35843;&#29992;&#21040;&#20989;&#25968;void state_machine_typec(struct fusb30x_chip *chip)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1607998285857" ID="ID_74000004" MODIFIED="1607998490641">
 <richcontent TYPE="NODE"><html>
@@ -26532,8 +26526,7 @@
       &#22914;&#26524;&#27809;&#26377;&#25351;&#23450;&#65292;&#37027;&#20040;&#40664;&#35748;&#35774;&#32622;&#30340;role&#23646;&#24615;&#26159;ROLE_MODE_NONE
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1607999033378" ID="ID_1526803579" MODIFIED="1607999215758">
 <richcontent TYPE="NODE"><html>
@@ -26608,8 +26601,7 @@
       &#160;&#160;&#160;&#160;pd_cap_info-&gt;peak_current = 0;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1608001411515" ID="ID_100167107" MODIFIED="1608002743136">
 <richcontent TYPE="NODE"><html>
@@ -26630,8 +26622,7 @@
       extcon
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1608003351530" ID="ID_202901780" MODIFIED="1608003619478">
 <richcontent TYPE="NODE"><html>
@@ -26670,8 +26661,7 @@
       &#21487;&#20197;&#30475;&#21040;&#24403;&#21069;fusb&#25903;&#25345;host, dp, charge&#31561;&#23646;&#24615;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1608003678132" ID="ID_73977717" MODIFIED="1608003750843">
 <richcontent TYPE="NODE"><html>
@@ -26713,8 +26703,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;chip);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1608009289524" ID="ID_1514072092" MODIFIED="1608009341720">
 <richcontent TYPE="NODE"><html>
@@ -26738,12 +26727,11 @@
       ret = input_register_device(chip-&gt;input);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1608009925099" FOLDED="true" ID="ID_1135800303" MODIFIED="1608029088377">
+<node CREATED="1608009925099" ID="ID_1135800303" MODIFIED="1608101291000">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26756,9 +26744,8 @@
       &#31561;node&#23450;&#20041;&#37324;&#38754;&#37117;&#20351;&#29992;extcon&#23646;&#24615;&#24341;&#29992;&#21040;fusb&#35774;&#22791;&#37324;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1608012741098" FOLDED="true" ID="ID_882355794" MODIFIED="1608029085273">
+</html></richcontent>
+<node CREATED="1608012741098" ID="ID_882355794" MODIFIED="1608101294348">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26873,9 +26860,8 @@
       &#160;&#160;&#160;&#160;};
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1608012892477" FOLDED="true" ID="ID_1549732485" MODIFIED="1608029083848">
+</html></richcontent>
+<node CREATED="1608012892477" ID="ID_1549732485" MODIFIED="1608101298141">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26894,8 +26880,7 @@
       <b>int dwc3_rockchip_probe(struct platform_device *pdev)</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1608014969847" ID="ID_805876216" MODIFIED="1608015013524">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -26918,8 +26903,7 @@
       struct platform_device&#160;&#160;*child_pdev;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1608015637920" ID="ID_1980295780" MODIFIED="1608015672670">
 <richcontent TYPE="NODE"><html>
@@ -26934,8 +26918,7 @@
       &#21160;&#24577;&#20998;&#37197;&#19968;&#20010;dwc3_rockchip&#32467;&#26500;&#20307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1608015762456" ID="ID_71802179" MODIFIED="1608015857033">
 <richcontent TYPE="NODE"><html>
@@ -26959,11 +26942,71 @@
       &#33719;&#21462;clock&#32467;&#26500;&#20307;&#30340;&#20010;&#25968;&#65292;&#24182;&#36827;&#34892;&#20998;&#37197;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1608101383674" ID="ID_1475383792" MODIFIED="1608101455086">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      platform_set_drvdata(pdev, rockchip) dwc3_rockchip&#35774;&#32622;&#20026;platform&#35774;&#22791;&#30340;driver data
+    </p>
+    <p>
+      rockchip-&gt;dev = dev; dev&#25351;&#21521;platform device&#30340;dev
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1608101496667" ID="ID_1944748369" MODIFIED="1608101533004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; rockchip-&gt;num_clocks; i++)
+    </p>
+    <p>
+      &#36827;&#20837;for&#24490;&#29615;&#65292;enable clock&#65292; &#20195;&#30721;&#36825;&#37324;&#30053;&#36807;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1608101635627" ID="ID_933519039" MODIFIED="1608101659392">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pm_runtime_set_active(dev);
+    </p>
+    <p>
+      pm_runtime_enable(dev);
+    </p>
+    <p>
+      ret = pm_runtime_get_sync(dev);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1608120070162" ID="ID_1312707377" MODIFIED="1608120102329">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#ff0000"><b>linux component&#26694;&#26550;</b></font>
+    </p>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
-</node>
 </node>
 </node>
 </node>
