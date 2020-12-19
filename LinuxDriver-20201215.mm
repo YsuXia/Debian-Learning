@@ -1497,7 +1497,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc00cc" CREATED="1432176031777" ID="ID_1432799261" MODIFIED="1608099320738" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
+<node COLOR="#cc00cc" CREATED="1432176031777" FOLDED="true" ID="ID_1432799261" MODIFIED="1608372298068" POSITION="left" TEXT="&#x7b2c;&#x56db;&#x7ae0;debugging&#x6280;&#x672f;">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -1638,7 +1638,7 @@
 <node CREATED="1432185328829" ID="ID_1818950549" MODIFIED="1432185336758" TEXT="CONFIG_INPUT_EVBUG"/>
 <node CREATED="1432185385604" ID="ID_1291419440" MODIFIED="1432185395128" TEXT="CONFIG_PROFILING"/>
 </node>
-<node CREATED="1432187122236" ID="ID_475538303" MODIFIED="1608099338728" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
+<node CREATED="1432187122236" FOLDED="true" ID="ID_475538303" MODIFIED="1608372296555" TEXT="2.&#x6700;&#x7b80;&#x5355;&#x7684;&#x65b9;&#x6cd5;&#xff1a;printk">
 <node CREATED="1432188029123" ID="ID_934436586" MODIFIED="1432188125830">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1678,7 +1678,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1432188997835" ID="ID_1392310371" MODIFIED="1608099341917">
+<node CREATED="1432188997835" FOLDED="true" ID="ID_1392310371" MODIFIED="1608372294995">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1859,7 +1859,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1433836099543" ID="ID_582463794" MODIFIED="1608099332047">
+<node CREATED="1433836099543" FOLDED="true" ID="ID_582463794" MODIFIED="1608372293061">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26246,7 +26246,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1583807347078" ID="ID_1782104180" MODIFIED="1608101283844">
+<node CREATED="1583807347078" FOLDED="true" ID="ID_1782104180" MODIFIED="1608372308973">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -27005,8 +27005,199 @@
       <font face="Times New Roman" size="4" color="#ff0000"><b>linux component&#26694;&#26550;</b></font>
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1608167804493" ID="ID_1874533918" MODIFIED="1608167837910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20026;&#20102;&#20445;&#35777;subsystem&#21487;&#20197;&#26681;&#25454;&#19968;&#23450;&#30340;&#39034;&#24207;&#21021;&#22987;&#21270;&#35774;&#22791;&#25552;&#20986;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1608170638267" ID="ID_1882027248" MODIFIED="1608171927724">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      display_subsystem
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff"><b>compatible = &quot;rockchip,display-subsystem&quot;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1608170666357" ID="ID_1766654271" MODIFIED="1608172469095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vopb_out
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      vopb_out&#36825;&#20010;port&#20301;&#20110;vopb&#35774;&#22791;&#33410;&#28857;&#37324;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1608170677572" ID="ID_744779676" MODIFIED="1608172445066">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vopl_out
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      vopl_out&#36825;&#20010;port&#20301;&#20110;&#33410;&#28857;vopl&#37324;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1608170824900" ID="ID_518286660" MODIFIED="1608170953474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vopl_out &#36825;&#20010;port&#20301;&#20110;&#33410;&#28857;vopl&#37324;&#38754;&#65292;
+    </p>
+    <p>
+      &#35813;port&#37324;&#38754;&#23450;&#20041;&#20102;4&#20010;endpoint, &#21363; vopl_out_dis, vopl_out_edp, vopl_out_hdmi., vopl_out_dp,
+    </p>
+    <p>
+      vopl_out_dsi1
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1608171320804" ID="ID_464914395" MODIFIED="1608171465471">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33410;&#28857;cdn_dp&#37324;&#38754;&#23450;&#20041;&#20102;&#19968;&#20010;port&#21517;&#23383;&#21483;&#20570;dp_in, dp_in&#37324;&#38754;&#23450;&#20041;&#20102;2&#20010;endpoint,
+    </p>
+    <p>
+      &#19968;&#20010;&#26159;dp_in_vopb, &#21478;&#19968;&#20010;&#26159;dp_in_vopl,
+    </p>
+    <p>
+      dp_in_vopb&#23545;&#24212;&#30340;remote-endpoint&#26159;vopb_out_dp,
+    </p>
+    <p>
+      dp_in_vopl&#23545;&#24212;&#30340;remote-endpoint&#26159;vopl_out_dp
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1608174055435" ID="ID_1639827154" MODIFIED="1608175869444">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      VOP&#39537;&#21160;&#31243;&#24207;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#39537;&#21160;&#31243;&#24207;&#30340;probe&#20989;&#25968;&#37324;&#38754;&#65292;&#35843;&#29992;&#20102; component_add(dev, &amp;vop_component_ops)&#20989;&#25968;&#65292;
+    </p>
+    <p>
+      &#23558;vop&#24403;&#20570;component&#28155;&#21152;&#21040;&#31995;&#32479;&#30340;component list&#37324;&#38754;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30475;&#19968;&#19979;vop_component_ops&#30340;&#23450;&#20041;
+    </p>
+    <p>
+      const struct component_ops vop_component_ops = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.bind = vop_bind,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.unbind = vop_unbind,
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      vop_bind&#20989;&#25968;&#37324;&#38754;&#20250;&#35843;&#29992;vop_create_crtc&#20989;&#25968;&#65292;vop_create_crtc&#20989;&#25968;&#20250;&#35843;&#29992;
+    </p>
+    <p>
+      drm_crtc_helper_add(crtc, &amp;vop_crtc_helper_func)&#20989;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static const struct drm_crtc_helper_funcs vop_crtc_helper_funcs = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.load_lut = vop_crtc_load_lut,
+    </p>
+    <p>
+      &#160;&#160;&#160; <font color="#0000ff"><b>.enable = vop_crtc_enable,</b></font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.disable = vop_crtc_disable,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.mode_fixup = vop_crtc_mode_fixup,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.atomic_check = vop_crtc_atomic_check,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.atomic_flush = vop_crtc_atomic_flush,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.atomic_begin = vop_crtc_atomic_begin,
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
