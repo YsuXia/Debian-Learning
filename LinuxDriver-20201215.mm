@@ -11727,9 +11727,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1607994947136" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1471313923568" ID="ID_984050240" MODIFIED="1609679978461" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1586741500654" FOLDED="true" ID="ID_4126578" MODIFIED="1607994945864">
+<node CREATED="1586741500654" ID="ID_4126578" MODIFIED="1609679985940">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11878,7 +11878,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1471324351066" FOLDED="true" ID="ID_1540543093" MODIFIED="1606725930483">
+<node CREATED="1471324351066" ID="ID_1540543093" MODIFIED="1609679993608">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11896,7 +11896,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1597302027503" ID="ID_943910022" MODIFIED="1597302040103" TEXT="DWC3 &#x63a7;&#x5236;&#x5668;"/>
-<node CREATED="1597304368917" FOLDED="true" ID="ID_316380794" MODIFIED="1606725897286" TEXT="host controller interface(HCI)">
+<node CREATED="1597304368917" ID="ID_316380794" MODIFIED="1609679996134" TEXT="host controller interface(HCI)">
 <node CREATED="1597304501991" ID="ID_284270740" MODIFIED="1600762704008">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11961,7 +11961,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1597712695029" FOLDED="true" ID="ID_58887035" MODIFIED="1606725894074">
+<node CREATED="1597712695029" ID="ID_58887035" MODIFIED="1609680008887">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11982,7 +11982,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1597712860231" ID="ID_1242572414" MODIFIED="1606031142667">
+<node CREATED="1597712860231" FOLDED="true" ID="ID_1242572414" MODIFIED="1609680019217">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12221,7 +12221,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1597714534189" ID="ID_300456583" MODIFIED="1606031151515">
+<node CREATED="1597714534189" FOLDED="true" ID="ID_300456583" MODIFIED="1609680023304">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -17898,7 +17898,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1597716618643" ID="ID_1291328375" MODIFIED="1597716913253">
+<node CREATED="1597716618643" FOLDED="true" ID="ID_1291328375" MODIFIED="1609680005925">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -18526,7 +18526,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1586741548092" FOLDED="true" ID="ID_1849032320" MODIFIED="1600236560704">
+<node CREATED="1586741548092" FOLDED="true" ID="ID_1849032320" MODIFIED="1609679984552">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26341,7 +26341,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1607995093698" FOLDED="true" ID="ID_283966444" MODIFIED="1608029095681">
+<node CREATED="1607995093698" ID="ID_283966444" MODIFIED="1609652459511">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -26421,17 +26421,18 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1607995663627" FOLDED="true" ID="ID_557318073" MODIFIED="1608029091849">
+<node CREATED="1607995663627" ID="ID_557318073" MODIFIED="1609652511409">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      static int fusb30x_probe(struct i2c_client *client, const struct i2c_device_id *id)
+      <font color="#0914f2" size="4"><b>static int fusb30x_probe(struct i2c_client *client, const struct i2c_device_id *id)</b></font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1607996874012" ID="ID_578629411" MODIFIED="1607997833746">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -26968,8 +26969,7 @@
       <font color="#0000ff"><b>};</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1608015637920" ID="ID_1980295780" MODIFIED="1608015672670">
@@ -27072,8 +27072,7 @@
       &#33719;&#21462;&#21517;&#20026;usb3-otg&#30340;reset_control&#32467;&#26500;&#20307;&#25351;&#38024;&#24182;&#36171;&#20540;&#32473;otg_rst
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609385277319" ID="ID_924462096" MODIFIED="1609385357449">
 <richcontent TYPE="NODE"><html>
@@ -27088,8 +27087,7 @@
       child = of_get_child_by_name(np, &quot;dwc3&quot;);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609401075852" ID="ID_1435101851" MODIFIED="1609401128219">
 <richcontent TYPE="NODE"><html>
@@ -27104,9 +27102,412 @@
       &#20026;children node&#29983;&#25104;&#24179;&#21488;&#35774;&#22791;&#65292;&#36825;&#37324;&#26159;&#20026;dwc3&#29983;&#25104;&#24179;&#21488;&#35774;&#22791;&#20102;
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1609401185943" ID="ID_1449498275" MODIFIED="1609401192212" TEXT="&#x67e5;&#x770b;core.c&#x6587;&#x4ef6;">
+<node CREATED="1609654372235" ID="ID_894468579" MODIFIED="1609679135568">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#211aed">static int dwc3_probe(struct platform_device *pdev)</font>
+    </p>
+  </body>
 </html>
 </richcontent>
-<node CREATED="1609401185943" ID="ID_1449498275" MODIFIED="1609401192212" TEXT="&#x67e5;&#x770b;core.c&#x6587;&#x4ef6;"/>
+<node CREATED="1609669434160" ID="ID_1008539869" MODIFIED="1609670285423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#110604" size="3">struct device&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*dev = &amp;pdev-&gt;dev; </font>
+    </p>
+    <p>
+      <font color="#110604" size="3">struct resource&#160;&#160;&#160;&#160;&#160;*res;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609670209922" ID="ID_395448558" MODIFIED="1609670269334">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;mem = devm_kzalloc(dev, sizeof(*dwc) + DWC3_ALIGN_MASK, GFP_KERNEL);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc = PTR_ALIGN(mem, DWC3_ALIGN_MASK + 1);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;mem = mem;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;dev = dev;
+    </p>
+    <p>
+      <b>&#21160;&#24577;&#20998;&#37197;dwc3&#32467;&#26500;&#20307;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609670339730" ID="ID_1407930399" MODIFIED="1609670375639">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#103beb">&#35774;&#32622;dma mask</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609675044829" ID="ID_113183257" MODIFIED="1609675434848">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;res = platform_get_resource(pdev, IORESOURCE_MEM, 0);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!res) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dev_err(dev, &quot;missing memory resource\n&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return -ENODEV;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;xhci_resources[0].start = res-&gt;start;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;xhci_resources[0].end = dwc-&gt;xhci_resources[0].start + DWC3_XHCI_REGS_END;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;xhci_resources[0].flags = res-&gt;flags;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;xhci_resources[0].name = res-&gt;name;
+    </p>
+    <p>
+      <b><font color="#f20d0d">&#33719;&#21462;xhci&#30340;&#23492;&#23384;&#22120;&#31354;&#38388;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;res-&gt;start += DWC3_GLOBALS_REGS_START;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;regs = devm_ioremap_resource(dev, res);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;regs&#160;&#160;&#160;= regs;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;regs_size&#160;&#160;= resource_size(res);
+    </p>
+    <p>
+      <b><font color="#0f45f4">&#21487;&#20197;&#30475;&#21040;&#36825;&#37324;&#25226;rest&#30340;&#22320;&#22336;&#36339;&#21040;&#20102;GLOBALS_REGS_START, </font></b>
+    </p>
+    <p>
+      <b><font color="#0f45f4">&#21487;&#20197;&#30475;&#20986;&#36825;&#37324;&#27809;&#26377;&#20026;xhci&#23492;&#23384;&#22120;&#31354;&#38388;&#20998;&#37197;&#22320;&#22336;&#31354;&#38388;&#65292;&#39537;&#21160;&#20195;&#30721;&#27880;&#37322;&#22914;&#19979; </font></b>
+    </p>
+    <p>
+      <b><font color="#0f45f4">Request memory region but exclude xHCI regs, </font></b>
+    </p>
+    <p>
+      <b><font color="#0f45f4">since it will be requested by the xhci-plat driver.</font></b>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609676653321" ID="ID_1102355490" MODIFIED="1609676671576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lpm_nyet_threshold = 0xf;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      LPM&#27169;&#24335;&#21442;&#25968;&#65311;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609676685168" ID="ID_1992230922" MODIFIED="1609676706478">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      tx_de_emphasis = 1;
+    </p>
+    <p>
+      &#20449;&#21495;&#22686;&#24378;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609676743133" ID="ID_1598450031" MODIFIED="1609676749489">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hird_threshold = 12;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609677013076" ID="ID_1379301703" MODIFIED="1609677032252">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dwc-&gt;maximum_speed = usb_get_maximum_speed(dev);
+    </p>
+    <p>
+      &#36895;&#24230;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609677044562" ID="ID_1787029843" MODIFIED="1609677077642">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dwc-&gt;dr_mode = usb_get_dr_mode(dev);
+    </p>
+    <p>
+      dr&#27169;&#24335;----OTG&#27169;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609677103546" ID="ID_1059454759" MODIFIED="1609677205937">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dwc-&gt;hsphy_mode = of_usb_get_phy_mode(dev-&gt;of_node);
+    </p>
+    <p>
+      &#33719;&#21462;phy&#36830;&#25509;&#26041;&#24335;, utmi&#26631;&#20934;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      http://events17.linuxfoundation.org/sites/events/files/slides/phy_framework_1.pdf
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609677266040" ID="ID_1983620362" MODIFIED="1609677341901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dwc-&gt;has_lpm_erratum = device_property_read_bool(dev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;snps,has-lpm-erratum&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;device_property_read_u8(dev, &quot;snps,lpm-nyet-threshold&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;lpm_nyet_threshold);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;is_utmi_l1_suspend = device_property_read_bool(dev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;snps,is-utmi-l1-suspend&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;device_property_read_u8(dev, &quot;snps,hird-threshold&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;hird_threshold);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dwc-&gt;usb3_lpm_capable = device_property_read_bool(dev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;snps,usb3_lpm_capable&quot;);
+    </p>
+    <p>
+      <b><font color="#db1717">&#24456;&#22810;&#23646;&#24615;&#35774;&#32622;&#30340;&#35835;&#21462;&#65292;&#36825;&#37324;&#30053;&#36807;......</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678178580" ID="ID_1998697556" MODIFIED="1609678192973">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      platform_set_drvdata(pdev, dwc);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678273158" ID="ID_614902721" MODIFIED="1609678291703">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dwc3_cache_hwparams(dwc);
+    </p>
+    <p>
+      &#35835;&#21462;hw&#21442;&#25968;&#32531;&#23384;&#36215;&#26469;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678305505" ID="ID_30329784" MODIFIED="1609678309080" TEXT="ret = dwc3_core_get_phy(dwc);"/>
+<node CREATED="1609678357323" ID="ID_545917790" MODIFIED="1609678385522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = dwc3_alloc_event_buffers(dwc, DWC3_EVENT_BUFFERS_SIZE);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#20107;&#20214;buffer ?</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678425639" ID="ID_1674785514" MODIFIED="1609678457435">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26681;&#25454;DTS&#30340;&#37197;&#32622;&#35774;&#32622;dr_mode&#65292;&#30446;&#21069;&#37197;&#32622;&#30340;&#26159;HOST&#27169;&#24335;
+    </p>
+    <p>
+      dwc-&gt;dr_mode = USB_DR_MODE_HOST;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678540705" ID="ID_555887362" MODIFIED="1609678572704">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dwc3_alloc_scratch_buffers(dwc);
+    </p>
+    <p>
+      &#32473;dwc&#20998;&#37197;&#26242;&#23384;&#32531;&#23384;&#21306;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678768483" ID="ID_764243003" MODIFIED="1609678802447">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#166ce8">ret = dwc3_core_init(dwc);</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36827;&#34892;&#21021;&#22987;&#21270;&#25805;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1609678847143" ID="ID_1269044528" MODIFIED="1609678883122">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ret = dwc3_core_init_mode(dwc);</b>
+    </p>
+    <p>
+      &#26681;&#25454;&#37197;&#32622;&#30340;&#27169;&#24335;&#36827;&#34892;&#21021;&#22987;&#21270;&#65292;&#36825;&#37324;&#24403;&#28982;&#26159;&#21021;&#22987;&#21270;host&#27169;&#24335;&#20102;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1609680257281" ID="ID_835992626" MODIFIED="1609680348741">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#f31010" size="4">&#22914;&#26524;&#26159;HOST&#27169;&#24335;&#65292;&#20250;&#35843;&#29992; </font>
+    </p>
+    <p>
+      <font color="#f31010" size="4">ret = dwc3_host_init(dwc)</font><font color="#1209d3" size="4"><b>&#35813;&#20989;&#25968;&#20250; </b></font>
+    </p>
+    <p>
+      <b><font color="#1209d3">&#27880;&#20876;xhci-plat&#35774;&#22791;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1609678900002" ID="ID_152798297" MODIFIED="1609678903287" TEXT="dwc3_debugfs_init(dwc);"/>
+</node>
+</node>
 </node>
 <node CREATED="1609401648766" ID="ID_188956775" MODIFIED="1609401700386">
 <richcontent TYPE="NODE"><html>
@@ -27124,8 +27525,7 @@
       &#21021;&#22987;&#21270;work
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609401713766" ID="ID_659069859" MODIFIED="1609403535783">
 <richcontent TYPE="NODE"><html>
@@ -27140,8 +27540,7 @@
       &#33719;&#21462;dwc3&#30340;&#24179;&#21488;&#35774;&#22791;&#32467;&#26500;&#20307;&#25351;&#38024;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609404174693" ID="ID_1552568862" MODIFIED="1609406156196">
 <richcontent TYPE="NODE"><html>
@@ -27162,8 +27561,208 @@
       &#24050;&#32463;&#36816;&#34892;&#25104;&#21151;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1609576470098" ID="ID_514925045" MODIFIED="1609576522628">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (rockchip-&gt;dwc-&gt;dr_mode == USB_DR_MODE_HOST ||
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rockchip-&gt;dwc-&gt;dr_mode == USB_DR_MODE_OTG) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;rockchip-&gt;hcd = dev_get_drvdata(&amp;rockchip-&gt;dwc-&gt;xhci-&gt;dev);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (!rockchip-&gt;hcd) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dev_err(dev, &quot;fail to get drvdata hcd\n&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ret = -EPROBE_DEFER;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;goto err2;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      <b>&#24403;DWC&#30340;&#27169;&#24335;&#26159;HOST&#25110;&#32773;&#26159;OTG&#27169;&#24335;&#30340;&#26102;&#20505;&#65292;&#38656;&#35201;&#33719;&#21462;hcd&#25351;&#38024;</b>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1609577379658" ID="ID_1080788887" MODIFIED="1609577407474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#1126f3">dwc3_rockchip_get_extcon_dev(rockchip)</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1609577742206" ID="ID_1224841476" MODIFIED="1609577925099">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#33719;&#21462;extcon&#23646;&#24615;&#65292;&#24471;&#21040;extcon&#35774;&#22791;&#65292;&#21363;fusb&#39537;&#21160;&#37324;&#38754;&#29983;&#25104;&#30340;extcon
+    </p>
+    <p>
+      &#35774;&#22791;
+    </p>
+    <p>
+      struct device&#160;&#160;&#160;&#160;&#160;&#160;&#160;*dev = rockchip-&gt;dev;
+    </p>
+    <p>
+      edev = extcon_get_edev_by_phandle(dev, 0);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1609577927744" ID="ID_149081142" MODIFIED="1609577955181">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28155;&#21152;&#36890;&#30693;&#20989;&#25968;
+    </p>
+    <p>
+      rockchip-&gt;device_nb.notifier_call =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dwc3_rockchip_device_notifier;
+    </p>
+    <p>
+      rockchip-&gt;host_nb.notifier_call =&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;dwc3_rockchip_host_notifier;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1609653780791" ID="ID_1725039081" MODIFIED="1609653803837">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">async_schedule(dwc3_rockchip_async_probe, rockchip);</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1609679179332" ID="ID_1594031171" MODIFIED="1609679546922">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>void dwc3_rockchip_async_probe(void *data, async_cookie_t cookie)</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1609679576269" ID="ID_407197864" MODIFIED="1609679590616">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;struct dwc3_rockchip&#160;&#160;&#160;&#160;*rockchip = data;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct device&#160;&#160;&#160;&#160;&#160;&#160;&#160;*dev = rockchip-&gt;dev;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct dwc3&#160;&#160;&#160;&#160;&#160;*dwc = rockchip-&gt;dwc;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1609679605050" ID="ID_1805715166" MODIFIED="1609679627101">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      rockchip-&gt;reset_on_resume =
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;device_property_read_bool(dev, &quot;needs-reset-on-resume&quot;);
+    </p>
+    <p>
+      resume&#26102;&#26159;&#21542;&#38656;&#35201;&#36827;&#34892;reset&#25805;&#20316;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1609679652120" ID="ID_1443232672" MODIFIED="1609679741470">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ret = devm_extcon_register_notifier(dev, rockchip-&gt;edev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EXTCON_USB,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;rockchip-&gt;device_nb)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ret = devm_extcon_register_notifier(dev, rockchip-&gt;edev,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EXTCON_USB_HOST,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;rockchip-&gt;host_nb);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21521;fusb&#27880;&#20876;EXTCON_USB&#21644;EXTCON_USB_HOST&#20107;&#20214;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -37050,7 +37649,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" ID="ID_1395933032" MODIFIED="1609385390176" POSITION="right">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1609574662326" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -39775,7 +40374,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1606726594646" POSITION="right">
+<node CREATED="1525417026735" ID="ID_1643189755" MODIFIED="1609574665289" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -40247,7 +40846,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583663541919" FOLDED="true" ID="ID_809884029" MODIFIED="1600061120444">
+<node CREATED="1583663541919" ID="ID_809884029" MODIFIED="1609574688272">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -40510,6 +41109,49 @@
 </node>
 <node CREATED="1600380918434" ID="ID_1829916645" MODIFIED="1600380932649" TEXT="&#x5199;&#x7f3a;&#x5931;&#x7684;&#x7b56;&#x7565;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1607254558388" ID="ID_1970753735" MODIFIED="1607254643606">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20889;&#20998;&#37197;
+    </p>
+    <p>
+      &#21457;&#29983;&#20889;&#32570;&#22833;&#30340;&#26102;&#20505;&#65292;&#20869;&#23384;&#30340;&#22359;&#34987;&#35835;&#20837;&#21040;cache&#24403;&#20013;&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#25191;&#34892;&#20889;&#21629;&#20013;&#26102;&#30340;&#25805;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1607254647322" ID="ID_531036847" MODIFIED="1607254731820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19981;&#25353;&#20889;&#20998;&#37197;
+    </p>
+    <p>
+      &#20165;&#20462;&#25913;&#20302;&#23618;&#23384;&#20648;&#22120;&#24403;&#20013;&#30340;&#35813;&#22359;&#65292;&#32780;&#19981;&#23558;&#35813;&#22359;&#35835;&#21462;&#21040;cache&#37324;&#38754;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1607255163202" ID="ID_399398696" MODIFIED="1607255188131">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/&#x5199;&#x76f4;&#x8fbe;&#x548c;&#x5199;&#x56de;&#x6cd5;&#x8ddf;&#x5199;&#x5206;&#x914d;&#x548c;&#x4e0d;&#x6309;&#x5199;&#x5206;&#x914d;.png" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
