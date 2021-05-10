@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1456222792268" ID="ID_1498538347" MODIFIED="1456279876010" TEXT="V4L2-Framework">
+<node CREATED="1456222792268" ID="ID_1498538347" MODIFIED="1611797730197" TEXT="V4L2-Framework">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456222858229" FOLDED="true" ID="ID_1988131115" MODIFIED="1594782757852" POSITION="right" TEXT="&#x8bbe;&#x5907;&#x5b9e;&#x4f8b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -2261,7 +2261,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1585836864153" ID="ID_1071326638" MODIFIED="1585836875050" TEXT="&#x5982;&#x679c;&#x5185;&#x6838;&#x914d;&#x7f6e;&#x4e86;media&#x6846;&#x67b6;&#xff1a;CONFIG_MEDIA_CONTROLLER">
+<node CREATED="1585836864153" ID="ID_1071326638" MODIFIED="1611798656360" TEXT="&#x5982;&#x679c;&#x5185;&#x6838;&#x914d;&#x7f6e;&#x4e86;media&#x6846;&#x67b6;&#xff1a;CONFIG_MEDIA_CONTROLLER">
 <node CREATED="1585837146053" ID="ID_925018846" MODIFIED="1585837175919">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2407,6 +2407,35 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1611798785419" ID="ID_534426406" MODIFIED="1611800741470">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">msm_sensor_init.c &#25991;&#20214;&#20998;&#26512;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1611801030708" ID="ID_814384622" MODIFIED="1611801046269">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static int __init msm_sensor_init_module(void)
+    </p>
+    <p>
+      &#20989;&#25968;&#20998;&#26512;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
