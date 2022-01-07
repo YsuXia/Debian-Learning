@@ -3259,7 +3259,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1606807874275" POSITION="left">
+<node CREATED="1492429390150" FOLDED="true" ID="ID_1126491415" MODIFIED="1641519926586" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4870,7 +4870,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1535360655759" FOLDED="true" ID="ID_1383373227" MODIFIED="1566110144580">
+<node CREATED="1535360655759" ID="ID_1383373227" MODIFIED="1641519917870">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7902,6 +7902,18 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
 </node>
 </node>
 </node>
+<node CREATED="1621585778888" ID="ID_1340639062" MODIFIED="1621585791508">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20294;Android 5.0&#24320;&#22987;&#25903;&#25345;dm-verity&#21518;&#65292;system.img&#19981;&#20877;&#25552;&#20379;&#65292;&#32780;&#26159;&#25552;&#20379;&#20102;&#19977;&#20010;&#25991;&#20214;system.new.dat&#65292;system.patch.dat&#65292;system.transfer.list&#65292;&#22240;&#27492;&#25105;&#20204;&#39318;&#20808;&#38656;&#35201;&#36890;&#36807;&#19978;&#36848;&#30340;&#19977;&#20010;&#25991;&#20214;&#24471;&#21040;system.img&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1583485800955" ID="ID_79211215" MODIFIED="1584087808154">
 <richcontent TYPE="NODE"><html>
@@ -8812,7 +8824,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1589424488998" FOLDED="true" ID="ID_1863609399" MODIFIED="1608029026162" POSITION="right">
+<node CREATED="1589424488998" FOLDED="true" ID="ID_1863609399" MODIFIED="1641519934071" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9653,6 +9665,155 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
+<node CREATED="1641520138985" ID="ID_1556837581" MODIFIED="1641520201252" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4"><b>21 Sensor&#27169;&#22359;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1641520210691" ID="ID_15621839" MODIFIED="1641520221650" TEXT="1.&#x5173;&#x4e8e;&#x624b;&#x673a;&#x5750;&#x6807;&#x7cfb;&#x7684;&#x5b9a;&#x4e49;">
+<node CREATED="1641520259491" ID="ID_1795558162" MODIFIED="1641522480455">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;sensor api&#30340;&#22352;&#26631;&#31995;&#32479;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1641522371694" ID="ID_561599142" MODIFIED="1641522383091">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/sensor&#x5750;&#x6807;&#x7cfb;.PNG" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1641533165159" ID="ID_588323468" MODIFIED="1641533283114">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#23558;&#25163;&#26426;&#30340;&#23631;&#24149;&#27491;&#23545;&#33258;&#24049;&#65292;&#22402;&#30452;&#65292;&#37027;&#20040;&#35835;&#21462;&#21152;&#36895;&#24230;&#35745;&#65292;&#25105;&#20204;&#21487;&#20197;&#30475;&#21040;&#21152;&#36895;&#24230;&#35745;&#30340;
+    </p>
+    <p>
+      Y&#36724;&#36755;&#20986;&#30340;&#20540;&#26159;9.8&#24038;&#21491;&#65307;<b>&#23454;&#38469;&#19978;&#21152;&#36895;&#24230;&#36755;&#20986;&#30340;&#20540;&#26159;&#23454;&#38469;&#20316;&#29992;&#21152;&#36895;&#24230;&#30340;&#21453;&#26041;&#21521;&#30340;&#20540;</b>&#65307;
+    </p>
+    <p>
+      &#22312;google pixel&#25163;&#26426;&#19978;&#39564;&#35777;&#26159;&#22914;&#27492;&#30340;&#65292;&#20174;&#19979;&#22270;&#30340;bmi085&#33455;&#29255;&#30340;&#31034;&#24847;&#22270;&#20063;&#21487;&#20197;&#30475;&#21040;&#26159;&#22914;&#27492;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1641533746791" ID="ID_1017493527" MODIFIED="1641533754422">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/bmi085&#x8f74;&#x5411;&#x793a;&#x610f;&#x56fe;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1641535042640" ID="ID_429837970" MODIFIED="1641535970810">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>android sensor overivew&#37096;&#20998;&#25552;&#21040;&#65292;&#24212;&#29992;&#23618;&#19981;&#33021;&#20551;&#23450;&#35774;&#22791;&#30340;&#33258;&#28982;&#26041;&#21521;&#65288;&#40664;&#35748;&#26041;&#21521;&#65289;&#26159;&#31446;&#30452;&#26041;&#21521;&#65292; </b>
+    </p>
+    <p>
+      <b>&#27604;&#22914;&#24179;&#26495;&#30005;&#33041;&#30340;&#33258;&#28982;&#26041;&#21521;&#23601;&#26159;&#27178;&#23631;&#26041;&#21521;&#65292;&#24635;&#32780;&#35328;&#20043;&#65292;sensor&#30340;&#22352;&#26631;&#31995;&#26159;&#22522;&#20110;&#35774;&#22791;&#30340;&#33258;&#28982;&#26041;&#21521;&#26469;&#35828;&#30340;&#12290;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1641547021049" ID="ID_1517080071" MODIFIED="1641547308799">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#24212;&#29992;&#31243;&#24207;&#38656;&#35201;&#23558;&#20256;&#24863;&#22120;&#25968;&#25454;&#21644;&#23631;&#24149;&#30340;&#26174;&#31034;&#30456;&#21305;&#37197;&#65292;&#37027;&#20040;&#38656;&#35201;&#20351;&#29992;<b>getRotation()</b>&#26041;&#27861;&#30830;&#23450;&#23631;&#24149;&#26059;&#36716;&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#20351;&#29992;<b>remapCoordinateSystem()</b>&#26041;&#27861;&#23558;&#20256;&#24863;&#22120;&#22352;&#26631;&#26144;&#23556;&#21040;&#23631;&#24149;&#22352;&#26631;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000" face="Times New Roman" size="4">&#32463;&#36807;&#25105;&#30340;&#27979;&#35797;getRotation()&#26041;&#27861;&#30830;&#23450;&#30340;&#26159;APP&#30340;&#30028;&#38754;&#24067;&#23616;&#36319;&#23631;&#24149;&#40664;&#35748;&#33258;&#28982;&#26041;&#21521;&#20043;&#38388;&#30340;&#26059;&#36716;&#35282;&#24230;&#65292;&#27604;&#22914; </font>
+    </p>
+    <p>
+      <font color="#ff0000" face="Times New Roman" size="4">APP&#24378;&#21046;&#24403;&#21069;&#30340;&#30028;&#38754;&#26159;&#27178;&#23631;&#30028;&#38754;&#65292;&#20294;&#26159;&#24403;&#21069;&#25163;&#26426;&#26159;&#31446;&#30452;&#26041;&#21521;&#25343;&#30528;&#30340;&#65292;&#20294;&#26159;getRotation()&#26041;&#27861;&#20173;&#28982;&#20250;&#22238;&#20256; </font>
+    </p>
+    <p>
+      <font color="#ff0000" face="Times New Roman" size="4">ROTATION_90&#25110;&#32773;ROTATION_270</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1641522469473" ID="ID_1636573958" MODIFIED="1641522477637">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/&#x53f3;&#x624b;&#x7b1b;&#x5361;&#x5c14;&#x76f4;&#x89d2;&#x5750;&#x6807;&#x7cfb;.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1641522482257" ID="ID_1607212524" MODIFIED="1641522488891">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/pitch-roll-yaw.jpg" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1641522494627" ID="ID_1418353205" MODIFIED="1641522528772">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#25353;&#29031;&#22352;&#26631;&#36724;&#39034;&#26102;&#38024;&#26059;&#36716;&#21363;&#20026;&#27491;&#26041;&#21521;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1641546897341" ID="ID_273648918" MODIFIED="1641546897341" TEXT=""/>
+</node>
 <node CREATED="1606807994251" ID="ID_96506234" MODIFIED="1606808018214" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9664,6 +9825,463 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1622104808522" FOLDED="true" ID="ID_154226236" MODIFIED="1641519951400" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Android NDK&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1622104847477" ID="ID_1573296460" MODIFIED="1622104851721" TEXT="JNI&#x7f16;&#x7a0b;">
+<node CREATED="1622104855373" ID="ID_229422962" MODIFIED="1622104859626" TEXT="&#x53c2;&#x8003;&#x8d44;&#x6599;">
+<node CREATED="1622104863071" ID="ID_885554768" MODIFIED="1622104866206" TEXT="https://www.jianshu.com/p/1b3d70615259"/>
+</node>
+<node CREATED="1622105101297" ID="ID_1619816150" MODIFIED="1622622350453">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21160;&#24577;&#21152;&#36733;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      JNINativeMethod method_table[]
+    </p>
+    <p>
+      JNI_OnLoad
+    </p>
+    <p>
+      JNI_OnUnload
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1622602018899" ID="ID_185386058" MODIFIED="1622602139132">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>extern &quot;C&quot; <a href="http://androidxref.com/8.1.0_r33/s?defs=jint&amp;project=frameworks">jint</a> <a name="JNI_OnLoad" class="xf">
+</a><a href="http://androidxref.com/8.1.0_r33/s?refs=JNI_OnLoad&amp;project=frameworks" class="xf">JNI_OnLoad</a>(<a href="http://androidxref.com/8.1.0_r33/s?defs=JavaVM&amp;project=frameworks">JavaVM</a>* <a name="vm" class="xa">
+</a><a href="http://androidxref.com/8.1.0_r33/s?refs=vm&amp;project=frameworks" class="xa">vm</a>, void* /* reserved */)
+{
+   <a href="http://androidxref.com/8.1.0_r33/s?defs=JNIEnv&amp;project=frameworks">JNIEnv</a>* <a name="env" class="xl">
+</a><a class="xl" href="http://androidxref.com/8.1.0_r33/s?refs=env&amp;project=frameworks">env</a> = <a href="http://androidxref.com/8.1.0_r33/s?defs=NULL&amp;project=frameworks">NULL</a>;
+   <a href="http://androidxref.com/8.1.0_r33/s?defs=jint&amp;project=frameworks">jint</a> <a name="result" class="xl">
+</a><a class="xl" href="http://androidxref.com/8.1.0_r33/s?refs=result&amp;project=frameworks">result</a> = -1;
+
+    if (<a class="d" href="http://androidxref.com/8.1.0_r33/xref/frameworks/base/services/core/jni/onload.cpp#vm">vm</a>-&gt;<a href="http://androidxref.com/8.1.0_r33/s?defs=GetEnv&amp;project=frameworks">GetEnv</a>((void**) &amp;<a class="d" href="http://androidxref.com/8.1.0_r33/xref/frameworks/base/services/core/jni/onload.cpp#env">env</a>, <a href="http://androidxref.com/8.1.0_r33/s?defs=JNI_VERSION_1_4&amp;project=frameworks">JNI_VERSION_1_4</a>) != <a href="http://androidxref.com/8.1.0_r33/s?defs=JNI_OK&amp;project=frameworks">JNI_OK</a>) {
+       <a href="http://androidxref.com/8.1.0_r33/s?defs=ALOGE&amp;project=frameworks">ALOGE</a>(&quot;GetEnv failed!&quot;);
+       return <a class="d" href="http://androidxref.com/8.1.0_r33/xref/frameworks/base/services/core/jni/onload.cpp#result">result</a>;
+}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      return jniRegisterNativeMethods(env, &quot;com/android/server/usb/UsbHostManager&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;method_table, NELEM(method_table)); <b>&#21160;&#24577;&#21152;&#36733;&#30340;JAVA&#25509;&#21475;&#31867;&#35201;&#30830;&#23450;&#65307;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1622603649245" ID="ID_1695890398" MODIFIED="1622604566200">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#31181;cmd&#23545;&#24212;&#19968;&#20010;callback,
+    </p>
+    <p>
+      callback &#23545;&#24212;&#21040; JNI &#30340; C/C++ &#23618;&#160;&#160;----&gt; &#24322;&#27493;&#36890;&#30693;&#32473;JAVA&#23618;&#20351;&#29992;json&#26684;&#24335;&#65311;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1622632368861" ID="ID_661273049" MODIFIED="1622632383038">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><code style="font-family: Courier New, Monaco, Courier, monospace" class="cCode"><span style="color: #000000"><font face="Courier New, Monaco, Courier, monospace" color="#000000">AttachCurrentThread()</font></span></code></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1622684405645" ID="ID_1143426929" MODIFIED="1622684410304">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://hank5000.github.io/blog/2015/11/02/jni-register-callback/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1623237622683" ID="ID_173681272" MODIFIED="1623237638872">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="default s-code-block hljs cpp"><code>std::list&lt;Student&gt;::iterator it;
+<span class="hljs-keyword">for</span> (it = data.<span class="hljs-built_in">begin</span>(); it != data.<span class="hljs-built_in">end</span>(); ++it){
+    std::cout &lt;&lt; it-&gt;name;
+}</code></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1624361818673" ID="ID_672938401" MODIFIED="1624361835780">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://raccoon.onyxbits.de/blog/run-java-app-android/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1622534646667" ID="ID_1099201185" MODIFIED="1622534678378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>NDK&#24403;&#20013;&#20351;&#29992;CMake</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1622534783225" ID="ID_1103764278" MODIFIED="1622534888239">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#26524;&#24819;&#22312;NDK&#24037;&#20855;&#38142;&#37324;&#38754;&#20351;&#29992;CMake&#24037;&#20855;&#65292;&#21017;&#38656;&#35201;&#29992;&#21040;CMake&#30340;toolchain file,
+    </p>
+    <p>
+      toolchain file&#26159;CMake&#35774;&#35745;&#29992;&#26469;&#23450;&#21046;&#21270;&#20132;&#21449;&#32534;&#35793;&#30340;&#34892;&#20026;&#30340;&#65292;toolchain&#25991;&#20214;&#36335;&#24452;&#20301;&#20110;
+    </p>
+    <p>
+      <b><code translate="no" dir="ltr"><font color="#ff0066">&lt;NDK&gt;/build/cmake/android.toolchain.cmake</font></code></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1622534915113" ID="ID_386160136" MODIFIED="1622535020731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32534;&#35793;&#21442;&#25968;&#65292;&#27604;&#22914;ABI&#65292; minSdkVersion&#31561;&#31561;&#65292;&#37117;&#22312;&#21629;&#20196;&#34892;&#19979;&#36827;&#34892;&#35774;&#32622;&#65292;
+    </p>
+    <p>
+      &#23545;&#20110;&#25903;&#25345;&#30340;&#21442;&#25968;&#21015;&#34920;&#65292;&#21487;&#20197;&#21442;&#32771;&#38142;&#25509;
+    </p>
+    <p>
+      https://developer.android.com/ndk/guides/cmake#command-line_1
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1622535072808" ID="ID_1602020948" MODIFIED="1622535090208">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21629;&#20196;&#34892;&#20030;&#20363;
+    </p>
+    <pre is-upgraded="" class="clear-for-copy"><code dir="ltr"><span class="pln">$ cmake </span><span class="pun">\</span><span class="pln"><br />&#160; &#160; </span><span class="pun">-</span><span class="pln">DCMAKE_TOOLCHAIN_FILE</span><span class="pun">=</span><span class="pln">$NDK</span><span class="pun">/</span><span class="pln">build</span><span class="pun">/</span><span class="pln">cmake</span><span class="pun">/</span><span class="pln">android</span><span class="pun">.</span><span class="pln">toolchain</span><span class="pun">.</span><span class="pln">cmake </span><span class="pun">\</span><span class="pln"><br />&#160; &#160; </span><span class="pun">-</span><span class="pln">DANDROID_ABI</span><span class="pun">=</span><span class="pln">$ABI </span><span class="pun">\</span><span class="pln"><br />&#160; &#160; </span><span class="pun">-</span><span class="pln">DANDROID_NATIVE_API_LEVEL</span><span class="pun">=</span><span class="pln">$MINSDKVERSION </span><span class="pun">\</span><span class="pln"><br />&#160; &#160; $OTHER_ARGS<br /></span></code></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1622794173069" ID="ID_440874005" MODIFIED="1622794250488">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Android&#28304;&#20195;&#30721;&#21644;NDK&#24403;&#20013;&#30340;C++&#24211;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1622794270237" ID="ID_1414952345" MODIFIED="1622797638535">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#38142;&#25509;
+    </p>
+    <p>
+      https://haili-tian.blog.csdn.net/article/details/109864831
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;1) libc++ [Shared] </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;2) libc++_static [Static] </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;external/libcxx/Android.bp </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;libc++_static.a --(whole_static_libs)--&gt; libc++abi.a </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;libc++.so&#160;&#160;&#160;&#160;&#160;&#160;&#160;--(whole_static_libs)--&gt; libc++_static.a </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;3) libc++abi [Static] </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;external/libcxxabi/Android.bp </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;libc++abi.a </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;4) libstdc++.so </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;5) libstdc++.a </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;bionic/libc/Android.bp </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;libstdc++.so </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;libstdc++.a </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;6) c++_static </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;7) c++_shared </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;prebuilts/ndk/current/sources/cxx-stl/llvm-libc++/Android.mk </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;c++_static </font>
+    </p>
+    <p>
+      <font face="Microsoft New Tai Lue" size="4">&#160;&#160;&#160;&#160;&#160;&#160;c++_shared </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman" size="3">libc++abi&#34987;&#25171;&#21253;&#22312;libc++&#20013;&#65292;&#19968;&#33324;&#19981;&#21333;&#29420;&#20351;&#29992;&#12290;&#25152;&#20197;&#65292;Android Source&#20013;&#26377;&#19979;&#21015;stl&#24211;&#30456;&#20851;&#30340;Module&#65306; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman" size="3">&#160;&#160;&#160;&#160;libc++/libc++_static&#65306; llvm c++ stl&#24211;&#12290;&#36825;&#26159;Android&#29256;&#26412;&#20869;&#32622;&#30340;&#19982;Android&#21457;&#24067;&#32465;&#23450;&#30340;&#24211;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="3">&#160;&#160;&#160; libstdc++&#65306;&#20165;&#20165;&#21253;&#21547;new/delete&#30340;&#24211;&#65292;&#38750;&#23436;&#20840;stl&#65292;&#23436;&#20840;stl&#38656;&#20351;&#29992;&#19978;&#38754;&#30340;libc++&#12290;&#36825;&#26159;&#19982;Android&#21457;&#24067;&#32465;&#23450;&#30340;&#24211;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="3">&#160;&#160;&#160;&#160;c++_static/c++_shared&#65306;&#36825;&#20869;&#32622;&#30340;NDK&#37324;&#30340;stl&#65292;&#19982;NDK&#21457;&#24067;&#29256;&#26412;&#37324;&#30340;stl&#23545;&#24212;&#12290;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#12304;&#27880;&#12305;&#34429;&#28982;Android&#28304;&#30721;&#37324;&#30340;stl&#19982;&#20869;&#32622;&#30340;NDK stl&#37117;&#26159;llvm c++ stl&#65292;&#26159;llvm&#30340;&#26576;&#19968;&#20010;Build&#65292;&#20294;&#23427;&#20204;&#24182;&#19981;&#30456;&#21516;&#65306;Android&#29256;&#26412;&#37324;&#30340;&#36319;&#38543;Android build&#21457;&#24067;&#65307;NDK&#21457;&#24067;&#30340;&#26159;&#35201;&#25903;&#25345;&#22810;&#20010;Android&#29256;&#26412;&#30340;&#12290;&#32780;&#19988;&#65292;&#23427;&#20204;&#30340;namespace&#26159;&#19981;&#21516;&#30340;&#65292;&#20855;&#20307;&#21487;&#21442;&#32771;&#12298;Android&#28304;&#30721;&#20013;c++ STL&#30340;namespace&#12299;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1622794638306" ID="ID_201992472" MODIFIED="1622794752824">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cmake&#24403;&#20013;&#25351;&#23450;C++ Runtime</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35774;&#32622;ANDROID_STL&#65292;&#35813;&#20540;&#30340;&#21442;&#25968;&#21487;&#20197;&#26159;c++_shared, c++_static, none, system
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1622794830209" ID="ID_1503380141" MODIFIED="1622796331766">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">Android&#28304;&#20195;&#30721;&#24403;&#20013;&#25351;&#23450;STL</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff0000">&#20351;&#29992;Android.mk&#30340;&#24773;&#20917;&#19979;&#65306;</font></b>
+    </p>
+    <p>
+      &#38656;&#35201;&#20351;&#29992;LOCAL_NDK_STL_VARIANT&#25351;&#23450;NDK STL
+    </p>
+    <p>
+      &#21487;&#36873;&#20540;&#26159; none/system/c++_static/c++_shared, &#36824;&#38656;&#35201;&#25351;&#23450;<b>LOCAL_SDK_VERSION </b>
+    </p>
+    <p>
+      &#22914;&#26524;&#25351;&#23450;&#20102;system, &#37027;&#20040;&#20351;&#29992;&#30340;&#24211;&#23601;&#26159;libstdc++,
+    </p>
+    <p>
+      &#22914;&#26524;&#25351;&#23450;&#20102;c++_static&#65292;&#37027;&#20040;&#38142;&#25509;&#29992;&#30340;&#24211;&#23601;&#26159;libc++_static.a&#21644;libc++abi.a
+    </p>
+    <p>
+      &#22914;&#26524;&#25351;&#23450;&#20102;c++_shared,&#37027;&#20040;&#38142;&#25509;&#29992;&#30340;&#23601;&#26159;libc++_shared.so
+    </p>
+    <p>
+      
+    </p>
+    <pre><a name="45" class="l" href="http://androidxref.com/8.1.0_r33/xref/cts/tests/camera/libctscamera2jni/Android.mk#45"><font color="#0000ff">45</font></a><font color="#0000ff"># NDK build, shared C++ runtime
+<a name="46" class="l" href="http://androidxref.com/8.1.0_r33/xref/cts/tests/camera/libctscamera2jni/Android.mk#46">46</a>LOCAL_SDK_VERSION := 24
+<a name="47" class="l" href="http://androidxref.com/8.1.0_r33/xref/cts/tests/camera/libctscamera2jni/Android.mk#47">47</a>LOCAL_NDK_STL_VARIANT := c++_shared</font></pre>
+  </body>
+</html></richcontent>
+<node CREATED="1622796450125" ID="ID_1412583913" MODIFIED="1622797577377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">Android.bp&#37324;&#38754;&#20351;&#29992;STL, &#25353;&#29031;&#26159;&#21542;&#25351;&#23450;sdkversion, &#20998;&#20004;&#31181;&#24773;&#20917; </font></b>
+    </p>
+    <p>
+      <font color="#333300">&#24403;&#25351;&#23450;&#20102;sdk version&#30340;&#26102;&#20505;&#65292;stl&#33021;&#21462;&#22914;&#19979;&#30340;&#20540;&#65306; </font>
+    </p>
+    <p>
+      <font color="#ff0000">c++_shared c++_static libc++ libc++_static none &quot;&quot; </font>
+    </p>
+    <p>
+      <font color="#3333ff">&quot;&quot; &#23545;&#24212; ndk_system </font>
+    </p>
+    <p>
+      <font color="#3333ff">c++_shared&#23545;&#24212;ndk_libc++_shared </font>
+    </p>
+    <p>
+      <font color="#3333ff">c++_static&#23545;&#24212;ndk_libc++_static </font>
+    </p>
+    <p>
+      <font color="#3333ff">libc++&#23545;&#24212;ndk_libc++_shared </font>
+    </p>
+    <p>
+      <font color="#3333ff">libc++_static&#23545;&#24212;ndk_libc++_static </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27809;&#26377;&#25351;&#23450;sdk version&#30340;&#26102;&#20505;&#65292;stl&#21487;&#20197;&#21435;&#22914;&#19979;&#30340;&#20540;
+    </p>
+    <p>
+      <font color="#ff0033">libc++&#160;&#160;libc++_static&#160;&#160;&#160;none&#160;&#160;&quot;&quot;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">libc++ ----&gt; libc++ </font>
+    </p>
+    <p>
+      <font color="#0000ff">libc++_static ----&gt; libc++_static </font>
+    </p>
+    <p>
+      <font color="#0000ff">none ---&gt; &quot;&quot; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&quot;&quot;---&gt; libc++&#25110;&#32773;&#26159;libc++_static</font>
+    </p>
+    <p>
+      
+    </p>
+    <pre><a name="22" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#22">22</a>cc_library_static {
+<a name="23" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#23">23</a>    name: &quot;libvkjson_ndk&quot;,
+<a name="24" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#24">24</a>    clang: true,
+<a name="25" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#25">25</a>    srcs: [
+<a name="26" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#26">26</a>        &quot;<a href="http://androidxref.com/8.1.0_r33/s?path=vkjson.cc&amp;project=external">vkjson.cc</a>&quot;,
+<a name="27" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#27">27</a>        &quot;<a href="http://androidxref.com/8.1.0_r33/s?path=vkjson_instance.cc&amp;project=external">vkjson_instance.cc</a>&quot;,
+<a name="28" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#28">28</a>    ],
+<a name="29" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#29">29</a>    cppflags: [
+<a name="30" class="hl" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#30">30</a>        &quot;-std=c++11&quot;,
+<a name="31" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#31">31</a>        &quot;-Wno-sign-compare&quot;,
+<a name="32" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#32">32</a>    ],
+<a name="33" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#33">33</a>    export_include_dirs: [
+<a name="34" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#34">34</a>        &quot;.&quot;,
+<a name="35" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#35">35</a>    ],
+<a name="36" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#36">36</a>    whole_static_libs: [
+<a name="37" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#37">37</a>        &quot;cjson_ndk&quot;,
+<a name="38" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#38">38</a>    ],
+<a name="39" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#39">39</a>    header_libs: [
+<a name="40" class="hl" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#40">40</a>        &quot;vulkan_headers_ndk&quot;,
+<a name="41" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#41">41</a>    ],
+<a name="42" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#42">42</a>    <b>sdk_version: &quot;24&quot;,</b>
+<a name="43" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#43">43</a>    <b>stl: &quot;libc++_static&quot;,</b>
+<a name="44" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#44">44</a>}</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -29217,9 +29217,28 @@
 </node>
 <node COLOR="#ff3333" CREATED="1618384042952" FOLDED="true" ID="ID_39387549" MODIFIED="1620644775619" POSITION="right" TEXT="DisplayPort&#x9a71;&#x52a8;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1618384076236" ID="ID_424624214" MODIFIED="1618384085888" TEXT="1. &#x534f;&#x8bae;&#x5b66;&#x4e60;"/>
-<node CREATED="1618384089117" FOLDED="true" ID="ID_966995599" MODIFIED="1620644774745" TEXT="2.&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x5b66;&#x4e60;">
-<node CREATED="1618384099598" FOLDED="true" ID="ID_1265841461" MODIFIED="1620644773937" TEXT="1.&#x901a;&#x7528;&#x4ee3;&#x7801;">
+<node CREATED="1618384076236" ID="ID_424624214" MODIFIED="1618384085888" TEXT="1. &#x534f;&#x8bae;&#x5b66;&#x4e60;">
+<node CREATED="1631682751340" ID="ID_481796974" MODIFIED="1631688394615">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hsw&#160;&#160;HSyncWidth
+    </p>
+    <p>
+      Hfp
+    </p>
+    <p>
+      Hbp
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1618384089117" FOLDED="true" ID="ID_966995599" MODIFIED="1631682747810" TEXT="2.&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x5b66;&#x4e60;">
+<node CREATED="1618384099598" FOLDED="true" ID="ID_1265841461" MODIFIED="1631682746810" TEXT="1.&#x901a;&#x7528;&#x4ee3;&#x7801;">
 <node CREATED="1618384117357" ID="ID_1769683926" MODIFIED="1618384157910">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -38957,7 +38976,13 @@
       &#xa0;&#xa0;&#xa0;&#xa0;struct cpu_user_fns *user;
     </p>
     <p>
-      &#xa0;&#xa0;&#xa0;&#xa0;struct cpu_cache_fns&#xa0;&#xa0;&#xa0;&#xa0;*cache;
+      &#160;&#160;&#160;&#160;struct cpu_tlb_fns&#160;&#160;*tlb;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct cpu_user_fns *user;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct cpu_cache_fns&#160;&#160;&#160;&#160;*cache;
     </p>
     <p>
       };
