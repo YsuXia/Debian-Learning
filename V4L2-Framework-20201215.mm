@@ -2242,6 +2242,30 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1611498679340" ID="ID_101052742" MODIFIED="1611498751275">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e71818"><b><i>struct msm_video_device { </i></b></font>
+    </p>
+    <p>
+      <font size="4" color="#e71818"><b><i>&#160;&#160;&#160;&#160;struct video_device *vdev; </i></b></font>
+    </p>
+    <p>
+      <font size="4" color="#e71818"><b><i>&#160;&#160;&#160;&#160;atomic_t opened; </i></b></font>
+    </p>
+    <p>
+      <font size="4" color="#e71818"><b><i>&#160;&#160;&#160;&#160;struct mutex video_drvdata_mutex; </i></b></font>
+    </p>
+    <p>
+      <font size="4" color="#e71818"><b><i>}; </i></b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1585836588925" ID="ID_257206232" MODIFIED="1585836663574">
 <richcontent TYPE="NODE"><html>
@@ -2416,12 +2440,35 @@
   </head>
   <body>
     <p>
-      <font size="4" color="#ff0000">msm_sensor_init.c &#25991;&#20214;&#20998;&#26512;</font>
+      &#160;&#160;&#160;&#160;strlcpy(pvdev-&gt;vdev-&gt;name, &quot;msm-config&quot;, sizeof(pvdev-&gt;vdev-&gt;name));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pvdev-&gt;vdev-&gt;release&#160;&#160;= video_device_release;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pvdev-&gt;vdev-&gt;fops&#160;&#160;&#160;&#160;&#160;= &amp;msm_fops;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pvdev-&gt;vdev-&gt;ioctl_ops = &amp;g_msm_ioctl_ops;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pvdev-&gt;vdev-&gt;minor&#160;&#160;&#160;&#160;&#160;= -1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pvdev-&gt;vdev-&gt;vfl_type&#160;&#160;= VFL_TYPE_GRABBER;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;rc = video_register_device(pvdev-&gt;vdev,VFL_TYPE_GRABBER, -1);
+    </p>
+    <p>
+      &#27880;&#20876;video&#35774;&#22791;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1611801030708" ID="ID_814384622" MODIFIED="1611801046269">
+</html></richcontent>
+</node>
+<node CREATED="1611673512761" ID="ID_592020590" MODIFIED="1611673517932" TEXT="pvdev-&gt;vdev-&gt;entity.name = video_device_node_name(pvdev-&gt;vdev);"/>
+</node>
+<node CREATED="1611674062824" ID="ID_1964636708" MODIFIED="1611674138639">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2434,9 +2481,8 @@
       &#20989;&#25968;&#20998;&#26512;
     </p>
   </body>
-</html>
-</richcontent>
-</node>
+</html></richcontent>
+<node CREATED="1611674169747" ID="ID_1918625614" MODIFIED="1611674173622" TEXT="static int __init msm_sensor_init_module(void)"/>
 </node>
 </node>
 </node>

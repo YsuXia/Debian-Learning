@@ -1134,7 +1134,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1442123195928" ID="ID_857878324" MODIFIED="1510230622518" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
+<node COLOR="#ff0000" CREATED="1442123195928" FOLDED="true" ID="ID_857878324" MODIFIED="1622067977555" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#330033" CREATED="1442127652218" FOLDED="true" ID="ID_1746631417" MODIFIED="1526954188378">
 <richcontent TYPE="NODE"><html>
@@ -8475,7 +8475,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1487407609196" FOLDED="true" ID="ID_863323506" MODIFIED="1526871355059">
+<node CREATED="1487407609196" FOLDED="true" ID="ID_863323506" MODIFIED="1622067976090">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8489,7 +8489,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1487407990088" ID="ID_720726212" MODIFIED="1524240015909">
+<node CREATED="1487407990088" FOLDED="true" ID="ID_720726212" MODIFIED="1622067974255">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8568,7 +8568,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1488005845567" ID="ID_1017227841" MODIFIED="1524240328303">
+<node CREATED="1488005845567" FOLDED="true" ID="ID_1017227841" MODIFIED="1622067972732">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8818,7 +8818,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1572503555364">
+<node CREATED="1505661728302" FOLDED="true" ID="ID_1325193433" MODIFIED="1622033607160">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10051,7 +10051,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1539409496460" ID="ID_1616571622" MODIFIED="1539409538812" POSITION="left">
+<node CREATED="1539409496460" ID="ID_1616571622" MODIFIED="1635664503610" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10062,10 +10062,638 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1622067991088" ID="ID_1509323166" MODIFIED="1635664503622">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#f40303">&#23398;&#20064;&#36164;&#26009;&#35828;&#26126;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1622071167851" ID="ID_546448691" MODIFIED="1641734526045">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26681;&#25454;&#22823;&#20332;&#30340;&#32593;&#31449;
+    </p>
+    <p>
+      https://www.cnblogs.com/pengdonglin137/p/5137941.html
+    </p>
+    <p>
+      &#30446;&#21069;u-boot&#20351;&#29992;&#30340;&#26159;&#20174;https://github.com/friendlyarm/uboot_tiny4412.git&#19979;&#36733;&#19979;&#26469;&#30340;&#23448;&#26041;&#26368;&#26032;u-boot&#65292;
+    </p>
+    <p>
+      &#28982;&#21518;&#26681;&#25454;&#22823;&#20332;&#30340;&#21338;&#23458;&#36827;&#34892;&#20462;&#25913;&#65292;&#20351;&#24471;&#35813;u-boot&#33021;&#25903;&#25345;uImage&#26684;&#24335;&#21644;dts&#35774;&#22791;&#26641;&#65292;&#20462;&#25913;&#22909;&#30340;u-boot&#20301;&#20110;
+    </p>
+    <p>
+      &#25105;&#20010;&#20154;&#30340;&#30005;&#33041;&#30446;&#24405; ~/GitHub/uboot_tiny4412
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      linux&#26681;&#25454;&#22823;&#20332;&#30340;&#24314;&#35758;&#65292;&#19981;&#20877;&#20351;&#29992;&#24320;&#21457;&#26495;&#33258;&#24102;&#30340;linux&#29256;&#26412;&#65292;&#32780;&#26159;&#20351;&#29992;
+    </p>
+    <p>
+      linux4.4.40&#29256;&#26412;&#65292;&#24050;&#32463;&#19978;&#20256;github&#65292;&#26412;&#22320;&#30446;&#24405; ~/GitHub/linux-4.4.40_tiny4412/linux-4.4.40
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1572503579503" ID="ID_857363367" MODIFIED="1572503598259" POSITION="left" TEXT="ARM ABI">
+</node>
+<node CREATED="1622073162972" FOLDED="true" ID="ID_1344300633" MODIFIED="1641734475005" TEXT="&#x5f00;&#x53d1;&#x677f;&#x8bf4;&#x660e;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1572503603679" ID="ID_313235729" MODIFIED="1572503826531">
+<node CREATED="1622073181085" ID="ID_1139555513" MODIFIED="1622073230571">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24320;&#21457;&#26495;&#30340;&#20869;&#23384;&#26159;1G&#65292;&#26681;&#25454;Exynos4412&#30340;&#25163;&#20876;&#65292;
+    </p>
+    <p>
+      &#20869;&#23384;&#30340;&#22320;&#22336;&#26159;
+    </p>
+    <p>
+      0x4000_0000 0xA000_0000 1.5 GB Memory of Dynamic Memory Controller (DMC)-0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1622073303383" ID="ID_1857464556" MODIFIED="1622073319128">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TINY4412 # bootm 0x40600000 0x41000000 0x42000000
+    </p>
+    <p>
+      ## Booting kernel from Legacy Image at 40600000 ...
+    </p>
+    <p>
+      &#160;&#160;&#160;Image Name:&#160;&#160;&#160;Linux-4.4.40
+    </p>
+    <p>
+      &#160;&#160;&#160;Image Type:&#160;&#160;&#160;ARM Linux Kernel Image (uncompressed)
+    </p>
+    <p>
+      &#160;&#160;&#160;Data Size:&#160;&#160;&#160;&#160;4203352 Bytes = 4104 KiB
+    </p>
+    <p>
+      &#160;&#160;&#160;Load Address: 40008000
+    </p>
+    <p>
+      &#160;&#160;&#160;Entry Point:&#160;&#160;40008000
+    </p>
+    <p>
+      &#160;&#160;&#160;Verifying Checksum ... OK
+    </p>
+    <p>
+      ## Loading init Ramdisk from Legacy Image at 41000000 ...
+    </p>
+    <p>
+      &#160;&#160;&#160;Image Name:&#160;&#160;&#160;ramdisk
+    </p>
+    <p>
+      &#160;&#160;&#160;Image Type:&#160;&#160;&#160;ARM Linux RAMDisk Image (gzip compressed)
+    </p>
+    <p>
+      &#160;&#160;&#160;Data Size:&#160;&#160;&#160;&#160;2585838 Bytes = 2525 KiB
+    </p>
+    <p>
+      &#160;&#160;&#160;Load Address: 00000000
+    </p>
+    <p>
+      &#160;&#160;&#160;Entry Point:&#160;&#160;00000000
+    </p>
+    <p>
+      &#160;&#160;&#160;Verifying Checksum ... OK
+    </p>
+    <p>
+      ## Flattened Device Tree blob at 42000000
+    </p>
+    <p>
+      &#160;&#160;&#160;Booting using the fdt blob at 0x42000000
+    </p>
+    <p>
+      &#160;&#160;&#160;Loading Kernel Image ... OK
+    </p>
+    <p>
+      OK
+    </p>
+    <p>
+      ## Loading init Ramdisk from Legacy Image at 41000000 ...
+    </p>
+    <p>
+      &#160;&#160;&#160;Image Name:&#160;&#160;&#160;ramdisk
+    </p>
+    <p>
+      &#160;&#160;&#160;Image Type:&#160;&#160;&#160;ARM Linux RAMDisk Image (gzip compressed)
+    </p>
+    <p>
+      &#160;&#160;&#160;Data Size:&#160;&#160;&#160;&#160;2585838 Bytes = 2525 KiB
+    </p>
+    <p>
+      &#160;&#160;&#160;Load Address: 00000000
+    </p>
+    <p>
+      &#160;&#160;&#160;Entry Point:&#160;&#160;00000000
+    </p>
+    <p>
+      &#160;&#160;&#160;Verifying Checksum ... OK
+    </p>
+    <p>
+      &#160;&#160;&#160;Loading Ramdisk to 43a84000, end 43cfb4ee ... OK
+    </p>
+    <p>
+      &#160;&#160;&#160;Loading Device Tree to 413f2000, end 413ff535 ... OK
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Starting kernel ...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Booting Linux on physical CPU 0xa00
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Linux version 4.4.40 (xiayang@xiayang-ThinkPad-T460p) (gcc version 4.9.4 (Linaro GCC 4.9-2017.01) ) #2 SMP PREEMPT Thu May 27 07:37:22 CST 2021
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Machine model: FriendlyARM TINY4412 board based on Exynos4412
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] cma: Reserved 64 MiB at 0x7bc00000
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Memory policy: Data cache writealloc
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Samsung CPU ID: 0xe4412011
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] PERCPU: Embedded 12 pages/cpu @ef79c000 s18816 r8192 d22144 u49152
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Built 1 zonelists in Zone order, mobility grouping on.&#160; Total pages: 260352
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Kernel command line: root=/dev/ram0 rw rootfstype=ext4 console=ttySAC0,115200 init=/linuxrc earlyprintk
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Memory: 961292K/1047552K available (5734K kernel code, 239K rwdata, 2024K rodata, 432K init, 315K bss, 20724K reserved, 65536K cma-reserved, 195584K highmem)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Virtual kernel memory layout:
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;vector&#160;&#160;: 0xffff0000 - 0xffff1000&#160;&#160;&#160;(&#160;&#160;&#160;4 kB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;fixmap&#160;&#160;: 0xffc00000 - 0xfff00000&#160;&#160;&#160;(3072 kB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;vmalloc : 0xf0800000 - 0xff800000&#160;&#160;&#160;( 240 MB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;lowmem&#160;&#160;: 0xc0000000 - 0xf0000000&#160;&#160;&#160;( 768 MB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;pkmap&#160;&#160;&#160;: 0xbfe00000 - 0xc0000000&#160;&#160;&#160;(&#160;&#160;&#160;2 MB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;modules : 0xbf000000 - 0xbfe00000&#160;&#160;&#160;(&#160;&#160;14 MB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;&#160;&#160;.text : 0xc0008000 - 0xc079bb9c&#160;&#160;&#160;(7759 kB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;&#160;&#160;.init : 0xc079c000 - 0xc0808000&#160;&#160;&#160;( 432 kB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;&#160;&#160;.data : 0xc0808000 - 0xc0843f40&#160;&#160;&#160;( 240 kB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.bss : 0xc0846000 - 0xc0894c68&#160;&#160;&#160;( 316 kB)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Preemptible hierarchical RCU implementation.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;Build-time adjustment of leaf fanout to 32.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=4
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] NR_IRQS:16 nr_irqs:16 16
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] GIC physical location is 0x10490000
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C: platform modifies aux control register: 0x02070000 -&gt; 0x3e470001
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C: platform provided aux values permit register corruption.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C: DT/platform modifies aux control register: 0x02070000 -&gt; 0x3e470001
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C-310 enabling early BRESP for Cortex-A9
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C-310: enabling full line of zeros but not enabled in Cortex-A9
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C-310 cache controller enabled, 16 ways, 1024 kB
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] L2C-310: CACHE_ID 0x4100c4c8, AUX_CTRL 0x4e470001
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Exynos4x12 clocks: sclk_apll = 466666667, sclk_mpll = 800000000
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000]&#160;&#160;sclk_epll = 96000000, sclk_vpll = 108000000, arm_clk = 1400000000
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] Switching to timer-based delay loop, resolution 41ns
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000000] clocksource: mct-frc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000003] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000123] Console: colour dummy device 80x30
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000136] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=120000)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000145] pid_max: default: 32768 minimum: 301
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000214] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000221] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000579] CPU: Testing write buffer coherency: ok
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000768] CPU0: thread -1, cpu 0, socket 10, mpidr 80000a00
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.000991] Setting up static identity map for 0x40008280 - 0x400082d8
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.045046] CPU1: thread -1, cpu 1, socket 10, mpidr 80000a01
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.060040] CPU2: thread -1, cpu 2, socket 10, mpidr 80000a02
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.075041] CPU3: thread -1, cpu 3, socket 10, mpidr 80000a03
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.075082] Brought up 4 CPUs
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.075094] SMP: Total of 4 processors activated (192.00 BogoMIPS).
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.075099] CPU: All CPU(s) started in SVC mode.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.075607] devtmpfs: initialized
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.084999] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.085284] lcd0-power-domain@10023C80 has as child subdomain: tv-power-domain@10023C20.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.085652] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302231375000 ns
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.087696] pinctrl core: initialized pinctrl subsystem
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.088473] NET: Registered protocol family 16
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.089939] DMA: preallocated 256 KiB pool for atomic coherent allocations
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.105004] cpuidle: using governor ladder
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.120000] cpuidle: using governor menu
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.120756] exynos-audss-clk 3810000.clock-controller: setup completed
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.157108] SCSI subsystem initialized
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.157482] usbcore: registered new interface driver usbfs
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.157557] usbcore: registered new interface driver hub
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.157637] usbcore: registered new device driver usb
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.158758] Advanced Linux Sound Architecture Driver Initialized.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.159836] clocksource: Switched to clocksource mct-frc
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.169255] missing cooling_device property
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.169264] failed to build thermal zone cpu-thermal: -2
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.169362] NET: Registered protocol family 2
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.169725] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.169786] TCP bind hash table entries: 8192 (order: 5, 163840 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.169966] TCP: Hash tables configured (established 8192 bind 8192)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170046] UDP hash table entries: 512 (order: 2, 24576 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170074] UDP-Lite hash table entries: 512 (order: 2, 24576 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170220] NET: Registered protocol family 1
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170443] RPC: Registered named UNIX socket transport module.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170450] RPC: Registered udp transport module.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170454] RPC: Registered tcp transport module.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170459] RPC: Registered tcp NFSv4.1 backchannel transport module.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170609] Trying to unpack rootfs image as initramfs...
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.170989] rootfs image is not initramfs (no cpio magic); looks like an initrd
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.178054] Freeing initrd memory: 2528K (c3a84000 - c3cfc000)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.179489] futex hash table entries: 1024 (order: 4, 65536 bytes)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.189232] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.189912] bounce: pool size: 64 pages
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.189922] io scheduler noop registered
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.189930] io scheduler deadline registered
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.190107] io scheduler cfq registered (default)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.194970] dma-pl330 12680000.pdma: Loaded driver for PL330 DMAC-141330
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.194980] dma-pl330 12680000.pdma:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.198092] dma-pl330 12690000.pdma: Loaded driver for PL330 DMAC-141330
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.198102] dma-pl330 12690000.pdma:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.198979] dma-pl330 12850000.mdma: Loaded driver for PL330 DMAC-141330
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.198988] dma-pl330 12850000.mdma:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DBUFF-64x8bytes Num_Chans-8 Num_Peri-1 Num_Events-32
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.258019] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.259288] 13800000.serial: ttySAC0 at MMIO 0x13800000 (irq = 44, base_baud = 0) is a S3C6400/10
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.888919] console [ttySAC0] enabled
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.892912] 13810000.serial: ttySAC1 at MMIO 0x13810000 (irq = 45, base_baud = 0) is a S3C6400/10
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.901698] 13820000.serial: ttySAC2 at MMIO 0x13820000 (irq = 46, base_baud = 0) is a S3C6400/10
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.910543] 13830000.serial: ttySAC3 at MMIO 0x13830000 (irq = 47, base_baud = 0) is a S3C6400/10
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.920096] [drm] Initialized drm 1.1.0 20060810
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.933693] brd: module loaded
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.938338] loop: module loaded
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.938959] usbcore: registered new interface driver r8152
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.939063] usbcore: registered new interface driver asix
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.940770] usbcore: registered new interface driver ax88179_178a
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.946837] usbcore: registered new interface driver cdc_ether
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.952675] usbcore: registered new interface driver smsc75xx
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.958396] usbcore: registered new interface driver smsc95xx
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.964109] usbcore: registered new interface driver net1080
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.969751] usbcore: registered new interface driver cdc_subset
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.975652] usbcore: registered new interface driver zaurus
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.981237] usbcore: registered new interface driver cdc_ncm
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.987114] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.993329] ehci-exynos: EHCI EXYNOS driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;0.997592] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.003666] ohci-exynos: OHCI EXYNOS driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.008086] usbcore: registered new interface driver usb-storage
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.014250] mousedev: PS/2 mouse device common for all mice
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.019937] s3c-rtc 10070000.rtc: failed to find rtc source clock
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.025454] s3c-rtc: probe of 10070000.rtc failed with error -2
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.031490] i2c /dev entries driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.036307] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.043904] sdhci: Secure Digital Host Controller Interface driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.049397] sdhci: Copyright(c) Pierre Ossman
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.053836] Synopsys Designware Multimedia Card Interface Driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.061038] usbcore: registered new interface driver usbhid
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.065280] usbhid: USB HID core driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.071347] NET: Registered protocol family 10
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.074008] sit: IPv6 over IPv4 tunneling driver
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.078572] NET: Registered protocol family 17
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.082574] NET: Registered protocol family 15
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.087130] Registering SWP/SWPB emulation handler
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.092678] hctosys: unable to open rtc device (rtc0)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.109170] ALSA device list:
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.109208]&#160;&#160;&#160;No soundcards found.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.109940] RAMDISK: gzip image found at block 0
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.248134] EXT4-fs (ram0): mounted filesystem with ordered data mode. Opts: (null)
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.248230] VFS: Mounted root (ext4 filesystem) on device 1:0.
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.248365] devtmpfs: mounted
+    </p>
+    <p>
+      [&#160;&#160;&#160;&#160;1.248650] Freeing unused kernel memory: 432K (c079c000 - c0808000)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Please press Enter to activate this console.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1572503579503" FOLDED="true" ID="ID_857363367" MODIFIED="1622067985653" POSITION="left" TEXT="ARM ABI">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1572503603679" FOLDED="true" ID="ID_313235729" MODIFIED="1622067983515">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10240,8 +10868,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1572503659887" ID="ID_448310643" MODIFIED="1572503717255">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -10258,8 +10885,7 @@
       &#23545;&#24212;&#30340;pdf&#24050;&#32463;&#19979;&#36733;&#22312;book&#30446;&#24405;&#19979;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
