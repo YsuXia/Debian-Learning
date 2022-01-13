@@ -2155,7 +2155,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1479707368505" FOLDED="true" ID="ID_6989081" MODIFIED="1528247479874" POSITION="left">
+<node CREATED="1479707368505" ID="ID_6989081" MODIFIED="1642060864875" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2167,7 +2167,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1479707423903" FOLDED="true" ID="ID_1549739821" MODIFIED="1504761241093">
+<node CREATED="1479707423903" ID="ID_1549739821" MODIFIED="1642060866959">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2178,26 +2178,27 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1479707445319" ID="ID_180729713" MODIFIED="1479733008529">
+<node CREATED="1479707445319" ID="ID_180729713" MODIFIED="1642061054535">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      systrace&#x7684;&#x8f93;&#x51fa;&#x7ed3;&#x679c;&#x662f;&#x4e00;&#x4e2a;&#x7f51;&#x9875;&#x7684;&#x6587;&#x4ef6;&#xff0c;&#x4f7f;&#x7528;chrome&#x6253;&#x5f00;&#x8be5;&#x6587;&#x4ef6;
+      systrace&#30340;&#36755;&#20986;&#32467;&#26524;&#26159;&#19968;&#20010;&#32593;&#39029;&#30340;&#25991;&#20214;&#65292;&#20351;&#29992;chrome&#25171;&#24320;&#35813;&#25991;&#20214;: <b>&#27604;&#36739;&#26032;&#30340;&#29256;&#26412;&#38656;&#35201;&#22312;&#27983;&#35272;&#22120;&#36755;&#20837; chrome://tracing&#25171;&#24320;</b>
     </p>
     <p>
-      1.&#x4f7f;&#x7528;W&#x952e;&#x7f29;&#x5c0f;&#x7f51;&#x9875;&#x7ed3;&#x679c;&#xff0c;&#x4f7f;&#x7528;S&#x952e;&#x653e;&#x5927;&#x7f51;&#x9875;&#x7ed3;&#x679c;,A&#x952e;&#x5de6;&#x5e73;&#x79fb;&#xff0c;D&#x952e;
+      1.&#20351;&#29992;W&#38190;&#32553;&#23567;&#32593;&#39029;&#32467;&#26524;&#65292;&#20351;&#29992;S&#38190;&#25918;&#22823;&#32593;&#39029;&#32467;&#26524;,A&#38190;&#24038;&#24179;&#31227;&#65292;D&#38190;
     </p>
     <p>
-      &#x53f3;&#x5e73;&#x79fb;&#xff0c;E&#x5c06;&#x65f6;&#x95f4;&#x7ebf;&#x7684;&#x4e2d;&#x5fc3;&#x5b9a;&#x683c;&#x5728;&#x5f53;&#x524d;&#x9f20;&#x6807;&#x7684;&#x4f4d;&#x7f6e;&#xff0c;G&#x5728;&#x5f53;&#x524d;&#x9009;&#x62e9;&#x7684;&#x7ebf;&#x7a0b;&#x7684;&#x5f00;&#x59cb;
+      &#21491;&#24179;&#31227;&#65292;E&#23558;&#26102;&#38388;&#32447;&#30340;&#20013;&#24515;&#23450;&#26684;&#22312;&#24403;&#21069;&#40736;&#26631;&#30340;&#20301;&#32622;&#65292;G&#22312;&#24403;&#21069;&#36873;&#25321;&#30340;&#32447;&#31243;&#30340;&#24320;&#22987;
     </p>
     <p>
-      &#x663e;&#x793a;&#x51fa;grid
+      &#26174;&#31034;&#20986;grid
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1479733013052" ID="ID_228513335" MODIFIED="1479736408172">
 <richcontent TYPE="NODE"><html>
@@ -2252,6 +2253,22 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1642066052985" ID="ID_1173698033" MODIFIED="1642066155881">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">&#22823;&#31070;&#20889;&#30340;systrace&#31995;&#21015;&#25991;&#31456;</font>
+    </p>
+    <p>
+      <font color="#ff0000" size="4">https://androidperformance.com/2019/05/28/Android-Systrace-About/#</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1496221895678" FOLDED="true" ID="ID_127873495" MODIFIED="1504761238861">
@@ -8158,9 +8175,20 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1578307232859" FOLDED="true" ID="ID_1460251219" MODIFIED="1606807847414" POSITION="left" TEXT="17. android input system">
+<node CREATED="1578307232859" ID="ID_1460251219" MODIFIED="1641885931756" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">17. android input system</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1578307251051" FOLDED="true" ID="ID_853138179" MODIFIED="1606807846522">
+<node CREATED="1578307251051" FOLDED="true" ID="ID_853138179" MODIFIED="1641885937119">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8174,7 +8202,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578307330751" FOLDED="true" ID="ID_1744035212" MODIFIED="1606807845316">
+<node CREATED="1578307330751" ID="ID_1744035212" MODIFIED="1641885860367">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8206,7 +8234,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578307451435" FOLDED="true" ID="ID_523631737" MODIFIED="1606807842371">
+<node CREATED="1578307451435" ID="ID_523631737" MODIFIED="1641885869060">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8226,7 +8254,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578360561048" FOLDED="true" ID="ID_1643768080" MODIFIED="1606807841323">
+<node CREATED="1578360561048" ID="ID_1643768080" MODIFIED="1641885872413">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8261,7 +8289,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578360919142" FOLDED="true" ID="ID_657024654" MODIFIED="1606807837748">
+<node CREATED="1578360919142" ID="ID_657024654" MODIFIED="1641885875556">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8296,7 +8324,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578366324960" FOLDED="true" ID="ID_697649708" MODIFIED="1606807836435">
+<node CREATED="1578366324960" ID="ID_697649708" MODIFIED="1641885881267">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8430,7 +8458,7 @@ but it's much nicer to be explicit about it.</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1578367667409" FOLDED="true" ID="ID_290099477" MODIFIED="1606807831506">
+<node CREATED="1578367667409" ID="ID_290099477" MODIFIED="1641885899222">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8447,7 +8475,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578368061323" FOLDED="true" ID="ID_1478704644" MODIFIED="1606807830442">
+<node CREATED="1578368061323" ID="ID_1478704644" MODIFIED="1641885901227">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8672,7 +8700,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1578363179374" FOLDED="true" ID="ID_1223575485" MODIFIED="1606807825637">
+<node CREATED="1578363179374" ID="ID_1223575485" MODIFIED="1641885879218">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8683,7 +8711,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578364048594" FOLDED="true" ID="ID_856046512" MODIFIED="1606807824603">
+<node CREATED="1578364048594" ID="ID_856046512" MODIFIED="1641885885594">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8700,7 +8728,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578364777077" FOLDED="true" ID="ID_1434200966" MODIFIED="1606807821915">
+<node CREATED="1578364777077" ID="ID_1434200966" MODIFIED="1641885888287">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8739,7 +8767,7 @@ but it's much nicer to be explicit about it.</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1578365298131" FOLDED="true" ID="ID_1427521881" MODIFIED="1606807820746">
+<node CREATED="1578365298131" ID="ID_1427521881" MODIFIED="1641885892361">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8823,8 +8851,21 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
+<node CREATED="1641885940164" ID="ID_295649403" MODIFIED="1641885951318">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Touch&#35774;&#22791;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1589424488998" FOLDED="true" ID="ID_1863609399" MODIFIED="1641519934071" POSITION="right">
+</node>
+<node CREATED="1589424488998" ID="ID_1863609399" MODIFIED="1642053563695" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8836,7 +8877,108 @@ but it's much nicer to be explicit about it.</pre>
   </body>
 </html></richcontent>
 <node CREATED="1589867000156" ID="ID_33565339" MODIFIED="1589867015442" TEXT="Graphic&#x67b6;&#x6784;&#x4ecb;&#x7ecd;">
-<node CREATED="1589867023949" FOLDED="true" ID="ID_751597182" MODIFIED="1608029022304">
+<node CREATED="1642058955784" ID="ID_791630124" MODIFIED="1642058972191">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Overview</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1642059027514" ID="ID_1342375309" MODIFIED="1642059059667">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Application developers draw images to the screen in three ways:
+    </p>
+    <p>
+      &#160;<a href="https://source.android.com/devices/graphics/arch-sh#canvas">Canvas</a>, <a href="https://source.android.com/devices/graphics/arch-egl-opengl">OpenGL ES</a>, or <a href="https://source.android.com/devices/graphics/arch-vulkan">Vulkan</a>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1642059582229" ID="ID_1018159981" MODIFIED="1642059593733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Android&#26174;&#21345;&#32452;&#20214;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1642059751384" ID="ID_1631405431" MODIFIED="1642059782511">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26080;&#35770;&#24320;&#21457;&#32773;&#20351;&#29992;&#20160;&#20040;&#28210;&#26579; API&#65292;&#19968;&#20999;&#20869;&#23481;&#37117;&#20250;&#28210;&#26579;&#21040;&#160; <strong>Surface</strong>&#160;&#19978;&#12290;<b><font color="#3333ff">Surface &#34920;&#31034;&#32531;&#20914;&#21306;&#38431;&#21015;&#20013;&#30340;&#29983;&#20135;&#26041;&#65292;&#32780;&#32531;&#20914;&#21306;&#38431;&#21015;&#36890;&#24120;&#20250;&#34987; SurfaceFlinger &#28040;&#32791;&#12290;</font></b>&#22312; Android &#24179;&#21488;&#19978;&#21019;&#24314;&#30340;&#27599;&#20010;&#31383;&#21475;&#37117;&#30001; Surface &#25552;&#20379;&#25903;&#25345;&#12290;&#25152;&#26377;&#34987;&#28210;&#26579;&#30340;&#21487;&#35265; Surface &#37117;&#34987; SurfaceFlinger &#21512;&#25104;&#21040;&#23631;&#24149;&#12290;
+    </p>
+    <p>
+      &#19979;&#22270;&#26174;&#31034;&#20102;&#20851;&#38190;&#32452;&#20214;&#22914;&#20309;&#21327;&#21516;&#24037;&#20316;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1642060037924" ID="ID_776621794" MODIFIED="1642060048374">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/Surface&#x6e32;&#x67d3;&#x7ec4;&#x4ef6;.png" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1642060163051" ID="ID_70267190" MODIFIED="1642060240680">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 data-text="Image Stream Producers" role="presentation" id="image-stream-producers">
+      Image Stream Producers
+    </h3>
+    <p>
+      &#22270;&#24418;&#32531;&#23384;&#30340;&#29983;&#20135;&#32773;&#65292;&#27604;&#22914;OpenGL ES&#12289;Video Decoder
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1642060296856" ID="ID_1196094854" MODIFIED="1642060857722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 data-text="Image stream consumers" role="presentation" id="image-stream-consumers">
+      <span aria-level="3" class="devsite-heading" role="heading">Image stream consumers</span>
+    </h3>
+    <p>
+      &#22270;&#24418;&#32531;&#23384;&#30340;&#28040;&#36153;&#32773;&#65292;&#26368;&#24120;&#35265;&#30340;&#28040;&#36153;&#32773;&#26159;SurfaceFlinger
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589867023949" ID="ID_751597182" MODIFIED="1642058088972">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8847,7 +8989,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1589867190900" FOLDED="true" ID="ID_829320825" MODIFIED="1608029013977" TEXT="BufferQueue and gralloc">
+<node CREATED="1589867190900" ID="ID_829320825" MODIFIED="1642058092518" TEXT="BufferQueue and gralloc">
 <node CREATED="1589867278131" FOLDED="true" ID="ID_1007285125" MODIFIED="1608029012842">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9210,8 +9352,8 @@ but it's much nicer to be explicit about it.</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1589954520492" FOLDED="true" ID="ID_1202540977" MODIFIED="1608029007152" TEXT="DRM/KMS &#x7814;&#x7a76;">
-<node CREATED="1589954572422" FOLDED="true" ID="ID_179384859" MODIFIED="1608029005528">
+<node CREATED="1589954520492" ID="ID_1202540977" MODIFIED="1642053578293" TEXT="DRM/KMS &#x7814;&#x7a76;">
+<node CREATED="1589954572422" ID="ID_179384859" MODIFIED="1642053632845">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9237,7 +9379,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1589961712570" FOLDED="true" ID="ID_504162052" MODIFIED="1608029003864">
+<node CREATED="1589961712570" ID="ID_504162052" MODIFIED="1642053638300">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9263,7 +9405,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1590040434961" FOLDED="true" ID="ID_593481873" MODIFIED="1608028998792">
+<node CREATED="1590040434961" ID="ID_593481873" MODIFIED="1642053592661">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9426,7 +9568,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1590049694297" FOLDED="true" ID="ID_532477291" MODIFIED="1608028994553">
+<node CREATED="1590049694297" ID="ID_532477291" MODIFIED="1642053615034">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9471,7 +9613,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 <node CREATED="1590049775520" ID="ID_839716293" MODIFIED="1590049796654" TEXT="RK DualScreen&#x65b9;&#x5f0f;&#xff08;RK&#x5e73;&#x53f0;&#xff1f;&#xff09;"/>
 </node>
-<node CREATED="1607480714147" FOLDED="true" ID="ID_489629177" MODIFIED="1608028991586">
+<node CREATED="1607480714147" FOLDED="true" ID="ID_489629177" MODIFIED="1642058083992">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9482,11 +9624,11 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1607480817660" FOLDED="true" ID="ID_1306048507" MODIFIED="1608028990610" TEXT="&#x7f51;&#x7edc;&#x53c2;&#x8003;&#x8d44;&#x6599;&#x94fe;&#x63a5;">
+<node CREATED="1607480817660" FOLDED="true" ID="ID_1306048507" MODIFIED="1642058082639" TEXT="&#x7f51;&#x7edc;&#x53c2;&#x8003;&#x8d44;&#x6599;&#x94fe;&#x63a5;">
 <node CREATED="1607480829964" ID="ID_1199866483" MODIFIED="1607480832483" TEXT="http://static.kancloud.cn/alex_wsc/android_depp/412978"/>
 <node CREATED="1608026295777" ID="ID_87990812" MODIFIED="1608026298968" TEXT="https://blog.csdn.net/xu_chang/article/details/50178407"/>
 </node>
-<node CREATED="1607480836238" FOLDED="true" ID="ID_1625663739" MODIFIED="1608028989377" TEXT="&#x4ee3;&#x7801;&#x5206;&#x6790;">
+<node CREATED="1607480836238" FOLDED="true" ID="ID_1625663739" MODIFIED="1642058080368" TEXT="&#x4ee3;&#x7801;&#x5206;&#x6790;">
 <node CREATED="1607480848970" FOLDED="true" ID="ID_1155581260" MODIFIED="1608028984468">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9665,7 +9807,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1641520138985" ID="ID_1556837581" MODIFIED="1641520201252" POSITION="right">
+<node CREATED="1641520138985" FOLDED="true" ID="ID_1556837581" MODIFIED="1641885605193" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9675,10 +9817,9 @@ but it's much nicer to be explicit about it.</pre>
       <font face="Times New Roman" size="4"><b>21 Sensor&#27169;&#22359;&#23398;&#20064;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1641520210691" ID="ID_15621839" MODIFIED="1641520221650" TEXT="1.&#x5173;&#x4e8e;&#x624b;&#x673a;&#x5750;&#x6807;&#x7cfb;&#x7684;&#x5b9a;&#x4e49;">
-<node CREATED="1641520259491" ID="ID_1795558162" MODIFIED="1641522480455">
+</html></richcontent>
+<node CREATED="1641520210691" FOLDED="true" ID="ID_15621839" MODIFIED="1641885603771" TEXT="1.&#x5173;&#x4e8e;&#x624b;&#x673a;&#x5750;&#x6807;&#x7cfb;&#x7684;&#x5b9a;&#x4e49;">
+<node CREATED="1641520259491" FOLDED="true" ID="ID_1795558162" MODIFIED="1641885601389">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9688,8 +9829,7 @@ but it's much nicer to be explicit about it.</pre>
       &#29992;&#20110;sensor api&#30340;&#22352;&#26631;&#31995;&#32479;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1641522371694" ID="ID_561599142" MODIFIED="1641522383091">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9698,8 +9838,7 @@ but it's much nicer to be explicit about it.</pre>
   <body>
     <img src="android-app/sensor&#x5750;&#x6807;&#x7cfb;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1641533165159" ID="ID_588323468" MODIFIED="1641533283114">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9716,8 +9855,7 @@ but it's much nicer to be explicit about it.</pre>
       &#22312;google pixel&#25163;&#26426;&#19978;&#39564;&#35777;&#26159;&#22914;&#27492;&#30340;&#65292;&#20174;&#19979;&#22270;&#30340;bmi085&#33455;&#29255;&#30340;&#31034;&#24847;&#22270;&#20063;&#21487;&#20197;&#30475;&#21040;&#26159;&#22914;&#27492;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1641533746791" ID="ID_1017493527" MODIFIED="1641533754422">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9726,8 +9864,7 @@ but it's much nicer to be explicit about it.</pre>
   <body>
     <img src="android-app/bmi085&#x8f74;&#x5411;&#x793a;&#x610f;&#x56fe;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1641535042640" ID="ID_429837970" MODIFIED="1641535970810">
@@ -9743,8 +9880,7 @@ but it's much nicer to be explicit about it.</pre>
       <b>&#27604;&#22914;&#24179;&#26495;&#30005;&#33041;&#30340;&#33258;&#28982;&#26041;&#21521;&#23601;&#26159;&#27178;&#23631;&#26041;&#21521;&#65292;&#24635;&#32780;&#35328;&#20043;&#65292;sensor&#30340;&#22352;&#26631;&#31995;&#26159;&#22522;&#20110;&#35774;&#22791;&#30340;&#33258;&#28982;&#26041;&#21521;&#26469;&#35828;&#30340;&#12290;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641547021049" ID="ID_1517080071" MODIFIED="1641547308799">
 <richcontent TYPE="NODE"><html>
@@ -9771,8 +9907,7 @@ but it's much nicer to be explicit about it.</pre>
       <font color="#ff0000" face="Times New Roman" size="4">ROTATION_90&#25110;&#32773;ROTATION_270</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1641522469473" ID="ID_1636573958" MODIFIED="1641522477637">
@@ -9783,8 +9918,7 @@ but it's much nicer to be explicit about it.</pre>
   <body>
     <img src="android-app/&#x53f3;&#x624b;&#x7b1b;&#x5361;&#x5c14;&#x76f4;&#x89d2;&#x5750;&#x6807;&#x7cfb;.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641522482257" ID="ID_1607212524" MODIFIED="1641522488891">
 <richcontent TYPE="NODE"><html>
@@ -9794,8 +9928,7 @@ but it's much nicer to be explicit about it.</pre>
   <body>
     <img src="android-app/pitch-roll-yaw.jpg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1641522494627" ID="ID_1418353205" MODIFIED="1641522528772">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9806,13 +9939,11 @@ but it's much nicer to be explicit about it.</pre>
       <b>&#25353;&#29031;&#22352;&#26631;&#36724;&#39034;&#26102;&#38024;&#26059;&#36716;&#21363;&#20026;&#27491;&#26041;&#21521;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1641546897341" ID="ID_273648918" MODIFIED="1641546897341" TEXT=""/>
 </node>
 <node CREATED="1606807994251" ID="ID_96506234" MODIFIED="1606808018214" POSITION="left">
 <richcontent TYPE="NODE"><html>
