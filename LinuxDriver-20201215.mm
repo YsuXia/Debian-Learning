@@ -10,8 +10,7 @@
       <b><font color="#009999">Linux&#35774;&#22791;&#39537;&#21160;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#cc0033" CREATED="1432001536510" FOLDED="true" ID="ID_1355499788" MODIFIED="1641955604736" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -23,8 +22,7 @@
       <font color="#000000">&#31532;&#19968;&#31456;&#35774;&#22791;&#39537;&#21160;&#20171;&#32461;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432001536510" FOLDED="true" ID="ID_413707106" MODIFIED="1544867539066" TEXT="&#x9a71;&#x52a8;&#x7684;&#x89d2;&#x8272;">
 <node CREATED="1432001536510" FOLDED="true" ID="ID_755263179" MODIFIED="1527815355570">
@@ -115,8 +113,7 @@
       <font color="#000000">&#31532;&#19977;&#31456;&#23383;&#31526;&#39537;&#21160;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432001536511" FOLDED="true" ID="ID_1504972745" MODIFIED="1576372896973" TEXT="SCULL&#x7684;&#x4ecb;&#x7ecd;">
 <edge COLOR="#ff0066"/>
@@ -1254,8 +1251,7 @@
       <b><font size="4">2.&#23433;&#35013;&#39537;&#21160;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="flag-yellow"/>
 <node CREATED="1432003059320" ID="ID_115436358" MODIFIED="1432003526825" TEXT="&#x7f16;&#x5199;&#x9a71;&#x52a8;&#x7684;&#x5165;&#x53e3;&#x9700;&#x8981;&#x7684;&#x51e0;&#x4e2a;&#x5b8f;&#x5b9a;&#x4e49;"/>
@@ -1531,8 +1527,7 @@
       <font color="#000000">&#31532;&#22235;&#31456;debugging&#25216;&#26415;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1432176050648" FOLDED="true" ID="ID_1785780009" MODIFIED="1495608094367">
 <richcontent TYPE="NODE"><html>
@@ -2901,8 +2896,7 @@
       <b><font color="#000000">&#31532;&#20116;&#31456;&#65306;&#39537;&#21160;&#24403;&#20013;&#30340;&#24182;&#21457;&#21644;&#31455;&#24577;&#26465;&#20214; </font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1439215247253" FOLDED="true" ID="ID_1839798648" MODIFIED="1641955311071" TEXT="1.&#x5e76;&#x53d1;&#x548c;&#x5b83;&#x7684;&#x7ba1;&#x7406;">
 <node CREATED="1439298508866" FOLDED="true" ID="ID_1135750547" MODIFIED="1486555599160" TEXT="&#x4e00;&#x4e9b;&#x57fa;&#x672c;&#x7684;&#x539f;&#x5219;">
@@ -3175,8 +3169,7 @@
       <font color="#000000">&#27010;&#24565;&#35774;&#22791;&#39537;&#21160;&#31243;&#24207;&#21592;&#22312;&#19968;&#24320;&#22987;&#23601;&#24517;&#39035;&#26377;&#24182;&#21457;&#30340;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#cc0033" CREATED="1454674211713" FOLDED="true" ID="ID_501267520" MODIFIED="1641955620936" POSITION="right">
@@ -3189,8 +3182,7 @@
       <font color="#000000">&#31532;&#20845;&#31456;&#65306;&#39640;&#32423;&#23383;&#31526;&#39537;&#21160;&#25805;&#20316;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1455007337777" FOLDED="true" ID="ID_1410005813" MODIFIED="1515281887282" TEXT="ioctl&#x64cd;&#x4f5c;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -4341,8 +4333,7 @@
       <b><font color="#000000" size="4">&#29305;&#21035;&#31456;&#33410;:&#20851;&#20110;&#20195;&#30721;&#30340;&#32534;&#35793;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1455763244152" FOLDED="true" ID="ID_1570856145" MODIFIED="1574951005479">
 <richcontent TYPE="NODE"><html>
@@ -4684,8 +4675,7 @@
       <b><font color="#000000">&#31532;&#21313;&#22235;&#31456;&#65306;&#35774;&#22791;&#27169;&#22411;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1457941273619" ID="ID_1019923209" MODIFIED="1598863533795">
 <richcontent TYPE="NODE"><html>
@@ -5994,7 +5984,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1641955628896" POSITION="right">
+<node COLOR="#cc0033" CREATED="1458395797887" FOLDED="true" ID="ID_897771791" MODIFIED="1642559774570" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6004,10 +5994,9 @@
       <font color="#000000">&#29305;&#21035;&#31456;&#33410;:GPIO&#23376;&#31995;&#32479;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1560959515790">
+<node CREATED="1458440850768" FOLDED="true" ID="ID_1906210875" MODIFIED="1642559772300">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6080,7 +6069,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1589521625973" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
+<node CREATED="1458444006543" FOLDED="true" ID="ID_117120831" MODIFIED="1642559773500" TEXT="GPIO&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4ef6;&#x5206;&#x7c7b;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458444050579" FOLDED="true" ID="ID_345597075" MODIFIED="1589521625005">
 <richcontent TYPE="NODE"><html>
@@ -8117,8 +8106,7 @@
       <b><font color="#000000" size="4">&#31532;&#19971;&#31456;&#65306;&#35745;&#26102;&#22120;&#65292;&#24310;&#26102;&#21644;&#24310;&#26102;&#24037;&#20316;</font><font color="#ee0404" size="4">&#160; </font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1641955669370" ID="ID_1388621098" MODIFIED="1641955675979">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8141,8 +8129,7 @@
       4.&#22312;&#38543;&#21518;&#30340;&#26102;&#38388;&#37324;&#35843;&#24230;&#24322;&#27493;&#20989;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1455874380392" FOLDED="true" ID="ID_1825272736" MODIFIED="1641955656720">
 <richcontent TYPE="NODE"><html>
@@ -11797,8 +11784,7 @@
       <b><font color="#000000" size="4">USB&#31995;&#32479;&#23398;&#20064;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1471313923568" FOLDED="true" ID="ID_984050240" MODIFIED="1617082989149" TEXT="USB&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1586741500654" FOLDED="true" ID="ID_4126578" MODIFIED="1617082984061">
@@ -29297,8 +29283,7 @@
       <font color="#000000">DisplayPort&#39537;&#21160;&#23398;&#20064;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1618384076236" ID="ID_424624214" MODIFIED="1618384085888" TEXT="1. &#x534f;&#x8bae;&#x5b66;&#x4e60;">
 <node CREATED="1631682751340" ID="ID_481796974" MODIFIED="1631688394615">
@@ -29350,7 +29335,7 @@
 <node CREATED="1618384107597" ID="ID_869671275" MODIFIED="1618384112608" TEXT="2.&#x5e73;&#x53f0;&#x7279;&#x5b9a;&#x4ee3;&#x7801;"/>
 </node>
 </node>
-<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1641647156426" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
+<node CREATED="1475896151069" FOLDED="true" ID="ID_1362020755" MODIFIED="1644575998044" POSITION="left" TEXT="&#x7535;&#x6e90;&#x7ba1;&#x7406;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475999878646" FOLDED="true" ID="ID_1055025927" MODIFIED="1499823186488">
 <richcontent TYPE="NODE"><html>
@@ -31028,7 +31013,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1584432587307" ID="ID_253610130" MODIFIED="1611373474324">
+<node CREATED="1584432587307" FOLDED="true" ID="ID_253610130" MODIFIED="1643075252852">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31039,7 +31024,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1584435295414" ID="ID_165827177" MODIFIED="1611373477681">
+<node CREATED="1584435295414" FOLDED="true" ID="ID_165827177" MODIFIED="1643075244956">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31050,7 +31035,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1584435311535" ID="ID_1261407435" MODIFIED="1611373864992">
+<node CREATED="1584435311535" FOLDED="true" ID="ID_1261407435" MODIFIED="1643075226428">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31070,7 +31055,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1584435477879" ID="ID_1541131537" MODIFIED="1611373868113">
+<node CREATED="1584435477879" FOLDED="true" ID="ID_1541131537" MODIFIED="1643075224884">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31266,7 +31251,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1584437432709" ID="ID_1808511054" MODIFIED="1611373483411" TEXT="USB Power Delivery Protocol View">
+<node CREATED="1584437432709" FOLDED="true" ID="ID_1808511054" MODIFIED="1643075221188" TEXT="USB Power Delivery Protocol View">
 <node CREATED="1584437531444" ID="ID_1679671093" MODIFIED="1584437598492">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31289,7 +31274,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1584439443526" ID="ID_1190387612" MODIFIED="1611373518624">
+<node CREATED="1584439443526" FOLDED="true" ID="ID_1190387612" MODIFIED="1643075216764">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31322,7 +31307,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1584513875086" ID="ID_583367687" MODIFIED="1611373797128">
+<node CREATED="1584513875086" FOLDED="true" ID="ID_583367687" MODIFIED="1643075231588">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31367,7 +31352,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1584594562994" ID="ID_1486098016" MODIFIED="1611563909611">
+<node CREATED="1584594562994" FOLDED="true" ID="ID_1486098016" MODIFIED="1643075242821">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31576,7 +31561,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1584684619773" ID="ID_1392387884" MODIFIED="1611996237775">
+<node CREATED="1584684619773" FOLDED="true" ID="ID_1392387884" MODIFIED="1643075239092">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31773,8 +31758,58 @@
 </node>
 </node>
 </node>
+<node CREATED="1643075264628" FOLDED="true" ID="ID_1480676071" MODIFIED="1644575993131">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000" size="3" face="Times New Roman">&#38146;&#30005;&#27744;&#20805;&#30005;&#30005;&#36335;&#35774;&#35745;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643075367888" ID="ID_760436139" MODIFIED="1643075483926">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#19977;&#31181;&#20805;&#30005;&#27169;&#24335;</b>
+    </p>
+    <ol>
+      <li>
+        switch-mode
+      </li>
+      <li>
+        linear
+      </li>
+      <li>
+        pulse
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1641955717325" POSITION="right">
+<node CREATED="1643075492172" ID="ID_55050195" MODIFIED="1643075602369">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Linear &#21644; pulse &#20805;&#30005;&#26041;&#24335;&#21344;&#29992;&#30340;&#24067;&#32447;&#31354;&#38388;&#27604;&#36739;&#23567;&#24182;&#19988;&#38656;&#35201;&#30340;&#32452;&#20214;&#20063;&#27604;&#36739;&#23569;
+    </p>
+    <p>
+      Linear&#27169;&#24335;&#30340;&#20805;&#30005;&#22120;&#38656;&#35201;&#39069;&#22806;&#30340;&#31354;&#38388;&#26469;&#25955;&#28909;&#65292;Pulse chareger&#21017;&#38656;&#35201;&#38480;&#21046;AC&#36866;&#37197;&#22120;&#30340;&#30005;&#27969;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1644575988707" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31784,8 +31819,7 @@
       <b><font color="#000000">Linux&#20013;&#26029;&#31995;&#32479;&#26550;&#26500;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1456929648265" ID="ID_1830484819" MODIFIED="1456930560458">
 <richcontent TYPE="NODE"><html>
@@ -31841,7 +31875,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#cc0000" CREATED="1461079575435" FOLDED="true" ID="ID_81324376" MODIFIED="1620644700590" TEXT="2440&#x4e2d;&#x65ad;&#x7cfb;&#x7edf;&#x4ee3;&#x7801;&#x5206;&#x6790;">
+<node COLOR="#cc0000" CREATED="1461079575435" FOLDED="true" ID="ID_81324376" MODIFIED="1642559793396" TEXT="2440&#x4e2d;&#x65ad;&#x7cfb;&#x7edf;&#x4ee3;&#x7801;&#x5206;&#x6790;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1510455009202" FOLDED="true" ID="ID_38009795" MODIFIED="1620644699475">
 <richcontent TYPE="NODE"><html>
@@ -32601,7 +32635,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1526982556400" FOLDED="true" ID="ID_1183321409" MODIFIED="1606726709909">
+<node CREATED="1526982556400" FOLDED="true" ID="ID_1183321409" MODIFIED="1644575987441">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33681,7 +33715,7 @@
 <node CREATED="1527438095857" ID="ID_1757561546" MODIFIED="1527438098879" TEXT="dt-bindings/gpio/gpio.h"/>
 </node>
 </node>
-<node CREATED="1526311734080" FOLDED="true" ID="ID_1777200731" MODIFIED="1574904001188">
+<node CREATED="1526311734080" FOLDED="true" ID="ID_1777200731" MODIFIED="1642559866362">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33692,7 +33726,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1526311797465" FOLDED="true" ID="ID_1605100955" MODIFIED="1560958780317" TEXT="1.&#x7b80;&#x4ecb;">
+<node CREATED="1526311797465" FOLDED="true" ID="ID_1605100955" MODIFIED="1642559865037" TEXT="1.&#x7b80;&#x4ecb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1526311868529" ID="ID_780249209" MODIFIED="1526312058044">
 <richcontent TYPE="NODE"><html>
@@ -34219,7 +34253,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1526871429025" FOLDED="true" ID="ID_936881367" MODIFIED="1620644711872">
+<node CREATED="1526871429025" FOLDED="true" ID="ID_936881367" MODIFIED="1642559858616">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34230,7 +34264,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1526871986809" FOLDED="true" ID="ID_367134578" MODIFIED="1620644709945">
+<node CREATED="1526871986809" FOLDED="true" ID="ID_367134578" MODIFIED="1642559857205">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34256,7 +34290,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1526872438251" FOLDED="true" ID="ID_1923881028" MODIFIED="1620644736405">
+<node CREATED="1526872438251" FOLDED="true" ID="ID_1923881028" MODIFIED="1642559848047">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34294,7 +34328,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1526874935181" FOLDED="true" ID="ID_746299273" MODIFIED="1620644735082">
+<node CREATED="1526874935181" FOLDED="true" ID="ID_746299273" MODIFIED="1642559846996">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -34945,7 +34979,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1549436130563" FOLDED="true" ID="ID_1537632362" MODIFIED="1620644761281">
+<node CREATED="1549436130563" FOLDED="true" ID="ID_1537632362" MODIFIED="1642559839941">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -35725,7 +35759,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1547050126236" FOLDED="true" ID="ID_1190946216" MODIFIED="1641955079690">
+<node CREATED="1547050126236" FOLDED="true" ID="ID_1190946216" MODIFIED="1642559837604">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -36223,8 +36257,7 @@
       <b><font color="#000000" size="4">&#31532;&#21313;&#31456;&#65306;PCI&#35774;&#22791;&#39537;&#21160;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1475917339823" FOLDED="true" ID="ID_526840807" MODIFIED="1499823215079">
 <richcontent TYPE="NODE"><html>
@@ -38029,7 +38062,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1606725958022" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
+<node CREATED="1476668428013" FOLDED="true" ID="ID_791715704" MODIFIED="1642559832116" POSITION="right" TEXT="HDMI&#x8bbe;&#x5907;&#x9a71;&#x52a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1476668469784" FOLDED="true" ID="ID_960888638" MODIFIED="1606725950341">
 <richcontent TYPE="NODE"><html>
@@ -38403,8 +38436,7 @@
       <b><font size="4" face="&#x534e;&#x6587;&#x6977;&#x4f53;">DVI &#25509;&#21475;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1593325431678" FOLDED="true" ID="ID_604949934" MODIFIED="1606726576586" TEXT="&#x63a5;&#x53e3;&#x5206;&#x7c7b;">
 <node CREATED="1593325492175" ID="ID_782112214" MODIFIED="1593325518013">
 <richcontent TYPE="NODE"><html>
@@ -38899,7 +38931,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1641956123976" POSITION="right">
+<node CREATED="1490085550298" FOLDED="true" ID="ID_1395933032" MODIFIED="1644575985561" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -38911,7 +38943,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1641647267616">
+<node CREATED="1477562014348" FOLDED="true" ID="ID_737257459" MODIFIED="1642559808860">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -40429,7 +40461,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477562929718" ID="ID_1744590774" MODIFIED="1638689859261">
+<node CREATED="1477562929718" FOLDED="true" ID="ID_1744590774" MODIFIED="1642559807571">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -41873,7 +41905,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1641956122767">
+<node CREATED="1477640364241" FOLDED="true" ID="ID_706701660" MODIFIED="1642559815956">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -41884,7 +41916,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1477640390721" FOLDED="true" ID="ID_335979122" MODIFIED="1641956121167">
+<node CREATED="1477640390721" FOLDED="true" ID="ID_335979122" MODIFIED="1642559814813">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -41963,7 +41995,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1490085626105" FOLDED="true" ID="ID_136194061" MODIFIED="1641647230943" TEXT="&#x5185;&#x6838;&#x6587;&#x6863;interrupts.txt&#x9605;&#x8bfb;">
+<node CREATED="1490085626105" FOLDED="true" ID="ID_136194061" MODIFIED="1644575984497" TEXT="&#x5185;&#x6838;&#x6587;&#x6863;interrupts.txt&#x9605;&#x8bfb;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1490086793556" ID="ID_700313303" MODIFIED="1490088085359">
 <richcontent TYPE="NODE"><html>
@@ -42010,7 +42042,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1490088088985" FOLDED="true" ID="ID_1548402338" MODIFIED="1526974307475">
+<node CREATED="1490088088985" FOLDED="true" ID="ID_1548402338" MODIFIED="1644575983449">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -42079,8 +42111,7 @@
       <font size="4">SDIO&#39537;&#21160;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1486555676946" ID="ID_1961085868" MODIFIED="1486555688485" TEXT="sdio&#x6574;&#x4f53;&#x67b6;&#x6784;">
 <node CREATED="1486557770538" ID="ID_278806248" MODIFIED="1486557779967" TEXT="1.sdio&#x4fe1;&#x53f7;&#x5b9a;&#x4e49;">
@@ -42115,8 +42146,7 @@
       <b><font size="4">Regmap&#26694;&#26550;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1493174169787" ID="ID_720737300" MODIFIED="1641955765921" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -42131,8 +42161,7 @@
       <font size="3">http://blog.chinaunix.net/uid-25445243-id-3971724.html</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1494669711417" FOLDED="true" ID="ID_1554517447" MODIFIED="1641955790552" POSITION="right">
@@ -42145,8 +42174,7 @@
       <font color="#000000">Linux&#26102;&#38388;&#23376;&#31995;&#32479;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1494667527509" FOLDED="true" ID="ID_1100995725" MODIFIED="1495432464905">
 <richcontent TYPE="NODE"><html>
@@ -42487,8 +42515,7 @@
       <b><font color="#000000" size="4">Linux&#26102;&#38047;&#31649;&#29702;&#23376;&#31995;&#32479;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1507710894174" FOLDED="true" ID="ID_1625658650" MODIFIED="1641955808211" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -42500,8 +42527,7 @@
       <font size="4">Linux&#20869;&#26680;&#21516;&#27493;&#26426;&#21046;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1507710929974" FOLDED="true" ID="ID_1048425563" MODIFIED="1560958881140">
 <richcontent TYPE="NODE"><html>
@@ -42638,8 +42664,7 @@
       <font size="4">Linux&#20869;&#23384;&#31649;&#29702;&#23376;&#31995;&#32479;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1525417048563" FOLDED="true" ID="ID_1100947911" MODIFIED="1606726593701">
 <richcontent TYPE="NODE"><html>
@@ -43449,8 +43474,7 @@
       <b><font size="4">Linux&#36827;&#31243;&#31649;&#29702;&#23376;&#31995;&#32479;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1563198862775" FOLDED="true" ID="ID_826928968" MODIFIED="1566110682981">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -43540,8 +43564,7 @@
       <font color="#000000" size="4">&#29305;&#21035;&#31456;&#33410;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1504508011275" FOLDED="true" ID="ID_1976280137" MODIFIED="1641646840695" TEXT="&#x7f51;&#x7edc;&#x4e0a;&#x641c;&#x96c6;&#x7684;&#x535a;&#x5ba2;">
 <node CREATED="1504508026131" ID="ID_20057698" MODIFIED="1504508033181">
@@ -43910,8 +43933,7 @@
       <b><font color="#000000" size="4">Linux&#39537;&#21160;&#24403;&#20013;&#30340;&#20869;&#23384;&#25805;&#20316;&#20989;&#25968;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1510052035358" ID="ID_1184838772" MODIFIED="1510060438697">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -43935,8 +43957,7 @@
       <b><font color="#000000" size="4">Linux TTY&#26694;&#26550;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1509178931892" FOLDED="true" ID="ID_747633960" MODIFIED="1510231180373">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45345,8 +45366,7 @@
       <b><font size="4">Hexagon V62 Program Ref</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1562490210617" FOLDED="true" ID="ID_923313477" MODIFIED="1641647195051">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45600,8 +45620,7 @@
       <font size="4">SPI&#39537;&#21160;&#26694;&#26550;&#20998;&#26512;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1563767343737" FOLDED="true" ID="ID_1288655755" MODIFIED="1617083005997">
 <richcontent TYPE="NODE"><html>
@@ -45747,8 +45766,7 @@
       <b><font size="4" color="#000000" face="Simplified Arabic">&#25991;&#20214;&#31995;&#32479;&#30740;&#31350;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1571798325013" ID="ID_59403276" MODIFIED="1571798783951">
 <richcontent TYPE="NODE"><html>
@@ -45761,7 +45779,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1641955131988" ID="ID_239090549" MODIFIED="1641955162243" POSITION="left">
+<node CREATED="1641955131988" FOLDED="true" ID="ID_239090549" MODIFIED="1644575978375" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45771,10 +45789,9 @@
       <b><font size="4">Linux Input&#23376;&#31995;&#32479;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1641955908760" ID="ID_1034402242" MODIFIED="1641955931591" TEXT="touchpad ic IQS626a&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x7814;&#x7a76;">
-<node CREATED="1641955975354" ID="ID_827558941" MODIFIED="1641955985793">
+</html></richcontent>
+<node CREATED="1641955908760" FOLDED="true" ID="ID_1034402242" MODIFIED="1644575977218" TEXT="touchpad ic IQS626a&#x9a71;&#x52a8;&#x4ee3;&#x7801;&#x7814;&#x7a76;">
+<node CREATED="1641955975354" FOLDED="true" ID="ID_827558941" MODIFIED="1644575976081">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45784,8 +45801,7 @@
       &#35774;&#22791;&#26641;&#35828;&#26126;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1641956152531" ID="ID_1150562299" MODIFIED="1641956366856">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45811,8 +45827,7 @@
       3: Halt (no sensing)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641956443896" ID="ID_945494533" MODIFIED="1641973397800">
 <richcontent TYPE="NODE"><html>
@@ -45827,8 +45842,7 @@
       &#22914;&#26524;&#35774;&#32622;&#37027;&#20040;Divides the device's core clock by a factor of 4
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#ff0033" DESTINATION="ID_1414878885" ENDARROW="None" ENDINCLINATION="352;298;" ID="Arrow_ID_1483431785" STARTARROW="None" STARTINCLINATION="1285;0;"/>
 </node>
 <node CREATED="1641956545585" ID="ID_1708554414" MODIFIED="1641956616186">
@@ -45844,8 +45858,7 @@
       &#26159;&#21542;&#20801;&#35768;&#24403;&#21069;&#35774;&#22791;&#33258;&#21160;&#20174;low-power&#27169;&#24335;&#36827;&#20837;&#21040;ultra-low-power&#27169;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641956665184" ID="ID_1049548853" MODIFIED="1641956768902">
 <richcontent TYPE="NODE"><html>
@@ -45887,8 +45900,7 @@
       7:256
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641956971864" ID="ID_970336349" MODIFIED="1641957012514">
 <richcontent TYPE="NODE"><html>
@@ -45903,8 +45915,7 @@
       &#31105;&#29992;ATI band check, ATI&#26159;&#33258;&#21160;tunning&#23454;&#29616;&#30340;&#24847;&#24605;&#65292;band check&#19981;&#30693;&#26159;&#20309;&#24847;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641957330737" ID="ID_1232514013" MODIFIED="1641957397466">
 <richcontent TYPE="NODE"><html>
@@ -45919,8 +45930,7 @@
       &#20316;&#29992;&#26159;&#31105;&#27490;automatic ATI&#22312;low-power&#27169;&#24335;&#19979;&#36215;&#20316;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641964122865" ID="ID_89455851" MODIFIED="1641964153485">
 <richcontent TYPE="NODE"><html>
@@ -45932,8 +45942,7 @@
       azoteq,gpio3-select
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641964514113" ID="ID_315083085" MODIFIED="1641965700291">
 <richcontent TYPE="NODE"><html>
@@ -45963,8 +45972,7 @@
       3: Proximity, touch or deep touch
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641965785816" ID="ID_1278483384" MODIFIED="1641965830813">
 <richcontent TYPE="NODE"><html>
@@ -45982,8 +45990,7 @@
       &#23558;touch&#21644;deep-touch&#30340;&#38408;&#20540;&#20056;&#20197;4
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641965977144" ID="ID_900216627" MODIFIED="1641966085075">
 <richcontent TYPE="NODE"><html>
@@ -46001,8 +46008,7 @@
       &#20351;&#33021;&#25152;&#26377;&#30456;&#20851;&#32852;&#30340;&#36890;&#36947;&#21435;&#36319;&#36394;&#23427;&#20204;&#21508;&#33258;&#30340;&#21442;&#32771;&#36890;&#36947;&#65292;&#35813;&#21151;&#33021;IQS7211a&#33455;&#29255;&#21487;&#33021;&#26159;&#27809;&#26377;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641966092089" ID="ID_1097640446" MODIFIED="1641966428030">
 <richcontent TYPE="NODE"><html>
@@ -46023,8 +46029,7 @@
       reseed events
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641966502356" ID="ID_1255980516" MODIFIED="1641966619898">
 <richcontent TYPE="NODE"><html>
@@ -46057,8 +46062,7 @@
       &#22312;ultra-low-power&#27169;&#24335;&#19979;&#25351;&#23450;report rate(in ms)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641967081099" ID="ID_423627994" MODIFIED="1641967233583">
 <richcontent TYPE="NODE"><html>
@@ -46082,8 +46086,7 @@
       &#27880;&#24847;&#36825;&#37324;&#35774;&#32622;&#30340;&#20540;&#26159;&#30495;&#23454;&#31561;&#24453;&#30340;&#26102;&#38388;&#20056;&#20197;512&#25152;&#25442;&#31639;&#20986;&#26469;&#30340;&#20540;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641967254061" ID="ID_1204211590" MODIFIED="1641967479754">
 <richcontent TYPE="NODE"><html>
@@ -46104,10 +46107,9 @@
       &#20056;&#20197;512
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1641967906785" FOLDED="true" ID="ID_1094217113" MODIFIED="1641979640853">
+<node CREATED="1641967906785" FOLDED="true" ID="ID_1094217113" MODIFIED="1642562149327">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -46126,8 +46128,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_1094217113" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_847877719" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1094217113" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_847877719" SOURCE="ID_1094217113" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node CREATED="1641968073252" ID="ID_1679323892" MODIFIED="1641968170890">
@@ -46143,8 +46144,7 @@
       &#31105;&#27490;&#36890;&#36947;&#21442;&#19982;&#21040;ATI event(&#22312;&#21021;&#22987;&#21270;&#38454;&#27573;&#25163;&#21160;&#35302;&#21457;&#30340;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641968424374" ID="ID_461013327" MODIFIED="1641968475199">
 <richcontent TYPE="NODE"><html>
@@ -46162,8 +46162,7 @@
       &#22914;&#26524;LTA&#36229;&#26102;&#20102;&#65292;&#31105;&#27490;channel&#30340;reseed&#25805;&#20316;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641968590865" ID="ID_1658024110" MODIFIED="1641968653690">
 <richcontent TYPE="NODE"><html>
@@ -46181,8 +46180,7 @@
       &#23558;&#20869;&#37096;&#30340;&#27979;&#37327;&#30005;&#23481;&#20540;&#20174;60pF&#38477;&#20302;&#21040;15pF
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641968680727" ID="ID_1736542543" MODIFIED="1641969402370">
 <richcontent TYPE="NODE"><html>
@@ -46209,8 +46207,7 @@
       2: VREG (generic channels only)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641970084798" ID="ID_1375693115" MODIFIED="1641970259959">
 <richcontent TYPE="NODE"><html>
@@ -46237,8 +46234,7 @@
       &#25110;&#32773;&#32763;&#36716;&#36890;&#36947;&#30340;&#25509;&#36817;&#25110;&#32773;&#35302;&#25720;&#29366;&#24577;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641970273231" ID="ID_646853509" MODIFIED="1641970899252">
 <richcontent TYPE="NODE"><html>
@@ -46265,8 +46261,7 @@
       permit-ting events to be reported in either direction.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641971012716" ID="ID_1672013767" MODIFIED="1641971052391">
 <richcontent TYPE="NODE"><html>
@@ -46284,8 +46279,7 @@
       &#31105;&#27490;&#36890;&#36947;&#30340;raw count filtering&#25805;&#20316;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641971215028" ID="ID_1744771055" MODIFIED="1641971389767">
 <richcontent TYPE="NODE"><html>
@@ -46321,8 +46315,7 @@
       &#36825;&#37324;&#25552;&#21040;&#65292;&#40664;&#35748;&#20540;&#36319;channel&#21644;&#35774;&#22791;&#30340;reset user interface&#30456;&#20851;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641971465213" ID="ID_336430374" MODIFIED="1641971506556">
 <richcontent TYPE="NODE"><html>
@@ -46340,8 +46333,7 @@
       enum: [75, 100, 150, 200]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641971552277" ID="ID_1785126716" MODIFIED="1641971962263">
 <richcontent TYPE="NODE"><html>
@@ -46359,8 +46351,7 @@
       &#30495;&#23454;&#20540;&#20056;&#20197;32
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641972903198" ID="ID_1368018690" MODIFIED="1641972961980">
 <richcontent TYPE="NODE"><html>
@@ -46381,8 +46372,7 @@
       be increased, with 0 representing no increase.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641972970345" ID="ID_959107435" MODIFIED="1641973138006">
 <richcontent TYPE="NODE"><html>
@@ -46412,8 +46402,7 @@
       3: 20 uA
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641973223093" ID="ID_1414878885" MODIFIED="1641973387998">
 <richcontent TYPE="NODE"><html>
@@ -46446,8 +46435,7 @@
       &#24403;&#27809;&#26377;&#25351;&#23450;&#23646;&#24615;azoteq,clk-div&#30340;&#26102;&#20505;&#65292;&#23454;&#38469;&#19978;&#23545;&#24212;&#30340;&#26159;&#25324;&#21495;&#37324;&#38754;&#30340;&#20540;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#ff0033" DESTINATION="ID_1414878885" ENDARROW="None" ENDINCLINATION="352;298;" ID="Arrow_ID_1483431785" SOURCE="ID_945494533" STARTARROW="None" STARTINCLINATION="1285;0;"/>
 </node>
 <node CREATED="1641973641280" ID="ID_1382230957" MODIFIED="1641973648223">
@@ -46460,8 +46448,7 @@
       azoteq,ati-band-tighten
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641973654956" ID="ID_309805810" MODIFIED="1641973706351">
 <richcontent TYPE="NODE"><html>
@@ -46479,8 +46466,7 @@
       &#29992;&#26469;&#20351;&#33021;&#25237;&#23556;&#24335;&#30005;&#23481;&#24863;&#24212;&#65288;&#20165;&#22312;ULP&#36890;&#36947;&#19979;&#25104;&#31435;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641973794992" ID="ID_1717189312" MODIFIED="1641974047112">
 <richcontent TYPE="NODE"><html>
@@ -46519,8 +46505,7 @@
       &#19978;&#36848;&#22235;&#20010;&#23646;&#24615;&#20540;&#30340;&#21462;&#20540;&#33539;&#22260;&#26159;enum: [0, 1, 2, 3]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641976341901" ID="ID_1887186914" MODIFIED="1641976852942">
 <richcontent TYPE="NODE"><html>
@@ -46550,8 +46535,7 @@
       &#35774;&#32622;&#24341;&#33050;&#21644;&#36890;&#36947;&#20043;&#38388;&#30340;&#23545;&#24212;&#20851;&#31995;&#26144;&#23556;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641976900740" ID="ID_113639431" MODIFIED="1641977176270">
 <richcontent TYPE="NODE"><html>
@@ -46581,8 +46565,7 @@
       4: 2.0 pF
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641977192548" ID="ID_1192765791" MODIFIED="1641977729814">
 <richcontent TYPE="NODE"><html>
@@ -46624,8 +46607,7 @@
       &#35813;&#23646;&#24615;&#22312;ULP&#25110;&#32773;&#26159;Hall&#36890;&#36947;&#19979;&#26159;&#19981;&#29983;&#25928;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641978215311" ID="ID_1268312274" MODIFIED="1641978368783">
 <richcontent TYPE="NODE"><html>
@@ -46655,8 +46637,7 @@
       &#24403;&#25105;&#20204;&#27809;&#26377;&#25351;&#23450;azoteq,clk-div&#23646;&#24615;&#30340;&#26102;&#20505;&#65292;&#39057;&#29575;&#30340;&#21462;&#20540;&#20351;&#29992;&#25324;&#21495;&#20013;&#30340;&#20540;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641978572549" ID="ID_618568716" MODIFIED="1641978662080">
 <richcontent TYPE="NODE"><html>
@@ -46674,8 +46655,7 @@
       &#21453;&#36716;proximity, touch&#21644;deep-touch&#20107;&#20214;&#30340;&#29366;&#24577;&#26497;&#24615;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641978666253" ID="ID_1947089603" MODIFIED="1641978720710">
 <richcontent TYPE="NODE"><html>
@@ -46693,8 +46673,7 @@
       &#31105;&#29992;&#36890;&#36947;&#30340;&#34917;&#20607;&#21151;&#33021;&#65288;generic channel only&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641978736900" ID="ID_49842189" MODIFIED="1641978775843">
 <richcontent TYPE="NODE"><html>
@@ -46712,8 +46691,7 @@
       &#20351;&#33021;&#36890;&#36947;&#30340;&#38745;&#24577;&#21069;&#31471;&#65288;generic channel only&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641978840390" ID="ID_104211789" MODIFIED="1641979256184">
 <richcontent TYPE="NODE"><html>
@@ -46758,8 +46736,7 @@
       reference channel
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1641979300769" ID="ID_1052332379" MODIFIED="1641979601283">
 <richcontent TYPE="NODE"><html>
@@ -46777,11 +46754,10 @@
       &#35813;&#23646;&#24615;&#30340;&#20316;&#29992;&#26159;&#22914;&#26524;&#26412;&#36890;&#36947;&#20316;&#20026;&#20851;&#32852;&#36890;&#36947;&#23384;&#22312;&#65292;&#25351;&#23450;&#26412;&#36890;&#36947;&#30340;&#24433;&#21709;&#26435;&#37325;(generic channels)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1641979644205" ID="ID_1210933770" MODIFIED="1642050155886">
+<node CREATED="1641979644205" FOLDED="true" ID="ID_1210933770" MODIFIED="1644575974114">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -46800,8 +46776,7 @@
       &#31034;&#20363;&#25991;&#26723;&#37324;&#38754;&#30446;&#21069;&#21482;&#21015;&#20986;&#20102;event-prox&#36825;&#26679;&#30340;&#35774;&#22791;&#33410;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642050207893" ID="ID_820894974" MODIFIED="1642052941336">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -46818,23 +46793,2641 @@
       &#24403;&#35774;&#22791;&#33410;&#28857;&#30340;&#21518;&#32512;&#24102;&#26377;-alt&#30340;&#26102;&#20505;&#65292;&#26159;&#23545;&#24212;&#30340;&#35774;&#32622;&#35745;&#25968;&#20540;&#22686;&#21152;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-</node>
-</node>
-<node CREATED="1641955988958" ID="ID_1146560582" MODIFIED="1641955998092">
+<node CREATED="1642407946293" ID="ID_1993184905" MODIFIED="1642407986266">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#39537;&#21160;&#20195;&#30721;&#20998;&#26512;
+      <font size="4">azoteq,thresh</font>
+    </p>
+    <p>
+      &#25351;&#23450;&#20107;&#20214;&#30340;&#38408;&#20540;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642407988822" ID="ID_351241920" MODIFIED="1642408028647">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      azoteq,hyst
+    </p>
+    <p>
+      &#20107;&#20214;&#30340;&#36831;&#28382;&#24615;&#65292;&#20165;&#38480;&#20110;touch&#21644;deep-touch&#20107;&#20214;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642408045973" ID="ID_39089469" MODIFIED="1642408081879">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      linux,code
+    </p>
+    <p>
+      &#38190;&#20540;&#25110;&#32773;&#36319;&#20107;&#20214;&#30456;&#20851;&#32852;&#30340;&#20999;&#25442;&#30721;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642408093098" ID="ID_632815325" MODIFIED="1643080898830">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">linux,input-type</font>
+    </p>
+    <p>
+      enum&#20540;[1, 5]
+    </p>
+    <p>
+      &#25351;&#23450;&#26412;&#20107;&#20214;&#26159;&#21542;&#20250;&#34987;&#35299;&#26512;&#25104;key&#25110;&#32773;&#26159;switch, &#22312;&#32570;&#30465;&#30340;&#29366;&#24577;&#19979;&#65292;Hall&#36890;&#36947;&#20250;&#34987;
+    </p>
+    <p>
+      &#32763;&#35793;&#25104;switch&#65292;&#32780;&#20854;&#20182;&#30340;&#36890;&#36947;&#20250;&#34987;&#32763;&#35793;&#25104;&#26159;key
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define EV_SYN&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x00
+    </p>
+    <p>
+      #define EV_KEY&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x01
+    </p>
+    <p>
+      #define EV_REL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x02
+    </p>
+    <p>
+      #define EV_ABS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x03
+    </p>
+    <p>
+      #define EV_MSC&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x04
+    </p>
+    <p>
+      #define EV_SW&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x05&#160; <b>&#24320;&#20851;&#31867;&#20107;&#20214;</b>
+    </p>
+    <p>
+      #define EV_LED&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x11
+    </p>
+    <p>
+      #define EV_SND&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x12
+    </p>
+    <p>
+      #define EV_REP&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x14
+    </p>
+    <p>
+      #define EV_FF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x15
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1642408347418" FOLDED="true" ID="ID_1449161310" MODIFIED="1644575972593">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4">&#23376;&#35774;&#22791;&#33410;&#28857;&#30340;&#23646;&#24615;&#35828;&#26126;</font>
+    </p>
+    <p>
+      &#36825;&#37324;&#21305;&#37197;&#30340;&#26159;&#35832;&#22914;trackpad-3x[2-3]&#36825;&#26679;&#30340;&#23376;&#33410;&#28857;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642408503747" ID="ID_1660405673" MODIFIED="1642408572828">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      azoteq,ati-exclude
+    </p>
+    <p>
+      &#31105;&#27490;trackpad&#36890;&#36947;&#21442;&#19982;&#21040;ATI&#20107;&#20214;&#20013;&#65292;&#35813;&#20107;&#20214;&#26159;&#22312;&#25163;&#21160;&#21021;&#22987;&#21270;&#22120;&#20214;&#34987;&#35302;&#21457;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642408576032" ID="ID_928976634" MODIFIED="1642408825045">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4">azoteq,reseed-disable</font>
+    </p>
+    <p>
+      &#22914;&#26524;long-term averate&#36229;&#26102;&#65288;&#36229;&#26102;&#26102;&#38388;&#35774;&#32622;&#22312;azoteq,timeout-lta&#65289;&#65292;&#38459;&#27490;trackpad&#36890;&#36947;&#34987;reseeded
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642408850350" ID="ID_1661957448" MODIFIED="1642408890304">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,meas-cap-decrease</font>
+    </p>
+    <p>
+      &#23558;&#20869;&#37096;&#30340;&#27979;&#37327;&#30005;&#23481;&#20174;60pF&#38477;&#20302;&#21040;15pF
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642408908717" ID="ID_1049971482" MODIFIED="1642408959984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,rx-inactive</font>
+    </p>
+    <p>
+      &#25351;&#23450;CRX&#24341;&#33050;&#30340;&#36830;&#25509;&#26041;&#24335;&#65292;0&#20195;&#34920;VSS&#65292;1&#20195;&#34920;Floating&#26041;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642408975205" ID="ID_1900406748" MODIFIED="1642409026092">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,linearize</font>
+    </p>
+    <p>
+      &#23558;trackpad&#30340;&#35302;&#25720;&#29366;&#24577;&#26497;&#24615;&#21453;&#36716;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642409275195" ID="ID_1800338163" MODIFIED="1642409410458">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,dual-direction</font>
+    </p>
+    <p>
+      &#25351;&#23450;trackpad&#30340;long-term averages&#34987;&#38145;&#23450;&#21040;&#20102;&#24403;&#21069;&#30340;&#20540;&#65292;&#20934;&#35768;&#22312;
+    </p>
+    <p>
+      increase count&#21644;decrease count&#20004;&#20010;&#26041;&#21521;&#19978;&#30340;&#20107;&#20214;&#19978;&#25253;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642411709806" ID="ID_80337085" MODIFIED="1642412298338">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,filt-disable</font>
+    </p>
+    <p>
+      &#31867;&#22411;:bool&#31867;&#22411;
+    </p>
+    <p>
+      &#31105;&#29992;trackpad&#36890;&#36947;&#30340;raw count&#36807;&#28388;&#21151;&#33021;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642412337846" ID="ID_1219641274" MODIFIED="1642412439724">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,ati-mode</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35774;&#32622;trackpad&#30340;ATI&#27169;&#24335;
+    </p>
+    <p>
+      0: Disabled
+    </p>
+    <p>
+      1: Semi-partial
+    </p>
+    <p>
+      2: Partial
+    </p>
+    <p>
+      3: Full
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642492922705" ID="ID_758577588" MODIFIED="1642493082472">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,ati-base</font>
+    </p>
+    <p>
+      &#35813;&#23646;&#24615;&#26159;&#19968;&#20010;&#25968;&#32452;&#24418;&#24335;&#65292;&#25968;&#32452;&#20803;&#32032;&#22312;6&#21040;9&#20010;&#20043;&#38388;&#65292;&#29992;&#20110;&#25351;&#23450;&#27599;&#20010;&#36890;&#36947;&#30340;ATI base&#20540;
+    </p>
+    <p>
+      &#25351;&#23450;&#30340;&#20540;&#30340;&#33539;&#22260;&#26159;45~300,&#40664;&#35748;&#20540;&#22914;&#19979;
+    </p>
+    <p>
+      [45, 45, 45, 45, 45, 45, 45, 45, 45]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642493118308" ID="ID_1497013684" MODIFIED="1642493347370">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      azoteq,ati-target
+    </p>
+    <p>
+      &#25351;&#23450;&#35302;&#25720;&#26495;&#30340;ATI target&#20540;&#65292;&#36825;&#37324;&#30340;&#20540;&#26159;&#34987;&#20056;&#20197;32&#30340;
+    </p>
+    <p>
+      &#26368;&#23567;&#20540;&#26159;0&#65292;&#26368;&#22823;&#20540;&#26159;2016
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642493352133" ID="ID_1878391653" MODIFIED="1642497434721">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      azoteq,cct-increase
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35302;&#25720;&#26495;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642554167276" ID="ID_1720168102" MODIFIED="1642554280253">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,proj-bias</font>
+    </p>
+    <p>
+      &#35774;&#32622;&#25237;&#23556;&#30005;&#23481;&#30340;&#20559;&#32622;&#30005;&#27969;&#65292;&#21462;&#20540;&#33539;&#22260;&#26159;[0, 1, 2, 3],&#23545;&#24212;&#30340;
+    </p>
+    <p>
+      &#30005;&#27969;&#26159;
+    </p>
+    <p>
+      0: 2.5 uA
+    </p>
+    <p>
+      1: 5 uA
+    </p>
+    <p>
+      2: 10 uA
+    </p>
+    <p>
+      3: 20 uA
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642554345139" ID="ID_438138182" MODIFIED="1642556311700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      azoteq,sense-freq
+    </p>
+    <p>
+      &#25351;&#23450;trackpad&#30340;&#24863;&#24212;&#39057;&#29575;&#65292;&#22914;&#26524;&#25351;&#23450;&#20102;&#23646;&#24615;azoteq,clk-div&#65292;&#37027;&#20040;&#30456;&#24212;&#30340;&#39057;&#29575;&#20250;&#20056;&#20197;4
+    </p>
+    <p>
+      0: 4 MHz (1 MHz)
+    </p>
+    <p>
+      1: 2 MHz (500 kHz)
+    </p>
+    <p>
+      2: 1 MHz (250 kHz)
+    </p>
+    <p>
+      3: 500 kHz (125 kHz)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642556591504" ID="ID_1898881940" MODIFIED="1642556763722">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,ati-band-tighten</font>
+    </p>
+    <p>
+      boolean&#31867;&#22411;
+    </p>
+    <p>
+      &#23558;ATI band&#25910;&#32039;&#65292;&#20174;&#30446;&#26631;&#30340;1/8&#25910;&#32039;&#21040;1/16
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642557173587" ID="ID_405003946" MODIFIED="1642557384596">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,thresh</font>
+    </p>
+    <p>
+      &#25351;&#23450;&#27599;&#20010;trackpad&#30340;&#29420;&#31435;&#36890;&#36947;&#30340;touch&#38408;&#20540;
+    </p>
+    <p>
+      minItem 6
+    </p>
+    <p>
+      maxItem 9
+    </p>
+    <p>
+      default[0, 0, 0, 0, 0, 0, 0, 0, 0]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642557387574" ID="ID_721995472" MODIFIED="1642557504582">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,hyst</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25351;&#23450;trackpad&#30340;&#35302;&#25720;&#24310;&#36831;&#24615;&#65292;&#26368;&#23567;&#20540;&#26159;0&#65292;&#26368;&#22823;&#20540;&#26159;15
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642557551157" ID="ID_1356552474" MODIFIED="1642557707783">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,lta-update</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25351;&#23450;trackpad&#22312;ultra low power&#27169;&#24335;&#19979;&#30340;long-term average&#26356;&#26032;&#39057;&#29575;
+    </p>
+    <p>
+      0: 2
+    </p>
+    <p>
+      1: 4
+    </p>
+    <p>
+      2: 8
+    </p>
+    <p>
+      3: 16
+    </p>
+    <p>
+      4: 32
+    </p>
+    <p>
+      5: 64
+    </p>
+    <p>
+      6: 128
+    </p>
+    <p>
+      7: 255
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642557742028" ID="ID_1841589390" MODIFIED="1642557790660">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,filt-str-trackpad</font>
+    </p>
+    <p>
+      &#25351;&#23450;trackpad&#22352;&#26631;&#36807;&#28388;&#22120;&#30340;&#24378;&#24230;&#65292;&#35774;&#32622;&#30340;&#20540;&#26159;
+    </p>
+    <p>
+      [0, 1, 2, 3]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642557809656" ID="ID_1768816014" MODIFIED="1642557861438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,filt-str-np-cnt</font>
+    </p>
+    <p>
+      &#22312;normal-power&#27169;&#24335;&#19979;&#65292;&#25351;&#23450;raw count&#36807;&#28388;&#22120;&#30340;&#24378;&#24230;
+    </p>
+    <p>
+      &#21462;&#20540;&#33539;&#22260;&#26159;enum: [0, 1, 2, 3]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642557889297" ID="ID_1081741903" MODIFIED="1642557964877">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,filt-str-lp-cnt</font>
+    </p>
+    <p>
+      &#25351;&#23450;&#22312;low-power&#27169;&#24335;&#19979;raw count&#36807;&#28388;&#22120;&#30340;&#24378;&#24230;
+    </p>
+    <p>
+      &#21462;&#20540;&#33539;&#22260;&#26159;enum: [0, 1, 2, 3]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642558047916" ID="ID_143822967" MODIFIED="1642558626185">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">linux,keycodes</font>
+    </p>
+    <p>
+      &#36825;&#26159;&#19968;&#20010;&#25968;&#32452;&#65292;&#29992;&#26469;&#25351;&#23450;&#27599;&#31181;&#25163;&#21183;&#25152;&#23545;&#24212;&#30340;keycode&#65292;
+    </p>
+    <p>
+      &#20803;&#32032;0&#65306; Positive flick or swipe in X direction
+    </p>
+    <p>
+      &#20803;&#32032;1:&#160;&#160;&#160;&#160;Negative flick or swipe in X direction
+    </p>
+    <p>
+      &#20803;&#32032;2:&#160;&#160;&#160;&#160;Positive flick or swipe in Y direction
+    </p>
+    <p>
+      &#20803;&#32032;3:&#160;&#160;&#160;&#160;Negative flick or swipe in Y direction
+    </p>
+    <p>
+      &#20803;&#32032;4:&#160;&#160;&#160;&#160;Tap
+    </p>
+    <p>
+      &#20803;&#32032;5:&#160;&#160;&#160;&#160;Hold
+    </p>
+    <p>
+      &#20030;&#20363;&#22914;&#19979;:
+    </p>
+    <p>
+      linux,keycodes = &lt;KEY_VOLUMEUP&gt;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;KEY_VOLUMEDOWN&gt;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;KEY_NEXTSONG&gt;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;KEY_PREVIOUSSONG&gt;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;KEY_PLAYPAUSE&gt;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;KEY_STOPCD&gt;;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642558647161" ID="ID_21344621" MODIFIED="1642558777649">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      azoteq,gesture-swipe
+    </p>
+    <p>
+      boolean&#20540;&#65292;&#25351;&#31034;&#35774;&#22791;&#23558;&#36724;&#21521;&#25163;&#21183;&#35299;&#37322;&#25104;swipe
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642558874945" ID="ID_644099667" MODIFIED="1642559003879">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,timeout-tap-ms</font>
+    </p>
+    <p>
+      &#25351;&#31034;&#24403;&#25163;&#25351;&#25509;&#35302;&#21040;&#35302;&#25720;&#26495;&#20043;&#21518;&#22810;&#23569;&#27627;&#31186;&#20043;&#21518;&#37322;&#25918;&#35302;&#25720;&#26495;&#20250;&#34987;&#35299;&#37322;&#25104;
+    </p>
+    <p>
+      tap&#21160;&#20316;&#65292;&#35813;&#20540;&#26159;&#20056;&#20197;16&#30340;
+    </p>
+    <p>
+      &#21462;&#20540;&#33539;&#22260;&#26159;0~4080&#65292;&#21363;0~255&#27627;&#31186;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642559026578" ID="ID_286285356" MODIFIED="1642559127502">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,timeout-swipe-ms</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25351;&#23450;&#36724;&#21521;&#30340;&#36816;&#21160;&#22810;&#20037;&#20043;&#21518;&#24517;&#39035;&#32467;&#26463;&#25165;&#20250;&#34987;&#35299;&#37322;&#25104;&#26159;
+    </p>
+    <p>
+      flick&#25110;&#32773;&#26159;swipe&#21160;&#20316;&#65292;&#35813;&#20540;&#26159;&#20056;&#20197;16&#30340;&#65292;&#21462;&#20540;&#33539;&#22260;&#26159;0~4080,&#20063;&#23601;&#26159;0~255ms
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642559236782" ID="ID_575686401" MODIFIED="1642559297400">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">azoteq,thresh-swipe</font>
+    </p>
+    <p>
+      &#25351;&#31034;&#36724;&#21521;&#25163;&#21183;&#24517;&#39035;&#32463;&#36807;&#30340;&#28857;&#25968;&#25165;&#20250;&#34987;&#35299;&#37322;&#25104;&#36731;&#24377;&#25110;&#32773;&#26159;swipe&#21160;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1641955988958" FOLDED="true" ID="ID_1146560582" MODIFIED="1644575969912">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">&#39537;&#21160;&#20195;&#30721;&#20998;&#26512;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642562957807" ID="ID_1351025690" MODIFIED="1642563341080">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">static const struct of_device_id iqs626_of_match[]</font>&#160;= <font size="4">{</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ .compatible = &quot;azoteq,iqs626a&quot; },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ }
+    </p>
+    <p>
+      <font size="4">};</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642563371221" ID="ID_1115291917" MODIFIED="1642563422531">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">static struct i2c_driver iqs626_i2c_driver = {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.driver = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.name = &quot;iqs626a&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.of_match_table = iqs626_of_match,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.pm = &amp;iqs626_pm,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.probe_new = iqs626_probe,
+    </p>
+    <p>
+      <font size="4">};</font>
+    </p>
+    <p>
+      <font size="4">module_i2c_driver(iqs626_i2c_driver);</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642563503022" FOLDED="true" ID="ID_359102230" MODIFIED="1644575968152">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5">int iqs626_probe(struct i2c_client *client) &#20998;&#26512;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642563687239" FOLDED="true" ID="ID_709168066" MODIFIED="1644575963127">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>struct iqs626_ver_info {</b>
+    </p>
+    <p>
+      <font color="#ff0000">&#160;&#160;&#160;&#160;</font><font color="#000000">u8 prod_num; </font>
+    </p>
+    <p>
+      <font color="#000000">&#160;&#160;&#160;&#160;u8 sw_num; </font>
+    </p>
+    <p>
+      <font color="#000000">&#160;&#160;&#160;&#160;u8 hw_num; </font>
+    </p>
+    <p>
+      <font color="#000000">&#160;&#160;&#160;&#160;u8 padding;</font>
+    </p>
+    <p>
+      <b>} __packed;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642570458687" FOLDED="true" ID="ID_330617465" MODIFIED="1644575962096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">struct iqs626_private {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct i2c_client&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*client;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct regmap&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*regmap;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct iqs626_sys_reg&#160;&#160;&#160;&#160;sys_reg;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct completion&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ati_done;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct input_dev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*keypad;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct input_dev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*trackpad;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct touchscreen_properties prop;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int&#160;&#160;&#160;kp_type[ARRAY_SIZE(iqs626_channels)][ARRAY_SIZE(iqs626_events)];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int&#160;&#160;&#160;kp_code[ARRAY_SIZE(iqs626_channels)][ARRAY_SIZE(iqs626_events)];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int&#160;&#160;&#160;tp_code[IQS626_NUM_GESTURES];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int&#160;&#160;&#160;suspend_mode;
+    </p>
+    <p>
+      <font size="4">};</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642577728089" FOLDED="true" ID="ID_869289560" MODIFIED="1644575959120">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">struct iqs626_sys_reg {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;__be16 general;&#160;&#160;&#160;&#160;0x80
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 misc_a;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 event_mask;&#160;&#160;&#160;&#160;&#160;0x81
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#ff0000">u8 active;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#ff0000">u8 reseed;</font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x82
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 rate_np;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 rate_lp;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x83
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 rate_ulp;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 timeout_pwr;&#160;&#160;&#160;&#160;0x84
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 timeout_rdy;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 timeout_lta;&#160;&#160;&#160;&#160;&#160;&#160;0x85
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 misc_b;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 thresh_swipe;&#160;&#160;0x86
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 timeout_tap;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 timeout_swipe;&#160;&#160;0x87
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#ff0000">u8 redo_ati;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 padding;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x88
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct iqs626_ch_reg_ulp ch_reg_ulp;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct iqs626_tp_grp_reg tp_grp_reg;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct iqs626_ch_reg_gen ch_reg_gen[IQS626_NUM_CH_GEN];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct iqs626_ch_reg_hall ch_reg_hall;
+    </p>
+    <p>
+      <font size="4">} __packed;</font>
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink DESTINATION="ID_869289560" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_812923387" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_869289560" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_812923387" SOURCE="ID_869289560" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#ff0033" DESTINATION="ID_869289560" ENDARROW="None" ENDINCLINATION="-287;0;" ID="Arrow_ID_154802232" SOURCE="ID_641514065" STARTARROW="None" STARTINCLINATION="-462;25;"/>
+<node CREATED="1642588345205" ID="ID_1081349581" MODIFIED="1642743497048">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct iqs626_ch_reg_ulp {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 thresh[2];&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x89&#160;&#160;ULP Channel Prox Threshold&#160;&#160;ULP Channel Touch Threshold
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 hyst;&#160; <b>&#36831;&#28382;&#24615;</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 filter;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x8A
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 engine[2];&#160;&#160;&#160; <font color="#ff3333"><b>ULP Channel ProxSense Settings</b></font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 ati_target;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 padding;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;__be16 ati_comp;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 rx_enable;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 tx_enable;
+    </p>
+    <p>
+      } __packed;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642588690420" ID="ID_1574249151" MODIFIED="1643002065937">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">struct iqs626_tp_grp_reg {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 hyst;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 ati_target;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 engine[2];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct iqs626_ch_reg_tp ch_reg_tp[IQS626_NUM_CH_TP_3];
+    </p>
+    <p>
+      <font size="4" color="#ff0000">} __packed;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643001982726" ID="ID_1606923254" MODIFIED="1643002014635">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">struct iqs626_ch_reg_gen {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 thresh[3];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 padding;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 hyst;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 ati_target;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;__be16 ati_comp;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 engine[5];
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 filter;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 rx_enable;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 tx_enable;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 assoc_select;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 assoc_weight;
+    </p>
+    <p>
+      <font size="4" color="#ff0000">} __packed;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643002099879" ID="ID_120676469" MODIFIED="1643002128160">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">struct iqs626_ch_reg_hall {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 engine;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 thresh;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 hyst;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 ati_target;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;__be16 ati_comp;
+    </p>
+    <p>
+      <font size="4" color="#ff0000">} __packed;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1642578696552" ID="ID_1801823050" MODIFIED="1642578719144">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">struct touchscreen_properties {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int max_x;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int max_y;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;bool invert_x;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;bool invert_y;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;bool swap_x_y;
+    </p>
+    <p>
+      <font size="4">};</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642578844415" ID="ID_726995064" MODIFIED="1642578919998">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">struct iqs626_channel_desc {</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;const char *name;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int num_ch;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 active;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;bool events[ARRAY_SIZE(iqs626_events)];
+    </p>
+    <p>
+      <font size="4">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">struct iqs626_event_desc { </font>
+    </p>
+    <p>
+      <font size="4">&#160; &#160;&#160;const char *name; </font>
+    </p>
+    <p>
+      <font size="4">&#160;&#160;&#160;&#160;enum iqs626_st_offs st_offs; </font>
+    </p>
+    <p>
+      <font size="4">&#160;&#160;&#160;&#160;enum iqs626_th_offs th_offs; </font>
+    </p>
+    <p>
+      <font size="4">&#160;&#160;&#160;&#160;bool dir_up; </font>
+    </p>
+    <p>
+      <font size="4">&#160;&#160;&#160;&#160;u8 mask; </font>
+    </p>
+    <p>
+      <font size="4">};</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1642579348505" ID="ID_1484536015" MODIFIED="1642579378498">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iqs626 = devm_kzalloc(&amp;client-&gt;dev, sizeof(*iqs626), GFP_KERNEL);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642579384367" ID="ID_1689655127" MODIFIED="1642579440745">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20445;&#23384;i2c client&#25351;&#38024;
+    </p>
+    <p>
+      i2c_set_clientdata(client, iqs626)
+    </p>
+    <p>
+      iqs626-&gt;client = client
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642584624123" ID="ID_115962897" MODIFIED="1642584658406">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iqs626-&gt;regmap = devm_regmap_init_i2c(client, &amp;iqs626_regmap_config);
+    </p>
+    <p>
+      &#23558;I2C&#30340;&#25805;&#20316;&#23553;&#35013;&#21040;regmap&#37324;&#38754;&#21435;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642584792426" ID="ID_788808800" MODIFIED="1642584806728">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">init_completion(&amp;iqs626-&gt;ati_done)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642586898901" ID="ID_625858336" MODIFIED="1642586972392">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      error = <font size="4">regmap_raw_read(</font>iqs626-&gt;regmap, IQS626_VER_INFO, &amp;ver_info,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sizeof(ver_info))
+    </p>
+    <p>
+      &#35835;&#21462;sizeof(ver_info)&#20010;&#23492;&#23384;&#22120;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642587120867" FOLDED="true" ID="ID_1544944255" MODIFIED="1644575966849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">error = iqs626_parse_prop(iqs626)</font>
+    </p>
+    <p>
+      &#36825;&#37324;&#24212;&#35813;&#26159;&#35299;&#26512;&#35774;&#22791;&#26641;&#30340;&#23646;&#24615;&#20043;&#31867;&#30340;&#20102;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642587560197" FOLDED="true" ID="ID_169712128" MODIFIED="1644575950846">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3300cc">int iqs626_parse_prop(struct iqs626_private *iqs626) &#20989;&#25968;&#21407;&#22411;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642587732959" ID="ID_1666273854" MODIFIED="1642587767986">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">struct iqs626_sys_reg *sys_reg = &amp;iqs626-&gt;sys_reg; </font>
+    </p>
+    <p>
+      <font size="4">struct i2c_client *client = iqs626-&gt;client;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642587794261" ID="ID_1373264656" MODIFIED="1642587834971">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct fwnode_handle *ch_node;
+    </p>
+    <p>
+      unsigned int val;
+    </p>
+    <p>
+      int error, i;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642587901267" ID="ID_1144530899" MODIFIED="1642587944589">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;suspend mode&#23646;&#24615;&#20540;
+    </p>
+    <p>
+      device_property_read_u32(&amp;client-&gt;dev, &quot;azoteq,suspend-mode&quot;,&amp;val)
+    </p>
+    <p>
+      &#20445;&#23384;&#23646;&#24615;&#20540;
+    </p>
+    <p>
+      iqs626-&gt;suspend_mode = val
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642587986548" ID="ID_641514065" MODIFIED="1642588111246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      error = regmap_raw_read(iqs626-&gt;regmap, IQS626_SYS_SETTINGS, sys_reg,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; sizeof(*sys_reg))
+    </p>
+    <p>
+      &#33719;&#21462;&#23492;&#23384;&#22120;&#22320;&#22336;0x80&#36215;&#22987;&#22788;&#30340;&#23492;&#23384;&#22120;
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#ff0033" DESTINATION="ID_869289560" ENDARROW="None" ENDINCLINATION="-287;0;" ID="Arrow_ID_154802232" STARTARROW="None" STARTINCLINATION="-462;25;"/>
+</node>
+<node CREATED="1642642419178" ID="ID_1829578409" MODIFIED="1642650150802">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff3300">general = be16_to_cpu(sys_reg-&gt;general); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff3300">&#33719;&#21462;sys_reg&#37324;&#38754;&#30340;general&#21464;&#37327;&#30340;&#20540;&#65292;&#21363;0x80&#30340;&#20540; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff3300">general &amp;= IQS626_SYS_SETTINGS_ULP_UPDATE_MASK;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#ff0000" face="Times New Roman">#define IQS626_SYS_SETTINGS_ULP_UPDATE_MASK&#160;&#160;&#160;&#160;&#160;&#160;GENMASK(10, 8)</font><font color="#ff0000">&#160;</font>&#160;<b>&#23558;&#31532;10bit&#21040;&#31532;8bit&#20043;&#38388;&#30340;bit&#32622;&#20301; </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define GENMASK(h, l)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(GENMASK_INPUT_CHECK(h, l) + __GENMASK(h, l))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define GENMASK_INPUT_CHECK(h, l)&#160;&#160;&#160;&#160;&#160;&#160;&#160; (BUILD_BUG_ON_ZERO(__builtin_choose_expr(__is_constexpr((l) &gt; (h)), (l) &gt; (h), 0)))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      __builtin_choose_expr&#26159;&#19968;&#20010;&#35859;&#35789;&#20989;&#25968;&#65292;&#23646;&#20110;&#32534;&#35793;&#26102;&#30340;&#34892;&#20026;&#32780;&#19981;&#26159;&#36816;&#34892;&#26102;&#30340;&#34892;&#20026;&#65292;&#20182;&#30340;&#31532;&#19968;&#20010;&#21442;&#25968;&#24517;&#39035;&#26159;&#24120;&#37327;
+    </p>
+    <pre><code class="prism language-c hljs "><span class="token function">__builtin_choose_expr</span><span class="token punctuation">(</span><span class="token function">__safe_cmp</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">),</span> \
+&#x9;&#x9;<span class="token function">__cmp</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> op<span class="token punctuation">),</span> \
+&#x9;&#x9;<span class="token function">__cmp_once</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> <span class="token function">__UNIQUE_ID</span><span class="token punctuation">(</span>__x<span class="token punctuation">),</span> <span class="token function">__UNIQUE_ID</span><span class="token punctuation">(</span>__y<span class="token punctuation">),</span> op<span class="token punctuation">))</span></code></pre>
+    <ul>
+      <li>
+        &#22914;&#26524;<code>__safe_cmp(x, y)</code>&#30340;&#32080;&#26524;&#38750;0&#65292;&#21063;&#36820;&#22238;<code>__cmp(x, y, op)</code>&#65292;&#19988;&#36820;&#22238;&#39006;&#22411;&#33287;<code>__cmp(x, y, op)</code>&#30340;&#39006;&#22411;&#19968;&#33268;&#12290;
+      </li>
+      <li>
+        &#22914;&#26524;<code>__safe_cmp(x, y)</code>&#30340;&#32080;&#26524;&#29234;0&#65292;&#21063;&#36820;&#22238;<code>__cmp_once(x, y, __UNIQUE_ID(__x), __UNIQUE_ID(__y), op)</code>&#65292;&#19988;&#36820;&#22238;&#39006;&#22411;&#33287;<code>__cmp_once(x, y, __UNIQUE_ID(__x), __UNIQUE_ID(__y), op)</code>&#39006;&#22411;&#19968;&#33268;&#12290;
+      </li>
+      <li>
+        &#30001;&#26044;&#26159;&#32232;&#35695;&#26178;&#34892;&#29234;&#65292;&#22240;&#27492;<code>__builtin_choose_expr()</code>&#23439;&#31532;&#20108;&#20491;&#21644;&#31532;&#19977;&#20491;&#21443;&#25976;&#25152;&#29986;&#29983;&#30340;&#30446;&#27161;&#20195;&#30908;&#26159;&#20114;&#26021;&#30340;&#65292;&#29983;&#25104;&#20102;<code>__cmp(x, y, op)</code>&#23601;&#19981;&#26371;&#23384;&#22312;<code>__cmp_once(x, y, __UNIQUE_ID(__x), __UNIQUE_ID(__y), op)</code>&#12290;
+      </li>
+    </ul>
+    <pre><code class="prism language-c hljs "><span class="hljs-preprocessor">#define __safe_cmp(x, y) \</span><span class="token macro property">&#x9;&#x9;(__typecheck(x, y) &amp;&amp; __no_side_effects(x, y))
+
+#define __typecheck(x, y) \
+&#160;&#160;&#160;&#160;(!!(sizeof((typeof(x) *)1 == (typeof(y) *)1))) &#36820;&#22238;&#30340;&#20540;&#27704;&#36828;&#26159;1&#65292;&#21482;&#19981;&#36807;&#20250;&#20570;x&#21644;y&#30340;&#31867;&#22411;&#26816;&#26597;&#65292;&#22914;&#26524;&#31867;&#22411;&#19981;&#30456;&#21516;&#23601;&#20250;&#26377;&#32534;&#35793;&#35686;&#21578;;
+#define __no_side_effects(x, y) \
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(__is_constexpr(x) &amp;&amp; __is_constexpr(y)) &#22914;&#26524;x&#21644;y&#37117;&#26159;&#24120;&#37327;&#34920;&#36798;&#24335;&#65292;&#21017;&#36820;&#22238;1&#65292;&#22914;&#26524;x&#21644;y&#19981;&#26159;&#24120;&#37327;&#34920;&#36798;&#24335;&#65292;&#21017;&#36820;&#22238;0;
+&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></code></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642650176387" ID="ID_1601697253" MODIFIED="1642654808640">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (device_property_present(&amp;client-&gt;dev, &quot;azoteq,clk-div&quot;))&#22914;&#26524;&#35774;&#22791;&#26641;&#37324;&#38754;&#35774;&#32622;
+    </p>
+    <p>
+      &#20102;&#23646;&#24615;&quot;azoteq,clk-div&quot;&#65292;&#37027;&#20040;
+    </p>
+    <p>
+      general |= IQS626_SYS_SETTINGS_CLK_DIV;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define IQS626_SYS_SETTINGS_CLK_DIV&#160;&#160;&#160;&#160;&#160;BIT(15)&#160;&#160;&#23558;bit15&#32622;1&#65292;&#21363;&#23558;&#31995;&#32479;&#26102;&#38047;&#35774;&#32622;&#25104;4MHz, &#22914;&#26524;&#26159;0&#30340;&#35805;
+    </p>
+    <p>
+      &#23601;&#26159;&#35774;&#32622;&#25104;16MHz
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642655014598" ID="ID_1446689078" MODIFIED="1642655106416">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (device_property_present(&amp;client-&gt;dev, &quot;azoteq,ulp-enable&quot;))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;general |= IQS626_SYS_SETTINGS_ULP_AUTO;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define IQS626_SYS_SETTINGS_ULP_AUTO&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BIT(14)
+    </p>
+    <p>
+      &#20351;&#33021;channel 0&#30340;ultra low power&#27169;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642655129590" ID="ID_389001232" MODIFIED="1642655370296">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (!device_property_read_u32(&amp;client-&gt;dev, &quot;azoteq,ulp-update&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;val))
+    </p>
+    <p>
+      general &amp;= ~IQS626_SYS_SETTINGS_ULP_UPDATE_MASK;&#160;&#160;&#28165;&#31354;&#23492;&#23384;&#22120;
+    </p>
+    <p>
+      &#160;general |= (val &lt;&lt; IQS626_SYS_SETTINGS_ULP_UPDATE_SHIFT); &#35774;&#32622;update rate&#20540;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642655469965" ID="ID_1359299372" MODIFIED="1642656316787">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">sys_reg-&gt;misc_a &amp;= ~IQS626_MISC_A_ATI_BAND_DISABLE; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">#define IQS626_MISC_A_ATI_BAND_DISABLE&#160;&#160;&#160;&#160;&#160;&#160;BIT(7)</font>
+    </p>
+    <p>
+      &#28165;&#31354;ATI_BAND_DISABLE&#20301;&#65292;&#35828;&#26126;ATI band check&#26159;&#34987;&#20351;&#33021;&#30340;&#65292;&#22914;&#26524;&#35813;&#20301;&#35774;&#32622;&#25104;&#20102;1&#65292;
+    </p>
+    <p>
+      &#37027;&#20040;ATI Band Check&#26159;&#34987;&#31105;&#29992;&#30340;
+    </p>
+    <p>
+      if (device_property_present(&amp;client-&gt;dev, &quot;azoteq,ati-band-disable&quot;))&#22914;&#26524;&#23450;&#20041;&#20102;&quot;azoteq,ati-band-disable&quot;&#23646;&#24615;&#65292;&#37027;&#20040;
+    </p>
+    <p>
+      &#160;sys_reg-&gt;misc_a |= IQS626_MISC_A_ATI_BAND_DISABLE; &#31105;&#29992;ATI Band&#21151;&#33021;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sys_reg-&gt;misc_a &amp;= ~IQS626_MISC_A_ATI_LP_ONLY;
+    </p>
+    <p>
+      if (device_property_present(&amp;client-&gt;dev, &quot;azoteq,ati-lp-only&quot;))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sys_reg-&gt;misc_a |= IQS626_MISC_A_ATI_LP_ONLY;&#160;&#160;&#24212;&#35813;&#26159;&#22312;low power&#27169;&#24335;&#19979;&#20351;&#33021;ATI
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642656319225" ID="ID_1646854389" MODIFIED="1642656549002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (!device_property_read_u32(&amp;client-&gt;dev, &quot;azoteq,gpio3-select&quot;,&amp;val))
+    </p>
+    <p>
+      &#22914;&#26524;&#35774;&#32622;&#20102;&quot;azoteq,gpio3-select&quot;&#23646;&#24615;&#65292;&#37027;&#20040;
+    </p>
+    <p>
+      sys_reg-&gt;misc_a &amp;= ~IQS626_MISC_A_GPIO3_SELECT_MASK;
+    </p>
+    <p>
+      sys_reg-&gt;misc_a |= val;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>GPIO3 touch&#36755;&#20986;&#36890;&#36947;&#35774;&#32622;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642656614167" ID="ID_1808529150" MODIFIED="1642656646482">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4">&#19979;&#38754;&#37117;&#26159;&#19968;&#20123;&#23545;&#23646;&#24615;&#30340;&#35299;&#26512;&#36807;&#31243;&#65292;&#19981;&#23637;&#24320;&#30475;&#20102;&#65292;&#30053;&#36807;&#12290;&#12290;&#12290;&#12290;&#12290;&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642656658664" ID="ID_366362918" MODIFIED="1642656950234">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sys_reg-&gt;event_mask = ~((u8)IQS626_EVENT_MASK_SYS);
+    </p>
+    <p>
+      #define IQS626_EVENT_MASK_SYS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BIT(6)&#160;&#160;&#28165;&#31354;Global Event Mask&#23492;&#23384;&#22120;&#20013;&#30340;System bit&#20301;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      sys_reg-&gt;redo_ati = 0;
+    </p>
+    <p>
+      sys_reg-&gt;reseed = 0;
+    </p>
+    <p>
+      sys_reg-&gt;active = 0;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642657008193" FOLDED="true" ID="ID_1802472058" MODIFIED="1644575947383">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; ARRAY_SIZE(iqs626_channels); i++)
+    </p>
+    <p>
+      &#36827;&#20837;for&#24490;&#29615;&#26469;&#22788;&#29702;&#23376;&#33410;&#28857;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642657086849" ID="ID_1910905469" MODIFIED="1642657248295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#23376;&#35774;&#22791;&#26641;&#33410;&#28857;&#30340;&#21517;&#31216;&#26469;&#23547;&#25214;&#23376;&#35774;&#22791;&#26641;&#33410;&#28857;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ch_node = device_get_named_child_node(&amp;client-&gt;dev,iqs626_channels[i].name)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      iqs626_channels[]&#25968;&#32452;&#37324;&#38754;&#23450;&#20041;&#20102;&#22914;&#19979;&#30340;&#23376;&#35774;&#22791;&#26641;&#33410;&#28857;
+    </p>
+    <p>
+      &quot;ulp-0&quot;
+    </p>
+    <p>
+      &quot;trackpad-3x2&quot;
+    </p>
+    <p>
+      &quot;trackpad-3x3&quot;
+    </p>
+    <p>
+      &quot;generic-0&quot;
+    </p>
+    <p>
+      &quot;generic-1&quot;
+    </p>
+    <p>
+      &quot;generic-2&quot;
+    </p>
+    <p>
+      &quot;hall&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642657349143" FOLDED="true" ID="ID_814443418" MODIFIED="1644575945316">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      error = iqs626_parse_channel(iqs626, ch_node, i)
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      <font size="4" color="#0000cc" face="Times New Roman">static noinline_for_stack int </font>
+    </p>
+    <p>
+      <font size="4" color="#0000cc" face="Times New Roman">iqs626_parse_channel(struct iqs626_private *iqs626,const struct fwnode_handle *ch_node,enum iqs626_ch_id ch_id)</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642657881160" ID="ID_814231709" MODIFIED="1642657945002">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160; <font size="4">struct iqs626_sys_reg *sys_reg = &amp;iqs626-&gt;sys_reg;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct i2c_client *client = iqs626-&gt;client;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 *engine, *filter, *rx_enable, *tx_enable;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;u8 *assoc_select, *assoc_weight;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int val;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int error, i;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642758339103" ID="ID_996225176" MODIFIED="1642758387570">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">&#26681;&#25454;channel id&#33719;&#21462;&#21040;&#23545;&#24212;&#30340;&#23492;&#23384;&#22120;&#21306;&#38388;</font>
+    </p>
+    <p>
+      switch (ch_id) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_ULP_0:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;engine = sys_reg-&gt;ch_reg_ulp.engine;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_TP_2:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_TP_3:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;engine = sys_reg-&gt;tp_grp_reg.engine;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_GEN_0:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_GEN_1:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_GEN_2:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;i = ch_id - IQS626_CH_GEN_0;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;engine = sys_reg-&gt;ch_reg_gen[i].engine;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;case IQS626_CH_HALL:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;engine = &amp;sys_reg-&gt;ch_reg_hall.engine;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;default:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return -EINVAL;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1642759943177" ID="ID_181363286" MODIFIED="1642759970115">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">error = iqs626_parse_ati_target(iqs626, ch_node, i)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642759976588" ID="ID_1080806693" MODIFIED="1642760006513">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">error = iqs626_parse_events(iqs626, ch_node, i)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642761120019" ID="ID_1046314977" MODIFIED="1643002909488">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">if (!fwnode_property_present(ch_node, &quot;azoteq,ati-exclude&quot;)) </font>
+    </p>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sys_reg-&gt;redo_ati |= iqs626_channels[i].active; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">if (!fwnode_property_present(ch_node, &quot;azoteq,reseed-disable&quot;)) </font>
+    </p>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sys_reg-&gt;reseed |= iqs626_channels[i].active;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#37324;&#27599;&#20010;&#36890;&#36947;&#30340;active&#30340;&#35774;&#32622;&#37117;&#26159;&#19981;&#19968;&#26679;&#30340;&#65292;&#21363;&#23545;&#24212;&#19981;&#21516;&#30340;bit&#20301;&#65292;&#25152;&#20197;&#30452;&#25509;&#36827;&#34892;&#8220;&#25110;&#8221;&#25805;&#20316;&#26159;&#27809;&#38382;&#39064;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1642761245886" ID="ID_1143478457" MODIFIED="1643079342318">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sys_reg-&gt;active |= iqs626_channels[i].active;
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#ff0000" DESTINATION="ID_1143478457" ENDARROW="None" ENDINCLINATION="124;45;" ID="Arrow_ID_125962004" SOURCE="ID_623032793" STARTARROW="None" STARTINCLINATION="297;0;"/>
+</node>
+</node>
+<node CREATED="1643004615186" ID="ID_1604038570" MODIFIED="1643005092893">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300cc" size="4" face="Times New Roman">general |= IQS626_SYS_SETTINGS_EVENT_MODE;&#160;&#160;&#20351;&#33021;event&#27169;&#24335;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #define IQS626_SYS_SETTINGS_EVENT_MODE&#160;&#160;&#160;&#160;&#160;&#160;BIT(5)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643014974581" ID="ID_657686763" MODIFIED="1643015040016">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (sys_reg-&gt;active &amp; iqs626_channels[IQS626_CH_TP_2].active &amp;&amp;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sys_reg-&gt;event_mask &amp; IQS626_EVENT_MASK_GESTURE)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;general |= IQS626_SYS_SETTINGS_EVENT_MODE_LP;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643015043463" ID="ID_816955969" MODIFIED="1643015082121">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">general |= IQS626_SYS_SETTINGS_REDO_ATI; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">general |= IQS626_SYS_SETTINGS_ACK_RESET; </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643015092852" ID="ID_1429550499" MODIFIED="1643015152260">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sys_reg-&gt;general = cpu_to_be16(general);
+    </p>
+    <p>
+      &#36716;&#25442;&#25104;&#22823;&#23614;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      error = regmap_raw_write(iqs626-&gt;regmap, IQS626_SYS_SETTINGS,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;iqs626-&gt;sys_reg, sizeof(iqs626-&gt;sys_reg));
+    </p>
+    <p>
+      &#21457;&#20986;I2C&#36890;&#35759;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643015155345" ID="ID_1909358346" MODIFIED="1643015220043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#333333">iqs626_irq_wait() </font>
+    </p>
+    <p>
+      <font size="4" color="#333333">#define iqs626_irq_wait()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;usleep_range(350, 400)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1643015261547" FOLDED="true" ID="ID_1237579414" MODIFIED="1644575941044">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">error = iqs626_input_init(iqs626);</font>
+    </p>
+    <p>
+      &#20989;&#25968;&#21407;&#22411;&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      <font size="4">int iqs626_input_init(struct iqs626_private *iqs626)</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643015874989" ID="ID_1931493512" MODIFIED="1643015950858">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct iqs626_sys_reg *sys_reg = &amp;iqs626-&gt;sys_reg;&#160;&#160;&#33719;&#21462;&#23492;&#23384;&#22120;&#32467;&#26500;&#20307;
+    </p>
+    <p>
+      struct i2c_client *client = iqs626-&gt;client;&#160;&#160;&#33719;&#21462;I2C Client&#32467;&#26500;&#20307;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643016136023" ID="ID_872994457" MODIFIED="1643016150946">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iqs626-&gt;keypad = devm_input_allocate_device(&amp;client-&gt;dev);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      input&#35774;&#22791;&#32467;&#26500;&#20307;&#20998;&#37197;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643016154083" ID="ID_1298491578" MODIFIED="1643016392472">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iqs626-&gt;keypad-&gt;keycodemax = ARRAY_SIZE(iqs626-&gt;kp_code);&#160;&#160;keycode table&#30340;&#22823;&#23567;
+    </p>
+    <p>
+      iqs626-&gt;keypad-&gt;keycode = iqs626-&gt;kp_code &#36171;&#20540;keycode&#25968;&#32452;
+    </p>
+    <p>
+      iqs626-&gt;keypad-&gt;keycodesize = sizeof(**iqs626-&gt;kp_code); &#27599;&#20010;keycode&#20803;&#32032;&#30340;&#22823;&#23567;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      iqs626-&gt;keypad-&gt;name = &quot;iqs626a_keypad&quot;;
+    </p>
+    <p>
+      iqs626-&gt;keypad-&gt;id.bustype = BUS_I2C;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643079204985" FOLDED="true" ID="ID_1905470746" MODIFIED="1644575939748">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (i = 0; i &lt; ARRAY_SIZE(iqs626_channels); i++)
+    </p>
+    <p>
+      &#23545;&#25152;&#26377;&#30340;&#36890;&#36947;&#20570;&#22914;&#19979;&#30340;&#35774;&#32622;&#21644;&#25805;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643079258483" ID="ID_623032793" MODIFIED="1643079349559">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (!(sys_reg-&gt;active &amp; iqs626_channels[i].active))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;continue;
+    </p>
+    <p>
+      &#22914;&#26524;&#24403;&#21069;&#30340;&#36890;&#36947;&#26159;&#38750;&#27963;&#36291;&#30340;&#65292;&#37027;&#20040;&#22788;&#29702;&#19979;&#19968;&#20010;&#36890;&#36947;&#65292;&#36825;&#37324;&#24212;&#35813;&#26159;&#25191;&#34892;&#19981;&#21040;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#ff0000" DESTINATION="ID_1143478457" ENDARROW="None" ENDINCLINATION="124;45;" ID="Arrow_ID_125962004" STARTARROW="None" STARTINCLINATION="297;0;"/>
+</node>
+<node CREATED="1643079362150" FOLDED="true" ID="ID_1676465665" MODIFIED="1644575938405">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">for (j = 0; j &lt; ARRAY_SIZE(iqs626_events); j++)</font>
+    </p>
+    <p>
+      &#23545;&#20110;&#27599;&#20010;&#36890;&#36947;&#20869;&#30340;&#25152;&#26377;&#30340;&#20107;&#20214;&#65292;&#20570;&#22914;&#19979;&#30340;&#22788;&#29702;&#21160;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643080941854" ID="ID_601638785" MODIFIED="1643081129254">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (!iqs626-&gt;kp_type[i][j])
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;continue;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#26412;&#36890;&#36947;&#23545;&#24212;&#30340;&#35813;&#20107;&#20214;&#27809;&#26377;&#36827;&#34892;&#35774;&#32622;&#65292;&#37027;&#20040;&#36339;&#36807;&#26412;&#20107;&#20214;&#30340;&#22788;&#29702;&#65292;
+    </p>
+    <p>
+      &#22788;&#29702;&#26412;&#36890;&#36947;&#30340;&#19979;&#19968;&#20010;&#20107;&#20214;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff">&#26681;&#25454;&#20195;&#30721;&#26469;&#30475;&#65292;kp_type&#26159;&#22312;&#36890;&#36947;&#23376;&#33410;&#28857;&#30340;&#20869;&#37096;&#23376;&#33410;&#28857;&#35774;&#32622;&#30340;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643081201986" ID="ID_256026666" MODIFIED="1643081323708">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      input_set_capability(iqs626-&gt;keypad,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iqs626-&gt;kp_type[i][j],
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iqs626-&gt;kp_code[i][j]);
+    </p>
+    <p>
+      <font size="4" color="#0000ff">mark device as capable of a certain event</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1643081683769" ID="ID_1504368623" MODIFIED="1643081777435">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (!(sys_reg-&gt;active &amp; iqs626_channels[IQS626_CH_TP_2].active))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#37324;&#22914;&#26524;&#21028;&#26029;trackpad-3x2&#36890;&#36947;&#27809;&#26377;&#20351;&#33021;&#30340;&#35805;&#23601;&#30452;&#25509;&#36820;&#22238;&#20102;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643081797814" ID="ID_660340366" MODIFIED="1643081828480">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iqs626-&gt;trackpad = devm_input_allocate_device(&amp;client-&gt;dev);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20998;&#37197;input device&#21040;trackpad
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643081862182" ID="ID_649648673" MODIFIED="1643081973873">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iqs626-&gt;trackpad-&gt;keycodemax = ARRAY_SIZE(iqs626-&gt;tp_code);
+    </p>
+    <p>
+      iqs626-&gt;trackpad-&gt;keycode = iqs626-&gt;tp_code;
+    </p>
+    <p>
+      iqs626-&gt;trackpad-&gt;keycodesize = sizeof(*iqs626-&gt;tp_code);
+    </p>
+    <p>
+      iqs626-&gt;trackpad-&gt;name = &quot;iqs626a_trackpad&quot;;
+    </p>
+    <p>
+      iqs626-&gt;trackpad-&gt;id.bustype = BUS_I2C;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;input device&#20570;&#22522;&#26412;&#30340;&#37197;&#32622;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643088225188" FOLDED="true" ID="ID_135272676" MODIFIED="1644575936237">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21028;&#26029;&#20107;&#20214;&#25513;&#30721;&#24403;&#20013;&#26159;&#21542;&#26377;&#23450;&#20041;&#25163;&#21183;&#25513;&#30721;
+    </p>
+    <p>
+      if (sys_reg-&gt;event_mask &amp; IQS626_EVENT_MASK_GESTURE)
+    </p>
+    <p>
+      &#22914;&#26524;&#26465;&#20214;&#21028;&#26029;&#20013;&#36820;&#22238;TRUE&#65292;&#37027;&#20040;&#20570;&#22914;&#19979;&#30340;&#22788;&#29702;&#24037;&#20316;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643088298537" ID="ID_514212125" MODIFIED="1643088515199">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      u8 tp_mask = iqs626_channels[IQS626_CH_TP_3].active;
+    </p>
+    <p>
+      &#33719;&#21462;3x3 trackpad&#36890;&#36947;&#30340;active&#25513;&#30721;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      input_set_capability(iqs626-&gt;trackpad, EV_KEY, BTN_TOUCH);<font color="#ff0033">&#35774;&#32622;&#35813;track pad&#25903;&#25345;&#30340;&#20107;&#20214;&#20026;&#21333;&#28857;&#20107;&#20214;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643089278908" FOLDED="true" ID="ID_1278497370" MODIFIED="1644575931027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3300cc">Linux&#31995;&#32479;&#30340;&#22810;&#28857;&#35302;&#25511;&#21327;&#35758;&#25991;&#26723;&#38405;&#35835;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643089483237" ID="ID_1193417844" MODIFIED="1643091378889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#24635;&#35272;&#20171;&#32461;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20026;&#20102;&#21457;&#25381;&#22810;&#28857;&#35302;&#25511;&#21644;&#22810;&#29992;&#25143;&#35774;&#22791;&#30340;&#33021;&#21147;&#65292;&#25105;&#20204;&#38656;&#35201;&#19968;&#31181;&#21487;&#20197;&#19978;&#25253;&#22810;&#20010;&#25509;&#35302;&#28857;&#35814;&#32454;&#25968;&#25454;&#30340;&#26041;&#27861;&#65292;&#27604;&#22914;&#29289;&#20307;&#30452;&#25509;
+    </p>
+    <p>
+      &#36319;&#35774;&#22791;&#30340;&#34920;&#38754;&#25509;&#35302;&#36825;&#31181;&#24773;&#20917;&#12290;
+    </p>
+    <p>
+      &#26412;&#25991;&#26723;&#23601;&#25551;&#36848;&#20102;linux MT&#21327;&#35758;(multi-touch)&#65292;&#26412;&#21327;&#35758;&#20801;&#35768;&#20869;&#26680;&#39537;&#21160;&#23545;&#20110;&#20219;&#24847;&#25968;&#37327;&#30340;&#25509;&#35302;&#19978;&#25253;&#35814;&#32454;&#30340;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      &#26412;&#21327;&#35758;&#26681;&#25454;&#30828;&#20214;&#35774;&#22791;&#30340;&#33021;&#21147;&#65292;&#20998;&#25104;&#20102;&#20004;&#31181;&#31867;&#22411;&#12290;&#23545;&#20110;&#33021;&#22815;&#22788;&#29702;&#21311;&#21517;&#25509;&#35302;(anonymous contacts)&#30340;&#35774;&#22791;&#21363;type A&#35774;&#22791;,
+    </p>
+    <p>
+      &#26412;&#21327;&#35758;&#25551;&#36848;&#20102;&#22914;&#20309;&#23558;&#25152;&#26377;&#30340;&#25509;&#35302;&#28857;&#30340;raw&#25968;&#25454;&#21457;&#36865;&#32473;&#25509;&#25910;&#32773;&#65307;&#23545;&#20110;&#33021;&#22815;&#36319;&#36394;identifiable contacts&#30340;&#35774;&#22791;&#21363;type B&#35774;&#22791;&#65292;
+    </p>
+    <p>
+      &#26412;&#21327;&#35758;&#20171;&#32461;&#20102;&#22914;&#20309;&#36890;&#36807;event slop&#20026;&#27599;&#20010;&#29420;&#31435;&#30340;&#25509;&#35302;&#28857;&#21457;&#36865;&#26356;&#26032;&#25968;&#25454;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Type-A&#31867;&#22411;&#30340;&#35774;&#22791;&#24050;&#32463;&#24223;&#24323;&#20102;&#65292;&#25152;&#26377;&#30340;&#20869;&#26680;&#39537;&#21160;&#24212;&#35813;&#36716;&#25442;&#21040;s&#29992;Type-B</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643091419488" FOLDED="true" ID="ID_1660372478" MODIFIED="1644575929694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#21327;&#35758;&#30340;&#20351;&#29992;&#27969;&#31243;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643091590408" ID="ID_1559319137" MODIFIED="1643164531027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff00cc" size="4" face="Times New Roman">&#25509;&#35302;&#28857;&#30340;&#35814;&#32454;&#20449;&#24687;&#26159;&#25353;&#29031;ABS_MT&#20107;&#20214;&#30340;&#21333;&#29420;&#25968;&#25454;&#21253;&#26469;&#39034;&#24207;&#21457;&#36865;&#30340;&#12290; </font>
+    </p>
+    <p>
+      <font color="#ff00cc" size="4" face="Times New Roman">&#21482;&#26377;ABS_MT&#20107;&#20214;&#20250;&#34987;&#35748;&#20026;&#26159;&#25509;&#35302;&#28857;&#25968;&#25454;&#21253;&#30340;&#19968;&#37096;&#20998;&#12290;&#22240;&#20026;&#36825;&#20123;&#20107;&#20214;&#20250;&#34987; </font>
+    </p>
+    <p>
+      <font color="#ff00cc" size="4" face="Times New Roman">&#24403;&#21069;&#30340;single-touch&#65288;&#21333;&#35302;&#25720;&#65289;&#24212;&#29992;&#32473;&#24573;&#30053;&#25481;&#65292;&#37027;&#20040;MT&#21327;&#35758;&#21487;&#20197;&#22312;&#24050;&#32463;&#23384;&#22312;&#30340;&#39537;&#21160; </font>
+    </p>
+    <p>
+      <font color="#ff00cc" size="4" face="Times New Roman">&#30340;&#21333;&#28857;&#35302;&#25511;&#30340;&#21327;&#35758;&#19978;&#36827;&#34892;&#23454;&#29616;&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643163907901" FOLDED="true" ID="ID_1079211067" MODIFIED="1644575925878">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;TYPE A&#35774;&#22791;&#26469;&#35828;&#65292;&#36890;&#36807;&#22312;&#25968;&#25454;&#21253;&#26368;&#21518;&#35843;&#29992;input_mt_sync()&#26469;&#36827;&#34892;&#20998;&#21106;&#65292;&#36825;&#20250;&#29983;&#25104;&#19968;&#20010;
+    </p>
+    <p>
+      SYN_MT_REPORT&#20107;&#20214;&#65292;&#20174;&#32780;&#36890;&#30693;&#25509;&#25910;&#32773;&#25509;&#21463;&#24403;&#21069;&#35302;&#25720;&#25968;&#25454;&#65292;&#24182;&#20934;&#22791;&#19979;&#19968;&#27425;&#30340;&#25509;&#25910;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;&#20110;TYPE B&#35774;&#22791;&#26469;&#35828;&#65292;&#22312;&#27599;&#19968;&#20010;&#25968;&#25454;&#21253;&#20043;&#21069;&#35843;&#29992;input_mt_slot()&#20989;&#25968;&#26469;&#23545;&#35302;&#25720;&#25968;&#25454;&#36827;&#34892;&#20998;&#21106;&#65292;&#35813;&#20989;&#25968;
+    </p>
+    <p>
+      &#24102;&#26377;&#19968;&#20010;slot&#21442;&#25968;&#65292;&#20250;&#29983;&#25104;&#19968;&#20010;ABS_MT_SLOT&#20107;&#20214;&#65292;&#36890;&#30693;&#25509;&#25910;&#32773;&#20934;&#22791;&#25509;&#21463;&#25351;&#23450;&#36890;&#36947;&#30340;&#26356;&#26032;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1644488328325" ID="ID_1268860202" MODIFIED="1644488367837">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" color="#ff0000" size="4">void input_event(struct input_dev *dev, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" color="#ff0000" size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int type, unsigned int code, int value)</font>
     </p>
   </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1644488401374" ID="ID_64464898" MODIFIED="1644488422054">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">static inline void input_mt_sync(struct input_dev *dev) </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">{ </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;input_event(dev, EV_SYN, SYN_MT_REPORT, 0); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1644488460753" ID="ID_23300057" MODIFIED="1644488484084">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">static inline void input_mt_slot(struct input_dev *dev, int slot) </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">{ </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;input_event(dev, EV_ABS, ABS_MT_SLOT, slot); </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1643164878359" ID="ID_487855288" MODIFIED="1643165512389">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">&#25152;&#26377;&#39537;&#21160;&#37117;&#26159;&#36890;&#36807;input_sync()&#20989;&#25968;&#26469;&#26631;&#35760;&#22810;&#28857;&#35302;&#25720;&#20256;&#36755;&#30340;&#32467;&#26463;&#65292;&#30475;&#19968;&#19979;input_sync&#20989;&#25968;&#30340;&#23454;&#29616;</font>
+    </p>
+    <p>
+      static inline void input_sync(struct input_dev *dev)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;input_event(dev, EV_SYN, SYN_REPORT, 0);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#36890;&#30693;&#25509;&#25910;&#32773;&#22788;&#29702;&#22312;&#19978;&#19968;&#27425;EV_SYN/SYN_REPORT&#20107;&#20214;&#20043;&#21069;&#32047;&#35745;&#30340;&#20107;&#20214;&#65292;&#24182;&#20934;&#22791;&#25509;&#25910;&#26032;&#19968;&#25209;&#30340;
+    </p>
+    <p>
+      &#20107;&#20214;/&#25968;&#25454;&#21253;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643165693844" FOLDED="true" ID="ID_756989309" MODIFIED="1644575928109">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26080;&#29366;&#24577;&#30340;TYPE A&#21327;&#35758;&#21644;&#26377;&#29366;&#24577;&#30340;TYPE B&#21327;&#35758;&#20043;&#38388;&#20027;&#35201;&#30340;&#24046;&#21035;&#22312;&#20110;&#23545;&#21487;&#20998;&#36776;&#30340;&#35302;&#25720;&#28857;
+    </p>
+    <p>
+      &#30340;&#20351;&#29992;&#65292;&#26469;&#20943;&#23569;&#20256;&#36865;&#32473;&#29992;&#25143;&#31354;&#38388;&#30340;&#25968;&#25454;&#24635;&#37327;&#12290;TYPE B&#21327;&#35758;&#35201;&#27714;&#20351;&#29992;tracking id&#65292;&#21363;<b>ABS_MT_TRACKING_ID</b>&#65292;
+    </p>
+    <p>
+      &#36890;&#36807;&#30828;&#20214;&#25552;&#20379;&#25110;&#32773;&#36890;&#36807;&#21407;&#22987;&#25968;&#25454;&#35745;&#31639;&#20986;&#26469;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1643165998397" ID="ID_1242449120" MODIFIED="1643166141157">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman">bool input_mt_report_slot_state(struct input_dev *dev, </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned int tool_type, bool active)</font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman">{</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct input_mt *mt = dev-&gt;mt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;struct input_mt_slot *slot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int id;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!mt)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return false;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;slot = &amp;mt-&gt;slots[mt-&gt;slot];
+    </p>
+    <p>
+      &#160;&#160;&#160; <b>slot-&gt;frame = mt-&gt;frame;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (!active) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;input_event(dev, EV_ABS, ABS_MT_TRACKING_ID, -1);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return false;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160; <b>&#160;id = input_mt_get_value(slot, ABS_MT_TRACKING_ID);</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (id &lt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;id = input_mt_new_trkid(mt);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;<b>&#160;&#160;&#160;input_event(dev, EV_ABS, ABS_MT_TRACKING_ID, id);</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;input_event(dev, EV_ABS, ABS_MT_TOOL_TYPE, tool_type);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return true;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643166566910" ID="ID_429138122" MODIFIED="1643166708956">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;TYPE A&#30340;&#35774;&#22791;&#65292;&#20869;&#26680;&#39537;&#21160;&#24212;&#35813;&#20026;&#36824;&#22312;&#35774;&#22791;&#19978;&#30340;&#25152;&#26377;&#35302;&#25720;&#28857;&#29983;&#25104;&#19968;&#20010;&#38543;&#26426;&#30340;&#26522;&#20030;&#12290;
+    </p>
+    <p>
+      &#25968;&#25454;&#21253;&#22312;&#20107;&#20214;&#27969;&#19978;&#20986;&#29616;&#30340;&#39034;&#24207;&#24182;&#19981;&#37325;&#35201;&#65292;&#20107;&#20214;&#36807;&#28388;&#21644;&#25163;&#25351;&#36319;&#36394;&#30001;&#29992;&#25143;&#31354;&#38388;&#26469;&#20570;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1643166712650" ID="ID_1077947870" MODIFIED="1643167073698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;TYPE B&#35774;&#22791;&#65292;&#20869;&#26680;&#39537;&#21160;&#38656;&#35201;&#25226;&#27599;&#19968;&#20010;&#21487;&#20998;&#36776;&#30340;&#28857;&#36319;&#19968;&#20010;&#36890;&#36947;
+    </p>
+    <p>
+      &#32852;&#31995;&#22312;&#19968;&#36215;&#65292;&#24182;&#20351;&#29992;&#35813;&#36890;&#36947;&#26469;&#20256;&#36865;&#35813;&#35302;&#25720;&#28857;&#30340;&#21464;&#21160;&#12290;&#35302;&#25720;&#28857;&#30340;&#21019;&#24314;&#12289;&#26367;&#25442;&#21644;&#28040;&#38500;
+    </p>
+    <p>
+      &#21487;&#20197;&#36890;&#36807;&#20462;&#25913;&#30456;&#24212;&#36890;&#36947;&#30340;ABS_MT_TRACKING_ID&#26469;&#23454;&#29616;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1643167990020" ID="ID_863668779" MODIFIED="1643168748769">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#20123;&#35774;&#22791;&#20250;&#26631;&#35782;&#21644;&#36319;&#36394;&#27604;&#20182;&#20204;&#33021;&#22815;&#19978;&#25253;&#30340;&#26356;&#22810;&#30340;&#25509;&#35302;&#28857;&#12290;
+    </p>
+    <p>
+      &#30495;&#23545;&#36825;&#26679;&#30340;&#30828;&#20214;&#30340;&#39537;&#21160;&#24212;&#24403;&#25226;&#30001;&#30828;&#20214;&#19978;&#25253;&#30340;&#27599;&#20010;&#25509;&#35302;&#28857;&#36319;&#19968;&#20010;TYPE B&#31867;&#22411;&#30340;slot&#32852;&#31995;&#36215;&#26469;&#12290;
+    </p>
+    <p>
+      &#26080;&#35770;&#20309;&#26102;&#36319;&#25509;&#35302;&#28857;&#30456;&#20851;&#30340;&#26631;&#35782;&#31526;&#26377;&#25913;&#21160;&#65292;&#39537;&#21160;&#37117;&#24212;&#24403;&#36890;&#36807;&#25913;&#21464;slot&#30340;ABS_MT_TRACKING_ID
+    </p>
+    <p>
+      &#26469;&#23558;&#35813;slot&#35774;&#32622;&#25104;&#26080;&#25928;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#30828;&#20214;&#21578;&#30693;&#39537;&#21160;&#65292;&#30828;&#20214;&#36861;&#36394;&#30340;&#25509;&#35302;&#28857;&#30340;&#25968;&#37327;&#27604;&#39537;&#21160;&#19978;&#25253;&#30340;&#35201;&#22810;&#65292;&#37027;&#20040;&#39537;&#21160;&#24212;&#35813;&#20351;&#29992;
+    </p>
+    <p>
+      BTN_TOOL_*TAB&#26102;&#38388;&#21578;&#30693;&#29992;&#25143;&#31354;&#38388;&#30001;&#30828;&#20214;&#36319;&#36394;&#30340;&#24635;&#30340;&#25509;&#35302;&#28857;&#30340;&#25968;&#37327;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1642749588130" FOLDED="true" ID="ID_1507252054" MODIFIED="1644575932475">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#21333;&#29255;&#26426;&#20195;&#30721;&#30740;&#31350;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1642749610524" ID="ID_1496089964" MODIFIED="1642753432694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#21333;&#29255;&#26426;&#30340;&#20195;&#30721;&#20998;&#26512;&#24773;&#20917;&#26469;&#30475;&#65292;&#21021;&#22987;&#21270;&#30340;&#26102;&#20505;&#26159;&#25353;&#29255;
+    </p>
+    <p>
+      &#36830;&#32493;&#22320;&#23545;&#23492;&#23384;&#22120;&#36827;&#34892;&#37197;&#32622;&#30340;&#65292;&#37325;&#35201;&#30340;&#23492;&#23384;&#22120;&#36215;&#22987;&#22320;&#22336;&#22914;&#19979;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_TP_ATI_MIR&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x30&#160;&#21333;&#29255;&#26426;&#20195;&#30721;&#20013;&#20174;&#35813;&#22320;&#22336;&#24320;&#22987;&#65292;&#36830;&#32493;&#37197;&#32622;&#20102;24&#20010;&#23492;&#23384;&#22120;&#65292;&#22810;&#29992;&#20110;&#35774;&#32622;&#36890;&#36947;&#30340;base count&#12289;target value
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_ACTIVE_MODE_RR&#160;&#160;&#160;0x40 &#21333;&#29255;&#26426;&#20195;&#30721;&#20174;&#35813;&#22320;&#22336;&#24320;&#22987;&#65292;&#36830;&#32493;&#37197;&#32622;&#20102;22&#20010;&#23492;&#23384;&#22120;&#65292;&#29992;&#20110;&#35774;&#32622;Rate&#12289;Timeout&#31561;&#21442;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;IQS7211A_MM_SYSTEM_CONTROL&#160;&#160;0x50&#160; &#21333;&#29255;&#26426;&#20195;&#30721;&#20174;&#35813;&#22320;&#22336;&#24320;&#22987;&#65292;&#36830;&#32493;&#37197;&#32622;&#20102;24&#20010;&#23492;&#23384;&#22120;&#65292;&#29992;&#20110;Threashold&#12289;Debounce&#12289;Fraction&#31561;&#21442;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_TP_SETTINGS_0&#160;&#160;0x60 &#21333;&#29255;&#26426;&#20195;&#30721;&#20174;&#35813;&#22320;&#22336;&#24320;&#22987;&#65292;&#36830;&#32493;&#37197;&#32622;&#20102;20&#20010;&#23492;&#23384;&#22120;&#65292;&#29992;&#20110;Res&#12289;Trim&#31561;&#21442;&#25968;&#30340;&#35774;&#32622;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_ALP_COUNT_FILTER_BETA&#160;&#160;&#160;&#160;&#160;0x70 &#36830;&#32493;&#37197;&#32622;&#20102;10&#20010;&#23383;&#33410;&#65292;&#20027;&#35201;&#26159;ALP&#37197;&#32622;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_GESTURE_ENABLE&#160;&#160;0x80 &#36830;&#32493;&#37197;&#32622;&#20102;16&#20010;&#23383;&#33410;&#65292;&#29992;&#20110;&#37197;&#32622;&#25163;&#21183;&#25805;&#20316;&#30340;&#21442;&#25968;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_RXTX_MAPPING_1_0&#160;&#160;0x90 &#36830;&#32493;&#37197;&#32622;&#20102;13&#20010;&#23383;&#33410;&#65292;&#29992;&#20110;&#36890;&#36947;&#30340;Mapping&#35774;&#32622;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IQS7211A_MM_CYCLE_SETUP_0_9&#160;&#160;0xA0&#36830;&#32493;&#37197;&#32622;&#20102;30&#20010;&#23383;&#33410;&#65292;&#29992;&#20110;channel cycle&#30340;&#35774;&#32622;
+    </p>
+    <p>
+      IQS7211A_MM_CYCLE_SETUP_10_17&#160;&#160;&#160;0xB0 &#36830;&#32493;&#37197;&#32622;&#20102;24&#20010;&#23383;&#33410;&#65292;&#29992;&#20110;channel cycle&#30340;&#35774;&#32622;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>

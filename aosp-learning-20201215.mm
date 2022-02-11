@@ -10,8 +10,7 @@
       Android Learning
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#ff6666" CREATED="1433813443993" FOLDED="true" ID="ID_807162115" MODIFIED="1642141653455" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -26,8 +25,7 @@
       <font color="#000000" size="4">kernel&#28304;&#20195;&#30721;&#32534;&#35793;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1433813482436" ID="ID_89612854" MODIFIED="1433813491165" TEXT="android&#x6e90;&#x4ee3;&#x7801;&#x7f16;&#x8bd1;"/>
 <node CREATED="1433813494355" FOLDED="true" ID="ID_1660476030" MODIFIED="1502794309286" TEXT="kernel&#x7f16;&#x8bd1;">
@@ -309,8 +307,7 @@
       <font color="#000000" size="4">3.android&#30828;&#20214;&#25277;&#35937;&#23618;&#30340;&#32534;&#20889;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1434595402842" ID="ID_11414605" MODIFIED="1435563673556" TEXT="1.&#x5728;&#x5185;&#x6838;&#x6e90;&#x4ee3;&#x7801;&#x5f53;&#x4e2d;&#x6dfb;&#x52a0;&#x9a71;&#x52a8;&#x7a0b;&#x5e8f;">
 <node CREATED="1434595511258" ID="ID_402416564" MODIFIED="1434595693868">
@@ -2134,8 +2131,7 @@
       <font color="#000000" size="4">5.android&#30340;&#23567;&#30693;&#35782;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1476935377161" FOLDED="true" ID="ID_1113704051" MODIFIED="1499740313049">
 <richcontent TYPE="NODE"><html>
@@ -2231,8 +2227,7 @@
       &#26174;&#31034;&#20986;grid
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1479733013052" ID="ID_228513335" MODIFIED="1479736408172">
 <richcontent TYPE="NODE"><html>
@@ -2301,8 +2296,7 @@
       <font color="#ff0000" size="4">https://androidperformance.com/2019/05/28/Android-Systrace-About/#</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1642148645844" ID="ID_796005482" MODIFIED="1642148750059">
 <richcontent TYPE="NODE"><html>
@@ -2314,8 +2308,7 @@
       <b><code><font size="4" face="Times New Roman">python systrace.py --time=10 -o mynewtrace.html gfx</font></code></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1496221895678" FOLDED="true" ID="ID_127873495" MODIFIED="1504761238861">
@@ -2458,8 +2451,7 @@
       <font size="4">7.SELinux SEAndroid</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1482300819318" ID="ID_1607491495" MODIFIED="1571884077421">
 <richcontent TYPE="NODE"><html>
@@ -3183,8 +3175,7 @@
       <b><font size="4">9.Android&#25991;&#20214;&#31995;&#32479;&#21450;&#28903;&#20889;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1484720921741" ID="ID_332037652" MODIFIED="1484740146382">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3241,8 +3232,7 @@
       <b><font color="#000000" size="4">10. bbbandroid&#39033;&#30446;&#23398;&#20064;&#24320;&#21457;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1492247642557" ID="ID_142995514" MODIFIED="1492247671357">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3269,8 +3259,7 @@
       <font size="4">12. android ION&#26694;&#26550;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1497439770180" FOLDED="true" ID="ID_1800164131" MODIFIED="1502794290654">
 <richcontent TYPE="NODE"><html>
@@ -7318,8 +7307,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <b><font color="#000000" size="4">13. android &#20849;&#20139;&#20869;&#23384;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1506408366358" ID="ID_541543196" MODIFIED="1506408378534" TEXT="ashmem &#x865a;&#x62df;&#x5730;&#x5740;&#x8fde;&#x7eed;&#x7684;&#x5171;&#x4eab;&#x5185;&#x5b58;"/>
 <node CREATED="1506408382550" ID="ID_816489210" MODIFIED="1506408402224" TEXT="pmem &#x7269;&#x7406;&#x5730;&#x5740;&#x8fde;&#x7eed;&#x7684;&#x5171;&#x4eab;&#x5185;&#x5b58;"/>
 </node>
@@ -7333,8 +7321,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <b><font size="4">14. android debug</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1508405945445" ID="ID_1833291569" MODIFIED="1508405949218" TEXT="https://sites.google.com/a/itspaclub.com/www/android-debug/7-how-to-debug-native-code/7-6-android-tombstones"/>
 </node>
 <node CREATED="1543386542819" FOLDED="true" ID="ID_1329610924" MODIFIED="1642141755347" POSITION="right">
@@ -7347,8 +7334,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <b><font size="4">16. android &#39068;&#33394;&#31354;&#38388;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1543386709074" ID="ID_1088319198" MODIFIED="1543386918478">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7422,8 +7408,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <font size="4">18. android OTA&#21319;&#32423;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1578319300945" FOLDED="true" ID="ID_828055449" MODIFIED="1606807955227">
 <richcontent TYPE="NODE"><html>
@@ -8298,10 +8283,9 @@ but it's much nicer to be explicit about it.</pre>
       <font size="4">17. android input system</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1578307251051" FOLDED="true" ID="ID_853138179" MODIFIED="1641885937119">
+<node CREATED="1578307251051" ID="ID_853138179" MODIFIED="1642488444867">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8315,7 +8299,7 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1578307330751" ID="ID_1744035212" MODIFIED="1641885860367">
+<node CREATED="1578307330751" FOLDED="true" ID="ID_1744035212" MODIFIED="1642497457106">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8508,7 +8492,7 @@ but it's much nicer to be explicit about it.</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1578366743599" FOLDED="true" ID="ID_1813188163" MODIFIED="1606807835287">
+<node CREATED="1578366743599" ID="ID_1813188163" MODIFIED="1642488516501">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8974,8 +8958,20 @@ but it's much nicer to be explicit about it.</pre>
       Touch&#35774;&#22791;
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1642578352090" ID="ID_780664555" MODIFIED="1642578393484">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300ff" size="4">android Launcher3 App&#37324;&#38754;&#23545;&#20110;onScroll&#30340;&#22788;&#29702;&#27969;&#31243;&#20998;&#26512;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1642141826142" ID="ID_1131096647" MODIFIED="1642141842102" POSITION="left">
@@ -8988,8 +8984,7 @@ but it's much nicer to be explicit about it.</pre>
       <b><font size="4">20.Android&#27979;&#35797;&#26694;&#26550;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642141856766" ID="ID_1463987104" MODIFIED="1642142705641">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9003,8 +8998,7 @@ but it's much nicer to be explicit about it.</pre>
       https://source.android.com/compatibility/tests/development/atest
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1642148783506" ID="ID_1235531100" MODIFIED="1642148799759">
 <richcontent TYPE="NODE"><html>
@@ -9016,8 +9010,7 @@ but it's much nicer to be explicit about it.</pre>
       <font size="4">gtest&#27979;&#35797;&#26694;&#26550;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642148803855" ID="ID_208731651" MODIFIED="1642148831699">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9028,12 +9021,11 @@ but it's much nicer to be explicit about it.</pre>
       <font size="4">./SurfaceFlinger_test&#160; --gtest_filter=SurfaceInterceptorTest.InterceptBufferUpdateWorks</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1589424488998" ID="ID_1863609399" MODIFIED="1642053563695" POSITION="right">
+<node CREATED="1589424488998" FOLDED="true" ID="ID_1863609399" MODIFIED="1642497467418" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9055,8 +9047,7 @@ but it's much nicer to be explicit about it.</pre>
       <b>Overview</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642059027514" ID="ID_1342375309" MODIFIED="1642059059667">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9070,8 +9061,7 @@ but it's much nicer to be explicit about it.</pre>
       &#160;<a href="https://source.android.com/devices/graphics/arch-sh#canvas">Canvas</a>, <a href="https://source.android.com/devices/graphics/arch-egl-opengl">OpenGL ES</a>, or <a href="https://source.android.com/devices/graphics/arch-vulkan">Vulkan</a>.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1642059582229" ID="ID_1018159981" MODIFIED="1642059593733">
 <richcontent TYPE="NODE"><html>
@@ -9083,8 +9073,7 @@ but it's much nicer to be explicit about it.</pre>
       Android&#26174;&#21345;&#32452;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642059751384" ID="ID_1631405431" MODIFIED="1642059782511">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9098,8 +9087,7 @@ but it's much nicer to be explicit about it.</pre>
       &#19979;&#22270;&#26174;&#31034;&#20102;&#20851;&#38190;&#32452;&#20214;&#22914;&#20309;&#21327;&#21516;&#24037;&#20316;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642060037924" ID="ID_776621794" MODIFIED="1642060048374">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9108,8 +9096,7 @@ but it's much nicer to be explicit about it.</pre>
   <body>
     <img src="android-app/Surface&#x6e32;&#x67d3;&#x7ec4;&#x4ef6;.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1642060163051" ID="ID_70267190" MODIFIED="1642060240680">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9123,8 +9110,7 @@ but it's much nicer to be explicit about it.</pre>
       &#22270;&#24418;&#32531;&#23384;&#30340;&#29983;&#20135;&#32773;&#65292;&#27604;&#22914;OpenGL ES&#12289;Video Decoder
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1642060296856" ID="ID_1196094854" MODIFIED="1642130119601">
 <richcontent TYPE="NODE"><html>
@@ -9148,8 +9134,7 @@ but it's much nicer to be explicit about it.</pre>
       <font color="#ff0000">&#26469;&#21512;&#25104;surfaces&#12290;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1642130211873" ID="ID_395774731" MODIFIED="1642130211873" TEXT=""/>
 </node>
@@ -9530,7 +9515,7 @@ but it's much nicer to be explicit about it.</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1589954520492" ID="ID_1202540977" MODIFIED="1642053578293" TEXT="DRM/KMS &#x7814;&#x7a76;">
+<node CREATED="1589954520492" FOLDED="true" ID="ID_1202540977" MODIFIED="1642497465778" TEXT="DRM/KMS &#x7814;&#x7a76;">
 <node CREATED="1589954572422" ID="ID_179384859" MODIFIED="1642053632845">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -9807,7 +9792,7 @@ but it's much nicer to be explicit about it.</pre>
 <node CREATED="1608026295777" ID="ID_87990812" MODIFIED="1608026298968" TEXT="https://blog.csdn.net/xu_chang/article/details/50178407"/>
 </node>
 <node CREATED="1607480836238" ID="ID_1625663739" MODIFIED="1642129018909" TEXT="&#x4ee3;&#x7801;&#x5206;&#x6790;">
-<node CREATED="1607480848970" FOLDED="true" ID="ID_1155581260" MODIFIED="1608028984468">
+<node CREATED="1607480848970" FOLDED="true" ID="ID_1155581260" MODIFIED="1642381677671">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9985,7 +9970,7 @@ but it's much nicer to be explicit about it.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1641520138985" FOLDED="true" ID="ID_1556837581" MODIFIED="1641885605193" POSITION="right">
+<node CREATED="1641520138985" FOLDED="true" ID="ID_1556837581" MODIFIED="1642497480664" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9996,8 +9981,8 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1641520210691" FOLDED="true" ID="ID_15621839" MODIFIED="1641885603771" TEXT="1.&#x5173;&#x4e8e;&#x624b;&#x673a;&#x5750;&#x6807;&#x7cfb;&#x7684;&#x5b9a;&#x4e49;">
-<node CREATED="1641520259491" FOLDED="true" ID="ID_1795558162" MODIFIED="1641885601389">
+<node CREATED="1641520210691" FOLDED="true" ID="ID_15621839" MODIFIED="1642497478842" TEXT="1.&#x5173;&#x4e8e;&#x624b;&#x673a;&#x5750;&#x6807;&#x7cfb;&#x7684;&#x5b9a;&#x4e49;">
+<node CREATED="1641520259491" FOLDED="true" ID="ID_1795558162" MODIFIED="1642497477474">
 <richcontent TYPE="NODE"><html>
   <head>
     
