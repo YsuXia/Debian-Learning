@@ -10104,6 +10104,21 @@
       linux4.4.40&#29256;&#26412;&#65292;&#24050;&#32463;&#19978;&#20256;github&#65292;&#26412;&#22320;&#30446;&#24405; ~/GitHub/linux-4.4.40_tiny4412/linux-4.4.40
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1659257205323" ID="ID_373177314" MODIFIED="1659257222916">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21407;&#29702;&#22270;&#30475;&#65306;
+    </p>
+    <p>
+      <b>Tiny4412ADK-1312B(1312C)-Schematic.pdf</b>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -10127,6 +10142,27 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1654907436790" ID="ID_1922424366" MODIFIED="1654907678295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#1906f0">setenv(&quot;dnw_up&quot;, &quot;dnw 0x40600000; dnw 0x41000000; dnw 0x42000000; bootm 0x40600000 0x41000000 0x42000000&quot;)</font>
+    </p>
+    <p>
+      uImage&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ramdisk.img&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;exynos4412-tiny4412.dtb
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30446;&#21069;&#21033;&#29992;uboot&#26159;&#23558;&#20869;&#26680;&#38236;&#20687;&#19979;&#36733;&#21040;&#20869;&#23384;&#30340;6M&#20301;&#32622;&#65292;ramdisk.img&#19979;&#36733;&#21040;16M&#20301;&#32622;&#65292;DTS&#19979;&#36733;&#21040;&#20102;32M&#30340;&#20301;&#32622;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1622073303383" ID="ID_1857464556" MODIFIED="1622073319128">
 <richcontent TYPE="NODE"><html>
@@ -10689,6 +10725,192 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1644661328117" ID="ID_1922951593" MODIFIED="1644661334671">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b style="font-weight: 600; color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: medium; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="rgb(18, 18, 18)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="medium">&#20960;&#31181;linux&#20869;&#26680;&#25991;&#20214;&#30340;&#21306;&#21035;&#65306;</font></b><font color="rgb(18, 18, 18)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="medium"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />1&#12289;vmlinux &#65306;&#32534;&#35793;&#20986;&#26469;&#21518;&#26410;&#21387;&#32553;&#26368;&#21407;&#22987;&#30340;&#20869;&#26680;&#25991;&#20214;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />2&#12289;zImage &#65306;vmlinux&#32463;&#36807;gzip&#21387;&#32553;&#21518;&#30340;&#25991;&#20214;&#12290;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />3&#12289;bzImage&#65306;bz&#34920;&#31034;&#8220;big zImage&#8221;&#65292;&#19981;&#26159;&#29992;bzip2&#21387;&#32553;&#30340;&#12290;&#20004;&#32773;&#30340;&#19981;&#21516;&#20043;&#22788;&#22312;&#20110;&#65292;zImage&#35299;&#21387;&#32553;&#20869;&#26680;&#21040;&#20302;&#31471;&#20869;&#23384;(&#31532;&#19968;&#20010;640K)&#65292;bzImage&#35299;&#21387;&#32553;&#20869;&#26680;&#21040;&#39640;&#31471;&#20869;&#23384;(1M&#20197;&#19978;)&#12290;&#22914;&#26524;&#20869;&#26680;&#27604;&#36739;&#23567;&#65292;&#37027;&#20040;&#37319;&#29992;zImage&#25110;bzImage&#37117;&#34892;&#65292;&#22914;&#26524;&#27604;&#36739;&#22823;&#24212;&#35813;&#29992;bzImage&#12290;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />4&#12289;uImage &#65306; U-boot&#19987;&#29992;&#30340;&#26144;&#20687;&#25991;&#20214;&#65292;&#23427;&#26159;&#22312;zImage&#20043;&#21069;&#21152;&#19978;&#19968;&#20010;&#38271;&#24230;&#20026;0x40&#30340;TAG&#12290;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />5&#12289;vmlinuz&#65306; bzImage/zImage&#25991;&#20214;&#30340;&#25335;&#36125;&#25110;&#25351;&#21521;bzImage/zImage&#30340;&#38142;&#25509;&#12290;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" /><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)" />6&#12289;initrd &#65292;&#65306; &#8220;initial ramdisk&#8221;&#30340;&#31616;&#20889;&#12290;&#19968;&#33324;&#34987;&#29992;&#26469;&#20020;&#26102;&#30340;&#24341;&#23548;&#30828;&#20214;&#21040;&#23454;&#38469;&#20869;&#26680;vmlinuz&#33021;&#22815;&#25509;&#31649;&#24182;&#32487;&#32493;&#24341;&#23548;&#30340;&#29366;&#24577;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1644723459774" ID="ID_1546124531" MODIFIED="1644723478460">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="linuxkernel/&#x5185;&#x6838;&#x7f16;&#x8bd1;&#x7684;&#x91cd;&#x8981;&#x5730;&#x5740;.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1654909097020" ID="ID_533838275" MODIFIED="1654909120164">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#21551;&#21160;&#26041;&#24335;&#35828;&#26126;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1659256520048" ID="ID_1863647952" MODIFIED="1659256688452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;eMMC&#21551;&#21160;&#65292;eMMC&#20351;&#29992;&#30340;&#26159;&#19977;&#26143;&#29983;&#20135;&#30340;
+    </p>
+    <p>
+      KLM8G2FE3B-B001_1.8V 8GB&#30340;eMMC&#33455;&#29255;&#65292;
+    </p>
+    <p>
+      &#35813;&#33455;&#29255;&#25509;&#20837;&#21040;exynos4412&#30340;Xmmc0&#21644;Xmmc1&#25509;&#21475;&#19978;
+    </p>
+    <p>
+      &#21363;MultiMediaCard&#25509;&#21475;&#19978;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1659257289868" ID="ID_624720509" MODIFIED="1659257313575">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#e00707">Xmmc2&#25346;&#36733;&#30340;&#26159;SD&#21345;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1655645791697" ID="ID_132822061" MODIFIED="1655645829668">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>USB HOST&#25509;&#21475;&#35843;&#35797;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655645843224" ID="ID_665246713" MODIFIED="1655645854707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771;&#32593;&#22336;
+    </p>
+    <p>
+      https://blog.csdn.net/qq_27136111/article/details/102823841
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655646091147" ID="ID_62128110" MODIFIED="1655646157516">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OverView
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20849;&#26377;3&#20010;USB 2.0 HOST Port, &#20854;&#20013;Port0&#26159;&#26631;&#20934;&#30340;USB2.0,
+    </p>
+    <p>
+      Port1&#21644;Port2&#26159;High Speed USB2.0&#27169;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655646367486" ID="ID_816383107" MODIFIED="1655646392712">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/Exynos4412-USB-Diagram-1.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655646398959" ID="ID_1764852594" MODIFIED="1655646421480">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/Exynos4412-USB-Diagram-2.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655647759840" ID="ID_1375732649" MODIFIED="1655647833917">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20174;&#21407;&#29702;&#22270;&#30475;&#65292;XhsicData1&#22806;&#25346;&#20102;&#19968;&#20010;USB HUB usb4606&#33455;&#29255;&#65292;
+    </p>
+    <p>
+      XhsicData0&#27809;&#26377;&#20351;&#29992;&#65292;XuotgDP&#26159;&#25509;&#30340;micor usb
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1655907610561" ID="ID_59080829" MODIFIED="1655907636623">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#35774;&#22791;&#26641;&#25299;&#25169;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655907701069" ID="ID_1835876802" MODIFIED="1655907703733" TEXT="exynos4412-tiny4412.dts">
+<node CREATED="1656248141561" ID="ID_867805204" MODIFIED="1656248144638" TEXT="exynos4412.dtsi">
+<node CREATED="1656248182485" ID="ID_375698328" MODIFIED="1656248185169" TEXT="exynos4x12.dtsi">
+<node CREATED="1656248224350" ID="ID_438674387" MODIFIED="1656248226757" TEXT="exynos4.dtsi"/>
+<node CREATED="1656248239595" ID="ID_1530278844" MODIFIED="1656248241928" TEXT="exynos4x12-pinctrl.dtsi"/>
+<node CREATED="1656248254121" ID="ID_1621023868" MODIFIED="1656248256403" TEXT="exynos4-cpu-thermal.dtsi"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1656251295886" ID="ID_520775918" MODIFIED="1656251312023">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#39537;&#21160;&#23618;&#38754;&#20195;&#30721;&#20998;&#26512;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1656251316554" ID="ID_1216372593" MODIFIED="1656251318274" TEXT="phy-samsung-usb2.c"/>
 </node>
 </node>
 <node CREATED="1572503579503" FOLDED="true" ID="ID_857363367" MODIFIED="1622067985653" POSITION="left" TEXT="ARM ABI">

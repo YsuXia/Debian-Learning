@@ -11816,7 +11816,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1649416083738" POSITION="right">
+<node CREATED="1571017459253" FOLDED="true" ID="ID_1798204731" MODIFIED="1664093720065" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -44746,7 +44746,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1648516210139" POSITION="right">
+<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1664093953437" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -44758,7 +44758,7 @@
   </body>
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1525417048563" FOLDED="true" ID="ID_1100947911" MODIFIED="1606726593701">
+<node CREATED="1525417048563" FOLDED="true" ID="ID_1100947911" MODIFIED="1664093773289">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45218,7 +45218,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1583663541919" FOLDED="true" ID="ID_809884029" MODIFIED="1617082778598">
+<node CREATED="1583663541919" FOLDED="true" ID="ID_809884029" MODIFIED="1664093949774">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45229,7 +45229,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1583663906968" ID="ID_927808365" MODIFIED="1596874049441">
+<node CREATED="1583663906968" FOLDED="true" ID="ID_927808365" MODIFIED="1664093948943">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45240,7 +45240,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1594681566849" FOLDED="true" ID="ID_37366410" MODIFIED="1617082777335" TEXT="&#x9ad8;&#x901f;&#x7f13;&#x5b58;&#x7684;&#x6982;&#x5ff5;">
+<node CREATED="1594681566849" FOLDED="true" ID="ID_37366410" MODIFIED="1664093927675" TEXT="&#x9ad8;&#x901f;&#x7f13;&#x5b58;&#x7684;&#x6982;&#x5ff5;">
 <node CREATED="1594681587972" FOLDED="true" ID="ID_32969052" MODIFIED="1617082768757">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45525,6 +45525,1095 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1652005170173" FOLDED="true" ID="ID_664155994" MODIFIED="1664093926264">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ea1515">ARM Data Cache&#30340;&#32034;&#24341;&#26041;&#24335;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652005831238" FOLDED="true" ID="ID_1522499808" MODIFIED="1664093924999">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26681;&#25454;&#26597;&#35810;cache&#32452;&#26159;&#29992;&#34394;&#25311;&#22320;&#22336;&#36824;&#26159;&#29289;&#29702;&#22320;&#22336;&#30340;&#32034;&#24341;&#22495;&#65288;Index&#65289;,
+    </p>
+    <p>
+      &#24403;&#25214;&#21040;cache&#32452;&#30340;&#26102;&#20505;&#26159;&#29992;&#29289;&#29702;&#22320;&#22336;&#36824;&#26159;&#34394;&#25311;&#22320;&#22336;&#30340;Tag&#22495;&#26469;&#21305;&#37197;cache line,
+    </p>
+    <p>
+      &#21487;&#20197;&#22914;&#19979;&#35774;&#35745;cache
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652010482039" ID="ID_252801588" MODIFIED="1652010534073">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#1516f3">VIVT</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;&#34394;&#25311;&#22320;&#22336;&#32034;&#24341;&#22495;&#21644;&#34394;&#25311;&#22320;&#22336;&#26631;&#35760;&#22495;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1652010537423" FOLDED="true" ID="ID_784397369" MODIFIED="1664093923910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0c32e6">VIPT</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;&#34394;&#25311;&#22320;&#22336;&#32034;&#24341;&#22495;&#21644;&#29289;&#29702;&#22320;&#22336;&#30340;&#26631;&#35760;&#22495;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652584507719" ID="ID_1335907679" MODIFIED="1652584519826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#20204;&#30693;&#36947;VIPT&#30340;&#20248;&#28857;&#26159;&#26597;&#25214;cache&#21644;MMU&#36716;&#25442;&#34394;&#25311;&#22320;&#22336;&#21516;&#26102;&#36827;&#34892;&#65292;&#25152;&#20197;&#24615;&#33021;&#19978;&#26377;&#25152;&#25552;&#21319;&#12290;&#27495;&#20041;&#38382;&#39064;&#34429;&#28982;&#19981;&#23384;&#22312;&#20102;&#65292;&#20294;&#26159;&#21035;&#21517;&#38382;&#39064;&#20381;&#26087;&#21487;&#33021;&#23384;&#22312;&#65292;&#37027;&#20040;&#20160;&#20040;&#24773;&#20917;&#19979;&#21035;&#21517;&#38382;&#39064;&#19981;&#20250;&#23384;&#22312;&#21602;&#65311;Linux&#31995;&#32479;&#20013;&#26144;&#23556;&#26368;&#23567;&#30340;&#21333;&#20301;&#26159;&#39029;&#65292;&#39029;&#22823;&#23567;&#36890;&#24120;&#26377;4KB&#12289;16KB&#12289;64KB&#12290;<strong>&#26412;&#23567;&#33410;&#20197;4KB&#39029;&#22823;&#23567;&#20026;&#20363;</strong>&#65292;&#27492;&#26102;&#34394;&#25311;&#22320;&#22336;&#21644;&#20854;&#26144;&#23556;&#30340;&#29289;&#29702;&#22320;&#22336;&#30340;&#20301;&lt;11&#8230;0&gt;&#26159;&#19968;&#26679;&#30340;&#12290;
+    </p>
+    <ul>
+      <li>
+        <strong>&#38024;&#23545;&#30452;&#25509;&#26144;&#23556;&#39640;&#36895;&#32531;&#23384;</strong>&#65292;&#22914;&#26524;<font color="#0000cc">&#160; <strong>cache&#30340;size&#23567;&#20110;&#31561;&#20110;4KB</strong></font>&#65292;&#36825;&#23601;&#24847;&#21619;&#30528;&#26080;&#35770;&#20351;&#29992;&#34394;&#25311;&#22320;&#22336;&#36824;&#26159;&#29289;&#29702;&#22320;&#22336;&#30340;&#20302;&#20301;&#26597;&#25214;cache&#32467;&#26524;&#37117;&#26159;&#19968;&#26679;&#30340;&#65292;&#22240;&#20026;&#34394;&#25311;&#22320;&#22336;&#21644;&#29289;&#29702;&#22320;&#22336;&#23545;&#24212;&#30340;index&#26159;&#19968;&#26679;&#30340;&#12290;&#36825;&#31181;&#24773;&#20917;&#65292;VIPT&#23454;&#38469;&#19978;&#30456;&#24403;&#20110;PIPT&#65292;&#36719;&#20214;&#32500;&#25252;&#19978;&#21644;PIPT&#19968;&#26679;&#12290;
+      </li>
+      <li>
+        &#22914;&#26524;&#26159;&#19968;&#20010;<strong>&#22235;&#36335;&#32452;&#30456;&#36830;&#39640;&#36895;&#32531;&#23384;</strong>,&#21482;&#35201;&#28385;&#36275;<font color="#0000cc">&#160; <strong>&#19968;&#36335;&#30340;cache&#30340;&#22823;&#23567;&#23567;&#20110;&#31561;&#20110;4KB</strong></font>&#65292;&#37027;&#20040;VIPT&#26041;&#24335;&#30340;cache&#20063;&#19981;&#20250;&#20986;&#29616;&#21035;&#21517;&#38382;&#39064;&#12290;
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1652010604307" ID="ID_973914096" MODIFIED="1652010655428">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0f33ec">PIPT</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;&#29289;&#29702;&#22320;&#22336;&#30340;&#32034;&#24341;&#22495;&#21644;&#29289;&#29702;&#22320;&#22336;&#30340;&#26631;&#35760;&#22495;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1652600979893" FOLDED="true" ID="ID_135518795" MODIFIED="1664093940060">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ea0dd1">ARM32&#39029;&#34920;&#26144;&#23556;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652601055077" FOLDED="true" ID="ID_1496881150" MODIFIED="1664093938522">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;32bit Linux&#24403;&#20013;&#19968;&#33324;&#37319;&#29992;3&#23618;&#30340;&#26144;&#23556;&#27169;&#22411;&#65292;&#31532;1&#23618;&#26159;&#39029;&#38754;&#30446;&#24405;&#65288;PGD&#65289;&#65292;&#31532;2&#23618;&#26159;&#39029;&#38754;
+    </p>
+    <p>
+      &#20013;&#38388;&#30446;&#24405;&#65288;PMD&#65289;&#65292;&#31532;3&#23618;&#25165;&#26159;&#39029;&#38754;&#26144;&#23556;&#34920;&#65288;PTE&#65289;&#12290;&#20294;&#26159;&#22312;ARM32&#31995;&#32479;&#20013;&#21482;&#29992;&#21040;&#20004;&#23618;
+    </p>
+    <p>
+      &#26144;&#23556;&#65292;&#22240;&#27492;&#22312;&#23454;&#38469;&#30340;&#20195;&#30721;&#20013;&#23601;&#38656;&#35201;&#23558;3&#23618;&#30340;&#26144;&#23556;&#27169;&#22411;&#20013;&#21512;&#24182;1&#23618;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652614846410" FOLDED="true" ID="ID_363962856" MODIFIED="1664093935620">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/ARM32-&#x4e24;&#x5c42;&#x6620;&#x5c04;&#x9875;&#x8868;.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1652614905922" ID="ID_724642052" MODIFIED="1652614974703">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ec0e0e" size="4"><b>&#21487;&#20197;&#30475;&#21040;&#65292;&#19981;&#35770;&#26159;&#19968;&#32423;&#39029;&#34920;&#36824;&#26159;&#20108;&#32423;&#39029;&#34920;&#65292;&#37324;&#38754;&#30340; </b></font>
+    </p>
+    <p>
+      <font color="#ec0e0e" size="4"><b>&#39029;&#34920;&#39033;&#30340;&#22823;&#23567;&#37117;&#26159;&#22235;&#20010;&#23383;&#33410;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1658665832418" ID="ID_239045472" MODIFIED="1658665932946">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/four-level-pt.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1652615160215" FOLDED="true" ID="ID_1469723082" MODIFIED="1664093947885">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0c28f2">&#20195;&#30721;&#27969;&#31243;&#20998;&#26512;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652615196479" FOLDED="true" ID="ID_426366232" MODIFIED="1664093946675">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>start_kernel()</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652615454372" FOLDED="true" ID="ID_480530607" MODIFIED="1664093945491">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>void __init setup_arch(char **cmdline_p) </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#eb1010"><i>&#25991;&#20214;&#65306;arch/arm/kernel/setup.c</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1657438164309" ID="ID_464736823" MODIFIED="1657438180536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+    <p>
+      const struct machine_desc *mdesc;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438184729" ID="ID_1614589996" MODIFIED="1657438201965">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setup_processor();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438226455" ID="ID_582271547" MODIFIED="1657438228920" TEXT="mdesc = setup_machine_fdt(__atags_pointer);"/>
+<node CREATED="1657438241313" ID="ID_770271976" MODIFIED="1657438263505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      machine_desc = mdesc;
+    </p>
+    <p>
+      machine_name = mdesc-&gt;name;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438266226" ID="ID_33954018" MODIFIED="1657438280832">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dump_stack_set_arch_desc(&quot;%s&quot;, mdesc-&gt;name);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438297149" ID="ID_1948107487" MODIFIED="1657438342989">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      init_mm.start_code = (unsigned long) _text;
+    </p>
+    <p>
+      init_mm.end_code&#160;&#160;&#160;= (unsigned long) _etext;
+    </p>
+    <p>
+      init_mm.end_data&#160;&#160;&#160;= (unsigned long) _edata;
+    </p>
+    <p>
+      init_mm.brk&#160;&#160;&#160;&#160;= (unsigned long) _end;&#160;&#160;&#160;init_mm&#30340;&#20316;&#29992;&#65311;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438392594" ID="ID_1345198372" MODIFIED="1657438431695">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#160ee5">strlcpy(cmd_line, boot_command_line, COMMAND_LINE_SIZE); </font>
+    </p>
+    <p>
+      <font size="4" color="#160ee5">*cmdline_p = cmd_line; </font>
+    </p>
+    <p>
+      <font size="4" color="#160ee5">&#20445;&#23384;cmd line</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438446601" ID="ID_1284530293" MODIFIED="1657438453106">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      early_fixmap_init();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438464742" ID="ID_517830737" MODIFIED="1657438477087">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      parse_early_param();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438502490" ID="ID_388695492" MODIFIED="1657438716831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      early_paging_init(mdesc);
+    </p>
+    <p>
+      &#29992;&#20110;LPE&#27169;&#24335;&#30340;&#65292;&#20197;&#21518;&#20877;&#30475;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438528559" ID="ID_1580014742" MODIFIED="1657438531540" TEXT="setup_dma_zone(mdesc);"/>
+<node CREATED="1657438543493" ID="ID_796225834" MODIFIED="1657438546532" TEXT="sanity_check_meminfo()"/>
+<node CREATED="1657438557166" ID="ID_1134447509" MODIFIED="1657438559958" TEXT="arm_memblock_init(mdesc);"/>
+<node CREATED="1652615535178" ID="ID_930820581" MODIFIED="1652615547770">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>void __init paging_init(const struct machine_desc *mdesc)</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1657438878620" ID="ID_966532821" MODIFIED="1657438885478">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      void *zero_page;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657438896601" ID="ID_1006912376" MODIFIED="1657438899577" TEXT="build_mem_type_table()"/>
+<node CREATED="1657438913649" ID="ID_1558889209" MODIFIED="1657438934385">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      prepare_page_table()
+    </p>
+    <p>
+      &#35813;&#20989;&#25968;&#29992;&#20110;&#23545;&#39029;&#34920;&#36827;&#34892;&#28165;&#29702;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1657632152261" ID="ID_715723708" MODIFIED="1658668020790">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30740;&#31350;&#19968;&#19979;&#23439;&#23450;&#20041;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      pgd_offset_k(virt)&#160;&#160;&#23450;&#20041;&#22312;&#25991;&#20214;arch/arm/include/asm/pgtable.h
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="KacstTitle">#define pgd_offset_k(addr)&#160;&#160;&#160;pgd_offset(&amp;init_mm, addr) </font>
+    </p>
+    <p>
+      <font face="KacstTitle">#define pgd_offset(mm, addr)&#160;&#160;&#160;&#160;((mm)-&gt;pgd + pgd_index(addr)) </font>
+    </p>
+    <p>
+      <font face="KacstTitle">&#160;#define pgd_index(addr)&#160;&#160;&#160;&#160;&#160;((addr) &gt;&gt; PGDIR_SHIFT)&#160; </font>
+    </p>
+    <p>
+      <font face="KacstTitle">PGDIR_SHIFT&#26159;&#23450;&#20041;&#22312;&#25991;&#20214;#include &lt;asm/pgtable-2level.h&gt;&#37324;&#38754;&#30340; </font>
+    </p>
+    <p>
+      <font face="KacstTitle">define PGDIR_SHIFT&#160;&#160;&#160;&#160;&#160;21&#160;&#160;&#160;</font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      <font color="#f00707">&#25214;&#21040;&#31532;&#19968;&#32423;&#39029;&#34920;&#30446;&#24405;&#39033;&#30340;&#22320;&#22336;, PGDIR_SHIFT&#26159;21&#20301;&#30340;&#65292;&#20294;&#26159;&#25105;&#20204;&#30475;&#21040;arm&#25163;&#20876;&#37324;&#38754;&#30340;&#31532;&#19968;&#32423; </font>
+    </p>
+    <p>
+      <font color="#f00707">&#39029;&#34920;&#30340;Index&#26159;&#24038;&#31227;20&#20301;&#65281; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#c32ee1"><b>typedef struct { pmdval_t pgd[2]; } pgd_t; &#21487;&#20197;&#30475;&#21040;linux&#37324;&#38754;&#30340;pgd&#26159;&#23545;&#24212;&#20004;&#20010;arm pgd&#30340;&#26465;&#30446;&#30340;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Serif">17 struct mm_struct init_mm = { </font>
+    </p>
+    <p>
+      <font face="Serif">18&#160;&#160;&#160;&#160;&#160;.mm_rb&#160;&#160;&#160;&#160;&#160;&#160;= RB_ROOT, </font>
+    </p>
+    <p>
+      <font face="Serif">19&#160;&#160;&#160;&#160;&#160;.pgd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= swapper_pg_dir, </font>
+    </p>
+    <p>
+      <font face="Serif">20&#160;&#160;&#160;&#160;&#160;.mm_users&#160;&#160;&#160;= ATOMIC_INIT(2), </font>
+    </p>
+    <p>
+      <font face="Serif">21&#160;&#160;&#160;&#160;&#160;.mm_count&#160;&#160;&#160;= ATOMIC_INIT(1), </font>
+    </p>
+    <p>
+      <font face="Serif">22&#160;&#160;&#160;&#160;&#160;.mmap_sem&#160;&#160;&#160;= __RWSEM_INITIALIZER(init_mm.mmap_sem), </font>
+    </p>
+    <p>
+      <font face="Serif">23&#160;&#160;&#160;&#160;&#160;.page_table_lock =&#160;&#160;__SPIN_LOCK_UNLOCKED(init_mm.page_table_lock), </font>
+    </p>
+    <p>
+      <font face="Serif">24&#160;&#160;&#160;&#160;&#160;.mmlist&#160;&#160;&#160;&#160;&#160;= LIST_HEAD_INIT(init_mm.mmlist), </font>
+    </p>
+    <p>
+      <font face="Serif">25&#160;&#160;&#160;&#160;&#160;.user_ns&#160;&#160;&#160;&#160;= &amp;init_user_ns, </font>
+    </p>
+    <p>
+      <font face="Serif">26&#160;&#160;&#160;&#160;&#160;INIT_MM_CONTEXT(init_mm) </font>
+    </p>
+    <p>
+      <font face="Serif">27 }; </font>
+    </p>
+    <p>
+      swapper_pg_dir&#29992;&#20110;&#23384;&#25918;&#20869;&#26680;PGD&#39029;&#34920;&#30340;&#22320;&#26041;&#65292;&#22312;arch/arm/kernel/head.S&#25991;&#20214;&#24403;&#20013;&#26377;&#23450;&#20041;
+    </p>
+    <p>
+      #define KERNEL_RAM_VADDR&#160;&#160;&#160;&#160;(PAGE_OFFSET + TEXT_OFFSET)
+    </p>
+    <p>
+      #define PG_DIR_SIZE 0x4000
+    </p>
+    <p>
+      .globl&#160;&#160;swapper_pg_dir
+    </p>
+    <p>
+      .equ&#160;&#160;&#160;&#160;swapper_pg_dir, KERNEL_RAM_VADDR - PG_DIR_SIZE
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657633883180" ID="ID_555830524" MODIFIED="1657633913728">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+    <p>
+      unsigned long addr;
+    </p>
+    <p>
+      phys_addr_t end;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1657633931308" ID="ID_1212775507" MODIFIED="1657633957491">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for (addr = 0; addr &lt; MODULES_VADDR; addr += PMD_SIZE)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pmd_clear(pmd_off_k(addr));
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1657633994728" ID="ID_642817727" MODIFIED="1658667829636">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static inline pmd_t *pmd_off_k(unsigned long virt)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160; <font face="Serif" size="4">return pmd_offset(pud_offset(</font><font face="Serif" size="4" color="#ea0505">pgd_offset_k(virt)</font><font face="Serif" size="4">, virt), virt);</font>
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      https://blog.csdn.net/skyflying2012/article/details/52015124
+    </p>
+    <p>
+      http://www.wowotech.net/forum/viewtopic.php?id=178
+    </p>
+    <p>
+      <font color="#f00f0f">&#23454;&#38469;&#19978;&#36825;&#37324;pmd_offset&#21644;pud_offset&#37117;&#19981;&#20570;&#20219;&#20309;&#30340;&#25805;&#20316;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1657635964479" ID="ID_1126631668" MODIFIED="1657664252159">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pud_offset&#22312;&#25991;&#20214;include/asm-generic/pgtable-nopud.h&#37324;&#38754;&#23450;&#20041;&#20102;
+    </p>
+    <p>
+      static inline pud_t * pud_offset(pgd_t * pgd, unsigned long address)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return (pud_t *)pgd;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1658063294121" ID="ID_1333304322" MODIFIED="1658063300482">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #define pmd_clear(pmdp)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;do {&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pmdp[0] = __pmd(0); \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pmdp[1] = __pmd(0); \
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;clean_pmd_entry(pmdp);&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} while (0)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1652615571164" ID="ID_246684661" MODIFIED="1652615581079">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>map_lowmem()</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652615664384" ID="ID_1834015210" MODIFIED="1652615676235">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>static void __init create_mapping(struct map_desc *md)</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1652615800676" ID="ID_1521682587" MODIFIED="1652615998617">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct map_desc {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long virtual;&#160;&#160;&#34394;&#25311;&#22320;&#22336;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long pfn; &#29289;&#29702;&#22320;&#22336;&#30340;&#24320;&#22987;&#22320;&#22336;&#30340;&#39029;&#24103;&#21495;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long length; &#20869;&#23384;&#30340;&#22823;&#23567;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int type; ----&gt; <font color="#f11616">&#34920;&#31034;&#20869;&#23384;&#21306;&#22495;&#30340;&#23646;&#24615;&#65292;&#36890;&#24120;&#20351;&#29992;struct mem_type&#32467;&#26500;&#20307;&#36827;&#34892;&#25551;&#36848;</font>
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      map_desc&#29992;&#26469;&#25551;&#36848;&#19968;&#22359;&#20869;&#23384;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1652616060774" ID="ID_1077277707" MODIFIED="1652616143548">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct mem_type {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pteval_t prot_pte; &#39029;&#38754;&#34920;&#39033;&#30340;&#25511;&#21046;&#20301;&#21644;&#26631;&#24535;&#20301;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pteval_t prot_pte_s2;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pmdval_t prot_l1;&#160;&#160;&#19968;&#32423;&#39029;&#34920;&#39033;&#30340;&#25511;&#21046;&#20301;&#21644;&#26631;&#24535;&#20301;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pmdval_t prot_sect;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned int domain;
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1652618592818" ID="ID_526646120" MODIFIED="1652618624536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      const struct mem_type *type
+    </p>
+    <p>
+      pgd_t *pgd
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658661602602" ID="ID_1249971240" MODIFIED="1658661765536">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21464;&#37327;&#22768;&#26126;
+    </p>
+    <p>
+      unsigned long addr, length, end;
+    </p>
+    <p>
+      phys_addr_t phys;
+    </p>
+    <p>
+      const struct mem_type *type;
+    </p>
+    <p>
+      pgd_t *pgd;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658661942080" ID="ID_1807289387" MODIFIED="1658662003145">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      type = &amp;mem_types[md-&gt;type];
+    </p>
+    <p>
+      <font color="#f11616">&#26597;&#34920;&#30340;&#26041;&#24335;&#33719;&#21462;&#21040;&#20869;&#23384;&#30340;&#31867;&#22411;&#25968;&#25454;&#32467;&#26500;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658663033161" ID="ID_1226436985" MODIFIED="1658663082719">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0b34eb">addr = md-&gt;virtual &amp; PAGE_MASK; </font>
+    </p>
+    <p>
+      <font color="#0b34eb">phys = __pfn_to_phys(md-&gt;pfn); </font>
+    </p>
+    <p>
+      <font color="#0b34eb">length = PAGE_ALIGN(md-&gt;length + (md-&gt;virtual &amp; ~PAGE_MASK));</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658664164358" ID="ID_1991880203" MODIFIED="1658665464183">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#f60909">pgd = pgd_offset_k(addr);//&#23558;addr&#21491;&#31227;21&#20301;&#65292;&#20316;&#20026;&#32034;&#24341;&#65292;&#26681;&#25454;&#39029;&#34920;&#30340;&#22522;&#22320;&#22336;&#25214;&#21040;&#31532;&#19968;&#32423;&#39029;&#34920;&#39033;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658664186397" ID="ID_1936552095" MODIFIED="1658664193007">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      end = addr + length;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658664215555" ID="ID_1798235879" MODIFIED="1658664942068">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      do {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long next = pgd_addr_end(addr, end);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b><font color="#1f17de">alloc_init_pud(pgd, addr, next, phys, type);</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phys += next - addr;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;addr = next;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} while (<b>pgd++, addr != end</b>);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      pgd_addr_end&#20989;&#25968;&#20197;PGDIR_SIZE&#20026;&#27493;&#38271;(<b><font color="#e70c0c">PGDIR_SIZE&#26159; 1&lt;&lt;21</font></b>)
+    </p>
+    <p>
+      alloc_init_pud&#21021;&#22987;&#21270;PGD&#30340;&#39029;&#34920;&#39033;&#20869;&#23481;&#21644;&#19979;&#19968;&#32423;&#39029;&#34920;PUD&#30340;&#20869;&#23481;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1658664910611" ID="ID_1379180666" MODIFIED="1658666003561">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static void __init alloc_init_pud(pgd_t *pgd, unsigned long addr,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long end, phys_addr_t phys,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct mem_type *type)
+    </p>
+    <p>
+      {&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pud_t *pud = pud_offset(pgd, addr); <b>&#36825;&#37324;&#20173;&#28982;&#36820;&#22238;&#30340;&#26159;pgd</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long next;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;do {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;next = pud_addr_end(addr, end); pud&#36825;&#19968;&#23618;&#26159;&#19981;&#23384;&#22312;&#30340;&#65292;next&#21644;end&#26159;&#30456;&#31561;&#30340;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>alloc_init_pmd(pud, addr, next, phys, type);</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phys += next - addr;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} while (pud++, addr = next, addr != end);
+    </p>
+    <p>
+      }&#160;&#160;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1658666097893" ID="ID_1437910608" MODIFIED="1658666159804">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static void __init alloc_init_pmd(pud_t *pud, unsigned long addr,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long end, phys_addr_t phys,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct mem_type *type)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pmd_t *pmd = pmd_offset(pud, addr);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;unsigned long next;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;do {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* With LPAE, we must loop over to map
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* all the pmds for the given range.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;next = pmd_addr_end(addr, end); &#30001;&#20110;&#27809;&#26377;pmd&#36825;&#19968;&#23618;&#65292;end&#21644;next&#26159;&#30456;&#31561;&#30340;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/*
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* Try a section mapping - addr, next and phys must all be
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;* aligned to a section boundary.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (type-&gt;prot_sect &amp;&amp;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;((addr | next | phys) &amp; ~SECTION_MASK) == 0) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;__map_init_section(pmd, addr, next, phys, type);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <b><font color="#e71010">alloc_init_pte(pmd, addr, next, </font></b>
+    </p>
+    <p>
+      <b><font color="#e71010">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;__phys_to_pfn(phys), type);</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phys += next - addr;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} while (pmd++, addr = next, addr != end);
+    </p>
+    <p>
+      }&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1658666195525" ID="ID_973033902" MODIFIED="1658666325514">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static void __init alloc_init_pte(pmd_t *pmd, unsigned long addr,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long end, unsigned long pfn,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const struct mem_type *type)
+    </p>
+    <p>
+      {&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pte_t *pte = <font color="#0f2be6">early_pte_alloc</font>(pmd, addr, type-&gt;prot_l1);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;do {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#1852e5">set_pte_ext</font>(pte, pfn_pte(pfn, __pgprot(type-&gt;prot_pte)), 0);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pfn++;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} while (pte++, addr += PAGE_SIZE, addr != end);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1658666354159" ID="ID_359389714" MODIFIED="1659277903995">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static pte_t * __init early_pte_alloc(pmd_t *pmd, unsigned long addr, unsigned long prot)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (pmd_none(*pmd)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pte_t *pte = early_alloc(<b><font color="#ef1414">PTE_HWTABLE_OFF + PTE_HWTABLE_SIZE</font></b>);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#2054e7">&#19978;&#38754;&#36825;&#20004;&#20010;&#23439;&#23450;&#20041;&#37117;&#26159;512, &#21363;&#36825;&#37324;&#20998;&#37197;&#20102;2&#20010;512&#30340;PTE&#34920;&#39033;</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;__pmd_populate(pmd, __pa(pte), prot);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;BUG_ON(pmd_bad(*pmd));
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return pte_offset_kernel(pmd, addr);
+    </p>
+    <p>
+      }&#160;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1659855813408" ID="ID_409238906" MODIFIED="1659855845471">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      static inline void __pmd_populate(pmd_t *pmdp, phys_addr_t pte,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pmdval_t prot)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pmdval_t pmdval = (pte + PTE_HWTABLE_OFF) | prot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pmdp[0] = __pmd(pmdval);
+    </p>
+    <p>
+      #ifndef CONFIG_ARM_LPAE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pmdp[1] = __pmd(pmdval + 256 * sizeof(pte_t));
+    </p>
+    <p>
+      #endif
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;flush_pmd_entry(pmdp);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1583664009824" ID="ID_1057997317" MODIFIED="1596874069790">
@@ -45552,10 +46641,10 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1600061132753" FOLDED="true" ID="ID_1401851961" MODIFIED="1646371717739" TEXT="&#x53c2;&#x8003;&#x7f51;&#x7ad9;">
+<node CREATED="1600061132753" FOLDED="true" ID="ID_1401851961" MODIFIED="1664093916085" TEXT="&#x53c2;&#x8003;&#x7f51;&#x7ad9;">
 <node CREATED="1600061145204" ID="ID_1696865135" MODIFIED="1600061148144" TEXT="https://www.cnblogs.com/LoyenWang/"/>
 </node>
-<node CREATED="1646371720838" ID="ID_203260211" MODIFIED="1646371749157">
+<node CREATED="1646371720838" FOLDED="true" ID="ID_203260211" MODIFIED="1664093761206">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45566,7 +46655,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1646372100791" ID="ID_2670902" MODIFIED="1646372109186" TEXT="KASAN&#x5de5;&#x5177;">
+<node CREATED="1646372100791" FOLDED="true" ID="ID_2670902" MODIFIED="1664093759827" TEXT="KASAN&#x5de5;&#x5177;">
 <node CREATED="1646372155731" ID="ID_1313807912" MODIFIED="1646372825717">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45609,7 +46698,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1646373102732" ID="ID_91558578" MODIFIED="1646373123302">
+<node CREATED="1646373102732" FOLDED="true" ID="ID_91558578" MODIFIED="1664093758562">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45620,7 +46709,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1646373393740" ID="ID_52008170" MODIFIED="1646373401120" TEXT="shadow memory">
+<node CREATED="1646373393740" FOLDED="true" ID="ID_52008170" MODIFIED="1664093756384" TEXT="shadow memory">
 <node CREATED="1646374943090" ID="ID_1247882869" MODIFIED="1646375779722">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45673,7 +46762,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1646377917401" ID="ID_1347240307" MODIFIED="1646377940786">
+<node CREATED="1646377917401" FOLDED="true" ID="ID_1347240307" MODIFIED="1664093757520">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45704,7 +46793,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563198810215" FOLDED="true" ID="ID_123490465" MODIFIED="1645085089167" POSITION="right">
+<node CREATED="1563198810215" FOLDED="true" ID="ID_123490465" MODIFIED="1664093893373" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45794,7 +46883,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1641955834617" POSITION="right">
+<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1664093895179" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -45838,7 +46927,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1527837313409" FOLDED="true" ID="ID_1738693135" MODIFIED="1645085096191" POSITION="right">
+<node CREATED="1527837313409" FOLDED="true" ID="ID_1738693135" MODIFIED="1664093904017" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
