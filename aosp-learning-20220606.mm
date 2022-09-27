@@ -6176,8 +6176,128 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1655107764791" ID="ID_535083310" MODIFIED="1655107804685">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman">enum SvEvent : uint32_t { </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;STREAM_STARTED = 1, </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;STREAM_STOPPED, </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;/** </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* Event sent after service switches to an updated config, all frames </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* streamed after this event are of the updated config. </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;*/ </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;CONFIG_UPDATED, </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;/** Each frame dropped will be notified with this event. */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;FRAME_DROPPED, </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;/** </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* Timeout event occurs if any individual camera stream has a timeout. </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* Frames will not be delivered and clients must stop the stream. </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;*/ </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;TIMEOUT, </font>
+    </p>
+    <p>
+      <font face="Times New Roman">}; </font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1534820430514" FOLDED="true" ID="ID_673128991" MODIFIED="1654499407826">
+<node CREATED="1655108012190" ID="ID_90376354" MODIFIED="1655108032595">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman">struct Sv3dConfig { </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;/** Desired output width in pixels. Must be in range (0, 4096]. */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;uint32_t width; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;/** Desired output height in pixels. Must be in range (0, 4096]. */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;uint32_t height; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;/** </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* Car model rendering details level. </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* HIGH: Rendering includes shadows and reflections. Default option. </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;* LOW: Rendering with no shadows and reflections. </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;&#160;*/ </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#160;&#160;&#160;&#160;SvQuality carDetails; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">}; </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1534820430514" FOLDED="true" ID="ID_673128991" MODIFIED="1664263902352">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6907,8 +7027,23 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1656055041145" ID="ID_1333352285" MODIFIED="1656055069810">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://blog.csdn.net/tovey2008/article/details/106681126/
+    </p>
+    <p>
+      &#35813;&#21338;&#23458;&#20998;&#26512;&#32465;&#23450;&#24335;&#21644;&#30452;&#36890;&#24335;&#30340;HAL
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1534989251665" FOLDED="true" ID="ID_175406384" MODIFIED="1654065361390" TEXT="OverVIew">
+</node>
+<node CREATED="1534989251665" FOLDED="true" ID="ID_175406384" MODIFIED="1664263921369" TEXT="OverVIew">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1534989267282" ID="ID_1989230039" MODIFIED="1534990274999">
 <richcontent TYPE="NODE"><html>
@@ -6955,29 +7090,29 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1534990279560" ID="ID_1834170861" MODIFIED="1574056870885">
+<node CREATED="1534990279560" ID="ID_1834170861" MODIFIED="1655260112611">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#x521b;&#x5efa;&#x670d;&#x52a1;&#x7aef;
+      &#21019;&#24314;&#26381;&#21153;&#31471;
     </p>
     <p>
       
     </p>
     <p>
-      a. &#x4e3a;&#x4e86;&#x521b;&#x5efa;&#x670d;&#x52a1;&#x7aef;&#xff0c;&#x5fc5;&#x987b;&#x62e5;&#x6709;&#x4ee3;&#x8868;hal&#x5c42;&#x7684;.hal&#x6587;&#x4ef6;&#xff0c;&#x800c;&#x4e14;&#x8981;&#x5229;&#x7528;hidl-gen&#x6765;&#x751f;&#x6210;hal&#x5c42;&#x7684;makefile&#x6587;&#x4ef6;(&#x4f7f;&#x7528;-Lmakefile &#x6216;&#x8005; -Landroidbp&#x547d;&#x4ee4;
+      a. &#20026;&#20102;&#21019;&#24314;&#26381;&#21153;&#31471;&#65292;&#24517;&#39035;&#25317;&#26377;&#20195;&#34920;hal&#23618;&#30340;.hal&#25991;&#20214;&#65292;&#32780;&#19988;&#35201;&#21033;&#29992;hidl-gen&#26469;&#29983;&#25104;hal&#23618;&#30340;makefile&#25991;&#20214;(&#20351;&#29992;-Lmakefile &#25110;&#32773; -Landroidbp&#21629;&#20196;
     </p>
     <p>
-      ,./hardware/interfaces/update-makefiles.sh&#x91cc;&#x9762;&#x5c31;&#x6709;&#x4f7f;&#x7528;&#x7684;&#x8303;&#x4f8b;&#xff0c;&#x53ef;&#x4ee5;&#x53c2;&#x8003;&#x4e00;&#x4e0b;)
+      ,./hardware/interfaces/update-makefiles.sh&#37324;&#38754;&#23601;&#26377;&#20351;&#29992;&#30340;&#33539;&#20363;&#65292;&#21487;&#20197;&#21442;&#32771;&#19968;&#19979;)
     </p>
     <p>
-      &#x4f7f;&#x7528;c2hal&#x5de5;&#x5177;&#x53ef;&#x4ee5;&#x5c06;&#x4f20;&#x7edf;&#x7684;hal&#x5c42;&#x7684;&#x5934;&#x6587;&#x4ef6;&#x8f6c;&#x6362;&#x6210;.hal&#x7684;&#x6587;&#x4ef6;
+      &#20351;&#29992;c2hal&#24037;&#20855;&#21487;&#20197;&#23558;&#20256;&#32479;&#30340;hal&#23618;&#30340;&#22836;&#25991;&#20214;&#36716;&#25442;&#25104;.hal&#30340;&#25991;&#20214;
     </p>
     <p>
-      &#x4e0b;&#x9762;&#x662f;&#x4e00;&#x4e2a;&#x8f6c;&#x6362;makefile&#x6587;&#x4ef6;&#x7684;&#x4f7f;&#x7528;&#x8303;&#x4f8b;
+      &#19979;&#38754;&#26159;&#19968;&#20010;&#36716;&#25442;makefile&#25991;&#20214;&#30340;&#20351;&#29992;&#33539;&#20363;
     </p>
     <p>
       <i><font size="4">PACKAGE=android.hardware.nfc@1.0 </font></i>
@@ -6989,28 +7124,46 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <i><font size="4">m -j hidl-gen </font></i>
     </p>
     <p>
-      <i><font size="4">hidl-gen -o $LOC -Lc++-impl -randroid.hardware:hardware/interfaces \ </font></i>
+      
     </p>
     <p>
-      <i><font size="4">&#xa0;&#xa0;&#xa0;&#xa0;-randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+      &#39318;&#20808;&#29983;&#25104;&#39030;&#23618;&#30446;&#24405;&#19979;&#30340;Android.bp&#25991;&#20214;
     </p>
     <p>
-      <i><font size="4">hidl-gen -o $LOC -Landroidbp-impl -randroid.hardware:hardware/interfaces \ </font></i>
+      <span style="color: #ff0000"><font color="#ff0000" size="4">hardware/interfaces/update-makefiles.sh </font></span>
     </p>
     <p>
-      <i><font size="4">&#xa0;&#xa0;&#xa0;&#xa0;-randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+      <span style="color: #ff0000"><font color="#ff0000" size="4">hidl-gen -O &#8220;&#8221; -Landroidbp&#160;&#160;&#160;-r android.hardware:hardware/interfaces&#160;&#160;&#160;-r android.hidl:system/libhidl/transport&#160; &#160;android.hardware.hidl_test.submodule_1@1.0;</font></span>
+    </p>
+    <p>
+      &#28982;&#21518;&#29983;&#25104;default&#30446;&#24405;&#19979;&#30340;CPP&#23454;&#29616;&#25991;&#20214;&#65306;
+    </p>
+    <p>
+      <i><font color="#ff3333" size="4">hidl-gen -o $LOC -Lc++-impl -randroid.hardware:hardware/interfaces \ </font></i>
+    </p>
+    <p>
+      <i><font color="#ff3333" size="4">&#160;&#160;&#160;&#160;-randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+    </p>
+    <p>
+      &#26368;&#21518;&#29983;&#25104;default&#30446;&#24405;&#19979;&#30340;Android.bp&#25991;&#20214;&#65306;
+    </p>
+    <p>
+      <i><font color="#ff3333" size="4">hidl-gen -o $LOC -Landroidbp-impl -randroid.hardware:hardware/interfaces \ </font></i>
+    </p>
+    <p>
+      <i><font color="#ff3333" size="4">&#160;&#160;&#160;&#160;-randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
     </p>
     <p>
       
     </p>
     <p>
-      <i><font size="4">hidl-gen -o $LOC -Ljava&#xa0;-randroid.hardware:hardware/interfaces&#xa0; -randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
+      <i><font size="4">hidl-gen -o $LOC -Ljava&#160;-randroid.hardware:hardware/interfaces&#160; -randroid.hidl:system/libhidl/transport $PACKAGE </font></i>
     </p>
     <p>
       
     </p>
     <p>
-      <i><font size="4">b.&#x5c06;&#x670d;&#x52a1;&#x7aef;&#x6ce8;&#x518c; </font></i>
+      <i><font size="4">b.&#23558;&#26381;&#21153;&#31471;&#27880;&#20876; </font></i>
     </p>
     <p>
       <i><font size="4">#include &lt;hidl/LegacySupport.h&gt; </font></i>
@@ -7019,7 +7172,7 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
       <i><font size="4">int main(int /* argc */, char* /* argv */ []) { </font></i>
     </p>
     <p>
-      <i><font size="4">&#xa0;&#xa0;&#xa0;&#xa0;return defaultPassthroughServiceImplementation&lt;INfc&gt;("nfc"); </font></i>
+      <i><font size="4">&#160;&#160;&#160;&#160;return defaultPassthroughServiceImplementation&lt;INfc&gt;(&quot;nfc&quot;); </font></i>
     </p>
     <p>
       <i><font size="4">}</font></i>
@@ -7151,8 +7304,39 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1655341808588" FOLDED="true" ID="ID_741410213" MODIFIED="1664263927576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Overview
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      HIDL&#20027;&#35201;&#30340;&#30446;&#30340;&#26159;&#38754;&#21521;C++&#30340;&#65292;&#38754;&#21521;native&#23618;&#30340;&#65292;&#20294;&#26159;&#30001;&#20110;android&#23376;&#31995;&#32479;&#20013;&#26377;&#20123;
+    </p>
+    <p>
+      <b>&#23376;&#31995;&#32479;</b>&#20250;&#30452;&#25509;&#20351;&#29992;java&#20195;&#30721;&#26469;&#35843;&#29992;HIDL&#65292;&#25925;HIDL&#20063;&#25552;&#20379;&#20102;java frontend&#30340;&#27169;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655342015274" ID="ID_855611573" MODIFIED="1655342031352">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/HIDL-JAVA-OVERVIEW.PNG" />
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1562641412415" FOLDED="true" ID="ID_1168268494" MODIFIED="1654499379714">
+</node>
+</node>
+<node CREATED="1562641412415" FOLDED="true" ID="ID_1168268494" MODIFIED="1664263932593">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7761,8 +7945,68 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
     <p>
       myService = waitForDeclaredService&lt;IFoo&gt;(String16(&quot;service-name&quot;))
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#fc0a0a">NDK&#21518;&#31471;</font></b>
+    </p>
+    <pre class="clear-for-copy" is-upgraded=""><code dir="ltr"><span class="pln">&#160; &#160;<font size="4" face="Times New Roman"> </font></span><font size="4" face="Times New Roman"><span class="com">#include</span><span class="pln"> </span><span class="str">&lt;android/binder_manager.h&gt;</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; </span><span class="com">// registering</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; status_t err </span><span class="pun">=</span><span class="pln"> </span><span class="typ">AServiceManager_addService</span><span class="pun">(</span><span class="pln">myService</span><span class="pun">-&gt;</span><span class="pln">asBinder</span><span class="pun">().</span><span class="kwd">get</span><span class="pun">(),</span><span class="pln"> </span><span class="str">&quot;service-name&quot;</span><span class="pun">);</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; </span><span class="com">// getting</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; myService </span><span class="pun">=</span><span class="pln"> </span><span class="typ">IFoo</span><span class="pun">::</span><span class="pln">fromBinder</span><span class="pun">(</span><span class="typ">SpAIBinder</span><span class="pun">(</span><span class="typ">AServiceManager_getService</span><span class="pun">(</span><span class="str">&quot;service-name&quot;</span><span class="pun">)));</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; </span><span class="com">// is a service declared in the VINTF manifest</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; </span><span class="com">// VINTF services have the type in the interface instance name.</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; </span><span class="kwd">bool</span><span class="pln"> isDeclared </span><span class="pun">=</span><span class="pln"> </span><span class="typ">AServiceManager_isDeclared</span><span class="pun">(</span><span class="str">&quot;android.hardware.light.ILights/default&quot;</span><span class="pun">);</span><span class="pln"><br face="Times New Roman" size="4" />&#160; &#160; </span><span class="com">// wait until a service is available (if isDeclared or you know it's available)</span></font><span class="pln"><font size="4"><br size="4" />&#160;myService </font></span><font size="4"><span class="pun">=</span><span class="pln"> </span><span class="typ">IFoo</span><span class="pun">::</span><span class="pln">fromBinder</span><span class="pun">(</span><span class="typ">SpAIBinder</span><span class="pun">(</span><span class="typ">AServiceManager_waitForService</span><span class="pun">(</span><span class="str">&quot;service-name&quot;</span><span class="pun">)));</span></font><span class="pln"><br /></span></code></pre>
   </body>
 </html></richcontent>
+<node CREATED="1656055496060" FOLDED="true" ID="ID_57819113" MODIFIED="1664263863976">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HIDL Service&#30340;&#27880;&#20876;&#26041;&#24335;
+    </p>
+    <p>
+      
+    </p>
+    <pre class="highlight"><code><span class="n">defaultPassthroughServiceImplementation</span><span class="o">&lt;</span><span class="n">IBootControl</span><span class="o">&gt;</span><span class="p">()</span></code></pre>
+    <p>
+      defaultPassthroughServiceImplementation &#26159;&#19968;&#20010;&#27169;&#26495;&#20989;&#25968;&#65292;&#26368;&#32456;&#35843;&#29992;&#30340;&#26159; IBootControl::getService()
+    </p>
+    <p>
+      
+    </p>
+    <div class="language-cpp highlighter-rouge">
+      <div class="highlight">
+        <pre class="highlight"><code><font face="Times New Roman"><span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">sp</span><span class="o">&lt;</span><span class="n">IBootControl</span><span class="o">&gt;</span> <span class="n">IBootControl</span><span class="o">::</span><span class="n">getService</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">serviceName</span><span class="p">,</span> <span class="k">const</span> <span class="kt">bool</span> <span class="n">getStub</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">using</span> <span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">hardware</span><span class="o">::</span><span class="n">defaultServiceManager</span><span class="p">;</span>
+    <span class="k">using</span> <span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">hardware</span><span class="o">::</span><span class="n">details</span><span class="o">::</span><span class="n">waitForHwService</span><span class="p">;</span>
+    <span class="k">using</span> <span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">hardware</span><span class="o">::</span><span class="n">getPassthroughServiceManager</span><span class="p">;</span>
+    <span class="k">using</span> <span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">hardware</span><span class="o">::</span><span class="n">Return</span><span class="p">;</span>
+    <span class="k">using</span> <span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">sp</span><span class="p">;</span>
+    <span class="k">using</span> <span class="n">Transport</span> <span class="o">=</span> <span class="o">::</span><span class="n">android</span><span class="o">::</span><span class="n">hidl</span><span class="o">::</span><span class="n">manager</span><span class="o">::</span><span class="n">V1_0</span><span class="o">::</span><span class="n">IServiceManager</span><span class="o">::</span><span class="n">Transport</span><span class="p">;</span>
+
+    <span class="n">sp</span><span class="o">&lt;</span><span class="n">IBootControl</span><span class="o">&gt;</span> <span class="n">iface</span> <span class="o">=</span> <span class="nb">nullptr</span><span class="p">;</span>
+
+    <span class="k">const</span> <span class="n">sp</span><span class="o">&lt;::</span><span class="n">android</span><span class="o">::</span><span class="n">hidl</span><span class="o">::</span><span class="n">manager</span><span class="o">::</span><span class="n">V1_0</span><span class="o">::</span><span class="n">IServiceManager</span><span class="o">&gt;</span> <span class="n">sm</span> <span class="o">=</span> <span class="n">defaultServiceManager</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">sm</span> <span class="o">==</span> <span class="nb">nullptr</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">ALOGE</span><span class="p">(</span><span class="s">&quot;getService: defaultServiceManager() is null&quot;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nb">nullptr</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">Return</span><span class="o">&lt;</span><span class="n">Transport</span><span class="o">&gt;</span> <span class="n">transportRet</span> <span class="o">=</span> <span class="n">sm</span><span class="o">-&gt;</span><span class="n">getTransport</span><span class="p">(</span><span class="n">IBootControl</span><span class="o">::</span><span class="n">descriptor</span><span class="p">,</span> <span class="n">serviceName</span><span class="p">);</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">transportRet</span><span class="p">.</span><span class="n">isOk</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">ALOGE</span><span class="p">(</span><span class="s">&quot;getService: defaultServiceManager()-&gt;getTransport returns %s&quot;</span><span class="p">,</span> <span class="n">transportRet</span><span class="p">.</span><span class="n">description</span><span class="p">().</span><span class="n">c_str</span><span class="p">());</span>
+        <span class="k">return</span> <span class="nb">nullptr</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">Transport</span> <span class="n">transport</span> <span class="o">=</span> <span class="n">transportRet</span><span class="p">;</span>
+    <span class="k">const</span> <span class="kt">bool</span> <span class="n">vintfHwbinder</span> <span class="o">=</span> <span class="p">(</span><span class="n">transport</span> <span class="o">==</span> <span class="n">Transport</span><span class="o">::</span><span class="n">HWBINDER</span><span class="p">);</span>
+    <span class="k">const</span> <span class="kt">bool</span> <span class="n">vintfPassthru</span> <span class="o">=</span> <span class="p">(</span><span class="n">transport</span> <span class="o">==</span> <span class="n">Transport</span><span class="o">::</span><span class="n">PASSTHROUGH</span><span class="p">);</span></font>
+</code></pre>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+<node CREATED="1656055901924" ID="ID_1802706" MODIFIED="1656055904680" TEXT="http://hooltech.com/android-hidl.html"/>
+</node>
 </node>
 <node CREATED="1652946167920" ID="ID_26518265" MODIFIED="1652946468257">
 <richcontent TYPE="NODE"><html>
@@ -8588,6 +8832,164 @@ import&#xa0;android.hardware.nfc@1.0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1655544496682" FOLDED="true" ID="ID_1268304210" MODIFIED="1664263965777">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#3807f6"><i>aidl --lang=cpp&#160;&#160;-o ./default1&#160;&#160;--header_out=default1 </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#3807f6"><i>--include=android/hardware/handcontroller&#160; android/hardware/handcontroller/HardwareStatus.aidl </i></font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#3807f6"><i>&#160;android/hardware/handcontroller/KeyCapability.aidl&#160; android/hardware/handcontroller/KeyData.aidl android/hardware/handcontroller/SensorData.aidl android/hardware/handcontroller/CompositeControllerData.aidl android/hardware/handcontroller/IControllerDataCallback.aidl android/hardware/handcontroller/IControllerStatusCallback.aidl</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655545298406" ID="ID_368849672" MODIFIED="1655961379096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">m android.hardware.handcontroller-update-api</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1656328578371" ID="ID_1480759051" MODIFIED="1656328581245" TEXT="BOARD_VNDK_VERSION=current m android.hardware.handcontroller.vendor"/>
+</node>
+<node CREATED="1655975924692" FOLDED="true" ID="ID_1794892336" MODIFIED="1664263969393">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="5" color="#360ff4">&#38656;&#35201;&#20462;&#25913;&#30340;&#25991;&#20214;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655975987154" ID="ID_1334179895" MODIFIED="1656033895644">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      build/make/target/product/gsi/30.txt &#31561;&#25991;&#20214;&#65292;&#28155;&#21152;AIDL&#25110;&#32773;&#26159;HIDL&#23450;&#20041;&#30340;&#25509;&#21475;SO&#24211;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655976190873" ID="ID_804757843" MODIFIED="1655976195075" TEXT="device/qcom/sepolicy_vndr"/>
+<node CREATED="1655976300162" ID="ID_808088864" MODIFIED="1655980783946">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hardware/interfaces/compatibility_matrices/compatibility_matrix.5.xml
+    </p>
+    <p>
+      &#25551;&#36848;&#20102;system&#38656;&#35201;&#30340;&#33021;&#21147;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#5408ed">&lt;hal format=&quot;hidl&quot; optional=&quot;true&quot;&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;name&gt;android.hardware.gnss&lt;/name&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;version&gt;2.0-1&lt;/version&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;interface&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;name&gt;IGnss&lt;/name&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instance&gt;default&lt;/instance&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/interface&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&lt;/hal&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&lt;hal format=&quot;aidl&quot; optional=&quot;true&quot;&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;name&gt;android.hardware.gnss&lt;/name&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;interface&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;name&gt;IGnss&lt;/name&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instance&gt;default&lt;/instance&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/interface&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#5408ed">&#160;&#160;&#160;&#160;&lt;/hal&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655980934630" ID="ID_868653322" MODIFIED="1655981022317">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#7205f2">&#22312; system/sepolicy&#36335;&#24452;&#19979;&#28155;&#21152;te&#25991;&#20214;&#65292;&#23450;&#20041;service&#30340;bin&#25991;&#20214;&#30340;&#23646;&#24615; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#7205f2">type hal_handcontroller_default, domain; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#7205f2">type hal_handcontroller_default_exec, exec_type, vendor_file_type, file_type; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#7205f2">init_daemon_domain(hal_handcontroller_default)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1656051846582" ID="ID_1980900680" MODIFIED="1656051911431">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#f40b31">frameworks/base/services/core/java/com/android/server/lights/LightsService.java </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#f40b31">&#35813;&#25991;&#20214;&#28436;&#31034;&#20102;&#22312;&#31995;&#32479;java&#20195;&#30721;&#20013;&#30452;&#25509;&#33719;&#21462;&#21040;HAL&#23618;&#25509;&#21475;&#30340;&#31034;&#20363;</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -10439,9 +10841,96 @@ but it's much nicer to be explicit about it.</pre>
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1659594410700" ID="ID_265321194" MODIFIED="1659594446236">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#30475;Generic.kl,&#26597;&#25214;KEY_ENTER&#23545;&#24212;&#30340;&#20869;&#26680;&#38190;&#20540;
+    </p>
+    <p>
+      key 28&#160;&#160;&#160;&#160;ENTER
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1641885940164" FOLDED="true" ID="ID_295649403" MODIFIED="1654499309554">
+<node CREATED="1662432859311" ID="ID_678080129" MODIFIED="1662432905493">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">Android&#25163;&#21183;&#22788;&#29702;&#65306;core/java/android/view/GestureDetector.java</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1659763052405" ID="ID_1477860478" MODIFIED="1659763064997">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      kona:/ # logcat|grep EventHub
+    </p>
+    <p>
+      08-02 01:19:41.040&#160;&#160;1326&#160;&#160;2000 D EventHub: No input device configuration file found for device 'kona-qrd-snd-card Button Jack'.
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 W EventHub: Unable to disable kernel key repeat for /dev/input/event4: Function not implemented
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 I EventHub: usingClockIoctl=true
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 I EventHub: New device: id=1, fd=196, path='/dev/input/event4', name='kona-qrd-snd-card Button Jack', classes=KEYBOARD, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false,
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 D EventHub: No input device configuration file found for device 'kona-qrd-snd-card Headset Jack'.
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 I EventHub: usingClockIoctl=true
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 I EventHub: New device: id=2, fd=204, path='/dev/input/event3', name='kona-qrd-snd-card Headset Jack', classes=SWITCH, configuration='', keyLayout='', keyCharacterMap='', builtinKeyboard=false,
+    </p>
+    <p>
+      08-02 01:19:41.044&#160;&#160;1326&#160;&#160;2000 I EventHub: ignoring event id /dev/input/event1 driver qti-haptics
+    </p>
+    <p>
+      08-02 01:19:41.046&#160;&#160;1326&#160;&#160;2000 D EventHub: No input device configuration file found for device 'gpio-keys'.
+    </p>
+    <p>
+      08-02 01:19:41.047&#160;&#160;1326&#160;&#160;2000 W EventHub: Unable to disable kernel key repeat for /dev/input/event2: Function not implemented
+    </p>
+    <p>
+      08-02 01:19:41.047&#160;&#160;1326&#160;&#160;2000 I EventHub: usingClockIoctl=true
+    </p>
+    <p>
+      08-02 01:19:41.047&#160;&#160;1326&#160;&#160;2000 I EventHub: New device: id=3, fd=205, path='/dev/input/event2', name='gpio-keys', classes=KEYBOARD, configuration='', keyLayout='/system/usr/keylayout/gpio-keys.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false,
+    </p>
+    <p>
+      08-02 01:19:41.047&#160;&#160;1326&#160;&#160;2000 D EventHub: No input device configuration file found for device 'qpnp_pon'.
+    </p>
+    <p>
+      08-02 01:19:41.051&#160;&#160;1326&#160;&#160;2000 W EventHub: Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+    </p>
+    <p>
+      08-02 01:19:41.051&#160;&#160;1326&#160;&#160;2000 I EventHub: usingClockIoctl=true
+    </p>
+    <p>
+      08-02 01:19:41.051&#160;&#160;1326&#160;&#160;2000 I EventHub: New device: id=4, fd=206, path='/dev/input/event0', name='qpnp_pon', classes=KEYBOARD, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false,
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1641885940164" FOLDED="true" ID="ID_295649403" MODIFIED="1664263987906">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10744,6 +11233,409 @@ but it's much nicer to be explicit about it.</pre>
 </html></richcontent>
 </node>
 <node CREATED="1646618645329" ID="ID_576865902" MODIFIED="1646618648252" TEXT="VtsHalCameraProviderV2_4TargetTest  --hal_service_instance=android.hardware.camera.provider@2.4::ICameraProvider/legacy/0  --gtest_filter=CameraHidlTest.startStopPreview"/>
+</node>
+</node>
+<node CREATED="1655186995704" ID="ID_748896675" MODIFIED="1655380133257" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">22&#12289;&#38142;&#25509;&#22120;&#21629;&#21517;&#31354;&#38388;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655380140300" FOLDED="true" ID="ID_1353447510" MODIFIED="1664264007385" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font face="Times New Roman" size="4">23&#12289;Android Init&#36827;&#31243;&#20195;&#30721;&#20998;&#26512;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655428389288" ID="ID_1532292121" MODIFIED="1655428743924">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">init: Could not start service 'vendor.handcontrollermanager-default' as part of class 'hal': </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">File /vendor/bin/hw/android.hardware.handcontrollermanager-service(labeled &quot;u:object_r:vendor_file:s0&quot;) </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials. </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">Note: this error shows up even in permissive mode in order to make auditing denials possible.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655431645653" FOLDED="true" ID="ID_1472972192" MODIFIED="1664263992625">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>#####################################
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#199" class="l selected" name="199">199 </a># hal_server_domain(domain, hal_type)
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#200" class="hl selected" name="200">200 </a># Allow a base set of permissions required for a domain to offer a
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#201" class="l selected" name="201">201 </a># HAL implementation of the specified type over HwBinder.
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#202" class="l selected" name="202">202 </a>#
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#203" class="l selected" name="203">203 </a># For example, default implementation of Foo HAL:
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#204" class="l selected" name="204">204 </a>#   type hal_foo_default, domain;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#205" class="l selected" name="205">205 </a>#   hal_server_domain(hal_foo_default, hal_foo)
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#206" class="l selected" name="206">206 </a>#
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#207" class="l target selected" name="207">207 </a>define(`hal_server_domain', `
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#208" class="l selected" name="208">208 </a>typeattribute $1 halserverdomain;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#209" class="l selected" name="209">209 </a>typeattribute $1 $2_server;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#210" class="hl selected" name="210">210 </a>typeattribute $1 $2;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/26.0/public/te_macros#211" class="l selected" name="211">211 </a>')</pre>
+  </body>
+</html></richcontent>
+<node CREATED="1655431975102" ID="ID_1241001859" MODIFIED="1655432155112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      type hal_handcontroller_default, domain;
+    </p>
+    <p>
+      hal_server_domain(hal_handcontroller_default, hal_handcontroller)
+    </p>
+    <p>
+      -----&gt;
+    </p>
+    <p>
+      typeattribute hal_handcontroller_default&#160;&#160;&#160;halserverdomain
+    </p>
+    <p>
+      typeattribute hal_handcontroller_default&#160;&#160;&#160;hal_handcontroller_server
+    </p>
+    <p>
+      typeattribute hal_handcontroller_default&#160;&#160;&#160;hal_handcontroller
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655432249597" FOLDED="true" ID="ID_667500335" MODIFIED="1664263994537">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>#####################################
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/29.0/public/te_macros#159" class="l selected" name="159">159 </a># init_daemon_domain(domain)
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/29.0/public/te_macros#160" class="hl selected" name="160">160 </a># Set up a transition from init to the daemon domain
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/29.0/public/te_macros#161" class="l selected" name="161">161 </a># upon executing its binary.
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/29.0/public/te_macros#162" class="l target selected" name="162">162 </a>define(`init_daemon_domain', `
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/29.0/public/te_macros#163" class="l selected" name="163">163 </a>domain_auto_trans(init, $1_exec, $1)
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/prebuilts/api/29.0/public/te_macros#164" class="l selected" name="164">164 </a>')</pre>
+  </body>
+</html></richcontent>
+<node CREATED="1655432264654" ID="ID_1753619656" MODIFIED="1655434446234">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#3300ff">type hal_handcontroller_default_exec, exec_type, vendor_file_type, file_type; </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#3300ff">init_daemon_domain(hal_handcontroller_default) </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#3300ff">------&gt; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#3300ff">domain_auto_trans(init, hal_handcontroller_default_exec, hal_handcontroller_default) </font>
+    </p>
+    <p>
+      
+    </p>
+    <pre><a href="http://10.0.12.245:8888/s?path=/vendor/bin/hw/vendor&amp;project=sxr2130p-android11"><font face="Times New Roman" color="#3300ff" size="4">/vendor/bin/hw/vendor</font></a><font face="Times New Roman" color="#3300ff" size="4">\.qti\.hardware\.vibrator@1\.[0-3]-service   u:object_r:hal_vibrator_default_exec:s0</font></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655433196201" ID="ID_364168311" MODIFIED="1655433426775">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      system/sepolicy/vendor/hal_vibrator_default.te &#28155;&#21152;handcontroller&#23646;&#24615;
+    </p>
+    <p>
+      device/qcom/sepolicy_vndr/qva/vendor/common/file_contexts
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655435502590" FOLDED="true" ID="ID_1139355279" MODIFIED="1664264000873">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 id="label_new_services_and_address_denials" data-text="Label new services and address denials" role="presentation">
+      <span aria-level="3" role="heading" class="devsite-heading">Label new services and address denials</span>
+    </h3>
+    <p>
+      Init-launched services are required to run in their own SELinux domains. The following example puts service &#8220;foo&#8221; into its own SELinux domain and grants it permissions.
+    </p>
+    <p>
+      The service is launched in our device&#8217;s <code translate="no" dir="ltr">init.<var translate="no">device</var>.rc</code>&#160; file as:
+    </p>
+    <devsite-code data-copy-event-label="">
+    
+
+    <div aria-label="Action buttons" role="group" class="devsite-code-buttons-container">
+      
+    </div>
+    </devsite-code>
+    <devsite-code data-copy-event-label="">
+    
+
+    <pre translate="no" is-upgraded="" dir="ltr" class="">service foo /system/bin/foo
+    class core</pre>
+    </devsite-code>
+    
+
+    <ol>
+      <li>
+        Create a new domain &quot;foo&quot;<br />
+
+        <p>
+          Create the file <code translate="no" dir="ltr">device/<var translate="no">manufacturer</var>/<var translate="no">device-name</var>/sepolicy/foo.te</code>&#160; with the following contents:
+        </p>
+        <devsite-code data-copy-event-label="">
+        
+
+        <div aria-label="Action buttons" role="group" class="devsite-code-buttons-container">
+          
+        </div>
+        </devsite-code>
+        
+      </li>
+    </ol>
+    <ul>
+      <li>
+        <devsite-code data-copy-event-label="">
+        
+
+        <pre translate="no" is-upgraded="" dir="ltr" class=""># foo service
+type foo, domain;
+type foo_exec, exec_type, file_type;
+
+init_daemon_domain(foo)</pre>
+        </devsite-code>
+        
+
+        <p>
+          This is the initial template for the foo SELinux domain, to which you can add rules based on the specific operations performed by that executable.
+        </p>
+      </li>
+      <li>
+        Label <code translate="no" dir="ltr">/system/bin/foo</code><br />
+
+        <p>
+          Add the following to <code translate="no" dir="ltr">device/<var translate="no">manufacturer</var>/<var translate="no">device-name</var>/sepolicy/file_contexts</code>:
+        </p>
+        <devsite-code data-copy-event-label="">
+        
+
+        <div aria-label="Action buttons" role="group" class="devsite-code-buttons-container">
+          
+        </div>
+        </devsite-code>
+        
+      </li>
+      <li>
+        <devsite-code data-copy-event-label="">
+        
+
+        <pre translate="no" is-upgraded="" dir="ltr" class="">/system/bin/foo   u:object_r:foo_exec:s0</pre>
+        </devsite-code>
+        
+
+        <p>
+          This makes sure the executable is properly labeled so SELinux runs the service in the proper domain.
+        </p>
+      </li>
+      <li>
+        Build and flash the boot and system images.
+      </li>
+      <li>
+        Refine the SELinux rules for the domain.<br />
+
+        <p>
+          Use denials to determine the required permissions. The <a href="https://source.android.com/security/selinux/validate#using_audit2allow">audit2allow</a>&#160; tool provides good guidelines, but only use it to inform policy writing. Do not just copy the output.
+        </p>
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node CREATED="1660012657119" FOLDED="true" ID="ID_1388769029" MODIFIED="1664263997584">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>####################################
+<a name="159" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#159">159 </a># init_daemon_domain(domain)
+<a name="160" class="hl selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#160">160 </a># Set up a transition from init to the daemon domain
+<a name="161" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#161">161 </a># upon executing its binary.
+<a name="162" class="l target selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#162">162 </a>define(`init_daemon_domain', `
+<a name="163" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#163">163 </a>domain_auto_trans(init, $1_exec, $1)
+<a name="164" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#164">164 </a>')
+<a name="165" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#165">165 </a></pre>
+    <p>
+      domain_auto_trans(init, hal_handcontroller_hidl_default_exec, hal_handcontroller_hidl_default)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1660012968917" ID="ID_1419698533" MODIFIED="1660012986484">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>define(`domain_auto_trans', `
+<a name="29" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/public/te_macros#29">29 </a># Allow the necessary permissions.
+<a name="30" class="hl selected" href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/public/te_macros#30">30 </a>domain_trans($1,$2,$3)
+<a name="31" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/public/te_macros#31">31 </a># Make the transition occur by default.
+<a name="32" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/public/te_macros#32">32 </a>type_transition $1 $2:process $3;
+<a name="33" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android11/system/sepolicy/public/te_macros#33">33 </a>')</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1660013249780" ID="ID_1589856179" MODIFIED="1660013265420">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>###########################################
+<a name="620" class="hl selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#620">620 </a># add_hwservice(domain, service)
+<a name="621" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#621">621 </a># Ability for domain to add a service to hwservice_manager
+<a name="622" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#622">622 </a># and find it. It also creates a neverallow preventing
+<a name="623" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#623">623 </a># others from adding it.
+<a name="624" class="l target selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#624">624 </a>define(`add_hwservice', `
+<a name="625" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#625">625 </a>  allow $1 $2:hwservice_manager { add find };
+<a name="626" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#626">626 </a>  allow $1 hidl_base_hwservice:hwservice_manager add;
+<a name="627" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#627">627 </a>  neverallow { domain -$1 } $2:hwservice_manager add;
+<a name="628" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/prebuilts/api/29.0/public/te_macros#628">628 </a>'</pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1660014355078" ID="ID_1895964933" MODIFIED="1660014361159">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>define(`hal_server_domain', `
+<a name="256" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#256">256 </a>typeattribute $1 halserverdomain;
+<a name="257" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#257">257 </a>typeattribute $1 $2_server;
+<a name="258" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#258">258 </a>typeattribute $1 $2;
+<a name="259" class="l selected" href="http://10.0.12.245:8888/xref/sxr2130p-android12/system/sepolicy/public/te_macros#259">259 </a>')</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1655435606525" ID="ID_55077451" MODIFIED="1655435613559">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="android-app/Android-Init&#x8fdb;&#x7a0b;&#x6253;&#x5370;&#x66f4;&#x591a;&#x65e5;&#x5fd7;.PNG" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655443818853" FOLDED="true" ID="ID_633538672" MODIFIED="1664264003516">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">CANNOT LINK EXECUTABLE &quot;/vendor/bin/hw/android.hardware.handcontrollermanager-service&quot;: </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">library &quot;android.hardware.handcontroller-V1-ndk_platform.so&quot; not found: needed by main executable </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">Service 'vendor.handcontrollermanager-default' (pid 2566) exited with status 1 </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">Sending signal 9 to service 'vendor.handcontrollermanager-default' (pid 2566) process group... </font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655444027575" ID="ID_773458807" MODIFIED="1655444180032">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">I android.hardwar: type=1400 audit(0.0:638): avc: denied { call } for </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">scontext=u:r:hal_handcontroller_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=1 </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">I android.hardwar: type=1400 audit(0.0:639): avc: denied { transfer } for </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">scontext=u:r:hal_handcontroller_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=1 </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">SELinux : avc:&#160;&#160;denied&#160;&#160;{ add } for pid=4451 uid=1000 name=android.hardware.handcontroller.IHandControllerManager/default </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">scontext=u:r:hal_handcontroller_default:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=1 </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4" color="#0000ff">servicemanager: Found android.hardware.handcontroller.IHandControllerManager/default in device VINTF manifest.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1655779772496" ID="ID_271963102" MODIFIED="1655779781371">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      type=1400 audit(1655366200.653:567): avc: denied { read write } for comm=&quot;android.hardwar&quot; name=&quot;nrf52833_controller&quot; dev=&quot;tmpfs&quot; ino=31891 scontext=u:r:hal_handcontroller_default:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1589424488998" FOLDED="true" ID="ID_1863609399" MODIFIED="1654499901091" POSITION="right">
@@ -12766,6 +13658,157 @@ but it's much nicer to be explicit about it.</pre>
 <a name="42" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#42">42</a>    <b>sdk_version: &quot;24&quot;,</b>
 <a name="43" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#43">43</a>    <b>stl: &quot;libc++_static&quot;,</b>
 <a name="44" class="l" href="http://androidxref.com/8.1.0_r33/xref/external/vulkan-validation-layers/libs/vkjson/Android.bp#44">44</a>}</pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1656386799352" FOLDED="true" ID="ID_1489540143" MODIFIED="1664264035600" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>22 Vendor NDK</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1656386838979" FOLDED="true" ID="ID_704326457" MODIFIED="1664264033681">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3333ff" face="Times New Roman">VNDK Build System Support</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1656386892082" FOLDED="true" ID="ID_1450409888" MODIFIED="1664264028888" TEXT="Android.bp">
+<node CREATED="1656386906522" ID="ID_1381351100" MODIFIED="1656393031791">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033" face="Times New Roman">vendor_avaiable --------- &#23545;&#24212;core -----framework&#23618;&#30340;&#20381;&#36182; --- &#23433;&#35013;&#21040; /system/lib[64] </font>
+    </p>
+    <p>
+      <font size="4" color="#3333ff" face="Times New Roman">vndk.enable ----&#23545;&#24212;vendor ----vendor&#23618;&#30340;&#20381;&#36182; ---- &#23433;&#35013;&#21040; VNDK APEX com.android.vndk.v${VER} </font>
+    </p>
+    <p>
+      <font color="#3333ff">&#36825;&#23601;&#26159;VNDK-core</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1656395072358" ID="ID_213260231" MODIFIED="1656395078297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      current.txt:91:VNDK-core: android.hardware.vibrator-V2-ndk_platform.so
+    </p>
+    <p>
+      31.txt:91:VNDK-core: android.hardware.vibrator-V2-ndk_platform.so
+    </p>
+    <p>
+      30.txt:221:VNDK-core: android.hardware.vibrator-V1-ndk_platform.so
+    </p>
+    <p>
+      S.txt:91:VNDK-core: android.hardware.vibrator-V2-ndk_platform.so
+    </p>
+    <p>
+      32.txt:91:VNDK-core: android.hardware.vibrator-V2-ndk_platform.so
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1656399703761" FOLDED="true" ID="ID_1686402536" MODIFIED="1664264032873">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3333ff">&#29983;&#25104;VNDK &#24555;&#29031;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1656399730649" FOLDED="true" ID="ID_1844454234" MODIFIED="1664264032048" TEXT="&#x672c;&#x5730;&#x6784;&#x5efa;">
+<node CREATED="1656399742383" ID="ID_1665433566" MODIFIED="1656401865385">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lunch&#160;&#160;&#160;&#160;aosp_arm64-user
+    </p>
+    <p>
+      m&#160;&#160;&#160;&#160;-j&#160;&#160;&#160;&#160;vndk&#160;&#160;&#160;&#160;dist&#160;&#160;&#160;&#30456;&#24212;&#30340;&#25991;&#20214;&#20250;&#22312;$DIST_DIR&#30446;&#24405;&#19979;&#21019;&#24314;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1656404010846" FOLDED="true" ID="ID_455531034" MODIFIED="1664264031098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff">Android12 qssi + Android11 Vendor&#30340;&#26500;&#24314;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1656404209426" FOLDED="true" ID="ID_534456418" MODIFIED="1664264029921">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HIDL&#25509;&#21475;&#20013;&#30340;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;vndk: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;enabled: true,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#37197;&#32622;&#27880;&#37322;&#25481;&#65292;&#23558;HIDL&#23436;&#20840;&#20570;&#25104;&#21482;&#22312;vendor&#23618;&#36816;&#34892;&#30340;&#24211;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1656404285140" ID="ID_452652908" MODIFIED="1656404333213">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#35201;&#27979;&#35797;HIDL VNDK&#30340;&#24418;&#24335;&#22914;&#26524;&#26159;&#20570;&#25104;VNDK&#24555;&#29031;&#30340;&#24418;&#24335;&#65292;
+    </p>
+    <p>
+      &#26159;&#21542;&#21487;&#20197;&#22312;Android12&#19978;&#38754;&#32534;&#35793;&#36890;&#36807;
+    </p>
   </body>
 </html></richcontent>
 </node>

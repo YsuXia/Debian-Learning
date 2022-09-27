@@ -8819,6 +8819,54 @@
 </node>
 </node>
 </node>
+<node CREATED="1655886615970" FOLDED="true" ID="ID_300214007" MODIFIED="1657785828635" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">&#31532;&#21313;&#20116;&#31456;&#65306;&#20869;&#23384;&#26144;&#23556;&#21644;DMA</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655886704090" ID="ID_1050194716" MODIFIED="1655886711677" TEXT="&#x6ce8;&#x610f;&#x4e8b;&#x9879;">
+<node CREATED="1655886715255" ID="ID_926794327" MODIFIED="1655886788893">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0033">kmalloc&#21644;__get_free_pages&#20989;&#25968;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#39537;&#21160;mmap&#20989;&#25968;&#30340;&#23454;&#29616;&#36807;&#31243;&#20013;&#65292;&#21457;&#29616;&#20351;&#29992;kmalloc&#24182;&#19981;&#33021;&#23558;&#20998;&#37197;&#30340;&#20869;&#23384;&#27491;&#30830;
+    </p>
+    <p>
+      MAP&#21040;&#29992;&#25143;&#31354;&#38388;&#65292;&#32780;&#20351;&#29992;__get_free_pages&#21017;&#21487;&#20197;&#65292;&#36825;&#37324;&#21487;&#33021;&#29301;&#25199;&#21040;&#39029;&#20998;&#37197;
+    </p>
+    <p>
+      &#23545;&#40784;&#30340;&#30456;&#20851;&#38382;&#39064;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1655886842871" ID="ID_546601896" MODIFIED="1655886871019">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/mmap-kmalloc.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1468229217652" FOLDED="true" ID="ID_572194135" MODIFIED="1645435969426" POSITION="left" TEXT="Kbuild&#x7cfb;&#x7edf;&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1468229234101" FOLDED="true" ID="ID_999465662" MODIFIED="1645435967778">
@@ -31117,6 +31165,90 @@
   </body>
 </html></richcontent>
 <node CREATED="1648777215022" ID="ID_853977632" MODIFIED="1648777220228" TEXT="batt_psy"/>
+<node CREATED="1654757451899" ID="ID_686521964" MODIFIED="1654757536604">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">static const struct power_supply_desc batt_psy_desc = { </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.name = &quot;battery&quot;, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.type = POWER_SUPPLY_TYPE_BATTERY, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.properties = smb2_batt_props, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.num_properties = ARRAY_SIZE(smb2_batt_props), </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.get_property = smb2_batt_get_prop, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.set_property = smb2_batt_set_prop, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">.property_is_writeable = smb2_batt_prop_is_writeable, </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">};</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1654757689872" ID="ID_216486896" MODIFIED="1654757814678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">chip-&gt;fg_psy = devm_power_supply_register(chip-&gt;dev, &amp;fg_psy_desc, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&amp;fg_psy_cfg) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">static const struct power_supply_desc fg_psy_desc = { </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.name = &quot;bms&quot;, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.type = POWER_SUPPLY_TYPE_BMS, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.properties = fg_psy_props, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.num_properties = ARRAY_SIZE(fg_psy_props), </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.get_property = fg_psy_get_property, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.set_property = fg_psy_set_property, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.external_power_changed = fg_external_power_changed, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">.property_is_writeable = fg_property_is_writeable, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">};</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1647399573754" ID="ID_794879318" MODIFIED="1647399784440">
@@ -31901,6 +32033,503 @@
     </p>
     <p>
       batt_soc_base 4100&#24179;&#21488;&#23545;&#24212;&#30340;&#26159;&#22320;&#22336;0x4000, &#37027;&#20040;&#35835;&#21462;&#30340;&#22320;&#22336;&#26159;0x4009
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1654739882784" FOLDED="true" ID="ID_1135938021" MODIFIED="1664263466432">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pmic fuel gauge&#20013;&#26029;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1654739929325" ID="ID_1119865285" MODIFIED="1654739934645">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      void power_supply_changed_work(struct work_struct *work)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1654740096826" ID="ID_329372773" MODIFIED="1654740316371">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      struct fg_irq_info fg_irqs[FG_IRQ_MAX]
+    </p>
+    <p>
+      &#35813;&#25968;&#25454;&#32467;&#26500;&#23450;&#20041;&#20102;&#22810;&#20010;&#20013;&#26029;&#65292;&#31995;&#32479;&#20250;&#26681;&#25454;PMI FG&#30340;&#23492;&#23384;&#22120;&#26631;&#24535;&#20301;&#26469;&#35302;&#21457;&#36825;&#20123;&#20013;&#26029;&#65292;
+    </p>
+    <p>
+      &#26681;&#25454;DTS&#37324;&#38754;&#30340;&#37197;&#32622;&#20915;&#23450;&#27880;&#20876;&#21738;&#20123;&#20013;&#26029;&#65292;&#27604;&#22914;&#23545;&#20110;SOC empty&#23450;&#20041;&#20102;&#20013;&#26029;
+    </p>
+    <p>
+      [MSOC_EMPTY_IRQ] = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.name&#160;&#160;&#160;&#160;&#160;&#160;&#160;= &quot;msoc-empty&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.handler&#160;&#160;&#160;&#160;= fg_empty_soc_irq_handler,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.wakeable&#160;&#160;&#160;= true,
+    </p>
+    <p>
+      },
+    </p>
+    <p>
+      &#25105;&#20204;&#30475;&#21040;&#22312;&#20013;&#26029;&#22788;&#29702;&#20989;&#25968;fg_empty_soc_irq_handler&#37324;&#38754;&#20250;&#35843;&#29992;
+    </p>
+    <p>
+      power_supply_changed(chip-&gt;batt_psy) &#35813;&#20989;&#25968;&#26368;&#32456;&#20250;&#35843;&#29992;&#21040;power_supply_changed_work&#20989;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1654756476218" ID="ID_551354120" MODIFIED="1654756558147">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 403 -------------- irq name: soc-update </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 404 -------------- irq name: soc-ready </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 405 -------------- irq name: bsoc-delta </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 406 -------------- irq name: msoc-delta </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 407 -------------- irq name: msoc-low </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 408 -------------- irq name: msoc-empty </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 409 -------------- irq name: msoc-high </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 410 -------------- irq name: msoc-full </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 411 -------------- irq name: vbatt-pred-delta </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 412 -------------- irq name: vbatt-low </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 413 -------------- irq name: esr-delta </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 414 -------------- irq name: batt-missing </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 415 -------------- irq name: batt-temp-delta </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 416 -------------- irq name: ima-rdy </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 417 -------------- irq name: mem-xcp </font>
+    </p>
+    <p>
+      <font face="Times New Roman">qcom,fg-gen3 200f000.qcom,spmi:qcom,pm660@0:qpnp,fg: irq: 418 -------------- irq name: dma-grant </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1654760554336" ID="ID_254533125" MODIFIED="1654760582552">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0099" size="4" face="Times New Roman">battery profile load</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1654760627550" FOLDED="true" ID="ID_246906751" MODIFIED="1664263464177" TEXT="void profile_load_work(struct work_struct *work)">
+<node CREATED="1654760682437" ID="ID_280575369" MODIFIED="1654760714319">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">fg_sram_write(chip, PROFILE_LOAD_WORD, PROFILE_LOAD_OFFSET, </font>
+    </p>
+    <p>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;chip-&gt;batt_profile, PROFILE_LEN, FG_IMA_ATOMIC)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1654765189351" FOLDED="true" ID="ID_779416887" MODIFIED="1664263462331">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FG Empty Voltage&#35745;&#31639;&#20844;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1654765210695" ID="ID_832149082" MODIFIED="1654767536088">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #define PARAM(_id, _addr_word, _addr_byte, _len, _num, _den, _offset,&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;_enc, _dec)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      [FG_SRAM_##_id] = {&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      .addr_word&#160;&#160;= _addr_word,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.addr_byte&#160;&#160;= _addr_byte,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.len&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= _len,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.numrtr&#160;&#160;&#160;&#160;&#160;= _num,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.denmtr&#160;&#160;&#160;&#160;&#160;= _den,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.offset&#160;&#160;&#160;&#160;&#160;= _offset,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.encode&#160;&#160;&#160;&#160;&#160;= _enc,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.decode&#160;&#160;&#160;&#160;&#160;= _dec,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">PARAM(EMPTY_VOLT, EMPTY_VOLT_v2_WORD, EMPTY_VOLT_v2_OFFSET, 1, 1000, </font>
+    </p>
+    <p>
+      <font color="#0000ff" size="4" face="Times New Roman">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;15625, -2000, fg_encode_voltage, NULL),</font>
+    </p>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">len&#26159;1 </font>
+    </p>
+    <p>
+      <font color="#ff0000">numrtr&#26159;1000</font>
+    </p>
+    <p>
+      <font color="#ff0000">denmtr&#26159;15625</font>
+    </p>
+    <p>
+      <font color="#ff0000">offset&#26159;-2000</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      static void fg_encode_voltage(struct fg_sram_param *sp,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;enum fg_sram_param_id&#160;&#160;id, int val_mv, u8 *buf)
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int i, mask = 0xff;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;int64_t temp;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;val_mv += sp[id].offset;&#160;&#160;&#160;3200 - 2000 = 1200
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;temp = (int64_t)div_u64((u64)val_mv * sp[id].numrtr, sp[id].denmtr); &#160;&#38500;&#27861;&#25805;&#20316; 1200 * 1000 / 15625 = 76.8&#160;&#160;0x4C=76
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pr_debug(&quot;temp: %llx id: %d, val_mv: %d, buf: [ &quot;, temp, id, val_mv);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for (i = 0; i &lt; sp[id].len; i++) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;buf[i] = temp &amp; mask;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;temp &gt;&gt;= 8;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pr_debug(&quot;%x &quot;, buf[i]);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pr_debug(&quot;]\n&quot;);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1654855342613" ID="ID_105822982" MODIFIED="1654855360043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [ 1011.917275] FG: fg_empty_soc_irq_handler: irq 408 triggered fg_empty_soc_irq_handler
+    </p>
+    <p>
+      [ 1011.918013] FG: is_batt_empty: FG: is_batt_empty read addr=0x4010 0x32[ 1011.924531] FG: is_batt_empty: batt_soc_rt_sts: 32 vbatt: 3184073 uV msoc:1
+    </p>
+    <p>
+      [ 1011.931441] FG: is_batt_empty: ************dt.cutoff_volt_mv=3200[ 1011.937442] FG: fg_get_prop_capacity: fg_get_prop_capacity is_batt_empty!
+    </p>
+    <p>
+      [ 1011.950017] FG: fg_cycle_counter_update: batt_soc: 1 bucket: 0 chg_status: 2
+    </p>
+    <p>
+      [ 1011.951632] FG: is_batt_empty: FG: is_batt_empty read addr=0x4010 0x32[ 1011.957304] FG: is_batt_empty: batt_soc_rt_sts: 32 vbatt: 3184073 uV msoc:1
+    </p>
+    <p>
+      [ 1011.960841] FG: fg_charge_full_update: msoc: 0 bsoc: 147 health: 1 status: 2 full: 0
+    </p>
+    <p>
+      [ 1011.961852] FG: fg_adjust_recharge_soc: resume soc set to 80
+    </p>
+    <p>
+      [ 1011.961966] FG: status_change_work: charge_status:2 charge_type:1 charge_done:0
+    </p>
+    <p>
+      [ 1011.984079] FG: is_batt_empty: ************dt.cutoff_volt_mv=3200[ 1011.991076] FG: fg_get_prop_capacity: fg_get_prop_capacity is_batt_empty!
+    </p>
+    <p>
+      [ 1012.108540] init: processing action (sys.shutdown.requested=*) from (/vendor/etc/init/hw/init.target.rc:306)
+    </p>
+    <p>
+      [ 1012.108650] init: Sending signal 9 to service 'per_proxy' (pid 591) process group...
+    </p>
+    <p>
+      [ 1012.125684] init: Successfully killed process cgroup uid 1000 pid 591 in 6ms
+    </p>
+    <p>
+      [ 1012.127430] init: Service 'per_proxy' (pid 591) killed by signal 9
+    </p>
+    <p>
+      [ 1012.600206] type=1400 audit(8615.349:48): avc: denied { kill } for pid=5 comm=&quot;kworker/u8:0&quot; capability=5 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+    </p>
+    <p>
+      [ 1012.600286] type=1400 audit(9502.049:49): avc: denied { create } for pid=8159 comm=&quot;main&quot; name=&quot;cgroup.procs&quot; scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=0
+    </p>
+    <p>
+      [ 1013.053658] bluetooth@1.0-s (1274) used greatest stack depth: 3840 bytes left
+    </p>
+    <p>
+      [ 1013.200365] ipa_get_ipc_logbuf_low:3233 IPA HW is not supported
+    </p>
+    <p>
+      [ 1013.378487] <font color="#ff0033"><b>FG: fg_vbatt_low_irq_handler: irq 412 triggered</b></font>
+    </p>
+    <p>
+      [ 1013.410475] pil-q6v5-mss 4080000.qcom,mss: Port 00000000 halt timeout
+    </p>
+    <p>
+      [ 1013.510618] pil-q6v5-mss 4080000.qcom,mss: Port 00000000 halt timeout
+    </p>
+    <p>
+      [ 1013.514263] smd_channel_probe_now: allocation table not initialized
+    </p>
+    <p>
+      [ 1013.516497] ipa_get_ipc_logbuf_low:3233 IPA HW is not supported
+    </p>
+    <p>
+      [ 1013.681424] type=1400 audit(9502.049:49): avc: denied { create } for pid=8159 comm=&quot;main&quot; name=&quot;cgroup.procs&quot; scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=0
+    </p>
+    <p>
+      [ 1013.681522] type=1400 audit(9503.139:50): avc: denied { create } for pid=8197 comm=&quot;main&quot; name=&quot;cgroup.procs&quot; scontext=u:r:zygote:s0 tcontext=u:object_r:cgroup:s0 tclass=file permissive=0
+    </p>
+    <p>
+      [ 1014.054563] init: Clear action queue and start shutdown trigger
+    </p>
+    <p>
+      [ 1014.054964] init: processing action (shutdown_done) from (&lt;Builtin Action&gt;:0)
+    </p>
+    <p>
+      [ 1014.059353] init: Reboot start, reason: shutdown,, rebootTarget:
+    </p>
+    <p>
+      [ 1014.078986] init: Shutdown timeout: 0 ms
+    </p>
+    <p>
+      [ 1014.100688] irq_migrate_all_off_this_cpu: 171 callbacks suppressed
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1654845697718" ID="ID_1735737187" MODIFIED="1654845719369">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">[&#160;&#160;&#160;&#160;8.901061] FG: fg_empty_soc_irq_handler: irq 408 triggered fg_empty_soc_irq_handler </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">[&#160;&#160;&#160;&#160;8.901614] FG: status_change_work: Profile load is not complete yet </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">[&#160;&#160;&#160;&#160;8.901617] FG: status_change_work: charge_status:-22 charge_type:0 charge_done:0 </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">[&#160;&#160;&#160;&#160;8.909025] FG: fg_notify_charger: Notified charger on float voltage and FCC </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658909735642" ID="ID_1589003159" MODIFIED="1658909967001">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff3333">&#35774;&#22791;&#26641;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#39030;&#23618;&#30340;&#35774;&#22791;&#26641;&#26159; compatible = &quot;qcom,fg-gen3&quot;
+    </p>
+    <p>
+      &#19979;&#38754;&#19968;&#33324;&#26377;&#19977;&#20010;&#23376;&#33410;&#28857;&#65292;&#23376;&#33410;&#28857;&#30340;reg&#23646;&#24615;&#35760;&#24405;&#20102;&#23545;&#24212;&#30340;PMIC&#20013;&#30340;&#23492;&#23384;&#22120;&#22320;&#22336;&#22522;&#22320;&#22336;
+    </p>
+    <p>
+      qcom,fg-batt-soc
+    </p>
+    <p>
+      qcom,fg-batt-info
+    </p>
+    <p>
+      qcom,fg-memif
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1658910052570" ID="ID_527544329" MODIFIED="1658910599906">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20195;&#30721;&#20013;
+    </p>
+    <p>
+      rc = of_property_read_u32(node, &quot;qcom,fg-rsense-sel&quot;, &amp;temp);
+    </p>
+    <p>
+      if (rc &lt; 0)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;chip-&gt;dt.rsense_sel = SRC_SEL_BATFET_SMB; <b><font color="#ff0000">&#40664;&#35748;&#30340;&#26041;&#24335;&#26159;&#24403;parallel charger&#23384;&#22312;&#30340;&#26102;&#20505;&#25165;&#33021;&#37319;&#29992;&#30340;</font></b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;chip-&gt;dt.rsense_sel = (u8)temp &amp; SOURCE_SELECT_MASK;
+    </p>
+    <p>
+      &#26159;&#29992;&#20110;&#35774;&#32622;PMIC&#26816;&#27979;&#30005;&#27744;&#30005;&#27969;&#30340;&#26041;&#24335;&#65292;&#36890;&#36807;&#26597;&#25214;datasheet&#23492;&#23384;&#22120;&#21487;&#30693;&#65292;&#23492;&#23384;&#22120;0x04173&#30340;bit1:0
+    </p>
+    <p>
+      &#20250;&#35774;&#32622;&#30005;&#27969;&#26816;&#27979;&#30340;&#26041;&#24335;
+    </p>
+    <p>
+      <font color="#0000ff">Select the source that BCL and FG algorithm are going to use for </font>
+    </p>
+    <p>
+      <font color="#0000ff">battery current sensing </font>
+    </p>
+    <p>
+      <font color="#0000ff">0x0: BATFET </font>
+    </p>
+    <p>
+      <font color="#0000ff">0x1: SENSERESISTOR </font>
+    </p>
+    <p>
+      <font color="#0000ff">0x2: BATFET_W_SMB </font>
+    </p>
+    <p>
+      <font color="#0000ff">0x3: RESERVED </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#40664;&#35748;&#30340;BATFET&#30340;&#26041;&#24335;&#22914;&#19979;
+    </p>
+    <p>
+      2.1.1 Fuel gauge current sensing
+    </p>
+    <p>
+      The fuel gauge measures current via the internal battery FET (BATFET). Current is read as
+    </p>
+    <p>
+      positive when discharging and as negative when charging. The battery current is read every
+    </p>
+    <p>
+      1.47 s, with a resolution of approximately 150 &#181;A. The battery current and voltage are read
+    </p>
+    <p>
+      synchronously. During this 1.47 s cycle, it takes 160 ms for the ADC to complete a conversion.
     </p>
   </body>
 </html></richcontent>
@@ -33899,6 +34528,16 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1655695968097" ID="ID_1270843743" MODIFIED="1655695991625">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="lddpic/&#x7535;&#x6c60;&#x5145;&#x653e;&#x7535;&#x500d;&#x7387;C.PNG" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1456929335533" FOLDED="true" ID="ID_1088410273" MODIFIED="1648516222890" POSITION="right">
@@ -44746,7 +45385,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1664093953437" POSITION="right">
+<node CREATED="1525417026735" FOLDED="true" ID="ID_1643189755" MODIFIED="1664264664673" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -46644,7 +47283,7 @@
 <node CREATED="1600061132753" FOLDED="true" ID="ID_1401851961" MODIFIED="1664093916085" TEXT="&#x53c2;&#x8003;&#x7f51;&#x7ad9;">
 <node CREATED="1600061145204" ID="ID_1696865135" MODIFIED="1600061148144" TEXT="https://www.cnblogs.com/LoyenWang/"/>
 </node>
-<node CREATED="1646371720838" FOLDED="true" ID="ID_203260211" MODIFIED="1664093761206">
+<node CREATED="1646371720838" FOLDED="true" ID="ID_203260211" MODIFIED="1664264662625">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -46655,7 +47294,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1646372100791" FOLDED="true" ID="ID_2670902" MODIFIED="1664093759827" TEXT="KASAN&#x5de5;&#x5177;">
+<node CREATED="1646372100791" FOLDED="true" ID="ID_2670902" MODIFIED="1664264661201" TEXT="KASAN&#x5de5;&#x5177;">
 <node CREATED="1646372155731" ID="ID_1313807912" MODIFIED="1646372825717">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -46698,7 +47337,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1646373102732" FOLDED="true" ID="ID_91558578" MODIFIED="1664093758562">
+<node CREATED="1646373102732" FOLDED="true" ID="ID_91558578" MODIFIED="1664264659777">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -46792,8 +47431,47 @@
 </node>
 </node>
 </node>
+<node CREATED="1654585832885" FOLDED="true" ID="ID_1852154526" MODIFIED="1664263586776">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff"><b>&#20849;&#20139;&#20869;&#23384;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1654585857172" ID="ID_303570716" MODIFIED="1654585979154">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://cloud.tencent.com/developer/article/1551288
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23435;&#23453;&#21326;&#20171;&#32461;&#30340;&#20960;&#31181;&#24212;&#29992;&#23618;&#30340;&#20849;&#20139;&#20869;&#23384;&#30340;&#25509;&#21475;
+    </p>
+    <p>
+      mmap
+    </p>
+    <p>
+      memfd_create&#160;&#160;&#36890;&#36807;SOCKET&#36890;&#20449;&#30340;SCM_RIGHTS&#25805;&#20316;&#25226;fd&#20849;&#20139;&#21040;&#20854;&#20182;&#36827;&#31243;
+    </p>
+    <p>
+      dma_buf&#160;&#160;-------- V4L2 Wayland&#22823;&#37327;&#20351;&#29992;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1563198810215" FOLDED="true" ID="ID_123490465" MODIFIED="1664093893373" POSITION="right">
+</node>
+</node>
+<node CREATED="1563198810215" FOLDED="true" ID="ID_123490465" MODIFIED="1645085089167" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -46883,7 +47561,62 @@
 </node>
 </node>
 </node>
-<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1664093895179" POSITION="right">
+<node CREATED="1657785846315" FOLDED="true" ID="ID_1624986422" MODIFIED="1664263453104" POSITION="right" TEXT="Linux/Android&#x8fdb;&#x7a0b;&#x8c03;&#x5ea6;">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1657785867908" FOLDED="true" ID="ID_572678553" MODIFIED="1664263451857" TEXT="Android">
+<node CREATED="1657785875620" ID="ID_455993423" MODIFIED="1657785951287">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hardware/interfaces/graphics/composer/2.2/default/service.cpp
+    </p>
+    <p>
+      
+    </p>
+    <pre>     #<b>include</b> &lt;<a href="http://10.0.12.245:8888/s?path=sched.h&amp;project=sxr2130p-android11">sched.h</a>&gt;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#18" class="l selected" name="18">18 </a><span class="fold-space">&#160;</span>
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#19" class="l selected" name="19">19 </a><span class="fold-space">&#160;</span>#<b>include</b> &lt;<a href="http://10.0.12.245:8888/s?path=android/&amp;project=sxr2130p-android11">android</a>/<a href="http://10.0.12.245:8888/s?path=android/hardware/&amp;project=sxr2130p-android11">hardware</a>/<a href="http://10.0.12.245:8888/s?path=android/hardware/graphics/&amp;project=sxr2130p-android11">graphics</a>/<a href="http://10.0.12.245:8888/s?path=android/hardware/graphics/composer/&amp;project=sxr2130p-android11">composer</a>/<a href="http://10.0.12.245:8888/s?path=android/hardware/graphics/composer/2.2/&amp;project=sxr2130p-android11">2.2</a>/<a href="http://10.0.12.245:8888/s?path=android/hardware/graphics/composer/2.2/IComposer.h&amp;project=sxr2130p-android11">IComposer.h</a>&gt;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#20" class="hl selected" name="20">20 </a><span class="fold-space">&#160;</span>#<b>include</b> &lt;<a href="http://10.0.12.245:8888/s?path=binder/&amp;project=sxr2130p-android11">binder</a>/<a href="http://10.0.12.245:8888/s?path=binder/ProcessState.h&amp;project=sxr2130p-android11">ProcessState.h</a>&gt;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#21" class="l selected" name="21">21 </a><span class="fold-space">&#160;</span>#<b>include</b> &lt;<a href="http://10.0.12.245:8888/s?path=composer-passthrough/&amp;project=sxr2130p-android11">composer-passthrough</a>/<a href="http://10.0.12.245:8888/s?path=composer-passthrough/2.2/&amp;project=sxr2130p-android11">2.2</a>/<a href="http://10.0.12.245:8888/s?path=composer-passthrough/2.2/HwcLoader.h&amp;project=sxr2130p-android11">HwcLoader.h</a>&gt;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#22" class="l selected" name="22">22 </a><span class="fold-space">&#160;</span>#<b>include</b> &lt;<a href="http://10.0.12.245:8888/s?path=hidl/&amp;project=sxr2130p-android11">hidl</a>/<a href="http://10.0.12.245:8888/s?path=hidl/HidlTransportSupport.h&amp;project=sxr2130p-android11">HidlTransportSupport.h</a>&gt;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#23" class="l selected" name="23">23 </a><span class="fold-space">&#160;</span>
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#24" class="l selected" name="24">24 </a><span class="fold-space">&#160;</span><b>using</b> <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=hardware&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">hardware</a>::<a href="http://10.0.12.245:8888/s?defs=graphics&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">graphics</a>::<a class="d intelliWindow-symbol" data-definition-place="defined-in-file" href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#composer">composer</a>::<a href="http://10.0.12.245:8888/s?defs=V2_2&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">V2_2</a>::<a href="http://10.0.12.245:8888/s?defs=IComposer&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">IComposer</a>;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#25" class="l selected" name="25">25 </a><span class="fold-space">&#160;</span><b>using</b> <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=hardware&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">hardware</a>::<a href="http://10.0.12.245:8888/s?defs=graphics&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">graphics</a>::<a class="d intelliWindow-symbol" data-definition-place="defined-in-file" href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#composer">composer</a>::<a href="http://10.0.12.245:8888/s?defs=V2_2&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">V2_2</a>::<a href="http://10.0.12.245:8888/s?defs=passthrough&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">passthrough</a>::<a href="http://10.0.12.245:8888/s?defs=HwcLoader&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">HwcLoader</a>;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#26" class="l selected" name="26">26 </a><span class="fold-space">&#160;</span>
+<span class="scope-head" id="scope_id_66f9feff"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#27" class="l selected" name="27">27 </a></span><span class="fold-icon"><a onclick="fold(this.parentNode.id)" id="scope_id_66f9feff_fold_icon">&#160;</a></span><span class="scope-head" id="scope_id_66f9feff"><b>int</b> <a class="xf" name="main">
+</a><a href="http://10.0.12.245:8888/s?refs=main&amp;project=sxr2130p-android11" data-definition-place="def" class="xf intelliWindow-symbol">main</a>() {</span>
+<span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#28" class="l selected" name="28">28 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    </span><span class="c">// the conventional HAL might start binder services</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#29" class="l selected" name="29">29 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=ProcessState&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">ProcessState</a>::<a href="http://10.0.12.245:8888/s?defs=initWithDriver&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">initWithDriver</a>(</span><span class="s">&quot;/<a href="http://10.0.12.245:8888/s?path=/dev/&amp;project=sxr2130p-android11">dev</a>/<a href="http://10.0.12.245:8888/s?path=/dev/vndbinder&amp;project=sxr2130p-android11">vndbinder</a>&quot;</span><span class="scope-body" id="scope_id_66f9feff_fold">);
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#30" class="hl selected" name="30">30 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=ProcessState&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">ProcessState</a>::<a href="http://10.0.12.245:8888/s?defs=self&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">self</a>()-&gt;<a href="http://10.0.12.245:8888/s?defs=setThreadPoolMaxThreadCount&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">setThreadPoolMaxThreadCount</a>(</span><span class="n">4</span><span class="scope-body" id="scope_id_66f9feff_fold">);
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#31" class="l selected" name="31">31 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=ProcessState&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">ProcessState</a>::<a href="http://10.0.12.245:8888/s?defs=self&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">self</a>()-&gt;<a href="http://10.0.12.245:8888/s?defs=startThreadPool&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">startThreadPool</a>();
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#32" class="l selected" name="32">32 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#33" class="l selected" name="33">33 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    </span><span class="c">// same as SF main thread</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#34" class="l selected" name="34">34 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <b>struct</b> <a href="http://10.0.12.245:8888/s?defs=sched_param&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">sched_param</a> <a class="xl" name="param">
+</a><a href="http://10.0.12.245:8888/s?refs=param&amp;project=sxr2130p-android11" data-definition-place="def" class="xl intelliWindow-symbol">param</a> = {</span><span class="n">0</span><span class="scope-body" id="scope_id_66f9feff_fold">};
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#35" class="l selected" name="35">35 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a class="d intelliWindow-symbol" data-definition-place="defined-in-file" href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#param">param</a>.<a href="http://10.0.12.245:8888/s?defs=sched_priority&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">sched_priority</a> = </span><span class="n">2</span><span class="scope-body" id="scope_id_66f9feff_fold">;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#36" class="l target selected" name="36">36 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <b>if</b> (<a href="http://10.0.12.245:8888/s?defs=sched_setscheduler&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol"><font color="#ff0000">sched_setscheduler</font></a><font color="#ff0000">(</font></span><font color="#ff0000"><span class="n">0</span><span class="scope-body" id="scope_id_66f9feff_fold">, <a href="http://10.0.12.245:8888/s?defs=SCHED_FIFO&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">SCHED_FIFO</a> | <a href="http://10.0.12.245:8888/s?defs=SCHED_RESET_ON_FORK&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">SCHED_RESET_ON_FORK</a>, &amp;<a class="d intelliWindow-symbol" data-definition-place="defined-in-file" href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#param">param</a>)</span></font><span class="scope-body" id="scope_id_66f9feff_fold"> != </span><span class="n">0</span><span class="scope-body" id="scope_id_66f9feff_fold">) {
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#37" class="l selected" name="37">37 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">        <a href="http://10.0.12.245:8888/s?defs=ALOGE&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">ALOGE</a>(</span><span class="s">&quot;Couldn't set SCHED_FIFO: %d&quot;</span><span class="scope-body" id="scope_id_66f9feff_fold">, <a href="http://10.0.12.245:8888/s?defs=errno&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">errno</a>);
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#38" class="l selected" name="38">38 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    }
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#39" class="l selected" name="39">39 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#40" class="hl selected" name="40">40 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=hardware&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">hardware</a>::<a href="http://10.0.12.245:8888/s?defs=configureRpcThreadpool&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">configureRpcThreadpool</a>(</span><span class="n">4</span><span class="scope-body" id="scope_id_66f9feff_fold">, <b>true</b> </span><span class="c">/* will join */</span><span class="scope-body" id="scope_id_66f9feff_fold">);
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#41" class="l selected" name="41">41 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#42" class="l selected" name="42">42 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=sp&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">sp</a>&lt;<a href="http://10.0.12.245:8888/s?defs=IComposer&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">IComposer</a>&gt; <a class="xl" name="composer">
+</a><a href="http://10.0.12.245:8888/s?refs=composer&amp;project=sxr2130p-android11" data-definition-place="def" class="xl intelliWindow-symbol">composer</a> = <a href="http://10.0.12.245:8888/s?defs=HwcLoader&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">HwcLoader</a>::<a href="http://10.0.12.245:8888/s?defs=load&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">load</a>();
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#43" class="l selected" name="43">43 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <b>if</b> (<a class="d intelliWindow-symbol" data-definition-place="defined-in-file" href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#composer">composer</a> == <a href="http://10.0.12.245:8888/s?defs=nullptr&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">nullptr</a>) {
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#44" class="l selected" name="44">44 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">        <b>return</b> </span><span class="n">1</span><span class="scope-body" id="scope_id_66f9feff_fold">;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#45" class="l selected" name="45">45 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    }
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#46" class="l selected" name="46">46 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <b>if</b> (<a class="d intelliWindow-symbol" data-definition-place="defined-in-file" href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#composer">composer</a>-&gt;<a href="http://10.0.12.245:8888/s?defs=registerAsService&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">registerAsService</a>() != <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=NO_ERROR&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">NO_ERROR</a>) {
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#47" class="l selected" name="47">47 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">        <a href="http://10.0.12.245:8888/s?defs=ALOGE&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">ALOGE</a>(</span><span class="s">&quot;failed to register service&quot;</span><span class="scope-body" id="scope_id_66f9feff_fold">);
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#48" class="l selected" name="48">48 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">        <b>return</b> </span><span class="n">1</span><span class="scope-body" id="scope_id_66f9feff_fold">;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#49" class="l selected" name="49">49 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    }
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#50" class="hl selected" name="50">50 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#51" class="l selected" name="51">51 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=android&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">android</a>::<a href="http://10.0.12.245:8888/s?defs=hardware&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">hardware</a>::<a href="http://10.0.12.245:8888/s?defs=joinRpcThreadpool&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">joinRpcThreadpool</a>();
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#52" class="l selected" name="52">52 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold"><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#53" class="l selected" name="53">53 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <a href="http://10.0.12.245:8888/s?defs=ALOGE&amp;project=sxr2130p-android11" data-definition-place="undefined-in-file" class="intelliWindow-symbol">ALOGE</a>(</span><span class="s">&quot;service is terminating&quot;</span><span class="scope-body" id="scope_id_66f9feff_fold">);
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#54" class="l selected" name="54">54 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">    <b>return</b> </span><span class="n">1</span><span class="scope-body" id="scope_id_66f9feff_fold">;
+<a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#55" class="l selected" name="55">55 </a></span><span class="fold-space">&#160;</span><span class="scope-body" id="scope_id_66f9feff_fold">}</span><a href="http://10.0.12.245:8888/xref/sxr2130p-android11/hardware/interfaces/graphics/composer/2.2/default/service.cpp#56" class="l selected" name="56">56 </a><span class="fold-space">&#160;</span></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1504507980067" FOLDED="true" ID="ID_1280172444" MODIFIED="1641955834617" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
