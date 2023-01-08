@@ -9569,7 +9569,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1483411939326" FOLDED="true" ID="ID_1771663161" MODIFIED="1492953812269" POSITION="left" TEXT="STM32F401xD/xE">
+<node CREATED="1483411939326" FOLDED="true" ID="ID_1771663161" MODIFIED="1667826869882" POSITION="left" TEXT="STM32F401xD/xE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1483411957414" ID="ID_1072814281" MODIFIED="1483440892802">
 <richcontent TYPE="NODE"><html>
@@ -10051,7 +10051,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1539409496460" ID="ID_1616571622" MODIFIED="1635664503610" POSITION="left">
+<node CREATED="1539409496460" FOLDED="true" ID="ID_1616571622" MODIFIED="1672659970027" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10062,7 +10062,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1622067991088" ID="ID_1509323166" MODIFIED="1635664503622">
+<node CREATED="1622067991088" FOLDED="true" ID="ID_1509323166" MODIFIED="1672659929789">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10119,8 +10119,7 @@
       <b>Tiny4412ADK-1312B(1312C)-Schematic.pdf</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1622073162972" FOLDED="true" ID="ID_1344300633" MODIFIED="1641734475005" TEXT="&#x5f00;&#x53d1;&#x677f;&#x8bf4;&#x660e;">
@@ -10748,7 +10747,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1654909097020" ID="ID_533838275" MODIFIED="1654909120164">
+<node CREATED="1654909097020" FOLDED="true" ID="ID_533838275" MODIFIED="1672659966912">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10778,8 +10777,7 @@
       &#21363;MultiMediaCard&#25509;&#21475;&#19978;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1659257289868" ID="ID_624720509" MODIFIED="1659257313575">
 <richcontent TYPE="NODE"><html>
@@ -10791,11 +10789,10 @@
       <b><font color="#e00707">Xmmc2&#25346;&#36733;&#30340;&#26159;SD&#21345;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1655645791697" ID="ID_132822061" MODIFIED="1655645829668">
+<node CREATED="1655645791697" FOLDED="true" ID="ID_132822061" MODIFIED="1672659957793">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10821,7 +10818,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1655646091147" ID="ID_62128110" MODIFIED="1655646157516">
+<node CREATED="1655646091147" FOLDED="true" ID="ID_62128110" MODIFIED="1672659946053">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10878,7 +10875,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1655907610561" ID="ID_59080829" MODIFIED="1655907636623">
+<node CREATED="1655907610561" FOLDED="true" ID="ID_59080829" MODIFIED="1672659964378">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -10889,9 +10886,9 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1655907701069" ID="ID_1835876802" MODIFIED="1655907703733" TEXT="exynos4412-tiny4412.dts">
-<node CREATED="1656248141561" ID="ID_867805204" MODIFIED="1656248144638" TEXT="exynos4412.dtsi">
-<node CREATED="1656248182485" ID="ID_375698328" MODIFIED="1656248185169" TEXT="exynos4x12.dtsi">
+<node CREATED="1655907701069" FOLDED="true" ID="ID_1835876802" MODIFIED="1672659963140" TEXT="exynos4412-tiny4412.dts">
+<node CREATED="1656248141561" FOLDED="true" ID="ID_867805204" MODIFIED="1672659961691" TEXT="exynos4412.dtsi">
+<node CREATED="1656248182485" FOLDED="true" ID="ID_375698328" MODIFIED="1672659959988" TEXT="exynos4x12.dtsi">
 <node CREATED="1656248224350" ID="ID_438674387" MODIFIED="1656248226757" TEXT="exynos4.dtsi"/>
 <node CREATED="1656248239595" ID="ID_1530278844" MODIFIED="1656248241928" TEXT="exynos4x12-pinctrl.dtsi"/>
 <node CREATED="1656248254121" ID="ID_1621023868" MODIFIED="1656248256403" TEXT="exynos4-cpu-thermal.dtsi"/>
@@ -10899,7 +10896,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1656251295886" ID="ID_520775918" MODIFIED="1656251312023">
+<node CREATED="1656251295886" FOLDED="true" ID="ID_520775918" MODIFIED="1672659965530">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11110,6 +11107,160 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1667826898525" ID="ID_455683775" MODIFIED="1667826925744" POSITION="right" TEXT="ARM Cortex-M">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1672659989739" ID="ID_139987978" MODIFIED="1672660025399">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3" color="#0f36e4"><b>ARM V7-M &#25163;&#20876;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1672662033164" ID="ID_1977892978" MODIFIED="1672662064273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ee1111">Exception&#22788;&#29702;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1672662073355" ID="ID_392352465" MODIFIED="1672665353589">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>582&#39029;&#25551;&#36848;&#22914;&#19979;&#65306;</b>
+    </p>
+    <p>
+      On power-on or reset, the processor
+    </p>
+    <p>
+      uses the entry at offset 0 as the initial value for SP_main, see The SP registers on page B1-572.
+    </p>
+    <p>
+      All other entries must have bit[0] set to 1, because this bit defines the EPSR.T bit on exception entry.
+    </p>
+    <p>
+      &#65288;<b><font color="#ea1111">The EPSR contains the T bit, that is set to 1 to indicate that the processor executes Thumb instructions, and an </font></b>
+    </p>
+    <p>
+      <b><font color="#ea1111">overlaid ICI or IT field that supports interrupt-continue load/store instructions and the IT instruction.</font></b>&#65289;
+    </p>
+    <p>
+      See Reset behavior on page B1-586 and Exception entry behavior on page B1-587 for more information.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1673180272777" ID="ID_1839704898" MODIFIED="1673180301993">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24322;&#24120;number
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1673180456688" ID="ID_1193179728" MODIFIED="1673180467491">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="armpic/armv7-m_ExceptionNumber.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1673180520567" ID="ID_1763029844" MODIFIED="1673180590184">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Vector Table</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1673181481150" ID="ID_279597793" MODIFIED="1673181587061">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#eb1010">&#21521;&#37327;&#34920;&#21253;&#21547;&#30528;SP&#23492;&#23384;&#22120;&#30340;&#20540;&#65292;&#21516;&#26102;&#20063;&#21253;&#21547;&#30528;&#27599;&#20010;&#24322;&#24120;&#22788;&#29702;&#21477;&#26564;&#30340;&#22320;&#22336;&#30340;&#20540;&#65292; </font>
+    </p>
+    <p>
+      <font color="#eb1010">exception number&#23601;&#23545;&#24212;&#30528;&#36825;&#20123;&#21477;&#26564;&#22312;&#21521;&#37327;&#34920;&#37324;&#38754;&#30340;&#20559;&#31227;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1673181622170" ID="ID_1313396417" MODIFIED="1673181630509">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      On reset, the processor initializes the vector table base address to an IMPLEMENTATION DEFINED address. Software
+    </p>
+    <p>
+      can find the current location of the table, or relocate the table, using the VTOR, see Vector Table Offset Register,
+    </p>
+    <p>
+      VTOR on page B3-657.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1673183848308" ID="ID_612851338" MODIFIED="1673183871816">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#24322;&#24120;&#20248;&#20808;&#32423;&#21644;&#25250;&#21344;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1667826912543" ID="ID_648261408" MODIFIED="1667826922705" POSITION="left" TEXT="ARM Cortex-R">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1667826976352" ID="ID_600405450" MODIFIED="1667826986179" POSITION="right" TEXT="freeRTOS&#x5b66;&#x4e60;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1667826994303" ID="ID_1180089302" MODIFIED="1667827005675" POSITION="left" TEXT="arm-mbedtls&#x5e93;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </map>
