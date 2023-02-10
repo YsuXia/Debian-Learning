@@ -86,8 +86,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1664114685274" ID="ID_1504335599" MODIFIED="1664115097016">
@@ -135,8 +134,7 @@
       <font face="sans-serif">Two documents exist for each BSW module:</font><br role="presentation" /><font face="sans-serif">&#8722;&#160;<b>SRS</b>: Software requirement specification</font><br role="presentation" /><font face="sans-serif">&#8722;&#160;<b>SWS</b>: Software Specification</font><br role="presentation" /><font face="sans-serif">&#8226;&#160;The&#160;SRS&#160;describes requirements, that must be fulfilled by a Basic</font><br role="presentation" /><font face="sans-serif">&#8722;&#160;Software Module (BSW).</font><br role="presentation" /><font face="sans-serif">&#8226;&#160;The&#160;SWS(Software Specification) contains the most detailed information</font><br role="presentation" /><font face="sans-serif">for each Basic Software Module</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -740,8 +738,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1664114130617" ID="ID_1042043018" MODIFIED="1664114164160">
@@ -803,8 +800,7 @@
       <b>&#27773;&#36710;&#12289;BMS&#12289;&#30005;&#26426;&#25511;&#21046;</b>&#31561;&#20960;&#20010;&#26041;&#21521;&#20869;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675241623495" ID="ID_1894153246" MODIFIED="1675241643671">
 <richcontent TYPE="NODE"><html>
@@ -816,8 +812,7 @@
       <b>&#20837;&#38376;&#23398;&#20064;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675241663883" ID="ID_778258905" MODIFIED="1675241669191" TEXT="&#x6e05;&#x534e;&#x5927;&#x5b66;&#x6559;&#x7a0b;&#x2014;&#x2014;CAN&#x603b;&#x7ebf;&#x539f;&#x7406;&#x53ca;&#x5e94;&#x7528;">
 <node CREATED="1675241699112" ID="ID_402909263" MODIFIED="1675242045921">
 <richcontent TYPE="NODE"><html>
@@ -847,8 +842,7 @@
       1995&#24180;CANopen&#21327;&#35758;&#30001;CiA&#20844;&#24067;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675242049287" ID="ID_878515759" MODIFIED="1675242391872">
 <richcontent TYPE="NODE"><html>
@@ -872,8 +866,7 @@
       4&#12289;&#20210;&#35009;&#26426;&#21046;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675242397983" ID="ID_1733094569" MODIFIED="1675242409239">
 <richcontent TYPE="NODE"><html>
@@ -885,8 +878,7 @@
       &#24635;&#32447;&#32467;&#26500;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675242412017" ID="ID_629672016" MODIFIED="1675242415534" TEXT="&#x7269;&#x7406;&#x5c42;">
 <node CREATED="1675242679673" ID="ID_1817941551" MODIFIED="1675244024577">
 <richcontent TYPE="NODE"><html>
@@ -904,8 +896,43 @@
       &#20856;&#22411;&#22320;&#65292;CAN&#24635;&#32447;&#20026;&#38544;&#24615;&#65288;&#36923;&#36753;1&#65289;&#26102;&#65292;CAN_H&#21644;CAN_L&#30340;&#30005;&#24179;&#37117;&#20026;2.5V&#65288;&#30005;&#20301;&#24046;&#20026;0V&#65289;&#65307;CAN&#24635;&#32447;&#20026;&#26174;&#24615;&#65288;<b>&#36923;&#36753;0&#65289;&#26102;&#65292;CAN_H&#21644;CAN_L&#30005;&#24179;&#20998;&#21035;&#20026;3.5V&#21644;1.5V&#65288;&#30005;&#20301;&#24046;&#20026;2.0V&#65289;</b>
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1675652007019" ID="ID_1550454782" MODIFIED="1675652025597">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CAN&#24635;&#32447;&#65306;&#20351;&#29992;&#24046;&#20998;&#30005;&#21387;&#20256;&#36865;&#65288;CAN_H&#12289;CAN_L&#65289;&#65292;Vdiff=CAN_H-CAN_L&#12290;
+    </p>
+    <p>
+      EIA-RS-232C&#65306;&#12288;RS232&#26159;&#20010;&#20154;&#35745;&#31639;&#26426;&#19978;&#30340;&#36890;&#35759;&#25509;&#21475;&#20043;&#19968;&#65292;&#30001;&#30005;&#23376;&#24037;&#19994;&#21327;&#20250;&#65288;Electronic Industries AssociaTIon&#65292;EIA&#65289; &#25152;&#21046;&#23450;&#30340;&#24322;&#27493;&#20256;&#36755;&#26631;&#20934;&#25509;&#21475;&#12290;&#26159;&#29992;&#27491;&#36127;&#30005;&#21387;&#26469;&#34920;&#31034;&#36923;&#36753;&#29366;&#24577;&#12290;RS-232C&#20013;&#20219;&#20309;&#19968;&#26465;&#20449;&#21495;&#32447;&#30340;&#30005;&#21387;&#22343;&#37319;&#29992;&#36127;&#36923;&#36753;&#65292;&#35268;&#23450;+3V&#65374;+15V&#20043;&#38388;&#30340;&#20219;&#24847;&#30005;&#24179;&#20026;&#36923;&#36753;&#8220;0&#8221;&#30005;&#24179;&#65292;-3V&#65374;-15V&#20043;&#38388;&#30340;&#20219;&#24847;&#30005;&#24179;&#20026;&#36923;&#36753;&#8220;1&#8221;&#30005;&#24179;&#12290;
+    </p>
+    <p>
+      &#36923;&#36753;1&#65306;-3&#8194; ~ -15V&#65307;
+    </p>
+    <p>
+      &#36923;&#36753;0&#65306;+3 ~ +15V&#8194;&#12290;
+    </p>
+    <p>
+      TTL&#30005;&#24179;&#65306;&#20197;&#39640;&#20302;&#30005;&#24179;&#34920;&#31034;&#36923;&#36753;&#29366;&#24577;&#12290;TTL&#30005;&#24179;&#19968;&#33324;&#20026;5V&#20026;&#36923;&#36753;&#27491;&#65292;0&#20026;&#36923;&#36753;&#36127;&#12290;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1675652392211" ID="ID_506390721" MODIFIED="1675652405325">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x663e;&#x6027;&#x548c;&#x9690;&#x6027;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1675242433425" ID="ID_823297203" MODIFIED="1675242440052" TEXT="&#x6570;&#x636e;&#x94fe;&#x8def;&#x5c42;">
@@ -931,32 +958,574 @@
       &#20026;&#24674;&#22797;&#31649;&#29702;&#21644;&#36807;&#36733;&#36890;&#30693;&#25552;&#20379;&#25163;&#27573;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1675242475793" ID="ID_373552614" MODIFIED="1675304553382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#23186;&#20307;&#35775;&#38382;&#25511;&#21046;&#23376;&#23618;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25511;&#21046;&#24103;&#32467;&#26500;
+    </p>
+    <p>
+      &#25191;&#34892;&#20210;&#35009;
+    </p>
+    <p>
+      &#38169;&#35823;&#26816;&#27979;
+    </p>
+    <p>
+      &#20986;&#38169;&#26631;&#23450;
+    </p>
+    <p>
+      &#25925;&#38556;&#30028;&#23450;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675304572199" ID="ID_1441031331" MODIFIED="1675304983906">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>CAN&#24103;&#30340;&#31867;&#22411;&#65306;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Data Frame&#65306;&#25968;&#25454;&#24103;&#65292;&#29992;&#20110;&#20256;&#36882;0~8&#23383;&#33410;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      Remote Frame&#65306;&#36828;&#31243;&#24103;&#65292;&#29992;&#20110;&#35201;&#27714;&#20854;&#20182;&#33410;&#28857;&#21457;&#36865;&#30456;&#21516;ID&#30340;&#25968;&#25454;&#24103;
+    </p>
+    <p>
+      Error Frame&#65306;&#38169;&#35823;&#24103;&#65292;&#24635;&#32447;&#19978;&#20219;&#20309;&#33410;&#28857;&#21457;&#29616;&#38169;&#35823;&#22343;&#21487;&#21457;&#36865;&#38169;&#35823;&#24103;
+    </p>
+    <p>
+      Overload Frame&#65306;&#36807;&#36733;&#24103;&#65292;&#24635;&#32447;&#36127;&#33655;&#36807;&#39640;&#26102;&#65292;&#22312;&#25968;&#25454;&#24103;&#25110;&#32773;&#36828;&#31243;&#24103;&#20043;&#38388;&#20135;&#29983;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675305439407" ID="ID_1644571550" MODIFIED="1675305611855">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff3300">&#25968;&#25454;&#24103;&#30001;7&#20010;&#19981;&#21516;&#30340;&#20301;&#22330;&#32452;&#25104;&#65306;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24103;&#36215;&#22987; SOF
+    </p>
+    <p>
+      &#20210;&#35009;&#22330; Arbitration
+    </p>
+    <p>
+      &#25511;&#21046;&#22330; Control
+    </p>
+    <p>
+      &#25968;&#25454;&#22330;
+    </p>
+    <p>
+      CRC&#22330;
+    </p>
+    <p>
+      &#24212;&#31572;&#22330; ACK
+    </p>
+    <p>
+      &#24103;&#32467;&#23614; EOF
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675662353286" ID="ID_1298162288" MODIFIED="1675662361279">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x5e27;&#x7ed3;&#x6784;.PNG" />
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1675242475793" ID="ID_373552614" MODIFIED="1675242481745" TEXT="&#x5a92;&#x4f53;&#x8bbf;&#x95ee;&#x63a7;&#x5236;&#x5b50;&#x5c42;"/>
+<node CREATED="1675305676462" ID="ID_509967688" MODIFIED="1675305749696">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26631;&#24535;&#25968;&#25454;&#24103;&#30340;&#36215;&#22987;&#65292;&#20165;&#30001;&#19968;&#20010;&#8220;&#26174;&#24615;&#8221;&#20301;&#32452;&#25104;&#65307;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675305955839" ID="ID_355941554" MODIFIED="1675306467944">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20210;&#35009;&#22330;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CAN&#25253;&#25991;ID&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#26631;&#20934;&#26684;&#24335;&#65288;2.0A&#65289;&#65292;11&#20301;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#25193;&#23637;&#26684;&#24335;&#65288;2.0B&#65289;&#65292;29&#20301;
+    </p>
+    <p>
+      &#36828;&#31243;&#21457;&#36865;&#35831;&#27714;&#20301;&#65288;RTR&#65289;&#65306;&#23545;&#20110;data frame&#21457;&#36865;&#35813;&#20301;&#35774;&#32622;&#25104;0&#65292;&#24403;&#26159;&#25509;&#25910;&#27169;&#24335;&#30340;&#26102;&#20505;&#35813;&#20301;&#32622;&#35774;&#32622;&#25104;1
+    </p>
+    <p>
+      &#26367;&#20195;&#36828;&#31243;&#35831;&#27714;&#20301;&#65288;SRR&#65289;&#65306;&#25193;&#23637;&#26684;&#24335;&#65292;&#35774;&#32622;&#25104;1
+    </p>
+    <p>
+      ID&#25193;&#23637;&#20301;&#65288;IDE&#65289;&#65306;&#25193;&#23637;&#26684;&#24335;&#65292;&#35774;&#32622;&#25104;1&#65292;&#34920;&#31034;&#20855;&#26377;29 bit&#26631;&#35782;&#31526;&#30340;&#25193;&#23637;&#26684;&#24335;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675306519126" ID="ID_921975283" MODIFIED="1675306527443">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN&#x6570;&#x636e;&#x5e27;&#x4ef2;&#x88c1;&#x573a;.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1675315606001" ID="ID_1993195463" MODIFIED="1675315832309">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#25511;&#21046;&#22330;&#65306;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#20849;&#30001;6&#20010;bit&#32452;&#25104;&#65307;
+    </p>
+    <p>
+      &#21069;2&#20010;bit&#23545;&#20110;&#25193;&#23637;&#26684;&#24335;&#26469;&#35828;&#26159;&#20445;&#30041;&#20301;&#65292;&#24517;&#39035;&#26159;&#26174;&#24615;&#65307;&#23545;&#20110;&#26631;&#20934;&#26684;&#24335;&#26469;&#35828;&#65292;
+    </p>
+    <p>
+      &#31532;&#19968;&#20010;bit&#26159;IDE&#20301;&#65292;&#20173;&#26159;&#26174;&#24615;&#65292;&#31532;&#20108;&#20010;bit&#26159;&#20445;&#30041;&#20301;&#65292;&#24517;&#39035;&#26159;&#26174;&#24615;&#65307;
+    </p>
+    <p>
+      &#21518;&#22235;&#20301;&#26159;&#25968;&#25454;&#38271;&#24230;&#20195;&#30721;&#65292;&#26377;&#25928;&#25968;&#20540;&#26159;0~8
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675316075306" ID="ID_676253688" MODIFIED="1675316204316">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0033">CRC&#22330;&#65306;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CRC&#24207;&#21015;&#65288;CRC SEQUENCE&#65289;
+    </p>
+    <p>
+      &#26657;&#39564;&#23545;&#35937;&#21253;&#25324;&#65306;&#24103;&#36215;&#22987;&#12289;&#20210;&#35009;&#22330;&#12289;&#25511;&#21046;&#22330;&#12289;&#25968;&#25454;&#22330;&#65292;&#19968;&#20849;15&#20010;bit
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CRC&#30028;&#23450;&#31526;&#65288;CRC DELIMITER&#65289;
+    </p>
+    <p>
+      &#19968;&#20010;&#21333;&#29420;&#30340;&#8220;&#38544;&#24615;&#8221;&#20301;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675316215747" ID="ID_1785034877" MODIFIED="1675316484995">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#24212;&#31572;&#22330;&#65306;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#24212;&#31572;&#38388;&#38553;&#65288;ACK SLOT&#65289;
+    </p>
+    <p>
+      &#24212;&#31572;&#30028;&#23450;&#31526;&#65288;ACK DELIMITER&#65289;
+    </p>
+    <p>
+      &#22312;&#35813;&#22330;&#37324;&#38754;&#65292;&#21457;&#36865;&#31449;&#21457;&#36865;&#20004;&#20010;&#8220;&#38544;&#24615;&#8221;&#20301;&#65292;&#24403;&#25509;&#25910;&#22120;&#27491;&#30830;&#22320;&#25509;&#25910;&#21040;&#26377;&#25928;&#22320;&#25253;&#25991;&#65292;
+    </p>
+    <p>
+      &#25509;&#25910;&#22120;&#23601;&#20250;&#22312;&#24212;&#31572;&#38388;&#38553;&#26399;&#38388;&#21521;&#21457;&#36865;&#22120;&#21457;&#36865;&#19968;&#20010;&#8220;&#26174;&#24615;&#8221;&#20301;&#20197;&#31034;&#22238;&#31572;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675664267343" ID="ID_935026387" MODIFIED="1675664273167">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x62a5;&#x6587;ACK&#x57df;&#x7ed3;&#x6784;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1675316823691" ID="ID_1793265469" MODIFIED="1675316857132">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#24103;&#32467;&#23614;&#65306;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30001;7&#20010;&#8220;&#38544;&#24615;&#8221;&#32452;&#25104;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1675317010195" ID="ID_152742999" MODIFIED="1675317053718">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">&#36828;&#31243;&#24103;&#30001;6&#20010;&#19981;&#21516;&#30340;&#20301;&#22330;&#32452;&#25104;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675317284396" ID="ID_847019891" MODIFIED="1675317289717">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x8fdc;&#x7a0b;&#x5e27;&#x4f4d;&#x573a;.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1675242443289" ID="ID_758395849" MODIFIED="1675242447276" TEXT="&#x5e94;&#x7528;&#x5c42;"/>
 </node>
 </node>
-<node CREATED="1675246141699" ID="ID_649274112" MODIFIED="1675246150978">
+<node CREATED="1675246141699" ID="ID_649274112" MODIFIED="1675664668416">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      https://en.wikipedia.org/wiki/CAN_bus#Architecture
+      <font size="4">https://en.wikipedia.org/wiki/CAN_bus#Architecture</font>
     </p>
   </body>
 </html>
 </richcontent>
-<node CREATED="1675246164107" ID="ID_783029328" MODIFIED="1675246166482">
+<node CREATED="1675246164107" ID="ID_783029328" MODIFIED="1675301247051">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      &#26631;&#20934;&#35828;&#26126;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ISO 11898-2 high-speed CAN&#26631;&#20934;
+    </p>
+    <p>
+      ISO 11898-3 low-speed &#25110;&#32773;&#26159; fault-tolerant CAN&#24635;&#32447;&#26631;&#20934;&#65292;<font color="#ff0033"><b>uses a linear bus or </b></font>
+    </p>
+    <p>
+      <font color="#ff0033"><b>star bus or multiple start buses</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675302531686" ID="ID_497735942" MODIFIED="1675302727965">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.iso.org/en/contents/data/standard/06/36/63648.html" title="ISO 11898-1:2015 Road vehicles &#x2014; Controller area network (CAN) &#x2014; Part 1: Data link layer and physical signalling">ISO 11898-1:2015 Road vehicles &#8212; Controller area network (CAN) &#8212; Part 1: Data link layer and physical signalling</a><a href="https://www.iso.org/en/contents/data/standard/06/72/67244.html" title="ISO 11898-2:2016 Road vehicles &#x2014; Controller area network (CAN) &#x2014; Part 2: High-speed medium access unit">
+</a>    </p>
+    <p>
+      <a href="https://www.iso.org/en/contents/data/standard/06/72/67244.html" title="ISO 11898-2:2016 Road vehicles &#x2014; Controller area network (CAN) &#x2014; Part 2: High-speed medium access unit">ISO 11898-2:2016 Road vehicles &#8212; Controller area network (CAN) &#8212; Part 2: High-speed medium access unit </a>
+    </p>
+    <p>
+      <a href="https://www.iso.org/en/contents/data/standard/03/60/36055.html" title="ISO 11898-3:2006 Road vehicles &#x2014; Controller area network (CAN) &#x2014; Part 3: Low-speed, fault-tolerant, medium-dependent interface">ISO 11898-3:2006 Road vehicles &#8212; Controller area network (CAN) &#8212; Part 3: Low-speed, fault-tolerant, medium-dependent interface</a>
+    </p>
+    <p>
+      <a href="https://www.iso.org/en/contents/data/standard/03/63/36306.html" title="ISO 11898-4:2004 Road vehicles &#x2014; Controller area network (CAN) &#x2014; Part 4: Time-triggered communication">ISO 11898-4:2004 Road vehicles &#8212; Controller area network (CAN) &#8212; Part 4: Time-triggered communication</a>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1675300727148" ID="ID_502504886" MODIFIED="1675301265596">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CAN Bus&#160;Node&#32452;&#25104;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1675301851149" ID="ID_1045699947" MODIFIED="1675302115309">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">&#20013;&#22830;&#22788;&#29702;&#21333;&#20803;&#25110;&#32773;&#26159;&#24494;&#25511;&#21046;&#22120;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1&#12289;&#29992;&#20110;&#22788;&#29702;&#26368;&#19978;&#23618;&#30340;&#20449;&#24687;&#21644;&#20915;&#23450;&#21457;&#36865;&#20160;&#20040;&#20449;&#24687;
+    </p>
+    <p>
+      2&#12289;&#35813;&#21333;&#20803;&#24448;&#24448;&#36319;sensor&#26159;&#36830;&#25509;&#22312;&#19968;&#36215;&#30340;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675301948558" ID="ID_1046852095" MODIFIED="1675302104725">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000">CAN&#25511;&#21046;&#22120;&#65292;&#24448;&#24448;&#26159;&#24494;&#25511;&#21046;&#22120;&#30340;&#19968;&#37096;&#20998;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1&#12289;&#25509;&#25910;&#65306;&#20174;BUS&#19978;&#25509;&#25910;&#20018;&#34892;&#20449;&#24687;&#65292;&#30452;&#21040;&#32452;&#25104;&#19968;&#20010;&#23436;&#25972;&#30340;&#20449;&#24687;&#21253;
+    </p>
+    <p>
+      2&#12289;&#21457;&#36865;&#65306;&#20013;&#22830;&#22788;&#29702;&#21333;&#20803;&#23558;&#38656;&#35201;&#21457;&#36865;&#30340;&#20449;&#24687;&#21457;&#36865;&#32473;CAN&#25511;&#21046;&#22120;&#65292;CAN&#25511;&#21046;&#22120;&#23558;&#20449;&#24687;&#20018;&#34892;
+    </p>
+    <p>
+      &#22320;&#21457;&#36865;&#21040;&#24635;&#32447;&#19978;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675302149949" ID="ID_246613367" MODIFIED="1675302227453">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033">Transceiver Defined by ISO 11898-2/3 Medium Access Unit [MAU] standards</font>
+    </p>
+    <p>
+      Receiving: it converts the data stream from CAN bus levels to levels that the CAN controller uses.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;It usually has protective circuitry to protect the CAN controller.
+    </p>
+    <p>
+      Transmitting: it converts the data stream from the CAN controller to CAN bus levels
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1675302322767" ID="ID_1808398987" MODIFIED="1675302326984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-Node&#x793a;&#x610f;&#x56fe;.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1675318427365" ID="ID_778859050" MODIFIED="1675319037701">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">Bit stuffing</font></b>
+    </p>
+    <p>
+      
+    </p>
+    To ensure enough transitions to maintain synchronization, a bit of opposite polarity is inserted after five consecutive bits of the same polarity. This practice is called
+
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Bit_stuffing" title="Bit stuffing">bit stuffing</a>, and is necessary due to the <a href="https://en.wikipedia.org/wiki/Non-return-to-zero" title="Non-return-to-zero">non-return-to-zero</a>&#160; (NRZ) coding used with CAN. The stuffed data frames are destuffed by the receiver.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1675665691639" ID="ID_1119260419" MODIFIED="1675666319136">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000"><b>CAN FD</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675666259528" ID="ID_1762308503" MODIFIED="1675666294968">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3300ff">CAN FD&#25968;&#25454;&#24103;&#26684;&#24335;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675666354216" ID="ID_1699679551" MODIFIED="1675666363529">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-FD&#x62a5;&#x6587;&#x683c;&#x5f0f;.PNG" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675666443535" ID="ID_365236644" MODIFIED="1675666805762">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EDL&#20301;&#65306;
+    </p>
+    <p>
+      &#38544;&#24615;&#65292;&#34920;&#31034;CAN FD&#25253;&#25991;&#65288;&#37319;&#29992;&#26032;&#30340;DLC&#32534;&#30721;&#21644;CRC&#31639;&#27861;&#65289;
+    </p>
+    <p>
+      &#26174;&#24615;&#65292;&#34920;&#31034;CAN&#25253;&#25991;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      BRS&#20301;&#65306;
+    </p>
+    <p>
+      &#38544;&#24615;&#65292;&#34920;&#31034;&#36716;&#25442;&#21487;&#21464;&#36895;&#29575;&#65288;<b>&#20174;BRS&#20301;&#21040;CRC&#30028;&#23450;&#31526;&#37319;&#29992;&#36716;&#25442;&#36895;&#29575;&#20256;&#36755;</b>&#65289;
+    </p>
+    <p>
+      &#26174;&#24615;&#65292;&#34920;&#31034;&#19981;&#36716;&#25442;&#36895;&#29575;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ESI&#20301;&#65306;
+    </p>
+    <p>
+      &#38544;&#24615;&#65292;&#34920;&#31034;&#21457;&#36865;&#33410;&#28857;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#65288;Error Passive&#65289;
+    </p>
+    <p>
+      &#26174;&#24615;&#65292;&#34920;&#31034;&#21457;&#36865;&#33410;&#28857;&#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#65288;Error Active&#65289;
+    </p>
+    <p>
+      &#36890;&#36807;ESI&#20301;&#21487;&#20197;&#24456;&#26041;&#20415;&#22320;&#30693;&#36947;&#24403;&#21069;&#21457;&#36865;&#33410;&#28857;&#22788;&#20110;&#30340;&#29366;&#24577;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1675667443913" ID="ID_1668752022" MODIFIED="1675667495977">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0066">&#26032;&#30340;CRC&#31639;&#27861;&#21644;&#26032;&#30340;DLC&#32534;&#30721;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675667629344" ID="ID_666689596" MODIFIED="1675667635515">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-FD&#x62a5;&#x6587;DLC&#x7f16;&#x7801;.PNG" />
   </body>
 </html>
 </richcontent>
@@ -964,14 +1533,157 @@
 </node>
 </node>
 </node>
-<node CREATED="1672300020301" FOLDED="true" ID="ID_876600377" MODIFIED="1675148698381">
+</node>
+<node CREATED="1675825473746" ID="ID_1758440480" MODIFIED="1675825502003">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" color="#ff0033"><b>Lin&#24635;&#32447;</b></font>
+      <b><font color="#3300ff">CAN&#24635;&#32447;&#30340;&#20301;&#26102;&#24207;&#21644;&#21442;&#25968;&#35774;&#32622;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675825603524" ID="ID_210563921" MODIFIED="1675825626701">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    CAN&#24635;&#32447;&#30340;&#27599;&#20010;&#20301;&#65288;Bit&#65289;&#30340;&#21608;&#26399; &#160;T
+
+    <p>
+      <sub>bit</sub>&#160;= 1 / Baudrate&#12290;&#26681;&#25454;CAN&#35268;&#33539;&#65292;&#27599;&#20010;&#20301;&#30340;&#26102;&#38388;&#20869;&#21448;&#21487;&#32454;&#20998;&#25104;4&#27573;&#65306;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675825755507" ID="ID_1820989101" MODIFIED="1675825792077">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN&#x603b;&#x7ebf;&#x534f;&#x8bae;-&#x4f4d;&#x65f6;&#x95f4;&#x6bb5;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1675825869066" ID="ID_1351774088" MODIFIED="1675834812825">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;&#20301;&#26102;&#38388;&#20013;&#30340;&#22235;&#20010;&#27573;&#30340;&#25551;&#36848;&#19981;&#26159;&#37319;&#29992;&#26102;&#38388;&#21333;&#20301;&#65292;&#32780;&#26159;&#37319;&#29992;&#33410;&#25293;&#26469;&#24230;&#37327;&#65292;&#35813;&#33410;&#25293;
+    </p>
+    <p>
+      &#31216;&#20026;&#26102;&#38388;&#37327;&#23376;
+    </p>
+    Time quantum
+
+    <p>
+      <b><font color="#ff0000">&#29992;Tq&#26469;&#34920;&#31034;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675834987615" ID="ID_1832977355" MODIFIED="1675835015104">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20256;&#25773;&#27573;&#26102;&#38388;Tps&#35745;&#31639;&#65306;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675835073106" ID="ID_1403971401" MODIFIED="1675835273481">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20256;&#25773;&#27573;&#26102;&#38388;&#26159;&#20449;&#21495;&#22312;&#24635;&#32447;&#19978;&#26469;&#22238;&#20256;&#36755;&#25152;&#33457;&#36153;&#30340;&#26102;&#38388;&#65292;&#19968;&#27425;&#21333;&#21521;&#20256;&#36755;&#30340;&#24310;&#26102;&#21253;&#25324;&#19977;&#20010;
+    </p>
+    <p>
+      &#32452;&#25104;&#37096;&#20998;&#65306;
+    </p>
+    <ol>
+      <li>
+        &#21457;&#36865;&#33410;&#28857;&#20174;&#20135;&#29983;&#20449;&#21495;&#21040;&#21457;&#21040;&#24635;&#32447;&#30340;&#26102;&#38388; T<sub>d1</sub>&#65307;
+      </li>
+      <li>
+        &#20449;&#21495;&#22312;&#24635;&#32447;&#20256;&#36755;&#30340;&#26102;&#38388;T<sub>bus</sub>&#65307;
+      </li>
+      <li>
+        &#25509;&#25910;&#33410;&#28857;&#20174;&#24635;&#32447;&#33719;&#21462;&#20449;&#21495;&#30340;&#26102;&#38388;T<sub>d2</sub>&#12290;
+      </li>
+    </ol>
+    &#25353;&#35268;&#33539;&#35201;&#27714;&#65292;&#20256;&#25773;&#27573;&#30340;&#26102;&#38388;T
+
+    <p>
+      <sub>ps</sub>&#24212;&#22823;&#20110;&#31561;&#20110;2&#20493;T<sub>delay</sub>&#30340;&#26102;&#38388;&#65292;&#21363;<br />T<sub>ps</sub>&#160; &gt;= 2 * T<sub>delay</sub>&#160;= 2 * (T<sub>d1</sub>&#160;+ T<sub>bus</sub>&#160;+ T<sub>d2</sub>)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1675826022701" ID="ID_859190182" MODIFIED="1675826055211">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#21457;&#36865;&#31471;&#22312;&#27599;&#20010;bit&#26102;&#38388;&#20013;&#35201;&#23436;&#25104;&#21457;&#36865;&#21644;&#22238;&#26816;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675834615737" ID="ID_1211055129" MODIFIED="1675834622865">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x4f4d;&#x65f6;&#x95f4;&#x5185;&#x53d1;&#x9001;&#x6d41;&#x7a0b;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1675834627297" ID="ID_596498428" MODIFIED="1675834633385">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x4f4d;&#x65f6;&#x95f4;&#x5185;&#x63a5;&#x6536;&#x6d41;&#x7a0b;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1672300020301" FOLDED="true" ID="ID_876600377" MODIFIED="1675665466263">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4">Lin&#24635;&#32447;</font></b>
     </p>
   </body>
 </html>
@@ -1024,7 +1736,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1672301059523" FOLDED="true" ID="ID_58747162" MODIFIED="1675148675076" TEXT="LIN&#x603b;&#x7ebf;&#x6709;&#x5982;&#x4e0b;&#x7279;&#x70b9;&#xff1a;&#xa;&#xa;    &#x5355;&#x4e3b;&#x63a7;&#x5668;/&#x591a;&#x4ece;&#x8bbe;&#x5907;&#x6a21;&#x5f0f;&#x65e0;&#x9700;&#x4ef2;&#x88c1;&#x673a;&#x5236;&#xff1b;&#x4f4e;&#x6210;&#x672c;&#xff0c;&#x57fa;&#x4e8e;&#x901a;&#x7528;UART &#x63a5;&#x53e3;&#x6240;&#x6709;&#x63a7;&#x5236;&#x673a;&#x90fd;&#x5177;&#x5907;LIN &#x5fc5;&#x9700;&#x7684;&#x786c;&#x4ef6;&#xff1b;&#x5355;&#x4fe1;&#x53f7;&#x7ebf;&#x4f20;&#x8f93;&#xff0c;&#x540c;&#x65f6;&#x4fdd;&#x8bc1;&#x4fe1;&#x53f7;&#x4f20;&#x8f93;&#x7684;&#x5ef6;&#x8fdf;&#x65f6;&#x95f4;&#xff1b;LIN&#x5177;&#x6709;&#x53ef;&#x9884;&#x6d4b;&#x7684;&#x7535;&#x78c1;&#x517c;&#x5bb9;&#x6027;&#x80fd;&#xff0c;&#x4e3a;&#x4e86;&#x9650;&#x5236;EMC&#x7684;&#x5f3a;&#x5ea6;&#xff0c;LIN&#x534f;&#x8bae;&#x89c4;&#x5b9a;&#x6700;&#x5927;&#x4f20;&#x8f93;&#x901f;&#x7387;&#x4e3a;20kbps&#xff1b;LIN&#x603b;&#x7ebf;&#x63d0;&#x4f9b;&#x4fe1;&#x53f7;&#x7684;&#x914d;&#x7f6e;&#x3001;&#x5904;&#x7406;&#x3001;&#x8bc6;&#x522b;&#x548c;&#x8bca;&#x65ad;&#x529f;&#x80fd;">
+<node CREATED="1672301059523" ID="ID_58747162" MODIFIED="1672301064700" TEXT="LIN&#x603b;&#x7ebf;&#x6709;&#x5982;&#x4e0b;&#x7279;&#x70b9;&#xff1a;&#xa;&#xa;    &#x5355;&#x4e3b;&#x63a7;&#x5668;/&#x591a;&#x4ece;&#x8bbe;&#x5907;&#x6a21;&#x5f0f;&#x65e0;&#x9700;&#x4ef2;&#x88c1;&#x673a;&#x5236;&#xff1b;&#x4f4e;&#x6210;&#x672c;&#xff0c;&#x57fa;&#x4e8e;&#x901a;&#x7528;UART &#x63a5;&#x53e3;&#x6240;&#x6709;&#x63a7;&#x5236;&#x673a;&#x90fd;&#x5177;&#x5907;LIN &#x5fc5;&#x9700;&#x7684;&#x786c;&#x4ef6;&#xff1b;&#x5355;&#x4fe1;&#x53f7;&#x7ebf;&#x4f20;&#x8f93;&#xff0c;&#x540c;&#x65f6;&#x4fdd;&#x8bc1;&#x4fe1;&#x53f7;&#x4f20;&#x8f93;&#x7684;&#x5ef6;&#x8fdf;&#x65f6;&#x95f4;&#xff1b;LIN&#x5177;&#x6709;&#x53ef;&#x9884;&#x6d4b;&#x7684;&#x7535;&#x78c1;&#x517c;&#x5bb9;&#x6027;&#x80fd;&#xff0c;&#x4e3a;&#x4e86;&#x9650;&#x5236;EMC&#x7684;&#x5f3a;&#x5ea6;&#xff0c;LIN&#x534f;&#x8bae;&#x89c4;&#x5b9a;&#x6700;&#x5927;&#x4f20;&#x8f93;&#x901f;&#x7387;&#x4e3a;20kbps&#xff1b;LIN&#x603b;&#x7ebf;&#x63d0;&#x4f9b;&#x4fe1;&#x53f7;&#x7684;&#x914d;&#x7f6e;&#x3001;&#x5904;&#x7406;&#x3001;&#x8bc6;&#x522b;&#x548c;&#x8bca;&#x65ad;&#x529f;&#x80fd;">
 <node CREATED="1672301507590" ID="ID_319708187" MODIFIED="1672301519647">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1055,7 +1767,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1672388714979" FOLDED="true" ID="ID_1341440048" MODIFIED="1675148672957">
+<node CREATED="1672388714979" ID="ID_1341440048" MODIFIED="1672388763625">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1488,7 +2200,21 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1674113266878" ID="ID_1184166132" MODIFIED="1674113272306" TEXT="Pre sil is best done by engineers who are good in digital design, know verilog etc.&#xa;&#xa;Post sil can be done by embedded developers who know good C and are comfortable with functional behavior of SOC. Some knowledge of digital design will be very helpful. As the code is very complex, good sw program management is essential."/>
+<node CREATED="1674113266878" ID="ID_1184166132" MODIFIED="1674113272306" TEXT="Pre sil is best done by engineers who are good in digital design, know verilog etc.&#xa;&#xa;Post sil can be done by embedded developers who know good C and are comfortable with functional behavior of SOC. Some knowledge of digital design will be very helpful. As the code is very complex, good sw program management is essential.">
+<node CREATED="1675672642603" ID="ID_162974220" MODIFIED="1675672694419">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Post-silicon validation defined in Part10, Clauses 10.5.1</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node CREATED="1674117269258" ID="ID_1481169176" MODIFIED="1674117276226">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1579,6 +2305,19 @@
 <node CREATED="1674109804340" ID="ID_1226645775" MODIFIED="1674109810145" TEXT="IEC 61508&#x6807;&#x51c6;&#x8d77;&#x6e90;&#x4e8e;&#x5de5;&#x4e1a;&#x7a0b;&#x5e8f;&#x63a7;&#x5236;&#x9886;&#x57df;&#x3002;&#x8be5;&#x6807;&#x51c6;&#x6db5;&#x76d6;&#x4e86;&#x5b8c;&#x6574;&#x7684;&#x5b89;&#x5168;&#x751f;&#x547d;&#x5468;&#x671f;&#xff0c;&#x5f53;&#x5236;&#x5b9a;&#x76f8;&#x5173;&#x9886;&#x57df;&#x7279;&#x5b9a;&#x7684;&#x529f;&#x80fd;&#x5b89;&#x5168;&#x6807;&#x51c6;&#x65f6;&#xff0c;&#x9700;&#x8981;&#x8fdb;&#x4e00;&#x6b65;&#x7ec6;&#x5316;&#x8bf4;&#x660e;"/>
 <node CREATED="1674109867561" ID="ID_821846504" MODIFIED="1674109876489" TEXT="&#x6c7d;&#x8f66;&#x4ea7;&#x4e1a;&#x8f6f;&#x4f53;&#x53ef;&#x9760;&#x6027;&#x534f;&#x4f1a;&#xff08;MISRA&#xff09;&#x7684;&#x65b9;&#x9488;&#x4e2d;&#x6db5;&#x76d6;&#x4e86;&#x6709;&#x5173;&#x8f66;&#x8f86;&#x5b89;&#x5168;&#x76f8;&#x5173;&#x7cfb;&#x7edf;&#x7684;&#x8f6f;&#x4f53;&#x5f00;&#x53d1;[3]&#x3002;MISRA&#x8ba1;&#x5212;&#x662f;&#x8981;&#x63d0;&#x4f9b;&#x8f66;&#x8f86;&#x7528;&#x5d4c;&#x5165;&#x5f0f;&#x8f6f;&#x4f53;&#x5f00;&#x53d1;&#x7684;&#x65b9;&#x9488;&#x3002;&#x5728;1994&#x5e74;11&#x6708;&#x65f6;&#x53d1;&#x884c;&#x4e86;&#x4e00;&#x5957;&#x8f66;&#x7528;&#x5d4c;&#x5165;&#x5f0f;&#x8f6f;&#x4f53;&#x5f00;&#x53d1;&#x7684;&#x65b9;&#x9488;&#xff0c;&#x662f;&#x7b2c;&#x4e00;&#x4e2a;&#x5728;&#x8f66;&#x8f86;&#x4ea7;&#x4e1a;&#x5bf9;&#x5e94;IEC 61508&#x7684;&#x6807;&#x51c6;&#xff0c;1998&#x5e74;&#x65f6;MISRA&#x63d0;&#x51fa;&#x4e86;MISRA C&#xff0c;&#x662f;&#x517c;&#x987e;&#x5d4c;&#x5165;&#x5f0f;&#x7cfb;&#x7edf;&#x7684;&#x5b89;&#x5168;&#x6027;&#x53ca;&#x53ef;&#x79fb;&#x690d;&#x6027;&#x7684;C&#x8bed;&#x8a00;&#x5f00;&#x53d1;&#x6807;&#x51c6;&#x3002;&#xa;&#xa;ISO 26262&#x662f;&#x5c06;IEC 61508&#x5ef6;&#x4f38;&#x5230;&#x8f66;&#x8f86;&#x7684;&#x7535;&#x673a;/&#x7535;&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x5b89;&#x5168;&#x6807;&#x51c6;&#x3002; "/>
 </node>
+<node CREATED="1675750614477" ID="ID_1914679994" MODIFIED="1675750631164" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">ISO 21434</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1668947370667" ID="ID_326234534" MODIFIED="1668947411085" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1618,8 +2357,7 @@
       <b>ETAS&#160;&#160;RTA-CAR</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675147145548" ID="ID_80090338" MODIFIED="1675147185389">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1630,8 +2368,7 @@
       <font color="#ff0033">ETAS Classic AUTOSAR RTA-CAR&#24037;&#20855;&#38142;&#30340;&#32452;&#25104;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675147243101" ID="ID_1978933007" MODIFIED="1675147500399" TEXT="&#x603b;&#x4f53;&#x67b6;&#x6784;">
 <node CREATED="1675147503525" ID="ID_1994664318" MODIFIED="1675147509303">
@@ -1642,8 +2379,7 @@
   <body>
     <img src="Pic/etas-rta-car-overview.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675147679902" ID="ID_27947410" MODIFIED="1675147720325">
@@ -1659,8 +2395,7 @@
       &#24494;&#20449;&#20844;&#20247;&#21495;&#25110;&#32773;youtube https://www.youtube.com/watch?v=L521TI4hOOw
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675147791119" ID="ID_1705424624" MODIFIED="1675148003152">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1704,8 +2439,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675238464271" ID="ID_143117136" MODIFIED="1675238491909">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1718,8 +2452,7 @@
       <b>DBC&#25991;&#20214;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

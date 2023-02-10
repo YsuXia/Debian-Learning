@@ -12597,6 +12597,92 @@
 </html>
 </richcontent>
 </node>
+<node CREATED="1675417002026" ID="ID_728155333" MODIFIED="1675419063140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>section-selectors</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35821;&#27861;&#65306;
+    </p>
+    <p>
+      [ section-selector [ , section-selector... ] ]
+    </p>
+    <p>
+      section-selector is:
+    </p>
+    <p>
+      [ section-attribute ][ section-type ]
+    </p>
+    <p>
+      [ symbol symbol-name ][ section section-name ]
+    </p>
+    <p>
+      [ object module-spec ]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      section-attribute &#20013;&#65292;readonly&#20195;&#34920;ROM section, readwrite&#20195;&#34920;RAM section&#65307;
+    </p>
+    <p>
+      &#20855;&#20307;&#21448;&#20250;&#32454;&#20998;&#25104;
+    </p>
+    <p>
+      ro code
+    </p>
+    <p>
+      ro data
+    </p>
+    <p>
+      rw code
+    </p>
+    <p>
+      rw data
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      section-type ELF&#25991;&#20214;&#37324;&#38754;&#30340;section, &#21487;&#20197;&#35774;&#32622;&#25104;preinit_array&#25110;&#32773;&#26159;init_array&#65292;&#20998;&#21035;&#23545;&#24212;
+    </p>
+    <p>
+      ELF&#37324;&#38754;&#30340;SHT_PREINIT_ARRAY&#21644;SHT_INIT_ARRAY
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1675419065917" ID="ID_1168938945" MODIFIED="1675419102700">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4">{ rw } /* Selects all read-write sections */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">{ section .mydata* } /* Selects only .mydata* sections */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">/* Selects .mydata* sections available in the object special.o */ </font>
+    </p>
+    <p>
+      <font face="Times New Roman" size="4">{ section .mydata* object special.o }</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1675062617490" ID="ID_481612693" MODIFIED="1675221372209">
 <richcontent TYPE="NODE"><html>
