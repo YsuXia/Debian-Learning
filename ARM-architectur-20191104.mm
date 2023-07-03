@@ -1134,7 +1134,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0000" CREATED="1442123195928" FOLDED="true" ID="ID_857878324" MODIFIED="1675221372285" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
+<node COLOR="#ff0000" CREATED="1442123195928" ID="ID_857878324" MODIFIED="1678261096550" POSITION="left" TEXT="&#x5929;&#x5d4c;&#x79d1;&#x6280;arm&#x5b66;&#x4e60;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node COLOR="#330033" CREATED="1442127652218" FOLDED="true" ID="ID_1746631417" MODIFIED="1675221372200">
 <richcontent TYPE="NODE"><html>
@@ -5556,7 +5556,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456407828827" FOLDED="true" ID="ID_1592564339" MODIFIED="1675221372200">
+<node CREATED="1456407828827" ID="ID_1592564339" MODIFIED="1678261097365">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11162,7 +11162,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1673180272777" FOLDED="true" ID="ID_1839704898" MODIFIED="1675154507112">
+<node CREATED="1673180272777" ID="ID_1839704898" MODIFIED="1683164343554">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11282,8 +11282,7 @@
       &#20540;&#37324;&#38754;&#36739;&#23567;&#30340;&#20540;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1674870760729" ID="ID_455777446" MODIFIED="1674870773900">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11292,8 +11291,7 @@
   <body>
     <img src="armpic/armv7-m-prioritygroup.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1674871207219" ID="ID_1753883467" MODIFIED="1674871477483">
 <richcontent TYPE="NODE"><html>
@@ -11317,8 +11315,7 @@
       &#39318;&#20808;&#25191;&#34892;&#65307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -11332,8 +11329,7 @@
       <b><font color="#0000ff">&#25191;&#34892;&#20248;&#20808;&#32423;&#21644;&#20248;&#20808;&#32423;&#30340;&#25260;&#21319;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1674871887115" ID="ID_1783655398" MODIFIED="1675222170327">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11401,8 +11397,7 @@
       <font color="#0000ff">The priority boosting mechanisms only affect the group priority. They have no effect on the subpriority.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1674954944714" ID="ID_435546437" MODIFIED="1674955831841">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11425,8 +11420,7 @@
       2&#12289;&#21453;&#36716;&#34987;&#25250;&#21344;&#30340;&#24322;&#24120;&#30340;&#20248;&#20808;&#32423;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#ff0000" DESTINATION="ID_817145649" ENDARROW="Default" ENDINCLINATION="865;0;" ID="Arrow_ID_1166442832" STARTARROW="None" STARTINCLINATION="423;0;"/>
 </node>
 </node>
@@ -11438,8 +11432,7 @@
   <body>
     <img src="armpic/armv7-m_mode_transition.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1674875292923" ID="ID_817145649" MODIFIED="1674955824538">
 <richcontent TYPE="NODE"><html>
@@ -11484,8 +11477,7 @@
       &#22788;&#20110;pending&#30340;&#29366;&#24577;&#65307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#ff0000" DESTINATION="ID_817145649" ENDARROW="Default" ENDINCLINATION="865;0;" ID="Arrow_ID_1166442832" SOURCE="ID_435546437" STARTARROW="None" STARTINCLINATION="423;0;"/>
 </node>
 <node CREATED="1674888415096" ID="ID_1937952699" MODIFIED="1675222174507">
@@ -11534,8 +11526,7 @@
       &#23558;&#24322;&#24120;&#30340;&#20248;&#20808;&#32423;&#25552;&#21319;&#21040;HardFault&#32423;&#21035;&#20250;&#23548;&#33268;&#22788;&#29702;&#22120;&#21457;&#29983;HardFault&#24322;&#24120;&#38169;&#35823;&#65307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1674891407563" ID="ID_900231892" MODIFIED="1674891503938">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11549,8 +11540,7 @@
       &#21487;&#20197;&#26597;&#30475;B1-587&#30340;Exception entry bahavior
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1674891640314" ID="ID_1741987664" MODIFIED="1675221372279">
 <richcontent TYPE="NODE"><html>
@@ -11580,8 +11570,7 @@
       4&#12289;&#24403;PRIMASK&#34987;&#35774;&#32622;&#25104;1&#30340;&#26102;&#20505;&#65292;SVC&#25351;&#20196;&#21457;&#29983;&#20102;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1674962381571" ID="ID_754608680" MODIFIED="1674970528944">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11598,8 +11587,7 @@
       BusFault&#24322;&#24120;&#19981;&#20250;&#21319;&#32423;&#25104;HardFault&#24322;&#24120;&#65292;<font size="calc(var(--scale-factor)*11.04px)" face="sans-serif" color="#ff0033">The fault handler operates but the stack contents are corrupted</font><font size="calc(var(--scale-factor)*11.04px)" face="sans-serif">&#65307;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -11638,8 +11626,7 @@
       &#20026;&#20102;&#20445;&#35777;&#31995;&#32479;&#30340;&#23454;&#26102;&#24615;&#65292;&#24403;&#20013;&#26029;&#21457;&#29983;&#26102;&#26159;&#24517;&#39035;&#20808;&#24471;&#21040;&#21709;&#24212;&#30340;&#65292;&#24403;&#26377;&#20013;&#26029;&#22788;&#22312;&#27963;&#36291;&#29366;&#24577;&#26102;OS&#23601;&#19981;&#33021;&#20999;&#25442;&#19978;&#19979;&#25991;&#12290;&#20504;&#33509;&#27809;&#26377;&#25346;&#36215;&#24322;&#24120;&#26426;&#21046;&#65292;&#20219;&#21153;&#20999;&#25442;&#30340;&#26102;&#38388;&#21487;&#33021;&#20250;&#25302;&#30340;&#24456;&#38271;&#65292;&#22240;&#20026;&#38656;&#35201;&#31561;&#24453;&#19979;&#19968;&#27425;&#30340;OS&#33410;&#25293;&#20013;&#26029;&#20135;&#29983;&#26102;&#25165;&#33021;&#20877;&#27425;&#20999;&#25442;&#65292;&#29305;&#21035;&#26159;&#24403;&#20013;&#26029;&#28304;&#19982;OS&#33410;&#25293;&#20013;&#26029;&#39057;&#29575;&#25509;&#36817;&#26102;&#65292;&#21457;&#29983;&#8220;&#20849;&#25391;&#8221;&#23548;&#33268;&#20219;&#21153;&#26080;&#27861;&#20999;&#25442;&#12290;OS&#23558;PendSV&#30340;&#20248;&#20808;&#32423;&#35774;&#32622;&#20026;&#26368;&#20302;&#65292;&#24182;&#22312;&#39640;&#20248;&#20808;&#32423;&#20013;&#26029;&#37117;&#25191;&#34892;&#23436;&#27605;&#20043;&#21518;&#31435;&#21363;&#36827;&#20837;PendSV&#24322;&#24120;&#26381;&#21153;&#20363;&#31243;,&#24182;&#23436;&#25104;&#20999;&#25442;&#19978;&#19979;&#25991;&#65292;&#36825;&#26679;&#23601;&#35299;&#20915;&#20102;&#36825;&#20010;&#38382;&#39064;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1674984586984" ID="ID_1674922052" MODIFIED="1674984699392">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11653,12 +11640,11 @@
       &#20999;&#25442;&#19978;&#19979;&#25991;&#30340;&#26102;&#20505;&#20851;&#38381;&#20013;&#26029;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1672362013426" FOLDED="true" ID="ID_438324112" MODIFIED="1675154490512">
+<node CREATED="1672362013426" ID="ID_438324112" MODIFIED="1683164365429">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11675,7 +11661,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1672382520807" FOLDED="true" ID="ID_1346708275" MODIFIED="1675154489297">
+<node CREATED="1672382520807" ID="ID_1346708275" MODIFIED="1683164367245">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11711,8 +11697,7 @@
       fault&#21644;debug-related resources
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1672383030759" ID="ID_952488040" MODIFIED="1674959729670">
 <richcontent TYPE="NODE"><html>
@@ -11730,8 +11715,7 @@
       &#30828;&#20214;&#21487;&#20197;&#20135;&#29983;&#19968;&#20010;NMI&#24322;&#24120;&#25110;&#32773;&#36719;&#20214;&#21487;&#20197;&#23558;NMI&#24322;&#24120;&#35774;&#32622;&#25104;pending&#29366;&#24577;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1672383036671" ID="ID_1224558602" MODIFIED="1674960046414">
 <richcontent TYPE="NODE"><html>
@@ -11752,8 +11736,7 @@
       &#20856;&#22411;&#22320;HardFault&#38169;&#35823;&#21487;&#20197;&#29992;&#20110;&#31995;&#32479;&#26080;&#27861;&#24674;&#22797;&#30340;&#38169;&#35823;&#22833;&#36133;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1672383117079" ID="ID_845242815" MODIFIED="1674960236790">
 <richcontent TYPE="NODE"><html>
@@ -11774,8 +11757,7 @@
       &#22914;&#26524;&#34987;&#31105;&#29992;&#65292;&#37027;&#20040;&#38169;&#35823;&#20250;&#34987;&#21319;&#32423;&#25104;HardFault&#24322;&#24120;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1672383240559" ID="ID_491344777" MODIFIED="1674971466320">
 <richcontent TYPE="NODE"><html>
@@ -11817,8 +11799,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1672383248400" ID="ID_1277405055" MODIFIED="1672383396584">
 <richcontent TYPE="NODE"><html>
@@ -11911,8 +11892,7 @@
       <font color="#3333ff" face="Times New Roman" size="4"><b>&#24322;&#24120;&#36827;&#20837;&#30340;&#34892;&#20026; Exception Entry Behavior</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675041883934" ID="ID_565464583" MODIFIED="1675042888400">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11941,8 +11921,7 @@
       &#24403;&#36827;&#34892;pop&#25805;&#20316;&#30340;&#26102;&#20505;&#65292;&#20808;&#23558;&#25968;&#25454;&#21462;&#20986;&#65292;&#28982;&#21518;&#20877;&#23558;&#26632;&#25351;&#38024;&#36827;&#34892;&#22686;&#21152;&#25805;&#20316;&#65307;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675043392264" ID="ID_1380353838" MODIFIED="1675221372275">
 <richcontent TYPE="NODE"><html>
@@ -11966,8 +11945,7 @@
       Execution Program Status Register,&#160;&#160;&#160;&#160;&#160;EPSR
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675045801920" ID="ID_569761696" MODIFIED="1675046011458">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11984,8 +11962,7 @@
       <font color="#ff0000">IT&#25351;&#20196;&#65288;If Then&#25351;&#20196;&#65289;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675048349755" ID="ID_1615233706" MODIFIED="1675049205642">
@@ -12016,8 +11993,7 @@
       FPSCR&#23492;&#23384;&#22120;&#65288;Floating-point Status and Control Register&#65289;&#25552;&#20379;&#23545;&#28014;&#28857;&#31995;&#32479;&#30340;&#25511;&#21046;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675049217618" ID="ID_1732597197" MODIFIED="1675221372274">
 <richcontent TYPE="NODE"><html>
@@ -12035,8 +12011,7 @@
       <b>&#23492;&#23384;&#22120;&#20301;&#32622;&#32943;&#23450;&#26159;&#22312;&#26368;&#20302;&#30340;&#22320;&#22336;&#22788;&#65307;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675057366305" ID="ID_1563524800" MODIFIED="1675057373978">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12045,8 +12020,7 @@
   <body>
     <img src="armpic/armv7-m-stackframe.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675057772455" ID="ID_1890917742" MODIFIED="1675221372225">
@@ -12071,8 +12045,7 @@
       &#25193;&#23637;&#37027;&#20040;&#26080;&#35270;STKALIGN&#30340;&#23384;&#22312;&#65292;&#24378;&#21046;&#20351;&#29992;8&#23383;&#33410;&#23545;&#40784;&#30340;&#26041;&#24335;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675214446364" ID="ID_163100225" MODIFIED="1675221372245">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12104,8 +12077,7 @@
       <font color="#ff0033">&#20351;&#29992;PSR[9]&#30340;&#26041;&#24335;&#20351;&#24471;&#19978;&#19979;&#25991;&#20999;&#25442;&#21464;&#24471;&#36879;&#26126;&#65292;&#20294;&#26159;&#21364;&#38656;&#35201;&#36719;&#20214;&#20445;&#25345;&#23545;PSR[9]&#19981;&#25805;&#20316;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675214913212" ID="ID_419019409" MODIFIED="1675214920451">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12114,8 +12086,7 @@
   <body>
     <img src="armpic/armv7-m-stackalign.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675216154734" ID="ID_1113696585" MODIFIED="1675217171397">
 <richcontent TYPE="NODE"><html>
@@ -12142,8 +12113,7 @@
       &#36864;&#20986;&#30340;&#21160;&#20316;&#65306;&#23558;SP + framesize&#65292;&#28982;&#21518;&#23545;&#32467;&#26524;&#20570;OR&#25805;&#20316; 4*xPSR[9]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675217197221" ID="ID_877985874" MODIFIED="1675217838694">
 <richcontent TYPE="NODE"><html>
@@ -12161,8 +12131,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675218229220" ID="ID_386281466" MODIFIED="1675221372263">
 <richcontent TYPE="NODE"><html>
@@ -12174,8 +12143,7 @@
       <b><font color="#ff00cc">&#32771;&#34385;&#21040;&#23545;&#40784;&#38382;&#39064;&#30340;&#65292;&#24102;FP&#25193;&#23637;&#26102;&#20505;&#30340;&#24322;&#24120;&#20837;&#26632;&#24773;&#20917;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675218279078" ID="ID_1392828379" MODIFIED="1675218285654">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12184,8 +12152,7 @@
   <body>
     <img src="armpic/armv7-m-extendedstackalignment.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12238,8 +12205,7 @@
       <font color="#0033ff">FPCCR ----&gt; Floating Point Context Control Register</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12253,8 +12219,7 @@
       <b><font color="#0033ff" size="4">&#24322;&#24120;&#36820;&#22238;&#34892;&#20026; Execption return behavior</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675231080981" ID="ID_1370921054" MODIFIED="1675233906481">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12277,8 +12242,7 @@
       <font color="#330033" face="Times New Roman">&#26681;&#25454;Cortex-M3&#30340;&#24322;&#24120;&#22788;&#29702;&#27969;&#31243;&#65292;&#24403;&#21457;&#29983;&#24322;&#24120;&#26102;&#65292;CPU&#20808;&#23558;&#26680;&#24515;&#23492;&#23384;&#22120;&#21387;&#20837;&#24403;&#21069;&#22534;&#26632;&#65288;&#22914;&#26524;&#24403;&#21069;&#26159;&#32447;&#31243;&#27169;&#24335;&#65292;&#21017;&#21387;&#20837;PSP&#22534;&#26632;&#65292;&#22914;&#26524;&#24403;&#21069;&#26159;Handler&#27169;&#24335;&#65292;&#21017;&#21387;&#20837;MSP&#22534;&#26632;&#65289;&#65292;&#28982;&#21518;CPU&#20250;&#23558;LR&#35774;&#32622;&#20026;&#19968;&#20010;&#29305;&#27530;&#30340;&#20540;&#65292;&#27604;&#22914;0xFFFFFFFD&#65292;&#28982;&#21518;&#20999;&#25442;&#21040;Handler&#27169;&#24335;&#65292;&#20999;&#25442;&#25104;MSP&#22534;&#26632;&#65292;&#26368;&#21518;&#36827;&#20837;&#24322;&#24120;&#22788;&#29702;&#20363;&#31243;&#65288;&#24322;&#24120;&#22788;&#29702;&#20363;&#31243;&#24635;&#26159;&#20351;&#29992;MSP&#22534;&#26632;&#65289;&#12290;&#22312;&#24322;&#24120;&#22788;&#29702;&#20363;&#31243;&#23436;&#25104;&#21518;&#38656;&#35201;&#20174;&#20013;&#26029;&#36820;&#22238;&#26102;&#65292;&#23601;&#23558;LR&#30340;&#20540;&#36733;&#20837;&#21040;PC&#20013;&#65288;&#36890;&#24120;&#26159;BX LR&#25351;&#20196;&#65292;&#20063;&#21487;&#20197;&#26159;MOV PC,LR&#25351;&#20196;&#65292;&#25110;&#32773;POP {&#8230;, PC}&#31561;&#25351;&#20196;&#65292;&#21482;&#35201;&#33021;&#23558;LR&#36171;&#32473;PC&#21363;&#21487;&#65289;&#65292;&#30001;&#20110;LR&#30340;&#20540;&#26159;0xFFFFFFFD&#65292;CPU&#26816;&#27979;&#21040;&#21521;PC&#20013;&#36733;&#20837;&#30340;&#26159;&#36825;&#20010;&#29305;&#27530;&#20540;&#26102;&#65292;&#23601;&#30693;&#36947;&#26159;&#20013;&#26029;&#36820;&#22238;&#65292;&#20110;&#26159;&#20570;&#20013;&#26029;&#36820;&#22238;&#30340;&#21160;&#20316;&#65288;&#19982;&#21387;&#20837;&#21160;&#20316;&#30456;&#21453;&#65306;&#20174;&#22534;&#26632;&#20013;&#24377;&#20986;&#26680;&#24515;&#23492;&#23384;&#22120;&#30340;&#20540;&#65292;&#24674;&#22797;&#21040;&#32447;&#31243;&#27169;&#24335;&#25110;Handler&#27169;&#24335;&#31561;&#65289;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675231424609" ID="ID_1459503636" MODIFIED="1675233448403">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12313,8 +12277,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675233451916" ID="ID_547711395" MODIFIED="1675233499108">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12323,8 +12286,7 @@
   <body>
     <img src="armpic/EXC_RETURN-noFP.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675233501476" ID="ID_1660137022" MODIFIED="1675233507685">
 <richcontent TYPE="NODE"><html>
@@ -12334,8 +12296,7 @@
   <body>
     <img src="armpic/EXC_RETURN-withFP.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675233908988" ID="ID_1483110399" MODIFIED="1675234148970">
@@ -12354,8 +12315,7 @@
       &#30340;&#26684;&#24335;&#20250;&#34987;&#35748;&#20026;&#26159;&#27809;&#26377;&#26435;&#38480;&#30340;&#25351;&#20196;&#65292;&#21487;&#33021;&#20250;&#35302;&#21457;MemManager&#24322;&#24120;&#25110;&#32773;&#26159;UsageFault&#24322;&#24120;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675234907699" ID="ID_1288774180" MODIFIED="1675234996900">
@@ -12368,8 +12328,7 @@
       <b><font size="4" color="#ff0033">&#24322;&#24120;&#36820;&#22238;&#26102;&#20505;&#30340;&#23436;&#25972;&#24615;&#26816;&#26597;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675144449350" ID="ID_1870371660" MODIFIED="1675221372219">
@@ -12382,8 +12341,7 @@
       <b>&#24322;&#24120;&#36820;&#22238;&#26102;&#30340;&#24322;&#24120;&#21644;&#23614;&#38142;&#24322;&#24120;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675144520924" ID="ID_478376241" MODIFIED="1675145491230">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12427,8 +12385,7 @@
       2&#12289;&#30001;&#29305;&#27530;&#30446;&#30340;&#25513;&#30721;&#23492;&#23384;&#22120;&#35774;&#32622;&#30340;boosted priority
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675150119839" ID="ID_786906417" MODIFIED="1675152292898">
 <richcontent TYPE="NODE"><html>
@@ -12467,8 +12424,7 @@
       2&#12289;&#22788;&#29702;&#22120;&#20250;&#23558;derived exception&#30340;&#20248;&#20808;&#32423;&#21319;&#32423;&#21040;HardFault
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675152590498" ID="ID_893085064" MODIFIED="1675233738516">
 <richcontent TYPE="NODE"><html>
@@ -12507,6 +12463,107 @@
       
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1683169953168" ID="ID_455388917" MODIFIED="1683169971112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3300ff"><b>&#22788;&#29702;&#22120;&#27169;&#24335;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1683181439214" ID="ID_1510380931" MODIFIED="1683181899784">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff3333" size="4">The IPSR</font></b>
+    </p>
+    <p>
+      The processor writes to the IPSR on exception entry and exit. Software can use an MRS instruction, to read the IPSR,
+    </p>
+    <p>
+      but the processor ignores writes to the IPSR by an MSR instruction. The IPSR Exception Number field is defined as
+    </p>
+    <p>
+      follows:
+    </p>
+    <p>
+      &#8226;
+    </p>
+    <p>
+      In Thread mode, the value is 0.
+    </p>
+    <p>
+      &#8226;
+    </p>
+    <p>
+      In Handler mode, holds the exception number of the currently-executing exception.
+    </p>
+    <p>
+      An exception number indicates the currently executing exception and its entry vector, see Exception number
+    </p>
+    <p>
+      definition on page B1-581 and The vector table on page B1-581.
+    </p>
+    <p>
+      On reset, the processor is in Thread mode and the Exception Number field of the IPSR is cleared to 0. As a result,
+    </p>
+    <p>
+      the value 1, the exception number for reset, is a transitory value, that software cannot see as a valid IPSR Exception
+    </p>
+    <p>
+      Number.
+    </p>
+    <p>
+      &#21028;&#26029;&#26159;&#22788;&#20110;thread&#27169;&#24335;&#36824;&#26159;handler&#27169;&#24335;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1683181789290" ID="ID_401785681" MODIFIED="1683181877243">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The special-purpose CONTROL register is a 2-bit or 3-bit register defined as follows:
+    </p>
+    <p>
+      nPRIV, bit[0]
+    </p>
+    <p>
+      Defines the execution privilege in Thread mode:
+    </p>
+    <p>
+      0
+    </p>
+    <p>
+      Thread mode has privileged access.
+    </p>
+    <p>
+      1
+    </p>
+    <p>
+      Thread mode has unprivileged access.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#3300ff">CONTROL&#23492;&#23384;&#22120;&#21487;&#20197;&#29992;&#26469;&#21028;&#26029;&#24403;&#21069;&#26159;&#22788;&#20110;privileged&#27169;&#24335;&#36824;&#26159;unprivileged&#27169;&#24335;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -12523,8 +12580,7 @@
       <b><font color="#3333ff">IAR IDE&#24037;&#20855;&#23398;&#20064;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675061377145" ID="ID_1005543470" MODIFIED="1675221372210">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12535,8 +12591,7 @@
       IAR&#20851;&#38190;&#20989;&#25968;&#37325;&#23450;&#21521;&#21040;RAM&#20013;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675063435099" ID="ID_273792400" MODIFIED="1675063446178">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12545,8 +12600,7 @@
   <body>
     _iar_program_start&#39318;&#20808;&#20250;&#25191;&#34892;&#20004;&#20010;&#20989;&#25968;&#65306;__iar_init_core&#21644;__iar_init_vfp&#65292;&#21487;&#20197;&#23436;&#25104;&#19968;&#20123;CPU&#21644;FPU&#30456;&#20851;&#30340;&#21021;&#22987;&#21270;&#25805;&#20316;&#65292;&#22312;&#26576;&#20123;ARM&#26550;&#26500;&#25171;&#21253;&#22909;&#30340;&#36816;&#34892;&#26102;&#24211;&#20250;&#26377;&#36825;&#20004;&#20010;&#20989;&#25968;&#65292;&#29992;&#25143;&#20063;&#21487;&#20197;&#37325;&#20889;&#36825;&#20004;&#20010;&#20989;&#25968;&#26469;&#33258;&#24049;&#23454;&#29616;&#19968;&#20123;&#30456;&#20851;&#30340;&#25805;&#20316;&#12290;
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675070460590" ID="ID_600906872" MODIFIED="1675070504126">
 <richcontent TYPE="NODE"><html>
@@ -12594,8 +12648,7 @@
       for example, the interrupt vector table.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1675417002026" ID="ID_728155333" MODIFIED="1675419063140">
 <richcontent TYPE="NODE"><html>
@@ -12658,8 +12711,7 @@
       ELF&#37324;&#38754;&#30340;SHT_PREINIT_ARRAY&#21644;SHT_INIT_ARRAY
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675419065917" ID="ID_1168938945" MODIFIED="1675419102700">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12679,8 +12731,7 @@
       <font face="Times New Roman" size="4">{ section .mydata* object special.o }</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -12694,8 +12745,7 @@
       <font color="#ff0033">IAR&#27719;&#32534;&#23398;&#20064;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1675062648090" ID="ID_1603968899" MODIFIED="1675062678818">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12704,8 +12754,7 @@
   <body>
     <font face="Times New Roman" size="4">SECTION&#29992;&#20110;&#23450;&#20041;&#19968;&#20010;&#27573;&#65292;&#27573;&#21517;&#20026;&#8220;.ResetHandler&#8221;&#65292;&#27573;&#30340;&#31867;&#22411;&#26159;&#20195;&#30721;(CODE)&#65307;REODER&#25351;&#31034;&#29992;&#32473;&#23450;&#30340;&#21517;&#31216;&#24320;&#21551;&#19968;&#20010;&#26032;&#30340;&#27573;&#65307;ROOT&#25351;&#31034;&#38142;&#25509;&#22120;&#65292;&#24403;&#27573;&#20869;&#30340;&#31526;&#21495;&#27809;&#26377;&#34987;&#24341;&#29992;&#65292;&#38142;&#25509;&#22120;&#20063;&#19981;&#21487;&#20197;&#20002;&#24323;&#36825;&#20010;&#27573;&#12290;</font>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675062953002" ID="ID_187613646" MODIFIED="1675063128306">
@@ -12730,10 +12779,9 @@
       &#32534;&#35793;&#23436;&#25104;&#20043;&#21518;&#21487;&#20197;&#22312;&#24037;&#31243;&#30340;Output&#30446;&#24405;&#19979;&#25214;&#21040;.map&#25991;&#20214;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1675065741652" ID="ID_374267023" MODIFIED="1675221372207">
+<node CREATED="1675065741652" ID="ID_374267023" MODIFIED="1678265719245">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12833,8 +12881,8 @@
       .shstrtab&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// Contains the names of the sections.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<linktarget COLOR="#ff0000" DESTINATION="ID_374267023" ENDARROW="Default" ENDINCLINATION="1011;0;" ID="Arrow_ID_89562212" SOURCE="ID_1503991609" STARTARROW="None" STARTINCLINATION="1372;0;"/>
 <node CREATED="1675065908884" ID="ID_643884392" MODIFIED="1675065934915">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12848,8 +12896,7 @@
       &#21442;&#38405;Section&#19968;&#31456;&#36164;&#26009;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675068708005" ID="ID_119897699" MODIFIED="1675068727973">
@@ -12860,8 +12907,212 @@
   <body>
     <b><font color="#ff0000">SDRAM</font></b>&#65288;Synchronous Dynamic Random Access Memory&#65289;&#21516;&#27493;&#21160;&#24577;&#38543;&#26426;&#23384;&#21462;&#23384;&#20648;&#22120;&#65292;&#21516;&#27493;&#26159;&#25351;Memory&#24037;&#20316;&#38656;&#35201;&#27493;&#26102;&#38047;&#65292;&#20869;&#37096;&#30340;&#21629;&#20196;&#30340;&#21457;&#36865;&#19982;&#25968;&#25454;&#30340;&#20256;&#36755;&#37117;&#20197;&#23427;&#20026;&#22522;&#20934;&#65307;&#21160;&#24577;&#26159;&#25351;&#23384;&#20648;&#38453;&#21015;&#38656;&#35201;&#19981;&#26029;&#30340;&#21047;&#26032;&#26469;&#20445;&#35777;&#25968;&#25454;&#19981;&#20002;&#22833;&#65307;&#38543;&#26426;&#26159;&#25351;&#25968;&#25454;&#19981;&#26159;&#32447;&#24615;&#20381;&#27425;&#23384;&#20648;&#65292;&#32780;&#26159;&#30001;&#25351;&#23450;&#22320;&#22336;&#36827;&#34892;&#25968;&#25454;&#35835;&#20889;&#12290;&#30446;&#21069;&#30340;168&#32447;64bit&#24102;&#23485;&#20869;&#23384;&#22522;&#26412;&#19978;&#37117;&#37319;&#29992;SDRAM&#33455;&#29255;&#65292;&#24037;&#20316;&#30005;&#21387;3.3V&#30005;&#21387;&#65292;&#23384;&#21462;&#36895;&#24230;&#39640;&#36798;7.5ns&#65292;&#32780;EDO&#20869;&#23384;&#26368;&#24555;&#20026;15ns&#12290;&#24182;&#23558;RAM&#19982;CPU&#20197;&#30456;&#21516;&#26102;&#38047;&#39057;&#29575;&#25511;&#21046;&#65292;&#20351;RAM&#19982;CPU&#22806;&#39057;&#21516;&#27493;&#65292;&#21462;&#28040;&#31561;&#24453;&#26102;&#38388;&#65292;&#25152;&#20197;&#20854;&#20256;&#36755;&#36895;&#29575;&#27604;EDO DRAM&#26356;&#24555;&#12290;
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1678263481865" ID="ID_878179996" MODIFIED="1678263508534">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Linking use ILINK</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1678263510775" ID="ID_502808423" MODIFIED="1678263996037">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="5"><b>section&#30340;&#27010;&#24565;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#20010;&#36923;&#36753;&#23454;&#20307;&#65292;&#21253;&#21547;&#19968;&#27573;&#20195;&#30721;&#25110;&#32773;&#26159;&#25968;&#25454;&#65292;&#34987;&#25918;&#32622;&#21040;&#19968;&#27573;&#29289;&#29702;&#30340;&#31354;&#38388;&#24403;&#20013;&#65307;
+    </p>
+    <p>
+      &#19968;&#20010;section&#21487;&#20197;&#30001;&#22810;&#20010;section fragments&#32452;&#25104;&#65292;&#27599;&#20010;fragment&#20195;&#34920;&#30528;&#21464;&#37327;&#25110;&#32773;&#26159;&#20989;&#25968;&#65307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27599;&#20010;section&#20855;&#26377;&#19968;&#20010;&#21517;&#31216;&#20197;&#21450;&#19968;&#20010;&#20915;&#23450;&#20854;&#20869;&#23481;&#30340;type&#23646;&#24615;&#65292;section&#30340;&#21517;&#23383;&#21644;type&#23646;&#24615;
+    </p>
+    <p>
+      &#20250;&#34987;&#38142;&#25509;&#22120;&#21033;&#29992;&#26469;&#36873;&#25321;&#20855;&#20307;&#30340;&#26576;&#20010;section;
+    </p>
+    <p>
+      section&#30340;&#23646;&#24615;&#30340;&#20027;&#35201;&#20316;&#29992;&#23601;&#26159;&#29992;&#26469;&#21306;&#20998;&#21738;&#20123;section&#20250;&#34987;&#25918;&#32622;&#21040;ROM&#21306;&#22495;&#65292;&#21738;&#20123;&#20250;&#34987;&#25918;&#32622;
+    </p>
+    <p>
+      &#21040;RAM&#21306;&#22495;&#65307;
+    </p>
+    <p>
+      <font color="#ff0000">ro|readonly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ROM sections </font>
+    </p>
+    <p>
+      <font color="#ff0000">rw|readwrite&#160;&#160;&#160;&#160;&#160;&#160;RAM sections</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1678264149775" ID="ID_1997594705" MODIFIED="1678264597952">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">&#22312;section&#30340;ro&#21644;rw type&#23646;&#24615;&#20043;&#19979;&#65292;&#36824;&#21487;&#20197;&#36827;&#34892;&#32454;&#20998;&#65306;</font>
+    </p>
+    <p>
+      ro code&#160;&#160;&#160;&#160;Normal code
+    </p>
+    <p>
+      ro data&#160;&#160;&#160;&#160;&#160;Constants
+    </p>
+    <p>
+      rw code&#160;&#160;&#160;&#160;&#38656;&#35201;&#25335;&#36125;&#21040;RAM&#30340;code
+    </p>
+    <p>
+      rw data&#160;&#160;&#160;&#160;&#160;&#21464;&#37327;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      readwrite data&#36824;&#25317;&#26377;&#19968;&#20010;&#23376;&#39033;&#65292;&#21363;zi | zeroinit &#21363;&#22312;&#31243;&#24207;&#21551;&#21160;&#30340;&#26102;&#20505;&#38656;&#35201;&#34987;&#21021;&#22987;&#21270;&#25104;0
+    </p>
+    <p>
+      &#30340;section
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1678264803648" ID="ID_1601880871" MODIFIED="1678264908398">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      section&#26159;&#38142;&#25509;&#22120;&#22788;&#29702;&#30340;&#26368;&#23567;&#21333;&#20301;&#65292;&#20294;&#26159;ILINK&#21487;&#20197;&#20174;&#26368;&#32456;&#30340;&#24212;&#29992;&#24403;&#20013;&#25490;&#38500;&#25481;&#27604;section&#26356;&#23567;&#30340;
+    </p>
+    <p>
+      &#21333;&#20301;&#65292;&#21363;section fragments
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1678265046317" ID="ID_458712196" MODIFIED="1678265176862">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#32534;&#35793;&#26399;&#38388;&#65292;data&#21644;functions&#20250;&#34987;&#25918;&#32622;&#22312;&#19981;&#21516;&#30340;sections&#37324;&#38754;&#65292;&#22312;link&#38454;&#27573;&#65292;
+    </p>
+    <p>
+      linker&#30340;&#19968;&#20010;<font color="#ff0000">&#26368;&#37325;&#35201;&#30340;&#20316;&#29992;&#23601;&#26159;&#23558;&#22320;&#22336;&#36171;&#20540;</font>&#32473;&#24212;&#29992;&#31243;&#24207;&#26368;&#32456;&#20351;&#29992;&#21040;&#30340;&#21508;&#31181;&#21508;&#26679;&#30340;section
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1678265477736" ID="ID_1503991609" MODIFIED="1678265719245">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IAR&#39044;&#23450;&#20041;&#30340;sections
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink COLOR="#ff0000" DESTINATION="ID_374267023" ENDARROW="Default" ENDINCLINATION="1011;0;" ID="Arrow_ID_89562212" STARTARROW="None" STARTINCLINATION="1372;0;"/>
+</node>
+<node CREATED="1678265509236" ID="ID_1308334679" MODIFIED="1678265548072">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#36890;&#36807;&#20351;&#29992;blocks&#20851;&#38190;&#23383;&#21487;&#20197;&#23558;sections&#32452;&#21512;&#21040;&#19968;&#36215;&#25918;&#32622;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1678268254246" ID="ID_127386360" MODIFIED="1678268900436">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">block&#29992;&#20110;&#23450;&#20041;&#19968;&#20010;&#36830;&#32493;&#30340;&#20869;&#23384;&#21306;&#22495;&#65292;&#35813;&#21306;&#22495;&#21487;&#33021;&#19981;&#21253;&#21547;sections&#21487;&#33021;&#21253;&#21547;&#20854;&#20182;&#30340;block&#65307; </font>
+    </p>
+    <p>
+      <font size="4">&#22914;&#26524;&#35813;block&#19981;&#21253;&#21547;&#20219;&#20309;&#20869;&#23481;&#65292;&#21017;block&#20851;&#38190;&#23383;&#23601;&#26159;&#21333;&#32431;&#22320;&#23450;&#20041;&#20102;&#19968;&#20010;&#20869;&#23384;&#21306;&#22495;&#65307; </font>
+    </p>
+    <p>
+      <font size="4">define block CSTACK&#160;&#160;&#160;&#160;with size = __ICFEDIT_size_cstack__, alignment = 8 { }; &#21333;&#32431;&#23450;&#20041;&#19968;&#20010;&#22359;&#160;</font>
+    </p>
+    <p>
+      <font size="4">&#22914;&#26524;block&#26377;&#20869;&#23481;&#65292;&#21017;&#32463;&#24120;&#26159;&#29992;&#26469;&#23558;&#24517;&#39035;&#25918;&#32622;&#36830;&#32493;&#22320;sections&#32452;&#32455;&#22312;&#19968;&#36215;&#65307;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000" face="Times New Roman" size="4">define [ movable ] block name</font>
+    </p>
+    <p>
+      [ with param, param... ]
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      extended-selectors
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      [ except
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      section-selectors
+    </p>
+    <p>
+      } ];
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1678269222985" ID="ID_366866338" MODIFIED="1678269249080">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000" size="4">&#38142;&#25509;&#30340;&#36807;&#31243;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>

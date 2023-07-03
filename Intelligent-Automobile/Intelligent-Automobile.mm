@@ -696,6 +696,1578 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1684839931535" ID="ID_257914126" MODIFIED="1684997002053">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300ff" face="Times New Roman" size="4">AUTOSAR VFB&#25991;&#26723;&#23398;&#20064;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684840007891" ID="ID_110897985" MODIFIED="1684999370142">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Introduction to this document
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684840040749" ID="ID_139404367" MODIFIED="1684840127981">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110;&#23398;&#20064;&#26412;&#25991;&#26723;&#27604;&#36739;&#26377;&#29992;&#30340;&#65292;&#21487;&#20197;&#24182;&#34892;&#23398;&#20064;&#30340;&#20854;&#20182;&#25991;&#26723;&#26377;&#22914;&#19979;&#65306;
+    </p>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">[1] Methodology</font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">AUTOSAR_TR_Methodology.pdf</font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">[2] Glossary </font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">AUTOSAR_TR_Glossary.pdf</font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">[3] Main Requirements </font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">AUTOSAR_RS_Main.pdf</font>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1684842211535" ID="ID_814879650" MODIFIED="1684999428304">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Relationship to other AUTOSAR specifications<br />
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink DESTINATION="ID_814879650" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1157861929" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_814879650" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1157861929" SOURCE="ID_814879650" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1684842226562" ID="ID_708278554" MODIFIED="1684842239194">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/VFB&#x6587;&#x6863;&#x548c;&#x5176;&#x4ed6;&#x7684;AUTOSAR&#x6587;&#x6863;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;&#x6982;&#x89c8;&#x56fe;.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1684842677217" ID="ID_1103421639" MODIFIED="1684999550016">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The specifications defining the AUTOSAR meta-model and templates<br />The specifications defining the AUTOSAR basic-software modules and the RTE
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684977487954" ID="ID_100388388" MODIFIED="1684999602535">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3300ff">2 The Virtual Functional Bus</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684977799737" ID="ID_432337219" MODIFIED="1685082599847">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">&#22312;autosar&#30340;&#27010;&#24565;&#24403;&#20013;&#65292;&#19968;&#20010;&#24212;&#29992;&#31243;&#24207;&#34987;&#27169;&#22411;&#21270;&#25104;&#22810;&#20010;&#20114;&#32852;&#30340;&#32452;&#20214;&#30340;&#32452;&#21512;&#20307;&#65292; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">in autosar, an application is modeled as a composition of&#160;interconnected components</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      the &#8220;virtual functional bus&#8221; is the communication mechanism that&#160;allows these components to interact. &#22312;&#19968;&#20010;&#34987;&#31216;&#20026;configure system&#30340;&#35774;&#35745;&#27493;&#39588;&#24403;&#20013;&#65292;&#32452;&#20214;&#34987;&#26144;&#23556;&#21040;&#20102;&#19968;&#20010;&#20855;&#20307;&#30340;&#31995;&#32479;&#36164;&#28304;&#19978;(ecus)&#160;&#65292;&#22240;&#27492;&#65292;&#32452;&#20214;&#20043;&#38388;&#30340;&#34394;&#25311;&#36830;&#25509;&#23601;&#20250;&#34987;&#26144;&#23556;&#21040;&#26412;&#22320;&#36830;&#25509;(&#21333;&#20010;ecu&#20869;&#37096;)&#25110;&#32773;&#26159;&#32593;&#32476;&#25216;&#26415;&#30456;&#20851;&#30340;&#36890;&#35759;&#26426;&#21046;(&#27604;&#22914;can&#25110;&#32773;&#26159;flexray&#25968;&#25454;&#24103;)&#65292;&#26368;&#32456;&#22312;&#36825;&#26679;&#30340;&#31995;&#32479;&#24403;&#20013;&#29420;&#31435;&#30340;ecu&#23601;&#21487;&#20197;&#34987;&#37197;&#32622;&#12290;
+    </p>
+    <p>
+      the concrete interface(&#20855;&#20307;&#30340;&#25509;&#21475;) between the individual components and&#160;between the
+    </p>
+    <p>
+      components and the basic software (bsw) is called the run-time environment&#65288;RTE&#65289;
+    </p>
+    <p>
+      &#32452;&#20214;&#30001;&#23454;&#29616;&#20197;&#21450;&#30456;&#20851;&#30340;&#27491;&#24335;&#30340;&#36719;&#20214;&#32452;&#20214;&#25551;&#36848;&#32452;&#25104;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684981803492" ID="ID_524767605" MODIFIED="1685000902537">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">vfb&#35268;&#26684;&#20070;&#25991;&#26723;&#38656;&#35201;&#20026;&#25152;&#26377;&#30340;&#22522;&#30784;&#35774;&#26045;&#26381;&#21153;&#25552;&#20379;&#27010;&#24565;&#65292;&#36825;&#20123;&#26159;&#32452;&#20214;&#25152;&#38656;&#35201;&#30340;&#12290;&#36825;&#20123;&#27010;&#24565;(concept)&#21253;&#25324;&#65306; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">1&#12289;&#36319;&#31995;&#32479;&#24403;&#20013;&#30340;&#20854;&#20182;&#32452;&#20214;&#36827;&#34892;&#20132;&#27969; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">2&#12289;&#36319;&#31995;&#32479;&#24403;&#20013;&#30340;&#20256;&#24863;&#22120;&#36827;&#34892;&#20132;&#27969; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">3&#12289;&#35775;&#38382;&#26631;&#20934;&#26381;&#21153;&#65292;&#27604;&#22914;&#20174;&#38750;&#26131;&#22833;&#24615;&#20869;&#23384;&#20013;&#35835;&#20889; </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">4&#12289;&#23545;&#27169;&#24335;&#30340;&#21464;&#21270;&#20570;&#20986;&#21709;&#24212;&#65292;responding to mode-changes, </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">such as changes in the power-status of the local ecu </font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">5&#12289;&#36319;&#26657;&#20934;&#21644;&#27979;&#37327;&#31995;&#32479;&#36827;&#34892;&#20114;&#21160;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1684982890829" ID="ID_77839542" MODIFIED="1684999691862">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24635;&#20307;&#30340;&#26426;&#21046;&#21644;&#27010;&#24565;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684982987533" ID="ID_1017474861" MODIFIED="1684999723573" TEXT="Components&#xa;">
+<node CREATED="1684983010058" ID="ID_324816168" MODIFIED="1685669637444">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;component&#25317;&#26377;&#26126;&#30830;&#23450;&#20041;&#30340;ports&#65292;&#36890;&#36807;ports&#65292;&#19968;&#20010;&#32452;&#20214;&#21487;&#20197;&#36319;&#20854;&#20182;&#30340;&#32452;&#20214;&#36827;&#34892;&#20132;&#27969;&#65292;&#25105;&#20204;&#20197;seatheatingcontrol&#20026;&#20363;&#23376;&#65292;&#35813;&#32452;&#20214;&#31867;&#22411;&#38656;&#35201;&#22914;&#19979;&#30340;&#20449;&#24687;&#20316;&#20026;&#36755;&#20837;&#65306;&#160;<br />&#160;In this example, the component-type requires the following information as input:&#160;<br />&#160;&#61623;whether a passenger is sitting on the seat (through the port &#8220;SeatSwitch&#8221;)&#160;<br />&#160;&#61623;the setting of the seat temperature dial (through the port &#8220;Setting&#8221;)&#160;<br />&#160;&#61623;and some information from a central power management system (through the&#160;<br />&#160;port &#8220;PowerManagement&#8221;), which could decide to disable seat heating in&#160;<br />&#160;certain conditions.&#160;<br />&#160;It controls&#160;<br />&#160;&#61623;the DialLED that is associated with the seat temperature dial (port &#8220;DialLED&#8221;)&#160;<br />&#160;&#61623;and the heating element (through the port &#8220;HeatingElement&#8221;).&#160;<br />&#160;Finally, the component can be calibrated (port &#8220;Calibration&#8221;), needs the status of the&#160;<br />&#160;ECU on which the component runs (port &#8220;ecuMode&#8221;) and requires access to local&#160;<br />&#160;non-volatile memory (port &#8220;nv&#8221;).
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684983901097" ID="ID_944410162" MODIFIED="1684983946145">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/module-port.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1684984127426" ID="ID_1262664593" MODIFIED="1685000062943">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000"><b>&#25903;&#25345;&#32452;&#20214;&#30340;&#22810;&#20010;&#23454;&#20307;</b></font>
+    </p>
+    <p>
+      &#31867;&#20284;&#31867;&#23545;&#35937;&#30340;&#27010;&#24565;&#65292;&#22914;&#21069;&#24038;&#20391;&#24231;&#26885;&#21152;&#28909;&#25511;&#21046;&#22120;&#65292;&#21069;&#21491;&#20391;&#24231;&#26885;&#21152;&#28909;&#25511;&#21046;&#22120;&#31561;&#31561;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1684994443834" ID="ID_1716239732" MODIFIED="1684994457985">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Port</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684994479389" ID="ID_855110588" MODIFIED="1685001952345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#32452;&#20214;&#30340;port&#20250;&#36319;&quot;port-interface&quot;&#30456;&#20851;&#32852;&#65292;port-interface&#23450;&#20041;&#20102;&#19968;&#20123;port&#24517;&#39035;&#35201;&#28385;&#36275;&#30340;&#21512;&#32422;&#65292;
+    </p>
+    <p>
+      AUTOSAR&#25903;&#25345;&#30340;port-interface&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#0000ff"><i>&#25152;&#20197;&#19968;&#20010;&#32452;&#20214;&#30340;port&#25110;&#32773;&#26159;PPort&#25110;&#32773;&#26159;RPort&#25110;&#32773;&#26159;PRPort&#65292; </i></font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#0000ff"><i>PPort&#25110;&#32773;&#26159;PRPort&#26159;port-interface&#20803;&#32032;&#30340;&#25552;&#20379;&#32773; </i></font>
+    </p>
+    <p>
+      <font size="4" face="Times New Roman" color="#0000ff"><i>RPort&#25110;&#32773;&#26159;PRPort&#26159;port-interface&#20803;&#32032;&#30340;&#35201;&#27714;&#32773;</i></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1684995614701" ID="ID_203623290" MODIFIED="1684995622715">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-port_interface-01.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685009341440" ID="ID_1556994306" MODIFIED="1685669567938" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;A sender-receiver interface defines a set of data-elements that are &#xa;      sent and received &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;over the VFB. Figure 3.5 shows the definition of a simple &#xa;      sender-receiver interface &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;called &amp;#x201c;SeatSwitch&amp;#x201d; containing a single &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;data-element&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#xa0; &#xa;      called &amp;#x201c;PassengerDetected&amp;#x201d;.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685012291370" ID="ID_1170933879" MODIFIED="1685012326601">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font size="4" color="#0000ff">&#19968;&#20010;client-server interface&#23454;&#29616;&#30340;&#20363;&#23376;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685012330371" ID="ID_327322522" MODIFIED="1685012337888">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-port-client_server-interface-example.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685070479137" ID="ID_1987100705" MODIFIED="1685070779033">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">&#31471;&#21475;&#25509;&#21475;&#22270;&#26631;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685071033945" ID="ID_920073466" MODIFIED="1685071045233">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;1.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685071049523" ID="ID_276906229" MODIFIED="1685071054918">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;2.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685071058443" ID="ID_420810872" MODIFIED="1685071063332">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;3.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685071066890" ID="ID_1484124335" MODIFIED="1685071071953">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;4.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685071073832" FOLDED="true" ID="ID_1950932496" MODIFIED="1685412368300">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;5.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685071082642" FOLDED="true" ID="ID_746088722" MODIFIED="1685412367747">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;6.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685071090686" ID="ID_1363758400" MODIFIED="1685071096734">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-&#x7aef;&#x53e3;&#x63a5;&#x53e3;&#x56fe;&#x6807;7.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684995627894" ID="ID_875578509" MODIFIED="1684995634290">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-port_interface-02.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685001174965" ID="ID_1557464649" MODIFIED="1685669695538" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;AUTOSAR has standardized stable and widely accepted application &#xa;      interfaces to &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;ensure the interoperability of software components from different &#xa;      vendors.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;AUTOSAR&amp;#x62e5;&amp;#x6709;&amp;#x6807;&amp;#x51c6;&amp;#x7a33;&amp;#x5b9a;&amp;#x7684;&amp;#x548c;&amp;#x5e7f;&amp;#x6cdb;&amp;#x88ab;&amp;#x63a5;&amp;#x53d7;&amp;#x7684;&amp;#x5e94;&amp;#x7528;&amp;#x63a5;&amp;#x53e3;&amp;#x6765;&amp;#x4fdd;&amp;#x8bc1;&amp;#x6765;&amp;#x81ea;&amp;#x4e8e;&amp;#x4e0d;&amp;#x540c;vendor&amp;#x5382;&amp;#x5546; &amp;#x4e4b;&amp;#x95f4;&amp;#x7684;&amp;#x8f6f;&amp;#x4ef6;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7684;&amp;#x4e92;&amp;#x64cd;&amp;#x4f5c;&amp;#x6027;&amp;#xff0c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5e94;&amp;#x7528;&amp;#x7a0b;&amp;#x5e8f;&amp;#x63a5;&amp;#x53e3;&amp;#x65e8;&amp;#x5728;&amp;#x6db5;&amp;#x76d6;&amp;#x5e7f;&amp;#x6cdb;&amp;#x7684;&amp;#x6c7d;&amp;#x8f66;&amp;#x9886;&amp;#x57df;&amp;#x3002;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685001647936" ID="ID_183628164" MODIFIED="1685001656380">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-application-domain.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685012954916" ID="ID_1087626749" MODIFIED="1685669822503" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7aef;&amp;#x53e3;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Port Compatibility &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685013124882" ID="ID_1510472166" MODIFIED="1685669877838" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4e00;&amp;#x4e2a;receiver port&amp;#x53ea;&amp;#x80fd;&amp;#x8fde;&amp;#x63a5;&amp;#x5230;&amp;#x517c;&amp;#x5bb9;&amp;#x7684;provider port,&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8868;&amp;#x683c;3.3&amp;#x7ed9;&amp;#x51fa;&amp;#x4e86;&amp;#x7aef;&amp;#x53e3;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&amp;#x7684;&amp;#x4e00;&amp;#x4e2a;&amp;#x9884;&amp;#x89c8;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4ee5;&amp;#x4e0b;&amp;#x7684;&amp;#x6ce8;&amp;#x89e3;&amp;#x7ed9;&amp;#x51fa;&amp;#x4e86;&amp;#x7aef;&amp;#x53e3;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&amp;#x7684;&amp;#x4e00;&amp;#x4e9b;&amp;#x57fa;&amp;#x672c;&amp;#x89c4;&amp;#x5219;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x66f4;&amp;#x8be6;&amp;#x7ec6;&amp;#x548c;&amp;#x6df1;&amp;#x5165;&amp;#x7684;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&amp;#x89c4;&amp;#x5219;&amp;#x5728;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff3333&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Software Component Template&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff3333&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;#xa0;&amp;#x5f53;&amp;#x4e2d;&amp;#x6709;&amp;#x63cf;&amp;#x8ff0;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685013903914" ID="ID_1000582286" MODIFIED="1685013944219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div>
+      <font size="14.04pt" face="Arial,Bold" color="rgb(0,0,0)"><b>Data Type Policie</b></font><b>s</b>
+    </div>
+  </body>
+</html></richcontent>
+<node CREATED="1685062793294" ID="ID_11806684" MODIFIED="1685063194889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#31471;&#21475;&#30340;&#25968;&#25454;&#20803;&#32032;&#20250;&#34987;&#24456;&#21512;&#36866;&#22320;&#36171;&#20104;&#30456;&#24212;&#31867;&#22411;&#65292;&#20197;&#20570;&#20026;port interface&#25551;&#36848;&#31526;&#30340;&#19968;&#37096;&#20998;&#65307;
+    </p>
+    <p>
+      &#20540;&#24471;&#27880;&#24847;&#30340;&#26159;&#65292;&#22312;&#20004;&#20010;&#31471;&#21475;&#20043;&#38388;&#29992;&#25143;&#20132;&#27969;&#30340;&#20803;&#32032;&#30340;&#25968;&#25454;&#31867;&#22411;&#21487;&#20197;&#34987;&#38598;&#25104;&#21830;&#35206;&#30422;&#65288;&#36890;&#36807;&#20351;&#29992;
+    </p>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">data type policy</font>&#31574;&#30053;&#20801;&#35768;&#22312;&#32593;&#32476;&#20013;&#20943;&#23569;&#25968;&#25454;&#30340;&#20256;&#36755;bit
+    </div>
+    <p>
+      &#65289;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685014754913" ID="ID_1704786641" MODIFIED="1685014772729">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3300ff">Connections</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685063283988" ID="ID_1827426570" MODIFIED="1685669979401" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x4e00;&amp;#x4e2a;autosar&amp;#x7cfb;&amp;#x7edf;&amp;#x7684;&amp;#x8bbe;&amp;#x8ba1;&amp;#x5f53;&amp;#x4e2d;&amp;#xff0c;&amp;#x5728;&amp;#x7ec4;&amp;#x4ef6;&amp;#x4e4b;&amp;#x95f4;&amp;#x7684;&amp;#x7aef;&amp;#x53e3;&amp;#x901a;&amp;#x8fc7;&amp;#x4f7f;&amp;#x7528;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;assembly-connectors&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#x4e92;&amp;#x76f8;&amp;#x6302;&amp;#x94a9;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;An assembly-connector can connect one PPort or PRPort with &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;one RPort or PRPort only if their port types, interfaces and &#xa;      attributes, characterizing &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;their communication abilities, are compatible with each other&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;#x53ef;&amp;#x4ee5;&amp;#x770b;&amp;#x5230;&amp;#xff0c;&amp;#x5982;&amp;#x679c;&amp;#x4e00;&amp;#x4e2a;port&amp;#x60f3;&amp;#x8981;&amp;#x901a;&amp;#x8baf;&amp;#xff0c;&amp;#x5fc5;&amp;#x987b;&amp;#x6709;connectors&amp;#x5bf9;port&amp;#x8fdb;&amp;#x884c;&amp;#x8fde;&amp;#x63a5;&amp;#x64cd;&amp;#x4f5c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685069545744" ID="ID_876815984" MODIFIED="1685670244009" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Compositions versus atomic components &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7ec4;&amp;#x5408;&amp;#x4e0e;&amp;#x539f;&amp;#x5b50;&amp;#x7ec4;&amp;#x4ef6;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685069781991" ID="ID_430323908" MODIFIED="1685670515144" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4e00;&amp;#x4e2a;&amp;#x7531;&amp;#x7ec4;&amp;#x4ef6;(components)&amp;#x548c;connectors(&amp;#x8fde;&amp;#x63a5;&amp;#x5668;)&amp;#x7ec4;&amp;#x6210;&amp;#x7684;&amp;#x5b50;&amp;#x7cfb;&amp;#x7edf;&amp;#x5c31;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x6784;&amp;#x6210;&amp;#x4e86;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;(composition)&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;In AUTOSAR, the usage of a component-type within a composition is &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;called a &amp;#x201c;prototype&amp;#x201d;. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;&amp;#x4e2d;&amp;#x5bf9;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7c7b;&amp;#x578b;&amp;#x7684;&amp;#x4f7f;&amp;#x7528;&amp;#x5c31;&amp;#x88ab;&amp;#x79f0;&amp;#x4e3a;&amp;amp;quot;&amp;#x539f;&amp;#x578b;&amp;amp;quot;(prototype)&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#0000ff&amp;quot;&amp;gt;&amp;#x5b9e;&amp;#x9645;&amp;#x4e0a;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;&amp;#x672c;&amp;#x8eab;&amp;#x5c31;&amp;#x662f;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7c7b;&amp;#x578b;&amp;#xff0c;&amp;#x53ef;&amp;#x4ee5;&amp;#x62e5;&amp;#x6709;&amp;#x5b83;&amp;#x81ea;&amp;#x5df1;&amp;#x7684;port, &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#0000ff&amp;quot;&amp;gt;&amp;#x7ec4;&amp;#x5408;&amp;#x53ef;&amp;#x4ee5;&amp;#x4f5c;&amp;#x4e3a;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ed3;&amp;#x6784;&amp;#x5316;&amp;#x7684;&amp;#x5143;&amp;#x7d20;&amp;#x6765;&amp;#x6784;&amp;#x5efa;&amp;#x5c42;&amp;#x6b21;&amp;#x5316;&amp;#x7684;&amp;#x7cfb;&amp;#x7edf;, &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7ec4;&amp;#x5408;&amp;#x5b9e;&amp;#x9645;&amp;#x4e0a;&amp;#x5c31;&amp;#x662f;&amp;#x53ef;&amp;#x62c6;&amp;#x5206;&amp;#x7684;component, &amp;#x800c;&amp;#x4e0d;&amp;#x53ef;&amp;#x62c6;&amp;#x5206;&amp;#x7684;component&amp;#x5c31;&amp;#x662f;&amp;#x539f;&amp;#x5b50;component,&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x591a;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;&amp;#x53ef;&amp;#x4ee5;&amp;#x6784;&amp;#x6210;&amp;#x4e00;&amp;#x4e2a;&amp;#x66f4;&amp;#x5927;&amp;#x7684;&amp;#x7ec4;&amp;#x5408;&amp;#xff08;&amp;#x56e0;&amp;#x4e3a;&amp;#x7ec4;&amp;#x5408;&amp;#x672c;&amp;#x8eab;&amp;#x5c31;&amp;#x662f;&amp;#x4e00;&amp;#x4e2a;component&amp;#xff09;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685080110565" ID="ID_354795436" MODIFIED="1685081134598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#25105;&#20204;&#35774;&#35745;&#19968;&#20010;composition&#30340;&#26102;&#20505;&#65292;service&#31471;&#21475;&#24212;&#35813;&#34987;&#29305;&#27530;&#22320;&#36827;&#34892;&#22788;&#29702;&#65292;
+    </p>
+    <p>
+      AUTOSAR services&#30340;&#37197;&#32622;&#21457;&#29983;&#22312;ECU&#37197;&#32622;&#38454;&#27573;&#65288;&#36890;&#36807;&#28155;&#21152;&#24517;&#35201;&#30340;&#26381;&#21153;&#32452;&#20214;&#65292;&#24182;&#19988;&#23558;&#23427;&#20204;
+    </p>
+    <p>
+      &#36830;&#25509;&#21040;&#38656;&#35201;&#31995;&#32479;&#26381;&#21153;&#30340;&#21407;&#23376;&#32452;&#20214;&#19978;&#65289;&#12290;as a consequence, compositions are not allowed to have ports for use with services&#65288;
+    </p>
+    <p>
+      <font color="#ff0000">&#22240;&#27492;&#65292;&#19981;&#20801;&#35768;&#32452;&#21512;&#20855;&#26377;&#29992;&#20110;&#26381;&#21153;&#30340;&#31471;&#21475;</font>
+    </p>
+    <p>
+      &#65289;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685081461013" ID="ID_1415819948" MODIFIED="1685670553545" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;3.6 Relationship between the VFB and the ECU Software &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Architecture&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685081605462" ID="ID_1499094904" MODIFIED="1685670589097" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;When a sub-system consisting of atomic components and &#xa;      assembly-connectors is &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;deployed on a network of ECUs&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5f53;&amp;#x4e00;&amp;#x4e2a;&amp;#x7531;&amp;#x539f;&amp;#x5b50;component&amp;#x548c;connector&amp;#x7ec4;&amp;#x6210;&amp;#x7684;&amp;#x5b50;&amp;#x7cfb;&amp;#x7edf;&amp;#x88ab;&amp;#x90e8;&amp;#x7f72;&amp;#x5230;&amp;#x4e86;&amp;#x5145;&amp;#x6ee1;ECUs&amp;#x7684;&amp;#x7f51;&amp;#x7edc;&amp;#x4e2d;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x6240;&amp;#x6709;&amp;#x7684;&amp;#x539f;&amp;#x5b50;&amp;#x7ec4;&amp;#x4ef6;&amp;#x90fd;&amp;#x4f1a;&amp;#x88ab;&amp;#x6620;&amp;#x5c04;&amp;#x5230;ECU&amp;#x4e0a;&amp;#x9762;&amp;#x53bb;&amp;#xff0c;&amp;#x7ec4;&amp;#x4ef6;&amp;#x4e4b;&amp;#x95f4;&amp;#x5bf9;&amp;#x5e94;&amp;#x7684;connectors&amp;#x7531;ECU&amp;#x5185;&amp;#x90e8;&amp;#x6216;&amp;#x8005;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ECU&amp;#x4e4b;&amp;#x95f4;&amp;#x7684;&amp;#x901a;&amp;#x8baf;&amp;#x6765;&amp;#x5b9e;&amp;#x73b0;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685083399440" ID="ID_92500754" MODIFIED="1685083423531">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-component_ecu_mapping.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685083682200" ID="ID_1570037618" MODIFIED="1685670627702" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Kinds of software components&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8f6f;&amp;#x4ef6;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7684;&amp;#x79cd;&amp;#x7c7b;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685084637654" ID="ID_1985491800" MODIFIED="1685085604797">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">Application software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">Sensor-actuator software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">Parameter software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">Composition software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">Service Proxy software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">Service software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">ECU-abstraction software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">Complex driver software component </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">NVBlock software component</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685085627932" ID="ID_1385665709" MODIFIED="1685670662610" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Resources for components and runnables&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685086500403" ID="ID_22958491" MODIFIED="1685086520046">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#32972;&#26223;&#27010;&#36848;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685089644402" ID="ID_734069030" MODIFIED="1685096844430">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      VFB&#26159;&#19968;&#20010;&#31995;&#32479;&#24314;&#27169;&#21644;&#36890;&#20449;&#30340;&#27010;&#24565;&#65292;VFB&#20801;&#35768;&#32452;&#20214;&#34987;&#20998;&#24067;&#21040;&#19968;&#20010;ECUs&#32452;&#25104;&#30340;&#32593;&#32476;&#20013;&#12290;
+    </p>
+    <p>
+      &#36890;&#36807;&#30456;&#21516;&#30340;&#36890;&#20449;&#26426;&#21046;&#65292;&#32452;&#20214;&#21487;&#20197;&#36319;&#26631;&#20934;&#30340;AUTOSAR&#26381;&#21153;&#25110;&#32773;&#26159;ECU&#30456;&#20851;&#30340;IO&#33021;&#21147;&#36827;&#34892;
+    </p>
+    <p>
+      &#20132;&#27969;&#12290;
+    </p>
+    <p>
+      &#28982;&#32780;&#65292;&#32452;&#20214;&#30340;&#23454;&#29616;&#38656;&#35201;&#39069;&#22806;&#30340;&#36164;&#28304;&#65292;&#20027;&#20869;&#23384;&#20197;&#21450;CPU-power&#12290;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685314100551" ID="ID_186772680" MODIFIED="1685320756541">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25152;&#26377;&#30340;&#35843;&#24230;&#20107;&#39033;&#37117;&#36319;&#32452;&#20214;&#30340;&#36890;&#20449;&#38656;&#27714;&#26377;&#23494;&#20999;&#30340;&#32852;&#31995;&#65292;&#22240;&#27492;RTE&#24517;&#39035;&#25552;&#20379;&#23436;&#25972;&#30340;&#29615;&#22659;&#65292;
+    </p>
+    <p>
+      &#35813;&#29615;&#22659;&#21253;&#25324;&#65306;
+    </p>
+    <p>
+      1&#12289;&#21512;&#36866;&#30340;&#26426;&#21046;&#65292;&#36890;&#36807;&#35813;&#26426;&#21046;&#65292;&#32452;&#20214;&#21487;&#20197;&#23454;&#29616;&#65306;
+    </p>
+    <p>
+      a&#12289;&#20026;&#32452;&#20214;&#20013;&#30340;PPorts&#30340;data-elements&#25552;&#20379;values&#20540;
+    </p>
+    <p>
+      b&#12289;&#20026;RPorts&#20013;&#30340;data-elements Read/Consume&#20540;
+    </p>
+    <p>
+      c&#12289;&#35775;&#38382;&#32452;&#20214;&#30340;&#26657;&#20934;&#21442;&#25968;
+    </p>
+    <p>
+      d&#12289;&#20026;PPorts&#20013;&#30340;&#25805;&#20316;&#25552;&#20379;&#23454;&#29616;
+    </p>
+    <p>
+      e&#12289;&#36890;&#36807;&#32452;&#20214;&#30340;RPorts&#26469;&#21796;&#37266;&#30001;&#20854;&#20182;&#32452;&#20214;&#25552;&#20379;&#30340;&#25805;&#20316;
+    </p>
+    <p>
+      f&#12289;Etc.
+    </p>
+    <p>
+      2&#12289;&#21512;&#36866;&#30340;&#26426;&#21046;&#65292;&#36890;&#36807;&#35813;&#26426;&#21046;&#65292;&#32452;&#20214;&#30340;&#23454;&#29616;&#20250;&#20026;&#20102;&#22914;&#19979;&#30340;&#21709;&#24212;&#32780;&#34987;&#21796;&#37266;&#65306;
+    </p>
+    <p>
+      a&#12289;&#22266;&#23450;&#26102;&#38388;&#30340;&#35843;&#24230;&#65288;&#20363;&#22914;&#65306;&#35768;&#22810;&#32452;&#20214;&#38656;&#35201;&#34987;&#23450;&#26399;&#36816;&#34892;&#65289;
+    </p>
+    <p>
+      b&#12289;&#36319;&#36890;&#20449;&#26426;&#21046;&#30456;&#20851;&#30340;&#20107;&#20214;
+    </p>
+    <p>
+      c&#12289;&#21644;&#29289;&#29702;&#21457;&#29983;&#30456;&#20851;&#30340;&#20107;&#20214;
+    </p>
+    <p>
+      3&#12289;&#21512;&#36866;&#30340;&#26426;&#21046;&#65292;&#36890;&#36807;&#35813;&#26426;&#21046;&#32452;&#20214;&#30340;&#23454;&#29616;&#21487;&#20197;&#35775;&#38382;&#20854;&#20182;&#32452;&#20214;&#30340;&#36164;&#28304;
+    </p>
+    <p>
+      4&#12289;&#19968;&#20010;AUTOSAR ECU&#20856;&#22411;&#30340;&#26159;&#19968;&#20010;&#22810;&#32447;&#31243;&#30340;&#29615;&#22659;&#65292;RTE&#24517;&#39035;&#25552;&#20379;&#25152;&#26377;&#36890;&#29992;&#30340;&#21516;&#27493;&#30340;&#26426;&#21046;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685320806503" ID="ID_898463341" MODIFIED="1685320838401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000" size="4">runnable&#27010;&#24565;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685320852071" ID="ID_666744937" MODIFIED="1685325615929">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      atomic software-component&#30340;&#21407;&#23376;&#24615;&#25351;&#30340;&#26159;&#35813;component&#26080;&#27861;&#20998;&#21106;&#25104;&#26356;&#23567;&#30340;component&#65292;
+    </p>
+    <p>
+      &#22240;&#27492;&#24517;&#39035;&#34987;&#26144;&#23556;&#21040;&#19968;&#20010;&#21333;&#29420;&#30340;ECU&#19978;&#38754;&#12290;
+    </p>
+    <p>
+      &#30495;&#27491;&#30340;component&#30340;&#23454;&#29616;&#30001;&#19968;&#31995;&#21015;&#30340;runnable entities&#32452;&#25104;(&#20063;&#21487;&#20197;&#31216;&#20026;runnables)&#65292;&#19968;&#20010;
+    </p>
+    <p>
+      &quot;runnable entity&quot;&#26159;&#19968;&#20010;&#25351;&#20196;&#30340;&#24207;&#21015;----&#21487;&#20197;&#30001;Run-Time Environment&#21551;&#21160;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36890;&#24120;&#24773;&#20917;&#19979;&#65292;&#19968;&#20010;&#21407;&#23376;&#30340;software-component&#21487;&#20197;&#25552;&#20379;&#20165;&#20165;&#19968;&#20010;runnable&#25110;&#32773;&#21487;&#20197;&#21253;&#21547;
+    </p>
+    <p>
+      &#35768;&#22810;&#25968;&#37327;&#30340;runnables&#12290;
+    </p>
+    <p>
+      &#19968;&#20010;&quot;runnable entity&quot;&#22312;&quot;task&quot;&#19978;&#19979;&#25991;&#24403;&#20013;&#36816;&#34892;&#65292;task&#25552;&#20379;&#36890;&#29992;&#30340;&#36164;&#28304;&#32473;&quot;runnable entities&quot; &#27604;&#22914;context&#21644;stack-space
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685323998745" ID="ID_503861332" MODIFIED="1685324019030">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0033">&#19968;&#20010;&#23454;&#29616;runnable&#30340;&#20363;&#23376;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685324158168" ID="ID_1655157651" MODIFIED="1685324168625">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-atomic_software-runnable_example.PNG" />
+  </body>
+</html></richcontent>
+<node CREATED="1685325141266" ID="ID_301790662" MODIFIED="1685325183776">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">&#35813;&#20363;&#23376;&#24403;&#20013;&#23454;&#29616;&#20102;&#20004;&#20010;runnable&#65292; </font>
+    </p>
+    <p>
+      <font size="4" color="#0000ff">&#19968;&#20010;&#26159;MainCycle&#65292;&#19968;&#20010;&#26159;Setting</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685325620292" ID="ID_1861441377" MODIFIED="1685325655480">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0033">component&#23454;&#29616;&#20197;&#21450;RTE&#30340;&#35282;&#33394;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685325734769" ID="ID_1392678334" MODIFIED="1685328011778">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3300ff" size="4">&#24635;&#30340;&#26469;&#35828;&#65292;&#21407;&#23376;&#36719;&#20214;&#32452;&#20214;&#30340;&#23454;&#29616;&#26412;&#36136;&#19978;&#21253;&#21547;&#19977;&#20010;&#26041;&#38754;&#65306;</font>
+    </p>
+    <p>
+      <font color="#ff0033">1&#12289;&#19968;&#20010;&#32452;&#20214;&#27169;&#22411;&#65288;&#20351;&#29992;port&#21644;port-interface&#30340;&#27010;&#24565;),&#20351;&#29992;&#32452;&#20214;&#27169;&#22411;&#21487;&#20197;&#22312;VFB&#23618;&#38754;&#19978;</font>
+    </p>
+    <p>
+      &#23558;&#19968;&#20010;&#32452;&#20214;&#36319;&#20854;&#20182;&#30340;&#32452;&#20214;hook up&#21040;&#19968;&#36215;
+    </p>
+    <p>
+      <font color="#ff0033">2&#12289;&#19968;&#20010;&#32452;&#20214;&#30340;&#23454;&#29616;&#26159;&#25353;&#29031;&quot;runnables&quot;&#32467;&#26500;&#21270;&#36215;&#26469;&#30340;</font>
+    </p>
+    <p>
+      <font color="#ff0033">3&#12289;&#19968;&#20010;&#36719;&#20214;&#32452;&#20214;&#30340;&#25551;&#36848;&#65288;</font><font color="#3300ff" size="2"><b>&#29992;&#20110;&#35753;&#32452;&#20214;&#25551;&#36848;&#23545;&#20110;RTE&#30340;&#38656;&#27714;(&#21487;&#20197;&#21442;&#32771;&#25991;&#26723; </b></font>
+    </p>
+    <div>
+      <font size="12pt" face="Arial" color="#0000ff"><b>AUTOSAR_TPS_SoftwareComponentTemplate.pdf</b></font>
+    </div>
+    <p>
+      <font color="#ff0033">)&#65292;&#36825;&#20123;&#38656;&#27714;&#21253;&#25324;&#65306;&#65289;</font>
+    </p>
+    <p>
+      a&#12289;&#21738;&#20010;runnable&#38656;&#35201;&#34987;&#23450;&#26399;&#35843;&#29992;
+    </p>
+    <p>
+      b&#12289;&#20026;&#20102;&#21709;&#24212;events&#65292;&#21738;&#20010;runnable&#38656;&#35201;&#34987;&#35843;&#29992;
+    </p>
+    <p>
+      c&#12289;&#32452;&#20214;&#22914;&#20309;&#25805;&#20316;ports&#30340;&#20449;&#24687;
+    </p>
+    <p>
+      d&#12289;&#20219;&#20309;&#20854;&#20182;&#30340;&#32452;&#20214;&#38656;&#35201;&#30340;&#36164;&#28304;&#65292;&#27604;&#22914;AUTOSAR&#26381;&#21153;&#25110;&#32773;&#26159;&#26412;&#22320;&#30340;memory
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685328169123" ID="ID_1206067335" MODIFIED="1685339768935">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0033ff"><b>3.9 Interface Conversion Blocks</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685339482469" ID="ID_1702797432" MODIFIED="1685670743407" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5f53;&amp;#x4e24;&amp;#x4e2a;OEM&amp;#x5f00;&amp;#x53d1;&amp;#x7684;&amp;#x8f6f;&amp;#x4ef6;&amp;#x63a5;&amp;#x53e3;&amp;#x5728;&amp;#x8bed;&amp;#x4e49;&amp;#x4e0a;&amp;#x662f;&amp;#x76f8;&amp;#x540c;&amp;#x7684;&amp;#xff0c;&amp;#x4f46;&amp;#x662f;&amp;#x63a5;&amp;#x53e3;&amp;#x7684;&amp;#x6570;&amp;#x636e;&amp;#x7c7b;&amp;#x578b;&amp;#x6709;&amp;#x5dee;&amp;#x5f02;&amp;#xff0c;&amp;#x90a3;&amp;#x4e48;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;VFB will add a conversion block to a connector &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;connecting Sender Receiver ports with mismatched interface definitions &#xa;      at the VFB &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;level. &amp;lt;/font&amp;gt;&amp;#x53ef;&amp;#x4ee5;&amp;#x770b;&amp;#x5230;&amp;#xff0c;conversion block&amp;#x662f;&amp;#x4e3a;&amp;#x4e86;&amp;#x89e3;&amp;#x51b3;&amp;#x6570;&amp;#x636e;&amp;#x8f6c;&amp;#x6362;&amp;#x7684;&amp;#x95ee;&amp;#x9898;&amp;#x7684;&amp;#x3002;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;If a P-port specified by a Sender Receiver Interface is &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;connected to an R-port with an incompatible interface then a &#xa;      conversion block must &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;be added for the connector to allow the &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#0033ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;designer to describe &#xa;      the conversion&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Incomplete conversion will not be allowed&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685339771283" ID="ID_263711747" MODIFIED="1685339797155">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">&#25903;&#25345;&#30340;&#36716;&#25442;&#21644;&#26144;&#23556;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685339865773" ID="ID_372074941" MODIFIED="1685339870244" TEXT="Interface Element Mapping"/>
+<node CREATED="1685339882667" ID="ID_938151949" MODIFIED="1685339886070" TEXT="Linear Data Conversion"/>
+<node CREATED="1685339901749" ID="ID_736253680" MODIFIED="1685339906788" TEXT="Data Mapping"/>
+<node CREATED="1685339921243" ID="ID_893914374" MODIFIED="1685339924391" TEXT="Mixed Conversion"/>
+</node>
+</node>
+<node CREATED="1685341827749" ID="ID_1535308769" MODIFIED="1685341856915">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0033ff"><b>3.10 Variant Handling</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685341860316" ID="ID_155264489" MODIFIED="1685350595763">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20026;&#20102;&#25903;&#25345;&#27773;&#36710;&#24212;&#29992;&#30340;&#21464;&#21270;&#65292;AUTOSAR&#25317;&#26377;&#19968;&#20010;&#31216;&#20026;variant handling&#30340;&#26426;&#21046;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685346125214" ID="ID_1459388506" MODIFIED="1685346163212">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font face="Times New Roman" size="4">Binding Times</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685346166298" ID="ID_122820130" MODIFIED="1685346198924">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman"><b>Choosing a Variant</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685346204934" ID="ID_1243553192" MODIFIED="1685346233669">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="4"><b>Variability</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685352826518" ID="ID_342764580" MODIFIED="1685353008517">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#34429;&#28982;variability&#23384;&#22312;&#20110;software components&#30340;&#20869;&#37096;&#34892;&#20026;&#65292;&#20294;&#26159;&#20174;VFB&#30340;&#35270;&#35282;&#26469;&#30475;&#65292;
+    </p>
+    <p>
+      &#21482;&#26377;&#19977;&#31181;variability&#26159;&#20854;&#24863;&#20852;&#36259;&#30340;&#65306;
+    </p>
+    <p>
+      1&#12289;Software Component Variability
+    </p>
+    <p>
+      2&#12289;Port Variability
+    </p>
+    <p>
+      3&#12289;Connector Variability
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685530678497" ID="ID_1568560990" MODIFIED="1685530855688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    &#25226;&#37197;&#32622;&#26041;&#27861;&#36827;&#34892;&#20998;&#31867;&#65292;&#20998;&#20026;&#19977;&#31867;&#65292;&#20998;&#21035;&#26159;Pre-compile&#12289;Link time&#21644;Post-build&#65292;&#19979;&#38754;&#19977;&#31867;AUTOSR&#37117;&#26159;&#25903;&#25345;&#30340;
+  </body>
+</html></richcontent>
+<node CREATED="1685530858880" ID="ID_1239267354" MODIFIED="1685530922017">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    &#22312;&#39044;&#32534;&#35793;&#38454;&#27573;&#65292;&#23601;&#20250;&#25226;&#36825;&#20123;&#37197;&#32622;&#39033;&#36827;&#34892;&#23439;&#26367;&#25442;&#65292;&#22312;&#23454;&#38469;&#20351;&#29992;&#24403;&#20013;&#65292;&#37197;&#32622;&#39033;&#25918;&#22312;&#21333;&#29420;&#30340;.c&#21644;.h&#25991;&#20214;&#20013;&#65288;
+
+    <p>
+      <i>_Cfg.h, </i>_Cfg.c&#65289;
+    </p>
+    <p data-pid="MvQ-7Bbe">
+      *_Cfg.h&#20013;&#25918;&#23439;&#23450;&#20041;
+    </p>
+    <p data-pid="R9m-KZaX">
+      *_Cfg.c&#20013;&#25918;const&#24120;&#37327;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685531374920" ID="ID_1915814910" MODIFIED="1685531421353">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p data-pid="Fn1lfMLL">
+      <b>Post-build&#20998;&#20026;&#20004;&#31181;</b>
+    </p>
+    <p data-pid="3H7DWJ8W">
+      1&#65289;<b><font color="#ff0000">Post-Build Loadable</font></b>&#65306;&#37197;&#32622;&#21442;&#25968;&#21482;&#26377;&#19968;&#20221;&#65292;&#21333;&#29420;&#20445;&#23384;&#22312;flash&#30340;&#19968;&#20010;&#22266;&#23450;&#21306;&#22495;&#65288;&#29305;&#23450;&#22320;&#22336;&#65289;&#65292;&#21487;&#20197;&#20462;&#25913;&#21442;&#25968;&#37197;&#32622;&#65292;&#21487;&#20197;&#21333;&#29420;&#34987;&#26356;&#26032;
+    </p>
+    2&#65289;<b><font color="#ff0000">Post-Build Selectable</font></b>&#65306;&#37197;&#32622;&#21442;&#25968;&#39044;&#20808;&#37197;&#32622;&#22909;&#20102;&#20960;&#20221;&#25918;&#22312;flash&#30340;&#19968;&#20010;&#22266;&#23450;&#21306;&#22495;&#65288;&#29305;&#23450;&#22320;&#22336;&#65289;&#65292;&#19981;&#33021;&#20462;&#25913;&#21442;&#25968;&#37197;&#32622;&#65292;&#21482;&#33021;&#20174;&#39044;&#20808;&#25918;&#22909;&#30340;&#37197;&#32622;&#20013;&#36873;&#25321;&#19968;&#20221;&#37197;&#32622;
+  </body>
+</html></richcontent>
+<node CREATED="1685532029107" ID="ID_1799036853" MODIFIED="1685532043356">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-eb_tresos-post_build_variant.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685532667401" ID="ID_184496610" MODIFIED="1685532698219">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>Autosar MCAL&#24320;&#21457;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685532702460" ID="ID_1594007940" MODIFIED="1685532719962">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">VSMD&#30340;&#32534;&#20889;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685580874880" ID="ID_481394895" MODIFIED="1685581008175">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff" size="5">CAN&#27169;&#22359;&#20171;&#32461;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685581081949" ID="ID_1193268665" MODIFIED="1685581584866">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>&#27010;&#36848;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff0000">&#21807;&#19968;&#33021;&#20174;upper layer&#23618;&#35775;&#38382;Can&#27169;&#22359;&#30340;&#26159;CanIf&#27169;&#22359;</font></b>&#65307;
+    </p>
+    <p>
+      Can&#27169;&#22359;&#25552;&#20379;&#26381;&#21153;&#29992;&#20110;&#21021;&#22987;&#21270;&#20256;&#36755;&#24182;&#19988;&#36890;&#36807;&#35843;&#29992;CanIf&#27169;&#22359;&#30340;callback&#20989;&#25968;&#26469;&#26381;&#21153;
+    </p>
+    <p>
+      &#36890;&#30693;&#20107;&#20214;&#65292;&#29420;&#31435;&#20110;&#30828;&#20214;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26356;&#22810;&#22320;&#65292;Can&#27169;&#22359;&#25552;&#20379;&#26381;&#21153;&#29992;&#26469;&#25511;&#21046;CAN&#25511;&#21046;&#22120;&#30340;&#34892;&#20026;&#21644;&#29366;&#24577;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685582008872" ID="ID_1525027570" MODIFIED="1685583454944">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" size="5">&#26415;&#35821;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CAN controller&#65306;&#19968;&#20010;CAN controller&#26381;&#21153;&#19968;&#20010;&#29289;&#29702;&#30340;&#36890;&#36947;
+    </p>
+    <p>
+      CAN Hardware Unit: &#19968;&#20010;CAN Hardware Unit&#21487;&#33021;&#26159;&#30001;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;&#20855;&#26377;&#30456;&#21516;&#31867;&#22411;&#30340;CAN
+    </p>
+    <p>
+      &#160;controller&#32452;&#25104;&#65292;&#25110;&#32773;&#26159;&#30001;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;CAN RAM&#21306;&#22495;&#32452;&#25104;&#12290;CAN Hardware Unit&#35201;&#20040;&#26159;
+    </p>
+    <p>
+      on-chip&#31867;&#22411;&#30340;&#65292;&#35201;&#20040;&#26159;&#21333;&#29420;&#30340;&#19968;&#20010;&#30828;&#20214;&#35774;&#22791;&#65292;&#24635;&#20043;CAN Hardware Unit&#26159;&#30001;&#19968;&#20010;CAN driver
+    </p>
+    <p>
+      &#25152;&#20195;&#34920;&#30340;&#12290;
+    </p>
+    <p>
+      CAN L-PDU Data Link Layer Protocol Data Unit, &#30001;Identifier&#65292; Data Length &#21644; Data(SDU)&#32452;&#25104;
+    </p>
+    <p>
+      CAN L-SDU Data Link Layer Service Data Unit, &#20256;&#36755;&#20110;L-PDU&#20869;&#37096;&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Hardware Receive Handle(HRH)
+    </p>
+    <p>
+      Hardware Transmit Handle(HTH)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Inner Priority Inversion &#19968;&#20010;&#39640;&#20248;&#20808;&#32423;&#30340;L-PDU&#30340;&#20256;&#36755;&#21487;&#33021;&#20250;&#34987;&#19968;&#20010;&#22788;&#20110;pending&#29366;&#24577;&#30340;&#20302;&#20248;&#20808;&#32423;&#30340;L-PDU&#25152;&#38459;&#22622;
+    </p>
+    <p>
+      Outer Priortiy Inversion
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685583734686" ID="ID_114631299" MODIFIED="1685670792229" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;&amp;#x8ddf;&amp;#x5176;&amp;#x4ed6;&amp;#x6a21;&amp;#x5757;&amp;#x7684;&amp;#x4f9d;&amp;#x8d56;&amp;#x5173;&amp;#x7cfb; &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00240] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Mcu module (SPAL see &#xa;      [8]) shall configure register &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;settings that are &amp;#x2018;shared&amp;#x2019; with other modules.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &#xa;      &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Implementation hint: The Mcu module shall be initialized before &#xa;      initializing the Can &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;module.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;&amp;#x8ddf;&amp;#x5176;&amp;#x4ed6;&amp;#x6a21;&amp;#x5757;&amp;#x5171;&amp;#x4eab;&amp;#x7684;&amp;#x5bc4;&amp;#x5b58;&amp;#x5668;&amp;#x914d;&amp;#x7f6e;&amp;#x5e94;&amp;#x8be5;&amp;#x7531;Mcu&amp;#x6a21;&amp;#x5757;&amp;#x8fdb;&amp;#x884c;&amp;#x914d;&amp;#x7f6e;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00244] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module shall use &#xa;      the synchronous APIs of the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;underlying MCAL drivers and shall not provide callback functions that &#xa;      can be called &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;by the MCAL drivers.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;#xff1f; &amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff3333&amp;quot;&amp;gt;&amp;#x4f7f;&amp;#x7528;&amp;#x5230;&amp;#x7684;&amp;#x7cfb;&amp;#x7edf;&amp;#x670d;&amp;#x52a1;&amp;#xff1a;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00281] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module shall use &#xa;      the OsCounter provided by the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;system service for timeout detection in case the hardware does not &#xa;      react in the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;expected time (hardware malfunction) to prevent endless loops.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &#xa;      &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Implementation hint: The blocking time of the Can module function that &#xa;      is waiting for &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;hardware reaction shall be shorter than the CAN main function (i.e. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_MainFunction_Read) trigger period, because the CAN main functions &#xa;      can&amp;#x2019;t be &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;used for that purpose.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685587000603" ID="ID_1945317851" MODIFIED="1685670833937" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_GeneralTypes.h shall contain all types and constants that &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;are shared among the AUTOSAR CAN modules Can, CanIf and CanTrcv.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0; &#xa;      CAN&amp;#x6a21;&amp;#x5757;&amp;#x5185;&amp;#x90e8;&amp;#x7684;&amp;#x6240;&amp;#x6709;&amp;#x7684;&amp;#x7c7b;&amp;#x578b;&amp;#x548c;&amp;#x5e38;&amp;#x91cf;&amp;#x90fd;&amp;#x4f1a;&amp;#x5305;&amp;#x542b;&amp;#x5728;&amp;#x6587;&amp;#x4ef6;&amp;lt;font color=&amp;quot;#ff0066&amp;quot; size=&amp;quot;5&amp;quot;&amp;gt;Can_GeneralTypes.h&amp;lt;/font&amp;gt;&amp;#x5f53;&amp;#x4e2d;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685587199991" ID="ID_35947311" MODIFIED="1685587216423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#20989;&#25968;&#20171;&#32461;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685587317380" ID="ID_384888362" MODIFIED="1685670873891" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      CAN&amp;#x7684;&amp;#x53d1;&amp;#x9001;&amp;#x548c;&amp;#x63a5;&amp;#x6536;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;On L-PDU transmission, the Can module writes the L-PDU in an &#xa;      appropriate buffer &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;inside the CAN controller hardware. &amp;#xff08;&amp;#x53d1;&amp;#x9001;&amp;#x7684;&amp;#x65f6;&amp;#x5019;&amp;#x5c06;L-PDU&amp;#x5199;&amp;#x5165;&amp;#x5230;&amp;#x5408;&amp;#x9002;&amp;#x7684;buffer&amp;#x5f53;&amp;#x4e2d;&amp;#xff09;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;See chapter 7.5 for closer description of L-PDU transmission. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;On L-PDU reception, the Can module calls the &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;RX indication &#xa;      callback function&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#xa0;with &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;ID, Data Length and pointer to L-SDU as parameter. CAN&amp;#x6a21;&amp;#x5757;&amp;#x8c03;&amp;#x7528;RX&amp;#x56de;&amp;#x8c03;&amp;#x51fd;&amp;#x6570;&amp;#x8fdb;&amp;#x884c;&amp;#x63a5;&amp;#x6536;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      2&amp;#x3001;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module provides an interface that serves as periodical &#xa;      processing function, &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;and which must be called by the Basic Software Scheduler module &#xa;      periodically.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;CAN&amp;#x6a21;&amp;#x5757;&amp;#x63d0;&amp;#x4f9b;&amp;#x4e00;&amp;#x4e2a;&amp;#x63a5;&amp;#x53e3;&amp;#x4f5c;&amp;#x4e3a;&amp;#x5468;&amp;#x671f;&amp;#x6027;&amp;#x7684;&amp;#x5904;&amp;#x7406;&amp;#x51fd;&amp;#x6570;&amp;#xff0c;&amp;#x5fc5;&amp;#x987b;&amp;#x88ab;BS&amp;#x8c03;&amp;#x5ea6;&amp;#x6a21;&amp;#x5757;&amp;#x5468;&amp;#x671f;&amp;#x6027;&amp;#x5730;&amp;#x8c03;&amp;#x7528;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      3&amp;#x3001;Can &amp;#x6a21;&amp;#x5757;&amp;#x63d0;&amp;#x4f9b;&amp;#x4e00;&amp;#x4e2a;&amp;#x670d;&amp;#x52a1;&amp;#x53bb;&amp;#x63a7;&amp;#x5236;Can controller&amp;#x7684;&amp;#x72b6;&amp;#x6001;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      4&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#x3001;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Bus-off and Wake-up events are notified by means of callback functions.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685588076536" ID="ID_958292468" MODIFIED="1685670916900" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x9a71;&amp;#x52a8;&amp;#x7684;&amp;#x6982;&amp;#x89c8;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;One Can module provides access to one CAN Hardware Unit that may &#xa;      consist of &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;several CAN controllers.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x9a71;&amp;#x52a8;&amp;#x72b6;&amp;#x6001;&amp;#x673a;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CAN_UNINIT&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CAN_READY&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00245] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The function Can_Init &#xa;      shall initialize all CAN controllers &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;according to their configuration.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;SRS_SPAL_12057, &#xa;      SRS_Can_01041) &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Each CAN controller must then be started separately by calling the &#xa;      function &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_SetControllerMode(CAN_CS_STARTED).&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;#x6240;&amp;#x6709;&amp;#x7684;CAN controllers&amp;#x662f;&amp;#x901a;&amp;#x8fc7;CAN_Init&amp;#x6765;&amp;#x8fdb;&amp;#x884c;&amp;#x521d;&amp;#x59cb;&amp;#x5316;&amp;#x7684;&amp;#xff0c;&amp;#x4e14;&amp;#x6bcf;&amp;#x4e2a;CAN controller&amp;#x5fc5;&amp;#x987b;&amp;#x901a;&amp;#x8fc7;&amp;#x51fd;&amp;#x6570; &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Can_SetControllerMode(CAN_CS_STARTED)&amp;#x5355;&amp;#x72ec;&amp;#x542f;&amp;#x52a8;&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The ECU State Manager module shall call Can_Init at most once during &#xa;      runtime.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;b&amp;gt;ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x5668;&amp;#x5728;&amp;#x8fd0;&amp;#x884c;&amp;#x671f;&amp;#x95f4;&amp;#x6700;&amp;#x591a;&amp;#x53ea;&amp;#x80fd;&amp;#x8c03;&amp;#x7528;&amp;#x4e00;&amp;#x4e2a;Can_Init&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685588965815" ID="ID_1303775404" MODIFIED="1685590194377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can&#25511;&#21046;&#22120;&#29366;&#24577;&#26426;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27599;&#20010;CAN&#25511;&#21046;&#22120;&#37117;&#26377;&#22797;&#26434;&#30340;&#29366;&#24577;&#65292;&#36825;&#20123;&#22797;&#26434;&#30340;&#29366;&#24577;&#37117;&#34987;&#31934;&#31616;&#21040;&#22914;&#19979;&#30340;&#22235;&#20010;&#22522;&#26412;&#30340;
+    </p>
+    <p>
+      &#29366;&#24577;&#65306;UNINIT STOPPED STARTED SLEEP
+    </p>
+    <p>
+      &#20219;&#20309;&#30828;&#20214;&#30340;&#35775;&#38382;&#37117;&#26159;&#30001;Can&#27169;&#22359;&#30340;&#20989;&#25968;&#23553;&#35013;&#23436;&#25104;&#65292;<b><font color="#ff0033">&#20294;&#26159;can&#27169;&#22359;&#19981;&#20250;&#35760;&#24405;&#29366;&#24577;&#30340; </font></b>
+    </p>
+    <p>
+      <b><font color="#ff0033">&#21464;&#21270;</font></b>&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;&#20110;&#30001;&#22806;&#37096;&#20107;&#20214;&#24341;&#36215;&#30340;&#29366;&#24577;&#35302;&#21457;&#65292;&#26377;&#20004;&#31181;&#21487;&#33021;&#65306;
+    </p>
+    <p>
+      Bus-off event
+    </p>
+    <p>
+      HW wakeup event
+    </p>
+    <p>
+      &#36825;&#20123;&#20107;&#20214;&#30001;&#20013;&#26029;&#25110;&#32773;&#26159;&#29366;&#24577;&#20301;&#36827;&#34892;&#25351;&#31034;&#65292;&#29366;&#24577;&#25351;&#31034;&#20301;&#26159;&#22312;&#20989;&#25968;Can_MainFunction_BusOff&#25110;&#32773;&#26159;
+    </p>
+    <p>
+      Can_MainFunction_Wakeup&#20989;&#25968;&#20013;&#36827;&#34892;poll&#35782;&#21035;&#30340;&#65307;
+    </p>
+    <p>
+      &#22914;&#26524;development errors&#21151;&#33021;&#34987;&#20351;&#33021;&#65292;&#37027;&#20040;Can&#27169;&#22359;&#24212;&#35813;&#33021;&#22815;&#21796;&#36215;development error ---&gt; CAN_E_TRANSITION
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685597851298" ID="ID_868130306" MODIFIED="1685598153613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CAN&#25511;&#21046;&#22120;&#29366;&#24577;&#25551;&#36848;&#31526;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000ff">UNINIT</font></b>&#29366;&#24577;
+    </p>
+    <p>
+      <b><font color="#0000ff">STOPPED</font></b>&#65306;&#35813;&#29366;&#24577;&#19979;CAN&#25511;&#21046;&#22120;&#26159;&#21021;&#22987;&#21270;&#30340;&#29366;&#24577;&#20294;&#26159;&#27809;&#26377;&#21442;&#19982;&#21040;&#24635;&#32447;&#24403;&#20013;&#12290;&#20294;&#26159;error frames&#21644;
+    </p>
+    <p>
+      acknowledges&#24517;&#39035;&#34987;&#21457;&#36865;&#12290;
+    </p>
+    <p>
+      <b><font color="#0000ff">STARTED</font></b>
+    </p>
+    <p>
+      <b><font color="#0000ff">SLEEP </font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685598205362" ID="ID_1635540647" MODIFIED="1685670953411" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;CAN&amp;#x63a7;&amp;#x5236;&amp;#x5668;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362; &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x662f;&amp;#x6709;&amp;#x51fd;&amp;#x6570;Can_SetControllerMode&amp;#x89e6;&amp;#x53d1;&amp;#x7684;&amp;#xff0c;&amp;#x7531;&amp;#x8f6f;&amp;#x4ef6;&amp;#x89e6;&amp;#x53d1;&amp;#x7684;&amp;#x6210;&amp;#x529f;&amp;#x7684;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x4f1a;&amp;#x7531;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      callback&amp;#x51fd;&amp;#x6570;&amp;#x901a;&amp;#x77e5;&amp;#xff08;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_ControllerModeIndication&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#xff09;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x6709;&amp;#x4e9b;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x662f;&amp;#x7531;&amp;#x603b;&amp;#x7ebf;&amp;#x4e0a;&amp;#x9762;&amp;#x7684;&amp;#x4e8b;&amp;#x4ef6;&amp;#x89e6;&amp;#x53d1;&amp;#x7684;&amp;#xff08;&amp;#x786c;&amp;#x4ef6;&amp;#x4e0a;&amp;#x7684;&amp;#xff09;&amp;#xff0c;&amp;#x8fd9;&amp;#x4e9b;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x4f1a;&amp;#x89e6;&amp;#x53d1;&amp;#x56de;&amp;#x8c03;&amp;#x51fd;&amp;#x6570;&amp;#xff08;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_ControllerBusOff&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xff0c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;EcuM_CheckWakeup&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#xff09;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685598636295" ID="ID_1005110466" MODIFIED="1685598642811">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-can_module-&#x72b6;&#x6001;&#x8f6c;&#x6362;.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685598932399" ID="ID_826794902" MODIFIED="1685598963063">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Can module/controller&#21021;&#22987;&#21270;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685599164761" ID="ID_122164304" MODIFIED="1685670993289" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x6a21;&amp;#x5757;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8be5;&amp;#x6a21;&amp;#x5757;&amp;#x5e94;&amp;#x8be5;&amp;#x5728;&amp;#x542f;&amp;#x52a8;&amp;#x9636;&amp;#x6bb5;&amp;#x521d;&amp;#x59cb;&amp;#x5316;Can&amp;#x6a21;&amp;#x5757;(&amp;#x901a;&amp;#x8fc7;&amp;#x8c03;&amp;#x7528;Can_Init)&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00056] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Post-Build configuration &#xa;      elements that are marked as &amp;#x2018;multiple&amp;#x2019; &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;(&amp;#x2018;M&amp;#x2019; or &amp;#x2018;x&amp;#x2019;) in chapter 10 can be selected by passing the pointer &#xa;      &amp;#x2018;Config&amp;#x2019; to the init &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;function of the module. &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x7b2c;10&amp;#x7ae0;&amp;#x4e2d;&amp;#x7684;&amp;#x88ab;&amp;#x6807;&amp;#x8bb0;&amp;#x6210;M&amp;#x6216;&amp;#x8005;X&amp;#x7684;&amp;#x914d;&amp;#x7f6e;&amp;#x5143;&amp;#x7d20;&amp;#x53ef;&amp;#x4ee5;&amp;#x88ab;&amp;#x9009;&amp;#x62e9;&amp;#x5e76;&amp;#x901a;&amp;#x8fc7;Config&amp;#x6307;&amp;#x9488;&amp;#x4f20;&amp;#x9012;&amp;#x7ed9;&amp;#x6a21;&amp;#x5757;&amp;#x7684;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      init&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685600339338" ID="ID_309009400" MODIFIED="1685600366820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>L-PDU&#21457;&#36865;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685600384506" ID="ID_925638711" MODIFIED="1685600815145">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#22312;L-PDU&#20256;&#36755;&#30340;&#38454;&#27573;&#65292;CAN&#27169;&#22359;&#23558;L-PDU&#30340;ID&#21644;Data&#36716;&#25442;&#21040;&#30828;&#20214;&#20855;&#20307;&#30340;&#26684;&#24335;</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685601882611" ID="ID_1582571966" MODIFIED="1685671028611" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;#x2308; &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;If the presentation inside the CAN Hardware buffer &#xa;      differs from &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;AUTOSAR definition, the Can module must provide an adapted SDU-Buffer &#xa;      for the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;upper layers.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;)&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;&#xa;      &amp;#x5982;&amp;#x679c;&amp;#x5728;CAN&amp;#x786c;&amp;#x4ef6;&amp;#x5c42;buffer&amp;#x4e2d;&amp;#x7684;&amp;#x6570;&amp;#x636e;&amp;#x6392;&amp;#x5217;&amp;#x8ddf;AUTOSAR&amp;#x6807;&amp;#x51c6;&amp;#x4e0d;&amp;#x4e00;&amp;#x81f4;&amp;#xff0c;&amp;#x90a3;&amp;#x4e48; Can&amp;#x9700;&amp;#x8981;&amp;#x63d0;&amp;#x4f9b;&amp;#x4e00;&amp;#x4e2a;&amp;#x9002;&amp;#x914d;&amp;#x7684;SDU-Buffer&amp;#x7ed9;&amp;#x4e0a;&amp;#x5c42;&amp;#x5e94;&amp;#x7528;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685601119273" ID="ID_1152549601" MODIFIED="1685602512449">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#19968;&#20123;&#20855;&#26377;&#29420;&#29305;&#30340;HTHs&#30340;Tx&#30828;&#20214;&#23545;&#35937;&#21487;&#33021;&#20250;&#34987;&#37197;&#32622;&#65292; </b>
+    </p>
+    <p>
+      <b>CanIf&#27169;&#22359;&#20250;&#25552;&#20379;HTH&#20316;&#20026;Tx&#35831;&#27714;&#30340;&#21442;&#25968;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685603234474" ID="ID_1666540478" MODIFIED="1685671073929" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x51fd;&amp;#x6570;Can_Write&amp;#x5e94;&amp;#x8be5;&amp;#x4f1a;&amp;#x5b58;&amp;#x50a8;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;swPduHandle&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#xff0c;&amp;#x8be5;&amp;#x53c2;&amp;#x6570;&amp;#x662f;&amp;#x5b58;&amp;#x50a8;&amp;#x5728;&amp;#x53c2;&amp;#x6570;PduInfo&amp;#x7684;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x76f4;&amp;#x5230;Can module &amp;#x4e3a;&amp;#x8be5;&amp;#x8bf7;&amp;#x6c42;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;CanIf_TxConfirmation&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      CanIf_TxConfirmation&amp;#x51fd;&amp;#x6570;&amp;#x7684;&amp;#x53c2;&amp;#x6570;&amp;#x662f;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;swPduHandle &#xa;      &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;Can&amp;#x6a21;&amp;#x5757;&amp;#x4e2d;&amp;#xff0c;&amp;#x5f53;&amp;#x4f20;&amp;#x8f93;&amp;#x6210;&amp;#x529f;&amp;#x4e4b;&amp;#x540e;&amp;#xff0c;&amp;#x4f1a;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_TxConfirmation&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8868;&amp;#x660e;&amp;#x4f20;&amp;#x8f93;&amp;#x6210;&amp;#x529f;&amp;#xff0c;&amp;#x8be5;&amp;#x51fd;&amp;#x6570;&amp;#x53ef;&amp;#x80fd;&amp;#x662f;&amp;#x7531;&amp;#x5bf9;&amp;#x5e94;&amp;#x7684;&amp;#x786c;&amp;#x4ef6;&amp;#x4e2d;&amp;#x65ad;&amp;#x670d;&amp;#x52a1;&amp;#x4f8b;&amp;#x7a0b;&amp;#x8c03;&amp;#x7528;&amp;#x4e5f;&amp;#x53ef;&amp;#x80fd;&amp;#x662f;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7531;Can_MainFunction_Write&amp;#x51fd;&amp;#x6570;&amp;#x8c03;&amp;#x7528;(polling&amp;#x6a21;&amp;#x5f0f;)&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685605919767" ID="ID_837031414" MODIFIED="1685671120898" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;&amp;#x4f18;&amp;#x5148;&amp;#x7ea7;&amp;#x53cd;&amp;#x8f6c;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Multiplexed transmission can be used to avoid outer/inner priority &#xa;      inversion (see &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;chapter 2.1)&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;&amp;#x590d;&amp;#x7528;&amp;#x4f20;&amp;#x8f93;&amp;#x53ef;&amp;#x4ee5;&amp;#x88ab;&amp;#x7528;&amp;#x4e8e;&amp;#x907f;&amp;#x514d;outer/innder&amp;#x4f18;&amp;#x5148;&amp;#x7ea7;&amp;#x53cd;&amp;#x8f6c; &#xa;      &amp;#x51e0;&amp;#x4e2a;&amp;#x4f20;&amp;#x8f93;&amp;#x786c;&amp;#x4ef6;&amp;#x5bf9;&amp;#x8c61;&amp;#x5e94;&amp;#x8be5;&amp;#x88ab;&amp;#x8d4b;&amp;#x4e88;&amp;#x4e00;&amp;#x4e2a;HTH&amp;#xff0c;&amp;#x7528;&amp;#x4e8e;&amp;#x5bf9;&amp;#x4e0a;&amp;#x5c42;&amp;#x6765;&amp;#x8bf4;&amp;#x4ee3;&amp;#x8868;&amp;#x4e00;&amp;#x4e2a;&amp;#x4f20;&amp;#x8f93;&amp;#x5b9e;&amp;#x4f53;&amp;#x3002; Can&amp;#x6a21;&amp;#x5757;&amp;#x5e94;&amp;#x8be5;&amp;#x4e3a;&amp;#x5982;&amp;#x4e0b;&amp;#x7684;&amp;#x8bbe;&amp;#x5907;&amp;#x652f;&amp;#x6301;&amp;#x591a;&amp;#x8def;&amp;#x670d;&amp;#x7528;&amp;#x4f20;&amp;#x8f93;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685608073226" ID="ID_1050762274" MODIFIED="1685608251083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Transmit Data Consistency&#160;&#160;&#160;&#160;&#20256;&#36755;&#25968;&#25454;&#19968;&#33268;&#24615;
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">The Can module shall directly copy the data from the upper </font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">layer buffers. It is the responsibility of the upper layer to keep the buffer consistent </font>
+    </div>
+    <div>
+      <font size="12pt" face="Arial" color="rgb(0,0,0)">until return of function call (Can_Write).</font><font size="12pt" face="Cambria Math" color="rgb(0,0,0)">&#8971;</font>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685608257545" ID="ID_1791137410" MODIFIED="1685608283177">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>L-PDU&#25509;&#25910;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685608300697" ID="ID_820671473" MODIFIED="1685671164150" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5f53;&amp;#x5904;&amp;#x4e8e;&amp;#x63a5;&amp;#x6536;&amp;#x6a21;&amp;#x5f0f;&amp;#x7684;&amp;#x65f6;&amp;#x5019;&amp;#xff0c;Can&amp;#x6a21;&amp;#x5757;&amp;#x5e94;&amp;#x8be5;&amp;#x8c03;&amp;#x7528;RX&amp;#x63d0;&amp;#x793a;&amp;#x56de;&amp;#x8c03;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_RxIndication with ID, Hoh, abstract CanIf &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;ControllerId in parameter Mailbox, and the Data Length and pointer to &#xa;      the L-SDU &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;buffer in parameter PduInfoPtr.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;SRS_Can_01045)&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;To prevent loss of received messages, some controllers support a FIFO &#xa;      built &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;from a set of hardware objects, while on other controllers it is &#xa;      possible to &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;configure another hardware object with the same properties that works &#xa;      as a &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;shadow buffer and steps in when the main object is busy. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685609183673" ID="ID_929826915" MODIFIED="1685671203769" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Wakeup&amp;#x7684;&amp;#x6982;&amp;#x5ff5;&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      Can&amp;#x6a21;&amp;#x5757;&amp;#x53ef;&amp;#x4ee5;&amp;#x5904;&amp;#x7406;wakeup&amp;#x4e8b;&amp;#x4ef6;&amp;#xff08;&amp;#x7531;Can controller&amp;#x672c;&amp;#x8eab;&amp;#x68c0;&amp;#x6d4b;&amp;#x5230;&amp;#x800c;&amp;#x4e0d;&amp;#x662f;&amp;#x7531;Can &#xa;      transceiver&amp;#x68c0;&amp;#x6d4b;&amp;#x5230;&amp;#xff09;&amp;#xff0c;&amp;#x6709;&amp;#x4e24;&amp;#x79cd;&amp;#x53ef;&amp;#x80fd;&amp;#x7684;&amp;#x573a;&amp;#x666f;-----&amp;#x7531;&amp;#x4e2d;&amp;#x65ad;&amp;#x5524;&amp;#x9192;&amp;#x548c;&amp;#x7531;polling&amp;#x65b9;&amp;#x5f0f;&amp;#x5524;&amp;#x9192;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0033&amp;quot;&amp;gt;&amp;#x5f53;&amp;#x5524;&amp;#x9192;&amp;#x662f;&amp;#x7531;&amp;#x4e2d;&amp;#x65ad;&amp;#x5f15;&amp;#x8d77;&amp;#x7684;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;#xff0c;&amp;#x90a3;&amp;#x4e48;Can&amp;#x6a21;&amp;#x5757;&amp;#x7684;&amp;#x4e2d;&amp;#x65ad;&amp;#x670d;&amp;#x52a1;&amp;#x51fd;&amp;#x6570;ISR&amp;#x4f1a;&amp;#x88ab;&amp;#x8c03;&amp;#x7528;&amp;#xff0c;&amp;#x5728;ISR&amp;#x51fd;&amp;#x6570;&amp;#x91cc;&amp;#x9762;&amp;#x8fd8;&amp;#x9700;&amp;#x8981;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;EcuM_CheckWakeup&amp;#xff0c;&amp;#x4f20;&amp;#x9012;&amp;#x7ed9;&amp;#x51fd;&amp;#x6570;EcuM_CheckWakeup&amp;#x7684;&amp;#x53c2;&amp;#x6570;&amp;#x5e94;&amp;#x8be5;&amp;#x662f;&amp;#x5524;&amp;#x9192;&amp;#x6e90;&amp;#x7684;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ID&amp;#x53f7;(&amp;#x7531;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanWakeupSourceRef &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;configuration parameter&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      )&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x5668;&amp;#x5c06;&amp;#x4f1a;&amp;#x8bbe;&amp;#x7f6e;MCU&amp;#xff0c;&amp;#x5e76;&amp;#x4e14;&amp;#x4f1a;&amp;#x901a;&amp;#x8fc7;Can Interface&amp;#x53cd;&amp;#x8fc7;&amp;#x6765;&amp;#x8c03;&amp;#x7528;Can&amp;#x6a21;&amp;#x5757;&amp;#xff0c;&amp;#x7ed3;&amp;#x679c;&amp;#x662f;&amp;#x4f1a;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      Can_CheckWakeup&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5982;&amp;#x679c;&amp;#x5524;&amp;#x9192;&amp;#x662f;&amp;#x901a;&amp;#x8fc7;polling&amp;#x65b9;&amp;#x5f0f;&amp;#x5f15;&amp;#x8d77;&amp;#x7684;&amp;#xff0c;ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x5668;&amp;#x5c31;&amp;#x4f1a;&amp;#x5b9a;&amp;#x671f;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_CheckWakeup&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot;&amp;gt;Can_CheckWakeup will check if there was a wakeup detected by a Can &#xa;      controller &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot;&amp;gt;and return the result. The CAN driver will then inform the ECU State &#xa;      Manager of the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot;&amp;gt;wakeup event via EcuM_SetWakeupEvent.&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685610312718" ID="ID_257873878" MODIFIED="1685671241298" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;5&amp;quot;&amp;gt;Notification&amp;#x7684;&amp;#x6982;&amp;#x5ff5;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module offers only an event triggered notification interface &#xa;      to the CanIf &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;module. Each notification is represented by a callback function. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685611579880" ID="ID_668630805" MODIFIED="1685671274063" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Reentrancy Issues&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4e00;&amp;#x4e2a;&amp;#x4f8b;&amp;#x7a0b;&amp;#x5fc5;&amp;#x987b;&amp;#x6ee1;&amp;#x8db3;&amp;#x5982;&amp;#x4e0b;&amp;#x7684;&amp;#x6761;&amp;#x4ef6;&amp;#x6765;&amp;#x8fbe;&amp;#x5230;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#x6807;&amp;#x51c6;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#xa0;&amp;#xa0;It uses all shared variables in an atomic way, unless each is &#xa;      allocated to a &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;specific instance of the function. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Wingdings&amp;quot;&amp;gt;&amp;#xf0a7; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;It does not call non-reentrant functions. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Wingdings&amp;quot;&amp;gt;&amp;#xf0a7; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;It does not use the hardware in a non-atomic way. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#x53d1;&amp;#x9001;&amp;#x8bf7;&amp;#x6c42;&amp;#x662f;&amp;#x7b80;&amp;#x5355;&amp;#x5730;&amp;#x4ece;CanIf&amp;#x6a21;&amp;#x5757;&amp;#x7684;&amp;#x51fd;&amp;#x6570;CanIf_Transmit&amp;#x5bfc;&amp;#x5165;&amp;#x7684;&amp;#xff0c;&amp;#x51fd;&amp;#x6570;CanIf_Transmit&amp;#x662f; &#xa;      &amp;#x53ef;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#xff0c;&amp;#x56e0;&amp;#x6b64;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;&amp;#x51fd;&amp;#x6570;Can_Write&amp;#x9700;&amp;#x8981;&amp;#x88ab;&amp;#x5b9e;&amp;#x73b0;&amp;#x6210;&amp;#x7ebf;&amp;#x7a0b;&amp;#x5b89;&amp;#x5168;&amp;#x7684;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_EnableCanInterrupts&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#x548c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_DisableCanInterrupts&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7531;&amp;#x4e8e;&amp;#x6709;&amp;#x53ef;&amp;#x80fd;&amp;#x5728;&amp;#x53ef;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#x51fd;&amp;#x6570;&amp;#x91cc;&amp;#x9762;&amp;#x88ab;&amp;#x8c03;&amp;#x7528;&amp;#xff0c;&amp;#x56e0;&amp;#x6b64;&amp;#x4e5f;&amp;#x8981;&amp;#x5b9e;&amp;#x73b0;&amp;#x6210;&amp;#x53ef;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685612268482" ID="ID_1951935757" MODIFIED="1685612841984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0033ff"><b>&#38169;&#35823;&#30340;&#24402;&#31867;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685612848353" ID="ID_73608933" MODIFIED="1685612861771" TEXT="1&#x3001;Development Errors">
+<node CREATED="1685613041264" ID="ID_1146523488" MODIFIED="1685613048347">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-can-development_error.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685612870367" ID="ID_1548030554" MODIFIED="1685612880781" TEXT="2&#x3001;Runtime Errors">
+<node CREATED="1685613082028" ID="ID_1689505933" MODIFIED="1685613404938">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CAN_E_DATALOST&#160;&#160;&#160;&#160;Received CAN message is lost
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685612908479" ID="ID_899126481" MODIFIED="1685612958024">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3&#12289;Return Value
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685613437496" ID="ID_1745489541" MODIFIED="1685613459504">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>CAN FD&#30340;&#25903;&#25345;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685613660241" ID="ID_1817930418" MODIFIED="1685671317691" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8ddf;CAN FD&amp;#x76f8;&amp;#x5173;&amp;#x7684;&amp;#x914d;&amp;#x7f6e;&amp;#x7ed3;&amp;#x6784;&amp;#x4f53;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanControllerFdBaudrateConfig&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanControllerTxBitRateSwitch&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x6709;&amp;#x4e9b;&amp;#x60c5;&amp;#x51b5;&amp;#x4e0b;&amp;#xff0c;&amp;#x5728;&amp;#x652f;&amp;#x6301;CAN-FD&amp;#x6d88;&amp;#x606f;&amp;#x7684;&amp;#x7f51;&amp;#x7edc;&amp;#x4e0a;&amp;#x4e5f;&amp;#x9700;&amp;#x8981;&amp;#x8dd1;&amp;#x4f20;&amp;#x7edf;&amp;#x7684;CAN2.0&amp;#x7684;&amp;#x6d88;&amp;#x606f;&amp;#xff0c;&amp;#x5728;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8fd9;&amp;#x79cd;&amp;#x60c5;&amp;#x51b5;&amp;#x4e0b;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;support transmitting interleaved &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;conventional CAN messages with CAN-FD messages&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x662f;&amp;#x5f88;&amp;#x6709;&amp;#x5fc5;&amp;#x8981;&amp;#x7684;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;This can be achieved on &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;frame level by using the two most significant bits of the CanId (see &#xa;      Can_IdType, &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;SWS_Can_00416) passed during Can_Write to indicate which kind of &#xa;      frame shall be &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;used. &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#0000ff&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685614622346" ID="ID_641858252" MODIFIED="1685671356901" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000cc&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;If there is a request to transmit a CAN FD frame and the CAN &#xa;      Controller &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000cc&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;is not in CAN FD mode (no CanControllerFdBaudrateConfig) the frame is &#xa;      sent as &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000cc&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;conventional CAN frame as long as the PDU length &amp;amp;lt;= 8 bytes.&amp;lt;/di&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+</node>
+<node CREATED="1685614714964" ID="ID_27969528" MODIFIED="1685671415251" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      CAN&amp;#x9519;&amp;#x8bef;&amp;#x7c7b;&amp;#x578b;&amp;#x7684;&amp;#x62a5;&amp;#x544a;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8ddf;&amp;#x53d8;&amp;#x91cf;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;CanEnableSecurityEventReporting&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7684;&amp;#x8bbe;&amp;#x7f6e;&amp;#x6709;&amp;#x5173;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685671487241" ID="ID_1970265760" MODIFIED="1685671508001">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>API&#20171;&#32461;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685671666058" ID="ID_1215476872" MODIFIED="1685671677723">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#25454;&#32467;&#26500;&#20171;&#32461;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685671798122" ID="ID_649662752" MODIFIED="1685925853630">
+<richcontent TYPE="NODE">&lt;html&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Can_ConfigType&lt;/font&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;div&gt;
+      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;This is the type of the external data structure containing the overall 
+      initialization data &lt;/font&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;for the CAN driver and SFR settings affecting all controllers. 
+      Furthermore it contains &lt;/font&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;pointers to controller configuration structures. The contents of the 
+      initialization data &lt;/font&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;structure are CAN hardware specific.&lt;/font&gt;&lt;/di&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richcontent>
+</node>
+<node CREATED="1685672870473" ID="ID_326297120" MODIFIED="1685673021459">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can_PduType
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685673024495" ID="ID_1608075242" MODIFIED="1685673089323">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Can_IdType</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685673116689" ID="ID_478424289" MODIFIED="1685673229298">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-datatype-Can_IdType.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685673752412" ID="ID_1992701785" MODIFIED="1685778509527" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Can_HwHandleType &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x53e5;&amp;#x67c4;&amp;#xff0c;&amp;#x4ee3;&amp;#x8868;&amp;#x4e00;&amp;#x4e2a;CAN hardware unit&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685673794542" ID="ID_1352781783" MODIFIED="1685675432669">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Can_HwType</font></b>&#65306;&#19968;&#20010;&#32467;&#26500;&#20307;&#65292;&#21253;&#21547;&#22914;&#19979;&#30340;&#25968;&#25454;&#31867;&#22411;
+    </p>
+    <p>
+      1&#12289;Can_IdType
+    </p>
+    <p>
+      2&#12289;Can_HwHandleType
+    </p>
+    <p>
+      3&#12289;ControllerId
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685674294566" ID="ID_149540250" MODIFIED="1685674336780">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Can_ErrorStateType</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CAN&#25511;&#21046;&#22120;&#30340;&#38169;&#35823;&#29366;&#24577;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685674383405" ID="ID_45455644" MODIFIED="1685674390725">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-datatype-Can_ErrorStateType.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685674497194" ID="ID_1112442455" MODIFIED="1685674564179">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CAN&#25511;&#21046;&#22120;&#30340;&#29366;&#24577;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Can_ControllerStateType
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CAN_CS_UNINIT
+    </p>
+    <p>
+      CAN_CS_STARTED
+    </p>
+    <p>
+      CAN_CS_STOPPED
+    </p>
+    <p>
+      CAN_CS_SLEEP
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685674731562" ID="ID_1558349306" MODIFIED="1685674844781">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/autosar-datatype_Can_ErrorType.PNG" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685616182309" ID="ID_594980088" MODIFIED="1685616208712">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">EB&#39044;&#32534;&#35793;&#23398;&#20064;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685616213543" ID="ID_406159821" MODIFIED="1685616405258">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="1">generate_PC/Inc/Can_Cfg.h </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="1">#define CAN_PRECOMPILE_SUPPORT[!WS &quot;4&quot;!][!IF &quot;IMPLEMENTATION_CONFIG_VARIANT = 'VariantPreCompile' and (variant:size()&lt;=1)&quot;!](STD_ON)[!ELSE!](STD_OFF)[!ENDIF!][!CR!] </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="1">[!CODE!]#define CAN_CONFIG_EXT[!ENDCODE!] </font>
+    </p>
+    <p>
+      <font size="1">[!IF &quot;((IMPLEMENTATION_CONFIG_VARIANT != 'VariantPostBuild') and (variant:size()&gt;1)) or (IMPLEMENTATION_CONFIG_VARIANT = 'VariantPostBuild')&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;[!CODE!] \[!CR!][!ENDCODE!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;[!INDENT &quot;4&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;[!IF &quot;var:defined('postBuildVariant')&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantIndex&quot;=&quot;0&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantNumber&quot;=&quot;variant:size()&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!LOOP &quot;variant:all()&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantIndex&quot;=&quot;$variantIndex + 1&quot;!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!CODE!]CAN_CONFIG_[!&quot;.&quot;!]_PB [!IF &quot;$variantIndex &lt; $variantNumber&quot;!]\[!ENDIF!][!CR!][!ENDCODE!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!ENDLOOP!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;[!ELSE!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!CODE!]CAN_CONFIG_PB[!CR!][!ENDCODE!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;[!ENDIF!] </font>
+    </p>
+    <p>
+      <font size="1">&#160;&#160;&#160;&#160;[!ENDINDENT!] </font>
+    </p>
+    <p>
+      <font size="1">[!ENDIF!] </font>
+    </p>
+    <p>
+      <font size="1">[!ENDNOCODE!] </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1675158516315" ID="ID_1129890928" MODIFIED="1675158563356">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -814,7 +2386,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1675241663883" ID="ID_778258905" MODIFIED="1675241669191" TEXT="&#x6e05;&#x534e;&#x5927;&#x5b66;&#x6559;&#x7a0b;&#x2014;&#x2014;CAN&#x603b;&#x7ebf;&#x539f;&#x7406;&#x53ca;&#x5e94;&#x7528;">
-<node CREATED="1675241699112" ID="ID_402909263" MODIFIED="1675242045921">
+<node CREATED="1675241699112" ID="ID_402909263" MODIFIED="1681438077809">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -843,6 +2415,19 @@
     </p>
   </body>
 </html></richcontent>
+<linktarget COLOR="#ff0000" DESTINATION="ID_402909263" ENDARROW="Default" ENDINCLINATION="1408;0;" ID="Arrow_ID_351408785" SOURCE="ID_783029328" STARTARROW="None" STARTINCLINATION="3016;0;"/>
+<node CREATED="1681298094127" ID="ID_37348356" MODIFIED="1681298132966">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0000">CAN is short for &#8216;Controller Area Network&#8217;, and CAN FD is short for CAN with Flexible Data rate. Controller area network is an electronic communication bus defined by the ISO 11898 standards. In 2015 these standards were updated to include CAN FD as an addition to the previous revision, and the new reference number ISO 11898-1:2015(E) was assigned. </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1675242049287" ID="ID_878515759" MODIFIED="1675242391872">
 <richcontent TYPE="NODE"><html>
@@ -1071,7 +2656,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1675305955839" ID="ID_355941554" MODIFIED="1675306467944">
+<node CREATED="1675305955839" ID="ID_355941554" MODIFIED="1683251932430">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1093,17 +2678,17 @@
       &#160;&#160;&#160;&#160;&#25193;&#23637;&#26684;&#24335;&#65288;2.0B&#65289;&#65292;29&#20301;
     </p>
     <p>
-      &#36828;&#31243;&#21457;&#36865;&#35831;&#27714;&#20301;&#65288;RTR&#65289;&#65306;&#23545;&#20110;data frame&#21457;&#36865;&#35813;&#20301;&#35774;&#32622;&#25104;0&#65292;&#24403;&#26159;&#25509;&#25910;&#27169;&#24335;&#30340;&#26102;&#20505;&#35813;&#20301;&#32622;&#35774;&#32622;&#25104;1
+      &#36828;&#31243;&#21457;&#36865;&#35831;&#27714;&#20301;&#65288;RTR&#65289;&#65306;&#23545;&#20110;data frame&#21457;&#36865;&#35813;&#20301;&#35774;&#32622;&#25104;0&#65288;<b><font color="#ff3333">&#26174;&#24615;</font></b>&#65289;&#65292;&#24403;&#26159;&#25509;&#25910;&#27169;&#24335;&#30340;&#26102;&#20505;&#35813;&#20301;&#32622;&#35774;&#32622;&#25104;1&#65288;<b><font color="#ff3333">&#38544;&#24615;</font></b>&#65289;
     </p>
     <p>
-      &#26367;&#20195;&#36828;&#31243;&#35831;&#27714;&#20301;&#65288;SRR&#65289;&#65306;&#25193;&#23637;&#26684;&#24335;&#65292;&#35774;&#32622;&#25104;1
+      &#26367;&#20195;&#36828;&#31243;&#35831;&#27714;&#20301;&#65288;SRR&#65289;&#65306;&#25193;&#23637;&#26684;&#24335;&#65292;&#35774;&#32622;&#25104;1&#65288;<b><font color="#ff3333">&#38544;&#24615;</font></b>&#65289;
     </p>
     <p>
-      ID&#25193;&#23637;&#20301;&#65288;IDE&#65289;&#65306;&#25193;&#23637;&#26684;&#24335;&#65292;&#35774;&#32622;&#25104;1&#65292;&#34920;&#31034;&#20855;&#26377;29 bit&#26631;&#35782;&#31526;&#30340;&#25193;&#23637;&#26684;&#24335;
+      ID&#25193;&#23637;&#20301;&#65288;IDE&#65289;&#65306;&#25193;&#23637;&#26684;&#24335;&#65292;&#35774;&#32622;&#25104;1&#65288;<b><font color="#ff0000">&#38544;&#24615;</font></b>&#65289;&#65292;&#34920;&#31034;&#20855;&#26377;29 bit&#26631;&#35782;&#31526;&#30340;&#25193;&#23637;&#26684;&#24335;
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1675306519126" ID="ID_921975283" MODIFIED="1675306527443">
+<node CREATED="1675306519126" ID="ID_921975283" MODIFIED="1681817919343">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1112,6 +2697,7 @@
     <img src="Pic/CAN&#x6570;&#x636e;&#x5e27;&#x4ef2;&#x88c1;&#x573a;.PNG" />
   </body>
 </html></richcontent>
+<arrowlink COLOR="#ff0033" DESTINATION="ID_1699679551" ENDARROW="Default" ENDINCLINATION="2183;0;" ID="Arrow_ID_1317095118" STARTARROW="None" STARTINCLINATION="2970;0;"/>
 </node>
 </node>
 <node CREATED="1675315606001" ID="ID_1993195463" MODIFIED="1675315832309">
@@ -1248,6 +2834,18 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1681298601365" ID="ID_1519892046" MODIFIED="1681298628716">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In <font color="#ff3300">CAN FD remote request is not supported</font>, and all CAN FD frames are data frames, which for Classical frames are indicated by dominant (RTR=0) bit. To indicate the different use in the CAN FD frames, this bit is named Remote Request Substitution (RRS). The RRS-bit is always sent dominant (RRS=0) because a CAN FD frame is always a data frame
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1676366021670" ID="ID_151725031" MODIFIED="1676366086551">
 <richcontent TYPE="NODE"><html>
@@ -1259,8 +2857,7 @@
       <b><font color="#ff0033" size="4">&#38169;&#35823;&#24103;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676366188103" ID="ID_1251174801" MODIFIED="1676366225047">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1271,8 +2868,7 @@
       <font color="#0000ff">CAN&#24635;&#32447;&#36890;&#35759;&#20013;&#30340;&#38169;&#35823;&#31867;&#22411;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676366251119" ID="ID_99114268" MODIFIED="1676366438608">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1299,8 +2895,7 @@
     </p>
     &#33410;&#28857;Node_A&#21521;&#24635;&#32447;&#21457;&#36865;&#36830;&#32493;&#20845;&#20010;&#38544;&#24615;&#20301;&#65288;&#34987;&#21160;&#38169;&#35823;&#26631;&#24535;&#65289;&#21364;&#22238;&#35835;&#21040;&#26174;&#24615;&#20301;&#65292;&#19981;&#35748;&#20026;&#26159;&#20301;&#38169;&#35823;&#12290; &#22240;&#20026;&#34987;&#21160;&#38169;&#35823;&#26631;&#24535;&#26159;&#20845;&#20010;&#36830;&#32493;&#30340;&#38544;&#24615;&#20301;&#65292;&#25152;&#20197;&#22312;&#24635;&#32447;&#19978;&#25353;&#29031;&#32447;&#19982;&#26426;&#21046;&#65292; &#26377;&#21487;&#33021;&#36825;&#20845;&#20010;&#36830;&#32493;&#38544;&#24615;&#20301;&#34987;&#20854;&#23427;&#33410;&#28857;&#21457;&#36865;&#30340;&#26174;&#24615;&#30005;&#24179;&#8220;&#21507;&#25481;&#8221;&#65307;
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676366471358" ID="ID_435950879" MODIFIED="1676366719223">
 <richcontent TYPE="NODE"><html>
@@ -1321,8 +2916,7 @@
       &#25509;&#25910;&#21040;&#21457;&#36865;&#33410;&#28857;&#21457;&#36865;&#30340;&#25253;&#25991;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676366639271" ID="ID_1286857372" MODIFIED="1676366709742">
 <richcontent TYPE="NODE"><html>
@@ -1340,8 +2934,7 @@
       &#22312;&#38656;&#35201;&#36827;&#34892;&#20301;&#22635;&#20805;&#30340;&#27573;&#65288;&#25968;&#25454;&#24103;&#36828;&#31243;&#24103;&#30340;SOF~CRC&#27573;&#65289;&#65292;&#26816;&#27979;&#21040;&#36830;&#32493;6&#20010;&#30456;&#21516;&#30340;&#20301;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676366750366" ID="ID_1703623046" MODIFIED="1676366772734">
 <richcontent TYPE="NODE"><html>
@@ -1359,8 +2952,7 @@
       CRC&#26657;&#39564;&#27809;&#26377;&#36890;&#36807;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676366859311" ID="ID_346387672" MODIFIED="1676366982488">
 <richcontent TYPE="NODE"><html>
@@ -1389,8 +2981,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1676426984662" ID="ID_1680157559" MODIFIED="1676427002319">
@@ -1403,8 +2994,7 @@
       <b><u><font color="#3333ff">&#24103;&#32467;&#26500;</font></u></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676427006807" ID="ID_63702727" MODIFIED="1676427016430">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1413,92 +3003,91 @@
   <body>
     <img src="Pic/CAN&#x534f;&#x8bae;-&#x9519;&#x8bef;&#x5e27;&#x7ed3;&#x6784;.PNG" />
   </body>
-</html>
-</richcontent>
-<node CREATED="1676429209479" ID="ID_140365496" MODIFIED="1676429333899">
+</html></richcontent>
+<node CREATED="1676429209479" ID="ID_140365496" MODIFIED="1678789581174">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font face="Times New Roman" color="#3333ff">1) &#20027;&#21160;&#38169;&#35823;&#29366;&#24577; </font>
+      <font color="#3333ff" face="Times New Roman">1) &#20027;&#21160;&#38169;&#35823;&#29366;&#24577; </font>
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#26368;&#24320;&#22987;TCE&#21644;REC&#37117;&#23567;&#20110;127&#26102;**&#65292;&#23601;&#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#12290; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font face="Times New Roman" color="#3333ff">&#22312;&#36825;&#19968;&#29366;&#24577;&#19979;&#65292;&#33410;&#28857;&#26816;&#27979;&#21040;&#19968;&#20010;&#38169;&#35823;&#23601;&#20250;&#21457;&#36865;&#24102;&#26377;&#20027;&#21160;&#38169;&#35823;&#26631;&#24535;&#30340;&#38169;&#35823;&#24103;&#65292;&#22240;&#20026;&#20027;&#21160;&#38169;&#35823;&#26631;&#24535;&#26159;&#36830;&#32493;&#20845;&#20010;&#26174;&#24615;&#20301;&#65292;&#25152;&#20197;&#36825;&#20010;&#26102;&#20505;&#20027;&#21160;&#38169;&#35823;&#26631;&#24535;&#23558;&#20250;&#8220;&#35206;&#30422;&#8221;&#25481;&#24635;&#32447;&#19978;&#20854;&#23427;&#33410;&#28857;&#30340;&#21457;&#36865;&#65292;&#32780;&#20043;&#21069;&#22312;CAN&#24635;&#32447;&#19978;&#20256;&#36755;&#30340;&#25253;&#25991;&#23601;&#34987;&#36825;&#8220;&#20845;&#20010;&#36830;&#32493;&#26174;&#24615;&#20301;&#8221;&#30772;&#22351;&#25481;&#20102;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#26368;&#24320;&#22987;TCE&#21644;REC&#37117;&#23567;&#20110;127&#26102;**&#65292;&#23601;&#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#22914;&#26524;&#21457;&#20986;&#20027;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;&#26159;&#21457;&#36865;&#33410;&#28857;&#65292;&#36825;&#20010;&#24773;&#20917;&#19979;&#23601;&#30456;&#24403;&#20110;&#65306;&#21018;&#21018;&#21457;&#36865;&#30340;&#37027;&#19968;&#24103;&#25253;&#25991;&#25105;&#21457;&#38169;&#20102;&#65292;&#29616;&#22312;&#25105;&#30772;&#22351;&#25481;&#23427;&#65288;&#21457;&#36865;&#20027;&#21160;&#38169;&#35823;&#24103;&#65289;&#65292;&#20320;&#20204;&#19981;&#31649;&#25910;&#21040;&#20160;&#20040;&#37117;&#19981;&#31639;&#25968;&#65307; </font>
-    </p>
-    <p>
-      <font face="Times New Roman" color="#3333ff">&#22914;&#26524;&#21457;&#20986;&#20027;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;&#26159;&#25509;&#25910;&#33410;&#28857;&#65292;&#36825;&#20010;&#24773;&#20917;&#23601;&#30456;&#24403;&#20110;&#65306;&#21018;&#21018;&#25105;&#25910;&#25253;&#25991;&#30340;&#26102;&#20505;&#21457;&#29616;&#20102;&#38169;&#35823;&#65292;&#19981;&#31649;&#20320;&#20204;&#26377;&#27809;&#26377;&#21457;&#29616;&#36825;&#20010;&#38169;&#35823;&#65292;&#25105;&#29616;&#22312;&#20027;&#21160;&#31449;&#20986;&#26469;&#21578;&#35785;&#22823;&#23478;&#36825;&#20010;&#38169;&#35823;&#65292;&#24182;&#25226;&#36825;&#19968;&#24103;&#25253;&#25991;&#30772;&#22351;&#25481;&#65288;&#21457;&#36865;&#20027;&#21160;&#38169;&#35823;&#24103;&#65289;&#65292;&#21018;&#25165;&#20320;&#20204;&#25910;&#21040;&#30340;&#19996;&#35199;&#19981;&#31649;&#23545;&#38169;&#37117;&#19981;&#31639;&#25968;&#20102;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#22312;&#36825;&#19968;&#29366;&#24577;&#19979;&#65292;&#33410;&#28857;&#26816;&#27979;&#21040;&#19968;&#20010;&#38169;&#35823;&#23601;&#20250;&#21457;&#36865;&#24102;&#26377;&#20027;&#21160;&#38169;&#35823;&#26631;&#24535;&#30340;&#38169;&#35823;&#24103;&#65292;&#22240;&#20026;&#20027;&#21160;&#38169;&#35823;&#26631;&#24535;&#26159;&#36830;&#32493;&#20845;&#20010;&#26174;&#24615;&#20301;&#65292;&#25152;&#20197;&#36825;&#20010;&#26102;&#20505;&#20027;&#21160;&#38169;&#35823;&#26631;&#24535;&#23558;&#20250;&#8220;&#35206;&#30422;&#8221;&#25481;&#24635;&#32447;&#19978;&#20854;&#23427;&#33410;&#28857;&#30340;&#21457;&#36865;&#65292;&#32780;&#20043;&#21069;&#22312;CAN&#24635;&#32447;&#19978;&#20256;&#36755;&#30340;&#25253;&#25991;&#23601;&#34987;&#36825;&#8220;&#20845;&#20010;&#36830;&#32493;&#26174;&#24615;&#20301;&#8221;&#30772;&#22351;&#25481;&#20102;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#160;&#160;&#160;&#160;Tips: &#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#65292;&#35828;&#26126;&#36825;&#20010;&#33410;&#28857;&#30446;&#21069;&#26159;&#27604;&#36739;&#21487;&#38752;&#30340;&#65292;&#20986;&#29616;&#38169;&#35823;&#30340;&#21407;&#22240;&#21487;&#33021;&#19981;&#26159;&#23427;&#26412;&#36523;&#30340;&#38382;&#39064;&#65292;&#21363;&#21018;&#21018;&#26816;&#27979;&#21040;&#30340;&#38169;&#35823;&#21487;&#33021;&#19981;&#20165;&#20165;&#21482;&#26377;&#23427;&#33258;&#24049;&#36935;&#21040;&#65292;&#27491;&#26159;&#22240;&#20026;&#36825;&#19968;&#28857;&#65292;&#25972;&#20010;&#24635;&#32447;&#25165;&#30456;&#20449;&#23427;&#25253;&#21578;&#30340;&#38169;&#35823;&#65292;&#20801;&#35768;&#23427;&#30772;&#22351;&#25481;&#21457;&#36865;&#20013;&#30340;&#25253;&#25991;&#65292;&#20063;&#23601;&#26159;&#23558;&#36825;&#19968;&#27425;&#30340;&#21457;&#36865;&#20316;&#24223;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#22914;&#26524;&#21457;&#20986;&#20027;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;&#26159;&#21457;&#36865;&#33410;&#28857;&#65292;&#36825;&#20010;&#24773;&#20917;&#19979;&#23601;&#30456;&#24403;&#20110;&#65306;&#21018;&#21018;&#21457;&#36865;&#30340;&#37027;&#19968;&#24103;&#25253;&#25991;&#25105;&#21457;&#38169;&#20102;&#65292;&#29616;&#22312;&#25105;&#30772;&#22351;&#25481;&#23427;&#65288;&#21457;&#36865;&#20027;&#21160;&#38169;&#35823;&#24103;&#65289;&#65292;&#20320;&#20204;&#19981;&#31649;&#25910;&#21040;&#20160;&#20040;&#37117;&#19981;&#31639;&#25968;&#65307; </font>
+    </p>
+    <p>
+      <font color="#3333ff" face="Times New Roman">&#22914;&#26524;&#21457;&#20986;&#20027;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;&#26159;&#25509;&#25910;&#33410;&#28857;&#65292;&#36825;&#20010;&#24773;&#20917;&#23601;&#30456;&#24403;&#20110;&#65306;&#21018;&#21018;&#25105;&#25910;&#25253;&#25991;&#30340;&#26102;&#20505;&#21457;&#29616;&#20102;&#38169;&#35823;&#65292;&#19981;&#31649;&#20320;&#20204;&#26377;&#27809;&#26377;&#21457;&#29616;&#36825;&#20010;&#38169;&#35823;&#65292;&#25105;&#29616;&#22312;&#20027;&#21160;&#31449;&#20986;&#26469;&#21578;&#35785;&#22823;&#23478;&#36825;&#20010;&#38169;&#35823;&#65292;&#24182;&#25226;&#36825;&#19968;&#24103;&#25253;&#25991;&#30772;&#22351;&#25481;&#65288;&#21457;&#36865;&#20027;&#21160;&#38169;&#35823;&#24103;&#65289;&#65292;&#21018;&#25165;&#20320;&#20204;&#25910;&#21040;&#30340;&#19996;&#35199;&#19981;&#31649;&#23545;&#38169;&#37117;&#19981;&#31639;&#25968;&#20102;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">2&#65289;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577; </font>
-    </p>
-    <p>
-      <font face="Times New Roman" color="#3333ff">&#22914;&#26524;&#26576;&#20010;&#33410;&#28857;&#21457;&#36865;&#38169;&#35823;&#24103;&#30340;&#27425;&#25968;&#36739;&#22810;&#65292;&#24517;&#23558;&#20351;&#24471;TCE&#65310;127 &#25110;&#32773; REC&#65310;127&#65292;&#37027;&#20040;&#35813;&#33410;&#28857;&#23601;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#160;&#160;&#160;&#160;Tips: &#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#65292;&#35828;&#26126;&#36825;&#20010;&#33410;&#28857;&#30446;&#21069;&#26159;&#27604;&#36739;&#21487;&#38752;&#30340;&#65292;&#20986;&#29616;&#38169;&#35823;&#30340;&#21407;&#22240;&#21487;&#33021;&#19981;&#26159;&#23427;&#26412;&#36523;&#30340;&#38382;&#39064;&#65292;&#21363;&#21018;&#21018;&#26816;&#27979;&#21040;&#30340;&#38169;&#35823;&#21487;&#33021;&#19981;&#20165;&#20165;&#21482;&#26377;&#23427;&#33258;&#24049;&#36935;&#21040;&#65292;&#27491;&#26159;&#22240;&#20026;&#36825;&#19968;&#28857;&#65292;&#25972;&#20010;&#24635;&#32447;&#25165;&#30456;&#20449;&#23427;&#25253;&#21578;&#30340;&#38169;&#35823;&#65292;&#20801;&#35768;&#23427;&#30772;&#22351;&#25481;&#21457;&#36865;&#20013;&#30340;&#25253;&#25991;&#65292;&#20063;&#23601;&#26159;&#23558;&#36825;&#19968;&#27425;&#30340;&#21457;&#36865;&#20316;&#24223;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#22312;&#36825;&#19968;&#29366;&#24577;&#19979;&#65292;&#33410;&#28857;Node_A&#26816;&#27979;&#21040;&#19968;&#20010;&#38169;&#35823;&#23601;&#20250;&#21457;&#36865;&#24102;&#26377;&#34987;&#21160;&#38169;&#35823;&#26631;&#24535;&#30340;&#38169;&#35823;&#24103;&#65292;&#22240;&#20026;&#34987;&#21160;&#38169;&#35823;&#26631;&#24535;&#26159;&#36830;&#32493;&#20845;&#20010;&#38544;&#24615;&#20301;&#65292;&#25152;&#20197;&#36825;&#20010;&#26102;&#20505;&#24635;&#32447;&#19978;&#27491;&#22312;&#20256;&#36755;&#30340;&#25253;&#25991;&#20301;&#27969;&#19981;&#20250;&#21463;&#21040;&#35813;&#34987;&#21160;&#38169;&#35823;&#24103;&#30340;&#24433;&#21709;&#65292;&#20854;&#23427;&#30340;&#33410;&#28857;&#35813;&#21457;&#36865;&#30340;&#21457;&#36865;&#65292;&#35813;&#25509;&#25910;&#30340;&#25509;&#25910;&#65292;&#27809;&#20154;&#25645;&#29702;&#36825;&#20010;&#21457;&#36865;&#34987;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;Node_A&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">2&#65289;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577; </font>
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#22914;&#26524;&#21457;&#20986;&#34987;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;Node_A&#20026;&#25253;&#25991;&#30340;&#21457;&#36865;&#33410;&#28857;&#65292;&#37027;&#20040;&#22312;&#21457;&#36865;&#34987;&#21160;&#38169;&#35823;&#24103;&#20043;&#21518;&#65292;&#21018;&#21018;&#27491;&#22312;&#21457;&#36865;&#30340;&#25253;&#25991;&#34987;&#30772;&#22351;&#65292;&#24182;&#19988;Node_A&#19981;&#33021;&#22312;&#38169;&#35823;&#24103;&#20043;&#21518;&#38543;&#30528;&#36830;&#32493;&#21457;&#36865;&#21018;&#21018;&#21457;&#36865;&#22833;&#36133;&#30340;&#37027;&#20010;&#25253;&#25991;&#12290;&#38543;&#20043;&#32780;&#26469;&#30340;&#26159;&#24103;&#38388;&#38548;&#65292;&#24182;&#19988;&#36830;&#24102;&#30528;8&#20301;&#38544;&#24615;&#20301;&#30340; &#8220;&#24310;&#36831;&#20256;&#36865;&#8221; &#27573;&#65307;&#36825;&#26679;&#24635;&#32447;&#30005;&#24179;&#23601;&#21576;&#29616;&#20986;&#36830;&#32493;11&#20301;&#38544;&#24615;&#20301;&#65292;&#24635;&#32447;&#19978;&#30340;&#20854;&#23427;&#33410;&#28857;&#23601;&#33021;&#21028;&#23450;&#24635;&#32447;&#22788;&#20110;&#31354;&#38386;&#29366;&#24577;&#65292;&#23601;&#33021;&#21442;&#19982;&#24635;&#32447;&#31454;&#20105;&#12290;&#27492;&#26102;&#22914;&#26524;Node_A&#33021;&#22815;&#31454;&#20105;&#25104;&#21151;&#65292;&#37027;&#20040;&#23427;&#23601;&#33021;&#25509;&#30528;&#21457;&#36865;&#65292;&#22914;&#26524;&#31454;&#20105;&#19981;&#33021;&#25104;&#21151;&#65292;&#37027;&#20040;&#23601;&#25509;&#30528;&#31561;&#24453;&#19979;&#19968;&#27425;&#31454;&#20105;&#12290;&#36825;&#31181;&#26426;&#21046;&#30340;&#30446;&#30340;&#27491;&#26159;&#20026;&#20102;&#35753;&#20854;&#23427;&#27491;&#24120;&#33410;&#28857;&#65288;&#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#65289;&#20248;&#20808;&#20351;&#29992;&#24635;&#32447;&#12290; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font face="Times New Roman" color="#3333ff">&#160;&#160;&#160;&#160;Tips: &#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#65292;&#35828;&#26126;&#36825;&#20010;&#33410;&#28857;&#30446;&#21069;&#26159;&#19981;&#22826;&#21487;&#38752;&#30340;&#65292;&#20986;&#29616;&#38169;&#35823;&#30340;&#21407;&#22240;&#21487;&#33021;&#26159;&#23427;&#26412;&#36523;&#30340;&#38382;&#39064;&#65292;&#21363;&#21018;&#21018;&#26816;&#27979;&#21040;&#30340;&#38169;&#35823;&#21487;&#33021;&#20165;&#20165;&#21482;&#26377;&#23427;&#33258;&#24049;&#36935;&#21040;&#65292;&#27491;&#26159;&#22240;&#20026;&#36825;&#19968;&#28857;&#65292;&#25972;&#20010;&#24635;&#32447;&#25165;&#19981;&#20449;&#20219;&#23427;&#25253;&#21578;&#30340;&#38169;&#35823;&#65292;&#20174;&#32780;&#21482;&#20801;&#35768;&#23427;&#21457;&#36865;&#20845;&#20010;&#36830;&#32493;&#30340;&#38544;&#24615;&#20301;&#65292;&#36825;&#26679;&#23427;&#25165;&#19981;&#20250;&#25302;&#32047;&#21035;&#20154;&#12290; </font>
-    </p>
-    <p>
-      <font face="Times New Roman" color="#3333ff">3&#65289;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577; </font>
-    </p>
-    <p>
-      <font face="Times New Roman" color="#3333ff">&#22914;&#26524;&#19968;&#20010;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#30340;&#33410;&#28857;&#65292;&#20173;&#28982;&#22810;&#27425;&#21457;&#36865;&#34987;&#21160;&#38169;&#35823;&#24103;&#65292;&#37027;&#20040;&#21183;&#24517;&#23548;&#33268;TEC &#65310; 255&#65292;&#36825;&#26679;&#23601;&#22788;&#20110;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#22914;&#26524;&#26576;&#20010;&#33410;&#28857;&#21457;&#36865;&#38169;&#35823;&#24103;&#30340;&#27425;&#25968;&#36739;&#22810;&#65292;&#24517;&#23558;&#20351;&#24471;TCE&#65310;127 &#25110;&#32773; REC&#65310;127&#65292;&#37027;&#20040;&#35813;&#33410;&#28857;&#23601;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#22312;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#19979;&#30340;&#33410;&#28857;Node_A&#19981;&#33021;&#21521;&#24635;&#32447;&#19978;&#21457;&#36865;&#25253;&#25991;&#65292;&#20063;&#19981;&#33021;&#20174;&#24635;&#32447;&#19978;&#25509;&#25910;&#25253;&#25991;&#65292;&#25972;&#20010;&#33410;&#28857;&#33073;&#31163;&#24635;&#32447;&#12290;&#31561;&#21040;&#26816;&#27979;&#21040;128&#27425;11&#20010;&#36830;&#32493;&#30340;&#38544;&#24615;&#20301;&#26102;&#65292;TEC&#21644;REC&#32622;0&#65292;&#37325;&#26032;&#22238;&#21040;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#22312;&#36825;&#19968;&#29366;&#24577;&#19979;&#65292;&#33410;&#28857;Node_A&#26816;&#27979;&#21040;&#19968;&#20010;&#38169;&#35823;&#23601;&#20250;&#21457;&#36865;&#24102;&#26377;&#34987;&#21160;&#38169;&#35823;&#26631;&#24535;&#30340;&#38169;&#35823;&#24103;&#65292;&#22240;&#20026;&#34987;&#21160;&#38169;&#35823;&#26631;&#24535;&#26159;&#36830;&#32493;&#20845;&#20010;&#38544;&#24615;&#20301;&#65292;&#25152;&#20197;&#36825;&#20010;&#26102;&#20505;&#24635;&#32447;&#19978;&#27491;&#22312;&#20256;&#36755;&#30340;&#25253;&#25991;&#20301;&#27969;&#19981;&#20250;&#21463;&#21040;&#35813;&#34987;&#21160;&#38169;&#35823;&#24103;&#30340;&#24433;&#21709;&#65292;&#20854;&#23427;&#30340;&#33410;&#28857;&#35813;&#21457;&#36865;&#30340;&#21457;&#36865;&#65292;&#35813;&#25509;&#25910;&#30340;&#25509;&#25910;&#65292;&#27809;&#20154;&#25645;&#29702;&#36825;&#20010;&#21457;&#36865;&#34987;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;Node_A&#12290; </font>
+    </p>
+    <p>
+      <font color="#3333ff" face="Times New Roman">&#22914;&#26524;&#21457;&#20986;&#34987;&#21160;&#38169;&#35823;&#24103;&#30340;&#33410;&#28857;Node_A&#20026;&#25253;&#25991;&#30340;&#21457;&#36865;&#33410;&#28857;&#65292;&#37027;&#20040;&#22312;&#21457;&#36865;&#34987;&#21160;&#38169;&#35823;&#24103;&#20043;&#21518;&#65292;&#21018;&#21018;&#27491;&#22312;&#21457;&#36865;&#30340;&#25253;&#25991;&#34987;&#30772;&#22351;&#65288;</font><font color="#ff3333" face="Times New Roman"><b>&#36829;&#21453;&#20102;bit stuffing&#35268;&#21017;&#65292;&#20854;&#20182;&#30340;node&#20250;&#21457;&#20986;&#38169;&#35823;&#24103;</b></font><font color="#3333ff" face="Times New Roman">&#65289;&#65292;&#24182;&#19988;Node_A&#19981;&#33021;&#22312;&#38169;&#35823;&#24103;&#20043;&#21518;&#38543;&#30528;&#36830;&#32493;&#21457;&#36865;&#21018;&#21018;&#21457;&#36865;&#22833;&#36133;&#30340;&#37027;&#20010;&#25253;&#25991;&#12290;&#38543;&#20043;&#32780;&#26469;&#30340;&#26159;</font><font color="#ff0000" face="Times New Roman"><b>&#24103;&#38388;&#38548;</b></font><font color="#3333ff" face="Times New Roman">&#65292;&#24182;&#19988;&#36830;&#24102;&#30528;8&#20301;&#38544;&#24615;&#20301;&#30340; &#8220;&#24310;&#36831;&#20256;&#36865;&#8221; &#27573;&#65307;&#36825;&#26679;&#24635;&#32447;&#30005;&#24179;&#23601;&#21576;&#29616;&#20986;&#36830;&#32493;11&#20301;&#38544;&#24615;&#20301;&#65292;&#24635;&#32447;&#19978;&#30340;&#20854;&#23427;&#33410;&#28857;&#23601;&#33021;&#21028;&#23450;&#24635;&#32447;&#22788;&#20110;&#31354;&#38386;&#29366;&#24577;&#65292;&#23601;&#33021;&#21442;&#19982;&#24635;&#32447;&#31454;&#20105;&#12290;&#27492;&#26102;&#22914;&#26524;Node_A&#33021;&#22815;&#31454;&#20105;&#25104;&#21151;&#65292;&#37027;&#20040;&#23427;&#23601;&#33021;&#25509;&#30528;&#21457;&#36865;&#65292;&#22914;&#26524;&#31454;&#20105;&#19981;&#33021;&#25104;&#21151;&#65292;&#37027;&#20040;&#23601;&#25509;&#30528;&#31561;&#24453;&#19979;&#19968;&#27425;&#31454;&#20105;&#12290;&#36825;&#31181;&#26426;&#21046;&#30340;&#30446;&#30340;&#27491;&#26159;&#20026;&#20102;&#35753;&#20854;&#23427;&#27491;&#24120;&#33410;&#28857;&#65288;&#22788;&#20110;&#20027;&#21160;&#38169;&#35823;&#65289;&#20248;&#20808;&#20351;&#29992;&#24635;&#32447;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#25353;&#29031;&#25105;&#30340;&#29702;&#35299;&#36825;&#20010;&#25152;&#35859;&#8220;&#26816;&#27979;&#21040;128&#27425;11&#20010;&#36830;&#32493;&#38544;&#24615;&#20301;&#8221;&#20854;&#23454;&#23601;&#26159;&#35753;&#36825;&#20010;&#33410;&#28857;&#38548;&#31163;&#19968;&#27573;&#26102;&#38388;&#20919;&#38745;&#19979;&#65292;&#22240;&#20026;&#23427;&#19968;&#26086;&#22788;&#20110;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#65292;&#23601;&#19981;&#20250;&#21644;&#24635;&#32447;&#26377;&#20219;&#20309;&#30340;&#32852;&#31995;&#65292;&#36825;&#20010;&#26102;&#20505;&#21482;&#35201;&#23427;&#35745;&#31639;&#26102;&#38388;&#31561;&#20110;&#36798;&#21040;&#20256;&#36865;128&#27425;11&#20010;&#36830;&#32493;&#38544;&#24615;&#20301;&#25152;&#29992;&#30340;&#26102;&#38388;&#65292;&#23601;&#21487;&#20197;&#37325;&#26032;&#36830;&#21040;&#24635;&#32447;&#19978;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#160;&#160;&#160;&#160;Tips: &#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#65292;&#35828;&#26126;&#36825;&#20010;&#33410;&#28857;&#30446;&#21069;&#26159;&#19981;&#22826;&#21487;&#38752;&#30340;&#65292;&#20986;&#29616;&#38169;&#35823;&#30340;&#21407;&#22240;&#21487;&#33021;&#26159;&#23427;&#26412;&#36523;&#30340;&#38382;&#39064;&#65292;&#21363;&#21018;&#21018;&#26816;&#27979;&#21040;&#30340;&#38169;&#35823;&#21487;&#33021;&#20165;&#20165;&#21482;&#26377;&#23427;&#33258;&#24049;&#36935;&#21040;&#65292;&#27491;&#26159;&#22240;&#20026;&#36825;&#19968;&#28857;&#65292;&#25972;&#20010;&#24635;&#32447;&#25165;&#19981;&#20449;&#20219;&#23427;&#25253;&#21578;&#30340;&#38169;&#35823;&#65292;&#20174;&#32780;&#21482;&#20801;&#35768;&#23427;&#21457;&#36865;&#20845;&#20010;&#36830;&#32493;&#30340;&#38544;&#24615;&#20301;&#65292;&#36825;&#26679;&#23427;&#25165;&#19981;&#20250;&#25302;&#32047;&#21035;&#20154;&#12290; </font>
+    </p>
+    <p>
+      <font color="#3333ff" face="Times New Roman">3&#65289;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577; </font>
+    </p>
+    <p>
+      <font color="#3333ff" face="Times New Roman">&#22914;&#26524;&#19968;&#20010;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#30340;&#33410;&#28857;&#65292;&#20173;&#28982;&#22810;&#27425;&#21457;&#36865;&#34987;&#21160;&#38169;&#35823;&#24103;&#65292;&#37027;&#20040;&#21183;&#24517;&#23548;&#33268;TEC &#65310; 255&#65292;&#36825;&#26679;&#23601;&#22788;&#20110;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#12290; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="Times New Roman" color="#3333ff">&#160;&#160;&#160;&#160;Tips: &#22788;&#20110;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#35828;&#26126;&#65292;&#36825;&#20010;&#33410;&#28857;&#30446;&#21069;&#25346;&#25481;&#20102;&#65292;&#24635;&#32447;&#20808;&#25226;&#23427;&#36386;&#24320;&#65292;&#36825;&#26679;&#23427;&#25165;&#19981;&#20250;&#25302;&#32047;&#21035;&#20154;&#65292;&#31561;&#21040;&#23427;&#20919;&#38745;&#19968;&#27573;&#26102;&#38388;&#20043;&#21518;&#20877;&#22238;&#21040;&#24635;&#32447;&#19978;&#12290; </font>
+      <font color="#3333ff" face="Times New Roman">&#22312;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#19979;&#30340;&#33410;&#28857;Node_A&#19981;&#33021;&#21521;&#24635;&#32447;&#19978;&#21457;&#36865;&#25253;&#25991;&#65292;&#20063;&#19981;&#33021;&#20174;&#24635;&#32447;&#19978;&#25509;&#25910;&#25253;&#25991;&#65292;&#25972;&#20010;&#33410;&#28857;&#33073;&#31163;&#24635;&#32447;&#12290;&#31561;&#21040;&#26816;&#27979;&#21040;128&#27425;11&#20010;&#36830;&#32493;&#30340;&#38544;&#24615;&#20301;&#26102;&#65292;TEC&#21644;REC&#32622;0&#65292;&#37325;&#26032;&#22238;&#21040;&#20027;&#21160;&#38169;&#35823;&#29366;&#24577;&#12290; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#3333ff" face="Times New Roman">&#25353;&#29031;&#25105;&#30340;&#29702;&#35299;&#36825;&#20010;&#25152;&#35859;&#8220;&#26816;&#27979;&#21040;128&#27425;11&#20010;&#36830;&#32493;&#38544;&#24615;&#20301;&#8221;&#20854;&#23454;&#23601;&#26159;&#35753;&#36825;&#20010;&#33410;&#28857;&#38548;&#31163;&#19968;&#27573;&#26102;&#38388;&#20919;&#38745;&#19979;&#65292;&#22240;&#20026;&#23427;&#19968;&#26086;&#22788;&#20110;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#65292;&#23601;&#19981;&#20250;&#21644;&#24635;&#32447;&#26377;&#20219;&#20309;&#30340;&#32852;&#31995;&#65292;&#36825;&#20010;&#26102;&#20505;&#21482;&#35201;&#23427;&#35745;&#31639;&#26102;&#38388;&#31561;&#20110;&#36798;&#21040;&#20256;&#36865;128&#27425;11&#20010;&#36830;&#32493;&#38544;&#24615;&#20301;&#25152;&#29992;&#30340;&#26102;&#38388;&#65292;&#23601;&#21487;&#20197;&#37325;&#26032;&#36830;&#21040;&#24635;&#32447;&#19978;&#12290; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#3333ff" face="Times New Roman">&#160;&#160;&#160;&#160;Tips: &#22788;&#20110;&#24635;&#32447;&#20851;&#38381;&#29366;&#24577;&#35828;&#26126;&#65292;&#36825;&#20010;&#33410;&#28857;&#30446;&#21069;&#25346;&#25481;&#20102;&#65292;&#24635;&#32447;&#20808;&#25226;&#23427;&#36386;&#24320;&#65292;&#36825;&#26679;&#23427;&#25165;&#19981;&#20250;&#25302;&#32047;&#21035;&#20154;&#65292;&#31561;&#21040;&#23427;&#20919;&#38745;&#19968;&#27573;&#26102;&#38388;&#20043;&#21518;&#20877;&#22238;&#21040;&#24635;&#32447;&#19978;&#12290; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<linktarget COLOR="#ff0000" DESTINATION="ID_140365496" ENDARROW="Default" ENDINCLINATION="694;156;" ID="Arrow_ID_1962136582" SOURCE="ID_1539127665" STARTARROW="None" STARTINCLINATION="718;0;"/>
 </node>
 <node CREATED="1676439862818" ID="ID_1277794738" MODIFIED="1676439983834">
 <richcontent TYPE="NODE"><html>
@@ -1525,8 +3114,7 @@
       As we'll explain shortly, it is important to distinguish between the error flags. In particular, the first error flag (from the 'discovering' node) is often referred to as a <strong>'primary' Active Error Flag</strong>, while the error flags of subsequent 'reacting' nodes are referred to as the <strong>'secondary' Active Error Flag(s)</strong>.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676440312266" ID="ID_1318265650" MODIFIED="1676440363842">
 <richcontent TYPE="NODE"><html>
@@ -1538,8 +3126,7 @@
       <b><font color="#ff0000">&#26631;&#24535;&#38169;&#35823;&#37325;&#21472;&#37096;&#26159;&#22914;&#20309;&#24418;&#25104;&#30340;&#65311;&#19968;&#20010;&#20363;&#23376;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676440415233" ID="ID_1221515727" MODIFIED="1676440422411">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1548,8 +3135,7 @@
   <body>
     <img src="Pic/CAN&#x534f;&#x8bae;-&#x9519;&#x8bef;&#x6807;&#x5fd7;&#x91cd;&#x53e0;&#x4f8b;&#x5b50;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1564,8 +3150,7 @@
       <font size="4" color="#ff3333"><b>&#38169;&#35823;&#35745;&#25968;&#20540;&#21644;&#38169;&#35823;&#29366;&#24577;&#30340;&#36716;&#25442;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676429448761" ID="ID_1631131709" MODIFIED="1676429458035">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1574,8 +3159,7 @@
   <body>
     <img src="Pic/CAN&#x534f;&#x8bae;-&#x9519;&#x8bef;&#x8ba1;&#x6570;&#x503c;&#x548c;&#x9519;&#x8bef;&#x72b6;&#x6001;&#x7684;&#x8f6c;&#x6362;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1589,8 +3173,7 @@
       <b><font color="#ff3333">&#36807;&#36733;&#24103;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676424003901" ID="ID_1811927494" MODIFIED="1676424013821">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1599,8 +3182,7 @@
   <body>
     <img src="Pic/CAN&#x534f;&#x8bae;-&#x8fc7;&#x8f7d;&#x5e27;&#x7ed3;&#x6784;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676424019812" ID="ID_454188519" MODIFIED="1676424240526">
 <richcontent TYPE="NODE"><html>
@@ -1629,8 +3211,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676424367684" ID="ID_703554614" MODIFIED="1676424388110">
 <richcontent TYPE="NODE"><html>
@@ -1642,8 +3223,7 @@
       <b><font size="4">&#36807;&#36733;&#37325;&#21472;&#37096;&#20998;&#30340;&#24418;&#25104;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676424670077" ID="ID_1671956280" MODIFIED="1676424687213">
 <richcontent TYPE="NODE"><html>
@@ -1655,8 +3235,7 @@
       <b><font size="4">&#24341;&#36215;&#36807;&#36733;&#24103;&#30340;&#21407;&#22240;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676424691413" ID="ID_1673761582" MODIFIED="1676424698693">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1665,8 +3244,7 @@
   <body>
     <img src="Pic/CAN&#x534f;&#x8bae;-&#x5f15;&#x8d77;&#x8fc7;&#x8f7d;&#x5e27;&#x7684;&#x539f;&#x56e0;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1680,16 +3258,15 @@
       <b><font size="4" color="#ff0000">&#24103;&#38388;&#38548;</font></b>
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1676424964566" ID="ID_1613391613" MODIFIED="1676425109550">
+</html></richcontent>
+<node CREATED="1676424964566" ID="ID_1613391613" MODIFIED="1678787670884">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#24103;&#38388;&#38548;&#26159;&#29992;&#26469;&#38548;&#31163;&#25968;&#25454;&#24103;&#65288;&#25110;&#32773;&#36965;&#25511;&#24103;&#65289;&#30340;&#65292;&#20063;&#23601;&#26159;&#35828;&#65292;&#25968;&#25454;&#24103;&#65288;&#25110;&#32773;&#36965;&#25511;&#24103;&#65289;&#36890;&#36807;&#25554;&#20837;<strong>&#24103;&#38388;&#38548;</strong>&#21487;&#20197;&#23558;&#26412;&#24103;&#19982;&#20808;&#34892;&#24103;&#65288;&#25968;&#25454;&#24103;&#12289;&#36965;&#25511;&#24103;&#12289;&#38169;&#35823;&#24103;&#12289;&#36807;&#36733;&#24103;&#65289;&#20998;&#38548;&#24320;&#26469;&#12290;
+      &#24103;&#38388;&#38548;&#26159;&#29992;&#26469;&#38548;&#31163;&#25968;&#25454;&#24103;&#65288;&#25110;&#32773;&#36965;&#25511;&#24103;&#65289;&#30340;&#65292;&#20063;&#23601;&#26159;&#35828;&#65292;&#25968;&#25454;&#24103;&#65288;&#25110;&#32773;&#36965;&#25511;&#24103;&#65289;&#36890;&#36807;&#25554;&#20837;<strong>&#24103;&#38388;&#38548;</strong>&#21487;&#20197;&#23558;&#26412;&#24103;&#19982;&#20808;&#34892;&#24103;&#65288;&#25968;&#25454;&#24103;&#12289;&#36965;&#25511;&#24103;&#12289;&#38169;&#35823;&#24103;&#12289;&#36807;&#36733;&#24103;&#65288;<font color="#0000ff">&#22914;&#26524;&#21069;&#38754;&#26377;&#22810;&#20010;&#36807;&#36733;&#24103;&#65292;&#21017;&#19981;&#20250;&#25554;&#20837;&#38388;&#38548;&#24103;</font>&#65289;&#65289;&#20998;&#38548;&#24320;&#26469;&#12290;
     </p>
     <blockquote>
       <p>
@@ -1697,8 +3274,7 @@
       </p>
     </blockquote>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1676425454295" ID="ID_188816449" MODIFIED="1676425461048">
 <richcontent TYPE="NODE"><html>
@@ -1708,8 +3284,7 @@
   <body>
     <img src="Pic/CAN&#x534f;&#x8bae;-&#x5e27;&#x95f4;&#x9694;&#x7684;&#x6784;&#x6210;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1676425463614" ID="ID_1946351492" MODIFIED="1676425631446">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1732,10 +3307,9 @@
       <b>&#27880;&#24847;&#65306;&#24635;&#32447;&#31354;&#38386;&#27573;&#20063;&#26159;&#38544;&#24615;&#30005;&#24179;&#65292;&#26080;&#38271;&#24230;&#38480;&#21046;&#65288;0&#20063;&#21487;&#20197;&#65289;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1676425789870" ID="ID_1539127665" MODIFIED="1676429125434">
+<node CREATED="1676425789870" ID="ID_1539127665" MODIFIED="1678790382321">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1748,11 +3322,20 @@
       
     </p>
     <p>
-      <b><font color="#ff0033">&#26242;&#20572;&#27573;&#26159;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#30340;&#33410;&#28857;&#38656;&#35201;&#21457;&#36865;&#30340;&#65292;&#30446;&#30340;&#26159;&#35753;&#20986;&#24635;&#32447;&#65307;</font></b>
+      <b><font color="#ff0033">&#26242;&#20572;&#27573;&#26159;&#22788;&#20110;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#30340;&#33410;&#28857;&#38656;&#35201;&#21457;&#36865;&#30340;&#65292;&#30446;&#30340;&#26159;&#35753;&#20986;&#24635;&#32447;&#65307; </font></b>
+    </p>
+    <p>
+      <font color="#0000ff">&#25105;&#20204;&#30475;&#21040;&#38169;&#35823;&#24103;&#26377;8&#20010;&#38544;&#24615;&#20301;&#30340;&#38169;&#35823;&#30028;&#23450;&#31526;&#65292;&#20877;&#21152;&#19978;&#38388;&#38548;&#24103;&#30340;3&#20010;&#38544;&#24615;&#20301;&#30340;&#38388;&#38548;&#65292;&#24050;&#32463;&#28385;&#36275;11&#20010;&#36830;&#32493;&#38544;&#24615;&#20301;&#30340; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#24635;&#32447;&#31354;&#38386;&#26631;&#24535;&#31526;&#20102;&#65292;&#37027;&#20040;&#20854;&#20182;&#30340;&#33410;&#28857;&#23601;&#20250;&#26469;&#25250;&#21344;&#24635;&#32447;&#65292;&#32780;&#30001;&#20110;&#34987;&#21160;&#38169;&#35823;&#33410;&#28857;&#36824;&#38656;&#35201;&#21457;&#36865;8&#20010;&#24310;&#36831;&#20256;&#36865;&#20301;&#65292;&#37027;&#20040; </font>
+    </p>
+    <p>
+      <font color="#0000ff">&#23601;&#30456;&#24403;&#20110;&#25918;&#24323;&#20102;&#26377;&#38480;&#25250;&#21344;&#30340;&#26102;&#38388;&#27573;&#65288;&#20010;&#20154;&#29702;&#35299;&#65289;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<arrowlink COLOR="#ff0000" DESTINATION="ID_140365496" ENDARROW="Default" ENDINCLINATION="694;156;" ID="Arrow_ID_1962136582" STARTARROW="None" STARTINCLINATION="718;0;"/>
 </node>
 </node>
 </node>
@@ -1772,7 +3355,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1675246164107" ID="ID_783029328" MODIFIED="1675301247051">
+<node CREATED="1675246164107" ID="ID_783029328" MODIFIED="1681438085274">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1795,6 +3378,7 @@
     </p>
   </body>
 </html></richcontent>
+<arrowlink COLOR="#ff0000" DESTINATION="ID_402909263" ENDARROW="Default" ENDINCLINATION="1408;0;" ID="Arrow_ID_351408785" STARTARROW="None" STARTINCLINATION="3016;0;"/>
 <node CREATED="1675302531686" ID="ID_497735942" MODIFIED="1675302727965">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1818,6 +3402,99 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1681438931500" ID="ID_1371592821" MODIFIED="1681439190469">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">ISO 11519-1:1994</font></b>
+    </p>
+    <p>
+      Road vehicles &#8212; Low-speed serial data communication &#8212; Part 1: General and definitions
+    </p>
+    <p>
+      
+    </p>
+    Specifies general definitions for low-speed serial data communication up to 125 kbit/s for road vehicle applications. The object is to define the general architecture of the communication network and the content of the data link layer and the physical layer for transmission between the different types of electronic modules on board road vehicles. Parts 2, 3 and 4 are entirely independent.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681439193436" ID="ID_1293634504" MODIFIED="1681439397170">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">ISO 11519-2:1994&#160; </font></b>
+    </p>
+    <p>
+      Road vehicles &#8212; Low-speed serial data communication &#8212; Part 2: Low-speed controller area network (CAN)
+    </p>
+    <p>
+      
+    </p>
+    Specifies the data link layer and the physical layer of the CAN, a communications network up to 125 kbit/s, for road vehicle application. The low-speed CAN is a serial communication protocol supporting distributed real-time control and multiplexing. Defines the general architecture of the network in terms of the hierarchical layers defined in the ISO-OSI model according to ISO 7498
+  </body>
+</html></richcontent>
+<node CREATED="1681439516136" ID="ID_743652717" MODIFIED="1681439524974">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ISO 11519-2-1994</b>&#34987;<b>ISO 11898-3-2006</b>&#20195;&#26367;&#65292;&#31526;&#21512;&#26631;&#20934;ISO 11898-3&#30340;&#20135;&#21697;&#20063;&#25903;&#25345;&#31526;&#21512;ISO 11519-2&#26631;&#20934;&#30340;&#20135;&#21697;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1681439441062" ID="ID_1792409949" MODIFIED="1681439473231">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">ISO 11519-3:1994</font></b>
+    </p>
+    <p>
+      Road vehicles &#8212; Low-speed serial data communication &#8212; Part 3: Vehicle area network (VAN)
+    </p>
+    <p>
+      
+    </p>
+    Specifies the data link layer and the physical layer of the VAN, a communications network up to 125 kbit/s, for road vehicle application. The VAN is an access-method oriented multimaster-multislave which allows optimized request/response management by special method of handling a remote transmission request (retaining access to the medium to allow insertion of a response). Defines the general architecture of the network and the content of the data link layer, and the physical layer for transmission between different types of electronic modules on board road vehicles.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681869095376" ID="ID_986621753" MODIFIED="1681870415379">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">11898&#21327;&#35758;&#26415;&#35821;&#65306;</font></b>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4">CBFF&#160;&#160;Classical Base Frame Format </font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4">CEFF&#160;&#160;Classical Extended Frame Format </font>
+    </p>
+    <p>
+      <font color="#ff0033" face="Times New Roman" size="4">FBFF&#160;&#160;FD Base Frame Format </font>
+    </p>
+    <p>
+      FEFF&#160; FD Extended Frame Format
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1676359506845" ID="ID_1466105244" MODIFIED="1676359616245">
 <richcontent TYPE="NODE"><html>
@@ -1841,8 +3518,7 @@
       <font color="#0033ff" face="Times New Roman" size="4">&#21333;&#32447;CAN&#22312;&#26631;&#20934;&#27169;&#24335;&#19979;&#21487;&#39640;&#36798;&#32422;50kbps&#65292;&#24182;&#19988;&#22914;&#26524;&#20351;&#29992;&#29305;&#27530;&#30340;&#39640;&#36895;&#27169;&#24335;&#65292;&#35832;&#22914;&#29992;&#20110;ECU&#32534;&#31243;&#65292;&#21487;&#20197;&#39640;&#36798;&#32422;100kbps&#12290;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675300727148" ID="ID_502504886" MODIFIED="1675301265596">
@@ -1976,15 +3652,22 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1675666354216" ID="ID_1699679551" MODIFIED="1675666363529">
+<node CREATED="1675666354216" ID="ID_1699679551" MODIFIED="1681872592222">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <img src="Pic/CAN-FD&#x62a5;&#x6587;&#x683c;&#x5f0f;.PNG" />
+    <p>
+      <img src="Pic/CAN-FD&#x62a5;&#x6587;&#x683c;&#x5f0f;.PNG" />
+      
+    </p>
+    <p>
+      &#36825;&#24352;&#22270;&#37324;&#38754;FD&#30340;Standard Format&#26684;&#24335;&#21644;Extended Format&#30011;&#24471;&#19981;&#27491;&#30830;&#65292;<b><font color="#ff3333">RTR&#30340;&#20301;&#32622;&#24212;&#35813;&#26159;RRS</font></b>
+    </p>
   </body>
 </html></richcontent>
+<linktarget COLOR="#ff0033" DESTINATION="ID_1699679551" ENDARROW="Default" ENDINCLINATION="2183;0;" ID="Arrow_ID_1317095118" SOURCE="ID_921975283" STARTARROW="None" STARTINCLINATION="2970;0;"/>
 <node CREATED="1675666443535" ID="ID_365236644" MODIFIED="1675666805762">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2053,6 +3736,110 @@
 </node>
 </node>
 </node>
+<node CREATED="1678676326326" ID="ID_1659869456" MODIFIED="1678676336496">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-FD-&#x4ef2;&#x88c1;&#x573a;.jpg" />
+  </body>
+</html></richcontent>
+<node CREATED="1678676387669" ID="ID_1438655448" MODIFIED="1681872608004">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p data-pid="Rj33kCVk">
+      CAN FD&#29992;RRS bit&#65288;&#22987;&#32456;&#20026;&#26174;&#24615;&#20301;&#8216;0&#8217;&#65289;&#20195;&#26367;RTR&#65288;<font color="#ff3333">&#22240;&#20026;CAN FD&#37117;&#26159;&#25968;&#25454;&#24103;&#65292;&#27809;&#26377;&#36828;&#31243;&#24103;&#65292;&#25152;&#20197;RTR&#32943;&#23450;&#37117;&#26159;&#26174;&#24615;&#65292;&#25152;&#20197;&#29468;&#27979;&#30452;&#25509;&#20351;&#29992;&#26174;&#24615;&#30340;RRS&#30452;&#25509;&#20195;&#26367;&#20102;RTR&#20102;</font>&#65289;
+    </p>
+    <p data-pid="59lmfkc-">
+      FDF&#65288;FD format&#65289;&#34920;&#31034;CAN FD&#36824;&#26159;&#20256;&#32479;CAN&#25968;&#25454;&#24103;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1678676858066" ID="ID_1091388899" MODIFIED="1678676892721">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#21457;&#36865;&#24310;&#36831;&#34917;&#20607;&#160;TDC</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1678677325437" ID="ID_370433827" MODIFIED="1678677346587">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Times New Roman">&#20247;&#25152;&#21608;&#30693;&#65292;CAN&#25511;&#21046;&#22120;&#21457;&#36865;&#20449;&#21495;&#26102;&#65292;&#26159;&#32463;&#36807;&#25910;&#21457;&#22120;&#21518;&#21457;&#24448;CAN&#24635;&#32447;&#21518;&#65292;&#20877;&#32463;&#36807;&#25910;&#21457;&#22120;&#21453;&#39304;&#24635;&#32447;&#20449;&#21495;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#37027;&#20040;&#21457;&#36865;&#36807;&#31243;&#20013;&#65292;&#25511;&#21046;&#22120;&#21457;&#36865;&#20301;&#20449;&#21495;&#21040;&#25509;&#25910;&#20301;&#20449;&#21495;&#23601;&#19981;&#21487;&#36991;&#20813;&#30340;&#23384;&#22312;&#29615;&#36335;&#24310;&#36831;&#12290;&#21457;&#36865;&#24310;&#36831;&#26102;&#38388;&#30340;&#24635;&#21644;&#22914;&#19979;&#65306; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">1&#12289;CAN&#25511;&#21046;&#22120;&#20869;&#37096;&#20135;&#29983;TX&#20449;&#21495;&#21040;Tx&#24341;&#33050;&#30340;&#20256;&#25773;&#24310;&#36831;&#65307; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">2&#12289;Tx&#24341;&#33050;&#21040;&#25910;&#21457;&#22120;TxD&#24341;&#33050;&#30340;&#20256;&#25773;&#24310;&#36831;&#65307; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">3&#12289;&#25910;&#21457;&#22120;&#29615;&#36335;&#24310;&#36831;TxD&#21040;RxD; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">4&#12289;&#25910;&#21457;&#22120;RxD&#24341;&#33050;&#21040;CAN&#25511;&#21046;&#22120;Rx&#24341;&#33050;&#24310;&#36831;&#65307; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">5&#12289;CAN&#25511;&#21046;&#22120;Rx&#24341;&#33050;&#21040;&#25511;&#21046;&#22120;&#20869;&#37096;&#25910;&#21040;Rx&#20449;&#21495;&#30340;&#24310;&#36831;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">CAN&#21327;&#35758;&#20013;&#35268;&#23450;&#65306;&#21457;&#36865;&#26041;&#21457;&#36865;&#20301;&#26102;&#65292;&#38656;&#26816;&#27979;&#25509;&#25910;&#21040;&#30340;&#20301;&#19982;&#21457;&#36865;&#26159;&#21542;&#19968;&#33268;&#65292;&#33509;&#19981;&#19968;&#33268;&#21017;&#20135;&#29983;&#38169;&#35823;&#24103;&#65288;&#20301;&#38169;&#35823;&#65289;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#22914;&#26524;&#21457;&#36865;&#24310;&#36831;&#36807;&#38271;&#65292;&#21017;&#23558;&#30452;&#25509;&#23548;&#33268;&#21457;&#36865;&#19982;&#25509;&#25910;&#20301;&#19981;&#19968;&#33268;&#32780;&#20135;&#29983;&#38169;&#35823;&#24103;&#12290;&#30001;&#20110;&#20256;&#32479;CAN&#21327;&#35758;&#35268;&#23450;&#26368;&#39640;&#27874;&#29305;&#29575;&#20026;1Mbps&#65292; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#21363;&#20301;&#23485;1us&#65292;&#27491;&#24120;&#24773;&#20917;&#19979;&#65292;&#20256;&#36755;&#24310;&#36831;&#19981;&#20250;&#36229;&#36807;&#20301;&#23485;&#30340;&#37319;&#26679;&#28857;&#65288;&#24403;&#28982;&#20855;&#20307;&#24310;&#36831;&#21462;&#20915;&#20110;&#25910;&#21457;&#22120;&#29615;&#36335;&#24310;&#36831;&#12289;&#20256;&#36755;&#36317;&#31163;&#12289;&#20256;&#36755;&#32447;&#32518;&#36136;&#37327;&#31561;&#65289;&#65292; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#22240;&#27492;&#19981;&#20250;&#22240;&#20026;&#21457;&#36865;&#24310;&#36831;&#32780;&#20135;&#29983;&#38169;&#35823;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#22312;CANFD&#20013;&#65292;&#25968;&#25454;&#27573;&#30340;&#27874;&#29305;&#29575;&#26159;&#27604;CAN&#26356;&#39640;&#30340;&#65288;BRS&#20301;&#20026;&#38544;&#24615;&#26102;&#65289;&#65292;&#27492;&#26102;&#27874;&#29305;&#29575;&#36234;&#39640;&#65292;&#20301;&#23485;&#36234;&#23567;&#65292;&#22312; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#21457;&#36865;&#25253;&#25991;&#26102;&#21457;&#36865;&#24310;&#36831;&#24433;&#21709;&#36234;&#22823;&#65292;&#36234;&#23481;&#26131;&#20135;&#29983;&#20301;&#38169;&#35823;&#12290;&#30001;&#20110;&#21457;&#36865;&#24310;&#36831;&#26080;&#27861;&#36991;&#20813;&#65292; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#27492;&#26102;&#23601;&#38656;&#35201;&#19968;&#31181;&#26426;&#21046;&#26469;&#20445;&#35777;&#21457;&#36865;&#19982;&#25509;&#25910;&#30340;&#20301;&#23545;&#24212;&#19978;&#65292;&#20197;&#36991;&#20813;&#20135;&#29983;&#20301;&#38169;&#35823;&#12290;&#36825;&#31181;&#26426;&#21046;&#23601;&#26159;&#21457;&#36865;&#24310;&#36831;&#34917;&#20607;&#20102;&#12290; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">TDC&#23454;&#38469;&#19978;&#23601;&#26159;&#22312;&#21457;&#36865;BRS&#20301;&#20026;&#38544;&#24615;&#30340;CANFD&#25253;&#25991;&#26102;&#65288;BRS&#38544;&#24615;&#21363;&#24320;&#21551;&#25968;&#25454;&#22495;&#27874;&#29305;&#29575;&#65289;&#65292;&#22312;&#21457;&#36865;&#26102;&#24310;&#36831;&#19968;&#23450;&#26102;&#38388;&#21518;&#65292; </font>
+    </p>
+    <p>
+      <font face="Times New Roman">&#22312;&#31532;&#20108;&#37319;&#26679;&#28857;&#37319;&#26679;&#25509;&#25910;&#20301;&#65292;&#20197;&#27491;&#30830;&#37319;&#26679;&#21040;&#21457;&#36865;&#20301;&#23545;&#24212;&#30340;&#25509;&#25910;&#20301;&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1678677351037" ID="ID_1172137022" MODIFIED="1678677357796">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-FD-&#x5ef6;&#x8fdf;&#x8865;&#x507f;&#x6d4b;&#x8bd5;.PNG" />
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1675825473746" ID="ID_1758440480" MODIFIED="1675825502003">
@@ -2089,7 +3876,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1675825869066" ID="ID_1351774088" MODIFIED="1675834812825">
+<node CREATED="1675825869066" ID="ID_1351774088" MODIFIED="1682063366154">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2195,16 +3982,67 @@
       &#30456;&#20301;&#20559;&#31227;&#65292;CAN&#30340;&#38750;&#30772;&#22351;&#24615;&#31454;&#20105;&#26426;&#21046;&#35201;&#27714;&#20219;&#24847;&#20004;&#20010;&#33410;&#28857;&#20043;&#38388;&#30340;&#30456;&#20301;&#20559;&#31227;&#19981;&#33021;&#22823;&#20110;bit time&#30340;&#19968;&#21322;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
+<node CREATED="1682063733303" ID="ID_850984495" MODIFIED="1682063755460">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3333ff"><b>&#37319;&#26679;&#28857;&#35745;&#31639;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1682063759374" ID="ID_553772471" MODIFIED="1682063767793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/CAN-&#x91c7;&#x6837;&#x70b9;&#x5b9a;&#x4e49;.PNG" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1672300020301" FOLDED="true" ID="ID_876600377" MODIFIED="1676019830763">
+<node CREATED="1681805128920" ID="ID_1262092788" MODIFIED="1681805152038">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3333ff"><b>CRC&#26657;&#39564;&#31639;&#27861;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681805647481" ID="ID_1982802954" MODIFIED="1681805705335">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#0000ff">https://cloud.tencent.com/developer/article/1704685</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff3333">CRC&#26657;&#39564;&#31639;&#27861;&#30340;&#34987;&#38500;&#25968;&#21644;&#22810;&#39033;&#24335;&#30340;&#26368;&#39640;&#20301;&#24517;&#39035;&#26159;1</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1672300020301" ID="ID_876600377" MODIFIED="1681440429473">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2264,7 +4102,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1672301059523" ID="ID_58747162" MODIFIED="1672301064700" TEXT="LIN&#x603b;&#x7ebf;&#x6709;&#x5982;&#x4e0b;&#x7279;&#x70b9;&#xff1a;&#xa;&#xa;    &#x5355;&#x4e3b;&#x63a7;&#x5668;/&#x591a;&#x4ece;&#x8bbe;&#x5907;&#x6a21;&#x5f0f;&#x65e0;&#x9700;&#x4ef2;&#x88c1;&#x673a;&#x5236;&#xff1b;&#x4f4e;&#x6210;&#x672c;&#xff0c;&#x57fa;&#x4e8e;&#x901a;&#x7528;UART &#x63a5;&#x53e3;&#x6240;&#x6709;&#x63a7;&#x5236;&#x673a;&#x90fd;&#x5177;&#x5907;LIN &#x5fc5;&#x9700;&#x7684;&#x786c;&#x4ef6;&#xff1b;&#x5355;&#x4fe1;&#x53f7;&#x7ebf;&#x4f20;&#x8f93;&#xff0c;&#x540c;&#x65f6;&#x4fdd;&#x8bc1;&#x4fe1;&#x53f7;&#x4f20;&#x8f93;&#x7684;&#x5ef6;&#x8fdf;&#x65f6;&#x95f4;&#xff1b;LIN&#x5177;&#x6709;&#x53ef;&#x9884;&#x6d4b;&#x7684;&#x7535;&#x78c1;&#x517c;&#x5bb9;&#x6027;&#x80fd;&#xff0c;&#x4e3a;&#x4e86;&#x9650;&#x5236;EMC&#x7684;&#x5f3a;&#x5ea6;&#xff0c;LIN&#x534f;&#x8bae;&#x89c4;&#x5b9a;&#x6700;&#x5927;&#x4f20;&#x8f93;&#x901f;&#x7387;&#x4e3a;20kbps&#xff1b;LIN&#x603b;&#x7ebf;&#x63d0;&#x4f9b;&#x4fe1;&#x53f7;&#x7684;&#x914d;&#x7f6e;&#x3001;&#x5904;&#x7406;&#x3001;&#x8bc6;&#x522b;&#x548c;&#x8bca;&#x65ad;&#x529f;&#x80fd;">
-<node CREATED="1672301507590" ID="ID_319708187" MODIFIED="1672301519647">
+<node CREATED="1672301507590" ID="ID_319708187" MODIFIED="1681441044222">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2287,7 +4125,7 @@
         &#25509;&#25910;&#20174;&#26426;&#33410;&#28857;&#21457;&#20986;&#30340;&#24635;&#32447;&#21796;&#37266;&#21629;&#20196;&#65307;
       </li>
       <li data-pid="WgWT8dy8">
-        &#20174;&#26426;&#20219;&#21153;&#19981;&#33021;&#30452;&#25509;&#21521;&#24635;&#32447;&#21457;&#36865;&#25968;&#25454;&#65292;&#38656;&#35201;&#25509;&#21463;&#21040;&#20027;&#33410;&#28857;&#21457;&#36865;&#30340;&#24103;&#22836;&#21518;&#65292;&#26681;&#25454;&#24103;&#22836;&#25152;&#21253;&#21547;&#30340;&#20449;&#24687;&#26469;&#21028;&#26029;&#12290;
+        <b><font color="#ff0000">&#20174;&#26426;&#20219;&#21153;&#19981;&#33021;&#30452;&#25509;&#21521;&#24635;&#32447;&#21457;&#36865;&#25968;&#25454;&#65292;&#38656;&#35201;&#25509;&#21463;&#21040;&#20027;&#33410;&#28857;&#21457;&#36865;&#30340;&#24103;&#22836;&#21518;&#65292;&#26681;&#25454;&#24103;&#22836;&#25152;&#21253;&#21547;&#30340;&#20449;&#24687;&#26469;&#21028;&#26029;</font></b>&#12290;
       </li>
     </ol>
   </body>
@@ -2328,14 +4166,14 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1672391469835" ID="ID_1299953330" MODIFIED="1672391519377">
+<node CREATED="1672391469835" ID="ID_1299953330" MODIFIED="1681441067619">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#ff3333" size="4"><b>&#24103;&#30456;&#24212;&#65306; &#25968;&#25454;&#22330;&#21644;&#26657;&#39564;&#22330;</b></font>
+      <font color="#ff3333" size="4"><b>&#24103;&#21709;&#24212;&#65306; &#25968;&#25454;&#22330;&#21644;&#26657;&#39564;&#22330;</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -2362,7 +4200,7 @@
     <img src="pic/Lin&#x603b;&#x7ebf;&#x5e27;&#x7ed3;&#x6784;.PNG" />
   </body>
 </html></richcontent>
-<node CREATED="1672394009499" ID="ID_1638184155" MODIFIED="1672394292139">
+<node CREATED="1672394009499" ID="ID_1638184155" MODIFIED="1681442407835">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2378,7 +4216,7 @@
       &#21516;&#27493;&#38388;&#38548;&#27573;&#30001;&#21516;&#27493;&#38388;&#38548;&#65288;Break&#65289;&#21644;&#21516;&#27493;&#38388;&#38548;&#27573;&#38388;&#38548;&#31526;&#65288;Break Delimiter&#65289;&#26500;&#25104;&#65292;
     </p>
     <p>
-      &#21516;&#27493;&#38388;&#38548;&#26159;&#33267;&#23569;&#25345;&#32493;13&#20301;&#30340;&#26174;&#24615;&#30005;&#24179;&#65288;0&#65289;&#65292;&#21516;&#27493;&#38388;&#38548;&#27573;&#38388;&#38548;&#31526;&#26159;&#33267;&#23569;&#25345;&#32493;1&#20301;&#30340;
+      &#21516;&#27493;&#38388;&#38548;&#26159;&#33267;&#23569;<b><font color="#3333ff">&#25345;&#32493;13&#20301;</font></b>&#30340;&#26174;&#24615;&#30005;&#24179;&#65288;0&#65289;&#65292;&#21516;&#27493;&#38388;&#38548;&#27573;&#38388;&#38548;&#31526;&#26159;&#33267;&#23569;<b><font color="#3333ff">&#25345;&#32493;1&#20301;</font></b>&#30340;
     </p>
     <p>
       &#38544;&#24615;&#30005;&#24179;
@@ -2428,14 +4266,14 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1672394970540" ID="ID_95889994" MODIFIED="1672395014650">
+<node CREATED="1672394970540" ID="ID_95889994" MODIFIED="1681442580802">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#26631;&#35782;&#31526;&#26377;6&#20010;&#27604;&#29305;&#65292;&#20854;&#20540;&#30340;&#33539;&#22260;&#26159;0-63&#65292;&#26631;&#35782;&#31526;&#21487;&#20197;&#20998;&#25104;4&#31867;&#65306;
+      &#26631;&#35782;&#31526;&#26377;6&#20010;&#27604;&#29305;&#65292;&#20854;&#20540;&#30340;&#33539;&#22260;&#26159;0-63&#65292;<b><font color="#ff0000">&#26631;&#35782;&#31526;&#21487;&#20197;&#20998;&#25104;4&#31867;</font></b>&#65306;
     </p>
   </body>
 </html></richcontent>
@@ -2503,6 +4341,30 @@
 </node>
 </node>
 </node>
+<node CREATED="1683792675139" ID="ID_333883730" MODIFIED="1683792697428">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff3333">LIN&#30340;&#36890;&#20449;&#30697;&#38453;&#25991;&#20214;&#65306;LDF</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1684461877148" ID="ID_1179979521" MODIFIED="1684461904229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3333ff"><b>PSI5 &#25509;&#21475;/&#21327;&#35758;</b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1664778584870" ID="ID_618671349" MODIFIED="1664778610730" POSITION="left">
@@ -2622,6 +4484,445 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1681452691585" ID="ID_41082853" MODIFIED="1681452889605">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">ISO 16845-1:2016</font></b>
+    </p>
+    <p>
+      Road vehicles &#8212; Controller area network (CAN) conformance test plan &#8212; Part 1: Data link layer and physical signalling
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#3333ff">ISO 16845-2:2018</font></b>
+    </p>
+    <p>
+      Road vehicles &#8212; Controller area network (CAN) conformance test plan &#8212; Part 2: High-speed medium access unit &#8212; Conformance test plan
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681634453996" ID="ID_1704743580" MODIFIED="1681634475378">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">ISO 16845-1 &#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681634557350" ID="ID_456899114" MODIFIED="1681634575458">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">&#27979;&#35797;&#26415;&#35821;&#23398;&#20064;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681634580728" ID="ID_388990024" MODIFIED="1681635675799">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">dominant &#20195;&#34920;0&#65292;&#26174;&#24615; </font></b>
+    </p>
+    <p>
+      <b><font color="#3333ff">recessive &#20195;&#34920;1&#65292;&#38544;&#24615;</font></b>
+    </p>
+    <p>
+      <font face="Times New Roman" color="#ff0000">NTQ(D)&#160; number of time quantum in data bit rate </font>
+    </p>
+    <p>
+      <font face="Times New Roman" color="#ff0000">NTQ(N)&#160; number of time quantum in nominal bit rate</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1681694265859" ID="ID_1672184339" MODIFIED="1681694277112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/ISO16845-test-env.PNG" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681693283947" ID="ID_1199790802" MODIFIED="1681693305168">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">&#27979;&#35797;case&#30340;&#32452;&#32455;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681693434577" ID="ID_507136014" MODIFIED="1681693931286">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">&#27599;&#20010;&#22522;&#26412;&#27979;&#35797;&#30001;&#19979;&#21015;&#19977;&#20010;&#29366;&#24577;&#32452;&#25104;&#65306;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681693526504" ID="ID_1873195740" MODIFIED="1681693946170">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Set-up state</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681693928107" ID="ID_1083749270" MODIFIED="1681694111042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Test state </b>
+    </p>
+    <p>
+      <font color="#ff0000" size="4" face="Times New Roman">&#36825;&#26159;&#22522;&#26412;&#27979;&#35797;&#30340;&#19968;&#37096;&#20998;&#65292;&#29992;&#20110;&#26816;&#26597;&#21442;&#25968;&#25110;&#32773;&#26159;&#21327;&#35758;&#29305;&#24615;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681693931286" ID="ID_1649925500" MODIFIED="1681693989994">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Verification state</b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681694370995" ID="ID_124165510" MODIFIED="1681694677117">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      verification&#29366;&#24577;&#30001;data reading&#24103;&#32452;&#25104;&#65292;&#29992;&#26469;&#30830;&#35748;&#25968;&#25454;&#24050;&#32463;&#25353;&#29031;&#31526;&#21512;ISO11898-1&#30340;
+    </p>
+    <p>
+      &#26631;&#20934;&#34987;&#22788;&#29702;&#36807;&#20102;&#65307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23545;&#20110;&#23646;&#20110;classes 1 &#21040; 6&#30340;&#27979;&#35797;&#65292;LT&#24212;&#35813;&#33021;&#22815;&#26816;&#27979;bit&#30340;&#27491;&#30830;&#30340;&#20540;&#65307;
+    </p>
+    <p>
+      &#23545;&#20110;timing&#27979;&#35797;&#65288;classes 7 &#21644; classes 8&#65289;&#65292;LT&#24212;&#35813;&#33021;&#22815;&#26816;&#27979;&#21040;&#19968;&#20010;&#26102;&#38388;&#37327;&#23376;&#30340;&#38169;&#35823;&#21516;&#27493;&#38382;&#39064;&#65307;
+    </p>
+    <p>
+      &#23545;&#20110;&#23646;&#20110;classes 6&#30340;&#27979;&#35797;&#65292;&#19968;&#20010;&#21487;&#35835;&#30340;&#38169;&#35823;&#35745;&#25968;&#22120;&#24212;&#35813;&#34987;&#20351;&#29992;&#26469;&#36827;&#34892;&#30830;&#35748;&#65307;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1681695076929" ID="ID_485164561" MODIFIED="1681695275258">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Default State</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681695291027" ID="ID_1171520101" MODIFIED="1681695716240">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#40664;&#35748;&#30340;&#29366;&#24577;&#30001;&#19979;&#21015;&#30340;&#32570;&#30465;&#20540;&#26500;&#25104;&#65306;
+    </p>
+    <p>
+      1&#12289;REC&#21644;TEC&#20540;&#20026;0
+    </p>
+    <p>
+      2&#12289;&#26080;pending&#29366;&#24577;&#30340;&#20256;&#36755;
+    </p>
+    <p>
+      3&#12289;IUT&#24212;&#35813;&#26159;&#22788;&#20110;idle&#29366;&#24577;
+    </p>
+    <p>
+      4&#12289;PLS-Data indicate and PLS-Data request should be recessive&#65288;&#38544;&#24615;&#30340;&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After the end of each elementary test, the default state should be applied.
+    </p>
+    <p>
+      &#27599;&#20010;&#27979;&#35797;&#32467;&#26463;&#65292;&#32570;&#30465;&#30340;&#29366;&#24577;&#24212;&#35813;&#34987;&#24212;&#29992;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1681695723829" ID="ID_1371949179" MODIFIED="1681695749115">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">&#27979;&#35797;&#30340;&#23618;&#27425;&#24615;&#32452;&#32455;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681695780110" ID="ID_782390402" MODIFIED="1681695926109">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#3333ff">&#25152;&#26377;&#23450;&#20041;&#22312;&#27979;&#35797;&#35745;&#21010;&#37324;&#38754;&#30340;&#27979;&#35797;&#37117;&#20250;&#34987;&#20998;&#31867;&#32452;&#32455;&#20197;&#24110;&#21161;&#35745;&#21010;&#12289;&#24320;&#21457;&#12289;&#29702;&#35299;&#21644;&#25191;&#34892;&#27599;&#20010;&#27979;&#35797;&#29992;&#20363;&#65292; </font></b>
+    </p>
+    <p>
+      <b><font color="#3333ff">&#26377;&#19977;&#20010;&#23618;&#27425;&#30340;&#20998;&#31867;&#65306;</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff0000">test types</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff0000">test classes</font></b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff0000">test cases</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681695982164" ID="ID_1686367008" MODIFIED="1681696155033">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Test types</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27979;&#35797;&#31867;&#22411;&#23450;&#20041;&#20102;frames&#30340;&#26041;&#21521;&#65292;&#19968;&#20849;&#26377;&#19977;&#31181;&#31867;&#22411;&#30340;types:
+    </p>
+    <p>
+      1&#12289;Received frame type: &#21253;&#21547;&#25152;&#26377;&#30340;&#30001;IUT&#25509;&#25910;data frame&#21644;remote frame&#30340;&#27979;&#35797;&#39033;
+    </p>
+    <p>
+      2&#12289;Transmitted frame type:&#21253;&#21547;&#25152;&#26377;&#30340;&#30001;IUT&#21457;&#36865;&#30340;data frame&#21644;remote frame&#30340;&#27979;&#35797;&#39033;
+    </p>
+    <p>
+      3&#12289;Bi-directional frame type: &#21253;&#21547;&#25152;&#26377;&#30340;&#30001;IUT&#21457;&#36865;&#21644;&#25509;&#25910;&#30340;data frame&#21644;remote frame&#30340;&#27979;&#35797;&#39033;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681696240387" ID="ID_841413627" MODIFIED="1681698260372">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#20010;&#27979;&#35797;type&#37117;&#34987;&#20998;&#31867;&#25104;&#20102;8&#20010;<b><font color="#ff0000">classes</font></b>&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 1: Valid frame format class
+    </p>
+    <p>
+      &#21253;&#21547;error free data &#25110;&#32773;&#26159; remote frames&#30340;&#27979;&#35797;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 2: Error detection class
+    </p>
+    <p>
+      &#29992;&#20110;&#27979;&#35797;corrupting data&#25110;&#32773;&#26159;remote frames&#65292;&#36825;&#20123;&#27979;&#35797;&#29992;&#20110;&#26816;&#26597;IUT&#26159;&#21542;&#21487;&#20197;&#27491;&#30830;&#26816;&#27979;&#21040;&#38169;&#35823;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 3: Active error frame management class
+    </p>
+    <p>
+      &#29992;&#20110;&#30830;&#35748;IUT&#21487;&#20197;&#27491;&#30830;&#22320;&#31649;&#29702;&#26080;&#38169;&#35823;&#21644; &#24050;&#32463;&#23849;&#28291;&#30340;&#27963;&#36291;&#30340;&#38169;&#35823;&#24103;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 4: Overload frame management class
+    </p>
+    <p>
+      &#29992;&#20110;&#30830;&#35748;IUT&#21487;&#20197;&#27491;&#30830;&#30340;&#31649;&#29702;&#26080;&#38169;&#35823;&#25110;&#32773;&#21644;&#24050;&#32463;&#23849;&#28291;&#30340;&#36807;&#36733;&#24103;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 5: Passive error state and bus-off class
+    </p>
+    <p>
+      &#30830;&#35748;IUT&#30340;&#34892;&#20026;&#65288;&#22312;passive error state&#21644;bus-off state&#24773;&#20917;&#19979;&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 6: Error counters management class
+    </p>
+    <p>
+      &#30830;&#35748;&#23545;&#20110;TEC&#21644;REC&#30340;&#27491;&#30830;&#30340;&#31649;&#29702;&#34892;&#20026;&#65292;&#22312;&#20027;&#21160;&#21644;&#34987;&#21160;&#38169;&#35823;&#29366;&#24577;&#19979;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 7: Bit timing Classical CAN frame format
+    </p>
+    <p>
+      &#29992;&#20110;&#27979;&#35797;IUT&#23545;&#20110;&#27491;&#30830;&#30340;bit timming&#30340;&#31649;&#29702;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Class 8: Bit timing CAN FD frame format
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681698108320" ID="ID_1939810328" MODIFIED="1681698217888">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Test Cases</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27599;&#20010;&#27979;&#35797;&#29992;&#20363;&#37117;&#30001;&#19968;&#20010;&#29305;&#23450;&#30340;&#25968;&#23383;&#21644;&#19968;&#20010;&#29305;&#23450;&#30340;&#21517;&#31216;&#26469;&#23450;&#20041;,
+    </p>
+    <p>
+      &#20197;&#20415;&#21306;&#20998;&#27979;&#35797;&#29992;&#20363;&#24182;&#36731;&#26494;&#24635;&#32467;&#27979;&#35797;&#29992;&#20363;&#30340;&#30446;&#26631;&#65292;&#19968;&#20123;&#27979;&#35797;&#29992;&#20363;&#21487;&#20197;
+    </p>
+    <p>
+      &#34987;&#20998;&#32452;&#25104;&#22522;&#26412;&#27979;&#35797;&#29992;&#20110;&#27979;&#35797;&#37325;&#22797;&#21442;&#25968;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1681816730957" ID="ID_1433245514" MODIFIED="1681816775579">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4"><b>&#27979;&#35797;&#21442;&#25968;&#30340;&#25551;&#36848;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681816787226" ID="ID_1183554275" MODIFIED="1681816832034">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">Communication parameters</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681816850596" ID="ID_1898415232" MODIFIED="1681816921487">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff">Application parameters</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681818178188" ID="ID_1666172230" MODIFIED="1681818188387">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Bit rate configuration parameter variation for bit timing tests
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1664778991356" ID="ID_870424517" MODIFIED="1664779027215" POSITION="right">
 <richcontent TYPE="NODE"><html>
@@ -2727,7 +5028,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1674113266878" ID="ID_1184166132" MODIFIED="1674113272306" TEXT="Pre sil is best done by engineers who are good in digital design, know verilog etc.&#xa;&#xa;Post sil can be done by embedded developers who know good C and are comfortable with functional behavior of SOC. Some knowledge of digital design will be very helpful. As the code is very complex, good sw program management is essential.">
+<node CREATED="1674113266878" ID="ID_1184166132" MODIFIED="1681693106649" TEXT="Pre sil is best done by engineers who are good in digital design, know verilog etc.&#xa;&#xa;Post sil can be done by embedded developers who know good C and are comfortable with functional behavior of SOC. Some knowledge of digital design will be very helpful. As the code is very complex, good sw program management is essential.">
 <node CREATED="1675672642603" ID="ID_162974220" MODIFIED="1675672694419">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2982,8 +5283,321 @@
 </node>
 </node>
 </node>
+<node CREATED="1683711158645" ID="ID_155760835" MODIFIED="1683711182814">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#0000ff">EB tresos Studio </font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685322278417" ID="ID_771074102" MODIFIED="1685322339113">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" size="4"><b>&#32593;&#32476;&#21442;&#32771;&#36164;&#26009;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685322324015" ID="ID_796247241" MODIFIED="1685322376426">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#ff0033">https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/mcusw/mcal_drv/docs/drv_docs/mcusw_cfg_ug_top.html</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685322383554" ID="ID_729501780" MODIFIED="1685322592743">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20171;&#32461;&#65306;</b>
+    </p>
+    <p>
+      MCAL&#27169;&#22359;&#30340;ECU&#21442;&#25968;&#23450;&#20041;&#26159;&#25353;&#29031;xdm&#26684;&#24335;&#26469;&#25235;&#21462;&#30340;&#65307;
+    </p>
+    <p>
+      MCAL&#27169;&#22359;&#26159;&#25353;&#29031;EB&#25554;&#20214;&#30340;&#24418;&#24335;&#26469;&#36882;&#36865;&#30340;&#65307;
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1674111974993" ID="ID_1952153743" MODIFIED="1674111996860" POSITION="right">
+<node CREATED="1685322597786" ID="ID_1251115120" MODIFIED="1685322944697">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#20856;&#22411;&#30340;&#39537;&#21160;&#25110;&#32773;&#26159;&#27169;&#22359;&#30340;&#36335;&#24452;&#23637;&#31034;&#65306;
+    </p>
+    <p>
+      A typical module would contain following files
+    </p>
+    <ol type="1">
+      <li>
+        Module Definition
+
+        <ul>
+          <li>
+            <b>Module.xdm</b>&#160;: Module description
+          </li>
+          <li>
+            <b>Module.epd</b>&#160;:
+          </li>
+          <li>
+            <b>Module_NonEB.xdm</b>&#160;: EB/XDM provides advanced operations for parameter checking, which might not be supported by all configurators. These files excludes these parameter checks. One could use associated *_NonEB.xdm as module descriptor. Also refer (<a class="el" href="https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/mcusw/mcal_drv/docs/drv_docs/mcusw_cfg_ug_top.html#mcusw_cfg_ug_gen_arxml">Generation of ARXML</a>)
+          </li>
+        </ul>
+      </li>
+      <li>
+        Module Recommended values
+
+        <ul>
+          <li>
+            <b>Module_Rec.xdm</b>&#160;: Provides modules recommended values for TI EVM / MCAL example applications
+          </li>
+        </ul>
+      </li>
+      <li>
+        Code Generation Templates
+
+        <ul>
+          <li>
+            <b>Module_Cfg.h</b>&#160;: Provides template to generate header file
+          </li>
+          <li>
+            <b>Module_Cfg.c</b>&#160;: Provides template to generate Compile Time module configurations.
+          </li>
+          <li>
+            <b>Module_Lcfg.c</b>&#160;: Provides template to generate Link Time module configurations
+          </li>
+          <li>
+            <b>Module_PBcfg.c</b>&#160;: Provides template to generate Post Build module configurations
+          </li>
+        </ul>
+      </li>
+      <li>
+        Module Details Module_Bswmd.arxml : Modules details such stack usage, files, exclusive area, etc...
+      </li>
+      <li>
+        MANIFEST.MF : Licensing information of the module (required by EB)
+      </li>
+      <li>
+        plugin.xml : Describes the module that would be used by EB tresos Studio GUI
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685513228738" ID="ID_479572206" MODIFIED="1685513270308">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff" size="4"><b>1. EB tresos&#23439;&#23450;&#20041;&#35821;&#27861;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685513272842" ID="ID_431511963" MODIFIED="1685513420370">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#12289;&#21253;&#21547;&#21644;&#25490;&#38500;&#25991;&#20214;
+    </p>
+    <p>
+      [!INCLUDE &quot;&lt;Filename&gt;&quot;]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#12289;&#25490;&#38500;&#25991;&#20214;
+    </p>
+    <p>
+      <b><font color="#0000ff">[!SKIPFILE!] </font></b>
+    </p>
+    <p>
+      <b><font color="#0000ff">[!SKIPFILE &quot;&lt;XPath-Expression&gt;&quot;]</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685515590537" ID="ID_963515424" MODIFIED="1685515621961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033"><b>EB tresos plugin.xml&#25991;&#20214;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685515713599" ID="ID_346351875" MODIFIED="1685515730808">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      extension point&#23398;&#20064;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685515733524" ID="ID_854854510" MODIFIED="1685515784450">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dreisoft.tresos.launcher2.plugin.module
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27880;&#20876;&#19968;&#20010;&#26032;&#30340;module
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685515787501" ID="ID_1743537440" MODIFIED="1685516426709">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dreisoft.tresos.launcher2.plugin.configuration
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#29992;&#20110;&#20026;&#27169;&#22359;&#27880;&#20876;&#36164;&#28304;&#65292;&#27604;&#22914;&#21442;&#25968;&#23450;&#20041;&#12289;&#25552;&#20379;&#30340;&#32534;&#36753;&#22120;&#12289;&#39044;&#23450;&#20041;&#25110;&#32773;&#26159;&#24314;&#35758;&#30340;&#37197;&#32622;&#65307;
+    </p>
+    Via the sub-tag
+
+    <p>
+      <code class="parameter">schema</code>&#160;the parameter definition and the pre- and recommended configuration can be registered
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685516430339" ID="ID_235544482" MODIFIED="1685516593223">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dreisoft.tresos.launcher2.plugin.generator
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685518743302" ID="ID_1284928189" MODIFIED="1685519042874">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;xpath&#30452;&#25509;&#25628;&#32034;&#21442;&#25968;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685521417930" ID="ID_1175050525" MODIFIED="1685521465111">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <font face="Times New Roman" size="4" color="#0033ff">PostBuild</font>
+
+    <p>
+      <font face="Times New Roman" size="4" color="#0033ff">loadable&#160;concept</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685521649679" ID="ID_1622743505" MODIFIED="1685521834140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;ECU&#21487;&#25191;&#34892;&#20307;&#34987;&#28903;&#24405;&#21040;ECU&#24403;&#20013;&#65288;&#35813;&#21487;&#25191;&#34892;&#20307;&#30001;&#20219;&#20309;&#21487;&#21152;&#36733;&#30340;&#37197;&#32622;&#34917;&#20840;&#65289;&#65292;
+    </p>
+    <p>
+      &#22312;&#36825;&#31181;&#29992;&#20363;&#19979;&#65292;&#37325;&#26032;&#32534;&#35793;&#25110;&#32773;&#26159;&#37325;&#26032;&#26500;&#24314;BSW&#27169;&#22359;&#26159;&#27809;&#26377;&#24517;&#35201;&#30340;&#12290;
+    </p>
+    <font color="#ff0033">Therefore, this concept can e.&#65279;g. be used by the OEM to use the same ECU within different cars with just a slightly changed ( </font>
+
+    <p>
+      <font color="#ff0033">loadable) configuration.</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685521874413" ID="ID_1889360430" MODIFIED="1685521888321">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">A parameter which can have loadable&#160;variants&#160;needs to specify MULTIPLICITY-CONFIG-CLASSES and/or VALUE-CONFIG-CLASSES for POST-BUILD </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1685522208722" ID="ID_970211738" MODIFIED="1685522234185">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <font size="4" face="Times New Roman" color="#ff3333">PostBuild selectable concept (PostBuild </font>
+
+    <p>
+      <font size="4" face="Times New Roman" color="#ff3333">Variants) </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1674111974993" ID="ID_1952153743" MODIFIED="1681110666992" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3017,5 +5631,142 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1681095336002" ID="ID_1480584227" MODIFIED="1681095373994" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff" size="4" face="Times New Roman">&#27773;&#36710;&#23433;&#20840;&#21644;&#21152;&#23494;&#25514;&#26045;</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1681095405604" ID="ID_1969477517" MODIFIED="1681095657489">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" face="sans-serif">Secure Hardware Extension (SHE) &#26631;&#20934;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30001;<font face="sans-serif">Escrypt&#20026;&#22885;&#36842;&#21644;&#23453;&#39532;&#24320;&#21457;&#65292;HIS Working Group</font>
+    </p>
+    <p>
+      SHE&#26368;&#37325;&#35201;&#30340;&#19968;&#20010;&#27010;&#24565;&#26159;secure zone,
+    </p>
+    <p>
+      <font size="calc(var(--scale-factor)*9.50px)" face="sans-serif">The secure</font><br role="presentation" /><font size="calc(var(--scale-factor)*9.50px)" face="sans-serif">zone&#8217;s most significant features are the storage and management of security keys, plus</font><br role="presentation" /><font size="calc(var(--scale-factor)*9.50px)" face="sans-serif">encapsulating authentication, encryption and decryption algorithms that application code</font><br role="presentation" /><font size="calc(var(--scale-factor)*9.50px)" face="sans-serif">can access through the API. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681095802653" ID="ID_1727577686" MODIFIED="1681095818592">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="calc(var(--scale-factor)*9.50px)" face="sans-serif" color="#ff0000"><b>EVITA project</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681095888564" ID="ID_560539959" MODIFIED="1681096001683">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PRESERVE project
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681096004125" ID="ID_1501138624" MODIFIED="1681096016889">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="calc(var(--scale-factor)*9.50px)" face="sans-serif" color="#ff0000"><u>FIPS (Federal Information Processing Standards)</u></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681096108900" ID="ID_58425438" MODIFIED="1681096119993">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="calc(var(--scale-factor)*9.50px)" face="sans-serif" color="#ff0000">Trusted Computing Group (TCG), </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1681096440220" ID="ID_765161543" MODIFIED="1681096452651">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    &#30446;&#21069;&#24050;&#26377;&#19968;&#20123;&#36739;&#20026;&#25104;&#29087;&#19988;&#36866;&#29992;&#20110;&#20851;&#38190;&#22522;&#30784;&#35774;&#26045;&#32593;&#32476;&#23433;&#20840;&#30340;&#26631;&#20934;&#12290;&#36890;&#29992;&#20934;&#21017;&#12289;OSSCA&#25110;FIPS 140-3&#31561;&#36890;&#29992;&#35748;&#35777;&#24191;&#27867;&#29992;&#20110;&#35768;&#22810;&#19981;&#21516;&#30340;&#24066;&#22330;&#21644;&#34892;&#19994;&#65292;&#21253;&#25324;&#20851;&#38190;&#22522;&#30784;&#35774;&#26045;
+  </body>
+</html></richcontent>
+<node CREATED="1681096660332" ID="ID_265666635" MODIFIED="1681096673290">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="calc(var(--scale-factor)*28.00px)" face="sans-serif">OSCCA and Commercial Cryptography</font><br role="presentation" /><font size="calc(var(--scale-factor)*20.00px)" face="sans-serif">&#9679;&#160;What is &#8220;Commercial Cryptography&#8221; in China?</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">&#8722; &#8220;Commercial Cryptography&#8221; is a set of algorithms and</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">standards used in the commercial area, e.g. banks,</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">telecommunications, third party payment gateways,</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">enterprises, etc. ...</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">&#8722; In this area, only &#8220;Commercial Cryptography&#8221; certified</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">products can be used.</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">&#8722; Constituted by the Chinese Academy of Science (CAS)</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">&#8722; Issued and regulated by the Office of the State</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">Commercial Cryptography Administration (OSCCA)</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">&#8722; Established in 1999</font><br role="presentation" /><font size="calc(var(--scale-factor)*18.00px)" face="sans-serif">&#8722; Testing lab setup in 2005</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1682647657776" ID="ID_41060272" MODIFIED="1683249900490" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Times New Roman" color="#3300ff"><b>NXP&#33455;&#29255;&#27169;&#22359;&#23398;&#20064;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1682647673198" ID="ID_415173239" MODIFIED="1683249931610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3" face="Times New Roman">LLCE</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1682647683238" ID="ID_1086286111" MODIFIED="1682647697528" POSITION="right" TEXT="&#x82af;&#x7247;post&#x9a8c;&#x8bc1;&#x81ea;&#x52a8;&#x5316;&#x7814;&#x7a76;"/>
 </node>
 </map>
