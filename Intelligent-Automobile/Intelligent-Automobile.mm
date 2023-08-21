@@ -955,7 +955,18 @@
     <img src="Pic/autosar-port_interface-01.PNG" />
   </body>
 </html></richcontent>
-<node CREATED="1685009341440" ID="ID_1556994306" MODIFIED="1685669567938" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;A sender-receiver interface defines a set of data-elements that are &#xa;      sent and received &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;over the VFB. Figure 3.5 shows the definition of a simple &#xa;      sender-receiver interface &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;called &amp;#x201c;SeatSwitch&amp;#x201d; containing a single &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;data-element&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#xa0; &#xa;      called &amp;#x201c;PassengerDetected&amp;#x201d;.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685009341440" ID="ID_1556994306" MODIFIED="1690974859465">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A sender-receiver interface defines a set of data-elements that are over the VFB. Figure 3.5 shows the definition of a simple sender-receiver interface containing a single PassengerDetected&amp
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1685012291370" ID="ID_1170933879" MODIFIED="1685012326601">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1072,7 +1083,17 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685001174965" ID="ID_1557464649" MODIFIED="1685669695538" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;AUTOSAR has standardized stable and widely accepted application &#xa;      interfaces to &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;ensure the interoperability of software components from different &#xa;      vendors.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;AUTOSAR&amp;#x62e5;&amp;#x6709;&amp;#x6807;&amp;#x51c6;&amp;#x7a33;&amp;#x5b9a;&amp;#x7684;&amp;#x548c;&amp;#x5e7f;&amp;#x6cdb;&amp;#x88ab;&amp;#x63a5;&amp;#x53d7;&amp;#x7684;&amp;#x5e94;&amp;#x7528;&amp;#x63a5;&amp;#x53e3;&amp;#x6765;&amp;#x4fdd;&amp;#x8bc1;&amp;#x6765;&amp;#x81ea;&amp;#x4e8e;&amp;#x4e0d;&amp;#x540c;vendor&amp;#x5382;&amp;#x5546; &amp;#x4e4b;&amp;#x95f4;&amp;#x7684;&amp;#x8f6f;&amp;#x4ef6;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7684;&amp;#x4e92;&amp;#x64cd;&amp;#x4f5c;&amp;#x6027;&amp;#xff0c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5e94;&amp;#x7528;&amp;#x7a0b;&amp;#x5e8f;&amp;#x63a5;&amp;#x53e3;&amp;#x65e8;&amp;#x5728;&amp;#x6db5;&amp;#x76d6;&amp;#x5e7f;&amp;#x6cdb;&amp;#x7684;&amp;#x6c7d;&amp;#x8f66;&amp;#x9886;&amp;#x57df;&amp;#x3002;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685001174965" ID="ID_1557464649" MODIFIED="1692349010738">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AUTOSAR has standardized stable and widely accepted application interfaces to ensure the interoperability of software components from different vendors.AUTOSAR&#25317;&#26377;&#26631;&#20934;&#31283;&#23450;&#30340;&#21644;&#24191;&#27867;&#34987;&#25509;&#21463;&#30340;&#24212;&#29992;&#25509;&#21475;&#26469;&#20445;&#35777;&#26469;&#33258;&#20110;&#19981;&#21516;vendor&#21378;&#21830; &#20043;&#38388;&#30340;&#36719;&#20214;&#32452;&#20214;&#30340;&#20114;&#25805;&#20316;&#24615;&#65292;&#24212;&#29992;&#31243;&#24207;&#25509;&#21475;&#26088;&#22312;&#28085;&#30422;&#24191;&#27867;&#30340;&#27773;&#36710;&#39046;&#22495;&#12290;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1685001647936" ID="ID_183628164" MODIFIED="1685001656380">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1084,8 +1105,49 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685012954916" ID="ID_1087626749" MODIFIED="1685669822503" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7aef;&amp;#x53e3;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Port Compatibility &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
-<node CREATED="1685013124882" ID="ID_1510472166" MODIFIED="1685669877838" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4e00;&amp;#x4e2a;receiver port&amp;#x53ea;&amp;#x80fd;&amp;#x8fde;&amp;#x63a5;&amp;#x5230;&amp;#x517c;&amp;#x5bb9;&amp;#x7684;provider port,&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8868;&amp;#x683c;3.3&amp;#x7ed9;&amp;#x51fa;&amp;#x4e86;&amp;#x7aef;&amp;#x53e3;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&amp;#x7684;&amp;#x4e00;&amp;#x4e2a;&amp;#x9884;&amp;#x89c8;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4ee5;&amp;#x4e0b;&amp;#x7684;&amp;#x6ce8;&amp;#x89e3;&amp;#x7ed9;&amp;#x51fa;&amp;#x4e86;&amp;#x7aef;&amp;#x53e3;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&amp;#x7684;&amp;#x4e00;&amp;#x4e9b;&amp;#x57fa;&amp;#x672c;&amp;#x89c4;&amp;#x5219;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x66f4;&amp;#x8be6;&amp;#x7ec6;&amp;#x548c;&amp;#x6df1;&amp;#x5165;&amp;#x7684;&amp;#x517c;&amp;#x5bb9;&amp;#x6027;&amp;#x89c4;&amp;#x5219;&amp;#x5728;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff3333&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Software Component Template&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff3333&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;#xa0;&amp;#x5f53;&amp;#x4e2d;&amp;#x6709;&amp;#x63cf;&amp;#x8ff0;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685012954916" ID="ID_1087626749" MODIFIED="1692349089598">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x7aef;&#x53e3;&#x517c;&#x5bb9;&#x6027;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial,Bold"><b>Port Compatibility </b></font></di>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685013124882" ID="ID_1510472166" MODIFIED="1692349249314">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x4e00;&#x4e2a;receiver port&#x53ea;&#x80fd;&#x8fde;&#x63a5;&#x5230;&#x517c;&#x5bb9;&#x7684;provider port,
+    </p>
+    <p>
+      &#x8868;&#x683c;3.3&#x7ed9;&#x51fa;&#x4e86;&#x7aef;&#x53e3;&#x517c;&#x5bb9;&#x6027;&#x7684;&#x4e00;&#x4e2a;&#x9884;&#x89c8;&#xff0c;
+    </p>
+    <p>
+      &#x4ee5;&#x4e0b;&#x7684;&#x6ce8;&#x89e3;&#x7ed9;&#x51fa;&#x4e86;&#x7aef;&#x53e3;&#x517c;&#x5bb9;&#x6027;&#x7684;&#x4e00;&#x4e9b;&#x57fa;&#x672c;&#x89c4;&#x5219;&#xff0c;
+    </p>
+    <p>
+      &#x66f4;&#x8be6;&#x7ec6;&#x548c;&#x6df1;&#x5165;&#x7684;&#x517c;&#x5bb9;&#x6027;&#x89c4;&#x5219;&#x5728;
+    </p>
+    <div>
+      <font color="#ff3333" face="Arial"><b>Software Component Template</b></font><b><font color="#ff3333"></di></font></b>&#xa0;&#x5f53;&#x4e2d;&#x6709;&#x63cf;&#x8ff0;
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1685013903914" ID="ID_1000582286" MODIFIED="1685013944219">
 <richcontent TYPE="NODE"><html>
@@ -1132,10 +1194,87 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685063283988" ID="ID_1827426570" MODIFIED="1685669979401" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x4e00;&amp;#x4e2a;autosar&amp;#x7cfb;&amp;#x7edf;&amp;#x7684;&amp;#x8bbe;&amp;#x8ba1;&amp;#x5f53;&amp;#x4e2d;&amp;#xff0c;&amp;#x5728;&amp;#x7ec4;&amp;#x4ef6;&amp;#x4e4b;&amp;#x95f4;&amp;#x7684;&amp;#x7aef;&amp;#x53e3;&amp;#x901a;&amp;#x8fc7;&amp;#x4f7f;&amp;#x7528;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;assembly-connectors&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#x4e92;&amp;#x76f8;&amp;#x6302;&amp;#x94a9;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;An assembly-connector can connect one PPort or PRPort with &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;one RPort or PRPort only if their port types, interfaces and &#xa;      attributes, characterizing &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;their communication abilities, are compatible with each other&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;#x53ef;&amp;#x4ee5;&amp;#x770b;&amp;#x5230;&amp;#xff0c;&amp;#x5982;&amp;#x679c;&amp;#x4e00;&amp;#x4e2a;port&amp;#x60f3;&amp;#x8981;&amp;#x901a;&amp;#x8baf;&amp;#xff0c;&amp;#x5fc5;&amp;#x987b;&amp;#x6709;connectors&amp;#x5bf9;port&amp;#x8fdb;&amp;#x884c;&amp;#x8fde;&amp;#x63a5;&amp;#x64cd;&amp;#x4f5c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685063283988" ID="ID_1827426570" MODIFIED="1692349384484">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x5728;&#x4e00;&#x4e2a;autosar&#x7cfb;&#x7edf;&#x7684;&#x8bbe;&#x8ba1;&#x5f53;&#x4e2d;&#xff0c;&#x5728;&#x7ec4;&#x4ef6;&#x4e4b;&#x95f4;&#x7684;&#x7aef;&#x53e3;&#x901a;&#x8fc7;&#x4f7f;&#x7528;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">assembly-connectors</font></di>&#x4e92;&#x76f8;&#x6302;&#x94a9;
+    </div>
+    <div>
+      <font color="#ff0033" face="Times New Roman" size="4">An assembly-connector can connect one PPort or PRPort with </font>
+    </div>
+    <div>
+      <font color="#ff0033" face="Times New Roman" size="4">one RPort or PRPort only if their port types, interfaces and 
+      attributes, characterizing </font>
+    </div>
+    <div>
+      <font color="#ff0033" face="Times New Roman" size="4">their communication abilities, are compatible with each other</font>
+    </div>
+    <div>
+      &#x53ef;&#x4ee5;&#x770b;&#x5230;&#xff0c;&#x5982;&#x679c;&#x4e00;&#x4e2a;port&#x60f3;&#x8981;&#x901a;&#x8baf;&#xff0c;&#x5fc5;&#x987b;&#x6709;connectors&#x5bf9;port&#x8fdb;&#x884c;&#x8fde;&#x63a5;&#x64cd;&#x4f5c;
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1685069545744" ID="ID_876815984" MODIFIED="1685670244009" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Compositions versus atomic components &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7ec4;&amp;#x5408;&amp;#x4e0e;&amp;#x539f;&amp;#x5b50;&amp;#x7ec4;&amp;#x4ef6;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
-<node CREATED="1685069781991" ID="ID_430323908" MODIFIED="1685670515144" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4e00;&amp;#x4e2a;&amp;#x7531;&amp;#x7ec4;&amp;#x4ef6;(components)&amp;#x548c;connectors(&amp;#x8fde;&amp;#x63a5;&amp;#x5668;)&amp;#x7ec4;&amp;#x6210;&amp;#x7684;&amp;#x5b50;&amp;#x7cfb;&amp;#x7edf;&amp;#x5c31;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x6784;&amp;#x6210;&amp;#x4e86;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;(composition)&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;In AUTOSAR, the usage of a component-type within a composition is &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;called a &amp;#x201c;prototype&amp;#x201d;. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;&amp;#x4e2d;&amp;#x5bf9;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7c7b;&amp;#x578b;&amp;#x7684;&amp;#x4f7f;&amp;#x7528;&amp;#x5c31;&amp;#x88ab;&amp;#x79f0;&amp;#x4e3a;&amp;amp;quot;&amp;#x539f;&amp;#x578b;&amp;amp;quot;(prototype)&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#0000ff&amp;quot;&amp;gt;&amp;#x5b9e;&amp;#x9645;&amp;#x4e0a;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;&amp;#x672c;&amp;#x8eab;&amp;#x5c31;&amp;#x662f;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7c7b;&amp;#x578b;&amp;#xff0c;&amp;#x53ef;&amp;#x4ee5;&amp;#x62e5;&amp;#x6709;&amp;#x5b83;&amp;#x81ea;&amp;#x5df1;&amp;#x7684;port, &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#0000ff&amp;quot;&amp;gt;&amp;#x7ec4;&amp;#x5408;&amp;#x53ef;&amp;#x4ee5;&amp;#x4f5c;&amp;#x4e3a;&amp;#x4e00;&amp;#x4e2a;&amp;#x7ed3;&amp;#x6784;&amp;#x5316;&amp;#x7684;&amp;#x5143;&amp;#x7d20;&amp;#x6765;&amp;#x6784;&amp;#x5efa;&amp;#x5c42;&amp;#x6b21;&amp;#x5316;&amp;#x7684;&amp;#x7cfb;&amp;#x7edf;, &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7ec4;&amp;#x5408;&amp;#x5b9e;&amp;#x9645;&amp;#x4e0a;&amp;#x5c31;&amp;#x662f;&amp;#x53ef;&amp;#x62c6;&amp;#x5206;&amp;#x7684;component, &amp;#x800c;&amp;#x4e0d;&amp;#x53ef;&amp;#x62c6;&amp;#x5206;&amp;#x7684;component&amp;#x5c31;&amp;#x662f;&amp;#x539f;&amp;#x5b50;component,&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x591a;&amp;#x4e2a;&amp;#x7ec4;&amp;#x5408;&amp;#x53ef;&amp;#x4ee5;&amp;#x6784;&amp;#x6210;&amp;#x4e00;&amp;#x4e2a;&amp;#x66f4;&amp;#x5927;&amp;#x7684;&amp;#x7ec4;&amp;#x5408;&amp;#xff08;&amp;#x56e0;&amp;#x4e3a;&amp;#x7ec4;&amp;#x5408;&amp;#x672c;&amp;#x8eab;&amp;#x5c31;&amp;#x662f;&amp;#x4e00;&amp;#x4e2a;component&amp;#xff09;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+</node>
+<node CREATED="1685069545744" ID="ID_876815984" MODIFIED="1692349974321">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial,Bold"><b>Compositions versus atomic components </b></font></di>
+    </div>
+    <p>
+      &#x7ec4;&#x5408;&#x4e0e;&#x539f;&#x5b50;&#x7ec4;&#x4ef6;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685069781991" ID="ID_430323908" MODIFIED="1692350110288">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x4e00;&#x4e2a;&#x7531;&#x7ec4;&#x4ef6;(components)&#x548c;connectors(&#x8fde;&#x63a5;&#x5668;)&#x7ec4;&#x6210;&#x7684;&#x5b50;&#x7cfb;&#x7edf;&#x5c31;
+    </p>
+    <p>
+      &#x6784;&#x6210;&#x4e86;&#x4e00;&#x4e2a;&#x7ec4;&#x5408;(composition)
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">In AUTOSAR, the usage of a component-type within a composition is </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">called a &#x201c;prototype&#x201d;. </font></di>
+    </div>
+    <p>
+      &#x5728;&#x4e00;&#x4e2a;&#x7ec4;&#x5408;&#x4e2d;&#x5bf9;&#x7ec4;&#x4ef6;&#x7c7b;&#x578b;&#x7684;&#x4f7f;&#x7528;&#x5c31;&#x88ab;&#x79f0;&#x4e3a;&quot;&#x539f;&#x578b;&quot;(prototype)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0000ff">&#x5b9e;&#x9645;&#x4e0a;&#x4e00;&#x4e2a;&#x7ec4;&#x5408;&#x672c;&#x8eab;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x7ec4;&#x4ef6;&#x7c7b;&#x578b;&#xff0c;&#x53ef;&#x4ee5;&#x62e5;&#x6709;&#x5b83;&#x81ea;&#x5df1;&#x7684;port, </font></b>
+    </p>
+    <p>
+      <b><font color="#0000ff">&#x7ec4;&#x5408;&#x53ef;&#x4ee5;&#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x7ed3;&#x6784;&#x5316;&#x7684;&#x5143;&#x7d20;&#x6765;&#x6784;&#x5efa;&#x5c42;&#x6b21;&#x5316;&#x7684;&#x7cfb;&#x7edf;, </font></b>
+    </p>
+    <p>
+      &#x7ec4;&#x5408;&#x5b9e;&#x9645;&#x4e0a;&#x5c31;&#x662f;&#x53ef;&#x62c6;&#x5206;&#x7684;component, &#x800c;&#x4e0d;&#x53ef;&#x62c6;&#x5206;&#x7684;component&#x5c31;&#x662f;&#x539f;&#x5b50;component,
+    </p>
+    <p>
+      &#x591a;&#x4e2a;&#x7ec4;&#x5408;&#x53ef;&#x4ee5;&#x6784;&#x6210;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x7684;&#x7ec4;&#x5408;&#xff08;&#x56e0;&#x4e3a;&#x7ec4;&#x5408;&#x672c;&#x8eab;&#x5c31;&#x662f;&#x4e00;&#x4e2a;component&#xff09;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1685080110565" ID="ID_354795436" MODIFIED="1685081134598">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1162,8 +1301,43 @@
 </node>
 </node>
 </node>
-<node CREATED="1685081461013" ID="ID_1415819948" MODIFIED="1685670553545" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;3.6 Relationship between the VFB and the ECU Software &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Architecture&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
-<node CREATED="1685081605462" ID="ID_1499094904" MODIFIED="1685670589097" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;When a sub-system consisting of atomic components and &#xa;      assembly-connectors is &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;deployed on a network of ECUs&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5f53;&amp;#x4e00;&amp;#x4e2a;&amp;#x7531;&amp;#x539f;&amp;#x5b50;component&amp;#x548c;connector&amp;#x7ec4;&amp;#x6210;&amp;#x7684;&amp;#x5b50;&amp;#x7cfb;&amp;#x7edf;&amp;#x88ab;&amp;#x90e8;&amp;#x7f72;&amp;#x5230;&amp;#x4e86;&amp;#x5145;&amp;#x6ee1;ECUs&amp;#x7684;&amp;#x7f51;&amp;#x7edc;&amp;#x4e2d;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x6240;&amp;#x6709;&amp;#x7684;&amp;#x539f;&amp;#x5b50;&amp;#x7ec4;&amp;#x4ef6;&amp;#x90fd;&amp;#x4f1a;&amp;#x88ab;&amp;#x6620;&amp;#x5c04;&amp;#x5230;ECU&amp;#x4e0a;&amp;#x9762;&amp;#x53bb;&amp;#xff0c;&amp;#x7ec4;&amp;#x4ef6;&amp;#x4e4b;&amp;#x95f4;&amp;#x5bf9;&amp;#x5e94;&amp;#x7684;connectors&amp;#x7531;ECU&amp;#x5185;&amp;#x90e8;&amp;#x6216;&amp;#x8005;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ECU&amp;#x4e4b;&amp;#x95f4;&amp;#x7684;&amp;#x901a;&amp;#x8baf;&amp;#x6765;&amp;#x5b9e;&amp;#x73b0;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685081461013" ID="ID_1415819948" MODIFIED="1692350216631">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial,Bold"><b>3.6 Relationship between the VFB and the ECU Software </b></font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial,Bold"><b>Architecture</b></font></di>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685081605462" ID="ID_1499094904" MODIFIED="1692350483444">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">When a sub-system consisting of atomic components and 
+      assembly-connectors is </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">deployed on a network of ECUs</font></di>
+    </div>
+    <p>
+      &#x5f53;&#x4e00;&#x4e2a;&#x7531;&#x539f;&#x5b50;component&#x548c;connector&#x7ec4;&#x6210;&#x7684;&#x5b50;&#x7cfb;&#x7edf;&#x88ab;&#x90e8;&#x7f72;&#x5230;&#x4e86;&#x5145;&#x6ee1;ECUs&#x7684;&#x7f51;&#x7edc;&#x4e2d;&#xff0c;
+    </p>
+    <p>
+      &#x6240;&#x6709;&#x7684;&#x539f;&#x5b50;&#x7ec4;&#x4ef6;&#x90fd;&#x4f1a;&#x88ab;&#x6620;&#x5c04;&#x5230;ECU&#x4e0a;&#x9762;&#x53bb;&#xff0c;&#x7ec4;&#x4ef6;&#x4e4b;&#x95f4;&#x5bf9;&#x5e94;&#x7684;connectors&#x7531;ECU&#x5185;&#x90e8;&#x6216;&#x8005;
+    </p>
+    <p>
+      ECU&#x4e4b;&#x95f4;&#x7684;&#x901a;&#x8baf;&#x6765;&#x5b9e;&#x73b0;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1685083399440" ID="ID_92500754" MODIFIED="1685083423531">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1176,7 +1350,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1685083682200" ID="ID_1570037618" MODIFIED="1685670627702" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Kinds of software components&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8f6f;&amp;#x4ef6;&amp;#x7ec4;&amp;#x4ef6;&amp;#x7684;&amp;#x79cd;&amp;#x7c7b;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685083682200" ID="ID_1570037618" MODIFIED="1692350583666">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial,Bold"><b>Kinds of software components</b></font></di>
+    </div>
+    <p>
+      &#x8f6f;&#x4ef6;&#x7ec4;&#x4ef6;&#x7684;&#x79cd;&#x7c7b;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1685084637654" ID="ID_1985491800" MODIFIED="1685085604797">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1214,7 +1399,18 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685085627932" ID="ID_1385665709" MODIFIED="1685670662610" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial,Bold&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Resources for components and runnables&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685085627932" ID="ID_1385665709" MODIFIED="1692350698509">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial,Bold"><b>Resources for components and runnables</b></font></di>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1685086500403" ID="ID_22958491" MODIFIED="1685086520046">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1453,7 +1649,46 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685339482469" ID="ID_1702797432" MODIFIED="1685670743407" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5f53;&amp;#x4e24;&amp;#x4e2a;OEM&amp;#x5f00;&amp;#x53d1;&amp;#x7684;&amp;#x8f6f;&amp;#x4ef6;&amp;#x63a5;&amp;#x53e3;&amp;#x5728;&amp;#x8bed;&amp;#x4e49;&amp;#x4e0a;&amp;#x662f;&amp;#x76f8;&amp;#x540c;&amp;#x7684;&amp;#xff0c;&amp;#x4f46;&amp;#x662f;&amp;#x63a5;&amp;#x53e3;&amp;#x7684;&amp;#x6570;&amp;#x636e;&amp;#x7c7b;&amp;#x578b;&amp;#x6709;&amp;#x5dee;&amp;#x5f02;&amp;#xff0c;&amp;#x90a3;&amp;#x4e48;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;VFB will add a conversion block to a connector &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;connecting Sender Receiver ports with mismatched interface definitions &#xa;      at the VFB &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;level. &amp;lt;/font&amp;gt;&amp;#x53ef;&amp;#x4ee5;&amp;#x770b;&amp;#x5230;&amp;#xff0c;conversion block&amp;#x662f;&amp;#x4e3a;&amp;#x4e86;&amp;#x89e3;&amp;#x51b3;&amp;#x6570;&amp;#x636e;&amp;#x8f6c;&amp;#x6362;&amp;#x7684;&amp;#x95ee;&amp;#x9898;&amp;#x7684;&amp;#x3002;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;If a P-port specified by a Sender Receiver Interface is &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;connected to an R-port with an incompatible interface then a &#xa;      conversion block must &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;be added for the connector to allow the &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#0033ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;designer to describe &#xa;      the conversion&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Incomplete conversion will not be allowed&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685339482469" ID="ID_1702797432" MODIFIED="1692350790180">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x5f53;&#x4e24;&#x4e2a;OEM&#x5f00;&#x53d1;&#x7684;&#x8f6f;&#x4ef6;&#x63a5;&#x53e3;&#x5728;&#x8bed;&#x4e49;&#x4e0a;&#x662f;&#x76f8;&#x540c;&#x7684;&#xff0c;&#x4f46;&#x662f;&#x63a5;&#x53e3;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#x6709;&#x5dee;&#x5f02;&#xff0c;&#x90a3;&#x4e48;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">VFB will add a conversion block to a connector </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">connecting Sender Receiver ports with mismatched interface definitions 
+      at the VFB </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">level. </font>&#x53ef;&#x4ee5;&#x770b;&#x5230;&#xff0c;conversion block&#x662f;&#x4e3a;&#x4e86;&#x89e3;&#x51b3;&#x6570;&#x636e;&#x8f6c;&#x6362;&#x7684;&#x95ee;&#x9898;&#x7684;&#x3002;
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">If a P-port specified by a Sender Receiver Interface is </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">connected to an R-port with an incompatible interface then a 
+      conversion block must </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">be added for the connector to allow the </font><font color="#0033ff" face="Arial"><b>designer to describe 
+      the conversion</b></font><font color="rgb(0,0,0)" face="Arial">. </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Incomplete conversion will not be allowed</font></di>
+    </div>
+    <div>
+      
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1685339771283" ID="ID_263711747" MODIFIED="1685339797155">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1732,8 +1967,95 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685583734686" ID="ID_114631299" MODIFIED="1685670792229" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;&amp;#x8ddf;&amp;#x5176;&amp;#x4ed6;&amp;#x6a21;&amp;#x5757;&amp;#x7684;&amp;#x4f9d;&amp;#x8d56;&amp;#x5173;&amp;#x7cfb; &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00240] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Mcu module (SPAL see &#xa;      [8]) shall configure register &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;settings that are &amp;#x2018;shared&amp;#x2019; with other modules.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &#xa;      &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Implementation hint: The Mcu module shall be initialized before &#xa;      initializing the Can &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;module.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;&amp;#x8ddf;&amp;#x5176;&amp;#x4ed6;&amp;#x6a21;&amp;#x5757;&amp;#x5171;&amp;#x4eab;&amp;#x7684;&amp;#x5bc4;&amp;#x5b58;&amp;#x5668;&amp;#x914d;&amp;#x7f6e;&amp;#x5e94;&amp;#x8be5;&amp;#x7531;Mcu&amp;#x6a21;&amp;#x5757;&amp;#x8fdb;&amp;#x884c;&amp;#x914d;&amp;#x7f6e;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00244] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module shall use &#xa;      the synchronous APIs of the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;underlying MCAL drivers and shall not provide callback functions that &#xa;      can be called &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;by the MCAL drivers.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;#xff1f; &amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff3333&amp;quot;&amp;gt;&amp;#x4f7f;&amp;#x7528;&amp;#x5230;&amp;#x7684;&amp;#x7cfb;&amp;#x7edf;&amp;#x670d;&amp;#x52a1;&amp;#xff1a;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00281] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module shall use &#xa;      the OsCounter provided by the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;system service for timeout detection in case the hardware does not &#xa;      react in the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;expected time (hardware malfunction) to prevent endless loops.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &#xa;      &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Implementation hint: The blocking time of the Can module function that &#xa;      is waiting for &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;hardware reaction shall be shorter than the CAN main function (i.e. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_MainFunction_Read) trigger period, because the CAN main functions &#xa;      can&amp;#x2019;t be &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;used for that purpose.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
-<node CREATED="1685587000603" ID="ID_1945317851" MODIFIED="1685670833937" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_GeneralTypes.h shall contain all types and constants that &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;are shared among the AUTOSAR CAN modules Can, CanIf and CanTrcv.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0; &#xa;      CAN&amp;#x6a21;&amp;#x5757;&amp;#x5185;&amp;#x90e8;&amp;#x7684;&amp;#x6240;&amp;#x6709;&amp;#x7684;&amp;#x7c7b;&amp;#x578b;&amp;#x548c;&amp;#x5e38;&amp;#x91cf;&amp;#x90fd;&amp;#x4f1a;&amp;#x5305;&amp;#x542b;&amp;#x5728;&amp;#x6587;&amp;#x4ef6;&amp;lt;font color=&amp;quot;#ff0066&amp;quot; size=&amp;quot;5&amp;quot;&amp;gt;Can_GeneralTypes.h&amp;lt;/font&amp;gt;&amp;#x5f53;&amp;#x4e2d;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685583734686" ID="ID_114631299" MODIFIED="1692350947279">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <font color="#0000ff" face="Times New Roman" size="4">&#x8ddf;&#x5176;&#x4ed6;&#x6a21;&#x5757;&#x7684;&#x4f9d;&#x8d56;&#x5173;&#x7cfb; </font>
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial-BoldMT"><b>[SWS_Can_00240] </b></font><b><font color="rgb(0,0,0)" face="Cambria Math">&#x2308; </font></b><font color="rgb(0,0,0)" face="Arial">The Mcu module (SPAL see 
+      [8]) shall configure register </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">settings that are &#x2018;shared&#x2019; with other modules.</font><font color="rgb(0,0,0)" face="Cambria Math">&#x230b; </font><font color="rgb(0,0,0)" face="ArialUnicodeMS">(</font><font color="rgb(0,0,0)" face="Arial">) 
+      </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Implementation hint: The Mcu module shall be initialized before 
+      initializing the Can </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">module.</font></di>&#xa0;&#x8ddf;&#x5176;&#x4ed6;&#x6a21;&#x5757;&#x5171;&#x4eab;&#x7684;&#x5bc4;&#x5b58;&#x5668;&#x914d;&#x7f6e;&#x5e94;&#x8be5;&#x7531;Mcu&#x6a21;&#x5757;&#x8fdb;&#x884c;&#x914d;&#x7f6e;
+    </div>
+    <p>
+      
+    </p>
+    <div>
+      <font color="#ff0000" face="Arial-BoldMT"><b>[SWS_Can_00244] </b></font><b><font color="#ff0000" face="Cambria Math">&#x2308; </font></b><font color="#ff0000" face="Arial">The Can module shall use 
+      the synchronous APIs of the </font>
+    </div>
+    <div>
+      <font color="#ff0000" face="Arial">underlying MCAL drivers and shall not provide callback functions that 
+      can be called </font>
+    </div>
+    <div>
+      <font color="#ff0000" face="Arial">by the MCAL drivers.</font><font color="#ff0000" face="Cambria Math">&#x230b; </font><font color="#ff0000" face="ArialUnicodeMS">(</font><font color="#ff0000" face="Arial">) </font><font color="#ff0000"></di>&#xff1f; </font><b><font color="#ff3333">&#x4f7f;&#x7528;&#x5230;&#x7684;&#x7cfb;&#x7edf;&#x670d;&#x52a1;&#xff1a;</font></b>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial-BoldMT"><b>[SWS_Can_00281] </b></font><b><font color="rgb(0,0,0)" face="Cambria Math">&#x2308; </font></b><font color="rgb(0,0,0)" face="Arial">The Can module shall use 
+      the OsCounter provided by the </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">system service for timeout detection in case the hardware does not 
+      react in the </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">expected time (hardware malfunction) to prevent endless loops.</font><font color="rgb(0,0,0)" face="Cambria Math">&#x230b; </font><font color="rgb(0,0,0)" face="ArialUnicodeMS">(</font><font color="rgb(0,0,0)" face="Arial">) 
+      </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Implementation hint: The blocking time of the Can module function that 
+      is waiting for </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">hardware reaction shall be shorter than the CAN main function (i.e. </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Can_MainFunction_Read) trigger period, because the CAN main functions 
+      can&#x2019;t be </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">used for that purpose.</font></di>
+    </div>
+    <div>
+      
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685587000603" ID="ID_1945317851" MODIFIED="1692351571450">
+<richcontent TYPE="NODE"><html>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Can_GeneralTypes.h shall contain all types and constants that </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">are shared among the AUTOSAR CAN modules Can, CanIf and CanTrcv.</font></di>&#xa0; 
+      CAN&#x6a21;&#x5757;&#x5185;&#x90e8;&#x7684;&#x6240;&#x6709;&#x7684;&#x7c7b;&#x578b;&#x548c;&#x5e38;&#x91cf;&#x90fd;&#x4f1a;&#x5305;&#x542b;&#x5728;&#x6587;&#x4ef6;<font color="#ff0066" size="5">Can_GeneralTypes.h</font>&#x5f53;&#x4e2d;
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1685587199991" ID="ID_35947311" MODIFIED="1685587216423">
 <richcontent TYPE="NODE"><html>
@@ -1746,8 +2068,126 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685587317380" ID="ID_384888362" MODIFIED="1685670873891" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      CAN&amp;#x7684;&amp;#x53d1;&amp;#x9001;&amp;#x548c;&amp;#x63a5;&amp;#x6536;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;On L-PDU transmission, the Can module writes the L-PDU in an &#xa;      appropriate buffer &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;inside the CAN controller hardware. &amp;#xff08;&amp;#x53d1;&amp;#x9001;&amp;#x7684;&amp;#x65f6;&amp;#x5019;&amp;#x5c06;L-PDU&amp;#x5199;&amp;#x5165;&amp;#x5230;&amp;#x5408;&amp;#x9002;&amp;#x7684;buffer&amp;#x5f53;&amp;#x4e2d;&amp;#xff09;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;See chapter 7.5 for closer description of L-PDU transmission. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;On L-PDU reception, the Can module calls the &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;#ff0033&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;RX indication &#xa;      callback function&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#xa0;with &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;ID, Data Length and pointer to L-SDU as parameter. CAN&amp;#x6a21;&amp;#x5757;&amp;#x8c03;&amp;#x7528;RX&amp;#x56de;&amp;#x8c03;&amp;#x51fd;&amp;#x6570;&amp;#x8fdb;&amp;#x884c;&amp;#x63a5;&amp;#x6536;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      2&amp;#x3001;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module provides an interface that serves as periodical &#xa;      processing function, &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;and which must be called by the Basic Software Scheduler module &#xa;      periodically.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;CAN&amp;#x6a21;&amp;#x5757;&amp;#x63d0;&amp;#x4f9b;&amp;#x4e00;&amp;#x4e2a;&amp;#x63a5;&amp;#x53e3;&amp;#x4f5c;&amp;#x4e3a;&amp;#x5468;&amp;#x671f;&amp;#x6027;&amp;#x7684;&amp;#x5904;&amp;#x7406;&amp;#x51fd;&amp;#x6570;&amp;#xff0c;&amp;#x5fc5;&amp;#x987b;&amp;#x88ab;BS&amp;#x8c03;&amp;#x5ea6;&amp;#x6a21;&amp;#x5757;&amp;#x5468;&amp;#x671f;&amp;#x6027;&amp;#x5730;&amp;#x8c03;&amp;#x7528;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      3&amp;#x3001;Can &amp;#x6a21;&amp;#x5757;&amp;#x63d0;&amp;#x4f9b;&amp;#x4e00;&amp;#x4e2a;&amp;#x670d;&amp;#x52a1;&amp;#x53bb;&amp;#x63a7;&amp;#x5236;Can controller&amp;#x7684;&amp;#x72b6;&amp;#x6001;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      4&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#x3001;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Bus-off and Wake-up events are notified by means of callback functions.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
-<node CREATED="1685588076536" ID="ID_958292468" MODIFIED="1685670916900" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x9a71;&amp;#x52a8;&amp;#x7684;&amp;#x6982;&amp;#x89c8;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;One Can module provides access to one CAN Hardware Unit that may &#xa;      consist of &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;several CAN controllers.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x9a71;&amp;#x52a8;&amp;#x72b6;&amp;#x6001;&amp;#x673a;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CAN_UNINIT&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CAN_READY&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00245] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The function Can_Init &#xa;      shall initialize all CAN controllers &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;according to their configuration.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;SRS_SPAL_12057, &#xa;      SRS_Can_01041) &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Each CAN controller must then be started separately by calling the &#xa;      function &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_SetControllerMode(CAN_CS_STARTED).&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;#x6240;&amp;#x6709;&amp;#x7684;CAN controllers&amp;#x662f;&amp;#x901a;&amp;#x8fc7;CAN_Init&amp;#x6765;&amp;#x8fdb;&amp;#x884c;&amp;#x521d;&amp;#x59cb;&amp;#x5316;&amp;#x7684;&amp;#xff0c;&amp;#x4e14;&amp;#x6bcf;&amp;#x4e2a;CAN controller&amp;#x5fc5;&amp;#x987b;&amp;#x901a;&amp;#x8fc7;&amp;#x51fd;&amp;#x6570; &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Can_SetControllerMode(CAN_CS_STARTED)&amp;#x5355;&amp;#x72ec;&amp;#x542f;&amp;#x52a8;&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The ECU State Manager module shall call Can_Init at most once during &#xa;      runtime.&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; size=&amp;quot;2&amp;quot;&amp;gt;&amp;lt;b&amp;gt;ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x5668;&amp;#x5728;&amp;#x8fd0;&amp;#x884c;&amp;#x671f;&amp;#x95f4;&amp;#x6700;&amp;#x591a;&amp;#x53ea;&amp;#x80fd;&amp;#x8c03;&amp;#x7528;&amp;#x4e00;&amp;#x4e2a;Can_Init&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685587317380" ID="ID_384888362" MODIFIED="1692351689740">
+<richcontent TYPE="NODE"><html>
+  <body>
+    <p>
+      CAN&#x7684;&#x53d1;&#x9001;&#x548c;&#x63a5;&#x6536;&#xff1a;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">On L-PDU transmission, the Can module writes the L-PDU in an 
+      appropriate buffer </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">inside the CAN controller hardware. &#xff08;&#x53d1;&#x9001;&#x7684;&#x65f6;&#x5019;&#x5c06;L-PDU&#x5199;&#x5165;&#x5230;&#x5408;&#x9002;&#x7684;buffer&#x5f53;&#x4e2d;&#xff09;</font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">See chapter 7.5 for closer description of L-PDU transmission. </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">On L-PDU reception, the Can module calls the </font><font color="#ff0033" face="Arial"><b>RX indication 
+      callback function</b></font><font color="rgb(0,0,0)" face="Arial">&#xa0;with </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">ID, Data Length and pointer to L-SDU as parameter. CAN&#x6a21;&#x5757;&#x8c03;&#x7528;RX&#x56de;&#x8c03;&#x51fd;&#x6570;&#x8fdb;&#x884c;&#x63a5;&#x6536;</font>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      2&#x3001;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">The Can module provides an interface that serves as periodical 
+      processing function, </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">and which must be called by the Basic Software Scheduler module 
+      periodically.</font></di>&#xa0;CAN&#x6a21;&#x5757;&#x63d0;&#x4f9b;&#x4e00;&#x4e2a;&#x63a5;&#x53e3;&#x4f5c;&#x4e3a;&#x5468;&#x671f;&#x6027;&#x7684;&#x5904;&#x7406;&#x51fd;&#x6570;&#xff0c;&#x5fc5;&#x987b;&#x88ab;BS&#x8c03;&#x5ea6;&#x6a21;&#x5757;&#x5468;&#x671f;&#x6027;&#x5730;&#x8c03;&#x7528;
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      3&#x3001;Can &#x6a21;&#x5757;&#x63d0;&#x4f9b;&#x4e00;&#x4e2a;&#x670d;&#x52a1;&#x53bb;&#x63a7;&#x5236;Can controller&#x7684;&#x72b6;&#x6001;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4<font color="rgb(0,0,0)" face="Arial">&#x3001;</font>
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Bus-off and Wake-up events are notified by means of callback functions.</font></di>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685588076536" ID="ID_958292468" MODIFIED="1692351813502">
+<richcontent TYPE="NODE"><html>
+  <body>
+    <p>
+      &#x9a71;&#x52a8;&#x7684;&#x6982;&#x89c8;&#xff1a;
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">One Can module provides access to one CAN Hardware Unit that may 
+      consist of </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">several CAN controllers.</font></di>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      &#x9a71;&#x52a8;&#x72b6;&#x6001;&#x673a;&#xff1a;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CAN_UNINIT</font></di>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CAN_READY</font></di>
+    </div>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial-BoldMT"><b>[SWS_Can_00245] </b></font><b><font color="rgb(0,0,0)" face="Cambria Math">&#x2308; </font></b><font color="rgb(0,0,0)" face="Arial">The function Can_Init 
+      shall initialize all CAN controllers </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">according to their configuration.</font><font color="rgb(0,0,0)" face="Cambria Math">&#x230b; </font><font color="rgb(0,0,0)" face="ArialUnicodeMS">(</font><font color="rgb(0,0,0)" face="Arial">SRS_SPAL_12057, 
+      SRS_Can_01041) </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Each CAN controller must then be started separately by calling the 
+      function </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Can_SetControllerMode(CAN_CS_STARTED).</font></di>
+    </div>
+    <p>
+      <font color="#ff0000" size="2"><b>&#x6240;&#x6709;&#x7684;CAN controllers&#x662f;&#x901a;&#x8fc7;CAN_Init&#x6765;&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;&#x7684;&#xff0c;&#x4e14;&#x6bcf;&#x4e2a;CAN controller&#x5fc5;&#x987b;&#x901a;&#x8fc7;&#x51fd;&#x6570; </b></font>
+    </p>
+    <p>
+      <font color="#ff0000" face="Arial" size="2"><b>Can_SetControllerMode(CAN_CS_STARTED)&#x5355;&#x72ec;&#x542f;&#x52a8;</b></font>
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">The ECU State Manager module shall call Can_Init at most once during 
+      runtime.</font></di>
+    </div>
+    <p>
+      <font color="#ff0033" size="2"><b>ECU&#x72b6;&#x6001;&#x7ba1;&#x7406;&#x5668;&#x5728;&#x8fd0;&#x884c;&#x671f;&#x95f4;&#x6700;&#x591a;&#x53ea;&#x80fd;&#x8c03;&#x7528;&#x4e00;&#x4e2a;Can_Init</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1685588965815" ID="ID_1303775404" MODIFIED="1685590194377">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1825,7 +2265,45 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685598205362" ID="ID_1635540647" MODIFIED="1685670953411" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;CAN&amp;#x63a7;&amp;#x5236;&amp;#x5668;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362; &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x662f;&amp;#x6709;&amp;#x51fd;&amp;#x6570;Can_SetControllerMode&amp;#x89e6;&amp;#x53d1;&amp;#x7684;&amp;#xff0c;&amp;#x7531;&amp;#x8f6f;&amp;#x4ef6;&amp;#x89e6;&amp;#x53d1;&amp;#x7684;&amp;#x6210;&amp;#x529f;&amp;#x7684;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x4f1a;&amp;#x7531;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      callback&amp;#x51fd;&amp;#x6570;&amp;#x901a;&amp;#x77e5;&amp;#xff08;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_ControllerModeIndication&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#xff09;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x6709;&amp;#x4e9b;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x662f;&amp;#x7531;&amp;#x603b;&amp;#x7ebf;&amp;#x4e0a;&amp;#x9762;&amp;#x7684;&amp;#x4e8b;&amp;#x4ef6;&amp;#x89e6;&amp;#x53d1;&amp;#x7684;&amp;#xff08;&amp;#x786c;&amp;#x4ef6;&amp;#x4e0a;&amp;#x7684;&amp;#xff09;&amp;#xff0c;&amp;#x8fd9;&amp;#x4e9b;&amp;#x72b6;&amp;#x6001;&amp;#x8f6c;&amp;#x6362;&amp;#x4f1a;&amp;#x89e6;&amp;#x53d1;&amp;#x56de;&amp;#x8c03;&amp;#x51fd;&amp;#x6570;&amp;#xff08;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_ControllerBusOff&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xff0c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;EcuM_CheckWakeup&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#xff09;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
+<node CREATED="1685598205362" ID="ID_1635540647" MODIFIED="1692352185238">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4">CAN&#x63a7;&#x5236;&#x5668;&#x72b6;&#x6001;&#x8f6c;&#x6362; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x72b6;&#x6001;&#x8f6c;&#x6362;&#x662f;&#x6709;&#x51fd;&#x6570;Can_SetControllerMode&#x89e6;&#x53d1;&#x7684;&#xff0c;&#x7531;&#x8f6f;&#x4ef6;&#x89e6;&#x53d1;&#x7684;&#x6210;&#x529f;&#x7684;&#x72b6;&#x6001;&#x8f6c;&#x6362;&#x4f1a;&#x7531;
+    </p>
+    <p>
+      callback&#x51fd;&#x6570;&#x901a;&#x77e5;&#xff08;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanIf_ControllerModeIndication</font></di>
+    </div>
+    <p>
+      &#xff09;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x6709;&#x4e9b;&#x72b6;&#x6001;&#x8f6c;&#x6362;&#x662f;&#x7531;&#x603b;&#x7ebf;&#x4e0a;&#x9762;&#x7684;&#x4e8b;&#x4ef6;&#x89e6;&#x53d1;&#x7684;&#xff08;&#x786c;&#x4ef6;&#x4e0a;&#x7684;&#xff09;&#xff0c;&#x8fd9;&#x4e9b;&#x72b6;&#x6001;&#x8f6c;&#x6362;&#x4f1a;&#x89e6;&#x53d1;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff08;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanIf_ControllerBusOff</font></di>&#xff0c;
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">EcuM_CheckWakeup</font></di>
+    </div>
+    <p>
+      &#xff09;
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1685598636295" ID="ID_1005110466" MODIFIED="1685598642811">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1840,16 +2318,36 @@
 </node>
 <node CREATED="1685598932399" ID="ID_826794902" MODIFIED="1685598963063">
 <richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
+<head></head>
   <body>
     <p>
-      <font size="4"><b>Can module/controller&#21021;&#22987;&#21270;</b></font>
+      ECU&#x72b6;&#x6001;&#x7ba1;&#x7406;&#x6a21;&#x5757;&#xff1a;
+    </p>
+    <p>
+      &#x8be5;&#x6a21;&#x5757;&#x5e94;&#x8be5;&#x5728;&#x542f;&#x52a8;&#x9636;&#x6bb5;&#x521d;&#x59cb;&#x5316;Can&#x6a21;&#x5757;(&#x901a;&#x8fc7;&#x8c03;&#x7528;Can_Init)
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial-BoldMT"><b>[SWS_Can_00056] </b></font><b><font color="rgb(0,0,0)" face="Cambria Math">&#x2308; </font></b><font color="rgb(0,0,0)" face="Arial">Post-Build configuration 
+      elements that are marked as &#x2018;multiple&#x2019; </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">(&#x2018;M&#x2019; or &#x2018;x&#x2019;) in chapter 10 can be selected by passing the pointer 
+      &#x2018;Config&#x2019; to the init </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">function of the module. </font><font color="rgb(0,0,0)" face="Cambria Math">&#x230b; </font><font color="rgb(0,0,0)" face="ArialUnicodeMS">(</font><font color="rgb(0,0,0)" face="Arial">) </font></di>
+    </div>
+    <p>
+      &#x5728;&#x7b2c;10&#x7ae0;&#x4e2d;&#x7684;&#x88ab;&#x6807;&#x8bb0;&#x6210;M&#x6216;&#x8005;X&#x7684;&#x914d;&#x7f6e;&#x5143;&#x7d20;&#x53ef;&#x4ee5;&#x88ab;&#x9009;&#x62e9;&#x5e76;&#x901a;&#x8fc7;Config&#x6307;&#x9488;&#x4f20;&#x9012;&#x7ed9;&#x6a21;&#x5757;&#x7684;
+    </p>
+    <p>
+      init&#x51fd;&#x6570;
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685599164761" ID="ID_122164304" MODIFIED="1685670993289" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x6a21;&amp;#x5757;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8be5;&amp;#x6a21;&amp;#x5757;&amp;#x5e94;&amp;#x8be5;&amp;#x5728;&amp;#x542f;&amp;#x52a8;&amp;#x9636;&amp;#x6bb5;&amp;#x521d;&amp;#x59cb;&amp;#x5316;Can&amp;#x6a21;&amp;#x5757;(&amp;#x901a;&amp;#x8fc7;&amp;#x8c03;&amp;#x7528;Can_Init)&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;[SWS_Can_00056] &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x2308; &amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Post-Build configuration &#xa;      elements that are marked as &amp;#x2018;multiple&amp;#x2019; &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;(&amp;#x2018;M&amp;#x2019; or &amp;#x2018;x&amp;#x2019;) in chapter 10 can be selected by passing the pointer &#xa;      &amp;#x2018;Config&amp;#x2019; to the init &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;function of the module. &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;) &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x7b2c;10&amp;#x7ae0;&amp;#x4e2d;&amp;#x7684;&amp;#x88ab;&amp;#x6807;&amp;#x8bb0;&amp;#x6210;M&amp;#x6216;&amp;#x8005;X&amp;#x7684;&amp;#x914d;&amp;#x7f6e;&amp;#x5143;&amp;#x7d20;&amp;#x53ef;&amp;#x4ee5;&amp;#x88ab;&amp;#x9009;&amp;#x62e9;&amp;#x5e76;&amp;#x901a;&amp;#x8fc7;Config&amp;#x6307;&amp;#x9488;&amp;#x4f20;&amp;#x9012;&amp;#x7ed9;&amp;#x6a21;&amp;#x5757;&amp;#x7684;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      init&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
 </node>
 <node CREATED="1685600339338" ID="ID_309009400" MODIFIED="1685600366820">
 <richcontent TYPE="NODE"><html>
@@ -1873,7 +2371,27 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685601882611" ID="ID_1582571966" MODIFIED="1685671028611" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;#x2308; &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;If the presentation inside the CAN Hardware buffer &#xa;      differs from &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;AUTOSAR definition, the Can module must provide an adapted SDU-Buffer &#xa;      for the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;upper layers.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;)&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;&#xa;      &amp;#x5982;&amp;#x679c;&amp;#x5728;CAN&amp;#x786c;&amp;#x4ef6;&amp;#x5c42;buffer&amp;#x4e2d;&amp;#x7684;&amp;#x6570;&amp;#x636e;&amp;#x6392;&amp;#x5217;&amp;#x8ddf;AUTOSAR&amp;#x6807;&amp;#x51c6;&amp;#x4e0d;&amp;#x4e00;&amp;#x81f4;&amp;#xff0c;&amp;#x90a3;&amp;#x4e48; Can&amp;#x9700;&amp;#x8981;&amp;#x63d0;&amp;#x4f9b;&amp;#x4e00;&amp;#x4e2a;&amp;#x9002;&amp;#x914d;&amp;#x7684;SDU-Buffer&amp;#x7ed9;&amp;#x4e0a;&amp;#x5c42;&amp;#x5e94;&amp;#x7528;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685601882611" ID="ID_1582571966" MODIFIED="1692352744365">
+<richcontent TYPE="NODE"><html>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Cambria Math"><b>&#x2308; </b></font><font color="rgb(0,0,0)" face="Arial">If the presentation inside the CAN Hardware buffer 
+      differs from </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">AUTOSAR definition, the Can module must provide an adapted SDU-Buffer 
+      for the </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">upper layers.</font><font color="rgb(0,0,0)" face="Cambria Math">&#x230b; </font><font color="rgb(0,0,0)" face="ArialUnicodeMS">(</font><font color="rgb(0,0,0)" face="Arial">)</font></di>&#xa0;
+      &#x5982;&#x679c;&#x5728;CAN&#x786c;&#x4ef6;&#x5c42;buffer&#x4e2d;&#x7684;&#x6570;&#x636e;&#x6392;&#x5217;&#x8ddf;AUTOSAR&#x6807;&#x51c6;&#x4e0d;&#x4e00;&#x81f4;&#xff0c;&#x90a3;&#x4e48; Can&#x9700;&#x8981;&#x63d0;&#x4f9b;&#x4e00;&#x4e2a;&#x9002;&#x914d;&#x7684;SDU-Buffer&#x7ed9;&#x4e0a;&#x5c42;&#x5e94;&#x7528;
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1685601119273" ID="ID_1152549601" MODIFIED="1685602512449">
 <richcontent TYPE="NODE"><html>
@@ -1890,8 +2408,68 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685603234474" ID="ID_1666540478" MODIFIED="1685671073929" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x51fd;&amp;#x6570;Can_Write&amp;#x5e94;&amp;#x8be5;&amp;#x4f1a;&amp;#x5b58;&amp;#x50a8;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;swPduHandle&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#xff0c;&amp;#x8be5;&amp;#x53c2;&amp;#x6570;&amp;#x662f;&amp;#x5b58;&amp;#x50a8;&amp;#x5728;&amp;#x53c2;&amp;#x6570;PduInfo&amp;#x7684;&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x76f4;&amp;#x5230;Can module &amp;#x4e3a;&amp;#x8be5;&amp;#x8bf7;&amp;#x6c42;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;CanIf_TxConfirmation&amp;#xff0c;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      CanIf_TxConfirmation&amp;#x51fd;&amp;#x6570;&amp;#x7684;&amp;#x53c2;&amp;#x6570;&amp;#x662f;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;swPduHandle &#xa;      &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;Can&amp;#x6a21;&amp;#x5757;&amp;#x4e2d;&amp;#xff0c;&amp;#x5f53;&amp;#x4f20;&amp;#x8f93;&amp;#x6210;&amp;#x529f;&amp;#x4e4b;&amp;#x540e;&amp;#xff0c;&amp;#x4f1a;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_TxConfirmation&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8868;&amp;#x660e;&amp;#x4f20;&amp;#x8f93;&amp;#x6210;&amp;#x529f;&amp;#xff0c;&amp;#x8be5;&amp;#x51fd;&amp;#x6570;&amp;#x53ef;&amp;#x80fd;&amp;#x662f;&amp;#x7531;&amp;#x5bf9;&amp;#x5e94;&amp;#x7684;&amp;#x786c;&amp;#x4ef6;&amp;#x4e2d;&amp;#x65ad;&amp;#x670d;&amp;#x52a1;&amp;#x4f8b;&amp;#x7a0b;&amp;#x8c03;&amp;#x7528;&amp;#x4e5f;&amp;#x53ef;&amp;#x80fd;&amp;#x662f;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7531;Can_MainFunction_Write&amp;#x51fd;&amp;#x6570;&amp;#x8c03;&amp;#x7528;(polling&amp;#x6a21;&amp;#x5f0f;)&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
-<node CREATED="1685605919767" ID="ID_837031414" MODIFIED="1685671120898" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0033&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;&amp;#x4f18;&amp;#x5148;&amp;#x7ea7;&amp;#x53cd;&amp;#x8f6c;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Multiplexed transmission can be used to avoid outer/inner priority &#xa;      inversion (see &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;chapter 2.1)&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#xa0;&amp;#x590d;&amp;#x7528;&amp;#x4f20;&amp;#x8f93;&amp;#x53ef;&amp;#x4ee5;&amp;#x88ab;&amp;#x7528;&amp;#x4e8e;&amp;#x907f;&amp;#x514d;outer/innder&amp;#x4f18;&amp;#x5148;&amp;#x7ea7;&amp;#x53cd;&amp;#x8f6c; &#xa;      &amp;#x51e0;&amp;#x4e2a;&amp;#x4f20;&amp;#x8f93;&amp;#x786c;&amp;#x4ef6;&amp;#x5bf9;&amp;#x8c61;&amp;#x5e94;&amp;#x8be5;&amp;#x88ab;&amp;#x8d4b;&amp;#x4e88;&amp;#x4e00;&amp;#x4e2a;HTH&amp;#xff0c;&amp;#x7528;&amp;#x4e8e;&amp;#x5bf9;&amp;#x4e0a;&amp;#x5c42;&amp;#x6765;&amp;#x8bf4;&amp;#x4ee3;&amp;#x8868;&amp;#x4e00;&amp;#x4e2a;&amp;#x4f20;&amp;#x8f93;&amp;#x5b9e;&amp;#x4f53;&amp;#x3002; Can&amp;#x6a21;&amp;#x5757;&amp;#x5e94;&amp;#x8be5;&amp;#x4e3a;&amp;#x5982;&amp;#x4e0b;&amp;#x7684;&amp;#x8bbe;&amp;#x5907;&amp;#x652f;&amp;#x6301;&amp;#x591a;&amp;#x8def;&amp;#x670d;&amp;#x7528;&amp;#x4f20;&amp;#x8f93;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685603234474" ID="ID_1666540478" MODIFIED="1692353239961">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x51fd;&#x6570;Can_Write&#x5e94;&#x8be5;&#x4f1a;&#x5b58;&#x50a8;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">swPduHandle</font></di>
+    </div>
+    <p>
+      &#xff0c;&#x8be5;&#x53c2;&#x6570;&#x662f;&#x5b58;&#x50a8;&#x5728;&#x53c2;&#x6570;PduInfo&#x7684;&#xff0c;
+    </p>
+    <p>
+      &#x76f4;&#x5230;Can module &#x4e3a;&#x8be5;&#x8bf7;&#x6c42;&#x8c03;&#x7528;&#x51fd;&#x6570;CanIf_TxConfirmation&#xff0c;
+    </p>
+    <p>
+      CanIf_TxConfirmation&#x51fd;&#x6570;&#x7684;&#x53c2;&#x6570;&#x662f;<font color="rgb(0,0,0)" face="Arial">swPduHandle 
+      </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x5728;Can&#x6a21;&#x5757;&#x4e2d;&#xff0c;&#x5f53;&#x4f20;&#x8f93;&#x6210;&#x529f;&#x4e4b;&#x540e;&#xff0c;&#x4f1a;&#x8c03;&#x7528;&#x51fd;&#x6570;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanIf_TxConfirmation</font></di>
+    </div>
+    <p>
+      &#x8868;&#x660e;&#x4f20;&#x8f93;&#x6210;&#x529f;&#xff0c;&#x8be5;&#x51fd;&#x6570;&#x53ef;&#x80fd;&#x662f;&#x7531;&#x5bf9;&#x5e94;&#x7684;&#x786c;&#x4ef6;&#x4e2d;&#x65ad;&#x670d;&#x52a1;&#x4f8b;&#x7a0b;&#x8c03;&#x7528;&#x4e5f;&#x53ef;&#x80fd;&#x662f;
+    </p>
+    <p>
+      &#x7531;Can_MainFunction_Write&#x51fd;&#x6570;&#x8c03;&#x7528;(polling&#x6a21;&#x5f0f;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685605919767" ID="ID_837031414" MODIFIED="1692353349849">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <font color="#ff0033" size="4">&#x4f18;&#x5148;&#x7ea7;&#x53cd;&#x8f6c;</font>
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Multiplexed transmission can be used to avoid outer/inner priority 
+      inversion (see </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">chapter 2.1)</font></di>&#xa0;&#x590d;&#x7528;&#x4f20;&#x8f93;&#x53ef;&#x4ee5;&#x88ab;&#x7528;&#x4e8e;&#x907f;&#x514d;outer/innder&#x4f18;&#x5148;&#x7ea7;&#x53cd;&#x8f6c; 
+      &#x51e0;&#x4e2a;&#x4f20;&#x8f93;&#x786c;&#x4ef6;&#x5bf9;&#x8c61;&#x5e94;&#x8be5;&#x88ab;&#x8d4b;&#x4e88;&#x4e00;&#x4e2a;HTH&#xff0c;&#x7528;&#x4e8e;&#x5bf9;&#x4e0a;&#x5c42;&#x6765;&#x8bf4;&#x4ee3;&#x8868;&#x4e00;&#x4e2a;&#x4f20;&#x8f93;&#x5b9e;&#x4f53;&#x3002; Can&#x6a21;&#x5757;&#x5e94;&#x8be5;&#x4e3a;&#x5982;&#x4e0b;&#x7684;&#x8bbe;&#x5907;&#x652f;&#x6301;&#x591a;&#x8def;&#x670d;&#x7528;&#x4f20;&#x8f93;
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1685608073226" ID="ID_1050762274" MODIFIED="1685608251083">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1928,11 +2506,177 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685608300697" ID="ID_820671473" MODIFIED="1685671164150" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5f53;&amp;#x5904;&amp;#x4e8e;&amp;#x63a5;&amp;#x6536;&amp;#x6a21;&amp;#x5f0f;&amp;#x7684;&amp;#x65f6;&amp;#x5019;&amp;#xff0c;Can&amp;#x6a21;&amp;#x5757;&amp;#x5e94;&amp;#x8be5;&amp;#x8c03;&amp;#x7528;RX&amp;#x63d0;&amp;#x793a;&amp;#x56de;&amp;#x8c03;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanIf_RxIndication with ID, Hoh, abstract CanIf &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;ControllerId in parameter Mailbox, and the Data Length and pointer to &#xa;      the L-SDU &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;buffer in parameter PduInfoPtr.&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Cambria Math&amp;quot;&amp;gt;&amp;#x230b; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;ArialUnicodeMS&amp;quot;&amp;gt;(&amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;SRS_Can_01045)&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;To prevent loss of received messages, some controllers support a FIFO &#xa;      built &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;from a set of hardware objects, while on other controllers it is &#xa;      possible to &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;configure another hardware object with the same properties that works &#xa;      as a &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;shadow buffer and steps in when the main object is busy. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685608300697" ID="ID_820671473" MODIFIED="1692353668830">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x5f53;&#x5904;&#x4e8e;&#x63a5;&#x6536;&#x6a21;&#x5f0f;&#x7684;&#x65f6;&#x5019;&#xff0c;Can&#x6a21;&#x5757;&#x5e94;&#x8be5;&#x8c03;&#x7528;RX&#x63d0;&#x793a;&#x56de;&#x8c03;&#x51fd;&#x6570;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanIf_RxIndication with ID, Hoh, abstract CanIf </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">ControllerId in parameter Mailbox, and the Data Length and pointer to 
+      the L-SDU </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">buffer in parameter PduInfoPtr.</font><font color="rgb(0,0,0)" face="Cambria Math">&#x230b; </font><font color="rgb(0,0,0)" face="ArialUnicodeMS">(</font><font color="rgb(0,0,0)" face="Arial">SRS_Can_01045)</font></di>
+    </div>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">To prevent loss of received messages, some controllers support a FIFO 
+      built </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">from a set of hardware objects, while on other controllers it is 
+      possible to </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">configure another hardware object with the same properties that works 
+      as a </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">shadow buffer and steps in when the main object is busy. </font></di>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1685609183673" ID="ID_929826915" MODIFIED="1685671203769" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Wakeup&amp;#x7684;&amp;#x6982;&amp;#x5ff5;&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      Can&amp;#x6a21;&amp;#x5757;&amp;#x53ef;&amp;#x4ee5;&amp;#x5904;&amp;#x7406;wakeup&amp;#x4e8b;&amp;#x4ef6;&amp;#xff08;&amp;#x7531;Can controller&amp;#x672c;&amp;#x8eab;&amp;#x68c0;&amp;#x6d4b;&amp;#x5230;&amp;#x800c;&amp;#x4e0d;&amp;#x662f;&amp;#x7531;Can &#xa;      transceiver&amp;#x68c0;&amp;#x6d4b;&amp;#x5230;&amp;#xff09;&amp;#xff0c;&amp;#x6709;&amp;#x4e24;&amp;#x79cd;&amp;#x53ef;&amp;#x80fd;&amp;#x7684;&amp;#x573a;&amp;#x666f;-----&amp;#x7531;&amp;#x4e2d;&amp;#x65ad;&amp;#x5524;&amp;#x9192;&amp;#x548c;&amp;#x7531;polling&amp;#x65b9;&amp;#x5f0f;&amp;#x5524;&amp;#x9192;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0033&amp;quot;&amp;gt;&amp;#x5f53;&amp;#x5524;&amp;#x9192;&amp;#x662f;&amp;#x7531;&amp;#x4e2d;&amp;#x65ad;&amp;#x5f15;&amp;#x8d77;&amp;#x7684;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&amp;#xff0c;&amp;#x90a3;&amp;#x4e48;Can&amp;#x6a21;&amp;#x5757;&amp;#x7684;&amp;#x4e2d;&amp;#x65ad;&amp;#x670d;&amp;#x52a1;&amp;#x51fd;&amp;#x6570;ISR&amp;#x4f1a;&amp;#x88ab;&amp;#x8c03;&amp;#x7528;&amp;#xff0c;&amp;#x5728;ISR&amp;#x51fd;&amp;#x6570;&amp;#x91cc;&amp;#x9762;&amp;#x8fd8;&amp;#x9700;&amp;#x8981;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;EcuM_CheckWakeup&amp;#xff0c;&amp;#x4f20;&amp;#x9012;&amp;#x7ed9;&amp;#x51fd;&amp;#x6570;EcuM_CheckWakeup&amp;#x7684;&amp;#x53c2;&amp;#x6570;&amp;#x5e94;&amp;#x8be5;&amp;#x662f;&amp;#x5524;&amp;#x9192;&amp;#x6e90;&amp;#x7684;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ID&amp;#x53f7;(&amp;#x7531;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanWakeupSourceRef &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;configuration parameter&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      )&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x5668;&amp;#x5c06;&amp;#x4f1a;&amp;#x8bbe;&amp;#x7f6e;MCU&amp;#xff0c;&amp;#x5e76;&amp;#x4e14;&amp;#x4f1a;&amp;#x901a;&amp;#x8fc7;Can Interface&amp;#x53cd;&amp;#x8fc7;&amp;#x6765;&amp;#x8c03;&amp;#x7528;Can&amp;#x6a21;&amp;#x5757;&amp;#xff0c;&amp;#x7ed3;&amp;#x679c;&amp;#x662f;&amp;#x4f1a;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      Can_CheckWakeup&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5982;&amp;#x679c;&amp;#x5524;&amp;#x9192;&amp;#x662f;&amp;#x901a;&amp;#x8fc7;polling&amp;#x65b9;&amp;#x5f0f;&amp;#x5f15;&amp;#x8d77;&amp;#x7684;&amp;#xff0c;ECU&amp;#x72b6;&amp;#x6001;&amp;#x7ba1;&amp;#x7406;&amp;#x5668;&amp;#x5c31;&amp;#x4f1a;&amp;#x5b9a;&amp;#x671f;&amp;#x8c03;&amp;#x7528;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_CheckWakeup&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot;&amp;gt;Can_CheckWakeup will check if there was a wakeup detected by a Can &#xa;      controller &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot;&amp;gt;and return the result. The CAN driver will then inform the ECU State &#xa;      Manager of the &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Times New Roman&amp;quot;&amp;gt;wakeup event via EcuM_SetWakeupEvent.&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
-<node CREATED="1685610312718" ID="ID_257873878" MODIFIED="1685671241298" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;5&amp;quot;&amp;gt;Notification&amp;#x7684;&amp;#x6982;&amp;#x5ff5;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;The Can module offers only an event triggered notification interface &#xa;      to the CanIf &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;module. Each notification is represented by a callback function. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
-<node CREATED="1685611579880" ID="ID_668630805" MODIFIED="1685671274063" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;lt;font size=&amp;quot;4&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Reentrancy Issues&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x4e00;&amp;#x4e2a;&amp;#x4f8b;&amp;#x7a0b;&amp;#x5fc5;&amp;#x987b;&amp;#x6ee1;&amp;#x8db3;&amp;#x5982;&amp;#x4e0b;&amp;#x7684;&amp;#x6761;&amp;#x4ef6;&amp;#x6765;&amp;#x8fbe;&amp;#x5230;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#x6807;&amp;#x51c6;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;#xa0;&amp;#xa0;It uses all shared variables in an atomic way, unless each is &#xa;      allocated to a &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;specific instance of the function. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Wingdings&amp;quot;&amp;gt;&amp;#xf0a7; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;It does not call non-reentrant functions. &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Wingdings&amp;quot;&amp;gt;&amp;#xf0a7; &amp;lt;/font&amp;gt;&amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;It does not use the hardware in a non-atomic way. &amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#x53d1;&amp;#x9001;&amp;#x8bf7;&amp;#x6c42;&amp;#x662f;&amp;#x7b80;&amp;#x5355;&amp;#x5730;&amp;#x4ece;CanIf&amp;#x6a21;&amp;#x5757;&amp;#x7684;&amp;#x51fd;&amp;#x6570;CanIf_Transmit&amp;#x5bfc;&amp;#x5165;&amp;#x7684;&amp;#xff0c;&amp;#x51fd;&amp;#x6570;CanIf_Transmit&amp;#x662f; &#xa;      &amp;#x53ef;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#xff0c;&amp;#x56e0;&amp;#x6b64;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;&amp;#x51fd;&amp;#x6570;Can_Write&amp;#x9700;&amp;#x8981;&amp;#x88ab;&amp;#x5b9e;&amp;#x73b0;&amp;#x6210;&amp;#x7ebf;&amp;#x7a0b;&amp;#x5b89;&amp;#x5168;&amp;#x7684;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_EnableCanInterrupts&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&amp;#x548c;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;Can_DisableCanInterrupts&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7531;&amp;#x4e8e;&amp;#x6709;&amp;#x53ef;&amp;#x80fd;&amp;#x5728;&amp;#x53ef;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#x51fd;&amp;#x6570;&amp;#x91cc;&amp;#x9762;&amp;#x88ab;&amp;#x8c03;&amp;#x7528;&amp;#xff0c;&amp;#x56e0;&amp;#x6b64;&amp;#x4e5f;&amp;#x8981;&amp;#x5b9e;&amp;#x73b0;&amp;#x6210;&amp;#x53ef;&amp;#x91cd;&amp;#x5165;&amp;#x7684;&amp;#x51fd;&amp;#x6570;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685609183673" ID="ID_929826915" MODIFIED="1692353782295">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <font size="4"><b>Wakeup&#x7684;&#x6982;&#x5ff5;</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Can&#x6a21;&#x5757;&#x53ef;&#x4ee5;&#x5904;&#x7406;wakeup&#x4e8b;&#x4ef6;&#xff08;&#x7531;Can controller&#x672c;&#x8eab;&#x68c0;&#x6d4b;&#x5230;&#x800c;&#x4e0d;&#x662f;&#x7531;Can 
+      transceiver&#x68c0;&#x6d4b;&#x5230;&#xff09;&#xff0c;&#x6709;&#x4e24;&#x79cd;&#x53ef;&#x80fd;&#x7684;&#x573a;&#x666f;-----&#x7531;&#x4e2d;&#x65ad;&#x5524;&#x9192;&#x548c;&#x7531;polling&#x65b9;&#x5f0f;&#x5524;&#x9192;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#ff0033">&#x5f53;&#x5524;&#x9192;&#x662f;&#x7531;&#x4e2d;&#x65ad;&#x5f15;&#x8d77;&#x7684;</font></b>&#xff0c;&#x90a3;&#x4e48;Can&#x6a21;&#x5757;&#x7684;&#x4e2d;&#x65ad;&#x670d;&#x52a1;&#x51fd;&#x6570;ISR&#x4f1a;&#x88ab;&#x8c03;&#x7528;&#xff0c;&#x5728;ISR&#x51fd;&#x6570;&#x91cc;&#x9762;&#x8fd8;&#x9700;&#x8981;&#x8c03;&#x7528;&#x51fd;&#x6570;EcuM_CheckWakeup&#xff0c;&#x4f20;&#x9012;&#x7ed9;&#x51fd;&#x6570;EcuM_CheckWakeup&#x7684;&#x53c2;&#x6570;&#x5e94;&#x8be5;&#x662f;&#x5524;&#x9192;&#x6e90;&#x7684;
+    </p>
+    <p>
+      ID&#x53f7;(&#x7531;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanWakeupSourceRef </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">configuration parameter</font></di>
+    </div>
+    <p>
+      )
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ECU&#x72b6;&#x6001;&#x7ba1;&#x7406;&#x5668;&#x5c06;&#x4f1a;&#x8bbe;&#x7f6e;MCU&#xff0c;&#x5e76;&#x4e14;&#x4f1a;&#x901a;&#x8fc7;Can Interface&#x53cd;&#x8fc7;&#x6765;&#x8c03;&#x7528;Can&#x6a21;&#x5757;&#xff0c;&#x7ed3;&#x679c;&#x662f;&#x4f1a;&#x8c03;&#x7528;&#x51fd;&#x6570;
+    </p>
+    <p>
+      Can_CheckWakeup
+    </p>
+    <p>
+      &#x5982;&#x679c;&#x5524;&#x9192;&#x662f;&#x901a;&#x8fc7;polling&#x65b9;&#x5f0f;&#x5f15;&#x8d77;&#x7684;&#xff0c;ECU&#x72b6;&#x6001;&#x7ba1;&#x7406;&#x5668;&#x5c31;&#x4f1a;&#x5b9a;&#x671f;&#x8c03;&#x7528;&#x51fd;&#x6570;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Can_CheckWakeup</font></di>
+    </div>
+    <div>
+      <font color="#0000ff" face="Times New Roman">Can_CheckWakeup will check if there was a wakeup detected by a Can 
+      controller </font>
+    </div>
+    <div>
+      <font color="#0000ff" face="Times New Roman">and return the result. The CAN driver will then inform the ECU State 
+      Manager of the </font>
+    </div>
+    <div>
+      <font color="#0000ff" face="Times New Roman">wakeup event via EcuM_SetWakeupEvent.</di></font>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685610312718" ID="ID_257873878" MODIFIED="1692353901596">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <font face="Times New Roman" size="5">Notification&#x7684;&#x6982;&#x5ff5;</font>
+    </p>
+    <p>
+      
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">The Can module offers only an event triggered notification interface 
+      to the CanIf </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">module. Each notification is represented by a callback function. </font></di>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1685611579880" ID="ID_668630805" MODIFIED="1692354067012">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <font size="4"><b>Reentrancy Issues</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x4e00;&#x4e2a;&#x4f8b;&#x7a0b;&#x5fc5;&#x987b;&#x6ee1;&#x8db3;&#x5982;&#x4e0b;&#x7684;&#x6761;&#x4ef6;&#x6765;&#x8fbe;&#x5230;&#x91cd;&#x5165;&#x7684;&#x6807;&#x51c6;&#xff1a;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">&#xa0;&#xa0;It uses all shared variables in an atomic way, unless each is 
+      allocated to a </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">specific instance of the function. </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Wingdings">&#xf0a7; </font><font color="rgb(0,0,0)" face="Arial">It does not call non-reentrant functions. </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Wingdings">&#xf0a7; </font><font color="rgb(0,0,0)" face="Arial">It does not use the hardware in a non-atomic way. </font></di>&#x53d1;&#x9001;&#x8bf7;&#x6c42;&#x662f;&#x7b80;&#x5355;&#x5730;&#x4ece;CanIf&#x6a21;&#x5757;&#x7684;&#x51fd;&#x6570;CanIf_Transmit&#x5bfc;&#x5165;&#x7684;&#xff0c;&#x51fd;&#x6570;CanIf_Transmit&#x662f; 
+      &#x53ef;&#x91cd;&#x5165;&#x7684;&#xff0c;&#x56e0;&#x6b64;<b><font color="#ff0000">&#x51fd;&#x6570;Can_Write&#x9700;&#x8981;&#x88ab;&#x5b9e;&#x73b0;&#x6210;&#x7ebf;&#x7a0b;&#x5b89;&#x5168;&#x7684;</font></b>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Can_EnableCanInterrupts</font></di>&#x548c;
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">Can_DisableCanInterrupts</font></di>
+    </div>
+    <p>
+      &#x7531;&#x4e8e;&#x6709;&#x53ef;&#x80fd;&#x5728;&#x53ef;&#x91cd;&#x5165;&#x7684;&#x51fd;&#x6570;&#x91cc;&#x9762;&#x88ab;&#x8c03;&#x7528;&#xff0c;&#x56e0;&#x6b64;&#x4e5f;&#x8981;&#x5b9e;&#x73b0;&#x6210;&#x53ef;&#x91cd;&#x5165;&#x7684;&#x51fd;&#x6570;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1685612268482" ID="ID_1951935757" MODIFIED="1685612841984">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1994,11 +2738,104 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685613660241" ID="ID_1817930418" MODIFIED="1685671317691" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8ddf;CAN FD&amp;#x76f8;&amp;#x5173;&amp;#x7684;&amp;#x914d;&amp;#x7f6e;&amp;#x7ed3;&amp;#x6784;&amp;#x4f53;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanControllerFdBaudrateConfig&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;CanControllerTxBitRateSwitch&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x5728;&amp;#x6709;&amp;#x4e9b;&amp;#x60c5;&amp;#x51b5;&amp;#x4e0b;&amp;#xff0c;&amp;#x5728;&amp;#x652f;&amp;#x6301;CAN-FD&amp;#x6d88;&amp;#x606f;&amp;#x7684;&amp;#x7f51;&amp;#x7edc;&amp;#x4e0a;&amp;#x4e5f;&amp;#x9700;&amp;#x8981;&amp;#x8dd1;&amp;#x4f20;&amp;#x7edf;&amp;#x7684;CAN2.0&amp;#x7684;&amp;#x6d88;&amp;#x606f;&amp;#xff0c;&amp;#x5728;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8fd9;&amp;#x79cd;&amp;#x60c5;&amp;#x51b5;&amp;#x4e0b;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;support transmitting interleaved &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;conventional CAN messages with CAN-FD messages&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x662f;&amp;#x5f88;&amp;#x6709;&amp;#x5fc5;&amp;#x8981;&amp;#x7684;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;This can be achieved on &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;frame level by using the two most significant bits of the CanId (see &#xa;      Can_IdType, &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;SWS_Can_00416) passed during Can_Write to indicate which kind of &#xa;      frame shall be &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000ff&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;used. &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#0000ff&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;">
-<node CREATED="1685614622346" ID="ID_641858252" MODIFIED="1685671356901" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000cc&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;If there is a request to transmit a CAN FD frame and the CAN &#xa;      Controller &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000cc&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;is not in CAN FD mode (no CanControllerFdBaudrateConfig) the frame is &#xa;      sent as &amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#0000cc&amp;quot; face=&amp;quot;Times New Roman&amp;quot; size=&amp;quot;4&amp;quot;&amp;gt;conventional CAN frame as long as the PDU length &amp;amp;lt;= 8 bytes.&amp;lt;/di&amp;gt;&amp;#xa0;&amp;lt;/font&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685613660241" ID="ID_1817930418" MODIFIED="1692354169448">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      &#x8ddf;CAN FD&#x76f8;&#x5173;&#x7684;&#x914d;&#x7f6e;&#x7ed3;&#x6784;&#x4f53;&#xff1a;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanControllerFdBaudrateConfig</font></di>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">CanControllerTxBitRateSwitch</font></di>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x5728;&#x6709;&#x4e9b;&#x60c5;&#x51b5;&#x4e0b;&#xff0c;&#x5728;&#x652f;&#x6301;CAN-FD&#x6d88;&#x606f;&#x7684;&#x7f51;&#x7edc;&#x4e0a;&#x4e5f;&#x9700;&#x8981;&#x8dd1;&#x4f20;&#x7edf;&#x7684;CAN2.0&#x7684;&#x6d88;&#x606f;&#xff0c;&#x5728;
+    </p>
+    <p>
+      &#x8fd9;&#x79cd;&#x60c5;&#x51b5;&#x4e0b;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">support transmitting interleaved </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">conventional CAN messages with CAN-FD messages</font></di>
+    </div>
+    <p>
+      &#x662f;&#x5f88;&#x6709;&#x5fc5;&#x8981;&#x7684;
+    </p>
+    <div>
+      <font color="#0000ff" face="Arial"><b>This can be achieved on </b></font>
+    </div>
+    <div>
+      <font color="#0000ff" face="Arial"><b>frame level by using the two most significant bits of the CanId (see 
+      Can_IdType, </b></font>
+    </div>
+    <div>
+      <font color="#0000ff" face="Arial"><b>SWS_Can_00416) passed during Can_Write to indicate which kind of 
+      frame shall be </b></font>
+    </div>
+    <div>
+      <font color="#0000ff" face="Arial"><b>used. </b></font><b><font color="#0000ff"></di></font></b>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1685614622346" ID="ID_641858252" MODIFIED="1692354499870">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="#0000cc" face="Times New Roman" size="4">If there is a request to transmit a CAN FD frame and the CAN 
+      Controller </font>
+    </div>
+    <div>
+      <font color="#0000cc" face="Times New Roman" size="4">is not in CAN FD mode (no CanControllerFdBaudrateConfig) the frame is 
+      sent as </font>
+    </div>
+    <div>
+      <font color="#0000cc" face="Times New Roman" size="4">conventional CAN frame as long as the PDU length &lt;= 8 bytes.</di>&#xa0;</font>
+    </div>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1685614714964" ID="ID_27969528" MODIFIED="1685671415251" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      CAN&amp;#x9519;&amp;#x8bef;&amp;#x7c7b;&amp;#x578b;&amp;#x7684;&amp;#x62a5;&amp;#x544a;&amp;#xff1a;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x8ddf;&amp;#x53d8;&amp;#x91cf;&#xa;    &amp;lt;/p&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;#ff0000&amp;quot; face=&amp;quot;Arial&amp;quot;&amp;gt;&amp;lt;b&amp;gt;CanEnableSecurityEventReporting&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;b&amp;gt;&amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;&amp;lt;/di&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/b&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x7684;&amp;#x8bbe;&amp;#x7f6e;&amp;#x6709;&amp;#x5173;&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+</node>
+<node CREATED="1685614714964" ID="ID_27969528" MODIFIED="1692354581928">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      CAN&#x9519;&#x8bef;&#x7c7b;&#x578b;&#x7684;&#x62a5;&#x544a;&#xff1a;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x8ddf;&#x53d8;&#x91cf;
+    </p>
+    <div>
+      <font color="#ff0000" face="Arial"><b>CanEnableSecurityEventReporting</b></font><b><font color="#ff0000"></di></font></b>
+    </div>
+    <p>
+      &#x7684;&#x8bbe;&#x7f6e;&#x6709;&#x5173;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1685671487241" ID="ID_1970265760" MODIFIED="1685671508001">
 <richcontent TYPE="NODE"><html>
@@ -2022,36 +2859,36 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685671798122" ID="ID_649662752" MODIFIED="1685925853630">
-<richcontent TYPE="NODE">&lt;html&gt;
-  &lt;body&gt;
-    &lt;p&gt;
-      &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Can_ConfigType&lt;/font&gt;&lt;/b&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
+<node CREATED="1685671798122" ID="ID_649662752" MODIFIED="1692354678455">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <p>
+      <b><font color="#ff0000">Can_ConfigType</font></b>
+    </p>
+    <p>
       
-    &lt;/p&gt;
-    &lt;div&gt;
-      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;This is the type of the external data structure containing the overall 
-      initialization data &lt;/font&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;for the CAN driver and SFR settings affecting all controllers. 
-      Furthermore it contains &lt;/font&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;pointers to controller configuration structures. The contents of the 
-      initialization data &lt;/font&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;font color=&quot;rgb(0,0,0)&quot; face=&quot;Arial&quot;&gt;structure are CAN hardware specific.&lt;/font&gt;&lt;/di&gt;
-    &lt;/div&gt;
-    &lt;p&gt;
+    </p>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">This is the type of the external data structure containing the overall 
+      initialization data </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">for the CAN driver and SFR settings affecting all controllers. 
+      Furthermore it contains </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">pointers to controller configuration structures. The contents of the 
+      initialization data </font>
+    </div>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial">structure are CAN hardware specific.</font></di>
+    </div>
+    <p>
       
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</richcontent>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 <node CREATED="1685672870473" ID="ID_326297120" MODIFIED="1685673021459">
 <richcontent TYPE="NODE"><html>
@@ -2087,7 +2924,19 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685673752412" ID="ID_1992701785" MODIFIED="1685778509527" TEXT="&amp;lt;html&amp;gt;&#xa;  &amp;lt;body&amp;gt;&#xa;    &amp;lt;div&amp;gt;&#xa;      &amp;lt;font color=&amp;quot;rgb(0,0,0)&amp;quot; face=&amp;quot;Arial-BoldMT&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Can_HwHandleType &amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/di&amp;gt;&#xa;    &amp;lt;/div&amp;gt;&#xa;    &amp;lt;p&amp;gt;&#xa;      &amp;#x53e5;&amp;#x67c4;&amp;#xff0c;&amp;#x4ee3;&amp;#x8868;&amp;#x4e00;&amp;#x4e2a;CAN hardware unit&#xa;    &amp;lt;/p&amp;gt;&#xa;  &amp;lt;/body&amp;gt;&#xa;&amp;lt;/html&amp;gt;"/>
+<node CREATED="1685673752412" ID="ID_1992701785" MODIFIED="1692354837306">
+<richcontent TYPE="NODE"><html>
+<head></head>
+  <body>
+    <div>
+      <font color="rgb(0,0,0)" face="Arial-BoldMT"><b>Can_HwHandleType </b></font></di>
+    </div>
+    <p>
+      &#x53e5;&#x67c4;&#xff0c;&#x4ee3;&#x8868;&#x4e00;&#x4e2a;CAN hardware unit
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1685673794542" ID="ID_1352781783" MODIFIED="1685675432669">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2193,77 +3042,78 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685616213543" ID="ID_406159821" MODIFIED="1685616405258">
+<node CREATED="1685616213543" ID="ID_406159821" MODIFIED="1692354932577">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="1">generate_PC/Inc/Can_Cfg.h </font>
+      <font size="4">generate_PC/Inc/Can_Cfg.h </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="1">#define CAN_PRECOMPILE_SUPPORT[!WS &quot;4&quot;!][!IF &quot;IMPLEMENTATION_CONFIG_VARIANT = 'VariantPreCompile' and (variant:size()&lt;=1)&quot;!](STD_ON)[!ELSE!](STD_OFF)[!ENDIF!][!CR!] </font>
+      <font size="4">#define CAN_PRECOMPILE_SUPPORT[!WS &quot;4&quot;!][!IF &quot;IMPLEMENTATION_CONFIG_VARIANT = 'VariantPreCompile' and (variant:size()&lt;=1)&quot;!](STD_ON)[!ELSE!](STD_OFF)[!ENDIF!][!CR!] </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="1">[!CODE!]#define CAN_CONFIG_EXT[!ENDCODE!] </font>
+      <font size="4">[!CODE!]#define CAN_CONFIG_EXT[!ENDCODE!] </font>
     </p>
     <p>
-      <font size="1">[!IF &quot;((IMPLEMENTATION_CONFIG_VARIANT != 'VariantPostBuild') and (variant:size()&gt;1)) or (IMPLEMENTATION_CONFIG_VARIANT = 'VariantPostBuild')&quot;!] </font>
+      <font size="4">[!IF &quot;((IMPLEMENTATION_CONFIG_VARIANT != 'VariantPostBuild') and (variant:size()&gt;1)) or (IMPLEMENTATION_CONFIG_VARIANT = 'VariantPostBuild')&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;[!CODE!] \[!CR!][!ENDCODE!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;[!CODE!] \[!CR!][!ENDCODE!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;[!INDENT &quot;4&quot;!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;[!INDENT &quot;4&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;[!IF &quot;var:defined('postBuildVariant')&quot;!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;[!IF &quot;var:defined('postBuildVariant')&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantIndex&quot;=&quot;0&quot;!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantIndex&quot;=&quot;0&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantNumber&quot;=&quot;variant:size()&quot;!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantNumber&quot;=&quot;variant:size()&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!LOOP &quot;variant:all()&quot;!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!LOOP &quot;variant:all()&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantIndex&quot;=&quot;$variantIndex + 1&quot;!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!VAR &quot;variantIndex&quot;=&quot;$variantIndex + 1&quot;!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!CODE!]CAN_CONFIG_[!&quot;.&quot;!]_PB [!IF &quot;$variantIndex &lt; $variantNumber&quot;!]\[!ENDIF!][!CR!][!ENDCODE!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!CODE!]CAN_CONFIG_[!&quot;.&quot;!]_PB [!IF &quot;$variantIndex &lt; $variantNumber&quot;!]\[!ENDIF!][!CR!][!ENDCODE!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!ENDLOOP!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!ENDLOOP!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;[!ELSE!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;[!ELSE!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!CODE!]CAN_CONFIG_PB[!CR!][!ENDCODE!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[!CODE!]CAN_CONFIG_PB[!CR!][!ENDCODE!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;[!ENDIF!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;[!ENDIF!] </font>
     </p>
     <p>
-      <font size="1">&#160;&#160;&#160;&#160;[!ENDINDENT!] </font>
+      <font size="4">&#160;&#160;&#160;&#160;[!ENDINDENT!] </font>
     </p>
     <p>
-      <font size="1">[!ENDIF!] </font>
+      <font size="4">[!ENDIF!] </font>
     </p>
     <p>
-      <font size="1">[!ENDNOCODE!] </font>
+      <font size="4">[!ENDNOCODE!] </font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
