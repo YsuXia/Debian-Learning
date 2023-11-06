@@ -11,7 +11,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114063694" ID="ID_1766816737" MODIFIED="1664114089561" POSITION="right">
+<node CREATED="1664114063694" ID="ID_1766816737" MODIFIED="1699173267873" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22,7 +22,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114123612" ID="ID_1299330362" MODIFIED="1664114148161">
+<node CREATED="1664114123612" ID="ID_1299330362" MODIFIED="1699173267903">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -33,7 +33,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114174713" ID="ID_378237099" MODIFIED="1668949507505">
+<node CREATED="1664114174713" FOLDED="true" ID="ID_378237099" MODIFIED="1699162929907">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -696,7 +696,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1684839931535" ID="ID_257914126" MODIFIED="1693308004832">
+<node CREATED="1684839931535" ID="ID_257914126" MODIFIED="1699173268399">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1872,7 +1872,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685580874880" ID="ID_481394895" MODIFIED="1694512917518">
+<node CREATED="1685580874880" FOLDED="true" ID="ID_481394895" MODIFIED="1699162905100">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3116,7 +3116,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1692707877483" ID="ID_1675287375" MODIFIED="1692707910847">
+<node CREATED="1692707877483" FOLDED="true" ID="ID_1675287375" MODIFIED="1699162917324">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3127,7 +3127,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1692709148405" ID="ID_572466775" MODIFIED="1692709250777">
+<node CREATED="1692709148405" FOLDED="true" ID="ID_572466775" MODIFIED="1699162909269">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3187,7 +3187,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1692949620259" ID="ID_254126577" MODIFIED="1692949656762">
+<node CREATED="1692949620259" FOLDED="true" ID="ID_254126577" MODIFIED="1699162911954">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5353,7 +5353,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1664114188084" FOLDED="true" ID="ID_1148279677" MODIFIED="1697165211386" POSITION="left">
+<node CREATED="1664114188084" ID="ID_1148279677" MODIFIED="1699162980583" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5364,14 +5364,14 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114226944" FOLDED="true" ID="ID_1487971811" MODIFIED="1697165208171">
+<node CREATED="1664114226944" FOLDED="true" ID="ID_1487971811" MODIFIED="1699163260564">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" color="#ef1414"><b>CAN&#24635;&#32447;</b></font>
+      <font color="#162de4" size="4"><b>CAN&#24635;&#32447;</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -7093,14 +7093,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1672300020301" ID="ID_876600377" MODIFIED="1681440429473">
+<node CREATED="1672300020301" FOLDED="true" ID="ID_876600377" MODIFIED="1699163277112">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font size="4">Lin&#24635;&#32447;</font></b>
+      <b><font size="4" color="#0d25ed">Lin&#24635;&#32447;</font></b>
     </p>
   </body>
 </html></richcontent>
@@ -7416,6 +7416,411 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1699163282016" ID="ID_1294338406" MODIFIED="1699163314946">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#1330f0"><b>SD Memory Card&#21327;&#35758;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699163460724" ID="ID_879479733" MODIFIED="1699163568412">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#d1280e">SD Specifications </font>
+    </p>
+    <p>
+      <font size="4" color="#d1280e">Part1 </font>
+    </p>
+    <p>
+      <font size="4" color="#d1280e">Physical Layer Specification Version 3.01</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699166105476" ID="ID_1851622598" MODIFIED="1699166157089">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ee1515">SD Memory Card System Concept</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699166799537" ID="ID_1119149982" MODIFIED="1699166924592">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#12289;&#36890;&#29992;&#25551;&#36848;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SD memory&#21345;&#30340;&#36890;&#35759;&#26159;&#22522;&#20110;&#39640;&#32423;&#30340;9-pin&#25509;&#21475;&#30340;(Clock, Command, 4xData&#21644;3xPower)
+    </p>
+    <p>
+      &#26368;&#22823;&#30340;&#25805;&#20316;&#39057;&#29575;&#26159;50MHz
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699167065209" ID="ID_1798994800" MODIFIED="1699167084450">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-Card-Spec-Structure.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1699170925223" ID="ID_335422034" MODIFIED="1699170954905">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">2&#12289;&#31995;&#32479;&#29305;&#24615;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699170980827" ID="ID_666262582" MODIFIED="1699171134748">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#1223f3"><b>&#20869;&#23384;&#23481;&#37327;&#65306;</b></font>
+    </p>
+    <p>
+      Standard Capacity SD Memory(SDSC): 2GB
+    </p>
+    <p>
+      SDHC: &#36229;&#36807;2GB&#65292;&#26368;&#22823;&#36798;&#21040;32GB
+    </p>
+    <p>
+      Extended Capacity SD Memory(SDXC):&#36229;&#36807;32GB&#36798;&#21040;2TB
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1699171162332" ID="ID_396439315" MODIFIED="1699171207815">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">&#25805;&#20316;&#30005;&#21387;&#65306;2.7 ~ 3.6 V</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1699173468681" ID="ID_1864924442" MODIFIED="1699173725209">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0947e5" size="4">&#24635;&#32447;&#36895;&#24230;&#27169;&#24335;&#65306;</font>
+    </p>
+    <p>
+      <font size="4">&#40664;&#35748;&#30340;&#36895;&#24230;&#27169;&#24335;&#65306;3.3V&#65292;&#39057;&#29575;&#36798;&#21040;25MHz, 12.5 MB/sec </font>
+    </p>
+    <p>
+      <font size="4">High Speed mode&#65306;3.3V&#65292;&#39057;&#29575;&#36798;&#21040;50MHz, 25MB/sec </font>
+    </p>
+    <p>
+      <font size="4">SDR12: 1.8V, &#39057;&#29575;&#36798;&#21040;25MHZ&#65292; 12.5MB/sec </font>
+    </p>
+    <p>
+      <font size="4">SDR25: 1.8V, &#39057;&#29575;&#36798;&#21040;50MHz, 25MB/sec </font>
+    </p>
+    <p>
+      <font size="4">SDR50: 1.8V, &#39057;&#29575;&#36798;&#21040;100MHz, 50MB/sec </font>
+    </p>
+    <p>
+      <font size="4">SDR104: 1.8V, &#39057;&#29575;&#36798;&#21040;208MHz, 104MB/sec </font>
+    </p>
+    <p>
+      <font size="4">DDR50: 1.8V, &#39057;&#29575;&#36798;&#21040;50MHz, &#36895;&#29575;&#36798;&#21040;50MB/sec</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1699174022576" ID="ID_1732659316" MODIFIED="1699174048570">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Switch function command supports Bus Speed Mode, Command System, Drive Strength, and future functions.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1699174073327" ID="ID_1832044947" MODIFIED="1699174187024">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#1336f6">Password Protection of cards(CMD42 - LOCK_UNLOCK) </font>
+    </p>
+    <p>
+      <font size="4" color="#1336f6">&#20869;&#23884;&#30340;&#20889;&#20445;&#25252;&#26426;&#21046;(&#27704;&#20037;&#30340;&#21644;&#20020;&#26102;&#30340;)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1699185111154" ID="ID_385640456" MODIFIED="1699185137688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">3&#12289;&#31995;&#32479;&#30340;&#19968;&#20123;&#27010;&#24565;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1699185304142" ID="ID_1343409612" MODIFIED="1699185345273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#de0bd5">SD&#21345;&#30340;&#23481;&#37327;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1699185352847" ID="ID_1824623423" MODIFIED="1699185396250">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23481;&#37327;&#21253;&#25324;&#29992;&#25143;&#21306;&#22495;&#21644;&#34987;&#20445;&#25252;&#21306;&#22495;&#65292;&#34987;&#20445;&#25252;&#21306;&#22495;&#23601;&#26159;&#38656;&#35201;&#39564;&#35777;&#25165;&#33021;
+    </p>
+    <p>
+      &#35775;&#38382;&#30340;&#21306;&#22495;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1699185538295" ID="ID_1581055429" MODIFIED="1699185561422">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">The Part 1 Physical Layer Specification Version 3.00 and Part 2 File System Specification Version </font>
+    </p>
+    <p>
+      <font size="4">3.00 allow Standard Capacity SD Memory Cards to have capacity up to and including 2 GB, High </font>
+    </p>
+    <p>
+      <font size="4">Capacity SD Memory Cards to have capacity up to and including 32 GB and Extended Capacity </font>
+    </p>
+    <p>
+      <font size="4">SD Memory Card to have capacity up to 2 TB.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1699186052464" ID="ID_284473142" MODIFIED="1699186079077">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#f81313">&#36895;&#24230;&#20998;&#31867;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1699186295052" ID="ID_37519727" MODIFIED="1699186516962">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26377;&#20116;&#31181;&#36895;&#24230;&#31561;&#32423;&#34987;&#23450;&#20041;&#65306;
+    </p>
+    <p>
+      Class 0 &#26410;&#25351;&#23450;&#36895;&#24230;&#21644;&#24615;&#33021;
+    </p>
+    <p>
+      Class 2&#160;&#160;&#160;&gt;= 2 MB/sec
+    </p>
+    <p>
+      Class 4&#160;&#160;&#160;&gt;= 4 MB/sec
+    </p>
+    <p>
+      Class 6&#160;&#160;&#160;&gt;= 6 MB/sec
+    </p>
+    <p>
+      Class 10 &gt;= 10 MB/sec
+    </p>
+    <p>
+      &#27880;&#24847;&#36825;&#37324;&#30340;&#20256;&#36755;&#36895;&#24230;&#21644;&#23481;&#37327;&#21333;&#20301;&#26159;&#19981;&#19968;&#26679;&#30340;&#65292; MB/sec = 1000 x 1000 Byte/sec
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1699187690270" ID="ID_824877640" MODIFIED="1699187722031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#e61919">&#24635;&#32447;&#25299;&#25169;&#32467;&#26500;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1699187746434" ID="ID_653493346" MODIFIED="1699187862023">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SD&#21345;&#31995;&#32479;&#23450;&#20041;&#20102;&#20004;&#31181;&#21487;&#36873;&#30340;&#36890;&#20449;&#21327;&#35758;&#65306;SD&#21644;SPI
+    </p>
+    <p>
+      host&#31471;&#21487;&#20197;&#36873;&#25321;&#20219;&#24847;&#30340;&#19968;&#31181;&#36890;&#35759;&#21327;&#35758;&#65292;sd&#21345;&#20250;&#22312;reset&#25351;&#20196;&#25509;&#25910;&#21040;&#30340;&#26102;&#20505;&#26816;&#27979;&#21040;&#21738;&#31181;
+    </p>
+    <p>
+      &#36890;&#35759;&#26041;&#24335;&#20250;&#34987;&#35831;&#27714;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1699188328804" ID="ID_94065848" MODIFIED="1699188467172">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ef0c0c">&#20449;&#21495;&#32447;&#30340;&#20351;&#29992;&#65306;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SD&#24635;&#32447;&#20801;&#35768;&#21160;&#24577;&#22320;&#37197;&#32622;data&#25968;&#25454;&#32447;&#30340;&#25968;&#37327;&#65292;&#22312;power up&#20043;&#21518;&#65292;&#40664;&#35748;&#30340;&#24773;&#20917;&#19979;&#65292;
+    </p>
+    <p>
+      SD&#21345;&#21482;&#20351;&#29992;DAT0&#29992;&#20110;&#25968;&#25454;&#20256;&#36755;&#65292;&#22312;&#21021;&#22987;&#21270;&#23436;&#25104;&#20043;&#21518;&#65292;host&#21487;&#20197;&#25913;&#21464;bus&#30340;&#23485;&#24230;(data line&#30340;&#25968;&#30446;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1699188682293" ID="ID_164044240" MODIFIED="1699188702860">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#f31515">&#24635;&#32447;&#21327;&#35758;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1699189016005" ID="ID_254234527" MODIFIED="1699189029273">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD&#x603b;&#x7ebf;&#x901a;&#x8baf;&#x6d41;&#x7a0b;1.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1699191391168" ID="ID_1711118538" MODIFIED="1699191446234">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0a30f6">&#25968;&#25454;&#20256;&#36755;&#25805;&#20316;&#65306; </font>
+    </p>
+    <p>
+      <font size="4" color="#0a30f6">&#25968;&#25454;&#20256;&#36755;&#26159;&#25353;&#29031;block&#26469;&#20256;&#36755;&#30340;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1699191534823" ID="ID_1564449785" MODIFIED="1699191585716">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD&#x5361;-block-read&#x64cd;&#x4f5c;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1699192234624" ID="ID_537498661" MODIFIED="1699192254302">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD&#x5361;-write-block.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1664778584870" FOLDED="true" ID="ID_618671349" MODIFIED="1697165215571" POSITION="left">
@@ -7975,7 +8380,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1664778991356" ID="ID_870424517" MODIFIED="1664779027215" POSITION="right">
+<node CREATED="1664778991356" FOLDED="true" ID="ID_870424517" MODIFIED="1699162963055" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8660,7 +9065,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1674111974993" ID="ID_1952153743" MODIFIED="1681110666992" POSITION="right">
+<node CREATED="1674111974993" FOLDED="true" ID="ID_1952153743" MODIFIED="1699162958042" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8694,7 +9099,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1681095336002" ID="ID_1480584227" MODIFIED="1681095373994" POSITION="right">
+<node CREATED="1681095336002" FOLDED="true" ID="ID_1480584227" MODIFIED="1699162952683" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8783,7 +9188,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1681096440220" ID="ID_765161543" MODIFIED="1681096452651">
+<node CREATED="1681096440220" FOLDED="true" ID="ID_765161543" MODIFIED="1699162951291">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8806,7 +9211,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1682647657776" ID="ID_41060272" MODIFIED="1683249900490" POSITION="right">
+<node CREATED="1682647657776" FOLDED="true" ID="ID_41060272" MODIFIED="1699162954052" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
