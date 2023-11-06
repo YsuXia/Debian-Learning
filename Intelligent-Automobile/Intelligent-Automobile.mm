@@ -7562,8 +7562,60 @@
       <font size="4">DDR50: 1.8V, &#39057;&#29575;&#36798;&#21040;50MHz, &#36895;&#29575;&#36798;&#21040;50MB/sec</font>
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1699249212473" ID="ID_575309468" MODIFIED="1699249232494">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#23384;&#20648;&#21345;&#20013;&#65292;&#32463;&#24120;&#20250;&#25552;&#21040;&#19968;&#20010;SD&#21345;&#24635;&#32447;&#26631;&#20934;UHS&#65292;&#26159;&#20026;UHS&#35774;&#22791;&#35774;&#35745;&#30340;&#12290;&#25152;&#36848;&#30340;UHS&#30340;&#33521;&#25991;&#20840;&#31216;&#20026;Ultra High Speed&#65292;&#36866;&#29992;&#20110;SDHX&#21644;SDXC&#12290;UHS&#30446;&#21069;&#26377;UHS-I&#12289;UHS-II&#12289;UHS-III&#36825;3&#20010;&#31561;&#32423;&#21010;&#20998;&#12290;
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1699249271193" ID="ID_1376104468" MODIFIED="1699249551020">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0000">Ultra High Speed Phase I Card (UHS-I)</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25805;&#20316;&#27169;&#24335;:
+    </p>
+    <p>
+      DS - Default Speed up to 25MHz 3.3V signaling
+    </p>
+    <p>
+      HS - High Speed up to 50MHz 3.3V signaling
+    </p>
+    <p>
+      SDR12 - SDR up to 25MHz 1.8V signaling
+    </p>
+    <p>
+      SDR25 - SDR up to 50MHz 1.8V signaling
+    </p>
+    <p>
+      SDR50 - SDR up to 100MHz 1.8V signaling
+    </p>
+    <p>
+      SDR104 - SDR up to 208MHz 1.8V signaling
+    </p>
+    <p>
+      DDR50 - DDR up to 50MHz 1.8V signaling
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1699174022576" ID="ID_1732659316" MODIFIED="1699174048570">
 <richcontent TYPE="NODE"><html>
@@ -7575,8 +7627,7 @@
       <font size="4">Switch function command supports Bus Speed Mode, Command System, Drive Strength, and future functions.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1699174073327" ID="ID_1832044947" MODIFIED="1699174187024">
 <richcontent TYPE="NODE"><html>
@@ -7591,8 +7642,7 @@
       <font size="4" color="#1336f6">&#20869;&#23884;&#30340;&#20889;&#20445;&#25252;&#26426;&#21046;(&#27704;&#20037;&#30340;&#21644;&#20020;&#26102;&#30340;)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699185111154" ID="ID_385640456" MODIFIED="1699185137688">
@@ -7605,8 +7655,7 @@
       <font size="4">3&#12289;&#31995;&#32479;&#30340;&#19968;&#20123;&#27010;&#24565;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1699185304142" ID="ID_1343409612" MODIFIED="1699185345273">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7617,8 +7666,7 @@
       <font size="4" color="#de0bd5">SD&#21345;&#30340;&#23481;&#37327;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1699185352847" ID="ID_1824623423" MODIFIED="1699185396250">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7632,8 +7680,7 @@
       &#35775;&#38382;&#30340;&#21306;&#22495;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1699185538295" ID="ID_1581055429" MODIFIED="1699185561422">
 <richcontent TYPE="NODE"><html>
@@ -7654,8 +7701,7 @@
       <font size="4">SD Memory Card to have capacity up to 2 TB.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699186052464" ID="ID_284473142" MODIFIED="1699186079077">
@@ -7668,8 +7714,7 @@
       <font size="4" color="#f81313">&#36895;&#24230;&#20998;&#31867;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1699186295052" ID="ID_37519727" MODIFIED="1699186516962">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7698,8 +7743,7 @@
       &#27880;&#24847;&#36825;&#37324;&#30340;&#20256;&#36755;&#36895;&#24230;&#21644;&#23481;&#37327;&#21333;&#20301;&#26159;&#19981;&#19968;&#26679;&#30340;&#65292; MB/sec = 1000 x 1000 Byte/sec
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699187690270" ID="ID_824877640" MODIFIED="1699187722031">
@@ -7712,8 +7756,7 @@
       <font size="4" color="#e61919">&#24635;&#32447;&#25299;&#25169;&#32467;&#26500;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1699187746434" ID="ID_653493346" MODIFIED="1699187862023">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7730,8 +7773,7 @@
       &#36890;&#35759;&#26041;&#24335;&#20250;&#34987;&#35831;&#27714;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1699188328804" ID="ID_94065848" MODIFIED="1699188467172">
 <richcontent TYPE="NODE"><html>
@@ -7752,8 +7794,7 @@
       SD&#21345;&#21482;&#20351;&#29992;DAT0&#29992;&#20110;&#25968;&#25454;&#20256;&#36755;&#65292;&#22312;&#21021;&#22987;&#21270;&#23436;&#25104;&#20043;&#21518;&#65292;host&#21487;&#20197;&#25913;&#21464;bus&#30340;&#23485;&#24230;(data line&#30340;&#25968;&#30446;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699188682293" ID="ID_164044240" MODIFIED="1699188702860">
@@ -7766,8 +7807,7 @@
       <font size="4" color="#f31515">&#24635;&#32447;&#21327;&#35758;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1699189016005" ID="ID_254234527" MODIFIED="1699189029273">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7776,8 +7816,7 @@
   <body>
     <img src="Pic/SD&#x603b;&#x7ebf;&#x901a;&#x8baf;&#x6d41;&#x7a0b;1.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1699191391168" ID="ID_1711118538" MODIFIED="1699191446234">
 <richcontent TYPE="NODE"><html>
@@ -7792,8 +7831,7 @@
       <font size="4" color="#0a30f6">&#25968;&#25454;&#20256;&#36755;&#26159;&#25353;&#29031;block&#26469;&#20256;&#36755;&#30340;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1699191534823" ID="ID_1564449785" MODIFIED="1699191585716">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7802,8 +7840,7 @@
   <body>
     <img src="Pic/SD&#x5361;-block-read&#x64cd;&#x4f5c;.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1699192234624" ID="ID_537498661" MODIFIED="1699192254302">
 <richcontent TYPE="NODE"><html>
@@ -7813,10 +7850,137 @@
   <body>
     <img src="Pic/SD&#x5361;-write-block.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1699233067839" ID="ID_954086688" MODIFIED="1699233083365">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD&#x5361;-ResponseToken-&#x683c;&#x5f0f;.png" />
+  </body>
+</html></richcontent>
 </node>
 </node>
+<node CREATED="1699234443981" ID="ID_576419959" MODIFIED="1699234801497">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000" size="4"><b>Data Packet Format</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699234788216" ID="ID_113377699" MODIFIED="1699234812927">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-DataPacket-Format.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1699235443496" ID="ID_1838750628" MODIFIED="1699235460753">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3333ff">DAT1-DAT3&#22312;&#19978;&#30005;&#30340;&#26102;&#20505;&#26159;&#22788;&#20110;input&#27169;&#24335;&#30340;&#65292;&#24403;SET_BUS_WIDTH&#25351;&#20196;&#34987;&#21457;&#20986;&#20043;&#21518;&#65292; </font>
+    </p>
+    <p>
+      <font size="4" color="#3333ff">DAT1-DAT3&#24320;&#22987;&#25353;&#29031;DAT lines&#30340;&#26041;&#24335;&#36827;&#34892;&#25805;&#20316;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1699235689075" ID="ID_1922238147" MODIFIED="1699235706331">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff3333">Vss1 &#24341;&#33050;&#22312;&#19978;&#30005;&#30340;&#26102;&#20505;&#21448;50K&#27431;&#22982;&#30340;&#19978;&#25289;&#30005;&#38459;&#22312;sd card&#20013;&#65292;&#35813;&#24341;&#33050;&#26377;2&#20010;&#20316;&#29992;&#65292; </font>
+    </p>
+    <p>
+      <font size="4" color="#ff3333">&#24403;host&#31471;&#23558;Vss1&#25289;&#39640;&#25110;&#32773;&#20445;&#25345;&#39640;&#65292;&#37027;&#20040;&#27169;&#24335;&#36873;&#25321;&#20250;&#36873;&#25321;SD mode&#65292;&#22914;&#26524;host&#23558; </font>
+    </p>
+    <p>
+      <font size="4" color="#ff3333">Vss1&#24341;&#33050;&#25289;&#20302;&#65292;&#37027;&#20040;&#20250;&#36873;&#25321;SPI&#27169;&#24335;&#65307;&#24403;host&#26816;&#27979;&#21040;Vss1&#34987;&#25289;&#39640;&#20043;&#21518;&#65292;&#34920;&#26126;&#26377; </font>
+    </p>
+    <p>
+      <font size="4" color="#ff3333">SD&#21345;&#25554;&#20837;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1699234971492" ID="ID_1814383535" MODIFIED="1699234980939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-DataPacket-Format-2.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1699235948707" ID="ID_1066264156" MODIFIED="1699236451686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" size="4">SD&#21345;&#30340;information&#23492;&#23384;&#22120; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0033" size="4">SD&#21345;&#30340;reset&#25805;&#20316;</font><font color="#0000ff" size="4">&#65306;&#19978;&#19979;&#30005;&#25110;&#32773;&#26159;&#36890;&#36807;GO_IDLE(CMD0)&#25351;&#20196;&#36827;&#34892;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1699236457137" ID="ID_938636502" MODIFIED="1699236480877">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-Information&#x5bc4;&#x5b58;&#x5668;&#x4fe1;&#x606f;.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1699236603224" ID="ID_1057764916" MODIFIED="1699236636431">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD&#x5361;-Information&#x5bc4;&#x5b58;&#x5668;&#x548c;reset&#x64cd;&#x4f5c;-&#x4ece;&#x67b6;&#x6784;&#x7684;&#x89c6;&#x89d2;&#x770b;.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1699236893400" ID="ID_1989097125" MODIFIED="1699236945698">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">ROM card</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
