@@ -7498,26 +7498,27 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1699170980827" ID="ID_666262582" MODIFIED="1699171134748">
+<node CREATED="1699170980827" ID="ID_666262582" MODIFIED="1699351664067">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" color="#1223f3"><b>&#20869;&#23384;&#23481;&#37327;&#65306;</b></font>
+      <font color="#1223f3" size="4"><b>&#20869;&#23384;&#23481;&#37327;&#65306;</b></font>
     </p>
     <p>
-      Standard Capacity SD Memory(SDSC): 2GB
+      Standard Capacity SD Memory(<b><font color="#ff3333">SDSC</font></b>): 2GB
     </p>
     <p>
-      SDHC: &#36229;&#36807;2GB&#65292;&#26368;&#22823;&#36798;&#21040;32GB
+      <b><font color="#ff3333">SDHC</font></b>: &#36229;&#36807;2GB&#65292;&#26368;&#22823;&#36798;&#21040;32GB
     </p>
     <p>
-      Extended Capacity SD Memory(SDXC):&#36229;&#36807;32GB&#36798;&#21040;2TB
+      Extended Capacity SD Memory(<b><font color="#ff3333">SDXC</font></b>):&#36229;&#36807;32GB&#36798;&#21040;2TB
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1699171162332" ID="ID_396439315" MODIFIED="1699171207815">
 <richcontent TYPE="NODE"><html>
@@ -7573,8 +7574,18 @@
       &#22312;&#23384;&#20648;&#21345;&#20013;&#65292;&#32463;&#24120;&#20250;&#25552;&#21040;&#19968;&#20010;SD&#21345;&#24635;&#32447;&#26631;&#20934;UHS&#65292;&#26159;&#20026;UHS&#35774;&#22791;&#35774;&#35745;&#30340;&#12290;&#25152;&#36848;&#30340;UHS&#30340;&#33521;&#25991;&#20840;&#31216;&#20026;Ultra High Speed&#65292;&#36866;&#29992;&#20110;SDHX&#21644;SDXC&#12290;UHS&#30446;&#21069;&#26377;UHS-I&#12289;UHS-II&#12289;UHS-III&#36825;3&#20010;&#31561;&#32423;&#21010;&#20998;&#12290;
     </p>
   </body>
+</html></richcontent>
+<node CREATED="1699351988072" ID="ID_1122968095" MODIFIED="1699351998742">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="pic/UHS-I-Card&#x7c7b;&#x578b;.png" />
+  </body>
 </html>
 </richcontent>
+</node>
 </node>
 <node CREATED="1699249271193" ID="ID_1376104468" MODIFIED="1699249551020">
 <richcontent TYPE="NODE"><html>
@@ -7613,8 +7624,7 @@
       DDR50 - DDR up to 50MHz 1.8V signaling
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699174022576" ID="ID_1732659316" MODIFIED="1699174048570">
