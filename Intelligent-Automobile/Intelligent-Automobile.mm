@@ -7517,8 +7517,7 @@
       Extended Capacity SD Memory(<b><font color="#ff3333">SDXC</font></b>):&#36229;&#36807;32GB&#36798;&#21040;2TB
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1699171162332" ID="ID_396439315" MODIFIED="1699171207815">
 <richcontent TYPE="NODE"><html>
@@ -7583,8 +7582,7 @@
   <body>
     <img src="pic/UHS-I-Card&#x7c7b;&#x578b;.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699249271193" ID="ID_1376104468" MODIFIED="1699249551020">
@@ -7625,6 +7623,72 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1700202550533" ID="ID_561080313" MODIFIED="1700202582813">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Bus Speed Mode Selection</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1700202639467" ID="ID_1073500614" MODIFIED="1700202649963">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="pic/SD-Bus-Speed-Selection.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1700204354997" ID="ID_377581676" MODIFIED="1700204401566">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff3399"><b>Host&#31471;&#37319;&#26679;&#38382;&#39064;&#65306;</b></font>
+    </p>
+    <p>
+      host&#31471;&#20351;&#29992;&#21487;&#21464;&#30340;&#37319;&#26679;&#26102;&#38047;&#29983;&#25104;&#22120;&#21435;&#20915;&#23450;&#27491;&#30830;&#30340;&#37319;&#26679;&#28857;
+    </p>
+    <p>
+      host&#21487;&#20197;&#20351;&#29992;&#22312;sd card&#20013;&#39044;&#23450;&#20041;&#30340;tuning block&#36741;&#21161;&#23547;&#25214;&#37319;&#26679;&#25805;&#20316;&#28857;
+    </p>
+    <p>
+      host&#21487;&#20197;&#20351;&#29992;CMD19 tuning&#25351;&#20196;&#21435;&#35835;&#21462;tuning block
+    </p>
+    <p>
+      In lower frequency less than 25MHz, host needs to access the card without tuning.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      host&#31471;&#37319;&#29992;&#22266;&#23450;&#30340;&#37319;&#26679;&#28857;&#65292;&#35813;&#26041;&#27861;&#21487;&#20197;&#25903;&#25345;&#21040;100MHZ&#30340;&#39057;&#29575;
+    </p>
+    <p>
+      HOST-SDR-FD&#36825;&#31181;&#35774;&#35745;&#26041;&#27861;&#36890;&#36807;&#20351;&#29992;&#26102;&#38047;loopback&#30340;&#26041;&#24335;&#30830;&#23450;&#37319;&#26679;&#26102;&#38047;&#12290;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1700204571199" ID="ID_572523324" MODIFIED="1700204584613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="pic/SD-Card-Capacity-Speed.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1699174022576" ID="ID_1732659316" MODIFIED="1699174048570">
@@ -7785,7 +7849,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1699188328804" ID="ID_94065848" MODIFIED="1699188467172">
+<node CREATED="1699188328804" ID="ID_94065848" MODIFIED="1700188192377">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7805,6 +7869,16 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1700188077502" ID="ID_317151309" MODIFIED="1700188405104">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-BUS-TOPOLOGY.png" />
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1699188682293" ID="ID_164044240" MODIFIED="1699188702860">
@@ -7871,6 +7945,51 @@
     <img src="Pic/SD&#x5361;-ResponseToken-&#x683c;&#x5f0f;.png" />
   </body>
 </html></richcontent>
+<node CREATED="1699581855395" ID="ID_309159037" MODIFIED="1699581901839">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A response always starts with a start bit (always 0), followed by the bit indicating the direction of
+    </p>
+    <p>
+      transmission (card = 0). A value denoted by 'x' in the tables below indicates a variable entry. All
+    </p>
+    <p>
+      responses except the type R3 (see below) are protected by a CRC (see Chapter 4.5 for the definition of
+    </p>
+    <p>
+      CRC7). Every command codeword is terminated by the end bit (always 1).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>The SDIO Card supports additional response types named R4 and R5.</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1700187153501" ID="ID_1136539846" MODIFIED="1700187163195">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      response token&#25317;&#26377;&#22235;&#31181;coding schemes&#20013;&#30340;&#19968;&#31181;&#65292;
+    </p>
+    <p>
+      token&#30340;&#38271;&#24230;&#26159;48&#25110;&#32773;136bits&#65292;&#35814;&#32454;&#30340;command&#21644;
+    </p>
+    <p>
+      response&#30340;&#23450;&#20041;&#20250;&#22312;4.7&#31456;&#33410;&#37324;&#38754;&#32473;&#20986;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1699234443981" ID="ID_576419959" MODIFIED="1699234801497">
@@ -7991,7 +8110,134 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1700189472462" ID="ID_629254519" MODIFIED="1700189474837" TEXT="ROM&#x5361;&#x5fc5;&#x987b;&#x5b58;&#x5728;&#x7684;&#x4fe1;&#x606f;&#x5bc4;&#x5b58;&#x5668;">
+<node CREATED="1700189477288" ID="ID_256734481" MODIFIED="1700189634858">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SdCard-ROM-RequiremntRegisters.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1700190982678" ID="ID_455455149" MODIFIED="1700191586936">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SD&#21345;&#25903;&#25345;&#30340;&#21629;&#20196;&#38598;&#34987;&#21010;&#20998;&#25104;&#20102;&#22810;&#20010;&#23376;&#38598;&#21512;&#65292;CCC&#23450;&#20041;&#20102;&#21738;&#20010;&#21629;&#20196;&#38598;&#21512;
+    </p>
+    <p>
+      &#26159;&#34987;&#35813;card&#25152;&#25903;&#25345;&#30340;&#65292;CCC&#22495;&#23545;&#24212;&#30340;bit&#34987;&#32622;1&#23601;&#20195;&#34920;&#35813;bit&#23545;&#24212;&#30340;&#20301;&#32622;
+    </p>
+    <p>
+      &#30340;&#21629;&#20196;&#23376;&#38598;&#21512;class&#20250;&#34987;&#35813;card&#25152;&#25903;&#25345;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20849;&#26377;11&#20010;class&#30340;&#21629;&#20196;&#38598;&#21512;&#65292;0&#65292;2&#65292;4&#65292;5&#65292;8&#38598;&#21512;&#26159;&#25152;&#26377;&#30340;SD&#21345;&#24517;&#39035;&#25903;&#25345;&#30340;&#65292;
+    </p>
+    <p>
+      class 7(&#38500;&#21435;SMD40)&#26159;SDHC&#21644;SDXC&#21345;&#24517;&#39035;&#20063;&#25903;&#25345;&#30340;
+    </p>
+  </body>
+</html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1700189669628" ID="ID_1905512918" MODIFIED="1700189706879">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ROM Card Unsupported CMD</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CMD24, CMD25, CMD27, CMD28, CMD29, CMD30, CMD32, CMD33, CMD38
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1700199675031" ID="ID_68579514" MODIFIED="1700199696707">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">The ROM Card can support following commands as optional command. </font>
+    </p>
+    <p>
+      <b><font size="4">CMD42, security commands</font></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1700204655906" ID="ID_1002872734" MODIFIED="1700204696418">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">SD&#21345;&#21151;&#33021;&#25551;&#36848;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1700204700148" ID="ID_996765150" MODIFIED="1700205398591">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20004;&#31181;&#21629;&#20196;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1700205425949" ID="ID_1405453558" MODIFIED="1700205427943" TEXT="Broadcast commands"/>
+<node CREATED="1700205439882" ID="ID_118300734" MODIFIED="1700205441648" TEXT="Addressed (point-to-point) commands"/>
+</node>
+<node CREATED="1700205405296" ID="ID_1863911308" MODIFIED="1700205409814" TEXT="&#x4e24;&#x79cd;&#x6a21;&#x5f0f;">
+<node CREATED="1700205450422" ID="ID_705252415" MODIFIED="1700205452213" TEXT="Card identification mode">
+<node CREATED="1700206064560" ID="ID_1537528952" MODIFIED="1700206503921">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">OverView</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;card&#35782;&#21035;&#27169;&#24335;&#19979;&#65292;host&#20250;&#37325;&#32622;&#25152;&#26377;&#30340;&#21345;&#65292;&#30830;&#35748;&#25805;&#20316;&#30005;&#21387;&#33539;&#22260;&#65292;&#35782;&#21035;&#21345;&#65292;&#30003;&#35831;&#21345;&#30340;RCA(Relative Card Address),
+    </p>
+    <p>
+      &#20197;&#19978;&#25152;&#26377;&#30340;&#25805;&#20316;&#36890;&#20449;&#37117;&#26159;&#22312;CMD&#32447;&#19978;&#23436;&#25104;&#30340;&#12290;&#22312;&#35782;&#21035;&#27169;&#24335;&#19979;&#65292;card&#30340;&#26102;&#38047;&#24212;&#35813;&#24037;&#20316;&#22312;100~400 KHZ
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1700205460196" ID="ID_403434326" MODIFIED="1700205462129" TEXT="Data transfer mode"/>
 </node>
 </node>
 </node>
