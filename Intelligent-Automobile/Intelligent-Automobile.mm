@@ -7687,8 +7687,7 @@
   <body>
     <img src="pic/SD-Card-Capacity-Speed.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1699174022576" ID="ID_1732659316" MODIFIED="1699174048570">
@@ -8195,8 +8194,7 @@
       <font size="4" color="#0000ff">SD&#21345;&#21151;&#33021;&#25551;&#36848;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1700204700148" ID="ID_996765150" MODIFIED="1700205398591">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8207,8 +8205,7 @@
       &#20004;&#31181;&#21629;&#20196;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1700205425949" ID="ID_1405453558" MODIFIED="1700205427943" TEXT="Broadcast commands"/>
 <node CREATED="1700205439882" ID="ID_118300734" MODIFIED="1700205441648" TEXT="Addressed (point-to-point) commands"/>
 </node>
@@ -8233,8 +8230,89 @@
       &#20197;&#19978;&#25152;&#26377;&#30340;&#25805;&#20316;&#36890;&#20449;&#37117;&#26159;&#22312;CMD&#32447;&#19978;&#23436;&#25104;&#30340;&#12290;&#22312;&#35782;&#21035;&#27169;&#24335;&#19979;&#65292;card&#30340;&#26102;&#38047;&#24212;&#35813;&#24037;&#20316;&#22312;100~400 KHZ
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1700469091380" ID="ID_349407833" MODIFIED="1700473323426">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">CMD8 is used to set operate voltage</font>
+    </p>
+    <p>
+      SEND_IF_COND(CMD8)&#29992;&#20110;&#30830;&#35748;SD&#21345;&#25509;&#21475;&#25805;&#20316;&#26465;&#20214;&#12290;SD Card&#36890;&#36807;&#20998;&#26512;CMD8&#30340;&#21442;&#25968;&#26816;&#26597;&#25805;&#20316;&#26465;&#20214;&#30340;&#26377;&#25928;&#24615;&#65292;host&#31471;&#36890;&#36807;&#20998;&#26512;CMD8&#30340;response&#26469;&#26816;&#26597;&#26377;&#25928;&#24615;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000" size="4">&#22914;&#26524;card&#27809;&#26377;response&#65292;&#21017;&#35828;&#26126;sd card&#19981;&#33021;&#22312;&#25552;&#20379;&#30340;&#30005;&#21387;&#19979;&#38754;&#36827;&#34892;&#25805;&#20316;</font>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1700470013192" ID="ID_1448639632" MODIFIED="1700470038734">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ACMD41&#26159;&#20026;host&#35774;&#35745;&#30340;&#65292;&#30446;&#30340;&#26159;&#25552;&#20379;&#19968;&#31181;&#26426;&#21046;&#26469;&#35782;&#21035;&#21644;&#25298;&#32477;&#19981;&#28385;&#36275;Vdd&#33539;&#22260;&#30340;sd&#21345;&#65292;&#22914;&#26524;sd&#21345;&#19981;&#33021;&#22312;&#35268;&#23450;&#30340;Vdd
+    </p>
+    <p>
+      &#33539;&#22260;&#20043;&#20869;&#20256;&#36755;&#25968;&#25454;&#65292;&#37027;&#20040;sd&#21345;&#24212;&#35813;&#36827;&#20837;Inactive&#29366;&#24577;&#12290;ACMD41&#26159;&#24212;&#29992;&#23618;&#30456;&#20851;&#30340;&#21629;&#20196;&#65292;&#22240;&#27492;&#38656;&#35201;&#20808;&#25191;&#34892;APP_CMD(CMD55),
+    </p>
+    <p>
+      &#20877;&#25191;&#34892;ACMD41.
+    </p>
+    <p>
+      After the host issues a reset command (CMD0) to reset the card, the host shall issue CMD8 prior to
+    </p>
+    <p>
+      ACMD41 to re-initialize the SD Memory card
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1700470431072" ID="ID_72076555" MODIFIED="1700470453517">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-Card_Identification_Mode&#x4e0b;&#x7684;&#x72b6;&#x6001;&#x56fe;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1700472316322" ID="ID_1401014962" MODIFIED="1700472353149">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Card Initialization</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1700472948086" ID="ID_1950538230" MODIFIED="1700472962026">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/SD-Initialize_Identification.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1700205460196" ID="ID_403434326" MODIFIED="1700205462129" TEXT="Data transfer mode"/>
