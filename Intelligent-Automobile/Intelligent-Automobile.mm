@@ -33,7 +33,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114174713" FOLDED="true" ID="ID_378237099" MODIFIED="1699162929907">
+<node CREATED="1664114174713" ID="ID_378237099" MODIFIED="1705369698725">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -138,7 +138,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1664712850981" FOLDED="true" ID="ID_1226333857" MODIFIED="1692709527143">
+<node CREATED="1664712850981" FOLDED="true" ID="ID_1226333857" MODIFIED="1705369863823">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3116,7 +3116,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1692707877483" FOLDED="true" ID="ID_1675287375" MODIFIED="1699162917324">
+<node CREATED="1692707877483" ID="ID_1675287375" MODIFIED="1705405206364">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5293,6 +5293,18 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1705372448376" ID="ID_641145452" MODIFIED="1705373030091">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#3333ff" size="4"><b>Solution Architecture Document (SAD) </b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1675158516315" ID="ID_1129890928" MODIFIED="1675158563356">
@@ -8251,8 +8263,7 @@
       <font color="#ff0000" size="4">&#22914;&#26524;card&#27809;&#26377;response&#65292;&#21017;&#35828;&#26126;sd card&#19981;&#33021;&#22312;&#25552;&#20379;&#30340;&#30005;&#21387;&#19979;&#38754;&#36827;&#34892;&#25805;&#20316;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1700470013192" ID="ID_1448639632" MODIFIED="1700470038734">
 <richcontent TYPE="NODE"><html>
@@ -8276,8 +8287,7 @@
       ACMD41 to re-initialize the SD Memory card
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1700470431072" ID="ID_72076555" MODIFIED="1700470453517">
 <richcontent TYPE="NODE"><html>
@@ -8287,8 +8297,7 @@
   <body>
     <img src="Pic/SD-Card_Identification_Mode&#x4e0b;&#x7684;&#x72b6;&#x6001;&#x56fe;.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1700472316322" ID="ID_1401014962" MODIFIED="1700472353149">
 <richcontent TYPE="NODE"><html>
@@ -8300,8 +8309,7 @@
       <font size="4"><b>Card Initialization</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1700472948086" ID="ID_1950538230" MODIFIED="1700472962026">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8310,12 +8318,187 @@
   <body>
     <img src="Pic/SD-Initialize_Identification.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1700205460196" ID="ID_403434326" MODIFIED="1700205462129" TEXT="Data transfer mode"/>
+</node>
+</node>
+</node>
+<node CREATED="1700530895083" ID="ID_1071221158" MODIFIED="1700530925751">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#3300ff"><b>SD Host Controller</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1700531282957" ID="ID_1830982108" MODIFIED="1700531301307">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">Overview</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1700531336688" ID="ID_1303889729" MODIFIED="1700532048249">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#25454;&#30340;&#20256;&#36755;&#26041;&#27861;&#65306;
+    </p>
+    <p>
+      1&#12289;programmed I/O &#26041;&#24335;&#65306;&#20351;&#29992;Buffer Data Port&#23492;&#23384;&#22120;
+    </p>
+    <p>
+      2&#12289;Single Operation DMA&#26041;&#24335;
+    </p>
+    <p>
+      3&#12289;ADMA&#26041;&#24335;&#65306;&#22312;&#27809;&#26377;CPU&#24178;&#25200;&#30340;&#24773;&#20917;&#19979;&#22312;&#31995;&#32479;&#20869;&#23384;&#21644;SD&#21345;&#20043;&#38388;&#36827;&#34892;&#25968;&#25454;&#20256;&#36755;
+    </p>
+    <p>
+      DMA shall support both single block and multiple-block transfers.
+    </p>
+    <p>
+      Host Controller registers shall remain accessible for issuing non-DAT line commands during a DMA
+    </p>
+    <p>
+      transfer execution.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20572;&#27490;&#21644;&#37325;&#21551;DMA&#30340;&#20256;&#36755;&#65306;
+    </p>
+    <p>
+      &#22312;Block Gap Control&#37324;&#38754;&#65292;&#35774;&#32622;&quot;Stop At Block Gap Request&quot;&#20572;&#27490;DMA&#20256;&#36755;&#65292;
+    </p>
+    <p>
+      &#35774;&#32622;&quot;Continue Request&quot;, DMA&#25805;&#20316;&#34987;&#37325;&#21551;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Abort DMA&#30340;&#20256;&#36755;&#65306;
+    </p>
+    <p>
+      &#36890;&#36807;Software Reset &#23492;&#23384;&#22120;&#37324;&#38754;&#30340;&quot;Software Reset For DAT Line&quot;&#26469;reset
+    </p>
+    <p>
+      &#25511;&#21046;&#22120;&#65292;&#22914;&#26524;multiple-block read / write&#25351;&#20196;&#27491;&#22312;&#25191;&#34892;&#65292;&#36824;&#38656;&#35201;&#21457;&#20986;CMD12
+    </p>
+    <p>
+      &#30340;&#25351;&#20196;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1700533937653" ID="ID_1667727988" MODIFIED="1700533939561" TEXT="&#x51e0;&#x79cd;&#x4f20;&#x8f93;&#x6a21;&#x5f0f;&#x4e0b;&#x7684;&#x5bc4;&#x5b58;&#x5668;&#x914d;&#x7f6e;">
+<node CREATED="1700534045840" ID="ID_1156940521" MODIFIED="1700534057180">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="pic/SD-HOST-RegisterConfigForTransfer.png" />
+  </body>
+</html></richcontent>
+<node CREATED="1700534404853" ID="ID_1294573040" MODIFIED="1700534456043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0033ff" size="4">To prevent destruction of registers using data transfer when issuing command, </font>
+    </p>
+    <p>
+      <font color="#0033ff" size="4">the Block Size, Block Count and Transfer Mode registers shall be write protected by the Host Controller while Command Inhibit (DAT) is set to 1 in the Present State register.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1700534708024" ID="ID_745583419" MODIFIED="1700534712473" TEXT="SEQUENCE">
+<node CREATED="1700534716983" ID="ID_304996406" MODIFIED="1700536680297">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>SD Card Detect</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Insert or Remove
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1700536686028" ID="ID_1069816726" MODIFIED="1700536724691">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;sd&#21345;&#30340;&#25554;&#20837;&#20013;&#26029;&#21457;&#29983;&#30340;&#26102;&#20505;&#65292;Normal Interrupt Status&#23492;&#23384;&#22120;&#37324;&#38754;&#30340;
+    </p>
+    <p>
+      Card Insertion&#20250;&#34987;&#32622;1&#65292;&#39537;&#21160;&#38656;&#35201;&#21521;&#35813;bit&#20889;1&#28165;&#38646;&#65292;&#28982;&#21518;&#30830;&#35748;&#19968;&#19979;
+    </p>
+    <p>
+      Present State &#23492;&#23384;&#22120;&#37324;&#38754;&#30340;Card Inserted&#26159;&#21542;&#24050;&#32463;&#26159;1&#20102;&#65292;&#22914;&#26524;&#26159;1&#20102;&#65292;
+    </p>
+    <p>
+      &#37027;&#20040;&#21487;&#20197;&#30830;&#23450;&#26159;&#26377;sd&#21345;&#25554;&#20837;&#30340;&#65292;&#37027;&#20040;&#21487;&#20197;&#24320;&#22987;&#25552;&#20379;power&#21644;clock&#20102;&#12290;
+    </p>
+    <p>
+      &#22914;&#20309;&#20351;&#33021;&#25554;&#20837;&#20013;&#26029;&#65311;----&gt; &#20889;1&#21040;&#22914;&#19979;&#23492;&#23384;&#22120;&#30340;&#20301;:
+    </p>
+    <p>
+      Card Insertion Status Enable in the Normal Interrupt Status Enable register
+    </p>
+    <p>
+      Card Removal Status Enable in the Normal Interrupt Status Enable register
+    </p>
+    <p>
+      Card Insertion Signal Enable in the Normal Interrupt Signal Enable register
+    </p>
+    <p>
+      Card Removal Signal Enable in the Normal Interrupt Signal Enable register
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1700545282820" ID="ID_228686550" MODIFIED="1700545302762">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>SD Clock Supply</b></font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
