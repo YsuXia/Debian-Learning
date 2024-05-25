@@ -11,7 +11,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114063694" ID="ID_1766816737" MODIFIED="1699173267873" POSITION="right">
+<node CREATED="1664114063694" FOLDED="true" ID="ID_1766816737" MODIFIED="1717726838207" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -22,7 +22,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114123612" ID="ID_1299330362" MODIFIED="1699173267903">
+<node CREATED="1664114123612" ID="ID_1299330362" MODIFIED="1716367359798">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4469,7 +4469,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1693388038635" FOLDED="true" ID="ID_929535937" MODIFIED="1698318843348" TEXT="Fls">
+<node CREATED="1693388038635" ID="ID_929535937" MODIFIED="1716371846354" TEXT="Fls">
 <node CREATED="1694759905539" ID="ID_1620249825" MODIFIED="1694759918575" TEXT="Vendor Specific">
 <node CREATED="1694759925194" ID="ID_329660523" MODIFIED="1694759932106" TEXT="FlsEccCheckInterruptEnable">
 <node CREATED="1694760039653" ID="ID_1845271394" MODIFIED="1694760054228">
@@ -5365,7 +5365,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1664114188084" ID="ID_1148279677" MODIFIED="1699162980583" POSITION="left">
+<node CREATED="1664114188084" ID="ID_1148279677" MODIFIED="1717480110431" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5376,7 +5376,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114226944" FOLDED="true" ID="ID_1487971811" MODIFIED="1699163260564">
+<node CREATED="1664114226944" ID="ID_1487971811" MODIFIED="1718186227617">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5552,6 +5552,16 @@
   </head>
   <body>
     <img src="Pic/CAN-&#x663e;&#x6027;&#x548c;&#x9690;&#x6027;.png" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1717556108543" ID="ID_1048335454" MODIFIED="1717556158130">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/can_vdiff.png" />
   </body>
 </html></richcontent>
 </node>
@@ -5796,7 +5806,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1675316215747" ID="ID_1785034877" MODIFIED="1675316484995">
+<node CREATED="1675316215747" ID="ID_1785034877" MODIFIED="1714119340561">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5819,6 +5829,12 @@
     </p>
     <p>
       &#25509;&#25910;&#22120;&#23601;&#20250;&#22312;&#24212;&#31572;&#38388;&#38553;&#26399;&#38388;&#21521;&#21457;&#36865;&#22120;&#21457;&#36865;&#19968;&#20010;&#8220;&#26174;&#24615;&#8221;&#20301;&#20197;&#31034;&#22238;&#31572;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#ff0000"><b>&#23545;&#20110;&#21457;&#36865;&#32773;&#26469;&#35828;&#65292;&#23601;&#26159;&#21457;&#36865;&#20102;2&#20010;bit</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -5847,6 +5863,24 @@
     </p>
     <p>
       &#30001;7&#20010;&#8220;&#38544;&#24615;&#8221;&#32452;&#25104;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714470260169" ID="ID_1379030737" MODIFIED="1714470298185">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Inter Space : </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4"><b>2bits</b></font>
     </p>
   </body>
 </html></richcontent>
@@ -5974,6 +6008,18 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1712480604861" ID="ID_1231176689" MODIFIED="1712480626429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">&#24403;CAN&#33410;&#28857;&#21457;&#36865; &#36923;&#36753;&#30005;&#24179;&#65288;&#26174;&#24615;dominant&#25110;&#38544;&#24615;recessive&#65289;&#30456;&#21516;&#30340;&#20116;bit&#26102;&#65292;&#23427;&#24517;&#39035;&#21457;&#36865;&#19968;bit&#30456;&#21453;&#30005;&#24179;&#12290; CAN&#25509;&#25910; &#33410;&#28857;&#20250;&#33258;&#21160;&#21024;&#38500;&#36825;&#20010;&#26032;&#22686;&#30340;&#39069;&#22806;bit&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1676366750366" ID="ID_1703623046" MODIFIED="1676366772734">
 <richcontent TYPE="NODE"><html>
@@ -6560,7 +6606,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1675300727148" ID="ID_502504886" MODIFIED="1675301265596">
+<node CREATED="1675300727148" FOLDED="true" ID="ID_502504886" MODIFIED="1718094572539">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -6881,7 +6927,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1675825473746" ID="ID_1758440480" MODIFIED="1675825502003">
+<node CREATED="1675825473746" ID="ID_1758440480" MODIFIED="1718270224355">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7026,7 +7072,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1682063733303" ID="ID_850984495" MODIFIED="1682063755460">
+<node CREATED="1682063733303" ID="ID_850984495" MODIFIED="1718270232895">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7049,7 +7095,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1681805128920" ID="ID_1262092788" MODIFIED="1681805152038">
+<node CREATED="1681805128920" FOLDED="true" ID="ID_1262092788" MODIFIED="1714299598591">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7104,8 +7150,152 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1714299645334" ID="ID_700647204" MODIFIED="1714299715743">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>CAN&#30340;&#24212;&#29992;&#23618;&#21327;&#35758;&#21644;CAN&#25968;&#25454;&#24211;&#26684;&#24335;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1714299727573" ID="ID_496323753" MODIFIED="1714299795443">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#24212;&#29992;&#23618;&#21327;&#35758;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1714300326916" ID="ID_1369951468" MODIFIED="1714300351777">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>CCP</b>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1672300020301" FOLDED="true" ID="ID_876600377" MODIFIED="1699163277112">
+<node CREATED="1714300364356" ID="ID_965193981" MODIFIED="1714300380096">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>XCP</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714300384733" ID="ID_171780439" MODIFIED="1714300434359">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3"><b>UDS</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714300439582" ID="ID_12160547" MODIFIED="1714300454401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>OBD</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1714299759035" ID="ID_1166662490" MODIFIED="1714299789298">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>&#25968;&#25454;&#24211;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1714300466144" ID="ID_350099159" MODIFIED="1714300479130">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>DBC</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714300483698" ID="ID_1512477892" MODIFIED="1714300497186">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>LDF</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714300500836" ID="ID_925265324" MODIFIED="1714300520805">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ARXML</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714300523907" ID="ID_1717353908" MODIFIED="1714300547268">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>A2L</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1714300552226" ID="ID_37775898" MODIFIED="1714300564201">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>ODX</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1672300020301" ID="ID_876600377" MODIFIED="1718162063761">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -7116,6 +7306,42 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1718162280291" ID="ID_382253664" MODIFIED="1718162316485">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033">&#31532;&#19968;&#20010;&#23436;&#20840;&#23454;&#29616;&#30340;&#26032;LIN&#21327;&#23450;&#65288;LIN version 1.3&#65289;&#26159;&#22312;2002&#24180;11&#26376;&#21457;&#24067;&#12290;&#22312;2003&#24180;9&#26376;&#21457;&#24067;&#20102;2.0&#29256;&#65292;&#22686;&#21152;&#20102;&#39069;&#22806;&#30340;&#35786;&#26029;&#21151;&#33021;&#12290;&#33509;&#26159;&#37197;&#21512;&#29305;&#21046;&#30340;LIN over DC power line&#65288;DC-LIN&#65289;&#25910;&#21457;&#22120;&#65292;LIN&#20063;&#21487;&#20197;&#29992;&#22312;&#27773;&#36710;&#36710;&#27744;&#30340;&#30005;&#21147;&#32447;&#36890;&#20449;&#12290; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#ff0033">&#160;&#160;&#160;&#160;LIN over DC power line&#65288;DC-LIN&#65289;&#30340;&#30456;&#20851;&#26631;&#20934;&#26159;ISO/AWI 17987-8[1]&#12290; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#ff0033">&#160;&#160;&#160;&#160;ISO&#25216;&#26415;&#31649;&#29702;&#22996;&#21592;&#20250;&#65288;ISO Technical Management Board&#65292;ISO TMB&#65289;&#24050;&#25351;&#23450;CAN in Automation&#20026;&#20381;&#29031;ISO 17987&#30340;LIN&#20379;&#24212;&#21830;ID&#30340;&#27880;&#20876;&#26426;&#26500;&#12290;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1718162396410" ID="ID_260582843" MODIFIED="1718162421035">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>&#26032;&#30340;LIN&#35268;&#33539;&#20013;&#65292;&#31532;&#19968;&#20010;&#23436;&#20840;&#23454;&#29616;&#30340;&#29256;&#26412;&#26159;&#22312;2002&#24180;11&#26376;&#21457;&#24067;&#30340;LIN 1.3&#29256;&#12290;&#22312;2003&#24180;9&#26376;&#25552;&#20986;&#20102;2.0&#29256;&#65292;&#25193;&#20805;&#20102;&#32452;&#24577;&#33021;&#21147;&#65292;&#20197;&#21450;&#39069;&#22806;&#30340;&#35786;&#26029;&#26426;&#33021;&#20197;&#21450;&#24037;&#20855;&#30028;&#38754;&#12290;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1672300094915" ID="ID_1288125305" MODIFIED="1672300368416">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -7429,7 +7655,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1699163282016" ID="ID_1294338406" MODIFIED="1699163314946">
+<node CREATED="1699163282016" FOLDED="true" ID="ID_1294338406" MODIFIED="1717480112124">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8326,7 +8552,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1700530895083" ID="ID_1071221158" MODIFIED="1700530925751">
+<node CREATED="1700530895083" FOLDED="true" ID="ID_1071221158" MODIFIED="1709279251060">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8503,8 +8729,52 @@
 </node>
 </node>
 </node>
+<node CREATED="1717480056646" ID="ID_13341570" MODIFIED="1718519937177">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff3333"><b>&#20197;&#22826;&#32593;&#30340;&#27979;&#35797;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717480115854" ID="ID_33222346" MODIFIED="1717480133408">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Overview</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717480137494" ID="ID_6814284" MODIFIED="1717482410087">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/Eth-Test-Standard.png" />
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1664778584870" FOLDED="true" ID="ID_618671349" MODIFIED="1697165215571" POSITION="left">
+<node CREATED="1717482902279" ID="ID_1661756995" MODIFIED="1717482912179">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/Eth-TC-Overview.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1664778584870" ID="ID_618671349" MODIFIED="1717498349929" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8515,7 +8785,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664778797916" ID="ID_771925965" MODIFIED="1664780746888">
+<node CREATED="1664778797916" FOLDED="true" ID="ID_771925965" MODIFIED="1717498356727">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8697,6 +8967,18 @@
     <img src="Pic/ISO16845-test-env.PNG" />
   </body>
 </html></richcontent>
+<node CREATED="1717552302605" ID="ID_209599082" MODIFIED="1717552334900">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033">&#19979;&#32423;&#27979;&#35797;&#22120; (LT) &#30340;&#36816;&#34892;&#26041;&#24335;&#19982;&#24453;&#27979;&#35797;&#30340; CAN &#23454;&#29616; (IUT) &#31867;&#20284;&#65292;&#36816;&#34892;&#27979;&#35797;&#22871;&#20214;&#24182;&#20570;&#20986;&#27979;&#35797;&#21028;&#23450;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1681693283947" ID="ID_1199790802" MODIFIED="1681693305168">
 <richcontent TYPE="NODE"><html>
@@ -8902,7 +9184,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1681696240387" ID="ID_841413627" MODIFIED="1681698260372">
+<node CREATED="1681696240387" ID="ID_841413627" MODIFIED="1717556992945">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8979,6 +9261,18 @@
     </p>
     <p>
       Class 8: Bit timing CAN FD frame format
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#39564;&#35777; IUT &#26159;&#21542;&#27491;&#30830;&#31649;&#29702;&#20301;&#26102;&#24207;&#30340;&#27979;&#35797;&#12290;&#27492;&#31867;
+    </p>
+    <p>
+      &#24212;&#20165;&#36866;&#29992;&#20110;&#20165;&#25191;&#34892;&#38544;&#24615;&#21040;&#26174;&#24615;&#36793;&#27839;&#21516;&#27493;&#30340;&#32452;&#20214;
+    </p>
+    <p>
+      &#65288;&#22914;&#26524;&#23384;&#22312;&#38544;&#24615;&#21040;&#26174;&#24615;&#36793;&#27839;&#21516;&#27493;&#65292;&#21017;&#24212;&#23558;&#20854;&#31105;&#29992;&#65289;&#12290;
     </p>
   </body>
 </html></richcontent>
@@ -9892,7 +10186,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1682647657776" FOLDED="true" ID="ID_41060272" MODIFIED="1699162954052" POSITION="right">
+<node CREATED="1682647657776" ID="ID_41060272" MODIFIED="1709261267154" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -9916,6 +10210,255 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1682647683238" ID="ID_1086286111" MODIFIED="1682647697528" POSITION="right" TEXT="&#x82af;&#x7247;post&#x9a8c;&#x8bc1;&#x81ea;&#x52a8;&#x5316;&#x7814;&#x7a76;"/>
+<node CREATED="1682647683238" ID="ID_1086286111" MODIFIED="1709261264145" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>&#33455;&#29255;post&#39564;&#35777;&#33258;&#21160;&#21270;&#30740;&#31350;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717726853258" ID="ID_1967943741" MODIFIED="1717726873482">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Visual Studio Learning</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717726878429" ID="ID_94283348" MODIFIED="1717726895040">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">CMake Project Learning</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717726904325" ID="ID_1182440001" MODIFIED="1717726927042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff">CMakePresets.json</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717727264814" ID="ID_974738650" MODIFIED="1717727281683">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CMakeLists.txt &#26159;&#36890;&#29992;&#30340;c++&#39033;&#30446;&#31649;&#29702;&#25991;&#20214;&#65292;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22312;&#19981;&#21516;&#30340;&#35774;&#22791;&#20013;&#65292;&#29615;&#22659;&#21464;&#37327;&#65292;&#32534;&#35793;&#22120;&#31561;&#37117;&#21487;&#33021;&#19981;&#21516;&#65292;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#23558;&#36825;&#20123;&#35774;&#32622;&#37117;&#20132;&#32473;CMakeLists.txt , &#24182;&#19981;&#26159;&#19968;&#20010;&#22909;&#21150;&#27861;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20026;&#20102;&#38477;&#20302;CMakeLists.txt&#30340;&#33219;&#32959;&#31243;&#24230;&#65292;&#31616;&#21270;&#20854;&#21028;&#26029;&#65292;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#38024;&#23545;&#19981;&#21516;&#35774;&#22791;&#65292;&#37197;&#32622;&#19981;&#21516;&#30340;CMakePresets.json.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#24471;&#39033;&#30446;&#21487;&#20197;&#22312;&#19981;&#21516;&#30340;&#35774;&#22791;&#19978;&#36816;&#34892;&#12289;&#27979;&#35797;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1717728134135" ID="ID_1466704972" MODIFIED="1717728148743">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;version&quot;: 3,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;configurePresets&quot;: [
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;name&quot;: &quot;windows-base&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;hidden&quot;: true,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;generator&quot;: &quot;Ninja&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;binaryDir&quot;: &quot;${sourceDir}/out/build/${presetName}&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;installDir&quot;: &quot;${sourceDir}/out/install/${presetName}&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;cacheVariables&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;CMAKE_C_COMPILER&quot;: &quot;cl.exe&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;CMAKE_CXX_COMPILER&quot;: &quot;cl.exe&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;environment&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;MY_ENVIRONMENT_VARIABLE&quot;: &quot;Test&quot;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;condition&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;type&quot;: &quot;equals&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;lhs&quot;: &quot;${hostSystemName}&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;rhs&quot;: &quot;Windows&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;name&quot;: &quot;x64-debug&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;displayName&quot;: &quot;x64 Debug&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;inherits&quot;: &quot;windows-base&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;architecture&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;value&quot;: &quot;x64&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;strategy&quot;: &quot;external&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;cacheVariables&quot;: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;CMAKE_BUILD_TYPE&quot;: &quot;Debug&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1717728404704" ID="ID_452969292" MODIFIED="1717728483713">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">&#20351;&#33021;CMakePresets.json&#21151;&#33021;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1717728786862" ID="ID_548850758" MODIFIED="1717728801994">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/VS_EnableCMakePresets.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1717729471295" ID="ID_1764045697" MODIFIED="1717729506575">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0033ff"><b>CMakeSettings.json &#36866;&#29992;&#20110;&#20351;&#29992;&#26089;&#26399;&#29256;&#26412;&#30340; Visual Studio &#30340;&#23458;&#25143;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1717730804553" ID="ID_215764434" MODIFIED="1717730840521">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3" color="#ff0033">&#40664;&#35748;&#24773;&#20917;&#19979;&#65292;&#38500;&#38750;&#20986;&#29616;&#38169;&#35823;&#65292;&#21542;&#21017;&#23558;&#31105;&#27490;&#26174;&#31034;&#22823;&#22810;&#25968;&#37197;&#32622;&#28040;&#24687;&#12290; &#33509;&#35201;&#26597;&#30475;&#25152;&#26377;&#28040;&#24687;&#65292;&#35831;&#36873;&#25321;&#8220;&#24037;&#20855;&#8221;&gt;&#8220;&#36873;&#39033;&#8221;&gt;&#8220;CMake&#8221;&gt;&#8220;&#21551;&#29992;&#35814;&#32454; CMake &#35786;&#26029;&#36755;&#20986;&#8221; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3" color="#ff0033">&#36824;&#21487;&#21462;&#28040;&#36873;&#25321;&#8220;&#26174;&#31034; CMake &#32531;&#23384;&#36890;&#30693;&#8221;&#26469;&#31105;&#29992;&#25152;&#26377; CMake &#32531;&#23384;&#36890;&#30693;&#65288;&#37329;&#33394;&#26639;&#65289;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>

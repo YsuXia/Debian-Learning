@@ -13115,7 +13115,7 @@
 </node>
 <node CREATED="1667826912543" ID="ID_648261408" MODIFIED="1667826922705" POSITION="left" TEXT="ARM Cortex-R">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1703595529718" ID="ID_319273338" MODIFIED="1703595553417">
+<node CREATED="1703595529718" FOLDED="true" ID="ID_319273338" MODIFIED="1710846114068">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13221,7 +13221,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1703609566701" ID="ID_1156753600" MODIFIED="1703616603878">
+<node CREATED="1703609566701" FOLDED="true" ID="ID_1156753600" MODIFIED="1710846109099">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13350,7 +13350,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1703616608070" ID="ID_701070264" MODIFIED="1703616631898">
+<node CREATED="1703616608070" FOLDED="true" ID="ID_701070264" MODIFIED="1710846107008">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13388,7 +13388,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1706616968471" ID="ID_1477355775" MODIFIED="1706617063199">
+<node CREATED="1706616968471" FOLDED="true" ID="ID_1477355775" MODIFIED="1710846105866">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13425,7 +13425,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1706615505453" ID="ID_431267362" MODIFIED="1706616920101">
+<node CREATED="1706615505453" FOLDED="true" ID="ID_431267362" MODIFIED="1710846104046">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13590,8 +13590,147 @@
       <font size="4">DCLSx2</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1710846117915" ID="ID_419986986" MODIFIED="1710846148443">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>&#160;Debug Interface</b></font>
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1710846189103" ID="ID_19679451" MODIFIED="1710846225029">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">About The debug unit</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1710846231939" ID="ID_1193492354" MODIFIED="1710847754859">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">You can debug software running on the processor in the following ways: </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">Halting debug-mode debugging </font>
+    </p>
+    <p>
+      <font size="4">Monitor debug-mode debugging </font>
+    </p>
+    <p>
+      <font size="4">Trace debugging</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1710847724132" ID="ID_439721127" MODIFIED="1710847739696">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">&#26377;&#20197;&#19979;&#20960;&#31181;&#26041;&#24335;&#23545;&#36719;&#20214;&#36827;&#34892;debug&#25805;&#20316;&#65306; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">1&#65306; Halting debug-mode debugging </font>
+    </p>
+    <p>
+      <font size="4">&#36825;&#31181;&#27169;&#24335;&#19979;&#65292;&#24403;&#19968;&#20010;debug&#20107;&#20214;&#21457;&#29983;&#65292;&#27604;&#22914;break point&#21457;&#29983;&#65292;&#22788;&#29702;&#22120;&#20250;&#20572;&#27490;&#25481;&#31243;&#24207;&#30340;&#25191;&#34892;&#65292; </font>
+    </p>
+    <p>
+      <font size="4">&#22806;&#37096;&#30340;debug&#21487;&#20197;&#20462;&#25913;&#21644;&#27979;&#35797;&#24403;&#21069;&#30340;&#22788;&#29702;&#22120;&#30340;&#29366;&#24577;&#65292;&#36825;&#26159;&#19968;&#31181;&#38750;&#20405;&#20837;&#24335;&#30340;debug&#27169;&#24335;&#12290; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4">2&#65306;Monitor debug-mode debugging </font>
+    </p>
+    <p>
+      <font size="4">monitor debug&#27169;&#24335;&#22312;&#23454;&#26102;&#31995;&#32479;&#24403;&#20013;&#26159;&#38750;&#24120;&#37325;&#35201;&#30340;&#65292;&#22312;&#23454;&#26102;&#31995;&#32479;&#24403;&#20013;&#22788;&#29702;&#22120;&#19981;&#33021;&#34987;&#20572;&#27490;&#29992;&#20110; </font>
+    </p>
+    <p>
+      <font size="4">&#25910;&#38598;&#20449;&#24687;&#12290;&#24403;&#22788;&#20110;monitor debug&#27169;&#24335;&#24403;&#20013;&#26102;&#65292;&#22788;&#29702;&#22120;&#20250;&#20572;&#27490;&#25191;&#34892;&#24403;&#21069;&#30340;&#31243;&#24207;&#65292;&#36716;&#32780;&#21435;&#25191;&#34892; </font>
+    </p>
+    <p>
+      <font size="4">&#19968;&#20010;monitor target&#12290; </font>
+    </p>
+    <p>
+      <font size="4">The monitor target communicates with the debugger to access </font>
+    </p>
+    <p>
+      <font size="4">processor and coprocessor state, and to access memory contents and peripherals. Monitor </font>
+    </p>
+    <p>
+      <font size="4">debug-mode requires a debug monitor program to interface between the debug hardware and the </font>
+    </p>
+    <p>
+      <font size="4">software debugger.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1710848445553" ID="ID_869426813" MODIFIED="1710848457853">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;debug unit&#36827;&#34892;&#32534;&#31243;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25105;&#20204;&#20351;&#29992;APB slave&#25509;&#21475;&#26469;&#23545;&#22788;&#29702;&#22120;&#30340;debug unit&#36827;&#34892;&#32534;&#31243;&#12290;&#22312;&#19968;&#20010;twin-CPU&#37197;&#32622;&#19979;&#65292;&#27599;&#20010;CPU
+    </p>
+    <p>
+      &#25317;&#26377;&#23427;&#33258;&#24049;&#30340;APB slave&#25509;&#21475;&#21644;&#30456;&#20851;&#32852;&#30340;&#23492;&#23384;&#22120;&#12290;&#20351;&#29992;memory-mapped&#26041;&#24335;&#26144;&#23556;&#30340;&#23492;&#23384;&#22120;&#21487;&#20197;&#35775;&#38382;
+    </p>
+    <p>
+      &#21040;&#30340;debug unit&#30340;feature&#22914;&#19979;&#65306;
+    </p>
+    <p>
+      instruction address comparators for triggering breakpoints
+    </p>
+    <p>
+      data address comparators for triggering watchpoints
+    </p>
+    <p>
+      a bidirectional Debug Communication Channel (DCC)
+    </p>
+    <p>
+      all other state information associated with the debug unit.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
