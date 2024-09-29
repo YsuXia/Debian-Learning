@@ -11,7 +11,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664114063694" FOLDED="true" ID="ID_1766816737" MODIFIED="1717726838207" POSITION="right">
+<node CREATED="1664114063694" ID="ID_1766816737" MODIFIED="1718616163840" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -696,7 +696,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1684839931535" ID="ID_257914126" MODIFIED="1699173268399">
+<node CREATED="1684839931535" FOLDED="true" ID="ID_257914126" MODIFIED="1721035800579">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1849,7 +1849,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1685532667401" ID="ID_184496610" MODIFIED="1685532698219">
+<node CREATED="1685532667401" ID="ID_184496610" MODIFIED="1721041845064">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1872,7 +1872,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685580874880" FOLDED="true" ID="ID_481394895" MODIFIED="1699162905100">
+<node CREATED="1685580874880" ID="ID_481394895" MODIFIED="1723274718967">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2901,8 +2901,30 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1722318740252" ID="ID_103233675" MODIFIED="1723861632728">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Ubuntu" size="4" color="#0000ff">PduIdType&#160;&#160;&#160;&#160;&#160;&#160;&#160;swPduHandle </font>
+    </p>
+    <p>
+      <font face="Ubuntu" size="4" color="#0000ff">uint8&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;length </font>
+    </p>
+    <p>
+      <font face="Ubuntu" size="4" color="#0000ff">Can_IdType&#160;&#160;&#160;&#160;&#160;id </font>
+    </p>
+    <p>
+      <font face="Ubuntu" size="4" color="#0000ff">uint8*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sdu</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1685673024495" ID="ID_1608075242" MODIFIED="1685673089323">
+</node>
+<node CREATED="1685673024495" ID="ID_1608075242" MODIFIED="1723863389572">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2913,6 +2935,7 @@
     </p>
   </body>
 </html></richcontent>
+<edge COLOR="#ff00cc"/>
 <node CREATED="1685673116689" ID="ID_478424289" MODIFIED="1685673229298">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3030,6 +3053,32 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1723858522897" ID="ID_712170896" MODIFIED="1723858550519">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>Function API</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1723858622037" ID="ID_304492926" MODIFIED="1723858914073">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0033" size="4"><b>Std_ReturnType Can_Write( Can_HwHandleType Hth, const Can_PduType* PduInfo)</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1685616182309" ID="ID_594980088" MODIFIED="1685616208712">
 <richcontent TYPE="NODE"><html>
@@ -3115,8 +3164,46 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1723861830936" ID="ID_1991507032" MODIFIED="1723861849397">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033"><b>&#27604;&#36739;&#38590;&#20197;&#29702;&#35299;&#30340;SWS&#38656;&#27714;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1723861852064" ID="ID_614669976" MODIFIED="1723862134831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#cc00cc" face="SansSerif" size="4">[SWS_Can_00504] &#8968; If the trigger transmit API is enabled for the hardware object, </font>
+    </p>
+    <p>
+      <font color="#cc00cc" face="SansSerif" size="4">Can_Write() shall interpret a null pointer as SDU (Can_PduType.Can_SduPtrType = </font>
+    </p>
+    <p>
+      <font color="#cc00cc" face="SansSerif" size="4">NULL) as request for using the trigger transmit interface. If so and the hardware </font>
+    </p>
+    <p>
+      <font color="#cc00cc" face="SansSerif" size="4">object is free, Can_Write() shall call CanIf_TriggerTransmit() with the maximum size </font>
+    </p>
+    <p>
+      <font color="#cc00cc" face="SansSerif" size="4">of the message buffer to acquire the PDU&#8217;s data.&#8971; ()</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1692707877483" ID="ID_1675287375" MODIFIED="1705405206364">
+</node>
+</node>
+<node CREATED="1692707877483" FOLDED="true" ID="ID_1675287375" MODIFIED="1722318336776">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4414,7 +4501,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1693323456513" FOLDED="true" ID="ID_365650773" MODIFIED="1698318851437">
+<node CREATED="1693323456513" ID="ID_365650773" MODIFIED="1721283412072">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4436,7 +4523,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1693323726052" FOLDED="true" ID="ID_18102068" MODIFIED="1698318849308">
+<node CREATED="1693323726052" ID="ID_18102068" MODIFIED="1721283161462">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4889,6 +4976,24 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1721282396408" ID="ID_1296112719" MODIFIED="1721282875852">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0033ff"><b>FlsPageWriteAsync</b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#ff0000">Vendor specific</font>: Enable/Disable asynchronous execution of the write job in the Fls_MainFunction function
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -5306,6 +5411,87 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1718617498710" FOLDED="true" ID="ID_797376165" MODIFIED="1723255119504">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>Port and Dio</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1718617518487" ID="ID_632956975" MODIFIED="1718617540988">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff0033"><b>Dio Id&#21644;Port Number&#30340;&#23545;&#24212;&#20851;&#31995; </b></font>
+    </p>
+    <p>
+      <font size="4" color="#ff0033"><b>n * 32 + m </b></font>
+    </p>
+    <p>
+      <font size="4" color="#ff0033"><b>n&#26159;A B C D port, </b></font>
+    </p>
+    <p>
+      <font size="4" color="#ff0033"><b>m&#26159;number</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1723255124938" ID="ID_784254827" MODIFIED="1723255277957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000ff" size="5">NVM&#27169;&#22359;</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1723256904788" ID="ID_428104206" MODIFIED="1723257223169">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Cantarell" size="4" color="#ff0033">&#22312;AutoSAR&#26550;&#26500;&#38500;&#20102;&#27178;&#21521;&#30475;&#21253;&#21547;APP/RTE/BSW/MCAL&#31561;&#20998;&#23618;&#26550;&#26500;&#20043;&#22806;&#65292;&#23545;&#20110;BSW&#65288;&#21253;&#21547;MCAL&#65289;&#23545;&#32437;&#21521;&#30340;&#19981;&#21516;&#21151;&#33021;&#21327;&#35758;&#26632;&#20063;&#20316;&#20102;&#35814;&#32454;&#30340;&#21010;&#20998;&#65292;&#20027;&#35201;&#21253;&#25324;&#36890;&#20449;&#26632;&#12289;&#20869;&#23384;&#26632;&#12289;CDD&#12289;IO&#25805;&#20316;&#30456;&#20851;&#30340;&#32437;&#21521;&#26632;&#12289;&#31995;&#32479;&#26381;&#21153;&#26632;&#12289;&#20449;&#24687;&#23433;&#20840;&#30456;&#20851;&#30340;&#21327;&#35758;&#26632;&#65292;&#20170;&#22825;&#20171;&#32461;&#30340;NvM&#23646;&#20110;&#20869;&#23384;&#26632;&#30340;&#31649;&#29702;&#27169;&#22359;&#65292;&#25972;&#20010;&#20869;&#23384;&#26632;&#22312;AutoSAR&#30340;&#23450;&#20041;&#22914;&#19979;&#25152;&#31034;: </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Cantarell" size="4" color="#ff0033">&#22312;&#20869;&#23384;&#26632;&#20013;&#21253;&#21547;&#26381;&#21153;&#23618;&#65288;NvM&#65289;&#12289;&#25277;&#35937;&#23618;&#65288;MemIf&#12289;EA&#12289;EEP&#12289;Fee&#65289;&#12289;MCAL&#65288;Fls&#12289;SPI&#31561;&#65289;&#20960;&#20010;&#27169;&#22359; </font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1723257309576" ID="ID_1931053006" MODIFIED="1723257400820">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">&#160; AutoSAR&#20013;&#23545;NV&#25968;&#25454;&#30340;&#23384;&#20648;&#20027;&#35201;&#21253;&#25324;&#29255;&#20869;&#23384;&#20648;&#21644;&#22806;&#37096;&#23384;&#20648;&#20004;&#31181;&#26041;&#24335;&#12290;&#29255;&#20869;&#23384;&#20648;&#65292;&#26159;&#29992;&#33455;&#29255;&#20869;&#37096;&#30340;DFLASH&#36827;&#34892;&#25968;&#25454;&#23384;&#20648;&#65307;&#22806;&#37096;&#23384;&#20648;&#65292;&#26159;&#36890;&#36807;&#22806;&#37096;EEPROM&#36827;&#34892;&#23384;&#20648;&#65292;&#19968;&#33324;&#20250;&#35843;&#29992;SPI&#12289;IIC&#31561;&#36890;&#20449;&#26041;&#24335;&#22806;&#25346;EEPROM&#33455;&#29255; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" color="#0000ff">NVM&#20027;&#35201;&#25552;&#20379;&#25277;&#35937;&#25968;&#25454;&#23384;&#20648;&#65292;&#22312;&#19978;&#30005;&#35835;&#21462;&#19979;&#30005;&#23384;&#20648;&#25968;&#25454;&#65292;&#25903;&#25345;Immediately&#23384;&#20648;&#25968;&#25454;&#65292;&#23558;NV data&#22312;ROM&#21644;RAM&#20043;&#38388;&#24314;&#31435;&#20851;&#32852;&#65307;MemIf&#23454;&#29616;&#23384;&#20648;&#25968;&#25454;Block&#22312;&#20869;&#37096;Flash&#25110;&#32773;&#22806;&#37096;EEP&#30340;&#20998;&#31163;&#25805;&#20316;&#65307;FEE&#23454;&#29616;&#23545;Flash&#30340;&#25968;&#25454;Block&#30340;&#25277;&#35937;&#21644;&#21160;&#24577;&#25968;&#25454;&#30340;Layout&#65307;Flash Driver&#25552;&#20379;&#25805;&#20316;Flash&#30340;&#25509;&#21475;&#65307;EA&#23450;&#20041;&#22806;&#37096;EEPROM&#30340;&#23384;&#20648;&#25277;&#35937;&#21644;&#25968;&#25454;&#30340;Layout&#65307;EEP&#25552;&#20379;&#22806;&#37096;EEPROM&#30340;&#25805;&#20316;&#25509;&#21475;&#21644;&#39537;&#21160;&#12290;</font><font size="3">&#160; </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1675158516315" ID="ID_1129890928" MODIFIED="1675158563356">
 <richcontent TYPE="NODE"><html>
@@ -5363,6 +5549,30 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1721035980719" ID="ID_1449931828" MODIFIED="1721036003625">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0000ff" size="4">Development Tools</font></b>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1721036021819" ID="ID_1090249691" MODIFIED="1721036054998">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sparx Systems <b>Enterprise Architect</b>&#160;is a visual modeling and design tool based on the OMG UML. The platform supports: the design and construction of software systems; modeling business processes; and modeling industry based domains. It is used by businesses and organizations to not only model the architecture of their systems, but to process the implementation of these models across the full application development life-cycle.
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1664114188084" ID="ID_1148279677" MODIFIED="1717480110431" POSITION="left">
@@ -7295,7 +7505,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1672300020301" ID="ID_876600377" MODIFIED="1718162063761">
+<node CREATED="1672300020301" FOLDED="true" ID="ID_876600377" MODIFIED="1718522148751">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8729,7 +8939,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1717480056646" ID="ID_13341570" MODIFIED="1718519937177">
+<node CREATED="1717480056646" FOLDED="true" ID="ID_13341570" MODIFIED="1718522177657">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8740,7 +8950,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1717480115854" ID="ID_33222346" MODIFIED="1717480133408">
+<node CREATED="1717480115854" FOLDED="true" ID="ID_33222346" MODIFIED="1718522176380">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -8771,6 +8981,42 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1718522180817" ID="ID_1880900273" MODIFIED="1718522313523">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#ff3333"><b>&#36710;&#36733;&#20197;&#22826;&#32593;</b></font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1718523349172" ID="ID_1580345526" MODIFIED="1718523369065">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36710;&#36733;&#20197;&#22826;&#32593;&#26159;&#19968;&#31181;&#29992;&#20197;&#22826;&#32593;&#36830;&#25509;&#36710;&#20869;&#30005;&#23376;&#21333;&#20803;&#30340;&#26032;&#22411;&#23616;&#22495;&#32593;&#25216;&#26415;&#12290;&#19982;&#26222;&#36890;&#30340;&#20197;&#22826;&#32593;&#20351;&#29992;4&#23545;&#38750;&#23631;&#34109;&#21452;&#32478;&#32447;&#65288;UTP&#65289;&#30005;&#32518;&#19981;&#21516;&#65292;&#36710;&#36733;&#20197;&#22826;&#32593;&#22312;&#21333;&#23545;&#38750;&#23631;&#34109;&#21452;&#32478;&#32447;&#19978;&#21487;&#23454;&#29616;100Mbit/s&#29978;&#33267;1Gbit/s&#30340;&#25968;&#25454;&#20256;&#36755;&#36895;&#29575;&#65292;&#21516;&#26102;&#36824;&#24212;&#28385;&#36275;&#27773;&#36710;&#34892;&#19994;&#23545;&#39640;&#21487;&#38752;&#24615;&#12289;&#20302;&#30005;&#30913;&#36752;&#23556;&#12289;&#20302;&#21151;&#32791;&#12289;&#24102;&#23485;&#20998;&#37197;&#12289;&#20302;&#24310;&#36831;&#20197;&#21450;&#21516;&#27493;&#23454;&#26102;&#24615;&#31561;&#26041;&#38754;&#30340;&#35201;&#27714;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#12288;&#12288; &#36710;&#36733;&#20197;&#22826;&#32593;&#30340;&#29289;&#29702;&#23618;&#37319;&#29992;&#20102;&#21338;&#36890;&#20844;&#21496;&#30340;BroadR-Reach&#25216;&#26415;&#65292;BroadR-Reach&#30340;&#29289;&#29702;&#23618;&#65288;PHY&#65289;&#25216;&#26415;&#24050;&#32463;&#30001;&#21333;&#32447;&#23545;&#20197;&#22826;&#32593;&#32852;&#30431;&#65288;One-pair Ethernet Alliance&#65292;OPEN&#65289;&#26631;&#20934;&#21270;&#65292;&#22240;&#27492;&#26377;&#26102;&#20063;&#31216;&#36710;&#36733;&#20197;&#22826;&#32593;&#20026;BroadR-Reach&#65288;BRR&#65289;&#25110;OABR&#65288;Open Alliance BroadR-Reach&#65289;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#12288;&#12288;&#36710;&#36733;&#20197;&#22826;&#32593;&#30340;MAC&#23618;&#37319;&#29992;IEEE 802.3&#30340;&#25509;&#21475;&#26631;&#20934;&#65292;&#26080;&#38656;&#20570;&#20219;&#20309;&#36866;&#37197;&#21363;&#21487;&#26080;&#32541;&#25903;&#25345;&#24191;&#27867;&#20351;&#29992;&#30340;&#39640;&#23618;&#32593;&#32476;&#21327;&#35758;&#65288;&#22914;TCP/IP&#65289;&#12290;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
