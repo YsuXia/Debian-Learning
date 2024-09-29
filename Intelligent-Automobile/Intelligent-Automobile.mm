@@ -1872,7 +1872,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685580874880" ID="ID_481394895" MODIFIED="1723274718967">
+<node CREATED="1685580874880" FOLDED="true" ID="ID_481394895" MODIFIED="1727605514891">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2057,7 +2057,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685587199991" ID="ID_35947311" MODIFIED="1685587216423">
+<node CREATED="1685587199991" FOLDED="true" ID="ID_35947311" MODIFIED="1727605507677">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2837,7 +2837,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685671487241" ID="ID_1970265760" MODIFIED="1685671508001">
+<node CREATED="1685671487241" FOLDED="true" ID="ID_1970265760" MODIFIED="1727605513821">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2848,7 +2848,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1685671666058" ID="ID_1215476872" MODIFIED="1685671677723">
+<node CREATED="1685671666058" FOLDED="true" ID="ID_1215476872" MODIFIED="1727605511726">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2920,8 +2920,7 @@
       <font face="Ubuntu" size="4" color="#0000ff">uint8*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sdu</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1685673024495" ID="ID_1608075242" MODIFIED="1723863389572">
@@ -3053,7 +3052,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1723858522897" ID="ID_712170896" MODIFIED="1723858550519">
+<node CREATED="1723858522897" FOLDED="true" ID="ID_712170896" MODIFIED="1727605513107">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -3063,8 +3062,7 @@
       <font size="4" color="#0000ff"><b>Function API</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1723858622037" ID="ID_304492926" MODIFIED="1723858914073">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3075,8 +3073,7 @@
       <font color="#ff0033" size="4"><b>Std_ReturnType Can_Write( Can_HwHandleType Hth, const Can_PduType* PduInfo)</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3174,8 +3171,7 @@
       <font size="4" color="#ff0033"><b>&#27604;&#36739;&#38590;&#20197;&#29702;&#35299;&#30340;SWS&#38656;&#27714;</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1723861852064" ID="ID_614669976" MODIFIED="1723862134831">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3198,8 +3194,7 @@
       <font color="#cc00cc" face="SansSerif" size="4">of the message buffer to acquire the PDU&#8217;s data.&#8971; ()</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5444,7 +5439,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1723255124938" ID="ID_784254827" MODIFIED="1723255277957">
+<node CREATED="1723255124938" FOLDED="true" ID="ID_784254827" MODIFIED="1727605517187">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5550,7 +5545,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1721035980719" ID="ID_1449931828" MODIFIED="1721036003625">
+<node CREATED="1721035980719" FOLDED="true" ID="ID_1449931828" MODIFIED="1727605796022">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5573,6 +5568,33 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1727605531376" ID="ID_1114722482" MODIFIED="1727605558971">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" color="#0000ff"><b>Open Source Implement</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1727605561539" ID="ID_1054329451" MODIFIED="1727605583079">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4">https://github.com/autoas/ssas-public</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1727605798647" ID="ID_932712306" MODIFIED="1727605801619" TEXT="https://www.cnblogs.com/autosar/archive/2010/03/16/1687567.html"/>
 </node>
 </node>
 <node CREATED="1664114188084" ID="ID_1148279677" MODIFIED="1717480110431" POSITION="left">
