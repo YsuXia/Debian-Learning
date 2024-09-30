@@ -138,7 +138,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1664712850981" FOLDED="true" ID="ID_1226333857" MODIFIED="1705369863823">
+<node CREATED="1664712850981" ID="ID_1226333857" MODIFIED="1727661511875">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -696,7 +696,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1684839931535" FOLDED="true" ID="ID_257914126" MODIFIED="1721035800579">
+<node CREATED="1684839931535" ID="ID_257914126" MODIFIED="1727661418665">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -966,6 +966,17 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1727686353795" ID="ID_1699799085" MODIFIED="1727686677704">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Pic/MCAL_VFB_Sender_Receiver_Interface.png" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1685012291370" ID="ID_1170933879" MODIFIED="1685012326601">
 <richcontent TYPE="NODE"><html>
@@ -5545,7 +5556,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1721035980719" FOLDED="true" ID="ID_1449931828" MODIFIED="1727605796022">
+<node CREATED="1721035980719" ID="ID_1449931828" MODIFIED="1727659620746">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -5579,8 +5590,7 @@
       <font size="4" color="#0000ff"><b>Open Source Implement</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1727605561539" ID="ID_1054329451" MODIFIED="1727605583079">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5591,10 +5601,18 @@
       <font size="4">https://github.com/autoas/ssas-public</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1727605798647" ID="ID_932712306" MODIFIED="1727605801619" TEXT="https://www.cnblogs.com/autosar/archive/2010/03/16/1687567.html"/>
+<node CREATED="1727659630081" ID="ID_1527492200" MODIFIED="1727659633368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1664114188084" ID="ID_1148279677" MODIFIED="1717480110431" POSITION="left">
