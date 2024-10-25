@@ -13115,7 +13115,7 @@
 </node>
 <node CREATED="1667826912543" ID="ID_648261408" MODIFIED="1667826922705" POSITION="left" TEXT="ARM Cortex-R">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1703595529718" FOLDED="true" ID="ID_319273338" MODIFIED="1710846114068">
+<node CREATED="1703595529718" ID="ID_319273338" MODIFIED="1729834164807">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13194,6 +13194,40 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1729837253327" ID="ID_429274537" MODIFIED="1729837287966">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Because some applications do not cache well, there are two TCM interfaces that permit
+    </p>
+    <p>
+      connection to configurable memory blocks of Tightly-Coupled Memory (ATCM and BTCM).
+    </p>
+    <p>
+      These ensure high-speed access to code or data. As an option, the BTCM can have two memory
+    </p>
+    <p>
+      ports for increased bandwidth.
+    </p>
+    <p>
+      <font size="4" color="#ff0033">An ATCM typically holds interrupt or exception code that must be accessed at high speed, </font>
+    </p>
+    <p>
+      <font size="4" color="#ff0033">without any potential delay resulting from a cache miss. </font>
+    </p>
+    <p>
+      <font size="4" color="#ff0033">A BTCM typically holds a block of data for intensive processing, such as audio or video </font>
+    </p>
+    <p>
+      <font size="4" color="#ff0033">processing.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1703597639973" ID="ID_561673088" MODIFIED="1703597648028">
 <richcontent TYPE="NODE"><html>
@@ -13221,7 +13255,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1703609566701" FOLDED="true" ID="ID_1156753600" MODIFIED="1710846109099">
+<node CREATED="1703609566701" ID="ID_1156753600" MODIFIED="1729834152272">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13425,7 +13459,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1706615505453" FOLDED="true" ID="ID_431267362" MODIFIED="1710846104046">
+<node CREATED="1706615505453" ID="ID_431267362" MODIFIED="1729834147497">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13603,8 +13637,7 @@
       <font size="4" color="#0000ff"><b>&#160;Debug Interface</b></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1710846189103" ID="ID_19679451" MODIFIED="1710846225029">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13615,8 +13648,7 @@
       <font size="4">About The debug unit</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1710846231939" ID="ID_1193492354" MODIFIED="1710847754859">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13639,8 +13671,7 @@
       <font size="4">Trace debugging</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1710847724132" ID="ID_439721127" MODIFIED="1710847739696">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -13690,8 +13721,7 @@
       <font size="4">software debugger.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1710848445553" ID="ID_869426813" MODIFIED="1710848457853">
 <richcontent TYPE="NODE"><html>
@@ -13727,8 +13757,7 @@
       all other state information associated with the debug unit.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
